@@ -1,0 +1,522 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000f00000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"VOICEID": 41875,
+		"NameJPN": "漁師Ａ",
+		"JPN": "「ありがとよ……子供の頃の夢、叶ったぜ」",
+		"NameENG": "Fisherman A",
+		"ENG": "\"Thank you... You've realized my childhood dream.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "今日も食堂では、夢が叶えられていく。",
+		"ENG": "Today once more, a dream has been granted at the diner.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 2,
+		"VOICEID": 41876,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「へっ、やっぱり笑顔で食べてくれる姿を見るのはいいもんだな」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Heh, nothing beats seein' somebody eat your food with a smile.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「なんか、いいですよね」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is kinda nice, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 4,
+		"VOICEID": 41877,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「で、どうだ？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"So, what'll it be?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「どうだって……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What'll what be...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 6,
+		"VOICEID": 41878,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あんちゃんも叶えてみたい夢、そろそろ決まったか？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Isn't it about time you got a wish granted by me, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 7,
+		"NameJPN": "羽依里",
+		"JPN": "「俺の夢……ですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"My wish...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x210",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 8,
+		"VOICEID": 41879,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「何だって叶えてやるぜ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Whatever it is, I'll make it come true.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「おっちゃん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Man...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x276",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 10,
+		"VOICEID": 41880,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「この島でいい思い出を作ってくれ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"I want you to make some good memories on this island.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、お言葉にあまえてもいいですかね」",
+		"NameENG": "Hairi",
+		"ENG": "\"Okay, then, I guess I'll take you up on that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 12,
+		"VOICEID": 41881,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「おう、なんでも言ってくれ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Great. Go ahead, ask away.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2b00"
+	},
+	{
+		"LABEL": "0x342",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x358",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x35e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x364",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x36a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x378",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x37e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x382",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 13,
+		"JPN": "俺は意を決して、夢を語ってみた。",
+		"ENG": "I mustered up my resolve and told him about my dream.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 14,
+		"JPN": "いつか叶えて欲しかった、食べたかった物を……",
+		"ENG": "About what I'd always wished I'd get to eat, someday...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ee",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3100"
+	},
+	{
+		"LABEL": "0x3f4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000f00000000000000"
+	},
+	{
+		"LABEL": "0x402",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x40a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x410",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x414",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 15,
+		"VOICEID": 41882,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「それは……」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"That's...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x444",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 16,
+		"VOICEID": 41883,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「なるほどな」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Hmm, I see.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x474",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 17,
+		"VOICEID": 41884,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「ただ、それには時間が必要だ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"It'll take some time, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「できるんですか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You can do it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 19,
+		"VOICEID": 41885,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あんちゃん」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Kid.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x512",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 20,
+		"VOICEID": 41886,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「できるかじゃない。やるんだ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"It's not about 'can.' It's about 'will.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x552",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「おっちゃん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 22,
+		"VOICEID": 41887,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「明日のこの時間に来な」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Come back tomorrow at around this time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 23,
+		"VOICEID": 41888,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「用意してやるぜ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"It'll be waiting for you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「はい！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Right!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x610",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 25,
+		"JPN": "明日――……",
+		"ENG": "Tomorrow...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 26,
+		"JPN": "俺の夢が叶う。",
+		"ENG": "My dream will be realized.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x64a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4c000000b800000000000000"
+	},
+	{
+		"LABEL": "0x65a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x662",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x66a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x676",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x682",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x688",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x68e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x692",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x698",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x69c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6a0",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4d00"
+	},
+	{
+		"LABEL": "0x6a6",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "4e000080"
+	}
+]
