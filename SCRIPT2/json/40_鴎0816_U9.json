@@ -1,0 +1,541 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0d00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"JPN": "朝ご飯をすませて出発の準備の確認をする。",
+		"ENG": "After finishing breakfast, we started preparing to head out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1300010070ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x70",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 1,
+		"VOICEID": 27725,
+		"NameJPN": "うみ",
+		"JPN": "「すごい荷物だね」",
+		"NameENG": "Umi",
+		"ENG": "\"That's a lot of stuff.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1700010052ac"
+	},
+	{
+		"LABEL": "0xaa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 2,
+		"VOICEID": 27726,
+		"NameJPN": "うみ",
+		"JPN": "「今日はどこに行くの？」",
+		"NameENG": "Umi",
+		"ENG": "\"Where're you off to?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「山まで」",
+		"NameENG": "Hairi",
+		"ENG": "\"To the mountains.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x104",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1d00010070ac"
+	},
+	{
+		"LABEL": "0x10e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x114",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 4,
+		"VOICEID": 27727,
+		"NameJPN": "うみ",
+		"JPN": "「それで、どうしてそんなに大荷物なの？」",
+		"NameENG": "Umi",
+		"ENG": "\"What do you need all this for?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x154",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "210001000218009001b400"
+	},
+	{
+		"LABEL": "0x164",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "01012cb700007003b4007900"
+	},
+	{
+		"LABEL": "0x174",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 5,
+		"VOICEID": 10532,
+		"NameJPN": "鴎",
+		"JPN": "「もしかしたら、キャンプしてくるかもしれないから」",
+		"NameENG": "Kamome",
+		"ENG": "\"Because we might camp out for a night.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "250001012fb7"
+	},
+	{
+		"LABEL": "0x1cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 6,
+		"VOICEID": 10533,
+		"NameJPN": "鴎",
+		"JPN": "「テントが入ってるんだよ」",
+		"NameENG": "Kamome",
+		"ENG": "\"We've got tents and stuff.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x202",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "290001007cac"
+	},
+	{
+		"LABEL": "0x20c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x212",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 7,
+		"VOICEID": 27728,
+		"NameJPN": "うみ",
+		"JPN": "「なぬ!?」",
+		"NameENG": "Umi",
+		"ENG": "\"What!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x236",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d000100b6ae"
+	},
+	{
+		"LABEL": "0x240",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x246",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 8,
+		"VOICEID": 27729,
+		"NameJPN": "うみ",
+		"JPN": "「２人でキャンプと？」",
+		"NameENG": "Umi",
+		"ENG": "\"You're going camping? Together?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x274",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 9,
+		"JPN": "うみちゃんが、俺達の荷物を見ながら、考え込んでいる。",
+		"ENG": "Umi-chan stared at our things, deep in thought.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「うみちゃんも行く？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Want to join?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3a000101c761"
+	},
+	{
+		"LABEL": "0x2f2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 11,
+		"VOICEID": 10536,
+		"NameJPN": "鴎",
+		"JPN": "「おいでよ」",
+		"NameENG": "Kamome",
+		"ENG": "\"Come with us!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3e00010052ac"
+	},
+	{
+		"LABEL": "0x324",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x32a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 12,
+		"VOICEID": 27730,
+		"NameJPN": "うみ",
+		"JPN": "「ううん。行かない」",
+		"NameENG": "Umi",
+		"ENG": "\"No thanks. I'm good.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x356",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "420001029f6d00008002b4008100"
+	},
+	{
+		"LABEL": "0x368",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x372",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x37c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x382",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 13,
+		"VOICEID": 10538,
+		"NameJPN": "鏡子",
+		"JPN": "「腕は大丈夫なの」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Is your arm all right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ce",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "48000102a56d"
+	},
+	{
+		"LABEL": "0x3d8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 15,
+		"VOICEID": 10539,
+		"NameJPN": "鏡子",
+		"JPN": "「もう危ないことはしないようにね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Be safe this time, okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x418",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「大丈夫ですよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Don't worry, I'll be fine.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x442",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4e000102936d"
+	},
+	{
+		"LABEL": "0x44c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x452",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 17,
+		"VOICEID": 10540,
+		"NameJPN": "鏡子",
+		"JPN": "「あと、採石場跡は立ち入り禁止だからね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Also, the quarry's off limits, mister.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x492",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「え゛」",
+		"NameENG": "Hairi",
+		"ENG": "\"Er!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「し、知ってますよ。聞きました」",
+		"NameENG": "Hairi",
+		"ENG": "\"I-I know. You told me that already.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "56000102516d"
+	},
+	{
+		"LABEL": "0x4f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 20,
+		"VOICEID": 10541,
+		"NameJPN": "鏡子",
+		"JPN": "「美希ちゃんに伝えておいたから」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I filled Miki-chan in, so don't even try.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x536",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「みたい、ですね」",
+		"NameENG": "Hairi",
+		"ENG": "\"I noticed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x562",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5c000102a56d"
+	},
+	{
+		"LABEL": "0x56c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x572",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 22,
+		"VOICEID": 10542,
+		"NameJPN": "鏡子",
+		"JPN": "「羽依里君が興味を持っているみたいだから」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I told her you were starting to ask weird questions.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "60000102ab6d"
+	},
+	{
+		"LABEL": "0x5be",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 23,
+		"VOICEID": 10543,
+		"NameJPN": "鏡子",
+		"JPN": "「もし立ち入り禁止場所に入ろうとしたら、遠慮しないでって」",
+		"NameENG": "Kyouko",
+		"ENG": "\"So if she ever sees you try to go there, it's not going to be pretty.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x616",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6800"
+	},
+	{
+		"LABEL": "0x61c",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "6a000080"
+	}
+]

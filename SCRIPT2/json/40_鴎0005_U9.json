@@ -1,0 +1,434 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0c00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xe",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004400000000000000"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x54",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「……えっと」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ummm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "鏡子さんにもらって、この辺にしまっておいたはず。",
+		"ENG": "I think I left it somewhere around here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「あったあった」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah, here it is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「これ、サイズどのくらいだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wonder what size this is?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 4,
+		"JPN": "鏡に映しながら、寸法をとってみる。",
+		"ENG": "I measured it against myself in the mirror.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x158",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 5,
+		"JPN": "俺にはもちろん小さいが……",
+		"ENG": "Obviously, it was a little too small for me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x182",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 6,
+		"JPN": "鴎には、まぁ、合いそうに見える。",
+		"ENG": "But it'd work for Kamome. Probably.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b2",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1f00000000003c00"
+	},
+	{
+		"LABEL": "0x1be",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2100060094ad09006b00dcfe"
+	},
+	{
+		"LABEL": "0x1ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 7,
+		"VOICEID": 27684,
+		"NameJPN": "うみ",
+		"JPN": "「何やってるの」",
+		"NameENG": "Umi",
+		"ENG": "\"What're you doing?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「え」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x216",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2700b2860100"
+	},
+	{
+		"LABEL": "0x220",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "29000100b6ae00008002b4009100"
+	},
+	{
+		"LABEL": "0x232",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x238",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 9,
+		"VOICEID": 27685,
+		"NameJPN": "うみ",
+		"JPN": "「なんでそんな服が、羽依里さんの部屋にあるのか不思議だったけど」",
+		"NameENG": "Umi",
+		"ENG": "\"I knew there was a reason you had those in your room.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x290",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d000100bcae"
+	},
+	{
+		"LABEL": "0x29a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 10,
+		"VOICEID": 27686,
+		"NameJPN": "うみ",
+		"JPN": "「なるほど、着るためか……」",
+		"NameENG": "Umi",
+		"ENG": "\"You wear 'em, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "310001008cae"
+	},
+	{
+		"LABEL": "0x2de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 11,
+		"VOICEID": 27687,
+		"NameJPN": "うみ",
+		"JPN": "「……変態………」",
+		"NameENG": "Umi",
+		"ENG": "\"...Pervert...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「違うっ。そもそもサイズ的に無理だろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, you've got this all wrong! How would this stuff even fit me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "37000100c2ae"
+	},
+	{
+		"LABEL": "0x358",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x35e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 13,
+		"VOICEID": 27688,
+		"NameJPN": "うみ",
+		"JPN": "「だから、鏡の前であわせて楽しむだけにしていると？」",
+		"NameENG": "Umi",
+		"ENG": "\"So they're for playing in front of the mirror?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「違う違う。友達にあげるんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, no! I'm giving them to a friend!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3d00010016ac"
+	},
+	{
+		"LABEL": "0x3ec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 15,
+		"VOICEID": 27689,
+		"NameJPN": "うみ",
+		"JPN": "「眼鏡の人と裸の人？」",
+		"NameENG": "Umi",
+		"ENG": "\"The glasses guy or the naked guy?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x420",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "410001001cac"
+	},
+	{
+		"LABEL": "0x42a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x430",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 16,
+		"VOICEID": 27690,
+		"NameJPN": "うみ",
+		"JPN": "「どっちが着るの?!」",
+		"NameENG": "Umi",
+		"ENG": "\"Which one of them is wearing it!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「どっちも着ない。ちゃんと女の子だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"Neither! I'm giving it to a girl, an actual girl!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "470001007cac"
+	},
+	{
+		"LABEL": "0x4aa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 18,
+		"VOICEID": 27691,
+		"NameJPN": "うみ",
+		"JPN": "「お、女友達ーー?!」",
+		"NameENG": "Umi",
+		"ENG": "\"Wha...!? You're friends with a girl!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「え……今、一番驚いたのはなんで？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Uh... Why is that the most shocking part of all this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x51c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5200"
+	},
+	{
+		"LABEL": "0x522",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "54000080"
+	}
+]

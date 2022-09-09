@@ -1,0 +1,3539 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0d000f3910030002"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0e00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003000000000000000"
+	},
+	{
+		"LABEL": "0x20",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1000ae860100"
+	},
+	{
+		"LABEL": "0x3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 0,
+		"JPN": "浜辺にやってきた。",
+		"ENG": "I made my way over to the beach.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 1,
+		"JPN": "海水浴にはうってつけの時期だが、泳いでいる人はほとんどいない。",
+		"ENG": "You couldn't ask for a better season to take a dip in the ocean, but pretty much nobody was swimming.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 2,
+		"JPN": "日差しの強いこの時間、地元の人間は用がない限りあまり外に出ないからだ。",
+		"ENG": "The locals around here don't really leave their houses during the hottest time of day, unless they have something they have to get done outside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x102",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 3,
+		"JPN": "といっても、例外はいるわけだけど。",
+		"ENG": "That said, there are always exceptions.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x134",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1a000005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x144",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x152",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x16e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1b00"
+	},
+	{
+		"LABEL": "0x174",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ec00000000000000"
+	},
+	{
+		"LABEL": "0x182",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x194",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x1a2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1aa",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100c15100008002b400d900"
+	},
+	{
+		"LABEL": "0x1ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1c0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 4,
+		"VOICEID": 6454,
+		"NameJPN": "蒼",
+		"JPN": "「……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「本当にどこででも寝るな、こいつ」",
+		"NameENG": "Hairi",
+		"ENG": "\"She really will sleep anywhere, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 6,
+		"JPN": "木陰の下、気持ちの良い風を浴びながら、安らかな寝息を立てている。",
+		"ENG": "I found Ao snoring gently in the shade of a tree, enjoying the pleasant caresses of the sea breeze.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 7,
+		"VOICEID": 6455,
+		"NameJPN": "イナリ",
+		"JPN": "「……クゥ……クゥ……」",
+		"NameENG": "Inari",
+		"ENG": "\"...Snore... Snore...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 8,
+		"JPN": "役に立ったのを見たことの無い番犬……もとい、番狐も一緒だ。",
+		"ENG": "Together, as always, with her unfailingly useless watchdog―or rather, watchfox.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 9,
+		"JPN": "それだけこの島は安全だと言えばいいんだろうか。",
+		"ENG": "I guess this just goes to show how safe this island is.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "29000005"
+	},
+	{
+		"LABEL": "0x340",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x34e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x354",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x362",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2a00"
+	},
+	{
+		"LABEL": "0x368",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x36e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003000000000000000"
+	},
+	{
+		"LABEL": "0x37c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x384",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x38a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2c000600e7510900650061ff"
+	},
+	{
+		"LABEL": "0x39e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 10,
+		"VOICEID": 6456,
+		"NameJPN": "蒼",
+		"JPN": "「……ん……んん……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Mmm... Mnhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 11,
+		"JPN": "寝返りを打った蒼が、小さく体を震わせた。",
+		"ENG": "Ao shivered slightly as she stirred in her sleep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x402",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 12,
+		"JPN": "ずっと木陰の下にいたので、少し体が冷えたのか近くにいたイナリを抱え込むように抱きしめた。",
+		"ENG": "Lying in the shade for so long must've had her feeling a bit chilly. She grabbed onto Inari and pulled her close like a hug pillow.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "330006001d520900650061ff"
+	},
+	{
+		"LABEL": "0x47a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 13,
+		"VOICEID": 6457,
+		"NameJPN": "蒼",
+		"JPN": "「ん……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Mmmm... Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 14,
+		"JPN": "温かいものを手に入れ、蒼は再び満足そうに寝息を立てる。",
+		"ENG": "Having obtained a source of warmth, Ao fell back into dreamland with a satisfied look on her face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 15,
+		"VOICEID": 6458,
+		"NameJPN": "イナリ",
+		"JPN": "「……ポ…キュ……ゥ……」",
+		"NameENG": "Inari",
+		"ENG": "\"...Po...kyu...uunn...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x524",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 16,
+		"JPN": "一方、強く抱きしめられたイナリは苦悶の表情だ。",
+		"ENG": "Inari, on the other hand, looked thoroughly anguished in Ao's vise-like grasp.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「ふむ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x588",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "41007117ee00000000",
+		"JPN": [
+			"服をかけてやる",
+			"そっと優しく抱きしめてやる"
+		],
+		"ENG": [
+			"Cover her up with something",
+			"Gently embrace her"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x5cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「まずはイナリを解放してと」",
+		"NameENG": "Hairi",
+		"ENG": "\"First off, I'll have to liberate Inari.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x602",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 19,
+		"JPN": "蒼の腕から強引にイナリを救出する。",
+		"ENG": "I yanked Inari out of Ao's arms.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x634",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4a0000003000000000000000"
+	},
+	{
+		"LABEL": "0x644",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x64c",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x65e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x66c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4b0001005a5800008002b4009d00"
+	},
+	{
+		"LABEL": "0x67e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000008002dc00"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x69a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 20,
+		"VOICEID": 6459,
+		"NameJPN": "イナリ",
+		"JPN": "「……キュ…ポン？」",
+		"NameENG": "Inari",
+		"ENG": "\"...Kyu... Pon?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「もうちょっとで絞め殺されるところだったぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You were a hair's breadth away from suffocating, you know?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x714",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "500001006358"
+	},
+	{
+		"LABEL": "0x71e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x724",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 22,
+		"VOICEID": 6460,
+		"NameJPN": "イナリ",
+		"JPN": "「ポン……？」",
+		"NameENG": "Inari",
+		"ENG": "\"Pon...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x74c",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "530001000000008002b400"
+	},
+	{
+		"LABEL": "0x75c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002dc00"
+	},
+	{
+		"LABEL": "0x76a",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x774",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x77a",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "54001e00"
+	},
+	{
+		"LABEL": "0x782",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "56000600bd510900650061ff"
+	},
+	{
+		"LABEL": "0x792",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 23,
+		"VOICEID": 6461,
+		"NameJPN": "蒼",
+		"JPN": "「ん～……んんー……」",
+		"NameENG": "Ao",
+		"ENG": "\"Mmm... Mnnhh...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 24,
+		"JPN": "蒼の手が、温かいものを求めて再び彷徨う。",
+		"ENG": "Once again, Ao started grasping around for something warm.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5d00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x1340"
+	},
+	{
+		"LABEL": "0x80c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「代わりにこいつを、と」",
+		"NameENG": "Hairi",
+		"ENG": "\"Here, have this instead.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x83e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 26,
+		"JPN": "俺は着ているシャツを脱ぎ、蒼の体の上にかけてやった。",
+		"ENG": "I stripped off my shirt and laid it over Ao.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x882",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6300"
+	},
+	{
+		"LABEL": "0x888",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ec00000000000000"
+	},
+	{
+		"LABEL": "0x896",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x8a8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x8b6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x8be",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x8c4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100c15100008002b400d900"
+	},
+	{
+		"LABEL": "0x8d4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8da",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 101,
+		"MSGID": 27,
+		"VOICEID": 6462,
+		"NameJPN": "蒼",
+		"JPN": "「ん……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Mmm... Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x90e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 103,
+		"MSGID": 28,
+		"JPN": "蒼はどこか満足そうな表情を浮かべ……",
+		"ENG": "Ao looked sort of satisfied for a moment...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x942",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6900010073b6"
+	},
+	{
+		"LABEL": "0x94c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x952",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 29,
+		"VOICEID": 6463,
+		"NameJPN": "蒼",
+		"JPN": "「す～……くんくん…す～…くんくん……」",
+		"NameENG": "Ao",
+		"ENG": "\"Zzz... Sniff, sniff... Zzzz... Sniff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x990",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 30,
+		"JPN": "俺のシャツの匂いを嗅ぎ始めた。",
+		"ENG": "But then she started sniffing my shirt.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 31,
+		"JPN": "なんか恥ずかしい。",
+		"ENG": "Yup, that's embarrassing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9e0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "700001007bb6"
+	},
+	{
+		"LABEL": "0x9ea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x9f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 113,
+		"MSGID": 32,
+		"VOICEID": 6464,
+		"NameJPN": "蒼",
+		"JPN": "「……にへ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Nyehehee...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa16",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7300"
+	},
+	{
+		"LABEL": "0xa1c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0xa22",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003000000000000000"
+	},
+	{
+		"LABEL": "0xa30",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa3e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「気に入って貰えてなにより」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm glad you like it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa78",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "77000f00000000780001"
+	},
+	{
+		"LABEL": "0xa86",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "7a00000000007800"
+	},
+	{
+		"LABEL": "0xa92",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7b00"
+	},
+	{
+		"LABEL": "0xa98",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xaa0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0xaae",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xab4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xaba",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xabe",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xac4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8000d11b0100"
+	},
+	{
+		"LABEL": "0xace",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "81000f3910030002f85b007800"
+	},
+	{
+		"LABEL": "0xae0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8200"
+	},
+	{
+		"LABEL": "0xae6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003100000000000000"
+	},
+	{
+		"LABEL": "0xaf4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0400"
+	},
+	{
+		"LABEL": "0xafc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xb02",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xb06",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "84000600bd510900650061ff"
+	},
+	{
+		"LABEL": "0xb16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 34,
+		"VOICEID": 6465,
+		"NameJPN": "蒼",
+		"JPN": "「……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、さすがに寝過ぎじゃね？」",
+		"NameENG": "Hairi",
+		"ENG": "\"It can't possibly be healthy to sleep this much, can it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xba0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 37,
+		"JPN": "蒼は俺のシャツを抱きしめたまま、眠り続けた。",
+		"ENG": "Ao was still clinging to my shirt, fast asleep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 38,
+		"JPN": "引っ張っても放してくれないし、起きもしない。",
+		"ENG": "I tried to pull it away from her, but she wouldn't let go and showed no sign of waking up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8f000600025809005e0053ff"
+	},
+	{
+		"LABEL": "0xc28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 39,
+		"VOICEID": 6466,
+		"NameJPN": "イナリ",
+		"JPN": "「ポン……」",
+		"NameENG": "Inari",
+		"ENG": "\"Pon...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 146,
+		"MSGID": 40,
+		"JPN": "同情するように、イナリが一声鳴いてくれた。",
+		"ENG": "Inari let out a little bark, as if she were sympathizing with me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc88",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "94000600bd510900650061ff"
+	},
+	{
+		"LABEL": "0xc98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 149,
+		"MSGID": 41,
+		"VOICEID": 6467,
+		"NameJPN": "蒼",
+		"JPN": "「……ん……んうう……ふあっ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Mmh... Mnghh... Yaaawwwnnn...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcd0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "97000100e95100008002b4007500"
+	},
+	{
+		"LABEL": "0xce2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000008002dc00"
+	},
+	{
+		"LABEL": "0xcf0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0xcfe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 42,
+		"VOICEID": 6468,
+		"NameJPN": "蒼",
+		"JPN": "「へぷちっ！」",
+		"NameENG": "Ao",
+		"ENG": "\"Aahhh-chooo!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 43,
+		"JPN": "くしゃみをした蒼が、ようやく目を覚ました。",
+		"ENG": "Ao finally woke up with a sneeze.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd62",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9c0001001952"
+	},
+	{
+		"LABEL": "0xd6c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 44,
+		"VOICEID": 6469,
+		"NameJPN": "蒼",
+		"JPN": "「……う～……なんか寝冷えしたぁ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Uumngh... I feel kinda chilly...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「……おはよう」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Morning.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdd8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a10001000152"
+	},
+	{
+		"LABEL": "0xde2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xde8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 162,
+		"MSGID": 46,
+		"VOICEID": 6470,
+		"NameJPN": "蒼",
+		"JPN": "「あ……うん、おは…よおおおおおぉぉぉぉぉっ!?」",
+		"NameENG": "Ao",
+		"ENG": "\"Ahh... Yeah, morn...iiinngggggggghhhh!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe30",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "a4000f00000000780001"
+	},
+	{
+		"LABEL": "0xe3e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "a500a8860100"
+	},
+	{
+		"LABEL": "0xe48",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a70001009b51"
+	},
+	{
+		"LABEL": "0xe52",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0xe5a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 47,
+		"VOICEID": 6471,
+		"NameJPN": "蒼",
+		"JPN": "「なんであんたがいんのっ!?」",
+		"NameENG": "Ao",
+		"ENG": "\"Why are you here!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 170,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「たまたま通りがかっただけだから」",
+		"NameENG": "Hairi",
+		"ENG": "\"I just happened to be passing by.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xed0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ac000100b351"
+	},
+	{
+		"LABEL": "0xeda",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xee0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 49,
+		"VOICEID": 6472,
+		"NameJPN": "蒼",
+		"JPN": "「たまたまって……」",
+		"NameENG": "Ao",
+		"ENG": "\"Just happened to be...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf0a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "af000100db51"
+	},
+	{
+		"LABEL": "0xf14",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0xf1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 176,
+		"MSGID": 50,
+		"VOICEID": 6473,
+		"NameJPN": "蒼",
+		"JPN": "「はっ!?　あたしが寝ている間に、変なこと――」",
+		"NameENG": "Ao",
+		"ENG": "\"Huh!? Did you do anything weird to me while$dI was―\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 51,
+		"NameJPN": "羽依里",
+		"JPN": "「してない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nope.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf8e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b40001003d52"
+	},
+	{
+		"LABEL": "0xf98",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0xfa0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xfa6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 181,
+		"MSGID": 52,
+		"VOICEID": 6474,
+		"NameJPN": "蒼",
+		"JPN": "「なんで?!」",
+		"NameENG": "Ao",
+		"ENG": "\"Why!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 183,
+		"MSGID": 53,
+		"NameJPN": "羽依里",
+		"JPN": "「いや……、した方が良かったのか…？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Uhh... Are you saying it would have been better if I did?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x100a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b9000100a352"
+	},
+	{
+		"LABEL": "0x1014",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x101a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 54,
+		"VOICEID": 6475,
+		"NameJPN": "蒼",
+		"JPN": "「そ、そんなわけないでしょ！」",
+		"NameENG": "Ao",
+		"ENG": "\"O-Obviously not!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x104e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bc0001000953"
+	},
+	{
+		"LABEL": "0x1058",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x105e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 189,
+		"MSGID": 55,
+		"VOICEID": 6476,
+		"NameJPN": "蒼",
+		"JPN": "「ただ、何もしないって……」",
+		"NameENG": "Ao",
+		"ENG": "\"It's just, not doing anything at all is, well...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1090",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bf0001003953"
+	},
+	{
+		"LABEL": "0x109a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 56,
+		"VOICEID": 6477,
+		"NameJPN": "蒼",
+		"JPN": "「それはそれであたしに失礼じゃない……？」",
+		"NameENG": "Ao",
+		"ENG": "\"Isn't that sort of rude in its own way...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 57,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、今度は何かするよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"All right, I'll make sure to do something next time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1116",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c4000100dd51"
+	},
+	{
+		"LABEL": "0x1120",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x1128",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x112e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 58,
+		"VOICEID": 6478,
+		"NameJPN": "蒼",
+		"JPN": "「ケダモノ！」",
+		"NameENG": "Ao",
+		"ENG": "\"You beast!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1152",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 199,
+		"MSGID": 59,
+		"NameJPN": "羽依里",
+		"JPN": "「おまえ……結構面倒くさいな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Y'know, you can be a real pain sometimes...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x118e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c90001007751"
+	},
+	{
+		"LABEL": "0x1198",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x119e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 60,
+		"VOICEID": 6479,
+		"NameJPN": "蒼",
+		"JPN": "「あれ？　何これ？」",
+		"NameENG": "Ao",
+		"ENG": "\"Huh? What's this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11c8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cc000100b351"
+	},
+	{
+		"LABEL": "0x11d2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x11d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 61,
+		"VOICEID": 6480,
+		"NameJPN": "蒼",
+		"JPN": "「布団……じゃなくて、服？」",
+		"NameENG": "Ao",
+		"ENG": "\"A blanket...? No, a shirt?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x120a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「起きたんなら返してもらうぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Seeing as you're finally awake, please give it back.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1242",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d1000100d751"
+	},
+	{
+		"LABEL": "0x124c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1252",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 63,
+		"VOICEID": 6481,
+		"NameJPN": "蒼",
+		"JPN": "「え、あ……うん……」",
+		"NameENG": "Ao",
+		"ENG": "\"Huh? Ah, right...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x127e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d40001000752"
+	},
+	{
+		"LABEL": "0x1288",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x128e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 213,
+		"MSGID": 64,
+		"VOICEID": 6482,
+		"NameJPN": "蒼",
+		"JPN": "「あんたがかけてくれたの？」",
+		"NameENG": "Ao",
+		"ENG": "\"Did you cover me up with it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「寒そうだったから」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, since you looked sorta cold.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d90001003953"
+	},
+	{
+		"LABEL": "0x12f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 218,
+		"MSGID": 66,
+		"VOICEID": 6483,
+		"NameJPN": "蒼",
+		"JPN": "「……そ、そうなんだ」",
+		"NameENG": "Ao",
+		"ENG": "\"...I-I see.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x132a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "de00000000007800"
+	},
+	{
+		"LABEL": "0x1336",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e100",
+		"GOTO_LABEL": "0x2446"
+	},
+	{
+		"LABEL": "0x1340",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 67,
+		"NameJPN": "羽依里",
+		"JPN": "「代わりに俺が……」",
+		"NameENG": "Hairi",
+		"ENG": "\"And in her place...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x136e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e80000e00d0300"
+	},
+	{
+		"LABEL": "0x137a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "e900"
+	},
+	{
+		"LABEL": "0x1380",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ec00000000000000"
+	},
+	{
+		"LABEL": "0x138e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x13a0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x13ae",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x13b6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x13bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100c15100008002b400d900"
+	},
+	{
+		"LABEL": "0x13cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x13d2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x13d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 68,
+		"JPN": "俺は蒼の隣に横になり、彼女の体をそっと優しく抱きしめた。",
+		"ENG": "I lay down next to Ao and gently embraced her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x141e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 69,
+		"VOICEID": 6484,
+		"NameJPN": "蒼",
+		"JPN": "「ん……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Mmm... Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x144e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 239,
+		"MSGID": 70,
+		"JPN": "俺のぬくもりに再び安らかな寝息を立て始める。",
+		"ENG": "Apparently my warmth lulled her into a deep sleep once more.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x148a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 241,
+		"MSGID": 71,
+		"NameJPN": "羽依里",
+		"JPN": "（うわーーーうわわーーーーー！　柔らかいーーーーー！）",
+		"NameENG": "Hairi",
+		"ENG": "(W-Woaaaaahhhh! She's so soooooft!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 243,
+		"MSGID": 72,
+		"NameJPN": "羽依里",
+		"JPN": "（なんかいい匂いがするーーーーー！）",
+		"NameENG": "Hairi",
+		"ENG": "(And she smells kinda good, toooo!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1518",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "（ていうか、蒼の冷えた体が気持ち良いーーーー！）",
+		"NameENG": "Hairi",
+		"ENG": "(Actually, she's kinda chilly, but that feels good toooooo!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 247,
+		"MSGID": 74,
+		"JPN": "自分でやっておきながら、テンションが爆上がり。",
+		"ENG": "I was the one who initiated this, but I found myself getting weirdly pumped up about it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 249,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "（冗談でやってみたけど、これはヤバい……！）",
+		"NameENG": "Hairi",
+		"ENG": "(This was supposed to be a joke, but this is kinda crazy...!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 251,
+		"MSGID": 76,
+		"NameJPN": "羽依里",
+		"JPN": "（具体的になにがとは言わないけど、ヤバい……!!）",
+		"NameENG": "Hairi",
+		"ENG": "(I can't exactly explain how or why, but seriously, this is crazy...!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1632",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fd0001008b51"
+	},
+	{
+		"LABEL": "0x163c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1642",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 254,
+		"MSGID": 77,
+		"VOICEID": 6485,
+		"NameJPN": "蒼",
+		"JPN": "「……ん……んう……？」",
+		"NameENG": "Ao",
+		"ENG": "\"...Mmh... Mmmmggphh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1670",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 78,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1694",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "020101009151"
+	},
+	{
+		"LABEL": "0x169e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0x16a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 260,
+		"MSGID": 79,
+		"JPN": "さすがに違和感を覚えたのか、蒼がうっすらと目を開けた。",
+		"ENG": "Unsurprisingly, it seemed Ao sensed that something was wrong. Her eyes fluttered open.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16ea",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "060101007ab6"
+	},
+	{
+		"LABEL": "0x16f4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 80,
+		"VOICEID": 6486,
+		"NameJPN": "蒼",
+		"JPN": "「……」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1718",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 265,
+		"MSGID": 81,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x173a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 267,
+		"MSGID": 82,
+		"JPN": "寝ぼけ眼でじっと俺を見つめる。",
+		"ENG": "She stared at me, half asleep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1768",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 269,
+		"MSGID": 83,
+		"JPN": "さて、叫ばれる覚悟は十分だ……",
+		"ENG": "All right, I know the scream's coming, so this time I'll be ready for it...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1796",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 271,
+		"MSGID": 84,
+		"JPN": "耐えろよ、俺の鼓膜！",
+		"ENG": "Prepare thineselves, my eardrums!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17ba",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "110101007bb6"
+	},
+	{
+		"LABEL": "0x17c4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 85,
+		"VOICEID": 6487,
+		"NameJPN": "蒼",
+		"JPN": "「……にへ」",
+		"NameENG": "Ao",
+		"ENG": "\"...Nyehehe.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 86,
+		"NameJPN": "羽依里",
+		"JPN": "「にへ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nyehehe?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1810",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "160100e00d0300"
+	},
+	{
+		"LABEL": "0x181c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1701010073b6"
+	},
+	{
+		"LABEL": "0x1826",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x182c",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "1801ff0001060000520601010052"
+	},
+	{
+		"LABEL": "0x183e",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520601010000"
+	},
+	{
+		"LABEL": "0x184e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 87,
+		"JPN": "蒼は、にへっと笑みを浮かべたかと思うと、自分から俺を抱きしめてきた。",
+		"ENG": "With a goofy grin, Ao hugged me back.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 284,
+		"MSGID": 88,
+		"JPN": "そしてそのまま再び目を閉じる。",
+		"ENG": "Then she closed her eyes once again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18d0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1e0101007bb6"
+	},
+	{
+		"LABEL": "0x18da",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 287,
+		"MSGID": 89,
+		"VOICEID": 6488,
+		"NameJPN": "蒼",
+		"JPN": "「んへへ～……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Myuuhehe... Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1916",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 90,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"............\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x193c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 291,
+		"MSGID": 91,
+		"JPN": "予想外の彼女の行動に、俺がフリーズした。",
+		"ENG": "I froze up. Whatever just happened, it was completely beyond my expectations.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1974",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 293,
+		"MSGID": 92,
+		"NameJPN": "羽依里",
+		"JPN": "（え？　なにこれ？　どういう状況？）",
+		"NameENG": "Hairi",
+		"ENG": "(Huh? What? Wait, what's the situation here?)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 295,
+		"MSGID": 93,
+		"NameJPN": "羽依里",
+		"JPN": "（顔近いって。なんか色々柔らかいって）",
+		"NameENG": "Hairi",
+		"ENG": "(Her face is really close! And she's kinda soft in a number of places!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 297,
+		"MSGID": 94,
+		"NameJPN": "羽依里",
+		"JPN": "（イナリ、助けて……！）",
+		"NameENG": "Hairi",
+		"ENG": "(Inari, help...!)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a24",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2b01"
+	},
+	{
+		"LABEL": "0x1a2a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1a30",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003000000000000000"
+	},
+	{
+		"LABEL": "0x1a3e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1a46",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1a4c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1a50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 301,
+		"MSGID": 95,
+		"VOICEID": 6489,
+		"NameJPN": "イナリ",
+		"JPN": "「……クゥ……クゥ……」",
+		"NameENG": "Inari",
+		"ENG": "\"...Snore... Snore...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 303,
+		"MSGID": 96,
+		"NameJPN": "羽依里",
+		"JPN": "（所詮畜生か……っ！）",
+		"NameENG": "Hairi",
+		"ENG": "(Is she really just a wild animal, in the end...!?)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ab2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "31010f00000000780001"
+	},
+	{
+		"LABEL": "0x1ac0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3201000000007800"
+	},
+	{
+		"LABEL": "0x1acc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3501"
+	},
+	{
+		"LABEL": "0x1ad2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1ada",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1ae8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1aee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1af4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1af8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1afe",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "37010f3910030002f85b007800"
+	},
+	{
+		"LABEL": "0x1b10",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3801d11b0100"
+	},
+	{
+		"LABEL": "0x1b1a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3901"
+	},
+	{
+		"LABEL": "0x1b20",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003100000000000000"
+	},
+	{
+		"LABEL": "0x1b2e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0400"
+	},
+	{
+		"LABEL": "0x1b36",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1b3c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1b40",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3b010600bd510900650061ff"
+	},
+	{
+		"LABEL": "0x1b50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 97,
+		"VOICEID": 6490,
+		"NameJPN": "蒼",
+		"JPN": "「……すぅ……すぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 98,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ba0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 320,
+		"MSGID": 99,
+		"JPN": "そのまま、どれほどの時間が経っただろうか。",
+		"ENG": "Hours passed by, though I couldn't quite tell how many.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bda",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "420101008b5100008002b400d900"
+	},
+	{
+		"LABEL": "0x1bec",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000008002dc00"
+	},
+	{
+		"LABEL": "0x1bfa",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x1c08",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1c0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 323,
+		"MSGID": 100,
+		"VOICEID": 6491,
+		"NameJPN": "蒼",
+		"JPN": "「……ん……んうう……ふわぁ……あふぅ……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Mmmnnn... Mnnh... Yaaawwwwwwnnnn......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c50",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "450101009151"
+	},
+	{
+		"LABEL": "0x1c5a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1c60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 326,
+		"MSGID": 101,
+		"VOICEID": 6492,
+		"NameJPN": "蒼",
+		"JPN": "「……うん？」",
+		"NameENG": "Ao",
+		"ENG": "\"...Hmmm?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 328,
+		"MSGID": 102,
+		"NameJPN": "羽依里",
+		"JPN": "「……おはよう」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Morning.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cae",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4a0101007951"
+	},
+	{
+		"LABEL": "0x1cb8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 331,
+		"MSGID": 103,
+		"VOICEID": 6493,
+		"NameJPN": "蒼",
+		"JPN": "「………」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cde",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4d010f00000000780001"
+	},
+	{
+		"LABEL": "0x1cec",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4e01a8860100"
+	},
+	{
+		"LABEL": "0x1cf6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "50010302132a03"
+	},
+	{
+		"LABEL": "0x1d02",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03020000663c663c000080026801"
+	},
+	{
+		"LABEL": "0x1d14",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "520101000352"
+	},
+	{
+		"LABEL": "0x1d1e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d24",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "5301ff00c800"
+	},
+	{
+		"LABEL": "0x1d2e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 104,
+		"VOICEID": 6494,
+		"NameJPN": "蒼",
+		"JPN": "$S048「うわわわわわぁぁぁぁぁーーーーー!?」$S",
+		"NameENG": "Ao",
+		"ENG": "$S048\"Uuuuwaaaawawawawaaaaaghhhhh!?\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d7a",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "58010302"
+	},
+	{
+		"LABEL": "0x1d82",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x1d88",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0003"
+	},
+	{
+		"LABEL": "0x1d8e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0004"
+	},
+	{
+		"LABEL": "0x1d94",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0100fd51"
+	},
+	{
+		"LABEL": "0x1d9c",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000500"
+	},
+	{
+		"LABEL": "0x1da4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1daa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 345,
+		"MSGID": 105,
+		"VOICEID": 6495,
+		"NameJPN": "蒼",
+		"JPN": "「な……ななななんで!?　なんで……」",
+		"NameENG": "Ao",
+		"ENG": "\"Wh... Wh-Wh-Wh-Wh-Whyyy!? Why...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1de6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5b0101007eb6"
+	},
+	{
+		"LABEL": "0x1df0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1df6",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "5c01ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x1e08",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x1e18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 349,
+		"MSGID": 106,
+		"VOICEID": 6496,
+		"NameJPN": "蒼",
+		"JPN": "「あ、あたし最初は女の子が欲しいですーーーーー！」",
+		"NameENG": "Ao",
+		"ENG": "\"I, I, I want our first kid to be a giiiiiiirl!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 351,
+		"MSGID": 107,
+		"NameJPN": "羽依里",
+		"JPN": "「落ち着いて」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah, calm down.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e88",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "61010302132a03"
+	},
+	{
+		"LABEL": "0x1e94",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03020000663c663c000080026801"
+	},
+	{
+		"LABEL": "0x1ea6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "620101000352"
+	},
+	{
+		"LABEL": "0x1eb0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1eb6",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "6301ff00c800"
+	},
+	{
+		"LABEL": "0x1ec0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 356,
+		"MSGID": 108,
+		"VOICEID": 6497,
+		"NameJPN": "蒼",
+		"JPN": "$S048「落ち着けるかーーーーーー！」$S",
+		"NameENG": "Ao",
+		"ENG": "$S048\"As if I could calm down!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f02",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "68010302"
+	},
+	{
+		"LABEL": "0x1f0a",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x1f10",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0003"
+	},
+	{
+		"LABEL": "0x1f16",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0004"
+	},
+	{
+		"LABEL": "0x1f1c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01009f52"
+	},
+	{
+		"LABEL": "0x1f24",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x1f2c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 361,
+		"MSGID": 109,
+		"VOICEID": 6498,
+		"NameJPN": "蒼",
+		"JPN": "「こ、こんな、寝てるとこを……！　い、一方的にっ…!?」",
+		"NameENG": "Ao",
+		"ENG": "\"W-While I was asleep...! Y-You...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f80",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6b0101007eb6"
+	},
+	{
+		"LABEL": "0x1f8a",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000f00"
+	},
+	{
+		"LABEL": "0x1f92",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 364,
+		"MSGID": 110,
+		"VOICEID": 6499,
+		"NameJPN": "蒼",
+		"JPN": "「強引なのは嫌いじゃないけど……ここ、外なんだからっ…！」",
+		"NameENG": "Ao",
+		"ENG": "\"I don't mind the forcefulness, but... W-We're outside, you know...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fe8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 366,
+		"MSGID": 111,
+		"NameJPN": "羽依里",
+		"JPN": "「だから、落ち着いて」",
+		"NameENG": "Hairi",
+		"ENG": "\"Okay, seriously, calm down.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2018",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 368,
+		"MSGID": 112,
+		"NameJPN": "羽依里",
+		"JPN": "「状況把握をしよう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Look at the situation here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2046",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 370,
+		"MSGID": 113,
+		"NameJPN": "羽依里",
+		"JPN": "「俺、身動きとれないから……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I can't even move.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x207e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 114,
+		"NameJPN": "羽依里",
+		"JPN": "「おまえが、一方的に抱きしめてるから、今」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're the one who has me in a a death grip here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "760101007cb6"
+	},
+	{
+		"LABEL": "0x20cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x20d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 375,
+		"MSGID": 115,
+		"VOICEID": 6500,
+		"NameJPN": "蒼",
+		"JPN": "「へ？」",
+		"NameENG": "Ao",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20f0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "79010100fd51"
+	},
+	{
+		"LABEL": "0x20fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2100",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 378,
+		"MSGID": 116,
+		"VOICEID": 6501,
+		"NameJPN": "蒼",
+		"JPN": "「………」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2120",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 380,
+		"MSGID": 117,
+		"JPN": "俺に言われて、ようやく自分が何をしているかに気づく。",
+		"ENG": "At that point, Ao finally realized what she was doing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2164",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 382,
+		"MSGID": 118,
+		"JPN": "そう、全力で俺にしがみついていた。",
+		"ENG": "That being squeezing the life out of me, of course.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2196",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 384,
+		"MSGID": 119,
+		"JPN": "俺は抱き枕にされている。",
+		"ENG": "She was using me like a hug pillow.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8201010078b6"
+	},
+	{
+		"LABEL": "0x21c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x21ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 387,
+		"MSGID": 120,
+		"VOICEID": 6502,
+		"NameJPN": "蒼",
+		"JPN": "「あ……う…う～……」",
+		"NameENG": "Ao",
+		"ENG": "\"A-Ahh... U-Uuuughhh...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21fa",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "85010302132a03"
+	},
+	{
+		"LABEL": "0x2206",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03020000663c663c000080026801"
+	},
+	{
+		"LABEL": "0x2218",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "86010100a351"
+	},
+	{
+		"LABEL": "0x2222",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x222a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2230",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "8701ff00c800"
+	},
+	{
+		"LABEL": "0x223a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 392,
+		"MSGID": 121,
+		"VOICEID": 6503,
+		"NameJPN": "蒼",
+		"JPN": "$S048「うわああああああああああああーーーーー！」$S",
+		"NameENG": "Ao",
+		"ENG": "$S048\"Uwwaaaaaaaaaaaaaaaghhhhhhh!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x228a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8a0101007eb6"
+	},
+	{
+		"LABEL": "0x2294",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000500"
+	},
+	{
+		"LABEL": "0x229c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x22a2",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "8b01ff0001060000550002010055"
+	},
+	{
+		"LABEL": "0x22b4",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0301060000550002010055"
+	},
+	{
+		"LABEL": "0x22c4",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000550002010000"
+	},
+	{
+		"LABEL": "0x22d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 396,
+		"MSGID": 122,
+		"VOICEID": 6504,
+		"NameJPN": "蒼",
+		"JPN": "$S048「離せえぇぇぇぇぇぇぇぇぇぇーーーーーー！」$S",
+		"NameENG": "Ao",
+		"ENG": "$S048\"Let goooooo!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2324",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "8e01ff0001060000550602010055"
+	},
+	{
+		"LABEL": "0x2336",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0301060000550602010055"
+	},
+	{
+		"LABEL": "0x2346",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000550602010000"
+	},
+	{
+		"LABEL": "0x2356",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 400,
+		"MSGID": 123,
+		"NameJPN": "羽依里",
+		"JPN": "$S048「おまえが離せえぇぇぇぇーーーーーー！」$S",
+		"NameENG": "Hairi",
+		"ENG": "$S048\"You let gooooooo!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23a6",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "93010302"
+	},
+	{
+		"LABEL": "0x23ae",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x23b4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0003"
+	},
+	{
+		"LABEL": "0x23ba",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0004"
+	},
+	{
+		"LABEL": "0x23c0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x23c6",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff000000"
+	},
+	{
+		"LABEL": "0x23ce",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003100000000000000"
+	},
+	{
+		"LABEL": "0x23dc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0400"
+	},
+	{
+		"LABEL": "0x23e4",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x23f6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x2404",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "940101007eb600008002b400d900"
+	},
+	{
+		"LABEL": "0x2416",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x241c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 405,
+		"MSGID": 124,
+		"JPN": "理不尽だった。",
+		"ENG": "That wasn't exactly fair of her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x243a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "9a01000000007800"
+	},
+	{
+		"LABEL": "0x2446",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a101"
+	},
+	{
+		"LABEL": "0x244c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2452",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0306e9fd030000000000"
+	},
+	{
+		"LABEL": "0x2460",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2466",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x246c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2470",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2476",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x247c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2482",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2486",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "a3010f3910030002"
+	},
+	{
+		"LABEL": "0x2492",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "a401ae860100"
+	},
+	{
+		"LABEL": "0x249c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 422,
+		"MSGID": 125,
+		"JPN": "とりあえず、蒼は深呼吸をして落ち着きを取り戻す。",
+		"ENG": "After that, Ao took a few deep breaths and calmed down.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 424,
+		"MSGID": 126,
+		"JPN": "同時に冷えてしまった体をブルっと震わせた。",
+		"ENG": "At around the same time she regained her composure, she started shivering.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2516",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 426,
+		"MSGID": 127,
+		"NameJPN": "羽依里",
+		"JPN": "「潮風浴びながら寝るのは危なくないか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Isn't it kinda dangerous to fall asleep on the shore like that? The wind's really cold sometimes.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2558",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ac010100195200008002b4007500"
+	},
+	{
+		"LABEL": "0x256a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2570",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 429,
+		"MSGID": 128,
+		"VOICEID": 6505,
+		"NameJPN": "蒼",
+		"JPN": "「思ったより冷えたわね」",
+		"NameENG": "Ao",
+		"ENG": "\"Yeah, I got a lot colder than I expected.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x259e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 129,
+		"NameJPN": "羽依里",
+		"JPN": "「女の子なんだから、体冷やしちゃだめだろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're a girl, so you shouldn't let yourself freeze like that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25e2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b10101000953"
+	},
+	{
+		"LABEL": "0x25ec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x25f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 434,
+		"MSGID": 130,
+		"VOICEID": 6506,
+		"NameJPN": "蒼",
+		"JPN": "「それ、よく言われるけど、なんでなの？」",
+		"NameENG": "Ao",
+		"ENG": "\"You know, people say that a lot, but why?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2630",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 436,
+		"MSGID": 131,
+		"NameJPN": "羽依里",
+		"JPN": "「体が冷えると、血の巡りが悪くなるから」",
+		"NameENG": "Hairi",
+		"ENG": "\"Because getting too cold's bad for your blood circulation.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2672",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 438,
+		"MSGID": 132,
+		"NameJPN": "羽依里",
+		"JPN": "「女の子は冷え性が多いって言うし」",
+		"NameENG": "Hairi",
+		"ENG": "\"Supposedly a lot of girls are sensitive to the cold, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 440,
+		"MSGID": 133,
+		"NameJPN": "羽依里",
+		"JPN": "「結果的に内臓機能が低下したり、不妊症になったりするらしい」",
+		"NameENG": "Hairi",
+		"ENG": "\"The end result's that your organs deteriorate and you might even end up infertile, apparently.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2704",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ba010100fb51"
+	},
+	{
+		"LABEL": "0x270e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2714",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 443,
+		"MSGID": 134,
+		"VOICEID": 6507,
+		"NameJPN": "蒼",
+		"JPN": "「うわ……こわっ」",
+		"NameENG": "Ao",
+		"ENG": "\"Woah... That's freaky.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x273c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 445,
+		"MSGID": 135,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、怖いだろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, it's pretty scary, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2768",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bf0101007d51"
+	},
+	{
+		"LABEL": "0x2772",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2778",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 448,
+		"MSGID": 136,
+		"VOICEID": 6508,
+		"NameJPN": "蒼",
+		"JPN": "「そういうことを知ってるあんたが怖いのよ」",
+		"NameENG": "Ao",
+		"ENG": "\"No, I'm saying you're freaky for knowing all that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 450,
+		"MSGID": 137,
+		"NameJPN": "羽依里",
+		"JPN": "「知識だよ！　水泳部やってたから知ったんだよ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's common knowledge! I know about it 'cause I was in the swimming club, that's all!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2802",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c4010100e951"
+	},
+	{
+		"LABEL": "0x280c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2812",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 453,
+		"MSGID": 138,
+		"VOICEID": 6509,
+		"NameJPN": "蒼",
+		"JPN": "「都会の水泳部って怖っ」",
+		"NameENG": "Ao",
+		"ENG": "\"Swimming clubs in the city are freaky...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2840",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 455,
+		"MSGID": 139,
+		"NameJPN": "羽依里",
+		"JPN": "「アフターケアが万全なんだ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Warming down is everything!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2878",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 457,
+		"MSGID": 140,
+		"NameJPN": "羽依里",
+		"JPN": "「それとも知らずにいて、将来後悔したいか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Or what, you'd rather not know about all that and regret it later?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cb0101009752"
+	},
+	{
+		"LABEL": "0x28c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x28ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 460,
+		"MSGID": 141,
+		"VOICEID": 6510,
+		"NameJPN": "蒼",
+		"JPN": "「それはいやね」",
+		"NameENG": "Ao",
+		"ENG": "\"No, not really.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28f4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ce010100e552"
+	},
+	{
+		"LABEL": "0x28fe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2904",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 463,
+		"MSGID": 142,
+		"VOICEID": 6511,
+		"NameJPN": "蒼",
+		"JPN": "「元気な赤ちゃんは産みたいし」",
+		"NameENG": "Ao",
+		"ENG": "\"I wanna have a healthy kid someday, after all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2938",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 465,
+		"MSGID": 143,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、そうだろうな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah. Right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2968",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d3010100dd51"
+	},
+	{
+		"LABEL": "0x2972",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x297a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2980",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 144,
+		"VOICEID": 6512,
+		"NameJPN": "蒼",
+		"JPN": "「……って！　別にあんたの赤ちゃん産むって意味じゃないわよ!?」",
+		"NameENG": "Ao",
+		"ENG": "\"...Wait! I'm not saying I want to have your baby or anything, all right!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 470,
+		"MSGID": 145,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、うん、別にそこまで言ったつもりはないんで」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, uhh, I really didn't mean it in that way at all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 472,
+		"MSGID": 146,
+		"JPN": "こいつ、本当このおおらかな島で育っていて良かった。",
+		"ENG": "It's definitely a good thing she was raised on a calm, peaceful island.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a64",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 474,
+		"MSGID": 147,
+		"JPN": "都会に出ちゃいけない子だな、うん。",
+		"ENG": "It'd probably be for the best if she never finds her way to the city.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a96",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e1010000b800000000000000"
+	},
+	{
+		"LABEL": "0x2aa6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2aae",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2ab4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x2abc",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x2ac8",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x2ad4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2ada",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2ae0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2ae4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2aea",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2aee",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2af2",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e201"
+	},
+	{
+		"LABEL": "0x2af8",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "e4010080"
+	}
+]

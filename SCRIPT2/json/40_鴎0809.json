@@ -1,0 +1,742 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0700ad860100"
+	},
+	{
+		"LABEL": "0xa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x10",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004c00000000000000"
+	},
+	{
+		"LABEL": "0x1e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「鏡子さん、ちょっといいですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Kyouko-san, do you have a bit?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "10000100a57000008002b4008100"
+	},
+	{
+		"LABEL": "0x7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 1,
+		"VOICEID": 10223,
+		"NameJPN": "鏡子",
+		"JPN": "「どうしたの？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Sure do.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「これ見て下さい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Take a look at this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "160001008170"
+	},
+	{
+		"LABEL": "0xe0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 3,
+		"VOICEID": 10224,
+		"NameJPN": "鏡子",
+		"JPN": "「地図？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"A map?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x108",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「この辺って、どういうところですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Do you know what this place here is?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x146",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1c000100a570"
+	},
+	{
+		"LABEL": "0x150",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x156",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 5,
+		"VOICEID": 10225,
+		"NameJPN": "鏡子",
+		"JPN": "「山だね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Mountains, I believe.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x178",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「洞窟とか、あるんですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Are there caves or anything?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ac",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "220001005f71"
+	},
+	{
+		"LABEL": "0x1b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 7,
+		"VOICEID": 10226,
+		"NameJPN": "鏡子",
+		"JPN": "「あぁ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Ahh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 8,
+		"VOICEID": 10227,
+		"NameJPN": "鏡子",
+		"JPN": "「洞窟というか」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I don't know if I'd call it a cave, per se.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 9,
+		"VOICEID": 10228,
+		"NameJPN": "鏡子",
+		"JPN": "「採石場だったから」",
+		"NameENG": "Kyouko",
+		"ENG": "\"There used to be a quarry there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x230",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2a0001006571"
+	},
+	{
+		"LABEL": "0x23a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x240",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 10,
+		"VOICEID": 10229,
+		"NameJPN": "鏡子",
+		"JPN": "「それで、洞窟みたいになっているところはあったかなぁ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"So I suppose you'd find a few tunnels or caverns around.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「そうなんですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"A quarry, eh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 12,
+		"JPN": "洞窟らしきものがあるのは、事実らしい。",
+		"ENG": "That proves it. Kamome wasn't just fibbing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "320001006370"
+	},
+	{
+		"LABEL": "0x2fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x300",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 13,
+		"VOICEID": 10230,
+		"NameJPN": "鏡子",
+		"JPN": "「羽依里君」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Hairi-kun.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x324",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "360001005d70"
+	},
+	{
+		"LABEL": "0x32e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x334",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 14,
+		"VOICEID": 10231,
+		"NameJPN": "鏡子",
+		"JPN": "「ダメだよ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Don't even think about it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x358",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「え」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x378",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3c0001006370"
+	},
+	{
+		"LABEL": "0x382",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x388",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 16,
+		"VOICEID": 10232,
+		"NameJPN": "鏡子",
+		"JPN": "「そこは子供が入り込もうとするから、今は封鎖されてるの」",
+		"NameENG": "Kyouko",
+		"ENG": "\"It's been sealed off to keep kids from sneaking in.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "400001009370"
+	},
+	{
+		"LABEL": "0x3e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 17,
+		"VOICEID": 10233,
+		"NameJPN": "鏡子",
+		"JPN": "「この島の子なら学校できつく立ち入らないようにって言われてるんだよ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"The teachers at school here make sure all of them know to stay away.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x444",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "44000100a570"
+	},
+	{
+		"LABEL": "0x44e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x454",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 18,
+		"VOICEID": 10234,
+		"NameJPN": "鏡子",
+		"JPN": "「観光で来た人が入り込んじゃう場所じゃないしね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"It's nowhere for tourists to be, either.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 19,
+		"VOICEID": 10235,
+		"NameJPN": "鏡子",
+		"JPN": "「知らなきゃ、たどりつくようなところじゃないよ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"And it's not somewhere you'd happen to find yourself by accident.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4a0001009370"
+	},
+	{
+		"LABEL": "0x4ee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 20,
+		"VOICEID": 10236,
+		"NameJPN": "鏡子",
+		"JPN": "「どこでそんな地図を手に入れたのかしらないけど。興味があっても、入っちゃだめ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I don't know where you got that map from, but as curious as you might be, that place is off-limits. Okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x55a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、聞いてみただけです」",
+		"NameENG": "Hairi",
+		"ENG": "\"Don't worry, I was just asking.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x590",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「行くわけないじゃないですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"There's no way I'd actually go.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "520001005d70"
+	},
+	{
+		"LABEL": "0x5d2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 23,
+		"VOICEID": 10237,
+		"NameJPN": "鏡子",
+		"JPN": "「見せてくれた地図の場所まで行こうとしてるんでしょう」",
+		"NameENG": "Kyouko",
+		"ENG": "\"You've got your eye on that mark on the map, don't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x626",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「え」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wha―?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x646",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「あはは。何を言うんですか、そんな子供みたいなことしませんよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ahahaha! What are you saying? I'm not that$dchildish.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x69e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5a0001007570"
+	},
+	{
+		"LABEL": "0x6a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 26,
+		"VOICEID": 10238,
+		"NameJPN": "鏡子",
+		"JPN": "「じー……」",
+		"NameENG": "Kyouko",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6d2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5e000100a570"
+	},
+	{
+		"LABEL": "0x6dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 27,
+		"VOICEID": 10239,
+		"NameJPN": "鏡子",
+		"JPN": "「もし羽依里君がここに行くと言うのなら」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Let's just say, in theory, if you were to go there...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x722",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「言うのなら？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Then...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x74c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "640001005170"
+	},
+	{
+		"LABEL": "0x756",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x75c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 29,
+		"VOICEID": 10240,
+		"NameJPN": "鏡子",
+		"JPN": "「家に連絡をします」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I'd contact your parents straight away.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x788",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 30,
+		"JPN": "ぞぞぞぞ。",
+		"ENG": "I shuddered.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「それだけは勘弁してください」",
+		"NameENG": "Hairi",
+		"ENG": "\"Anything but that, please.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "71000000b800000000000000"
+	},
+	{
+		"LABEL": "0x7ea",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x7f2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x7f8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x800",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x80c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x818",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x81e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x824",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x828",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x82e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x83a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x846",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x84a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x84e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x856",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x85e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x866",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x86e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x876",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7200"
+	},
+	{
+		"LABEL": "0x87c",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "74000080"
+	}
+]

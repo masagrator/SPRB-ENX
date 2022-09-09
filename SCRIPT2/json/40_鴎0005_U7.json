@@ -1,0 +1,470 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0c00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xe",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004400000000000000"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x54",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「……えっと」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ummm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "鏡子さんにもらって、この辺にしまっておいたはず。",
+		"ENG": "I think I left it somewhere around here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「あったあった」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah, here it is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「これ、サイズどのくらいだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wonder what size this is?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 4,
+		"JPN": "鏡に映しながら、寸法をとってみる。",
+		"ENG": "I measured it against myself in the mirror.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x158",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 5,
+		"JPN": "俺にはもちろん小さいが……",
+		"ENG": "Obviously, it was a little too small for me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x182",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 6,
+		"JPN": "鴎には、まぁ、合いそうに見える。",
+		"ENG": "But it'd work for Kamome. Probably.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b2",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1f00000000003c00"
+	},
+	{
+		"LABEL": "0x1be",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "21000600b4ae09006b00dcfe"
+	},
+	{
+		"LABEL": "0x1ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 7,
+		"VOICEID": 28223,
+		"NameJPN": "うみ",
+		"JPN": "「お、おにーちゃん……？」",
+		"NameENG": "Umi",
+		"ENG": "\"O-Onii-chan...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x200",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「え」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x220",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2700b2860100"
+	},
+	{
+		"LABEL": "0x22a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "29000100b6ae00008002b4009100"
+	},
+	{
+		"LABEL": "0x23c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x242",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 9,
+		"VOICEID": 28224,
+		"NameJPN": "うみ",
+		"JPN": "「ずっと、ふしぎだったの……なんでそんなふく、おにーちゃんのへやにあったのか……」",
+		"NameENG": "Umi",
+		"ENG": "\"I always wondered why you had those in your room.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ac",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d000100bcae"
+	},
+	{
+		"LABEL": "0x2b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 10,
+		"VOICEID": 28225,
+		"NameJPN": "うみ",
+		"JPN": "「なぞはすべてとけた！」",
+		"NameENG": "Umi",
+		"ENG": "\"The mystery is solved!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「違うっ。そもそもサイズ的に無理だろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, it most certainly is not! How would this stuff even fit me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "330001008cae"
+	},
+	{
+		"LABEL": "0x336",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x33c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 12,
+		"VOICEID": 28226,
+		"NameJPN": "うみ",
+		"JPN": "「しんじつはいつもひとつ！」",
+		"NameENG": "Umi",
+		"ENG": "\"There is always one truth!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x370",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、だから……」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, listen...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3900010062ae"
+	},
+	{
+		"LABEL": "0x3a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 14,
+		"VOICEID": 28227,
+		"NameJPN": "うみ",
+		"JPN": "「ばっちゃんのなにかけて！」",
+		"NameENG": "Umi",
+		"ENG": "\"In the name of my grandmother!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3d00010094ac"
+	},
+	{
+		"LABEL": "0x3ec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 15,
+		"VOICEID": 28228,
+		"NameJPN": "うみ",
+		"JPN": "「てやんでいばーろーちきしょーい！」",
+		"NameENG": "Umi",
+		"ENG": "\"Dammit idjit, what the heel!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「まって、うみちゃん、色々混ざった上に最後はかなりちがう！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, Umi-chan! There were a lot of things mixed in there, but that last one was especially bad!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x484",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「聞いて。これは、友達にあげるんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Listen. I'm giving these to a friend.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4500010028ac"
+	},
+	{
+		"LABEL": "0x4cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 18,
+		"VOICEID": 28229,
+		"NameJPN": "うみ",
+		"JPN": "「ともだち？　……おなじしゅみの？」",
+		"NameENG": "Umi",
+		"ENG": "\"A friend? You share hobbies?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x50e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「俺の趣味をまず勘違いしないで」",
+		"NameENG": "Hairi",
+		"ENG": "\"First, this isn't my hobby.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x548",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「普通に女の友達だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"Second, she's a girl.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4d00010070ac"
+	},
+	{
+		"LABEL": "0x584",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x58a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 21,
+		"VOICEID": 28230,
+		"NameJPN": "うみ",
+		"JPN": "「……かのじょ？」",
+		"NameENG": "Umi",
+		"ENG": "\"...Girlfriend?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「それは違う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not girlfriend.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5dc",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5700"
+	},
+	{
+		"LABEL": "0x5e2",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "58000080"
+	}
+]

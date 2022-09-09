@@ -1,0 +1,8231 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0e00",
+		"Equation": "(#6003==1)",
+		"GOTO_LABEL": "0x48"
+	},
+	{
+		"LABEL": "0x16",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "30_蒼0809_u9",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "JUMP",
+		"SUBCMD": 0,
+		"Name": "30_蒼0809",
+		"GOTO_LABEL": "0x9da"
+	},
+	{
+		"LABEL": "0x40",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x90"
+	},
+	{
+		"LABEL": "0x48",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0e00",
+		"Equation": "(#6003==2)",
+		"GOTO_LABEL": "0x90"
+	},
+	{
+		"LABEL": "0x5e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0100",
+		"String": "30_蒼0809_u7",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x76",
+		"Type": "JUMP",
+		"SUBCMD": 0,
+		"Name": "30_蒼0809",
+		"GOTO_LABEL": "0x9da"
+	},
+	{
+		"LABEL": "0x88",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x90"
+	},
+	{
+		"LABEL": "0x90",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "13000a860f030002f85b007800"
+	},
+	{
+		"LABEL": "0xa2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "160000004400000000000000"
+	},
+	{
+		"LABEL": "0xb2",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e"
+	},
+	{
+		"LABEL": "0xbe",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0xc6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000080fd4cff"
+	},
+	{
+		"LABEL": "0xd4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a340800004cff"
+	},
+	{
+		"LABEL": "0xe2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "17003c00"
+	},
+	{
+		"LABEL": "0xf8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 0,
+		"JPN": "珍しく、今日は部屋から出る気にならなかった。",
+		"ENG": "For some reason, I didn't feel like going outside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x134",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 1,
+		"JPN": "蒼に会うため、駄菓子屋に行こうという気も起きない。",
+		"ENG": "I had no motivation to head to the candy store and meet Ao.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x176",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 2,
+		"JPN": "昨日、のみきたちとのやり取りで、俺は自分の気持ちに気づかされた。",
+		"ENG": "That conversation with Nomiki yesterday made me realize how I feel.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 3,
+		"JPN": "蒼自身はそのことを知らなくても、何となく蒼の顔を見るのが気恥ずかしく思えた。",
+		"ENG": "Even if Ao didn't know about my feelings, it still felt kind of embarrassing to see her face to face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x222",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2100"
+	},
+	{
+		"LABEL": "0x228",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004400000000000000"
+	},
+	{
+		"LABEL": "0x236",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x23e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x244",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x248",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ、毎日会いに行って、気持ち悪がられるのもなんだしな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, she'd probably get creeped out if I went to see her every single day, anyway...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「１日くらい空けても……」",
+		"NameENG": "Hairi",
+		"ENG": "\"No harm skipping a day...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「……うん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fc",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "29000a00000000b40001"
+	},
+	{
+		"LABEL": "0x30a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2b00ae860100"
+	},
+	{
+		"LABEL": "0x314",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2d000100d2b000008002b4009100"
+	},
+	{
+		"LABEL": "0x326",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000003e02b400"
+	},
+	{
+		"LABEL": "0x334",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x342",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x348",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "2e001200"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 7,
+		"JPN": "開けっぱなしの障子の向こうを、うみちゃんが歩いて行く。",
+		"ENG": "I glanced through my room's open door and noticed Umi-chan walking down the hallway.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x396",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 8,
+		"JPN": "手には虫取り用の網を持ち、肩からプラスチック製の虫籠をかけていた。",
+		"ENG": "She had a butterfly net in her hand and a plastic insect cage slung over her shoulder by a strap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「うみちゃん、出かけるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Heading out, Umi-chan?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x420",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "36000100d8b0"
+	},
+	{
+		"LABEL": "0x42a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x430",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 10,
+		"VOICEID": 6987,
+		"NameJPN": "うみ",
+		"JPN": "「はい。虫取りに」",
+		"NameENG": "Umi",
+		"ENG": "\"Yes. I'm going bug catching.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「蝉？　それとも……海老？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Are you catching cicadas? Or maybe... shrimp?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x490",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3b0001006eb1"
+	},
+	{
+		"LABEL": "0x49a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 12,
+		"VOICEID": 6988,
+		"NameJPN": "うみ",
+		"JPN": "「……蝉です」",
+		"NameENG": "Umi",
+		"ENG": "\"...Cicadas.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「食べるの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gonna eat them?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "40000100e8af"
+	},
+	{
+		"LABEL": "0x4f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 14,
+		"VOICEID": 6989,
+		"NameJPN": "うみ",
+		"JPN": "「……食べさせます」",
+		"NameENG": "Umi",
+		"ENG": "\"...I'm going to make you eat them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「ごめん、悪かった」",
+		"NameENG": "Hairi",
+		"ENG": "\"Sorry, sorry, please don't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x558",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "45000100eeaf"
+	},
+	{
+		"LABEL": "0x562",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x568",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 16,
+		"VOICEID": 6990,
+		"NameJPN": "うみ",
+		"JPN": "「絶対に食べさせます」",
+		"NameENG": "Umi",
+		"ENG": "\"I'm definitely going to make you eat them!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x596",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「いやホントごめんなさい……」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, wait, I'm sorry, seriously!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 18,
+		"JPN": "思った以上に恨まれているみたいだ。",
+		"ENG": "Apparently she was holding a bigger grudge over the shrimp incident than I'd anticipated.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「そういえば虫取りといえばさ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, speaking of bug catching...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x638",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「この島、変わった蝶がいるみたいだぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Apparently there's a really weird type of butterfly on this island.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x678",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5000010052af"
+	},
+	{
+		"LABEL": "0x682",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x688",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 21,
+		"VOICEID": 6991,
+		"NameJPN": "うみ",
+		"JPN": "「……どんな蝶ですか？」",
+		"NameENG": "Umi",
+		"ENG": "\"...What kind of butterfly?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 83,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「なんか、ほんのり光る綺麗なやつ」",
+		"NameENG": "Hairi",
+		"ENG": "\"A really pretty one that, like, sorta glows.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "550001005eaf"
+	},
+	{
+		"LABEL": "0x6fe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x704",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 23,
+		"VOICEID": 6992,
+		"NameJPN": "うみ",
+		"JPN": "「光る蝶……ですか？」",
+		"NameENG": "Umi",
+		"ENG": "\"A... glowing butterfly?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x732",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「この間、夜に見たんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I saw one a couple nights back.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x764",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「あれ、何て名前の蝶だろうな？」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wonder what they're called?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x79e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5c00010048b0"
+	},
+	{
+		"LABEL": "0x7a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 26,
+		"VOICEID": 6993,
+		"NameJPN": "うみ",
+		"JPN": "「……光る蝶なら、蔵の中にありました」",
+		"NameENG": "Umi",
+		"ENG": "\"...If you're looking for a glowing butterfly, there's one in the shed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「マジでっ!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"Seriously!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x816",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「って、ありました？　いましたじゃなくて？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, you saw it in the shed? And it's still there?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x85c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "63000100e2af"
+	},
+	{
+		"LABEL": "0x866",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x86c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 29,
+		"VOICEID": 6994,
+		"NameJPN": "うみ",
+		"JPN": "「はい、ありました」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah, it should be.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x898",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6600010064af"
+	},
+	{
+		"LABEL": "0x8a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 103,
+		"MSGID": 30,
+		"VOICEID": 6995,
+		"NameJPN": "うみ",
+		"JPN": "「鏡子さんに言えば見せてもらえると思います」",
+		"NameENG": "Umi",
+		"ENG": "\"Kyouko-san will probably show you if you ask her about it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 105,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「そうなんだ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"That so...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x918",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 107,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「わかった、ありがとう！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Got it, thanks!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x94c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6d00"
+	},
+	{
+		"LABEL": "0x952",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x960",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x968",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x96e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x974",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x97e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x984",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x992",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x998",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x99c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 111,
+		"MSGID": 33,
+		"JPN": "興味が湧いた俺は、さっそく蔵の方へと向かった。",
+		"ENG": "Brimming with curiosity, I rushed over to the shed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9da",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "770005330e0300"
+	},
+	{
+		"LABEL": "0x9e6",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "78003c00"
+	},
+	{
+		"LABEL": "0x9ee",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7c00"
+	},
+	{
+		"LABEL": "0x9f4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004c00000000000000"
+	},
+	{
+		"LABEL": "0xa02",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa0a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0xa14",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 34,
+		"JPN": "蔵の中では、鏡子さんが１人で遺品整理を続けていた。",
+		"ENG": "I found Kyouko-san inside, still sorting through its contents on her own.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「あの、鏡子さん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umm, hey, Kyouko-san?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa86",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8400"
+	},
+	{
+		"LABEL": "0xa8c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004d04000000000000"
+	},
+	{
+		"LABEL": "0xa9a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xaa8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xaac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 36,
+		"VOICEID": 6996,
+		"NameJPN": "鏡子",
+		"JPN": "「あら、羽依里君？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Oh, Hairi-kun?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xad8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっと訊きたいことがあるんですけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"I've got a quick question for you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 38,
+		"NameJPN": "羽依里",
+		"JPN": "「光る蝶って知ってますか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Do you know anything about glowing butterflies?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb50",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8c00"
+	},
+	{
+		"LABEL": "0xb56",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004f04000000000000"
+	},
+	{
+		"LABEL": "0xb64",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xb6c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0xb72",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xb76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 39,
+		"VOICEID": 6997,
+		"NameJPN": "鏡子",
+		"JPN": "「光る蝶？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Glowing butterflies?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 40,
+		"NameJPN": "羽依里",
+		"JPN": "「うみちゃんが、この蔵の中にあるから鏡子さんなら知ってるって」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi-chan said there's one in this shed, and that you might be able to tell me about it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbf2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9300"
+	},
+	{
+		"LABEL": "0xbf8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004e04000000000000"
+	},
+	{
+		"LABEL": "0xc06",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xc0e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0xc14",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xc18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 148,
+		"MSGID": 41,
+		"VOICEID": 6998,
+		"NameJPN": "鏡子",
+		"JPN": "「ああ……それって……」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Ahh... That must be...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc48",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0xc4e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004c00000000000000"
+	},
+	{
+		"LABEL": "0xc5c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xc64",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xc6a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xc6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 42,
+		"JPN": "鏡子さんが箱の中を漁る。",
+		"ENG": "She rummaged around in a box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc96",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9a000100577000008002b4008100"
+	},
+	{
+		"LABEL": "0xca8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 43,
+		"VOICEID": 6999,
+		"NameJPN": "鏡子",
+		"JPN": "「……これのことかしら？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"...This, I suppose?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xce0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 44,
+		"JPN": "取り出したのは、木製の古い箱と１冊の古い本だった。",
+		"ENG": "She pulled out a old wooden box, along with a moth-eaten book.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 45,
+		"JPN": "箱は、一部の面だけが透明なガラスになっていた。",
+		"ENG": "One side of the box was made of glass.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 46,
+		"NameJPN": "羽依里",
+		"JPN": "「標本……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A display case...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd88",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "a3000100000f00"
+	},
+	{
+		"LABEL": "0xd94",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 47,
+		"JPN": "なるほど、確かにこれだと蔵の中に『ある』だな。",
+		"ENG": "Okay, it all makes sense now. I was wondering why Umi-chan was so sure it'd still be in here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdd8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 167,
+		"MSGID": 48,
+		"JPN": "でも……",
+		"ENG": "But...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdf0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 49,
+		"NameJPN": "羽依里",
+		"JPN": "「これが、光る蝶？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is this really a glowing butterfly?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 50,
+		"JPN": "その羽は、確かに不思議な光を放っているように見えた。",
+		"ENG": "Its wings certainly did seem to be giving off some kind of mysterious light, but...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 51,
+		"JPN": "でも、夜に見た時に比べたら、その輝きは鈍い。",
+		"ENG": "It was a lot dimmer than the one I'd seen before.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 176,
+		"MSGID": 52,
+		"JPN": "蝶本体の下には、何かが書かれた紙が貼付されていた。",
+		"ENG": "I read the small piece of paper that was glued underneath the butterfly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xee0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 53,
+		"NameJPN": "羽依里",
+		"JPN": "「$[七影蝶$/しち_えい_ちょう$]……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Iridescent Shade'...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 180,
+		"MSGID": 54,
+		"JPN": "これが、この蝶の名前だろうか？",
+		"ENG": "Is that what they call these butterflies?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf56",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "b6000100577000008002b4008100"
+	},
+	{
+		"LABEL": "0xf68",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 183,
+		"MSGID": 55,
+		"VOICEID": 7000,
+		"NameJPN": "鏡子",
+		"JPN": "「七影蝶については、この本に書かれているわ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"There's a section about iridescent shades in this book.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 185,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「……お借りします」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I'll take a look, thanks.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe0",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "bb000100000f00"
+	},
+	{
+		"LABEL": "0xfec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xff2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "bd00051c0e0300"
+	},
+	{
+		"LABEL": "0xffe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 57,
+		"JPN": "ページをめくってみる。",
+		"ENG": "I flipped through the book.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1024",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「なるほど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm, I see, I see...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x104e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c2000100a57000008002b4008100"
+	},
+	{
+		"LABEL": "0x1060",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1066",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 195,
+		"MSGID": 59,
+		"VOICEID": 7001,
+		"NameJPN": "鏡子",
+		"JPN": "「どう？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"How is it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1088",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「文字が古すぎて読めません」",
+		"NameENG": "Hairi",
+		"ENG": "\"The writing's so archaic, I can't even read it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c70001001171"
+	},
+	{
+		"LABEL": "0x10c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 61,
+		"VOICEID": 7002,
+		"NameJPN": "鏡子",
+		"JPN": "「ふふ、中身は、この島の昔話よ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Heheh! It's a book about this island's folk tales.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1106",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ca000100a570"
+	},
+	{
+		"LABEL": "0x1110",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1116",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 62,
+		"VOICEID": 7003,
+		"NameJPN": "鏡子",
+		"JPN": "「ちょっと貸して」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Let me have a look.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1140",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "cd000100000f00"
+	},
+	{
+		"LABEL": "0x114c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1152",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 63,
+		"JPN": "本を渡すと、鏡子さんは軍手を外して、上着から眼鏡を取り出す。",
+		"ENG": "Taking the book, Kyouko-san removed her gloves and pulled a pair of glasses out of her cardigan.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x119e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d3000100f36d00008002b4008100"
+	},
+	{
+		"LABEL": "0x11b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x11b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 213,
+		"MSGID": 64,
+		"JPN": "急に知的な雰囲気になった。",
+		"ENG": "She suddenly looked a lot more scholarly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 65,
+		"JPN": "……鏡子さんて眼鏡かけるんだ。",
+		"ENG": "...So Kyouko-san wears glasses, huh?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x120e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 217,
+		"MSGID": 66,
+		"JPN": "俺が思わず見とれている中、鏡子さんはページをパラパラとめくった。",
+		"ENG": "I blankly stared at her as she flipped through the pages of the book.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x125e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "db000100b76d"
+	},
+	{
+		"LABEL": "0x1268",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x126e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 220,
+		"MSGID": 67,
+		"VOICEID": 7004,
+		"NameJPN": "鏡子",
+		"JPN": "「ああ、ここね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Ahh, here it is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1296",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "de000100c56e"
+	},
+	{
+		"LABEL": "0x12a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 223,
+		"MSGID": 68,
+		"VOICEID": 7005,
+		"NameJPN": "鏡子",
+		"JPN": "「ここに七影蝶に関する話が書いてあるわ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"This part's a story that involves iridescent shades.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12e6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e10001009b6e"
+	},
+	{
+		"LABEL": "0x12f0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 226,
+		"MSGID": 69,
+		"VOICEID": 7006,
+		"NameJPN": "鏡子",
+		"JPN": "「えっとね……簡単に説明すると……」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Umm... To sum it up simply...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1332",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e4000100056e"
+	},
+	{
+		"LABEL": "0x133c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1342",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 229,
+		"MSGID": 70,
+		"VOICEID": 7007,
+		"NameJPN": "鏡子",
+		"JPN": "「死んだ後に、残された人に想いを伝えるため、死者の魂が蝶になる……」",
+		"NameENG": "Kyouko",
+		"ENG": "\"After death, the deceased's soul turns into a butterfly in order to convey the lingering feelings they have for those left behind.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x139e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e7000100b16d"
+	},
+	{
+		"LABEL": "0x13a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 71,
+		"VOICEID": 7008,
+		"NameJPN": "鏡子",
+		"JPN": "「それが、七影蝶なんだって」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Those butterflies are called iridescent shades.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 72,
+		"NameJPN": "羽依里",
+		"JPN": "「鏡子さん、読めるんですか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You can actually read that stuff?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x141a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ed000100cb6e"
+	},
+	{
+		"LABEL": "0x1424",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x142a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 73,
+		"VOICEID": 7009,
+		"NameJPN": "鏡子",
+		"JPN": "「骨董品に古文書はつきものだから」",
+		"NameENG": "Kyouko",
+		"ENG": "\"You end up looking at a lot of ancient texts when you work with antiques, after all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1464",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 240,
+		"MSGID": 74,
+		"NameJPN": "羽依里",
+		"JPN": "「死者の魂が蝶に……」",
+		"NameENG": "Hairi",
+		"ENG": "\"The deceased's soul turns into a butterfly...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1494",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、この標本は人の魂？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So the one in this case is someone's soul?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14cc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f4000100056e"
+	},
+	{
+		"LABEL": "0x14d6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 76,
+		"VOICEID": 7010,
+		"NameJPN": "鏡子",
+		"JPN": "「どうかしら？　あまり見たことのない蝶ではあるけど」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I wonder? It's certainly not the most common butterfly to see around.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1528",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f7000100b76d"
+	},
+	{
+		"LABEL": "0x1532",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1538",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 77,
+		"VOICEID": 7011,
+		"NameJPN": "鏡子",
+		"JPN": "「この蝶に興味があるの？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Are you interested in them?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x156a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 250,
+		"MSGID": 78,
+		"NameJPN": "羽依里",
+		"JPN": "「ええ、まあ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1592",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fc000100c96d"
+	},
+	{
+		"LABEL": "0x159c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 253,
+		"MSGID": 79,
+		"VOICEID": 7012,
+		"NameJPN": "鏡子",
+		"JPN": "「それって……」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Can I take that to mean...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 255,
+		"MSGID": 80,
+		"JPN": "鏡子さんの目が光ったような気がした。",
+		"ENG": "For a second, it looked like Kyouko-san's eyes sparkled.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15fe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "01010100cd6e"
+	},
+	{
+		"LABEL": "0x1608",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x1610",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1616",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 81,
+		"VOICEID": 7013,
+		"NameJPN": "鏡子",
+		"JPN": "「骨董の世界に興味があるってことでいいのかしら？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"You're interested in the world of antiques?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1660",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 260,
+		"MSGID": 82,
+		"NameJPN": "羽依里",
+		"JPN": "「え……いや……ど、どうなんでしょう……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...? Er... I-I dunno about that...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 262,
+		"MSGID": 83,
+		"JPN": "鏡子さんが珍しく興奮気味だった。",
+		"ENG": "Kyouko-san looked unusually excited.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 264,
+		"MSGID": 84,
+		"NameJPN": "羽依里",
+		"JPN": "「さすがに骨董の世界にまではちょっと……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wouldn't say I'm at quite that intense a level of interest...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1718",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0a0101007d6e"
+	},
+	{
+		"LABEL": "0x1722",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x172a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1730",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 267,
+		"MSGID": 85,
+		"VOICEID": 7014,
+		"NameJPN": "鏡子",
+		"JPN": "「……なんだ……そうよね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"...Oh, really...? I suppose that makes sense.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1762",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 269,
+		"MSGID": 86,
+		"JPN": "ヘコませてしまった。",
+		"ENG": "Ahh, man, I disappointed her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1786",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 271,
+		"MSGID": 87,
+		"NameJPN": "羽依里",
+		"JPN": "「で、でも、この本の内容には興味があります」",
+		"NameENG": "Hairi",
+		"ENG": "\"B-But, I am interested in this book, at least.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17cc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "11010100056e"
+	},
+	{
+		"LABEL": "0x17d6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 88,
+		"VOICEID": 7015,
+		"NameJPN": "鏡子",
+		"JPN": "「あら、それなら私が読めるように書き直してあげましょうか？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Oh, in that case, should I rewrite it in more readable, modern language?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1830",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 89,
+		"NameJPN": "羽依里",
+		"JPN": "「え、いいんですか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? You'd do that for me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1860",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "16010100db6d"
+	},
+	{
+		"LABEL": "0x186a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1870",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 279,
+		"MSGID": 90,
+		"VOICEID": 7016,
+		"NameJPN": "鏡子",
+		"JPN": "「そんなに長い話でもないし」",
+		"NameENG": "Kyouko",
+		"ENG": "\"It's not a particularly long story.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18a4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "19010100b76d"
+	},
+	{
+		"LABEL": "0x18ae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 91,
+		"VOICEID": 7017,
+		"NameJPN": "鏡子",
+		"JPN": "「３日くらいあればできると思うわ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"It should only take around three days, I think.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 284,
+		"MSGID": 92,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、お言葉に甘えてお願いします」",
+		"NameENG": "Hairi",
+		"ENG": "\"In that case, I'll take you up on that. Thanks.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x192e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1e0101000b6e"
+	},
+	{
+		"LABEL": "0x1938",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x193e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 287,
+		"MSGID": 93,
+		"VOICEID": 7018,
+		"NameJPN": "鏡子",
+		"JPN": "「了解」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Got it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x195e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "21010100b76d"
+	},
+	{
+		"LABEL": "0x1968",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x196e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 290,
+		"MSGID": 94,
+		"VOICEID": 7019,
+		"NameJPN": "鏡子",
+		"JPN": "「じゃあ、その代わりといってはなんだけど」",
+		"NameENG": "Kyouko",
+		"ENG": "\"And not to pressure you, but in exchange...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19b0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "24010100f96d"
+	},
+	{
+		"LABEL": "0x19ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 293,
+		"MSGID": 95,
+		"VOICEID": 7020,
+		"NameJPN": "鏡子",
+		"JPN": "「ちょっと手伝ってもらってもいいかしら？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Would you mind helping me out just a little bit with the shed?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 295,
+		"MSGID": 96,
+		"NameJPN": "羽依里",
+		"JPN": "「代わりじゃなくても、言ってくれればいつでも手伝いますよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You don't have to pressure me for that at all―I'll help out any time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 297,
+		"MSGID": 97,
+		"NameJPN": "羽依里",
+		"JPN": "「元々、俺はその為にこの島に来たんですから」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, that's the whole reason I came here in the first place.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a9c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2b010100716e"
+	},
+	{
+		"LABEL": "0x1aa6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1aac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 300,
+		"MSGID": 98,
+		"VOICEID": 7021,
+		"NameJPN": "鏡子",
+		"JPN": "「そうだったわね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I guess it was, wasn't it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ad6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2e010100056e"
+	},
+	{
+		"LABEL": "0x1ae0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ae6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 99,
+		"VOICEID": 7022,
+		"NameJPN": "鏡子",
+		"JPN": "「じゃあ、あそこの$[葛籠$/つ_づら$]、床に下ろしてもらっていいかしら？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Okay then, could you take that clothes hamper down from the shelf over there?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 306,
+		"MSGID": 100,
+		"NameJPN": "羽依里",
+		"JPN": "「わかりました」",
+		"NameENG": "Hairi",
+		"ENG": "\"Got it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b76",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3601"
+	},
+	{
+		"LABEL": "0x1b7c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1b82",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009e00000000000000"
+	},
+	{
+		"LABEL": "0x1b90",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1b98",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1b9e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1ba2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 312,
+		"MSGID": 101,
+		"JPN": "この日は一日、蔵掃除に精を出した。",
+		"ENG": "I spent that entire day working in the shed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bd4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 314,
+		"MSGID": 102,
+		"JPN": "本当は、毎日これをするはずだったんだがな、と思いつつも……",
+		"ENG": "As I worked, I couldn't shake the thought that this is what I should've been doing this whole time...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c1e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3c01000000007800"
+	},
+	{
+		"LABEL": "0x1c2a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3f01"
+	},
+	{
+		"LABEL": "0x1c30",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c38",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1c46",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1c4c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1c52",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1c56",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1c5c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4301d11b0200"
+	},
+	{
+		"LABEL": "0x1c66",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "45010c220f030002f85b007800"
+	},
+	{
+		"LABEL": "0x1c78",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4701b1860100"
+	},
+	{
+		"LABEL": "0x1c82",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4801"
+	},
+	{
+		"LABEL": "0x1c88",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004800000000000000"
+	},
+	{
+		"LABEL": "0x1c96",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c9e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1ca4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1ca8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 330,
+		"MSGID": 103,
+		"JPN": "夕食の後、部屋に戻ってきた俺は、窓を開けて夕涼みをしていた。",
+		"ENG": "I headed back into my room after dinner, opened the windows, and basked in the evening breeze.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 332,
+		"MSGID": 104,
+		"JPN": "月が雲で隠れているせいで外は暗い。",
+		"ENG": "The moon was hidden behind the clouds, and it was pitch black out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d26",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4e01"
+	},
+	{
+		"LABEL": "0x1d2c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000aa00000000000000"
+	},
+	{
+		"LABEL": "0x1d3a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x1d42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1d48",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 336,
+		"MSGID": 105,
+		"JPN": "山の方を見れば、そこは真の闇――……",
+		"ENG": "I glanced over at the mountains, which were just as dark as the sky─",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d80",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "5201000000007800"
+	},
+	{
+		"LABEL": "0x1d8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 106,
+		"JPN": "……――のはずだった。",
+		"ENG": "─Or at least, I thought they would be.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1db2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 342,
+		"MSGID": 107,
+		"JPN": "山の裾野辺りに、小さな灯りが灯るのを見つけてしまった。",
+		"ENG": "I spotted a tiny little light gleaming in the darkness near the foot of the mountain.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1df8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "58010c00000000780001"
+	},
+	{
+		"LABEL": "0x1e06",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "5a01c3860100"
+	},
+	{
+		"LABEL": "0x1e10",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5b01"
+	},
+	{
+		"LABEL": "0x1e16",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004800000000000000"
+	},
+	{
+		"LABEL": "0x1e24",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1e2c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1e32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1e36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 349,
+		"MSGID": 108,
+		"NameJPN": "羽依里",
+		"JPN": "「……蒼？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Ao?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 351,
+		"MSGID": 109,
+		"JPN": "灯りは、ゆらゆらと揺らめきながら、少しずつ山を登っていく。",
+		"ENG": "The light flickered and wavered as it slowly ascended the mountain.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ea6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 353,
+		"MSGID": 110,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1eca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 355,
+		"MSGID": 111,
+		"JPN": "来るなと言われた。",
+		"ENG": "She told me not to go.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1eec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 357,
+		"MSGID": 112,
+		"JPN": "今も、灯りを見つけなければ、行かなかったかもしれない。",
+		"ENG": "And I might've taken her advice, too, if I hadn't noticed that little light.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 359,
+		"MSGID": 113,
+		"JPN": "でも、見つけてしまった。",
+		"ENG": "But, I saw it, and that was that.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f5a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6b01"
+	},
+	{
+		"LABEL": "0x1f60",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1f66",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1f74",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00000012271800"
+	},
+	{
+		"LABEL": "0x1f80",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f84",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002700000000000000"
+	},
+	{
+		"LABEL": "0x1f92",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00000012271800"
+	},
+	{
+		"LABEL": "0x1f9e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1fa2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x1faa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 365,
+		"MSGID": 114,
+		"JPN": "暗い夜道を、俺は山へと急いだ。",
+		"ENG": "I rushed out into the darkness and hurried along the road towards the mountains.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fd8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 368,
+		"MSGID": 115,
+		"NameJPN": "羽依里",
+		"JPN": "「また蒼に怒られるかな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wonder if she'll get mad at me again...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x200e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 370,
+		"MSGID": 116,
+		"JPN": "でも、灯りを見つけてしまった以上、あのまま部屋に留まっていられなかった。",
+		"ENG": "After seeing that light, though, there was no way I could just sit around in my room.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2066",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 117,
+		"JPN": "蒼が心配だから――……っていうのは、すでに言い訳。",
+		"ENG": "I was worried about her... But I already knew that was an excuse.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 374,
+		"MSGID": 118,
+		"JPN": "単純に――。",
+		"ENG": "To put it simply...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 376,
+		"MSGID": 119,
+		"JPN": "そう、蒼に会いたいんだ。",
+		"ENG": "I just wanted to see her, that's all.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20ec",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7c01"
+	},
+	{
+		"LABEL": "0x20f2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x2100",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2108",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x210e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x2118",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x211e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x212c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x2132",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2136",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "7d013c00"
+	},
+	{
+		"LABEL": "0x213e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7f0100002e00000000000000"
+	},
+	{
+		"LABEL": "0x214e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e"
+	},
+	{
+		"LABEL": "0x215a",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x2162",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000004cff"
+	},
+	{
+		"LABEL": "0x2170",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a340880fd4cff"
+	},
+	{
+		"LABEL": "0x217e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x2186",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x218c",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "80013c00"
+	},
+	{
+		"LABEL": "0x2194",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 386,
+		"MSGID": 120,
+		"JPN": "懐中電灯で周囲を照らしながら、山道を歩く。",
+		"ENG": "I made my way along the mountain trail, my trusty flashlight in hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 388,
+		"MSGID": 121,
+		"NameJPN": "羽依里",
+		"JPN": "「……どこまで登ってるんだろう？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...How far up is she going?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x220a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 390,
+		"MSGID": 122,
+		"JPN": "どう歩けば蒼に追いつけるのか、見当がつかなかった。",
+		"ENG": "I didn't have any great ideas on how to find her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x224c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 392,
+		"MSGID": 123,
+		"JPN": "もしかしたら、入れ違いで蒼は山を下りているかもしれない。",
+		"ENG": "It was totally possible I'd passed right by her, and she was already on her way back home.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2294",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8a01"
+	},
+	{
+		"LABEL": "0x229a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002e00000000000000"
+	},
+	{
+		"LABEL": "0x22a8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x22b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x22ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 396,
+		"MSGID": 124,
+		"NameJPN": "羽依里",
+		"JPN": "「我ながら、バカなことしてるよな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is pretty stupid, if I do say so myself...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22fa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8e01"
+	},
+	{
+		"LABEL": "0x2300",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002f00000000000000"
+	},
+	{
+		"LABEL": "0x230e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x2316",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "b400"
+	},
+	{
+		"LABEL": "0x231c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 400,
+		"MSGID": 125,
+		"NameJPN": "羽依里",
+		"JPN": "「ん……あれ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm... Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2346",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 402,
+		"MSGID": 126,
+		"JPN": "その時、懐中電灯の光が突然消えた。",
+		"ENG": "Suddenly, my flashlight cut out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2378",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "94010b1c0f030002f85b007800"
+	},
+	{
+		"LABEL": "0x238a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "960100000000f000"
+	},
+	{
+		"LABEL": "0x2396",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 408,
+		"MSGID": 127,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっ……まさか、電池切れ!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wha―no way, the battery's dead!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 410,
+		"MSGID": 128,
+		"NameJPN": "羽依里",
+		"JPN": "「嘘だろ、おい……」",
+		"NameENG": "Hairi",
+		"ENG": "\"You've gotta be kidding me...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2400",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 412,
+		"MSGID": 129,
+		"NameJPN": "羽依里",
+		"JPN": "「こんな山の中で……どうするんだよ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm way up in the mountains right now... What the hell am I supposed to do...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2442",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 414,
+		"MSGID": 130,
+		"NameJPN": "羽依里",
+		"JPN": "「シャレにならないぞ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is no laughing matter...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2476",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 416,
+		"MSGID": 131,
+		"JPN": "辺りは星明かりもない真の闇。",
+		"ENG": "My surroundings were pitch black, devoid of even a hint of starlight.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 418,
+		"MSGID": 132,
+		"JPN": "時間が経てばある程度は目も慣れるだろうけど、それでもここは舗装された道路じゃない。",
+		"ENG": "If I wait a while, my eyes should adjust to some extent, but even so, this isn't exactly a paved road.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 420,
+		"MSGID": 133,
+		"JPN": "足場の悪い山の中、迂闊に動けば足を踏み外すこともあり得る。",
+		"ENG": "The footing's pretty awful on this path. I could very easily trip and fall if I walk carelessly here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x254e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 422,
+		"MSGID": 134,
+		"NameJPN": "羽依里",
+		"JPN": "「最悪、朝までここから動かずにいるしか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Worst case, I might have to stay put here until the sun comes up...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2594",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 424,
+		"MSGID": 135,
+		"JPN": "不安がジワジワと俺の意志と体を支配し始めたその時――",
+		"ENG": "As the anxiety slowly sank in and I felt myself begin to panic...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25d8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "aa010b00000000b40001"
+	},
+	{
+		"LABEL": "0x25e6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ac01"
+	},
+	{
+		"LABEL": "0x25ec",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ad010005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x25fc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x260a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00050000000000cafd"
+	},
+	{
+		"LABEL": "0x2618",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000003602"
+	},
+	{
+		"LABEL": "0x2626",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "ae01210001000000000060ea0000"
+	},
+	{
+		"LABEL": "0x2638",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "af010000eb00000000000000"
+	},
+	{
+		"LABEL": "0x2648",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e"
+	},
+	{
+		"LABEL": "0x2654",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x265c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000080fd4cff"
+	},
+	{
+		"LABEL": "0x266a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a100e00004cff"
+	},
+	{
+		"LABEL": "0x2678",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x2680",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2686",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "b0013c00"
+	},
+	{
+		"LABEL": "0x268e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 434,
+		"MSGID": 136,
+		"NameJPN": "羽依里",
+		"JPN": "「え……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 436,
+		"MSGID": 137,
+		"JPN": "闇の中に、ゆらゆらと揺らめく小さな光。",
+		"ENG": "I spotted a tiny light, flickering in the darkness.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 438,
+		"MSGID": 138,
+		"NameJPN": "羽依里",
+		"JPN": "「あ、蒼か？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah, is that Ao?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2710",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 440,
+		"MSGID": 139,
+		"NameJPN": "羽依里",
+		"JPN": "「いや……あれは……」",
+		"NameENG": "Hairi",
+		"ENG": "\"No... That's...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2740",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "ba0121000000"
+	},
+	{
+		"LABEL": "0x274a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "22000000"
+	},
+	{
+		"LABEL": "0x2752",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "bc01"
+	},
+	{
+		"LABEL": "0x2758",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "bd010005"
+	},
+	{
+		"LABEL": "0x2760",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x276e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x2774",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x2782",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "bf011c0000000000010000009cff60ea000000000000000000000000"
+	},
+	{
+		"LABEL": "0x27a2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c0010000eb00000000000000"
+	},
+	{
+		"LABEL": "0x27b2",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x27ba",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000004000400000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x27cc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000000009afe1800"
+	},
+	{
+		"LABEL": "0x27da",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a100eba011800"
+	},
+	{
+		"LABEL": "0x27e8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x27f0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x27f6",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "c101c3860100"
+	},
+	{
+		"LABEL": "0x2800",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "c201f000"
+	},
+	{
+		"LABEL": "0x2808",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 452,
+		"MSGID": 140,
+		"NameJPN": "羽依里",
+		"JPN": "「……七影蝶」",
+		"NameENG": "Hairi",
+		"ENG": "\"...An iridescent shade.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2830",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 454,
+		"MSGID": 141,
+		"JPN": "光の正体は、間違いなく七影蝶。",
+		"ENG": "The light was, without a doubt, an iridescent shade.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x285e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 456,
+		"MSGID": 142,
+		"JPN": "先日も見た、光る蝶だった。",
+		"ENG": "The same sort of glowing butterfly I'd seen the other day.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2888",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 458,
+		"MSGID": 143,
+		"JPN": "蝶は、空中を漂うように飛んでいた。",
+		"ENG": "It flew along, seemingly aimlessly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 460,
+		"MSGID": 144,
+		"JPN": "淡く儚く、それでいてどこか純粋な微光を放ちながら。",
+		"ENG": "Its light was fleeting, ephemeral, and yet somehow pure and gentle.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 462,
+		"MSGID": 145,
+		"JPN": "ゆらゆらと、ふわふわと。",
+		"ENG": "It flitted and fluttered.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2924",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "d0011c00ffff"
+	},
+	{
+		"LABEL": "0x292e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "1d00ffff"
+	},
+	{
+		"LABEL": "0x2936",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "1e000000"
+	},
+	{
+		"LABEL": "0x293e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "1f000000"
+	},
+	{
+		"LABEL": "0x2946",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2000ffff"
+	},
+	{
+		"LABEL": "0x294e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "23000000"
+	},
+	{
+		"LABEL": "0x2956",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "24000000"
+	},
+	{
+		"LABEL": "0x295e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "d101"
+	},
+	{
+		"LABEL": "0x2964",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x2972",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x297a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2980",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2986",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x298c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x299a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x29a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x29a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 467,
+		"MSGID": 146,
+		"JPN": "俺の方へと。",
+		"ENG": "Towards me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29c0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "d601"
+	},
+	{
+		"LABEL": "0x29c6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002f00000000000000"
+	},
+	{
+		"LABEL": "0x29d4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x29dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x29e2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x29e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 472,
+		"MSGID": 147,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 474,
+		"MSGID": 148,
+		"JPN": "その姿は、今日蔵の中で見た標本とは違っていた。",
+		"ENG": "It looked nothing like the specimen I saw in the shed earlier today.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 476,
+		"MSGID": 149,
+		"JPN": "輝き方は、飛んでいる方が遙かに神秘的で神々しかった。",
+		"ENG": "The actual butterfly had a much more divine, mystical glow to it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 478,
+		"MSGID": 150,
+		"NameJPN": "羽依里",
+		"JPN": "「これが……本物の七影蝶……」",
+		"NameENG": "Hairi",
+		"ENG": "\"So this is... a real iridescent shade...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ac2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 480,
+		"MSGID": 151,
+		"JPN": "俺は、蒼がやっていたように、蝶に向かってそっと手を伸ばした。",
+		"ENG": "I reached out towards the butterfly, just like Ao had.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b0e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "e201"
+	},
+	{
+		"LABEL": "0x2b14",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "e4011c00000000000200b5ffe7ffffffffff00000000000000000000"
+	},
+	{
+		"LABEL": "0x2b34",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e5010000eb00000000000000"
+	},
+	{
+		"LABEL": "0x2b44",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x2b4c",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x2b5e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x2b6c",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "e6013c00"
+	},
+	{
+		"LABEL": "0x2b74",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "e70100000a2c0115004e00"
+	},
+	{
+		"LABEL": "0x2b84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2b88",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "e901"
+	},
+	{
+		"LABEL": "0x2b8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 491,
+		"MSGID": 152,
+		"JPN": "蝶は、躊躇うように少しホバリングし……",
+		"ENG": "It seemed to hesitate slightly, hovering above my fingers...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bc4",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "ed011c00ffff"
+	},
+	{
+		"LABEL": "0x2bce",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "1d00ffff"
+	},
+	{
+		"LABEL": "0x2bd6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "1e000000"
+	},
+	{
+		"LABEL": "0x2bde",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "1f000000"
+	},
+	{
+		"LABEL": "0x2be6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2000ffff"
+	},
+	{
+		"LABEL": "0x2bee",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "23000000"
+	},
+	{
+		"LABEL": "0x2bf6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "24000000"
+	},
+	{
+		"LABEL": "0x2bfe",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ee01"
+	},
+	{
+		"LABEL": "0x2c04",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x2c12",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2c1a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2c20",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000004b27"
+	},
+	{
+		"LABEL": "0x2c2a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c30",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x2c3e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x2c44",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2c48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 496,
+		"MSGID": 153,
+		"JPN": "それから、俺の指先に止まった。",
+		"ENG": "Before finally settling onto my hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 500,
+		"MSGID": 154,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 502,
+		"MSGID": 155,
+		"JPN": "その瞬間、不思議な……",
+		"ENG": "In that moment, something strange...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cc0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 504,
+		"MSGID": 156,
+		"JPN": "いや、訳のわからないことが起きた。",
+		"ENG": "No, something totally inexplicable happened.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cf2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "fa01"
+	},
+	{
+		"LABEL": "0x2cf8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fb010307290205"
+	},
+	{
+		"LABEL": "0x2d04",
+		"Type": "SEPIA_COLOR",
+		"SUBCMD": 0,
+		"Args": "d5d5d52a1005"
+	},
+	{
+		"LABEL": "0x2d0e",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff00ff"
+	},
+	{
+		"LABEL": "0x2d16",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff04ff"
+	},
+	{
+		"LABEL": "0x2d1e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fc010000e400000000000000"
+	},
+	{
+		"LABEL": "0x2d2e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2d36",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000cc3ccc3c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x2d48",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000008000400"
+	},
+	{
+		"LABEL": "0x2d56",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "fd013c0000004b27"
+	},
+	{
+		"LABEL": "0x2d62",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2d66",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ff010000c700000000000000"
+	},
+	{
+		"LABEL": "0x2d76",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2d7e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000cc3ccc3c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x2d90",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000008000400"
+	},
+	{
+		"LABEL": "0x2d9e",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "00023c0000004b27"
+	},
+	{
+		"LABEL": "0x2daa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2dae",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "02020000db00000000000000"
+	},
+	{
+		"LABEL": "0x2dbe",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2dc6",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000cc3ccc3c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x2dd8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000008000400"
+	},
+	{
+		"LABEL": "0x2de6",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "03023c0000004b27"
+	},
+	{
+		"LABEL": "0x2df2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2df6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "05020000bd00000000000000"
+	},
+	{
+		"LABEL": "0x2e06",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e0e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000cc3ccc3c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x2e20",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000008000400"
+	},
+	{
+		"LABEL": "0x2e2e",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "06023c0000004b27"
+	},
+	{
+		"LABEL": "0x2e3a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2e3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 521,
+		"MSGID": 157,
+		"NameJPN": "羽依里",
+		"JPN": "（なん、だ……これ……）",
+		"NameENG": "Hairi",
+		"ENG": "(W-What's... happening...?)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 523,
+		"MSGID": 158,
+		"NameJPN": "羽依里",
+		"JPN": "（何かが……俺の中……流れこんで……く、る……）",
+		"NameENG": "Hairi",
+		"ENG": "(Something's... flowing... into... me...)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2eba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 525,
+		"MSGID": 159,
+		"NameJPN": "羽依里",
+		"JPN": "（これって……）",
+		"NameENG": "Hairi",
+		"ENG": "(This id...)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ee4",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "0f020307"
+	},
+	{
+		"LABEL": "0x2eec",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff0000"
+	},
+	{
+		"LABEL": "0x2ef4",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff0400"
+	},
+	{
+		"LABEL": "0x2efc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1002"
+	},
+	{
+		"LABEL": "0x2f02",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x2f10",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2f18",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2f1e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2f24",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2f2a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x2f38",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x2f3e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2f42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 530,
+		"MSGID": 160,
+		"JPN": "俺は今、闇の中に立っている。",
+		"ENG": "I was surrounded by pitch blackness.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 532,
+		"MSGID": 161,
+		"JPN": "にもかかわらず、俺は見た。",
+		"ENG": "And yet, I could see.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 534,
+		"MSGID": 162,
+		"JPN": "知らない場所を。",
+		"ENG": "Places I'd never been to before.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 536,
+		"MSGID": 163,
+		"JPN": "初めて会う人たちの顔を。",
+		"ENG": "Faces of people I'd never met.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 538,
+		"MSGID": 164,
+		"JPN": "体験したことのない思い出の断片を。",
+		"ENG": "Fragments of experiences I'd never had.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3012",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1c02000000002c01"
+	},
+	{
+		"LABEL": "0x301e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 542,
+		"MSGID": 165,
+		"JPN": "漠然と理解する。",
+		"ENG": "I vaguely understood what they were.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x303e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 544,
+		"MSGID": 166,
+		"JPN": "これは『記憶』だ、と。",
+		"ENG": "They were 'memories.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3064",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 546,
+		"MSGID": 167,
+		"JPN": "体が、自分じゃない別の人間のものへと内側から染められていくような不思議な感覚。",
+		"ENG": "I felt a strange sensation―like I was being overwritten by some other person from the inside out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 548,
+		"MSGID": 168,
+		"JPN": "体だけでなく、『思考』までもが、その誰かに埋め尽くされていく。",
+		"ENG": "It wasn't just my body. My 'thoughts' themselves were being smothered by somebody else's.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3110",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 550,
+		"MSGID": 169,
+		"JPN": "どこかの誰かが体験した喜びと楽しい記憶。",
+		"ENG": "There were happy, joyful memories from someone else's life, somewhere else in the world.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3148",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2802be860100"
+	},
+	{
+		"LABEL": "0x3152",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 554,
+		"MSGID": 170,
+		"JPN": "そして、それを凌駕する激しい後悔の念と哀しみ……",
+		"ENG": "But those were overpowered by bitter, violently regretful memories of grief...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3192",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2d02"
+	},
+	{
+		"LABEL": "0x3198",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2e020000bb00000000000000"
+	},
+	{
+		"LABEL": "0x31a8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x31b0",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x31c2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x31d0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2f020306e8fd03"
+	},
+	{
+		"LABEL": "0x31dc",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030603"
+	},
+	{
+		"LABEL": "0x31e4",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0x31ec",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "030680"
+	},
+	{
+		"LABEL": "0x31f4",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03060000003e003e"
+	},
+	{
+		"LABEL": "0x3200",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0306000000c0fe4cff"
+	},
+	{
+		"LABEL": "0x320e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "30020301240203"
+	},
+	{
+		"LABEL": "0x321a",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030102"
+	},
+	{
+		"LABEL": "0x3222",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "33020307270205"
+	},
+	{
+		"LABEL": "0x322e",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "34027800"
+	},
+	{
+		"LABEL": "0x3236",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x323a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0301"
+	},
+	{
+		"LABEL": "0x3240",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030100"
+	},
+	{
+		"LABEL": "0x3248",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "38020000"
+	},
+	{
+		"LABEL": "0x3250",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3802ab00000000",
+		"JPN": "――どうして……こんなことに……",
+		"ENG": "―Why... Why did this...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x3280",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3286",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 0,
+		"Args2": "38ff6400",
+		"JPN": "──どうして……こんなことに……",
+		"ENG": "―Why... Why did this...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x32ba",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x32c0",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "39020000"
+	},
+	{
+		"LABEL": "0x32c8",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3902ac00000000",
+		"JPN": "――なぜ『私』がこんな目に遭わなければならないんだ……",
+		"ENG": "―Why did this have to happen to me...?",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x330e",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3314",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 1,
+		"Args2": "c80038ff",
+		"JPN": "──なぜ『私』がこんな目に遭わなければならないんだ……",
+		"ENG": "―Why did this have to happen to me...?",
+		"Args3": "b80b02000400"
+	},
+	{
+		"LABEL": "0x335e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "b400"
+	},
+	{
+		"LABEL": "0x3364",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3a020000"
+	},
+	{
+		"LABEL": "0x336c",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3a02ad00000000",
+		"JPN": "――返してくれ……私の妻と娘を……",
+		"ENG": "―Give them back... Give me my wife and daughter back...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x339e",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x33a4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 2,
+		"Args2": "38ff6400",
+		"JPN": "──返してくれ……私の妻と娘を……",
+		"ENG": "―Give them back... Give me my wife and daughter back...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x33da",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x33e0",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3b020000"
+	},
+	{
+		"LABEL": "0x33e8",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3b02ae00000000",
+		"JPN": "――２人は確かに生きていたんだ……",
+		"ENG": "―I know they were here...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x341a",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3420",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 3,
+		"Args2": "c80038ff",
+		"JPN": "──２人は確かに生きていたんだ……",
+		"ENG": "―I know they were here...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x3456",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x345c",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3c020000"
+	},
+	{
+		"LABEL": "0x3464",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3c02af00000000",
+		"JPN": "――この部屋で、私と一緒に……",
+		"ENG": "―They were here, with me, in this very room...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x3492",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3498",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 4,
+		"Args2": "00000000",
+		"JPN": "──この部屋で、私と一緒に……",
+		"ENG": "―They were here, with me, in this very room...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x34ca",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x34d0",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3d020000"
+	},
+	{
+		"LABEL": "0x34d8",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3d02b000000000",
+		"JPN": "――なのに……どうして彼女たちだけが事故で死ななければならなかったんだ……",
+		"ENG": "―So why... Why did they have to die in that accident...!?",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x3532",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3538",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 5,
+		"Args2": "32006400",
+		"JPN": "──なのに……どうして彼女たちだけが事故で死ななければならなかったんだ……",
+		"ENG": "―So why... Why did they have to die in that accident...!?",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x3596",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x359c",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3e020000"
+	},
+	{
+		"LABEL": "0x35a4",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3e02b100000000",
+		"JPN": "――なぜ私だけが生き残った……",
+		"ENG": "―Why was I the only one left alive...!?",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x35d2",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x35d8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 6,
+		"Args2": "38ffceff",
+		"JPN": "──なぜ私だけが生き残った……",
+		"ENG": "―Why was I the only one left alive...!?",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x360a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x3610",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3f020000"
+	},
+	{
+		"LABEL": "0x3618",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3f02b200000000",
+		"JPN": "――この苦しみから解放してくれ……誰か……誰か……",
+		"ENG": "―Someone, please... Free me from this suffering... Please...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x365a",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3660",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 7,
+		"Args2": "c80038ff",
+		"JPN": "──この苦しみから解放してくれ……誰か……誰か……",
+		"ENG": "―Someone, please... Free me from this suffering... Please...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x36a6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x36ac",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "40020000"
+	},
+	{
+		"LABEL": "0x36b4",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "4002b300000000",
+		"JPN": "――私を……殺してくれ……",
+		"ENG": "―Somebody... Please... Kill me...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x36de",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x36e4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 8,
+		"Args2": "38ff6400",
+		"JPN": "──私を……殺してくれ……",
+		"ENG": "―Somebody... Please... Kill me...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x3712",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x3718",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "41020000"
+	},
+	{
+		"LABEL": "0x3720",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "4102b400000000",
+		"JPN": "――私も……２人のところに行かせてくれ……",
+		"ENG": "―Please... Let me be with them...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x375a",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3760",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 9,
+		"Args2": "c80038ff",
+		"JPN": "──私も……２人のところに行かせてくれ……",
+		"ENG": "―Please... Let me be with them...",
+		"Args3": "c40902000400"
+	},
+	{
+		"LABEL": "0x379e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0x37a4",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "42020000"
+	},
+	{
+		"LABEL": "0x37ac",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "4202b500000000",
+		"JPN": "――妻と娘の元に……今すぐ……",
+		"ENG": "―Bring me to my wife and daughter... Now...",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x37da",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x37e0",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"ID": 10,
+		"Args2": "00000000",
+		"JPN": "──妻と娘の元に……今すぐ……",
+		"ENG": "―Bring me to my wife and daughter... Now...",
+		"Args3": "7c1503000400"
+	},
+	{
+		"LABEL": "0x3812",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "4a01"
+	},
+	{
+		"LABEL": "0x3818",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "44022700ffff"
+	},
+	{
+		"LABEL": "0x3822",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "5f020307"
+	},
+	{
+		"LABEL": "0x382a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6002"
+	},
+	{
+		"LABEL": "0x3830",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x383e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3846",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x384c",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0x3854",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "030600000000000000"
+	},
+	{
+		"LABEL": "0x3862",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x3868",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x386e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3874",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x387a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3888",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x388e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3892",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "62020301240203"
+	},
+	{
+		"LABEL": "0x389e",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030102"
+	},
+	{
+		"LABEL": "0x38a6",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "63023c00"
+	},
+	{
+		"LABEL": "0x38ae",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "65020005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x38be",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x38cc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00050000000000cafd"
+	},
+	{
+		"LABEL": "0x38da",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000003602"
+	},
+	{
+		"LABEL": "0x38e8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "66020000eb00000000000000"
+	},
+	{
+		"LABEL": "0x38f8",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e"
+	},
+	{
+		"LABEL": "0x3904",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x390c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000004cff"
+	},
+	{
+		"LABEL": "0x391a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a100e80fd4cff"
+	},
+	{
+		"LABEL": "0x3928",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x3930",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3936",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "67023c00"
+	},
+	{
+		"LABEL": "0x393e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 617,
+		"MSGID": 182,
+		"JPN": "体が、ゆっくりと歩を進める。",
+		"ENG": "I felt myself slowly step forward.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x396a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 619,
+		"MSGID": 183,
+		"JPN": "一歩、また一歩と……",
+		"ENG": "One step, and then another...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x398e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 621,
+		"MSGID": 184,
+		"JPN": "俺の意思とはまったく無関係に……",
+		"ENG": "Moving by no will of my own...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 623,
+		"MSGID": 185,
+		"NameJPN": "羽依里",
+		"JPN": "「……今……行くから……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I'll... I'll be right there...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 625,
+		"MSGID": 186,
+		"NameJPN": "羽依里",
+		"JPN": "「私も……おまえたちのところに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll join you... Soon...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 627,
+		"MSGID": 187,
+		"JPN": "闇の中へ向かって、さらに一歩――",
+		"ENG": "One more step, into the darkness...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 629,
+		"MSGID": 188,
+		"JPN": "――ああ、楽になれる……",
+		"ENG": "─Now, I can finally rest in peace...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a88",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "77020301"
+	},
+	{
+		"LABEL": "0x3a90",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030100"
+	},
+	{
+		"LABEL": "0x3a98",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0005"
+	},
+	{
+		"LABEL": "0x3a9e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x3aac",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x3ab2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x3ac0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x3ac6",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "7802000000003c00"
+	},
+	{
+		"LABEL": "0x3ad2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7902"
+	},
+	{
+		"LABEL": "0x3ad8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x3ae6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3aee",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3af4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3afa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3b00",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3b0e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x3b14",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3b18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 635,
+		"MSGID": 189,
+		"VOICEID": 7023,
+		"NameJPN": "蒼",
+		"JPN": "「――羽依里っ！」",
+		"NameENG": "Ao",
+		"ENG": "\"─Hairi!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b40",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 637,
+		"MSGID": 190,
+		"JPN": "聞き慣れた音が、頭の中を駆け抜けた。",
+		"ENG": "The familiar sound of Ao's voice shook me out of my stupor.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 640,
+		"MSGID": 191,
+		"VOICEID": 7024,
+		"NameJPN": "蒼",
+		"JPN": "「っの……バカ！」",
+		"NameENG": "Ao",
+		"ENG": "\"You... dumbass!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b9c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "8202053e0e0300"
+	},
+	{
+		"LABEL": "0x3ba8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 644,
+		"MSGID": 192,
+		"JPN": "続いてパン！と、何かが顔の横ではじける。",
+		"ENG": "I heard something impact right beside my face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3be0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 646,
+		"MSGID": 193,
+		"JPN": "それが自分の頬を叩かれたのだと気づくのに、少し時間がかかった。",
+		"ENG": "It took me a moment to realize that it was the sound of me getting slapped.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c2e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8802"
+	},
+	{
+		"LABEL": "0x3c34",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000eb00000000000000"
+	},
+	{
+		"LABEL": "0x3c42",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x3c4a",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e005d2b7800"
+	},
+	{
+		"LABEL": "0x3c54",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3c58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 650,
+		"MSGID": 194,
+		"JPN": "でもそれに気づくと同時に『記憶』が自分の中から薄れて行くのを感じる。",
+		"ENG": "As soon as I realized that, though, I felt those 'memories' fade away from me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cac",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8c02"
+	},
+	{
+		"LABEL": "0x3cb2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000eb00000000000000"
+	},
+	{
+		"LABEL": "0x3cc0",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x3cd2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x3ce0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x3ce8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100c75400008002b400d900"
+	},
+	{
+		"LABEL": "0x3cf8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3cfe",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3d02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 654,
+		"MSGID": 195,
+		"NameJPN": "羽依里",
+		"JPN": "「……蒼？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Ao?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "90020100cd54"
+	},
+	{
+		"LABEL": "0x3d32",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3d38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 657,
+		"MSGID": 196,
+		"VOICEID": 7025,
+		"NameJPN": "蒼",
+		"JPN": "「動かないで！」",
+		"NameENG": "Ao",
+		"ENG": "\"Don't move!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 659,
+		"MSGID": 197,
+		"NameJPN": "羽依里",
+		"JPN": "「え……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 661,
+		"MSGID": 198,
+		"JPN": "何故だろう、蒼に胸ぐらを捕まれている。",
+		"ENG": "For some reason, Ao was holding me by my collar.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3db8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "970201002755"
+	},
+	{
+		"LABEL": "0x3dc2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3dc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 664,
+		"MSGID": 199,
+		"VOICEID": 7026,
+		"NameJPN": "蒼",
+		"JPN": "「下を見なさい……」",
+		"NameENG": "Ao",
+		"ENG": "\"Look down...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3df2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9a02"
+	},
+	{
+		"LABEL": "0x3df8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x3e06",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3e0e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x3e14",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3e1a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001827"
+	},
+	{
+		"LABEL": "0x3e24",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3e2a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3e38",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x3e3e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3e42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 668,
+		"MSGID": 200,
+		"JPN": "蒼が神妙な顔のまま、灯籠で俺の足もとを照らした。",
+		"ENG": "Ao looked anxious as she shone her lantern on the ground beneath us.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 670,
+		"MSGID": 201,
+		"JPN": "左足は地面の上。",
+		"ENG": "My left foot was still on solid ground.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ea2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 672,
+		"MSGID": 202,
+		"JPN": "しかし、踏み出そうとした右足の先は、何も無い虚空……",
+		"ENG": "My right foot, however, was stretched out into empty space...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ee6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 674,
+		"MSGID": 203,
+		"JPN": "俺は、崖の上に立っていた。",
+		"ENG": "I was standing on the edge of a cliff.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f10",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "a402b3860100"
+	},
+	{
+		"LABEL": "0x3f1a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a602"
+	},
+	{
+		"LABEL": "0x3f20",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3f2e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3f36",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3f3c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3f40",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a702"
+	},
+	{
+		"LABEL": "0x3f46",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002f00000000000000"
+	},
+	{
+		"LABEL": "0x3f54",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x3f5c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3f62",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3f66",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a802"
+	},
+	{
+		"LABEL": "0x3f6c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3f7a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3f82",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3f88",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3f8c",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "a9020400"
+	},
+	{
+		"LABEL": "0x3f94",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "aa02"
+	},
+	{
+		"LABEL": "0x3f9a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002f00000000000000"
+	},
+	{
+		"LABEL": "0x3fa8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x3fb0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3fb6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3fba",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ab02666d0100"
+	},
+	{
+		"LABEL": "0x3fc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 685,
+		"MSGID": 204,
+		"NameJPN": "羽依里",
+		"JPN": "「っ……!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fec",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "af02"
+	},
+	{
+		"LABEL": "0x3ff2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000eb00000000000000"
+	},
+	{
+		"LABEL": "0x4000",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x4012",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x4020",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x4028",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100035500008002b400d900"
+	},
+	{
+		"LABEL": "0x4038",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x403e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4042",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 689,
+		"MSGID": 205,
+		"VOICEID": 7027,
+		"NameJPN": "蒼",
+		"JPN": "「いい？　ゆっくり後ろに下がるわよ？」",
+		"NameENG": "Ao",
+		"ENG": "\"Got it? We're going to slowly back away, okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x407e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 691,
+		"MSGID": 206,
+		"NameJPN": "羽依里",
+		"JPN": "「あ、ああ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"R-Right...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 693,
+		"MSGID": 207,
+		"JPN": "蒼が俺の体を引っ張るように後退する。",
+		"ENG": "Ao practically dragged me away from the sheer drop.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40dc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b7020100f754"
+	},
+	{
+		"LABEL": "0x40e6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x40ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 696,
+		"MSGID": 208,
+		"VOICEID": 7028,
+		"NameJPN": "蒼",
+		"JPN": "「足を下ろしていいわ」",
+		"NameENG": "Ao",
+		"ENG": "\"It's okay, you can stand.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4118",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 698,
+		"MSGID": 209,
+		"JPN": "ゆっくりと下ろした右足は、確かに地面を踏みしめた。",
+		"ENG": "I slowly lowered my right foot back to the ground.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x415a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 700,
+		"MSGID": 210,
+		"JPN": "そのままさらに数歩後退する。",
+		"ENG": "Then I took a few more steps back.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4186",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "be0201009f55"
+	},
+	{
+		"LABEL": "0x4190",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4196",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 703,
+		"MSGID": 211,
+		"VOICEID": 7029,
+		"NameJPN": "蒼",
+		"JPN": "「もう大丈夫よ」",
+		"NameENG": "Ao",
+		"ENG": "\"You're all right now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41bc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c102"
+	},
+	{
+		"LABEL": "0x41c2",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "c2020100"
+	},
+	{
+		"LABEL": "0x41ca",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002f00000000000000"
+	},
+	{
+		"LABEL": "0x41d8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x41e0",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x41f2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x4200",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "c3021e00"
+	},
+	{
+		"LABEL": "0x4208",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x420c",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "c502ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x421e",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x422e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 711,
+		"MSGID": 212,
+		"JPN": "安心した途端に、膝からその場に崩れ落ちた。",
+		"ENG": "The moment I realized I was safe, I crumpled to the ground.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4268",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c9020100035600008002b4007500"
+	},
+	{
+		"LABEL": "0x427a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4280",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 714,
+		"MSGID": 213,
+		"VOICEID": 7030,
+		"NameJPN": "蒼",
+		"JPN": "「ちょっと!?　大丈夫？」",
+		"NameENG": "Ao",
+		"ENG": "\"H-Hey!? You okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 716,
+		"MSGID": 214,
+		"NameJPN": "羽依里",
+		"JPN": "「こ、腰が抜けた……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I-I don't think I can stand up...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42e0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ce0201009155"
+	},
+	{
+		"LABEL": "0x42ea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x42f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 719,
+		"MSGID": 215,
+		"VOICEID": 7031,
+		"NameJPN": "蒼",
+		"JPN": "「ったく……」",
+		"NameENG": "Ao",
+		"ENG": "\"Geez...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4314",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "d10201000218009001b400"
+	},
+	{
+		"LABEL": "0x4324",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0101595800007003b4003900"
+	},
+	{
+		"LABEL": "0x4334",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010000007003dc00"
+	},
+	{
+		"LABEL": "0x4342",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218007003b400"
+	},
+	{
+		"LABEL": "0x4350",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4356",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 722,
+		"MSGID": 216,
+		"VOICEID": 7032,
+		"NameJPN": "イナリ",
+		"JPN": "「ポン」",
+		"NameENG": "Inari",
+		"ENG": "\"Pon.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4378",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 724,
+		"MSGID": 217,
+		"JPN": "へたり込んだ俺のそばにイナリがやってきた。",
+		"ENG": "As I lay prone and immobile, Inari trotted up to my side.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43b2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d6020100c155"
+	},
+	{
+		"LABEL": "0x43bc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x43c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 727,
+		"MSGID": 218,
+		"VOICEID": 7033,
+		"NameJPN": "蒼",
+		"JPN": "「イナリに感謝しなさい」",
+		"NameENG": "Ao",
+		"ENG": "\"You'd better show Inari some gratitude.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43f0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d9020100c755"
+	},
+	{
+		"LABEL": "0x43fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4400",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 730,
+		"MSGID": 219,
+		"VOICEID": 7034,
+		"NameJPN": "蒼",
+		"JPN": "「この子が、あたしをここまで引っ張ってきたんだからね」",
+		"NameENG": "Ao",
+		"ENG": "\"She's the one who dragged me all the way here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x444c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 733,
+		"MSGID": 220,
+		"NameJPN": "羽依里",
+		"JPN": "「イナリが……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Inari did...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4478",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "df020101a458"
+	},
+	{
+		"LABEL": "0x4482",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010100"
+	},
+	{
+		"LABEL": "0x448a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4490",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 736,
+		"MSGID": 221,
+		"VOICEID": 7035,
+		"NameJPN": "イナリ",
+		"JPN": "「ポン」",
+		"NameENG": "Inari",
+		"ENG": "\"Pon!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x44b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 739,
+		"MSGID": 222,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……ありがとうな、イナリ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Th-... Thanks, Inari...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x44ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 741,
+		"MSGID": 223,
+		"JPN": "俺はそっとイナリの頭を撫でた。",
+		"ENG": "I gently patted Inari's head.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x451c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e70201008755"
+	},
+	{
+		"LABEL": "0x4526",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x4534",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x453e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4544",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 744,
+		"MSGID": 224,
+		"VOICEID": 7036,
+		"NameJPN": "蒼",
+		"JPN": "「ていうか！」",
+		"NameENG": "Ao",
+		"ENG": "\"More importantly!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4568",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ea0201008d55"
+	},
+	{
+		"LABEL": "0x4572",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4578",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 747,
+		"MSGID": 225,
+		"VOICEID": 7037,
+		"NameJPN": "蒼",
+		"JPN": "「夜の山に入っちゃダメって言ったでしょ！」",
+		"NameENG": "Ao",
+		"ENG": "\"Didn't I tell you to stay away from the mountains at night!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45b8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ed0201002755"
+	},
+	{
+		"LABEL": "0x45c2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x45c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 750,
+		"MSGID": 226,
+		"VOICEID": 7038,
+		"NameJPN": "蒼",
+		"JPN": "「普通の人間が、他人の記憶に触れたら、ろくなことにならないんだから！」",
+		"NameENG": "Ao",
+		"ENG": "\"No normal person could walk away unscathed after touching somebody else's memories like that!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4624",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 752,
+		"MSGID": 227,
+		"NameJPN": "羽依里",
+		"JPN": "「他人の記憶……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Somebody else's memories...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4650",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 754,
+		"MSGID": 228,
+		"NameJPN": "羽依里",
+		"JPN": "「い、今のって、やっぱり……そうなのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"S-So those really were... memories?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4694",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f40201003155"
+	},
+	{
+		"LABEL": "0x469e",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x46a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x46ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 757,
+		"MSGID": 229,
+		"VOICEID": 7039,
+		"NameJPN": "蒼",
+		"JPN": "「そうよ。何が見えたのかは知らないけど」",
+		"NameENG": "Ao",
+		"ENG": "\"That's right. I don't know what you saw, but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46ea",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f70201003755"
+	},
+	{
+		"LABEL": "0x46f4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x46fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 760,
+		"MSGID": 230,
+		"VOICEID": 7040,
+		"NameJPN": "蒼",
+		"JPN": "「あんたはその記憶に乗っ取られたの。体と思考をね」",
+		"NameENG": "Ao",
+		"ENG": "\"Whatever they were, you were under their control in both body and mind.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4742",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fa0201006155"
+	},
+	{
+		"LABEL": "0x474c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4752",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 763,
+		"MSGID": 231,
+		"VOICEID": 7041,
+		"NameJPN": "蒼",
+		"JPN": "「あんたが見たのは、記憶の主が見たもの……」",
+		"NameENG": "Ao",
+		"ENG": "\"Everything you saw was something they saw.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4794",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fd0201005555"
+	},
+	{
+		"LABEL": "0x479e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x47a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 766,
+		"MSGID": 232,
+		"VOICEID": 7042,
+		"NameJPN": "蒼",
+		"JPN": "「あんたが体験したことは、記憶の主が体験したことよ」",
+		"NameENG": "Ao",
+		"ENG": "\"What you experienced were the things they experienced.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x47ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 768,
+		"MSGID": 233,
+		"NameJPN": "羽依里",
+		"JPN": "「死にたがっていた……誰か、私を殺してくれって……」",
+		"NameENG": "Hairi",
+		"ENG": "\"He wanted to die... He kept pleading for somebody to kill him...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x483c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 770,
+		"MSGID": 234,
+		"JPN": "いや……違うな……",
+		"ENG": "No... That's not quite right...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x485e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 772,
+		"MSGID": 235,
+		"JPN": "おそらくあの記憶の元の人間は……自分で生命を断っているんだろう。",
+		"ENG": "Most likely... the person who those memories came from was trying to take his own life.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x48ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 774,
+		"MSGID": 236,
+		"NameJPN": "羽依里",
+		"JPN": "「な、なあ……あの光る蝶は何なんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"H-Hey... What are those glowing butterflies?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x48ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "080301001b56"
+	},
+	{
+		"LABEL": "0x48f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x48fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 777,
+		"MSGID": 237,
+		"VOICEID": 7043,
+		"NameJPN": "蒼",
+		"JPN": "「……え？　あんた、見えたの？」",
+		"NameENG": "Ao",
+		"ENG": "\"...Huh? You can see them?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4934",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 779,
+		"MSGID": 238,
+		"NameJPN": "羽依里",
+		"JPN": "「見えた……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Other people can't...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x495e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0d030100abb6"
+	},
+	{
+		"LABEL": "0x4968",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x496e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 782,
+		"MSGID": 239,
+		"VOICEID": 7044,
+		"NameJPN": "蒼",
+		"JPN": "「あ……えっと……」",
+		"NameENG": "Ao",
+		"ENG": "\"Ah... Umm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4998",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 785,
+		"MSGID": 240,
+		"NameJPN": "羽依里",
+		"JPN": "「蒼……、おまえは一体何をしてるんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ao... What on earth are you doing out here?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49da",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "13030100bab6"
+	},
+	{
+		"LABEL": "0x49e4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x49ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 788,
+		"MSGID": 241,
+		"VOICEID": 7045,
+		"NameJPN": "蒼",
+		"JPN": "「……」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 791,
+		"MSGID": 242,
+		"NameJPN": "羽依里",
+		"JPN": "「蒼も、あの蝶には触れたことあるだろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You've touched those butterflies before too, haven't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 793,
+		"MSGID": 243,
+		"NameJPN": "羽依里",
+		"JPN": "「あの……七影蝶ってのに」",
+		"NameENG": "Hairi",
+		"ENG": "\"Those... iridescent shade things.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a7e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1b030100df55"
+	},
+	{
+		"LABEL": "0x4a88",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4a8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 796,
+		"MSGID": 244,
+		"VOICEID": 7046,
+		"NameJPN": "蒼",
+		"JPN": "「え……なんであんたがその名前を知ってるの？」",
+		"NameENG": "Ao",
+		"ENG": "\"Huh...? How do you know that name?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ad2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 798,
+		"MSGID": 245,
+		"NameJPN": "羽依里",
+		"JPN": "「ばーさんの蔵の中で見たんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I found some stuff in my grandmother's shed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 800,
+		"MSGID": 246,
+		"NameJPN": "羽依里",
+		"JPN": "「七影蝶の標本と、蝶について書かれた本を」",
+		"NameENG": "Hairi",
+		"ENG": "\"She had a display case with a mounted iridescent shade, and a book that had some information on them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b4e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "220301005b55"
+	},
+	{
+		"LABEL": "0x4b58",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4b5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 803,
+		"MSGID": 247,
+		"VOICEID": 7047,
+		"NameJPN": "蒼",
+		"JPN": "「七影蝶の標本？」",
+		"NameENG": "Ao",
+		"ENG": "\"A mounted iridescent shade?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b86",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "25030100abb6"
+	},
+	{
+		"LABEL": "0x4b90",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4b96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 806,
+		"MSGID": 248,
+		"VOICEID": 7048,
+		"NameJPN": "蒼",
+		"JPN": "「それ、たぶんニセモノよ」",
+		"NameENG": "Ao",
+		"ENG": "\"That's gotta be a fake.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4bc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 808,
+		"MSGID": 249,
+		"NameJPN": "羽依里",
+		"JPN": "「ニセモノ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A fake?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4bee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2a030100c5b6"
+	},
+	{
+		"LABEL": "0x4bf8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4bfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 811,
+		"MSGID": 250,
+		"VOICEID": 7049,
+		"NameJPN": "蒼",
+		"JPN": "「あの蝶は、標本になんてできないから」",
+		"NameENG": "Ao",
+		"ENG": "\"You can't really mount those butterflies, after all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c3a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 813,
+		"MSGID": 251,
+		"NameJPN": "羽依里",
+		"JPN": "「……そうなのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Is that so?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c68",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2f030100df55"
+	},
+	{
+		"LABEL": "0x4c72",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4c78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 816,
+		"MSGID": 252,
+		"VOICEID": 7050,
+		"NameJPN": "蒼",
+		"JPN": "「でも、本の方には興味あるわね……」",
+		"NameENG": "Ao",
+		"ENG": "\"I'd like to take a look at that book, though...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4cb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 818,
+		"MSGID": 253,
+		"JPN": "蒼は何かを考え込むように目を伏せた。",
+		"ENG": "Ao looked like she was thinking about something.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ce6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 820,
+		"MSGID": 254,
+		"NameJPN": "羽依里",
+		"JPN": "「なあ、七影蝶のこと、教えてくれないか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey, can you tell me about iridescent shades?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d2a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "360301009155"
+	},
+	{
+		"LABEL": "0x4d34",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4d3a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 823,
+		"MSGID": 255,
+		"VOICEID": 7051,
+		"NameJPN": "蒼",
+		"JPN": "「……あんた、あんな目にあってて、よくそういうこと訊けるわね」",
+		"NameENG": "Ao",
+		"ENG": "\"Really? You're still digging, even after what you just went through?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d8e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "390301008555"
+	},
+	{
+		"LABEL": "0x4d98",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4d9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 826,
+		"MSGID": 256,
+		"VOICEID": 7052,
+		"NameJPN": "蒼",
+		"JPN": "「っていうか、真面目に説教したいレベルなんだけど？」",
+		"NameENG": "Ao",
+		"ENG": "\"At this point I'm seriously tempted to give you a lecture you'll never forget.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4de8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 828,
+		"MSGID": 257,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……ごめんなさい……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah... Sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e1c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 830,
+		"MSGID": 258,
+		"JPN": "結構本気で怒っていた……",
+		"ENG": "She was genuinely pissed off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e44",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4003000000007800"
+	},
+	{
+		"LABEL": "0x4e50",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4103"
+	},
+	{
+		"LABEL": "0x4e56",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x4e5e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x4e64",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x4e6a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x4e78",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x4e7e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4e84",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4e88",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4e8e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "44030b200f030002f85b007800"
+	},
+	{
+		"LABEL": "0x4ea0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4503"
+	},
+	{
+		"LABEL": "0x4ea6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002700000000000000"
+	},
+	{
+		"LABEL": "0x4eb4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x4ebc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4ec2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4ec6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 839,
+		"MSGID": 259,
+		"JPN": "巫女服姿の蒼に連れられて山を下りた。",
+		"ENG": "I walked beside Ao as she descended the mountain, still clad in her shrine maiden outfit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4efa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 841,
+		"MSGID": 260,
+		"JPN": "蒼を挟んで、イナリも一緒だ。",
+		"ENG": "Inari followed along on her other side.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f26",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4b030100b8b600008002b4007500"
+	},
+	{
+		"LABEL": "0x4f38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4f3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 844,
+		"MSGID": 261,
+		"VOICEID": 7053,
+		"NameJPN": "蒼",
+		"JPN": "「………」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 846,
+		"MSGID": 262,
+		"JPN": "まだ怒っているようだし。",
+		"ENG": "She still seemed pretty upset.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 848,
+		"MSGID": 263,
+		"NameJPN": "羽依里",
+		"JPN": "「えーっと……あの蝶々って幽霊みたいなもの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So, umm... Are those butterflies sort of like ghosts?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fce",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "52030100aab6"
+	},
+	{
+		"LABEL": "0x4fd8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4fde",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 851,
+		"MSGID": 264,
+		"VOICEID": 7054,
+		"NameJPN": "蒼",
+		"JPN": "「………」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ffe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 853,
+		"MSGID": 265,
+		"NameJPN": "羽依里",
+		"JPN": "「そんなに睨まないで……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Please don't glare at me like that...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5032",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "57030100b8b6"
+	},
+	{
+		"LABEL": "0x503c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5042",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 856,
+		"MSGID": 266,
+		"VOICEID": 7055,
+		"NameJPN": "蒼",
+		"JPN": "「はぁ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Sigh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5064",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5a030100abb6"
+	},
+	{
+		"LABEL": "0x506e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5074",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 859,
+		"MSGID": 267,
+		"VOICEID": 7056,
+		"NameJPN": "蒼",
+		"JPN": "「あの蝶は、誰にでも見えるようなものじゃないのに……」",
+		"NameENG": "Ao",
+		"ENG": "\"Those butterflies aren't visible to just anybody. Why you, of all people...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x50c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 861,
+		"MSGID": 268,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　そうなのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? They aren't?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x50f0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5f0301005555"
+	},
+	{
+		"LABEL": "0x50fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5100",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 864,
+		"MSGID": 269,
+		"VOICEID": 7057,
+		"NameJPN": "蒼",
+		"JPN": "「感受性の強い人とか、子供とか……、あと動物とか……」",
+		"NameENG": "Ao",
+		"ENG": "\"Other than people who're especially susceptible, and kids... Oh, animals too...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x514c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "620301004f55"
+	},
+	{
+		"LABEL": "0x5156",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x515c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 867,
+		"MSGID": 270,
+		"VOICEID": 7058,
+		"NameJPN": "蒼",
+		"JPN": "「まあ、いわゆる感度の高い人にしか見えないの」",
+		"NameENG": "Ao",
+		"ENG": "\"Well, point is only those who have strong 'spiritual senses' can see them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x51a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 869,
+		"MSGID": 271,
+		"NameJPN": "羽依里",
+		"JPN": "「霊感があるってこと？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So, people who can see spirits?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x51d2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "67030100b555"
+	},
+	{
+		"LABEL": "0x51dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x51e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 872,
+		"MSGID": 272,
+		"VOICEID": 7059,
+		"NameJPN": "蒼",
+		"JPN": "「有り体に言えばそうね」",
+		"NameENG": "Ao",
+		"ENG": "\"Basically, yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5210",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "6a030600f95709005e0053ff"
+	},
+	{
+		"LABEL": "0x5220",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 875,
+		"MSGID": 273,
+		"VOICEID": 7060,
+		"NameJPN": "イナリ",
+		"JPN": "「ポン」",
+		"NameENG": "Inari",
+		"ENG": "\"Pon!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5242",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 877,
+		"MSGID": 274,
+		"NameJPN": "羽依里",
+		"JPN": "「なるほど、イナリには見えてる、と」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh, interesting. Guess Inari can see them too, then.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5280",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 879,
+		"MSGID": 275,
+		"NameJPN": "羽依里",
+		"JPN": "「で、結局あれは何？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So in the end, what are they, really?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52b0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "71030100f755"
+	},
+	{
+		"LABEL": "0x52ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x52c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 882,
+		"MSGID": 276,
+		"VOICEID": 7061,
+		"NameJPN": "蒼",
+		"JPN": "「……う～……」",
+		"NameENG": "Ao",
+		"ENG": "\"...Mmnh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 884,
+		"MSGID": 277,
+		"NameJPN": "羽依里",
+		"JPN": "「言いにくい物なのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Don't want to talk about it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5318",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "770301009155"
+	},
+	{
+		"LABEL": "0x5322",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5328",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 888,
+		"MSGID": 278,
+		"VOICEID": 7062,
+		"NameJPN": "蒼",
+		"JPN": "「はぁ～……」",
+		"NameENG": "Ao",
+		"ENG": "\"Sigh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x534c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7a0301009755"
+	},
+	{
+		"LABEL": "0x5356",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x535c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 891,
+		"MSGID": 279,
+		"VOICEID": 7063,
+		"NameJPN": "蒼",
+		"JPN": "「もう見ちゃった人相手に誤魔化しても仕方ないか……」",
+		"NameENG": "Ao",
+		"ENG": "\"Guess I can't exactly keep it a secret from someone who's already seen everything...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x53a6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "7d030b00000000b40001"
+	},
+	{
+		"LABEL": "0x53b4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7e03"
+	},
+	{
+		"LABEL": "0x53ba",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8003b8860100"
+	},
+	{
+		"LABEL": "0x53c4",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "81030100"
+	},
+	{
+		"LABEL": "0x53cc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000aa00000000000000"
+	},
+	{
+		"LABEL": "0x53da",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e000080026801"
+	},
+	{
+		"LABEL": "0x53ec",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x53f4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000004cff"
+	},
+	{
+		"LABEL": "0x5402",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a34080000b400"
+	},
+	{
+		"LABEL": "0x5410",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x5418",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x541e",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "82033c00"
+	},
+	{
+		"LABEL": "0x5426",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 901,
+		"MSGID": 280,
+		"VOICEID": 7064,
+		"NameJPN": "蒼",
+		"JPN": "「……この島はね、記憶の還る場所って言われてるの」",
+		"NameENG": "Ao",
+		"ENG": "\"...This island is said to be a place that memories return to.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x546e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 904,
+		"MSGID": 281,
+		"VOICEID": 7065,
+		"NameJPN": "蒼",
+		"JPN": "「いつからかは分からないけど、随分昔から、七影蝶はこの島にいるわ」",
+		"NameENG": "Ao",
+		"ENG": "\"I don't know exactly when it started, but iridescent shades have existed here since long ago.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x54c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 907,
+		"MSGID": 282,
+		"VOICEID": 7066,
+		"NameJPN": "蒼",
+		"JPN": "「っていうより、この島に集まってくるのよ」",
+		"NameENG": "Ao",
+		"ENG": "\"Or more accurately, they're drawn here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5506",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 910,
+		"MSGID": 283,
+		"VOICEID": 7067,
+		"NameJPN": "蒼",
+		"JPN": "「そういう場所はいくつかあるらしいけど、そのうちの１つみたいね」",
+		"NameENG": "Ao",
+		"ENG": "\"Apparently there are a bunch of places like that around the world. This island's just one of them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x555c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9003"
+	},
+	{
+		"LABEL": "0x5562",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002700000000000000"
+	},
+	{
+		"LABEL": "0x5570",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0100"
+	},
+	{
+		"LABEL": "0x5578",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100b5b600008002b4007500"
+	},
+	{
+		"LABEL": "0x5588",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x558e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5594",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 914,
+		"MSGID": 284,
+		"NameJPN": "羽依里",
+		"JPN": "「えっと……ごめん、よく分からない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Uhh... Sorry, not sure I'm following this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x55d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 916,
+		"MSGID": 285,
+		"NameJPN": "羽依里",
+		"JPN": "「つまり、七影蝶って何？」",
+		"NameENG": "Hairi",
+		"ENG": "\"In short, iridescent shades are...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5606",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "96030100abb6"
+	},
+	{
+		"LABEL": "0x5610",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5616",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 919,
+		"MSGID": 286,
+		"VOICEID": 7068,
+		"NameJPN": "蒼",
+		"JPN": "「七影蝶は、人の記憶の残滓なのよ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Iridescent shades are the remnants of people's memories.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5652",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "990301001f55"
+	},
+	{
+		"LABEL": "0x565c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5662",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 922,
+		"MSGID": 287,
+		"VOICEID": 7069,
+		"NameJPN": "蒼",
+		"JPN": "「未練や悔いを残した人の『記憶』が、蝶の形でこの世に留まっているの」",
+		"NameENG": "Ao",
+		"ENG": "\"The attachments and regrets that people leave behind linger in this world in the shape of$dbutterflies.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x56bc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9c0301005555"
+	},
+	{
+		"LABEL": "0x56c6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x56cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 925,
+		"MSGID": 288,
+		"VOICEID": 7070,
+		"NameJPN": "蒼",
+		"JPN": "「あの蝶は、人の記憶そのものと言ってもいいわ」",
+		"NameENG": "Ao",
+		"ENG": "\"Essentially, they're the manifestations of memories themselves.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5710",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 927,
+		"MSGID": 289,
+		"NameJPN": "羽依里",
+		"JPN": "「幽霊……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So, they're ghosts...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5738",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a20301000155"
+	},
+	{
+		"LABEL": "0x5742",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5748",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 931,
+		"MSGID": 290,
+		"VOICEID": 7071,
+		"NameJPN": "蒼",
+		"JPN": "「言い方は悪いけど、そうね」",
+		"NameENG": "Ao",
+		"ENG": "\"That isn't exactly the best way of putting it, but I suppose so.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x577a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 934,
+		"MSGID": 291,
+		"NameJPN": "羽依里",
+		"JPN": "「確かに標本にはできない……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, I can't imagine you could pin one of those in a case, then...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57b2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a8030100b5b6"
+	},
+	{
+		"LABEL": "0x57bc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x57c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 937,
+		"MSGID": 292,
+		"VOICEID": 7072,
+		"NameJPN": "蒼",
+		"JPN": "「でも、記憶だけとはいえ、本当はこの世に残ってちゃいけないものなの」",
+		"NameENG": "Ao",
+		"ENG": "\"But even if they are just memories, they can't be allowed to linger in this world.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x581c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ab030100b8b6"
+	},
+	{
+		"LABEL": "0x5826",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x582c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 940,
+		"MSGID": 293,
+		"VOICEID": 7073,
+		"NameJPN": "蒼",
+		"JPN": "「本来逝くべき場所に、導いてあげる必要があるの」",
+		"NameENG": "Ao",
+		"ENG": "\"Somebody has to guide them to their true resting place.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5872",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ae030100b5b6"
+	},
+	{
+		"LABEL": "0x587c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5882",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 943,
+		"MSGID": 294,
+		"VOICEID": 7074,
+		"NameJPN": "蒼",
+		"JPN": "「それが、空門家の人間が代々取り仕切ってきた山の祭事よ」",
+		"NameENG": "Ao",
+		"ENG": "\"That's the purpose of the Festival of the Mountain, which the Sorakado family has performed for generations.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58d0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b1030100b555"
+	},
+	{
+		"LABEL": "0x58da",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x58e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 946,
+		"MSGID": 295,
+		"VOICEID": 7075,
+		"NameJPN": "蒼",
+		"JPN": "「山の中を灯籠を持って練り歩くのは、迷っている七影蝶を導くため」",
+		"NameENG": "Ao",
+		"ENG": "\"We roam through the mountains carrying a lantern, and guide the lost iridescent shades to their final resting place.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5936",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b4030100af55"
+	},
+	{
+		"LABEL": "0x5940",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5946",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 949,
+		"MSGID": 296,
+		"VOICEID": 7076,
+		"NameJPN": "蒼",
+		"JPN": "「島民の中には、形だけの祭事って思ってる人もいるけど……」",
+		"NameENG": "Ao",
+		"ENG": "\"Some of the islanders believe that the ritual is conducted for ceremonial purposes only...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5996",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b70301000155"
+	},
+	{
+		"LABEL": "0x59a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x59a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 952,
+		"MSGID": 297,
+		"VOICEID": 7077,
+		"NameJPN": "蒼",
+		"JPN": "「でも、形だけじゃない」",
+		"NameENG": "Ao",
+		"ENG": "\"But, that's not true at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x59d4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ba030100d754"
+	},
+	{
+		"LABEL": "0x59de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x59e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 955,
+		"MSGID": 298,
+		"VOICEID": 7078,
+		"NameJPN": "蒼",
+		"JPN": "「本当は、とても大切な……誰かがやらなければならないことなの」",
+		"NameENG": "Ao",
+		"ENG": "\"In reality, it's an extremely important task... Somebody has to do it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a38",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bd0301006155"
+	},
+	{
+		"LABEL": "0x5a42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5a48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 958,
+		"MSGID": 299,
+		"VOICEID": 7079,
+		"NameJPN": "蒼",
+		"JPN": "「なにより七影蝶には触れちゃいけないし」",
+		"NameENG": "Ao",
+		"ENG": "\"And the most important rule for that person is to never touch any of the iridescent shades.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 960,
+		"MSGID": 300,
+		"NameJPN": "羽依里",
+		"JPN": "「……確かに…あれは危ないなあ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I guess that makes sense... Those things are seriously dangerous, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ac4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 962,
+		"MSGID": 301,
+		"JPN": "蒼の言葉に、素直に同調する。",
+		"ENG": "I accepted Ao's words without question.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5af0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 964,
+		"MSGID": 302,
+		"JPN": "あの体験が無ければ、そう簡単に信じられなかったと思う。",
+		"ENG": "I don't think I would have been so quick to believe her if I hadn't experienced it firsthand just now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 966,
+		"MSGID": 303,
+		"JPN": "…俺は確かに他人の記憶を身を以て体験した。",
+		"ENG": "...My body had, indeed, been taken over by somebody else's memories.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b70",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "c8030100000f00"
+	},
+	{
+		"LABEL": "0x5b7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5b82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 970,
+		"MSGID": 304,
+		"NameJPN": "羽依里",
+		"JPN": "「………あれ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5bac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 972,
+		"MSGID": 305,
+		"JPN": "ふと、足を止める。",
+		"ENG": "I stopped, realizing something.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5bce",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "ce0300000000b400"
+	},
+	{
+		"LABEL": "0x5bda",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 976,
+		"MSGID": 306,
+		"NameJPN": "羽依里",
+		"JPN": "「そういえば、おまえも七影蝶に触ってなかったか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Actually, didn't you touch an iridescent shade, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c26",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d2030100e35400008002b4007500"
+	},
+	{
+		"LABEL": "0x5c38",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x5c40",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5c46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 979,
+		"MSGID": 307,
+		"VOICEID": 7080,
+		"NameJPN": "蒼",
+		"JPN": "「………ぎくぅ！」",
+		"NameENG": "Ao",
+		"ENG": "\"...Gegh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c6e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "d503b2860100"
+	},
+	{
+		"LABEL": "0x5c78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 983,
+		"MSGID": 308,
+		"NameJPN": "羽依里",
+		"JPN": "「うわー……素でぎくぅって初めて聞いたわ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah... That's the first time I've heard someone literally choke in surprise.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5cc0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d9030100b1b6"
+	},
+	{
+		"LABEL": "0x5cca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5cd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 986,
+		"MSGID": 309,
+		"VOICEID": 7081,
+		"NameJPN": "蒼",
+		"JPN": "「……あ…そ、そういえば…見てたのよ…ね？」",
+		"NameENG": "Ao",
+		"ENG": "\"Ahh... R-Right, yeah... You mentioned that you were watching, didn't you...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 988,
+		"MSGID": 310,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 990,
+		"MSGID": 311,
+		"NameJPN": "羽依里",
+		"JPN": "「ぶっちゃけ、おまえのマネした結果が今日の有様だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Bluntly, I only went through everything that just happened to me 'cause I was imitating you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d84",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e0030100e6b6"
+	},
+	{
+		"LABEL": "0x5d8e",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x5d96",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5d9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 993,
+		"MSGID": 312,
+		"VOICEID": 7082,
+		"NameJPN": "蒼",
+		"JPN": "「しーっ！」",
+		"NameENG": "Ao",
+		"ENG": "\"Shhhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5dbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 995,
+		"MSGID": 313,
+		"NameJPN": "羽依里",
+		"JPN": "「しーって……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shushing me, really...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5de8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e5030100e755"
+	},
+	{
+		"LABEL": "0x5df2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5df8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 998,
+		"MSGID": 314,
+		"VOICEID": 7083,
+		"NameJPN": "蒼",
+		"JPN": "「狭い島だから、あんたが誰かに話せば、そこから話が広がって、いつ親の耳に入るかわかんないでしょ」",
+		"NameENG": "Ao",
+		"ENG": "\"This island's tiny! Anything you say could easily spread like wildfire, and at that point it's only a matter of time before my parents catch wind of it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e6e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e80301008d55"
+	},
+	{
+		"LABEL": "0x5e78",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5e7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1001,
+		"MSGID": 315,
+		"VOICEID": 7084,
+		"NameJPN": "蒼",
+		"JPN": "「お願いだから、それ本当に内緒にしててよ？」",
+		"NameENG": "Ao",
+		"ENG": "\"Seriously, make sure you keep this a secret, all right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ec0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "eb0301008755"
+	},
+	{
+		"LABEL": "0x5eca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5ed0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1004,
+		"MSGID": 316,
+		"VOICEID": 7085,
+		"NameJPN": "蒼",
+		"JPN": "「人の記憶を覗き見るようなことなんだから、究極のプライバシーの侵害でしょ！」",
+		"NameENG": "Ao",
+		"ENG": "\"I'm basically peeking directly into other people's memories! That's like the ultimate invasion of privacy, isn't it!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f32",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ee030100ed55"
+	},
+	{
+		"LABEL": "0x5f3c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5f42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1007,
+		"MSGID": 317,
+		"VOICEID": 7086,
+		"NameJPN": "蒼",
+		"JPN": "「バレたら、あたしがメチャクチャ怒られるんだから！」",
+		"NameENG": "Ao",
+		"ENG": "\"If anybody finds out I'll be in serious trouble!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1009,
+		"MSGID": 318,
+		"NameJPN": "羽依里",
+		"JPN": "「意外と俗っぽいのな……、その理由」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's... a pretty utilitarian reason, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fca",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f3030100b555"
+	},
+	{
+		"LABEL": "0x5fd4",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x5fdc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5fe2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1012,
+		"MSGID": 319,
+		"VOICEID": 7087,
+		"NameJPN": "蒼",
+		"JPN": "「ていうか、記憶に引っ張られて危ないでしょ」",
+		"NameENG": "Ao",
+		"ENG": "\"Actually, isn't getting taken over by someone's memories the bigger problem here?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6024",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1014,
+		"MSGID": 320,
+		"NameJPN": "羽依里",
+		"JPN": "「……ああ、そうだな…、むしろそっちのが重要だよな」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Yeah, I guess... That's the bigger concern here for sure.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6072",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1017,
+		"MSGID": 321,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、なんで、わざわざ蒼は禁を破ってるんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So then, why are you going through all this trouble just to break the rules?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fb030100e555"
+	},
+	{
+		"LABEL": "0x60c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x60ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1020,
+		"MSGID": 322,
+		"VOICEID": 7088,
+		"NameJPN": "蒼",
+		"JPN": "「……」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60ec",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fe0301003755"
+	},
+	{
+		"LABEL": "0x60f6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x60fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1023,
+		"MSGID": 323,
+		"VOICEID": 7089,
+		"NameJPN": "蒼",
+		"JPN": "「それ、今聞く？」",
+		"NameENG": "Ao",
+		"ENG": "\"You're really asking that now?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6124",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "010401003155"
+	},
+	{
+		"LABEL": "0x612e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6134",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1026,
+		"MSGID": 324,
+		"VOICEID": 7090,
+		"NameJPN": "蒼",
+		"JPN": "「聞いて欲しくないから、内緒って言ったのに……」",
+		"NameENG": "Ao",
+		"ENG": "\"I told you to keep this secret specifically because I don't want to talk about it...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x617a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1028,
+		"MSGID": 325,
+		"NameJPN": "羽依里",
+		"JPN": "「ダメだったか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is that a no?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x61a6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "06040100b8b6"
+	},
+	{
+		"LABEL": "0x61b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x61b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1031,
+		"MSGID": 326,
+		"VOICEID": 7091,
+		"NameJPN": "蒼",
+		"JPN": "「はあ……」",
+		"NameENG": "Ao",
+		"ENG": "\"Sigh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x61d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "09040100b5b6"
+	},
+	{
+		"LABEL": "0x61e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x61e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1035,
+		"MSGID": 327,
+		"JPN": "少し考え込むように目を伏せてから周りを見回した。",
+		"ENG": "After a slight moment of consideration, Ao glanced around at our surroundings.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6228",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0d0400000000b400"
+	},
+	{
+		"LABEL": "0x6234",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1039,
+		"MSGID": 328,
+		"JPN": "誰もいないことを確認すると、さらに声を抑えて答えてくれた。",
+		"ENG": "Once she was sure nobody was around, she replied in a whisper.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x627e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1104b8860100"
+	},
+	{
+		"LABEL": "0x6288",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "13040100f554"
+	},
+	{
+		"LABEL": "0x6292",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6298",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1044,
+		"MSGID": 329,
+		"VOICEID": 7092,
+		"NameJPN": "蒼",
+		"JPN": "「あたしには、どうしても探さなきゃいけない記憶があるの……」",
+		"NameENG": "Ao",
+		"ENG": "\"There are some memories that I have to find, no matter what...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1046,
+		"MSGID": 330,
+		"NameJPN": "羽依里",
+		"JPN": "「探さなきゃいけない記憶……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Memories that you have to find...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6324",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "180401000155"
+	},
+	{
+		"LABEL": "0x632e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6334",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1049,
+		"MSGID": 331,
+		"VOICEID": 7093,
+		"NameJPN": "蒼",
+		"JPN": "「………」",
+		"NameENG": "Ao",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6354",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1b0401005555"
+	},
+	{
+		"LABEL": "0x635e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6364",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1052,
+		"MSGID": 332,
+		"VOICEID": 7094,
+		"NameJPN": "蒼",
+		"JPN": "「……明日、ちょっと時間貰える？」",
+		"NameENG": "Ao",
+		"ENG": "\"...Are you free tomorrow?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x639c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1e0401007f55"
+	},
+	{
+		"LABEL": "0x63a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x63ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1055,
+		"MSGID": 333,
+		"VOICEID": 7095,
+		"NameJPN": "蒼",
+		"JPN": "「会わせたい人がいるの」",
+		"NameENG": "Ao",
+		"ENG": "\"There's somebody I want you to meet.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x63da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "28040000b800000000000000"
+	},
+	{
+		"LABEL": "0x63ea",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x63f2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x63f8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x6400",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x640c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x6418",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x641e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x6424",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6428",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x642e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x643a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x6446",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x644a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x644e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x6456",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x645e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x6466",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x646e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x6476",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2904"
+	},
+	{
+		"LABEL": "0x647c",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "2b040080"
+	}
+]

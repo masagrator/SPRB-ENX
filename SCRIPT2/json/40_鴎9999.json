@@ -1,0 +1,870 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0c00b6860100"
+	},
+	{
+		"LABEL": "0xa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003a00000000000000"
+	},
+	{
+		"LABEL": "0x1e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x30",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "11000100816d00008002b4008100"
+	},
+	{
+		"LABEL": "0x42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 0,
+		"VOICEID": 12218,
+		"NameJPN": "鏡子",
+		"JPN": "「あわわ……」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Oh, my word...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 1,
+		"JPN": "病院から帰ってきた俺の姿を見て、鏡子さんが青ざめていた。",
+		"ENG": "After being discharged by the hospital, Kyouko-san went deathly pale upon seeing me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「骨折らしいです」",
+		"NameENG": "Hairi",
+		"ENG": "\"Broken bone, apparently.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "190001007b6d"
+	},
+	{
+		"LABEL": "0xec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 3,
+		"VOICEID": 12219,
+		"NameJPN": "鏡子",
+		"JPN": "「重傷だね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"That's certainly serious.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x116",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「家に連絡はしないで欲しいんですが」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd really appreciate it if you didn't contact my parents, but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x154",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「って言っても無理ですよね」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's out of the question, I assume.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "210001001d6e"
+	},
+	{
+		"LABEL": "0x194",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 6,
+		"JPN": "申し訳なさそうに鏡子さんは考えこむ。",
+		"ENG": "She fell into thought, sympathy in her expression.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ce",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "25000100236e"
+	},
+	{
+		"LABEL": "0x1d8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 7,
+		"VOICEID": 12220,
+		"NameJPN": "鏡子",
+		"JPN": "「さすがにこれは、ね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"I'm sorry. That might be asking too much.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「せめて自分で帰ります」",
+		"NameENG": "Hairi",
+		"ENG": "\"At least let me go back by myself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「親に迎えに来られるのだけはごめんですから」",
+		"NameENG": "Hairi",
+		"ENG": "\"My parents coming to pick me up is the one thing I'd rather avoid.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x284",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d0001007b6d"
+	},
+	{
+		"LABEL": "0x28e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x294",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 10,
+		"VOICEID": 12221,
+		"NameJPN": "鏡子",
+		"JPN": "「１人で帰れるの？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Will you be okay on your own?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「大丈夫です。船と電車に乗ってタクシーを捕まえるぐらいならできますから」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll manage. It's just a ferry, a train, then a taxi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x322",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「そうだ。俺、樹から落ちて……気を失っていたと思うんですけど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, right. So I fell from a tree... and blacked out, I think.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「誰が見つけてくれたんですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"But who was the one that found me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "37000100816d"
+	},
+	{
+		"LABEL": "0x3c0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 14,
+		"VOICEID": 12222,
+		"NameJPN": "鏡子",
+		"JPN": "「え」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 15,
+		"JPN": "不思議そうな鏡子さん。",
+		"ENG": "She looked confounded.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3d0001009f6d"
+	},
+	{
+		"LABEL": "0x414",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x41a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 16,
+		"VOICEID": 12223,
+		"NameJPN": "鏡子",
+		"JPN": "「女の子が呼びに来たんだよ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"A girl came and got me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x44e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「女の子？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A girl?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x474",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "43000100a56d"
+	},
+	{
+		"LABEL": "0x47e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x484",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 18,
+		"VOICEID": 12224,
+		"NameJPN": "鏡子",
+		"JPN": "「うん。大きなスーツケースを引いた子」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Yeah. A girl with a huge suitcase.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「スーツケース??　誰でしょう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Suitcase? Who could that be?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "49000100816d"
+	},
+	{
+		"LABEL": "0x506",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x50c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 20,
+		"VOICEID": 12225,
+		"NameJPN": "鏡子",
+		"JPN": "「知り合いじゃないの」",
+		"NameENG": "Kyouko",
+		"ENG": "\"She wasn't an acquaintance of yours?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x53a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「覚えてないですね。心当たりも特にないです」",
+		"NameENG": "Hairi",
+		"ENG": "\"I don't really remember. She doesn't ring a bell.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x580",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 22,
+		"JPN": "島の女の子なら何人か知り合いがいるけど、スーツケースなんて引いてないよな。",
+		"ENG": "I knew plenty of girls that lived on the island, but none of them had a suitcase.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5da",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "51000100a56d"
+	},
+	{
+		"LABEL": "0x5e4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 83,
+		"MSGID": 23,
+		"VOICEID": 12226,
+		"NameJPN": "鏡子",
+		"JPN": "「その子から伝言預かってるよ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"She left a message with me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x620",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「伝言？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A message?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x644",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "570001007b6d"
+	},
+	{
+		"LABEL": "0x64e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x654",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 25,
+		"VOICEID": 12227,
+		"NameJPN": "鏡子",
+		"JPN": "「『ごめんね』って」",
+		"NameENG": "Kyouko",
+		"ENG": "\"She told me to tell you, 'I'm sorry.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x680",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 91,
+		"MSGID": 26,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「そうですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"She's sorry.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6ca",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6100"
+	},
+	{
+		"LABEL": "0x6d0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x6d8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x6de",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x6ec",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x6f2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x6f8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6fc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x702",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6400"
+	},
+	{
+		"LABEL": "0x708",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009a00000000000000"
+	},
+	{
+		"LABEL": "0x716",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x71e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x724",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x728",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 28,
+		"JPN": "ギプスで固められた腕を抱えながら、俺は島を後にする。",
+		"ENG": "I left the island, cradling my arm, now confined to a hardened cast.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x76c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 29,
+		"JPN": "そもそもなんで、俺は木登りなんかしてたんだっけ。",
+		"ENG": "What was I even doing climbing a tree in the first place?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 30,
+		"JPN": "……思い出せない。",
+		"ENG": "...I couldn't remember.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 31,
+		"JPN": "スーツケースの女の子？",
+		"ENG": "A girl with a suitcase?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x816",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 33,
+		"JPN": "やっぱり思い出せなかった。",
+		"ENG": "I hadn't the foggiest idea.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x840",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 34,
+		"JPN": "ふと、ポケットの中に硬い感触があった。",
+		"ENG": "I felt something hard poking at me from inside my pocket.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x876",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「鍵？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A key?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x898",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 36,
+		"JPN": "３つの鍵が入っていた。",
+		"ENG": "There were three of them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 37,
+		"JPN": "何の鍵だろう。",
+		"ENG": "What were they for?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 38,
+		"JPN": "鍵……か。",
+		"ENG": "Keys...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 39,
+		"JPN": "いつかまた島に来ることがあるだろうか。",
+		"ENG": "Maybe, one day, I'll come back to this island.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x92c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 40,
+		"JPN": "そうしたら、この鍵について調べてみよう。",
+		"ENG": "Maybe I'll do some investigating, figure out what they opened.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x964",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 128,
+		"MSGID": 41,
+		"JPN": "だけど。",
+		"ENG": "Maybe...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x97c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 42,
+		"JPN": "もう、この島に来ることはない。",
+		"ENG": "But somehow I knew...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 43,
+		"JPN": "そんな気がした。",
+		"ENG": "I would never come back to this island again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9ca",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8a000000b800000000000000"
+	},
+	{
+		"LABEL": "0x9da",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x9e2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x9ea",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x9f6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0xa02",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xa08",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "9600"
+	},
+	{
+		"LABEL": "0xa0e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa12",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0xa18",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0xa24",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0xa30",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa34",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa38",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0xa40",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0xa48",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0xa50",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0xa58",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0xa60",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8b00"
+	},
+	{
+		"LABEL": "0xa66",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "8d000080"
+	}
+]
