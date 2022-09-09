@@ -40,8 +40,8 @@ atmosphere/contents/0100273013ECA000/romfs
 Assets are available only from Release page.
 
 # Notes
-- included differences in script between PC and Switch in SCRIPT2/notes.txt
-- Plugin is incomparible with DVR patches
+- Included differences in script between PC and Switch in SCRIPT2/notes.txt
+- Plugin is incompatible with DVR patches
 
 # Thanks to
 - `Alka Translation` for making translation mod (not involved with this project)
