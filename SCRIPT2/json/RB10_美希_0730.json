@@ -1,0 +1,3265 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0e00000000007800"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1300"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00005400000000000000"
+	},
+	{
+		"LABEL": "0x20",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x36",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1500d7860100"
+	},
+	{
+		"LABEL": "0x40",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「ん……？　のみき？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm...? Nomiki?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x70",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "190001006cb800008002b4002500"
+	},
+	{
+		"LABEL": "0x82",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 1,
+		"VOICEID": 29421,
+		"NameJPN": "美希",
+		"JPN": "「…………」",
+		"NameENG": "Miki",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 2,
+		"JPN": "役場の花壇の縁に座り込んで、何かを考えているようだ。",
+		"ENG": "She was sitting on the side of the town hall's flower bed, seemingly pondering something.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1e00010067b8"
+	},
+	{
+		"LABEL": "0xfa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x100",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 3,
+		"VOICEID": 29422,
+		"NameJPN": "美希",
+		"JPN": "「うーん……」",
+		"NameENG": "Miki",
+		"ENG": "\"Hmmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 4,
+		"JPN": "時折、ハイドログラディエーター改を両手で掴んで、銃口を自分に向けて首を傾げたりしている。",
+		"ENG": "Every once in a while she'd grab Hydro Gladiator Kai with both hands, aim it at herself and inspect the barrel.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 5,
+		"JPN": "水鉄砲の調子でも悪いんだろうか？",
+		"ENG": "Maybe it's been acting up?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1be",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "260071173e02000000",
+		"JPN": [
+			"話しかけてみる",
+			"そっとしておく",
+			"脱いでみる"
+		],
+		"ENG": [
+			"Talk to her",
+			"Leave her alone",
+			"Strip and see what happens"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2e00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x51a"
+	},
+	{
+		"LABEL": "0x21a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 6,
+		"JPN": "ちょっと声をかけてみるか。",
+		"ENG": "I decided to talk to her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x244",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3200010068b8"
+	},
+	{
+		"LABEL": "0x24e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x254",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 7,
+		"NameJPN": "羽依里",
+		"JPN": "「よお、のみき。どうした？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey, Nomiki. What's up?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3600010028b8"
+	},
+	{
+		"LABEL": "0x294",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 8,
+		"VOICEID": 29423,
+		"NameJPN": "美希",
+		"JPN": "「ん？　鷹原か」",
+		"NameENG": "Miki",
+		"ENG": "\"Hmm? Oh, Takahara.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「ハイドロの調子でも悪いのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is Hydro malfunctioning, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3b00010025b8"
+	},
+	{
+		"LABEL": "0x306",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x30c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 10,
+		"VOICEID": 29424,
+		"NameJPN": "美希",
+		"JPN": "「いや、いつでも撃てるようメンテナンスは万全だ」",
+		"NameENG": "Miki",
+		"ENG": "\"No, I keep it perfectly maintained. It's ready for action any time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x354",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、なんで銃口を覗いて？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why were you looking up the barrel, then?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4000010018b8"
+	},
+	{
+		"LABEL": "0x398",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x39e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 12,
+		"VOICEID": 29425,
+		"NameJPN": "美希",
+		"JPN": "「考える事がある時、対話相手になってもらうことがあるんだ」",
+		"NameENG": "Miki",
+		"ENG": "\"When I have something to think about, I like to bounce ideas off it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x416",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「え？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x438",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "47000100a2b8"
+	},
+	{
+		"LABEL": "0x442",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x448",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 15,
+		"VOICEID": 29426,
+		"NameJPN": "美希",
+		"JPN": "「はっ……！　な、何でも無い、気にするな！」",
+		"NameENG": "Miki",
+		"ENG": "\"Hah...! N-Never mind, forget about it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x48c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 17,
+		"JPN": "あまり深く触れないでおいてあげよう。",
+		"ENG": "Seems best not to pry into that one, yeah.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「で、考え事って？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So, you were thinking about something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x510",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5000",
+		"GOTO_LABEL": "0xdfa"
+	},
+	{
+		"LABEL": "0x51a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5200",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x698"
+	},
+	{
+		"LABEL": "0x530",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 19,
+		"JPN": "のみきもお年頃。",
+		"ENG": "Nomiki's a teenager, too.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x550",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 20,
+		"JPN": "悩みの１つや２つあってもおかしくない。",
+		"ENG": "It'd be perfectly normal for her to have a worry or two of her own.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x586",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 21,
+		"JPN": "そして、それに応えられるほど、俺は経験豊富じゃない。",
+		"ENG": "And I'm definitely not experienced enough to be of much help with them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 22,
+		"JPN": "男子高校生の切実な悩みだ。",
+		"ENG": "I've got my own pressing teenager-in-a-boys-high-school worries to deal with.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "（強く生きろよ、のみき）",
+		"NameENG": "Hairi",
+		"ENG": "(Stay strong, Nomiki.)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x626",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "5b000100000f00"
+	},
+	{
+		"LABEL": "0x632",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x638",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 24,
+		"JPN": "俺は優しい眼差しでのみきを一瞥すると、静かに去ることにした。",
+		"ENG": "I gave Nomiki one last sympathetic glance and quietly left the scene.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x684",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6000",
+		"GOTO_LABEL": "0x29dc"
+	},
+	{
+		"LABEL": "0x68e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6200",
+		"GOTO_LABEL": "0xdfa"
+	},
+	{
+		"LABEL": "0x698",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "67000100000f00"
+	},
+	{
+		"LABEL": "0x6a4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 105,
+		"MSGID": 25,
+		"JPN": "もしかすると、これはチャンスなのかもしれない。",
+		"ENG": "This just might be my chance.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 26,
+		"JPN": "今なら、脱いでも、撃たれないんじゃないか？",
+		"ENG": "If I stripped down right now, could I get away with it without getting shot?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x722",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 107,
+		"MSGID": 27,
+		"JPN": "というより、撃てないんじゃないか？",
+		"ENG": "Or rather, could she shoot me even if she wanted to?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x754",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 109,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「よいしょ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"All right...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x77e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 111,
+		"MSGID": 29,
+		"JPN": "脱いでみた。",
+		"ENG": "I pulled off my shirt...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x79a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 113,
+		"MSGID": 30,
+		"JPN": "バン！",
+		"ENG": "Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x7b0",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x7ba",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x7ce",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x7d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 113,
+		"MSGID": 31,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0x7e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「ぎゃっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gyah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x80c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 33,
+		"JPN": "撃たれた。",
+		"ENG": "...and got shot.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x826",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7700010065b800008002b4008900"
+	},
+	{
+		"LABEL": "0x838",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x83e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 34,
+		"VOICEID": 29427,
+		"NameJPN": "美希",
+		"JPN": "「目の前で何をしている」",
+		"NameENG": "Miki",
+		"ENG": "\"You've got guts to try that right in front of me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x86e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 35,
+		"JPN": "バン！",
+		"ENG": "Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x884",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x88e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x8a2",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x8aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 36,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0x8ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「ぎゃっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gyaaah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8e0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7e0001006db8"
+	},
+	{
+		"LABEL": "0x8ea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 38,
+		"VOICEID": 29428,
+		"NameJPN": "美希",
+		"JPN": "「海水浴場以外で服を脱ぐのは禁止されていると言ったはずだ」",
+		"NameENG": "Miki",
+		"ENG": "\"I'm quite certain I've told you that stripping outside of the designated swimming area's prohibited.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x942",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 39,
+		"JPN": "バン！",
+		"ENG": "Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x958",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x962",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x976",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x97e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 40,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0x98e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 131,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「ぎゃっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gyaaaah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9b4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8500010070b8"
+	},
+	{
+		"LABEL": "0x9be",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x9c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 42,
+		"VOICEID": 29429,
+		"NameJPN": "美希",
+		"JPN": "「しかも、わざわざ私の前で脱ぐというのは、特殊性癖を持っているのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"And going out of your way to strip in front of me? Is this some sort of fetish for you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 43,
+		"JPN": "バン！",
+		"ENG": "Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0xa38",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0xa42",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0xa56",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0xa5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 44,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0xa6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「ぎゃっ！　ま、待って、ごめん、服着せて」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gyaaah! W-Wait, sorry, let me put it back―\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xab2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 46,
+		"JPN": "バン！",
+		"ENG": "Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0xac8",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0xad2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0xae6",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0xaee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 47,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0xafe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「ぎゃっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gyaaaaah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb24",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "90000100000f00"
+	},
+	{
+		"LABEL": "0xb30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 146,
+		"MSGID": 49,
+		"JPN": "撃たれながら必死に服を着た。",
+		"ENG": "She kept firing as I frantically pulled my shirt back on.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 50,
+		"JPN": "濡れた肌のせいで着直すのに手間取り、その間、撃たれ続けた。",
+		"ENG": "Being drenched made it a bit hard to get it back on, but she still showed no mercy.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbac",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9500010044b800008002b4008900"
+	},
+	{
+		"LABEL": "0xbbe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 51,
+		"VOICEID": 29430,
+		"NameJPN": "美希",
+		"JPN": "「で、さっきのは一体どういうつもりだ？」",
+		"NameENG": "Miki",
+		"ENG": "\"So, care to explain yourself?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、ハイドロの銃口を見てたから、故障したのかなと思って」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, I saw you looking down Hydro's barrel, so I figured it might be out of order.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc5a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9a0001005bb8"
+	},
+	{
+		"LABEL": "0xc64",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 53,
+		"VOICEID": 29431,
+		"NameJPN": "美希",
+		"JPN": "「で、脱いだのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"So you stripped?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 54,
+		"NameJPN": "羽依里",
+		"JPN": "「はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9f0001004fb8"
+	},
+	{
+		"LABEL": "0xcc2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 160,
+		"MSGID": 55,
+		"VOICEID": 29432,
+		"NameJPN": "美希",
+		"JPN": "「おまえはバカなのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"Are you an idiot?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcf8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 162,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「……はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 164,
+		"MSGID": 57,
+		"JPN": "ぐうの音も出なかった。",
+		"ENG": "I couldn't deny it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd44",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "a6001800d300"
+	},
+	{
+		"LABEL": "0xd4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「でも、じゃあここで何をしていたんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"But wait, then, what were you doing?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd90",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "aa00010012b8"
+	},
+	{
+		"LABEL": "0xd9a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xda0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 59,
+		"VOICEID": 29433,
+		"NameJPN": "美希",
+		"JPN": "「少し考え事をしていたんだ」",
+		"NameENG": "Miki",
+		"ENG": "\"I was just pondering something.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdd4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「考え事？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Pondering?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdfa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b300010025b8"
+	},
+	{
+		"LABEL": "0xe04",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 180,
+		"MSGID": 61,
+		"VOICEID": 29434,
+		"NameJPN": "美希",
+		"JPN": "「うむ。この島の魅力は何だろうかと、ちょっと考えていたんだ」",
+		"NameENG": "Miki",
+		"ENG": "\"Yeah. I was thinking about this island's appeal.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「この島の魅力？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Its appeal?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe8a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b8000100feb7"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 185,
+		"MSGID": 63,
+		"VOICEID": 29435,
+		"NameJPN": "美希",
+		"JPN": "「ああ、たくさんあると思うんだ」",
+		"NameENG": "Miki",
+		"ENG": "\"Yeah. I think it has a lot of it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xed2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bb000100b8b8"
+	},
+	{
+		"LABEL": "0xedc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xee2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 64,
+		"VOICEID": 29436,
+		"NameJPN": "美希",
+		"JPN": "「まず自然が豊かだ」",
+		"NameENG": "Miki",
+		"ENG": "\"It's overflowing with nature, to start.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"True enough.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf34",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c0000100bab8"
+	},
+	{
+		"LABEL": "0xf3e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 193,
+		"MSGID": 66,
+		"VOICEID": 29437,
+		"NameJPN": "美希",
+		"JPN": "「そのおかげで、野菜や生き物も豊富で食べ物も美味しい」",
+		"NameENG": "Miki",
+		"ENG": "\"Thanks to that, there are plenty of vegetables and animals about, and the food's delicious.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf92",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 195,
+		"MSGID": 67,
+		"NameJPN": "羽依里",
+		"JPN": "「そう、だな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umm, true enough?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 68,
+		"JPN": "俺はここに来てからヘンなものしか食べてない気がするが。",
+		"ENG": "It sort of felt like I'd only eaten weird stuff since arriving here, though.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1000",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c7000100bbb8"
+	},
+	{
+		"LABEL": "0x100a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1010",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 69,
+		"VOICEID": 29438,
+		"NameJPN": "美希",
+		"JPN": "「なんと言っても人だ。島民の人柄がいい」",
+		"NameENG": "Miki",
+		"ENG": "\"And more than anything else, the people. The islanders are incredibly friendly.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1050",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 70,
+		"NameJPN": "羽依里",
+		"JPN": "「ほう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1072",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 71,
+		"JPN": "変な奴らが多い気もするけど……まあ、人柄は良い、か……？",
+		"ENG": "I was under the impression it was full of weirdos. I mean, I guess they're friendly, in a sense...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10ba",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ce000100b5b8"
+	},
+	{
+		"LABEL": "0x10c4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 72,
+		"VOICEID": 29439,
+		"NameJPN": "美希",
+		"JPN": "「のどかで、自然がいっぱいで、金銭的にはけっして豊かではないかもしれないが、物価も安く自然の恵みがいっぱいで食べるには困らない」",
+		"NameENG": "Miki",
+		"ENG": "\"It's tranquil, and full of nature, and while it might not be the most affluent island out there, commodities are cheap and nature provides the rest, so you'll never go hungry.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1162",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d1000100b8b8"
+	},
+	{
+		"LABEL": "0x116c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1172",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 73,
+		"VOICEID": 29440,
+		"NameJPN": "美希",
+		"JPN": "「住民同士の距離も近くて助け合うことが普通だ」",
+		"NameENG": "Miki",
+		"ENG": "\"The locals are all close to each other, too, and helping each other out is the norm.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11b8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d4000100bbb8"
+	},
+	{
+		"LABEL": "0x11c2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x11c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 214,
+		"MSGID": 74,
+		"VOICEID": 29441,
+		"NameJPN": "美希",
+		"JPN": "「だからみんな、何の心配もなく、争うこともなく、日々をのどかに楽しみながら暮らしている」",
+		"NameENG": "Miki",
+		"ENG": "\"That's why everyone can live out their days in peace, enjoying their lives without worry or conflict.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1238",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「ここは天国か何かか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is this heaven, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "da00010057b8"
+	},
+	{
+		"LABEL": "0x1274",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x127a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 219,
+		"MSGID": 76,
+		"VOICEID": 29442,
+		"NameJPN": "美希",
+		"JPN": "「なるほど、天国の島か」",
+		"NameENG": "Miki",
+		"ENG": "\"Hmm, a heavenly island?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12aa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dd00010051b8"
+	},
+	{
+		"LABEL": "0x12b4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 77,
+		"VOICEID": 29443,
+		"NameJPN": "美希",
+		"JPN": "「ふむ、悪くない」",
+		"NameENG": "Miki",
+		"ENG": "\"Yeah, that has a nice ring to it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 78,
+		"JPN": "冗談で言ったのに、本気で納得しているのみきにちょっと引いた。",
+		"ENG": "I was actually kidding, and the fact that Nomiki took it seriously and actually agreed on top of it weirded me out a bit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1330",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 225,
+		"MSGID": 79,
+		"JPN": "でも、それぐらいのみきがこの島をいいところだと思っているということか。",
+		"ENG": "In any case, it was clear that Nomiki was infatuated with this island.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1386",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 227,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「のみきはこの島が本当に好きなんだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"You really love it here, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13c6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e500010028b8"
+	},
+	{
+		"LABEL": "0x13d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 81,
+		"VOICEID": 29444,
+		"NameJPN": "美希",
+		"JPN": "「自分の住む場所を好きなのは普通のことだろう？」",
+		"NameENG": "Miki",
+		"ENG": "\"Isn't it normal to love the place where you live?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x141e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 82,
+		"NameJPN": "羽依里",
+		"JPN": "「……そうでもないと思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I'm not so sure about that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1452",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 234,
+		"MSGID": 83,
+		"NameJPN": "羽依里",
+		"JPN": "「何かしら不満を持っている方が普通じゃないか」",
+		"NameENG": "Hairi",
+		"ENG": "\"I think it might be normal to have a complaint or two, at least.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x149a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ec0001002bb8"
+	},
+	{
+		"LABEL": "0x14a4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 84,
+		"VOICEID": 29445,
+		"NameJPN": "美希",
+		"JPN": "「そうなのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"Is that so?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 239,
+		"MSGID": 85,
+		"NameJPN": "羽依里",
+		"JPN": "「いや……ごめん、ちょっと勝手なことを言った」",
+		"NameENG": "Hairi",
+		"ENG": "\"I dunno... Sorry, I might just be projecting.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x151a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f100010012b8"
+	},
+	{
+		"LABEL": "0x1524",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x152a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 86,
+		"VOICEID": 29446,
+		"NameJPN": "美希",
+		"JPN": "「…………」",
+		"NameENG": "Miki",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x154e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f400010015b8"
+	},
+	{
+		"LABEL": "0x1558",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x155e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 87,
+		"VOICEID": 29447,
+		"NameJPN": "美希",
+		"JPN": "「鷹原はそうなのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"So that's how it is for you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x158c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 247,
+		"MSGID": 88,
+		"NameJPN": "羽依里",
+		"JPN": "「……俺は……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 249,
+		"MSGID": 89,
+		"NameJPN": "羽依里",
+		"JPN": "「俺の話はいいよ。それよりこの島の話だろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Forget about me. You were saying something about the island, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fb00010025b8"
+	},
+	{
+		"LABEL": "0x1604",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x160a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 252,
+		"MSGID": 90,
+		"VOICEID": 29448,
+		"NameJPN": "美希",
+		"JPN": "「ああ、そうだった」",
+		"NameENG": "Miki",
+		"ENG": "\"Ah, that's right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1636",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fe00010012b8"
+	},
+	{
+		"LABEL": "0x1640",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1646",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 255,
+		"MSGID": 91,
+		"VOICEID": 29449,
+		"NameJPN": "美希",
+		"JPN": "「鷹原はどう思う？」",
+		"NameENG": "Miki",
+		"ENG": "\"What do you think, Takahara?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1672",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0101010028b8"
+	},
+	{
+		"LABEL": "0x167c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1682",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 92,
+		"VOICEID": 29450,
+		"NameJPN": "美希",
+		"JPN": "「鷹原から見たこの島の魅力はなんだ？」",
+		"NameENG": "Miki",
+		"ENG": "\"What's the appeal of this island from your perspective?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 260,
+		"MSGID": 93,
+		"NameJPN": "羽依里",
+		"JPN": "「俺はまだここに来たばかりだぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I just got here, y'know?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0601010005b8"
+	},
+	{
+		"LABEL": "0x1704",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x170a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 94,
+		"VOICEID": 29451,
+		"NameJPN": "美希",
+		"JPN": "「だからこそだ」",
+		"NameENG": "Miki",
+		"ENG": "\"That's exactly why I'm asking you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1732",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "09010100feb7"
+	},
+	{
+		"LABEL": "0x173c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1742",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 266,
+		"MSGID": 95,
+		"VOICEID": 29452,
+		"NameJPN": "美希",
+		"JPN": "「この島に来たばかりの鷹原なら、住民が当たり前に思って気づけない魅力に気づけるかもしれない」",
+		"NameENG": "Miki",
+		"ENG": "\"Since you only just arrived, you might notice aspects of the island's appeal that the locals take for granted.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 268,
+		"MSGID": 96,
+		"NameJPN": "羽依里",
+		"JPN": "「あー、なるほどな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Aaah, I see what you mean.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 97,
+		"NameJPN": "羽依里",
+		"JPN": "「俺が思うこの島の魅力か。そうだな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"The island's appeal, huh? I guess I'd say...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1826",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "110171174202010003",
+		"JPN": [
+			"自然",
+			"人",
+			"女の子"
+		],
+		"ENG": [
+			"Nature",
+			"People",
+			"Girls"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x1852",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1801",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x1a1a"
+	},
+	{
+		"LABEL": "0x1868",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 98,
+		"NameJPN": "羽依里",
+		"JPN": "「やっぱり自然かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, gotta be the nature.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1896",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1c01010028b8"
+	},
+	{
+		"LABEL": "0x18a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 286,
+		"MSGID": 99,
+		"NameJPN": "羽依里",
+		"JPN": "「この豊かな自然は都会にはないものだからな。かなりポイント高いぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You'd never see greenery like this in the big city. That scores this place some pretty solid points, in my book.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1902",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2001010005b8"
+	},
+	{
+		"LABEL": "0x190c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1912",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 100,
+		"VOICEID": 29453,
+		"NameJPN": "美希",
+		"JPN": "「やっぱりそうか？」",
+		"NameENG": "Miki",
+		"ENG": "\"You think so, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x193e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2301010051b8"
+	},
+	{
+		"LABEL": "0x1948",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x194e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 292,
+		"MSGID": 101,
+		"VOICEID": 29454,
+		"NameJPN": "美希",
+		"JPN": "「この島の自然は何ものにも代えがたいものだな」",
+		"NameENG": "Miki",
+		"ENG": "\"This island's nature really is its most irreplaceable feature.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1994",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 102,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、そう思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, I agree.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 103,
+		"JPN": "ちょっと自然すぎるという気もするが。コンビニもないんだもんなぁ。",
+		"ENG": "Honestly, though, it might have just a bit too much nature. And not a single convenience store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a10",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2a01",
+		"GOTO_LABEL": "0x26d4"
+	},
+	{
+		"LABEL": "0x1a1a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2c01",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1ce2"
+	},
+	{
+		"LABEL": "0x1a30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 104,
+		"NameJPN": "羽依里",
+		"JPN": "「やっぱり魅力は人だな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, gotta be the people.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a62",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3001010025b8"
+	},
+	{
+		"LABEL": "0x1a6c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 305,
+		"MSGID": 105,
+		"VOICEID": 29455,
+		"NameJPN": "美希",
+		"JPN": "「そうか」",
+		"NameENG": "Miki",
+		"ENG": "\"Oh, really?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a94",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 307,
+		"MSGID": 106,
+		"NameJPN": "羽依里",
+		"JPN": "「変なやつらが多いけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, there are a lot of weirdos around, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ac6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "350101002bb8"
+	},
+	{
+		"LABEL": "0x1ad0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ad6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 310,
+		"MSGID": 107,
+		"VOICEID": 29456,
+		"NameJPN": "美希",
+		"JPN": "「変か？」",
+		"NameENG": "Miki",
+		"ENG": "\"They're weird?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1af8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 312,
+		"MSGID": 108,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、良い意味で」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, like, in a good way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 314,
+		"MSGID": 109,
+		"NameJPN": "羽依里",
+		"JPN": "「来たばかりの俺と、自然に関わってくれてるし」",
+		"NameENG": "Hairi",
+		"ENG": "\"I only just got here, but everyone's interacting with me like it's totally natural.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 110,
+		"NameJPN": "羽依里",
+		"JPN": "「距離感が近いというか、垣根がないというか」",
+		"NameENG": "Hairi",
+		"ENG": "\"I guess you could say they don't feel distant, or don't put up barriers.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 111,
+		"NameJPN": "羽依里",
+		"JPN": "「遠慮がないというか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Maybe unrestrained's the right word.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1be4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4001010015b8"
+	},
+	{
+		"LABEL": "0x1bee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 321,
+		"MSGID": 112,
+		"VOICEID": 29457,
+		"NameJPN": "美希",
+		"JPN": "「褒めているのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"Is that a compliment?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 323,
+		"MSGID": 113,
+		"NameJPN": "羽依里",
+		"JPN": "「もちろんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, of course.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c48",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "46010100feb7"
+	},
+	{
+		"LABEL": "0x1c52",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1c58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 327,
+		"MSGID": 114,
+		"VOICEID": 29458,
+		"NameJPN": "美希",
+		"JPN": "「そうか、それならよかった」",
+		"NameENG": "Miki",
+		"ENG": "\"Oh, well in that case, I'm glad.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 329,
+		"MSGID": 115,
+		"JPN": "素直だ。",
+		"ENG": "She sure is upfront about this stuff.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ca4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 331,
+		"MSGID": 116,
+		"JPN": "やっぱりこの島の人はみんな人が好い。",
+		"ENG": "The islanders here really are all good people. It's nice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cd8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4d01",
+		"GOTO_LABEL": "0x26d4"
+	},
+	{
+		"LABEL": "0x1ce2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 337,
+		"MSGID": 117,
+		"NameJPN": "羽依里",
+		"JPN": "「やっぱりなんと言っても女の子が魅力だな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, if I had to pick an appeal, it's gotta be the girls.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d26",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "530101001bb8"
+	},
+	{
+		"LABEL": "0x1d30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 118,
+		"VOICEID": 29459,
+		"NameJPN": "美希",
+		"JPN": "「女の子？」",
+		"NameENG": "Miki",
+		"ENG": "\"The... girls?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d5a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5601010008b8"
+	},
+	{
+		"LABEL": "0x1d64",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 343,
+		"MSGID": 119,
+		"VOICEID": 29460,
+		"NameJPN": "美希",
+		"JPN": "「どういう意味だ？」",
+		"NameENG": "Miki",
+		"ENG": "\"What's that supposed to mean?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 345,
+		"MSGID": 120,
+		"NameJPN": "羽依里",
+		"JPN": "「女の子たちがみんなかわいい」",
+		"NameENG": "Hairi",
+		"ENG": "\"All the girls here are super cute.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 347,
+		"MSGID": 121,
+		"NameJPN": "羽依里",
+		"JPN": "「この島に来てから、かわいくない子とは出会っていない」",
+		"NameENG": "Hairi",
+		"ENG": "\"In fact, I haven't met a single girl who wasn't cute since I got here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 349,
+		"MSGID": 122,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃんたちですら、何とも言えない可愛らしさがある」",
+		"NameENG": "Hairi",
+		"ENG": "\"Heck, even the old ladies here have a certain cuteness to them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e72",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5f01010057b8"
+	},
+	{
+		"LABEL": "0x1e7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 123,
+		"VOICEID": 29461,
+		"NameJPN": "美希",
+		"JPN": "「ふむ、なるほど。美人の島というわけか」",
+		"NameENG": "Miki",
+		"ENG": "\"Hmm, I see. So this is an island of beauties.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ec2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "620101003cb8"
+	},
+	{
+		"LABEL": "0x1ecc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ed2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 355,
+		"MSGID": 124,
+		"VOICEID": 29462,
+		"NameJPN": "美希",
+		"JPN": "「たしかにそうかもしれないな」",
+		"NameENG": "Miki",
+		"ENG": "\"You might be right about that, actually.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 357,
+		"MSGID": 125,
+		"NameJPN": "羽依里",
+		"JPN": "「何を他人事のように」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're making it sound like it has nothing to do with you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 359,
+		"MSGID": 126,
+		"NameJPN": "羽依里",
+		"JPN": "「のみきも入ってるんだぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're one of those beauties, y'know?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f6c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "690101002bb8"
+	},
+	{
+		"LABEL": "0x1f76",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f7c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 362,
+		"MSGID": 127,
+		"VOICEID": 29463,
+		"NameJPN": "美希",
+		"JPN": "「え？」",
+		"NameENG": "Miki",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f9c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6c01010015b8"
+	},
+	{
+		"LABEL": "0x1fa6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1fac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 365,
+		"MSGID": 128,
+		"VOICEID": 29464,
+		"NameJPN": "美希",
+		"JPN": "「わ、私もか？」",
+		"NameENG": "Miki",
+		"ENG": "\"I-I am!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fd4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 367,
+		"MSGID": 129,
+		"NameJPN": "羽依里",
+		"JPN": "「もちろんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Of course.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ffc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 369,
+		"MSGID": 130,
+		"NameJPN": "羽依里",
+		"JPN": "「むしろ、のみきがその筆頭じゃないか」",
+		"NameENG": "Hairi",
+		"ENG": "\"If anything, I'd say you're the cutest of the bunch.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x203c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "730101000ab8"
+	},
+	{
+		"LABEL": "0x2046",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x204c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 131,
+		"VOICEID": 29465,
+		"NameJPN": "美希",
+		"JPN": "「なっ！　何をバカなことを」",
+		"NameENG": "Miki",
+		"ENG": "\"Wha!? What kind of nonsense are you spouting!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2080",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "770101006bb8"
+	},
+	{
+		"LABEL": "0x208a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2090",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 376,
+		"MSGID": 132,
+		"VOICEID": 29466,
+		"NameJPN": "美希",
+		"JPN": "「あ、あんまり人をからかうものじゃない！」",
+		"NameENG": "Miki",
+		"ENG": "\"Th-That's a horrible way to tease someone!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 378,
+		"MSGID": 133,
+		"NameJPN": "羽依里",
+		"JPN": "「待てっ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, wait.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 381,
+		"MSGID": 134,
+		"NameJPN": "羽依里",
+		"JPN": "「褒めて撃たれちゃかなわん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why do I have to get shot for complimenting you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x212c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7f01010061b8"
+	},
+	{
+		"LABEL": "0x2136",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x213c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 385,
+		"MSGID": 135,
+		"VOICEID": 29467,
+		"NameJPN": "美希",
+		"JPN": "「褒めてるのか？」",
+		"NameENG": "Miki",
+		"ENG": "\"You were complimenting me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2166",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 388,
+		"MSGID": 136,
+		"NameJPN": "羽依里",
+		"JPN": "「褒めてる以外何があるんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not sure how you could take it any other way, actually.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x219e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8601010065b8"
+	},
+	{
+		"LABEL": "0x21a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x21ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 391,
+		"MSGID": 137,
+		"VOICEID": 29468,
+		"NameJPN": "美希",
+		"JPN": "「からかわれてるのかと」",
+		"NameENG": "Miki",
+		"ENG": "\"Maybe you were teasing me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21de",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "8a0171174602020006",
+		"JPN": [
+			"本気で言っている",
+			"からかっている"
+		],
+		"ENG": [
+			"I was serious",
+			"I was teasing you"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x2218",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9001",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x240e"
+	},
+	{
+		"LABEL": "0x222e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 402,
+		"MSGID": 138,
+		"NameJPN": "羽依里",
+		"JPN": "「からかってない。わりと本気で言ってるぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wasn't teasing you. I was actually totally serious.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2272",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "940101002bb8"
+	},
+	{
+		"LABEL": "0x227c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2282",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 406,
+		"MSGID": 139,
+		"VOICEID": 29469,
+		"NameJPN": "美希",
+		"JPN": "「な、な、本気……っ……」",
+		"NameENG": "Miki",
+		"ENG": "\"Wha, wh... Serious...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 408,
+		"MSGID": 140,
+		"JPN": "すごく動揺している。",
+		"ENG": "She was incredibly flustered.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9a01010015b8"
+	},
+	{
+		"LABEL": "0x22e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x22e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 412,
+		"MSGID": 141,
+		"VOICEID": 29470,
+		"NameJPN": "美希",
+		"JPN": "「お、おまえ、趣味がおかしいぞ！」",
+		"NameENG": "Miki",
+		"ENG": "\"Y-You have really weird standards!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2322",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 413,
+		"MSGID": 142,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、そうでもないと思うんだけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nah, I think they're pretty normal.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2360",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9f0101000ab8"
+	},
+	{
+		"LABEL": "0x236a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2370",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 417,
+		"MSGID": 143,
+		"VOICEID": 29471,
+		"NameJPN": "美希",
+		"JPN": "「いや！　おかしい！　もう少し審美眼を養え！」",
+		"NameENG": "Miki",
+		"ENG": "\"Wrong! They're weird! You need to reevaluate your sense of aesthetics!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 418,
+		"MSGID": 144,
+		"NameJPN": "羽依里",
+		"JPN": "「ええ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Seriously...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 420,
+		"MSGID": 145,
+		"JPN": "ひどい言われようだった。",
+		"ENG": "That's a harsh way of putting it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2404",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a601",
+		"GOTO_LABEL": "0x26d4"
+	},
+	{
+		"LABEL": "0x240e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 426,
+		"MSGID": 146,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、からかっている」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, I was just messing with you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2440",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ac0101006db8"
+	},
+	{
+		"LABEL": "0x244a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2450",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 429,
+		"MSGID": 147,
+		"VOICEID": 29472,
+		"NameJPN": "美希",
+		"JPN": "「…………」",
+		"NameENG": "Miki",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2474",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 148,
+		"JPN": "バン！　バン！",
+		"ENG": "Pschoo! Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x2492",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x249c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x24b0",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x24b8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x24be",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x24c8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x24dc",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x24e4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x24ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 149,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0x24fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 433,
+		"MSGID": 150,
+		"NameJPN": "羽依里",
+		"JPN": "「ぎゃっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gyaaah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2520",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 435,
+		"MSGID": 151,
+		"VOICEID": 29473,
+		"NameJPN": "美希",
+		"JPN": "「…………」",
+		"NameENG": "Miki",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2544",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 437,
+		"MSGID": 152,
+		"JPN": "バン！　バン！",
+		"ENG": "Pschoo! Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x2562",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x256c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x2580",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x2588",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x258e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x2598",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x25ac",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x25b4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x25ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 437,
+		"MSGID": 153,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0x25ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 439,
+		"MSGID": 154,
+		"NameJPN": "羽依里",
+		"JPN": "「ごめん！　無言で撃たないで！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm sorry! Hold your fire! Or at least say something!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2604",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 441,
+		"MSGID": 155,
+		"VOICEID": 29474,
+		"NameJPN": "美希",
+		"JPN": "「…………」",
+		"NameENG": "Miki",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2628",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 443,
+		"MSGID": 156,
+		"JPN": "バン！　バン！",
+		"ENG": "Pschoo! Pschoo!",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x2646",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x2650",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x2664",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x266c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x2672",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "0025100300"
+	},
+	{
+		"LABEL": "0x267c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "3200640001000000dc05ff00ff00ff00"
+	},
+	{
+		"LABEL": "0x2690",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff00c900"
+	},
+	{
+		"LABEL": "0x2698",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x269e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 443,
+		"MSGID": 157,
+		"Args": "000000000b"
+	},
+	{
+		"LABEL": "0x26ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 445,
+		"MSGID": 158,
+		"JPN": "ものすごく、撃たれた。",
+		"ENG": "She riddled me with bullets. I mean, water.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26d4",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "c3010100000f00"
+	},
+	{
+		"LABEL": "0x26e0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x26e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 453,
+		"MSGID": 159,
+		"JPN": "それからも、いくつか俺の思うこの島の魅力を話してやった。",
+		"ENG": "We went on to talk about a bunch of other aspects of the island I found appealing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x272e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c701010057b800008002b4008900"
+	},
+	{
+		"LABEL": "0x2740",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2746",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 456,
+		"MSGID": 160,
+		"VOICEID": 29475,
+		"NameJPN": "美希",
+		"JPN": "「ふむふむ、だいたいわかった」",
+		"NameENG": "Miki",
+		"ENG": "\"Hmm, hmm, I think I get the picture.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x277c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ca0101003cb8"
+	},
+	{
+		"LABEL": "0x2786",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x278c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 459,
+		"MSGID": 161,
+		"VOICEID": 29476,
+		"NameJPN": "美希",
+		"JPN": "「鷹原の考えるこの島の魅力はそういうことなのだな、なるほど」",
+		"NameENG": "Miki",
+		"ENG": "\"So that's what you see in this island. Interesting.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 461,
+		"MSGID": 162,
+		"JPN": "俺の意見を、のみきは真面目にメモっている。",
+		"ENG": "Nomiki diligently took notes on my opinions.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x281a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 463,
+		"MSGID": 163,
+		"NameJPN": "羽依里",
+		"JPN": "「俺の意見なんて、そんな真面目にメモらなくても」",
+		"NameENG": "Hairi",
+		"ENG": "\"You don't have to write everything down, y'know? This is just my personal opinion.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2864",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d101010005b8"
+	},
+	{
+		"LABEL": "0x286e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2874",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 466,
+		"MSGID": 164,
+		"VOICEID": 29477,
+		"NameJPN": "美希",
+		"JPN": "「いや、案外鋭いところをついてるかもしれない」",
+		"NameENG": "Miki",
+		"ENG": "\"No, you might actually have touched on some surprisingly important points.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28ba",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d4010100feb7"
+	},
+	{
+		"LABEL": "0x28c4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x28ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 469,
+		"MSGID": 165,
+		"VOICEID": 29478,
+		"NameJPN": "美希",
+		"JPN": "「貴重な意見だ、役立たせてもらうぞ」",
+		"NameENG": "Miki",
+		"ENG": "\"Your opinion's valuable. I'll be sure to make use$dof it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2906",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 471,
+		"MSGID": 166,
+		"NameJPN": "羽依里",
+		"JPN": "「そうか？　まあ役立てたんなら嬉しいけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"That so? Well, I'd be happy if it helped you out, anyway.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x294a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 473,
+		"MSGID": 167,
+		"JPN": "のみきはこの性格だ、お世辞や嘘は言わないだろう。",
+		"ENG": "Judging by Nomiki's personality, she probably wasn't lying or flattering me, either.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x298a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 475,
+		"MSGID": 168,
+		"JPN": "でも、俺の意見がのみきの悩み事にどう役に立ったんだろう？",
+		"ENG": "But what on earth could my opinions have to do with whatever she was worrying about?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29d2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "df019f010100"
+	},
+	{
+		"LABEL": "0x29dc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e3010000b800000000000000"
+	},
+	{
+		"LABEL": "0x29ec",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x29f4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x29fa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x2a02",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x2a0e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x2a1a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2a20",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x2a26",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2a2a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x2a30",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x2a3c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x2a48",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2a4c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2a50",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x2a58",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x2a60",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x2a68",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x2a70",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x2a78",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e401"
+	},
+	{
+		"LABEL": "0x2a7e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "e5010080"
+	}
+]

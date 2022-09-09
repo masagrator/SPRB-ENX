@@ -1,0 +1,1345 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0800"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 0,
+		"JPN": "駄菓子屋にやってきた。",
+		"ENG": "I made my way over to the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 1,
+		"JPN": "おばーちゃんは……寝ている。",
+		"ENG": "The old lady who owned the store was... asleep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 2,
+		"JPN": "そっとしておこう。",
+		"ENG": "Guess I should keep it down.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 3,
+		"JPN": "となると、今俺が出来ることと言えば……",
+		"ENG": "That really only left one option for me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「ガチャガチャくらいか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Guess it's play the gacha, or nothing.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x102",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 5,
+		"JPN": "どうするかな。",
+		"ENG": "What should I do?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x120",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "160071170e02000000",
+		"JPN": [
+			"ガチャガチャをする",
+			"ガチャガチャをしない"
+		],
+		"ENG": [
+			"Play the gacha",
+			"Don't play the gacha"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x162",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1c00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x9be"
+	},
+	{
+		"LABEL": "0x178",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「とりあえず、回しとくか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Might as well.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 7,
+		"JPN": "財布から１００円玉を取り出す。",
+		"ENG": "I pulled a hundred yen coin out of my wallet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1da",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "210005e20d0300"
+	},
+	{
+		"LABEL": "0x1e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 8,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「こ、これは……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I-Isn't this...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x232",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「スケバンヨーヨー!!」",
+		"NameENG": "Hairi",
+		"ENG": "\"A Sukeban yo-yo!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x264",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「ずっしり重い！　うわー、すげーー！　本物みたいだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's so heavy! Holy crap, this is awesome! It's almost like the real thing!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「紐のとこがちゃんと鎖になってる！」",
+		"NameENG": "Hairi",
+		"ENG": "\"It even has a chain for its string!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「てことは、この部分を押すと……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Which means if I press here, then...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 14,
+		"JPN": "パカっ",
+		"ENG": "Kachak.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x342",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「出たーーーー！　桜の代紋ーーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"There it is! The cherry blossom insignia!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x384",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「許さんぜよーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Someday, I'll kill you!'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 17,
+		"VOICEID": 29316,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 18,
+		"VOICEID": 29317,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x404",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 19,
+		"VOICEID": 23971,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「…Ｏｈ…」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Oh.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x452",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3d00",
+		"Equation": "(#23==1)",
+		"GOTO_LABEL": "0x4bc"
+	},
+	{
+		"LABEL": "0x466",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 21,
+		"VOICEID": 29318,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ルシファーだと思ったのにスケバンだったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I thought you were Lucifer, but I guess you were actually a delinquent queen all along?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4100",
+		"GOTO_LABEL": "0x60a"
+	},
+	{
+		"LABEL": "0x4bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4300",
+		"Equation": "(#24==1)",
+		"GOTO_LABEL": "0x52e"
+	},
+	{
+		"LABEL": "0x4d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 22,
+		"VOICEID": 29319,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「カナリアンロッカーだと思ったのにスケバンだったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I thought you were a canary 'n' rocker, but I guess you were actually a delinquent queen all along?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x524",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4700",
+		"GOTO_LABEL": "0x60a"
+	},
+	{
+		"LABEL": "0x52e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4900",
+		"Equation": "(#25==1)",
+		"GOTO_LABEL": "0x59a"
+	},
+	{
+		"LABEL": "0x542",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 23,
+		"VOICEID": 29320,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「チャンピオンだと思ったのにスケバンだったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I thought you were a champion, but I guess you were actually a delinquent queen all along?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x590",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4d00",
+		"GOTO_LABEL": "0x60a"
+	},
+	{
+		"LABEL": "0x59a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f00",
+		"Equation": "(#26==1)",
+		"GOTO_LABEL": "0x60a"
+	},
+	{
+		"LABEL": "0x5ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 24,
+		"VOICEID": 29321,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ショッキングタカだと思ったのにスケバンだったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I thought you were Shockin' Taka, but I guess you were actually a delinquent queen all along?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5300",
+		"GOTO_LABEL": "0x60a"
+	},
+	{
+		"LABEL": "0x60a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 25,
+		"VOICEID": 29322,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「男だけどスケバンね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"A male delinquent queen.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x63e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 26,
+		"VOICEID": 23977,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「しかも２代目ですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"And a second-gen one on top of it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x672",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5900",
+		"Equation": "(@称号を獲得したことがある(9))",
+		"GOTO_LABEL": "0x73c"
+	},
+	{
+		"LABEL": "0x69c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 91,
+		"MSGID": 27,
+		"VOICEID": 29323,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「スケバンに呪われたヒデに会ったことがあるルシファーね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Delinquent-Queen-Cursed-Hide-Acquainted Lucifer!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「まって、ヒデが大変なことになってる」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, what do you think you're doing to poor Hide?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x732",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5f00",
+		"GOTO_LABEL": "0x73c"
+	},
+	{
+		"LABEL": "0x73c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 29,
+		"VOICEID": 23979,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でもスケバンがいるということは、まさかこの島に事件が？」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"But if there's a delinquent queen on this island, doesn't that mean there's gonna be trouble here soon?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x794",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 99,
+		"MSGID": 30,
+		"VOICEID": 29324,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「みんなに知らせないと！」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"We've gotta let everyone else know!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 101,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「あ、ちょっとまって！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah, wait!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 103,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「行ってしまった……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Welp. There they go...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x82e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 105,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「波乱の予感……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I have a bad feeling about this...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x85a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6f00",
+		"Equation": "(@称号を獲得したことがある(9))",
+		"GOTO_LABEL": "0x92e"
+	},
+	{
+		"LABEL": "0x884",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "710071172300"
+	},
+	{
+		"LABEL": "0x88e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x8a8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "720005410e0300"
+	},
+	{
+		"LABEL": "0x8b4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000023000000"
+	},
+	{
+		"LABEL": "0x8c0",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "730018002400"
+	},
+	{
+		"LABEL": "0x8ca",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "74002200000000",
+		"JPN": "スケバンに呪われたヒデに会ったことがあるルシファーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x91e",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x924",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7500",
+		"GOTO_LABEL": "0x9aa"
+	},
+	{
+		"LABEL": "0x92e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "780071172200"
+	},
+	{
+		"LABEL": "0x938",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0100",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x952",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "790005410e0300"
+	},
+	{
+		"LABEL": "0x95e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000022000000"
+	},
+	{
+		"LABEL": "0x96a",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "7a0018002500"
+	},
+	{
+		"LABEL": "0x974",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "7b002300000000",
+		"JPN": "２代目スケバンの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x9a4",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x9aa",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "7e0093173100"
+	},
+	{
+		"LABEL": "0x9b4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8100",
+		"GOTO_LABEL": "0x1332"
+	},
+	{
+		"LABEL": "0x9be",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8400",
+		"Equation": "(#6035>=3)",
+		"GOTO_LABEL": "0xe2c"
+	},
+	{
+		"LABEL": "0x9d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、今日は流れが悪い気がする」",
+		"NameENG": "Hairi",
+		"ENG": "\"Considering how this day's gone so far, I have a feeling that would end terribly.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 37,
+		"JPN": "こういうときは、やらない方がいい。",
+		"ENG": "At times like this, it'd probably be better not to play.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 38,
+		"JPN": "あえて引かない勇気だ。",
+		"ENG": "I have the courage to resist the siren call of the gacha machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 39,
+		"VOICEID": 28820,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「やらんのかい？」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Not going to play?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaa4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 143,
+		"MSGID": 40,
+		"NameJPN": "羽依里",
+		"JPN": "「うわっ、おばーちゃん！　起きてたの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah! You were awake!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xae6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 145,
+		"MSGID": 41,
+		"VOICEID": 28821,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「それもまた、一つの勇気じゃとて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"That's certainly courage, of a sort.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 42,
+		"VOICEID": 28822,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「そんなおぬしに、こいつをやろう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"This is for you, since you were so resolute.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 149,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　これは？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? What's this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 151,
+		"MSGID": 44,
+		"VOICEID": 28823,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「わしが丁寧に作った、水飴じゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's my homemade candy syrup.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbf6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 45,
+		"VOICEID": 28824,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「お米だけで作る特別な代物じゃて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's completely made out of rice.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 46,
+		"NameJPN": "羽依里",
+		"JPN": "「は、はあ。いただきます」",
+		"NameENG": "Hairi",
+		"ENG": "\"I-I see. Thanks.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 47,
+		"JPN": "早速、一舐めしてみる。",
+		"ENG": "I gave it a little lick.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 48,
+		"JPN": "とても優しい甘さだった。",
+		"ENG": "An extremely gentle sweetness spread through my mouth.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 49,
+		"VOICEID": 28825,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「喉にええでの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's great for the throat.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 50,
+		"JPN": "ぐっと、親指を立ててきた。",
+		"ENG": "She gave me an energetic thumbs up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd28",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a700",
+		"Equation": "(@エサを過去に手に入れたことがある(14)==0)",
+		"GOTO_LABEL": "0xdb2"
+	},
+	{
+		"LABEL": "0xd5e",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "a8003300000000",
+		"JPN": "『米水飴』をＧｅｔした！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0xd86",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0xd8c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a900"
+	},
+	{
+		"LABEL": "0xd92",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05680d0300"
+	},
+	{
+		"LABEL": "0xd9c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000000e001400"
+	},
+	{
+		"LABEL": "0xda8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "aa00",
+		"GOTO_LABEL": "0xe22"
+	},
+	{
+		"LABEL": "0xdb2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ad00"
+	},
+	{
+		"LABEL": "0xdb8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000000e001d00"
+	},
+	{
+		"LABEL": "0xdc4",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "ae003400000000",
+		"JPN": "『米水飴』を手に入れた",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0xdea",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0xdf0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "af00"
+	},
+	{
+		"LABEL": "0xdf6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05420e0300"
+	},
+	{
+		"LABEL": "0xe00",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800",
+		"Category": 0,
+		"ID": -1,
+		"JPN": "『米水飴』を手に入れた",
+		"ENG": "Obtained \"Rice Syrup\"!"
+	},
+	{
+		"LABEL": "0xe22",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b100",
+		"GOTO_LABEL": "0x1332"
+	},
+	{
+		"LABEL": "0xe2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 53,
+		"JPN": "ガチャガチャに、それほどこだわりがあるわけじゃないしな。",
+		"ENG": "Yeah, I'll pass. I'm not some gacha addict.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 54,
+		"JPN": "１００円分の価値があるような物は、そう出てこないし。",
+		"ENG": "None of the stuff in those is ever worth the hundred yen anyway.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 55,
+		"JPN": "むしろ、その１００円でおばーちゃんのかき氷を食べる方が有意義だ。",
+		"ENG": "I'd rather spend it on some shaved ice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃん、ブルーハワイ１つ頼むよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ma'am, one blue Hawaii please!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 57,
+		"JPN": "目を閉じながらパチン、と指を鳴らしてみる。",
+		"ENG": "I snapped my fingers with my eyes closed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 58,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 59,
+		"JPN": "返事はない。",
+		"ENG": "No reply.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 196,
+		"MSGID": 60,
+		"JPN": "そうだ、おばーちゃんは寝ていたんだった。",
+		"ENG": "Oh, right. She's asleep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 198,
+		"MSGID": 61,
+		"VOICEID": 29316,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1014",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 62,
+		"VOICEID": 29317,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x103c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 63,
+		"VOICEID": 23971,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1064",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 64,
+		"JPN": "目を開けたら、島の女の子たちがじっと俺を見ていた。",
+		"ENG": "I opened my eyes to find a group of little girls staring right at me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 206,
+		"MSGID": 65,
+		"JPN": "女の子の１人が口を開けそうになったその瞬間。",
+		"ENG": "Just as one of the girls was about to say something...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 208,
+		"MSGID": 66,
+		"NameJPN": "羽依里",
+		"JPN": "「ジャスト！　ア！　モーメン！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait! No! Pause!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x111c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 67,
+		"JPN": "手の平で女の子達を制す。",
+		"ENG": "I held my hand out, signaling her to stop.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 68,
+		"NameJPN": "羽依里",
+		"JPN": "「自慢じゃないけど、俺、メンタル強く無いから」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm not proud to admit it, but I'm an incredibly sensitive person.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x118c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d600",
+		"Equation": "(#23==1)",
+		"GOTO_LABEL": "0x11d6"
+	},
+	{
+		"LABEL": "0x11a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「ルシファーとか」",
+		"NameENG": "Hairi",
+		"ENG": "\"All that 'Lucifer' stuff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11cc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "da00",
+		"GOTO_LABEL": "0x12c4"
+	},
+	{
+		"LABEL": "0x11d6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "db00",
+		"Equation": "(#24==1)",
+		"GOTO_LABEL": "0x1228"
+	},
+	{
+		"LABEL": "0x11ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 221,
+		"MSGID": 70,
+		"NameJPN": "羽依里",
+		"JPN": "「カナリアンロッカーとか」",
+		"NameENG": "Hairi",
+		"ENG": "\"All that 'Canary 'n' Rocker' stuff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x121e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "df00",
+		"GOTO_LABEL": "0x12c4"
+	},
+	{
+		"LABEL": "0x1228",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e000",
+		"Equation": "(#25==1)",
+		"GOTO_LABEL": "0x1274"
+	},
+	{
+		"LABEL": "0x123c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 226,
+		"MSGID": 71,
+		"NameJPN": "羽依里",
+		"JPN": "「チャンピオンとか」",
+		"NameENG": "Hairi",
+		"ENG": "\"All that 'Champion' stuff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e400",
+		"GOTO_LABEL": "0x12c4"
+	},
+	{
+		"LABEL": "0x1274",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e500",
+		"Equation": "(#26==1)",
+		"GOTO_LABEL": "0x12c4"
+	},
+	{
+		"LABEL": "0x1288",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 231,
+		"MSGID": 72,
+		"NameJPN": "羽依里",
+		"JPN": "「ショッキングタカとか」",
+		"NameENG": "Hairi",
+		"ENG": "\"All that 'Shockin' Taka' stuff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12ba",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e900",
+		"GOTO_LABEL": "0x12c4"
+	},
+	{
+		"LABEL": "0x12c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "「本当は恥ずかしいからーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I can't deal with it! BYE!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1300",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 74,
+		"JPN": "俺はそう叫んで、全力で逃げ出した。",
+		"ENG": "I ran away as fast as I could.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1332",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "f2008e173100"
+	},
+	{
+		"LABEL": "0x133c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f30014000100"
+	},
+	{
+		"LABEL": "0x1346",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f6000000b800000000000000"
+	},
+	{
+		"LABEL": "0x1356",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x135e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x1366",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x1372",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x137e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1384",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x138a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x138e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1394",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1398",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x139c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "f700"
+	},
+	{
+		"LABEL": "0x13a2",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "f8000080"
+	}
+]

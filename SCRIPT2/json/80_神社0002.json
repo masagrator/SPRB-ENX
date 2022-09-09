@@ -1,0 +1,1789 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0300098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0600"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 8,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way over to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 1,
+		"JPN": "ふと、思い出す。",
+		"ENG": "Suddenly, a certain memory struck me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 2,
+		"JPN": "懐かしい、学校での出来事を。",
+		"ENG": "It happened way back in the day, at my old school.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 3,
+		"JPN": "デートコースに神社は、オシャレでモテると。",
+		"ENG": "I ended up in a conversation about the best places to take a date to.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 4,
+		"JPN": "そんな話をした日々を。",
+		"ENG": "Shrines happened to come up among them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x106",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 5,
+		"JPN": "神社での作法をさりげなく見せて、そして教えることで、出来る男を演出する。",
+		"ENG": "The theory was that if you can demonstrate proper shrine-visiting etiquette―or even better, teach your date―you'll look super cool and reliable.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「……ちょっと、復習するかな」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Might as well give it a review.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x196",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 7,
+		"JPN": "まずは、参道の歩き方。",
+		"ENG": "First off, walking up to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bc",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "18007117b401000000",
+		"JPN": [
+			"右側を歩く",
+			"真ん中を歩く",
+			"左側を歩く"
+		],
+		"ENG": [
+			"Walk along the right",
+			"Walk straight down the middle",
+			"Walk along the left"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x1fc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1f00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x31c"
+	},
+	{
+		"LABEL": "0x212",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 8,
+		"JPN": "参道の真ん中は、神様の通り道。",
+		"ENG": "The path down the middle is reserved for the gods.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x240",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 9,
+		"JPN": "だから、真ん中じゃ無ければ、どっちでもよかったはず。",
+		"ENG": "As such, it doesn't really matter where you walk as long as you stay to the side.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x284",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 10,
+		"JPN": "ただ手水舎が右側にあるから、右側を歩こう。",
+		"ENG": "The right side's just convenient since the ritual fountain is usually over there.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 11,
+		"JPN": "そうしておけば、神様の前を横切るという失礼はないだろうし。",
+		"ENG": "Starting on the right means you don't have to cross over the gods' path to get to it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x308",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "25008f173100"
+	},
+	{
+		"LABEL": "0x312",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2600",
+		"GOTO_LABEL": "0x4e8"
+	},
+	{
+		"LABEL": "0x31c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2700",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x400"
+	},
+	{
+		"LABEL": "0x332",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 12,
+		"JPN": "揺るぎない心を見せるため。",
+		"ENG": "Walking down the middle displays your unwavering spirit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 13,
+		"JPN": "もしくは、神様へ裏表のない真摯な心を見せるため。",
+		"ENG": "Alternately, it displays our pure, unvarnished earnestness to the gods.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 14,
+		"JPN": "まっすぐと、参道の真ん中を歩く。",
+		"ENG": "That's why we walk straight down the middle of the road.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 15,
+		"JPN": "ある意味、神様との対話だ。",
+		"ENG": "In a certain sense, it's a way of communicating with the shrine's deity face to face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c00",
+		"GOTO_LABEL": "0x4e8"
+	},
+	{
+		"LABEL": "0x400",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2d00",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x4e8"
+	},
+	{
+		"LABEL": "0x416",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 16,
+		"JPN": "左道、と呼ばれる物があった。",
+		"ENG": "'The left-hand path' is a concept in some forms of mysticism.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x442",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 17,
+		"JPN": "人の道を外れた、邪道と同義の言葉。",
+		"ENG": "It refers to walking a path of inhumanity; straying from the right and proper way of doing things.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x474",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 18,
+		"JPN": "神様の前では、誰もが等しくそれだろう。",
+		"ENG": "But most likely, everyone walks the left-hand path in the eyes of the gods.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 19,
+		"JPN": "そんな戒めを込めて、左側を歩くんだ。",
+		"ENG": "Thus, we walk on the left to remind ourselves to follow their example.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4de",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3200",
+		"GOTO_LABEL": "0x4e8"
+	},
+	{
+		"LABEL": "0x4e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 20,
+		"JPN": "そして手水舎までやってくる。",
+		"ENG": "I soon found myself at the ritual fountain.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x514",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「ここで洗うのは……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Next up, I have to wash...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x544",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "38007117b801010003",
+		"JPN": [
+			"顔と歯",
+			"足と罪",
+			"手と口"
+		],
+		"ENG": [
+			"My face and my teeth",
+			"My feet and my sins",
+			"My hands and my mouth"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x576",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3f00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x6c6"
+	},
+	{
+		"LABEL": "0x58c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「神様と会うのに、エチケット大事」",
+		"NameENG": "Hairi",
+		"ENG": "\"Etiquette is important when meeting a god.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 23,
+		"JPN": "バシャバシャと顔を洗う。",
+		"ENG": "I splashed water onto my face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 24,
+		"JPN": "歯ブラシがない……けど、水を口に含み指でこする。",
+		"ENG": "I didn't have a toothbrush with me, so I scooped some water into my mouth and used my finger to brush my teeth instead.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x630",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「昔の人は、こうしてた……はず」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is what people used to do way back in the old times... Probably.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x66a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 26,
+		"JPN": "がらがら……ぺっ。",
+		"ENG": "Gurgle, gurgle... Spit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「ふう……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Whew...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6b2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4c00d81b0100"
+	},
+	{
+		"LABEL": "0x6bc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4e00",
+		"GOTO_LABEL": "0xbc4"
+	},
+	{
+		"LABEL": "0x6c6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x86a"
+	},
+	{
+		"LABEL": "0x6dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「足を洗うっていっても、悪いことをやめるという意味じゃない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, gotta be feet. Why would you wash your hands? That's like saying you're washing your hands of the gods' influence.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x732",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 29,
+		"JPN": "たしか、罪を認めつつ、足に水をかけるんだっけな。",
+		"ENG": "And I think you're supposed to do it while acknowledging your sins, right?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x772",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 30,
+		"JPN": "洗礼……つったっけ？",
+		"ENG": "What was it called again...? Baptism?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x796",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「……あれ？　宗教ちがう？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Wait, is this even the right religion?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 32,
+		"JPN": "まあ、日本は多神教だから大丈夫か。",
+		"ENG": "Meh, Japan's all about polytheism. It's probably fine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 33,
+		"JPN": "大切なのは気持ちだろうし。",
+		"ENG": "It's the thought that counts.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x828",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 34,
+		"JPN": "パシャパシャと足に水をかける。",
+		"ENG": "I splashed water onto my feet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x856",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5e00d81b0200"
+	},
+	{
+		"LABEL": "0x860",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6000",
+		"GOTO_LABEL": "0xbc4"
+	},
+	{
+		"LABEL": "0x86a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6100",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0xbc4"
+	},
+	{
+		"LABEL": "0x880",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 35,
+		"JPN": "神様の前に立つ前、昔の人は水で身を清めた。",
+		"ENG": "The people of old would always cleanse their bodies before facing their god.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 36,
+		"JPN": "それを簡略化したのが、手水の作法。",
+		"ENG": "Washing our hands and mouth is a sorta simplified way of accomplishing the same thing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「まずは、右手でひしゃくを持って、水口から出る水を貯める」",
+		"NameENG": "Hairi",
+		"ENG": "\"First, you hold the scoop with your right hand, and fill it with water from the fountain.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x940",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 38,
+		"JPN": "貯めた水で、左手だけを洗う。",
+		"ENG": "Using that water, you wash your left hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x96c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 39,
+		"JPN": "続いて、ひしゃくを左手に持って、右手を洗う。",
+		"ENG": "Next, you pass the scoop to your left hand, and wash your right.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 40,
+		"JPN": "そして、またひしゃくを右手に持って、左手で水を受けてその水で口をすすぐ。",
+		"ENG": "Then you pass the scoop back to your right hand, refill it, pour the water into your left hand and use it to wash your mouth.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「くちゅくちゅ……ぺっ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gurgle, gurgle... Spit.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 42,
+		"JPN": "最後にひしゃくを立てて、柄の部分を洗い流す。",
+		"ENG": "Finally, you turn the scoop upright and let the remaining water run down its handle, cleansing that as well.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 43,
+		"JPN": "濡れた手は、自然乾燥が望ましい。",
+		"ENG": "It's best to let your hands air-dry, if you can manage it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 44,
+		"NameJPN": "羽依里",
+		"JPN": "「これが正しい、手水の手順と」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's the proper procedure for cleansing yourself at a shrine.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xad6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 45,
+		"JPN": "いつか……",
+		"ENG": "I learned it by heart, long ago...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaf0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 46,
+		"JPN": "女の子と来た時に、一目置かれたくて覚えた作法。",
+		"ENG": "Hoping to someday have the chance to visit a shrine with a girl.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb2e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 47,
+		"JPN": "まだ、活躍したことはない。",
+		"ENG": "I'm still waiting for that chance to this day.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 49,
+		"JPN": "ちょっと、切なくなった。",
+		"ENG": "And, now I'm depressed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xba6",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "80008f173100"
+	},
+	{
+		"LABEL": "0xbb0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8200d81b0300"
+	},
+	{
+		"LABEL": "0xbba",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8400",
+		"GOTO_LABEL": "0xbc4"
+	},
+	{
+		"LABEL": "0xbc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 50,
+		"JPN": "木々の葉を揺らす風が、水に濡れた肌を撫でる。",
+		"ENG": "The wind rustled the leaves of the surrounding trees, cooling off my damp skin.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 51,
+		"JPN": "なんだか清々しい。",
+		"ENG": "How refreshing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 52,
+		"JPN": "うん、神様の前に立つ準備はできた。",
+		"ENG": "That should do it. I was ready to stand before a god.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc54",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 53,
+		"JPN": "賽銭箱の前に立つ。",
+		"ENG": "I took my place in front of the offertory box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 143,
+		"MSGID": 54,
+		"JPN": "手には１００円玉。",
+		"ENG": "In my hand was a hundred yen coin.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 145,
+		"MSGID": 55,
+		"JPN": "このお賽銭を……",
+		"ENG": "I...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "93007117bc01020006",
+		"JPN": [
+			"思いを込めたオーバースローで",
+			"天地を切り裂くサイドスローで",
+			"そっと優しくアンダースローで"
+		],
+		"ENG": [
+			"Use a powerful overhand throw",
+			"$S032Use a heaven-splitting sidearm throw$S",
+			"Use a gentle underhand toss"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0xd2c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9a00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0xe8a"
+	},
+	{
+		"LABEL": "0xd42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「願いよ叶え!!」",
+		"NameENG": "Hairi",
+		"ENG": "\"May my prayers be granted!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 57,
+		"JPN": "渾身の力を込めて、手にした小銭を賽銭箱に投げ入れた。",
+		"ENG": "I chucked the coin at the offertory box with all my strength.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 58,
+		"JPN": "カキョーン！",
+		"ENG": "Clank!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 59,
+		"JPN": "木枠に当たって、明後日の方向に飛んでいった。",
+		"ENG": "It bounced off the wooden slats and flew off into next week.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 61,
+		"JPN": "すごすごと落ちた小銭を拾い、下投げで賽銭箱に入れ直した。",
+		"ENG": "I plodded over to the fallen coin, picked it up, and gently tossed it into the box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe74",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "a7001c2731303000"
+	},
+	{
+		"LABEL": "0xe80",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a900",
+		"GOTO_LABEL": "0x112a"
+	},
+	{
+		"LABEL": "0xe8a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "aa00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1000"
+	},
+	{
+		"LABEL": "0xea0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「天と地の狭間、すなわち人間を表す投法！」",
+		"NameENG": "Hairi",
+		"ENG": "\"A toss that lies between the heavens and the earth: in other words, the toss of a human!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xee4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 63,
+		"JPN": "万感の思いを込め、手にした小銭を賽銭箱に投げ入れた。",
+		"ENG": "I chucked the coin at the offertory box, cramming it full of my wishes.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 175,
+		"MSGID": 64,
+		"JPN": "ヒューーーン……",
+		"ENG": "Ping...!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 177,
+		"MSGID": 65,
+		"JPN": "木枠を外れ、明後日の方向に飛んでいった。",
+		"ENG": "It skipped off the wooden slats and flew off into next week.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 179,
+		"MSGID": 66,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 181,
+		"MSGID": 67,
+		"JPN": "すごすごと落ちた小銭を拾い、下投げで賽銭箱に入れ直した。",
+		"ENG": "I plodded over to the fallen coin, picked it up, and gently tossed it into the box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfea",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "b7001c2731303000"
+	},
+	{
+		"LABEL": "0xff6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b900",
+		"GOTO_LABEL": "0x112a"
+	},
+	{
+		"LABEL": "0x1000",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ba00",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x112a"
+	},
+	{
+		"LABEL": "0x1016",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 187,
+		"MSGID": 68,
+		"NameJPN": "羽依里",
+		"JPN": "「神様に捧げるんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is for you, gods.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1044",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 189,
+		"MSGID": 69,
+		"JPN": "そっと下から小銭を賽銭箱に投げ入れる。",
+		"ENG": "I gently tossed the coin into the box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x107a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 191,
+		"MSGID": 70,
+		"JPN": "チャリーン。",
+		"ENG": "Clink...!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1096",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 193,
+		"MSGID": 71,
+		"JPN": "すでに賽銭箱に貯まっている小銭とぶつかって、小気味よい音。",
+		"ENG": "The coin landed on the pile of change already in the box with a satisfying clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 195,
+		"MSGID": 72,
+		"JPN": "この島の信心深さを感じた。",
+		"ENG": "Given how much change was in there, I could tell this island takes its faith pretty seriously.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x110a",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "c5001c2731303000"
+	},
+	{
+		"LABEL": "0x1116",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "c7008f173100"
+	},
+	{
+		"LABEL": "0x1120",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c900",
+		"GOTO_LABEL": "0x112a"
+	},
+	{
+		"LABEL": "0x112a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 73,
+		"JPN": "最後は、お願いの作法だ。",
+		"ENG": "Finally, we come to the question of how we're supposed to make our wish.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1152",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 74,
+		"JPN": "拍手とお辞儀だけど……",
+		"ENG": "I know you have to bow and clap, but, how...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1178",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "cf007117c001030009",
+		"JPN": [
+			"二礼二拍一礼",
+			"二拍二礼一拍",
+			"二拍二拍一拍"
+		],
+		"ENG": [
+			"Two bows, two claps, one bow",
+			"Two claps, two bows, one clap",
+			"Two claps, two claps, one clap"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x11bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d500",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x13f6"
+	},
+	{
+		"LABEL": "0x11d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 214,
+		"MSGID": 75,
+		"JPN": "二回、お辞儀する。",
+		"ENG": "I bowed twice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 76,
+		"JPN": "そして、パンパンと二回手を叩き。",
+		"ENG": "Then I clapped my hands twice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1224",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 218,
+		"MSGID": 77,
+		"JPN": "もう一度お辞儀。",
+		"ENG": "Finally, I bowed once more.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1244",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 220,
+		"MSGID": 78,
+		"JPN": "この時に、お願い事をする。",
+		"ENG": "You make your wish after that last bow.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 79,
+		"JPN": "とりあえず……",
+		"ENG": "I guess...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x128c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "e100"
+	},
+	{
+		"LABEL": "0x1292",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x12a0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x12a8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x12ae",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0b005d2b3c00"
+	},
+	{
+		"LABEL": "0x12b8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x12be",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x12cc",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x12d2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x12d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 227,
+		"MSGID": 80,
+		"JPN": "夏休みを楽しく過ごせますように。",
+		"ENG": "I'll wish for a fun summer vacation.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1306",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 229,
+		"MSGID": 81,
+		"JPN": "…………",
+		"ENG": ".........",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x131e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 231,
+		"MSGID": 82,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1332",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "e900"
+	},
+	{
+		"LABEL": "0x1338",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x1346",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x134e",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e005d2b3c00"
+	},
+	{
+		"LABEL": "0x1358",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x135c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 83,
+		"JPN": "頭を上げて、目を開ける。",
+		"ENG": "I raised my head and opened my eyes.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1384",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 84,
+		"JPN": "一歩下がって、軽く会釈。",
+		"ENG": "Stepping down from the pedestal, I gave the shrine one last quick bow.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 239,
+		"MSGID": 85,
+		"JPN": "これが、正しい参拝の仕方だ。",
+		"ENG": "That's the correct way to make an offering at a shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13d8",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "f1008f173100"
+	},
+	{
+		"LABEL": "0x13e2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f300d91b0100"
+	},
+	{
+		"LABEL": "0x13ec",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f500",
+		"GOTO_LABEL": "0x17d2"
+	},
+	{
+		"LABEL": "0x13f6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f600",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1668"
+	},
+	{
+		"LABEL": "0x140c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 247,
+		"MSGID": 86,
+		"JPN": "まずは、二回手を叩き、神様に「来たよ」と告げる。",
+		"ENG": "First off, you clap twice to let the god know that you've arrived.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x144c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 249,
+		"MSGID": 87,
+		"JPN": "パンパン",
+		"ENG": "Clap, clap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1464",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 251,
+		"MSGID": 88,
+		"JPN": "そして頭を二回下げる。",
+		"ENG": "Next, you bow twice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x148a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "fe00"
+	},
+	{
+		"LABEL": "0x1490",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x149e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x14a6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x14ac",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0b005d2b3c00"
+	},
+	{
+		"LABEL": "0x14b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x14bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x14ca",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x14d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x14d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 89,
+		"JPN": "夏休みを楽しく過ごせますように。",
+		"ENG": "I wish for a fun summer vacation.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 90,
+		"JPN": "…………",
+		"ENG": ".........",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x151c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 260,
+		"MSGID": 91,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1530",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0601"
+	},
+	{
+		"LABEL": "0x1536",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x1544",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x154c",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e005d2b3c00"
+	},
+	{
+		"LABEL": "0x1556",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x155a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 264,
+		"MSGID": 92,
+		"JPN": "頭を上げて、目を開ける。",
+		"ENG": "I raised my head and opened my eyes.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1582",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 266,
+		"MSGID": 93,
+		"JPN": "ここでもう一回手を叩く。",
+		"ENG": "Last, you clap one more time.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 268,
+		"MSGID": 94,
+		"JPN": "パン",
+		"ENG": "Clap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 95,
+		"JPN": "神様に「帰ります」と告げるため。",
+		"ENG": "That last clap is to tell the god you're leaving.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 272,
+		"MSGID": 96,
+		"JPN": "…………",
+		"ENG": ".........",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1606",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 97,
+		"JPN": "これで良かったっけ……？",
+		"ENG": "Did I get all that right...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x162e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 98,
+		"JPN": "ちょっと不安になった。",
+		"ENG": "I wasn't totally sure.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1654",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1601d91b0200"
+	},
+	{
+		"LABEL": "0x165e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1801",
+		"GOTO_LABEL": "0x17d2"
+	},
+	{
+		"LABEL": "0x1668",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1901",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x17d2"
+	},
+	{
+		"LABEL": "0x167e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 99,
+		"JPN": "まずは、二回手を叩き、神様に「来たよ」と告げる。",
+		"ENG": "First, you clap twice to let the god know that you've arrived.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 284,
+		"MSGID": 100,
+		"JPN": "パンパン",
+		"ENG": "Clap, clap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 286,
+		"MSGID": 101,
+		"JPN": "さらに、僕はここに居るよと、もう二回。",
+		"ENG": "Next, you clap two more times to make sure the god really gets the point.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x170c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 288,
+		"MSGID": 102,
+		"JPN": "パンパン",
+		"ENG": "Clap, clap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1724",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 290,
+		"MSGID": 103,
+		"JPN": "聞こえてる？　とさらに一回。",
+		"ENG": "You listening up there? One more clap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1750",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 292,
+		"MSGID": 104,
+		"JPN": "パン",
+		"ENG": "Clap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1764",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 105,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x178a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 106,
+		"JPN": "あれ？　お願い事をするタイミングは？",
+		"ENG": "Huh? When was I supposed to make my wish?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17be",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2a01d91b0300"
+	},
+	{
+		"LABEL": "0x17c8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c01",
+		"GOTO_LABEL": "0x17d2"
+	},
+	{
+		"LABEL": "0x17d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 107,
+		"NameJPN": "羽依里",
+		"JPN": "「とりあえず、参拝終了」",
+		"NameENG": "Hairi",
+		"ENG": "\"I think I can call this shrine visit a wrap.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1804",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 108,
+		"JPN": "神様にお参りするという気持ちが一番大事だ。",
+		"ENG": "Your feelings matter more than anything else when you're visiting a shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x183e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 306,
+		"MSGID": 109,
+		"JPN": "その気持ちさえあれば、少々の作法のズレくらい多めに見て貰えるだろう。",
+		"ENG": "As long as you have the conviction, the gods will probably cut you some slack even if you screw up the protocol a bit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1892",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 308,
+		"MSGID": 110,
+		"JPN": "俺は神社を去った。",
+		"ENG": "I left the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18b4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "36010900000000780001"
+	},
+	{
+		"LABEL": "0x18c2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "380112000100"
+	},
+	{
+		"LABEL": "0x18cc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3a01",
+		"Equation": "(#6031==4)",
+		"GOTO_LABEL": "0x18f6"
+	},
+	{
+		"LABEL": "0x18e2",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "3b0118005200"
+	},
+	{
+		"LABEL": "0x18ec",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3c01",
+		"GOTO_LABEL": "0x18f6"
+	},
+	{
+		"LABEL": "0x18f6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3f010000b800000000000000"
+	},
+	{
+		"LABEL": "0x1906",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x190e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x1916",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x1922",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x192e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1934",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x193a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x193e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1944",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1948",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x194c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4001"
+	},
+	{
+		"LABEL": "0x1952",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "44010080"
+	}
+]

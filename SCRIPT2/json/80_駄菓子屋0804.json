@@ -1,0 +1,1432 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0800"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 0,
+		"JPN": "駄菓子屋にやってきた。",
+		"ENG": "I made my way over to the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 1,
+		"VOICEID": 23864,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「何か入りようかのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Lookin' for something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「そうっすね……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm... I guess I'll have...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb8",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "100071171102000000",
+		"JPN": [
+			"この店で一番高いもの",
+			"ガチャガチャのために両替",
+			"かき氷"
+		],
+		"ENG": [
+			"$S032The most expensive thing in this store$S",
+			"$S032Some change so I can play the gacha$S",
+			"Shaved ice"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x10a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1800",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x78c"
+	},
+	{
+		"LABEL": "0x120",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「この店で一番高いものを頼む」",
+		"NameENG": "Hairi",
+		"ENG": "\"I guess I'll have the most expensive thing you've got in this store.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x158",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 4,
+		"JPN": "パチンと指を鳴らしながら注文してみた。",
+		"ENG": "I punctuated my order by snapping my fingers.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 5,
+		"VOICEID": 23865,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ちょっと待っておくれ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Give me just a second.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 6,
+		"JPN": "店の奥に行く。",
+		"ENG": "She headed into the store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 7,
+		"JPN": "あんなにボリューム満点のかき氷が１００円なんだ。",
+		"ENG": "That huge mountain of shaved ice had only been a hundred yen.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 8,
+		"JPN": "高くてもせいぜい３００円くらいだろう。",
+		"ENG": "Surely their most expensive item can't be more than three hundred or so, right?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x264",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「……ん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 10,
+		"JPN": "なんか分厚いファイルを持ってきた。",
+		"ENG": "For some reason, the lady came back holding a comically thick binder stuffed full of papers.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 11,
+		"VOICEID": 23866,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「よっこらせ、どこがええ？」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Heave, ho...! Now, where would you like?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x302",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「どこ……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Where...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 13,
+		"VOICEID": 23867,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「おすすめは島の南東側の山じゃの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"The island's southeast mountain would be my recommendation.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x376",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 14,
+		"VOICEID": 23868,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「獣道しかないが、わくわくすっぞ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"You won't find anything but animal trails on it, but that's a little exciting in itself, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、あの……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Err, I...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 16,
+		"VOICEID": 23869,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「島の中央にある山も良かろう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"How about the mountain in the center of the island?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x436",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 17,
+		"VOICEID": 23870,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「掘ればまだ銅が出てくるじゃろうて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"I hear you might still be able to find copper there to mine.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x484",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 18,
+		"VOICEID": 23871,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「あとはのー……」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Apart from that...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょ、まって。……え？　何売ってるの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"W-Wait a second here. Huh? What exactly are you selling?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 20,
+		"VOICEID": 23872,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「土地じゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Property.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x53c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「ここ、駄菓子屋っすよね??」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is a candy store, isn't it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x574",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 22,
+		"VOICEID": 23873,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「駄菓子屋が土地を売っちゃいかんのかの？」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Are candy stores not allowed to sell property?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「ちなみにお値段は……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Just out of curiosity, how much would that mountain be?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 24,
+		"VOICEID": 23874,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「８０００坪で３億６０００万ほどじゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's around seven acres, so about three hundred sixty million yen.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x64e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「坪で言われてもよく分かりません」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm not really familiar with acres, so that doesn't tell me much.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x68a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 26,
+		"VOICEID": 23875,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「東京ドーム２個分かの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's around twice the size of the Tokyo Dome.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 27,
+		"VOICEID": 23876,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「特別プライスダウン、今決めたら３億で良いぞよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"If you buy it right now, I'll let you have it at a special discount of only three hundred million yen!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x726",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「し、失礼しました！」",
+		"NameENG": "Hairi",
+		"ENG": "\"S-Sorry for bothering you!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x756",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 29,
+		"JPN": "恐るべし……島の駄菓子屋……",
+		"ENG": "Remote island candy stores are not to be trifled with...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x782",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5100",
+		"GOTO_LABEL": "0x18a8"
+	},
+	{
+		"LABEL": "0x78c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5400",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x156a"
+	},
+	{
+		"LABEL": "0x7a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「そこのガチャガチャをしたいんで、両替を」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd like to get some change to play the gacha machine over there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 31,
+		"VOICEID": 23877,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「１００円と２０円のがあるがどっちかの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Which one would you like to play? The hundred yen one, or the twenty yen one?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x838",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　２０円？　うわ、なにこれ、ちっさ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Twenty yen? Woah, the heck!? This thing's tiny!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x87e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 91,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「てか、２０円てどうやってお金いれんの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Can this thing even fit two ten yen coins?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 34,
+		"VOICEID": 23878,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「１０円玉を２枚重ねて入れるんじゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"You put two of them in side by side.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x910",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「なるほど！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, I get it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x938",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 36,
+		"VOICEID": 23879,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「で、どっちじゃて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"So, which'll it be?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x976",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "630071171502010003",
+		"JPN": [
+			"１００円ガチャ",
+			"２０円ガチャ"
+		],
+		"ENG": [
+			"The hundred yen gacha",
+			"The twenty yen gacha"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x9ac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6900",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x11b4"
+	},
+	{
+		"LABEL": "0x9c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「１００円の方で！」",
+		"NameENG": "Hairi",
+		"ENG": "\"The hundred yen one!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 38,
+		"VOICEID": 23880,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「さっきの『なるほど！』はなんじゃったのかのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"What happened to the 'oh, I get it!' spirit?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 39,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、２０円ガチャって中身絶対にしょぼそうだし」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, anything inside a twenty yen gacha is pretty guaranteed to be worthless.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 40,
+		"VOICEID": 23881,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ガチャの中身にどのような価値を見いだすか」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"How much worth can you find inside a gacha capsule?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 41,
+		"VOICEID": 23882,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「それは個人の器の広さじゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"The same amount of worth you can find inside yourself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 42,
+		"NameJPN": "羽依里",
+		"JPN": "「……おばーちゃん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Ma'am.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 43,
+		"JPN": "良いことを言ってる風だけど、しょぼいもんはしょぼいんですよ。",
+		"ENG": "I know that sounded profound, but it doesn't change the fact that most everything you get out of a gacha's worthless.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 44,
+		"JPN": "１０００円札を１００円玉に両替してもらい、ガチャに投入する。",
+		"ENG": "I exchanged my thousand yen bill for hundred yen coins and stuck one into the gacha machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「さて……何が出るかな！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Now then... What'll it be this time!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc32",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "7c0005e20d0300"
+	},
+	{
+		"LABEL": "0xc3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 46,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 47,
+		"NameJPN": "羽依里",
+		"JPN": "「こ、これは……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"T-This is...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 48,
+		"JPN": "半球体で中がくりぬかれたゴム。",
+		"ENG": "A rubber object, shaped like a hollow half-globe.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 131,
+		"MSGID": 49,
+		"NameJPN": "羽依里",
+		"JPN": "「……なに？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...What is this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xce0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 50,
+		"VOICEID": 23883,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ポッペンアイじゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's a Poppin' Eye.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 51,
+		"VOICEID": 23884,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「それを裏返して、地面に置いてみるんじゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Try flipping it inside-out and putting it on the ground.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「こうっすか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Like this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 53,
+		"JPN": "言われるままに、ポッペンアイとやらを裏返して地面におく。",
+		"ENG": "I flipped the rubber thingy inside-out and put it on the ground, like I was told.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xde6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 54,
+		"JPN": "数秒後……",
+		"ENG": "A few seconds later...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 143,
+		"MSGID": 55,
+		"JPN": "パチューーーーーーーーーン！",
+		"ENG": "Boooiiiiing!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 145,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「うわっ！　飛んだ！　ジャンプした！　すげーーーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah! It flew! It jumped up into the air! That's crazyyy!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 57,
+		"VOICEID": 23885,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「さらに、裏返したまま肌に押しつけてみるがええ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Now try flipping it inside-out and placing it on your skin.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeda",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 149,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「こうっすか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Like this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 151,
+		"MSGID": 59,
+		"NameJPN": "羽依里",
+		"JPN": "「おおおお！　なんか吸い付いてる！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ohhhh! It's stuck to my skin!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 60,
+		"VOICEID": 23886,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「胸につければウルトラマンじゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"If you put it on your chest, you'll be like Ultraman.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 61,
+		"NameJPN": "羽依里",
+		"JPN": "「すげーーーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Amazing!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 62,
+		"JPN": "楽しいおもちゃを手に入れた。",
+		"ENG": "I've come across quite the fun little toy.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 63,
+		"JPN": "……と思ったけど。",
+		"ENG": "...Or so I thought.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x100c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 64,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Err, Ma'am...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x103a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「これ押しつけたとこ、内出血してるみたいなんだけど……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"It kinda looks like I'm getting a blood blister where I put this thing on my skin...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x108e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 66,
+		"VOICEID": 23887,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「首につければセルフキッスマークじゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"If you put it on your neck, you'll get a self-inflicted hickey!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 167,
+		"MSGID": 67,
+		"NameJPN": "羽依里",
+		"JPN": "「……はっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1108",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 68,
+		"JPN": "夏休み明けの学校で、羨望のまなざしを向けられるかも！",
+		"ENG": "I could be the envy of all my classmates back at school!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x114c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「いいお土産ができました」",
+		"NameENG": "Hairi",
+		"ENG": "\"This'll make a nice souvenir.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1180",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 70,
+		"JPN": "おばーちゃんに礼を言った。",
+		"ENG": "I gave the old lady my thanks.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11aa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af00",
+		"GOTO_LABEL": "0x1556"
+	},
+	{
+		"LABEL": "0x11b4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b200",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1556"
+	},
+	{
+		"LABEL": "0x11ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 179,
+		"MSGID": 71,
+		"NameJPN": "羽依里",
+		"JPN": "「２０円の方で！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll go with the twenty yen one!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 181,
+		"MSGID": 72,
+		"VOICEID": 23888,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ほうか、では征くがよい」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Very well. Then, go forth!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x123a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 183,
+		"MSGID": 73,
+		"JPN": "１０００円札を両替してもらう。",
+		"ENG": "I gave her a thousand yen bill to break.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1268",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 185,
+		"MSGID": 74,
+		"JPN": "１００円玉が９枚と、１０円玉が１０枚。",
+		"ENG": "She passed back nine one-hundred yen coins and ten ten-yen coins.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x129e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 187,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ……いざ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Now then... Let's do this!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12cc",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "bd0005e20d0300"
+	},
+	{
+		"LABEL": "0x12d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 76,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 77,
+		"NameJPN": "羽依里",
+		"JPN": "「カプセルがドングリ型なのか。中身は……」",
+		"NameENG": "Hairi",
+		"ENG": "\"An acorn-shaped capsule, huh? And inside it...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x133a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 78,
+		"NameJPN": "羽依里",
+		"JPN": "「紙……？　何か書いてある」",
+		"NameENG": "Hairi",
+		"ENG": "\"A piece of paper...? There's something written on it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1370",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 196,
+		"MSGID": 79,
+		"NameJPN": "羽依里",
+		"JPN": "「――きみの瞳に、ホールインワン」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Your eyes were my hole-in-one.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 198,
+		"MSGID": 80,
+		"VOICEID": 23889,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「真田のじーさんの恋文じゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"That's a love letter from old man Sanada.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 81,
+		"JPN": "色々雑い。",
+		"ENG": "Wow, that's pretty awful.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x140e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 82,
+		"NameJPN": "羽依里",
+		"JPN": "「っていうかなんでこんなもんがガチャにはいってるんだ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"And why is something like this even in a gacha machine!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1460",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 83,
+		"VOICEID": 23890,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「それをもらったのは、もう７０年以上前になるかのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's been more than seventy years since I received that letter.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 84,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃん、思い出を大切にしてあげて！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Cherish your memories, lady!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 85,
+		"JPN": "真田のじーさんの想い、２０円。",
+		"ENG": "Sanada-san's feelings were worth a measly twenty yen.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1532",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 211,
+		"MSGID": 86,
+		"JPN": "切ない……",
+		"ENG": "How tragic...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x154c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d500",
+		"GOTO_LABEL": "0x1556"
+	},
+	{
+		"LABEL": "0x1556",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "d70093173100"
+	},
+	{
+		"LABEL": "0x1560",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d900",
+		"GOTO_LABEL": "0x18a8"
+	},
+	{
+		"LABEL": "0x156a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "db00",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x18a8"
+	},
+	{
+		"LABEL": "0x1580",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 220,
+		"MSGID": 87,
+		"NameJPN": "羽依里",
+		"JPN": "「かき氷ください。ブルーハワイで」",
+		"NameENG": "Hairi",
+		"ENG": "\"A shaved ice please. Blue Hawaii flavor.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 88,
+		"VOICEID": 23891,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「味は……」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"They all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 225,
+		"MSGID": 89,
+		"VOICEID": 23892,
+		"NameJPN": "羽依里・駄菓子屋のおばーちゃん",
+		"JPN": "『どれも同じ』",
+		"NameENG": "Hairi + Candy Store Lady",
+		"ENG": "\"Taste the same.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1632",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 227,
+		"MSGID": 90,
+		"JPN": "おばーちゃんがすっと手のひらをあげる。",
+		"ENG": "The old lady stuck up her hand up in the air.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1668",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 229,
+		"MSGID": 91,
+		"JPN": "俺はそれに応えるように自分の手のひらを向けた。",
+		"ENG": "I swung for it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16a6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e70005ce0e0300"
+	},
+	{
+		"LABEL": "0x16b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 233,
+		"MSGID": 92,
+		"JPN": "パン、と小気味よいハイタッチ。",
+		"ENG": "It was a perfectly executed high-five.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 93,
+		"JPN": "年の差を超えた友情を感じた。",
+		"ENG": "I could feel a sense of camaraderie between us that surpassed all barriers of age.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x170c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 94,
+		"VOICEID": 23893,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ふっ……、練乳をサービスするぞい」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Heh... I'll give you some condensed milk on the house.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x175a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 239,
+		"MSGID": 95,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　いや、結構です」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Ah, I'm good, thanks.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x178c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 241,
+		"MSGID": 96,
+		"VOICEID": 23894,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「………」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 243,
+		"MSGID": 97,
+		"JPN": "友情は５秒と持たなかった。",
+		"ENG": "Our camaraderie lasted barely five seconds.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 98,
+		"JPN": "おばーちゃんはできたてのかき氷を手渡してくれる。",
+		"ENG": "The old lady handed me my bowl of shaved ice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x182a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 247,
+		"MSGID": 99,
+		"JPN": "前に食べた時より、量が減っていた……",
+		"ENG": "It wasn't as mountainous as the one I got before...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x185e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 249,
+		"MSGID": 100,
+		"JPN": "それでも、夏の暑さを忘れるには十分な時間だった。",
+		"ENG": "Still, though, it was more than enough to help me forget about the summer heat for a moment.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x189e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fa00",
+		"GOTO_LABEL": "0x18a8"
+	},
+	{
+		"LABEL": "0x18a8",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "fc008e173100"
+	},
+	{
+		"LABEL": "0x18b2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fd0014000100"
+	},
+	{
+		"LABEL": "0x18bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ff000000b800000000000000"
+	},
+	{
+		"LABEL": "0x18cc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x18d4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x18dc",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x18e8",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x18f4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x18fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1900",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1904",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x190a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x190e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1912",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0001"
+	},
+	{
+		"LABEL": "0x1918",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "01010080"
+	}
+]

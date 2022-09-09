@@ -1,0 +1,6352 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1d00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 0,
+		"JPN": "よし、鴎に会いに行こう。",
+		"ENG": "Let's find us a Kamome.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 1,
+		"JPN": "おそらく、いつもと同じ場所にいるだろう。",
+		"ENG": "She's probably wandering around the same place as always.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "23000ed60f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x9c",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2500000000007800"
+	},
+	{
+		"LABEL": "0xa8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 2,
+		"JPN": "と、歩いていると、すぐにガラガラというタイヤの音が聞こえてきた。",
+		"ENG": "Just as I set off, I heard the sound of clattering tires.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf8",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2900a9860100"
+	},
+	{
+		"LABEL": "0x102",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2b000100a36b00008002b4001500"
+	},
+	{
+		"LABEL": "0x114",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100000000b502b400"
+	},
+	{
+		"LABEL": "0x122",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x130",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x136",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "2d000e00000000780001"
+	},
+	{
+		"LABEL": "0x144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 3,
+		"VOICEID": 9365,
+		"NameJPN": "鴎",
+		"JPN": "「やっほー」",
+		"NameENG": "Kamome",
+		"ENG": "\"Heyo!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x166",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「おう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x188",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 5,
+		"JPN": "早速現れた。",
+		"ENG": "That was easy.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "35000100cfb7"
+	},
+	{
+		"LABEL": "0x1ae",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x1b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 6,
+		"VOICEID": 28453,
+		"NameJPN": "鴎",
+		"JPN": "「今日も手伝ってもらえるの？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Think you can lend me a hand again?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 7,
+		"VOICEID": 28454,
+		"NameJPN": "鴎",
+		"JPN": "「鍵探し」",
+		"NameENG": "Kamome",
+		"ENG": "\"You know, with the key hunt!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x210",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 8,
+		"JPN": "ワクワクと、目を輝かせている。",
+		"ENG": "Her eyes sparkled with excitement.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「まぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I suppose.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x260",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3f000100bdb7"
+	},
+	{
+		"LABEL": "0x26a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x270",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 10,
+		"VOICEID": 28455,
+		"NameJPN": "鴎",
+		"JPN": "「やたー！」",
+		"NameENG": "Kamome",
+		"ENG": "\"Yesss!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x292",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 11,
+		"JPN": "無邪気に喜んでいる。",
+		"ENG": "That was all it took to put a smile on her face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「しかし、いつも、バッチリなタイミングで現れるな」",
+		"NameENG": "Hairi",
+		"ENG": "\"How is your timing always so perfect?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x302",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "47000100e8b7"
+	},
+	{
+		"LABEL": "0x30c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x312",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 13,
+		"VOICEID": 28456,
+		"NameJPN": "鴎",
+		"JPN": "「えへへ。褒められた？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Ehehe. Is that a compliment?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x340",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「もしかして、いつも待っててくれているのか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Do you just hang around here until I show up?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x386",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 15,
+		"JPN": "待っててくれているというより、待ちかまえている感じだ。",
+		"ENG": "It felt less like a friendly meeting, and more like a predator lying in wait.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "50000100bab7"
+	},
+	{
+		"LABEL": "0x3d6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 16,
+		"VOICEID": 28457,
+		"NameJPN": "鴎",
+		"JPN": "「そりゃ、手伝ってってお願いした以上はね」",
+		"NameENG": "Kamome",
+		"ENG": "\"Well, y'know, I'm kinda the one who asked for your help.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「でも俺だって来たり来なかったりだから」",
+		"NameENG": "Hairi",
+		"ENG": "\"I don't stop by every day, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「来ないときはどうしてるんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"What do you do when I'm not here?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x496",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "580001008d6b"
+	},
+	{
+		"LABEL": "0x4a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 19,
+		"VOICEID": 28458,
+		"NameJPN": "鴎",
+		"JPN": "「そのときはうなだれながらひとりで出発するね」",
+		"NameENG": "Kamome",
+		"ENG": "\"I hang my head and go by my lonesome.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「そ、そうか」",
+		"NameENG": "Hairi",
+		"ENG": "\"O-Oh.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x512",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 21,
+		"JPN": "ちょっと心が痛い。",
+		"ENG": "Oof, my conscience.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x534",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "60000100cf6b"
+	},
+	{
+		"LABEL": "0x53e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x544",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 22,
+		"VOICEID": 28459,
+		"NameJPN": "鴎",
+		"JPN": "「重たいスーツケースと重たい心を抱えて」",
+		"NameENG": "Kamome",
+		"ENG": "\"With a heavy suitcase and a heavier heart...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x582",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 23,
+		"VOICEID": 28460,
+		"NameJPN": "鴎",
+		"JPN": "「とぼとぼと歩くね」",
+		"NameENG": "Kamome",
+		"ENG": "\"Onward I trudge.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 24,
+		"JPN": "あてつけがましくなってきた。",
+		"ENG": "All right, now she's pushing it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "68000100236c"
+	},
+	{
+		"LABEL": "0x5e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 25,
+		"VOICEID": 28461,
+		"NameJPN": "鴎",
+		"JPN": "「あの日は雨が降ってたな」",
+		"NameENG": "Kamome",
+		"ENG": "\"I remember how it rained that day.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x618",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 26,
+		"VOICEID": 28462,
+		"NameJPN": "鴎",
+		"JPN": "「私の心を反映したのかも」",
+		"NameENG": "Kamome",
+		"ENG": "\"Perhaps the storm clouds were wrought from my heart.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x648",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 27,
+		"JPN": "しつこくなってきた。",
+		"ENG": "And now she's getting on my nerves.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x66c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "700001001d6c"
+	},
+	{
+		"LABEL": "0x676",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x67c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 28,
+		"VOICEID": 28463,
+		"NameJPN": "鴎",
+		"JPN": "「『約束ってやぶられるためにあるのかな』って、つぶやいてたよ」",
+		"NameENG": "Kamome",
+		"ENG": "\"I looked up to the sky and wondered... perhaps... promises are made to be broken.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 29,
+		"JPN": "まだ続くらしい。",
+		"ENG": "She's still going.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "76000100b76b"
+	},
+	{
+		"LABEL": "0x6fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x700",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 30,
+		"VOICEID": 28464,
+		"NameJPN": "鴎",
+		"JPN": "「でも、気が向いたらでいいんだからね」",
+		"NameENG": "Kamome",
+		"ENG": "\"But no biggie! You just come on by whenever you feel like it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x73c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「できるだけ手伝わさせてもらいます！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll help however I can!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x77c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7c000100e7b7"
+	},
+	{
+		"LABEL": "0x786",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x78e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x794",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 32,
+		"VOICEID": 28465,
+		"NameJPN": "鴎",
+		"JPN": "「やった」",
+		"NameENG": "Kamome",
+		"ENG": "\"Aw yeah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7b4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "82000100bab7"
+	},
+	{
+		"LABEL": "0x7be",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 33,
+		"VOICEID": 9371,
+		"NameJPN": "鴎",
+		"JPN": "「今日はどれを探そうか」",
+		"NameENG": "Kamome",
+		"ENG": "\"Which key are we gonna look for today?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x818",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8800"
+	},
+	{
+		"LABEL": "0x81e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "89000005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x82e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x83c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x84a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x858",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "90000100"
+	},
+	{
+		"LABEL": "0x860",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000db00000000000000"
+	},
+	{
+		"LABEL": "0x86e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x876",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x888",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x896",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "91000007e9fd040000000000"
+	},
+	{
+		"LABEL": "0x8a6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00093a06040000000000"
+	},
+	{
+		"LABEL": "0x8b4",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000900"
+	},
+	{
+		"LABEL": "0x8bc",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00090000ed3aed3a"
+	},
+	{
+		"LABEL": "0x8c8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000900000041ff95ff"
+	},
+	{
+		"LABEL": "0x8d6",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "000796"
+	},
+	{
+		"LABEL": "0x8de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8e4",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "92004200"
+	},
+	{
+		"LABEL": "0x8ec",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "93000007e9fd040000000000"
+	},
+	{
+		"LABEL": "0x8fc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00093c06040000000000"
+	},
+	{
+		"LABEL": "0x90a",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000900"
+	},
+	{
+		"LABEL": "0x912",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00090000ed3aed3a"
+	},
+	{
+		"LABEL": "0x91e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000900000041ff95ff"
+	},
+	{
+		"LABEL": "0x92c",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "000796"
+	},
+	{
+		"LABEL": "0x934",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x93a",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "94003c00"
+	},
+	{
+		"LABEL": "0x942",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 151,
+		"MSGID": 35,
+		"JPN": "メモ帳を開く。",
+		"ENG": "I flipped open the notebook.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x960",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「ふむ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x986",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 37,
+		"JPN": "残ったお題を見比べる。",
+		"ENG": "I read through the remaining clues.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 38,
+		"JPN": "この中で、ピンとくるのは……",
+		"ENG": "The one that stuck out the most was...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 39,
+		"JPN": "『ばんけん　が　ねむる　めいふの　いりぐちに』",
+		"ENG": "'In the gates of hell where the watchdog sleeps.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 40,
+		"NameJPN": "羽依里",
+		"JPN": "「番犬が眠る冥府の入り口ってことだよな」",
+		"NameENG": "Hairi",
+		"ENG": "\"How about 'in the gates of hell where the watchdog sleeps'?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa58",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a300"
+	},
+	{
+		"LABEL": "0xa5e",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "a4000005"
+	},
+	{
+		"LABEL": "0xa66",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0xa74",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0xa7a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0xa88",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a600"
+	},
+	{
+		"LABEL": "0xa8e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000900000000000000"
+	},
+	{
+		"LABEL": "0xa9c",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0009"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0007"
+	},
+	{
+		"LABEL": "0xaa8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0009"
+	},
+	{
+		"LABEL": "0xaae",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0xabc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xac4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100f4b700008002b4007900"
+	},
+	{
+		"LABEL": "0xad4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xada",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xae0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 41,
+		"VOICEID": 28466,
+		"NameJPN": "鴎",
+		"JPN": "「冥府の番犬って言ったら……」",
+		"NameENG": "Kamome",
+		"ENG": "\"A watchdog of hell, eh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb14",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "aa000100fab7"
+	},
+	{
+		"LABEL": "0xb1e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 172,
+		"MSGID": 42,
+		"VOICEID": 28467,
+		"NameJPN": "鴎",
+		"JPN": "「がおーっていって、ぼおおっていう奴だよね」",
+		"NameENG": "Kamome",
+		"ENG": "\"I'm thinkin' it's that one guy who goes, 'Rooooaaar!' You know the one. He's all like, 'Bwaaaaaaah!'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 174,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「吠えたり火を吐いたりするケルベロスな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Cerberus, that big dog that howls and spits fire and all that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xba8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b0000100cbb7"
+	},
+	{
+		"LABEL": "0xbb2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 44,
+		"VOICEID": 28468,
+		"NameJPN": "鴎",
+		"JPN": "「!?」",
+		"NameENG": "Kamome",
+		"ENG": "\"―!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbd6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b4000100cfb7"
+	},
+	{
+		"LABEL": "0xbe0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbe6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 45,
+		"VOICEID": 28469,
+		"NameJPN": "鴎",
+		"JPN": "「私の思いがこんなにすぐ届くなんて！」",
+		"NameENG": "Kamome",
+		"ENG": "\"Someone actually understood me! It's a miracle!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc22",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b8000100bdb7"
+	},
+	{
+		"LABEL": "0xc2c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 46,
+		"VOICEID": 28470,
+		"NameJPN": "鴎",
+		"JPN": "「羽依里、あなたはやっぱりベストパートナー」",
+		"NameENG": "Kamome",
+		"ENG": "\"You're the best partner a gal could ask for, Hairi!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 47,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、ケルベロスには少々詳しいんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Er, I just happen to know a thing or two about him.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "be000100cdb7"
+	},
+	{
+		"LABEL": "0xcbe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「昔、学校の自由研究の題材にしたときもあって」",
+		"NameENG": "Hairi",
+		"ENG": "\"I did a school assignment on it one time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd0c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c2000100f2b7"
+	},
+	{
+		"LABEL": "0xd16",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0xd1e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 49,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 199,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「なんで距離をとる、ベストパートナー」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why are you running away, my dear partner?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 201,
+		"MSGID": 51,
+		"NameJPN": "羽依里",
+		"JPN": "「とにかく」",
+		"NameENG": "Hairi",
+		"ENG": "\"Anyways.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「番犬となれば、だいたい想像はつく」",
+		"NameENG": "Hairi",
+		"ENG": "\"Given that it mentions a watchdog, we can pretty much tell what it is that we're looking for.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xddc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 53,
+		"NameJPN": "羽依里",
+		"JPN": "「どこか、犬がいる場所なんだよな」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's gotta be some place where we'll find a dog, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe18",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cf000100e3b7"
+	},
+	{
+		"LABEL": "0xe22",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 54,
+		"VOICEID": 9372,
+		"NameJPN": "鴎",
+		"JPN": "「あ、なるほど」",
+		"NameENG": "Kamome",
+		"ENG": "\"Oh, makes sense.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe4e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d3000100f4b7"
+	},
+	{
+		"LABEL": "0xe58",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0xe60",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 213,
+		"MSGID": 55,
+		"VOICEID": 9373,
+		"NameJPN": "鴎",
+		"JPN": "「でも犬を飼ってる家なんていっぱいありそうだね」",
+		"NameENG": "Kamome",
+		"ENG": "\"But, there's probably lots of people with dogs around here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「まぁな」",
+		"NameENG": "Hairi",
+		"ENG": "\"I guess, yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xed0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 218,
+		"MSGID": 57,
+		"NameJPN": "羽依里",
+		"JPN": "「その鍵を隠したのが、何年前だっけ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"How long ago were these keys hidden?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf10",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dc000100bab7"
+	},
+	{
+		"LABEL": "0xf1a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 58,
+		"VOICEID": 9374,
+		"NameJPN": "鴎",
+		"JPN": "「１０年前」",
+		"NameENG": "Kamome",
+		"ENG": "\"Ten years ago.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 59,
+		"NameJPN": "羽依里",
+		"JPN": "「死んでるんじゃないか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Are you sure they aren't dead?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf74",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e2000100d2b7"
+	},
+	{
+		"LABEL": "0xf7e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 228,
+		"MSGID": 60,
+		"VOICEID": 9375,
+		"NameJPN": "鴎",
+		"JPN": "「その可能性は否定できない」",
+		"NameENG": "Kamome",
+		"ENG": "\"I cannot deny the possibility.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 61,
+		"NameJPN": "羽依里",
+		"JPN": "「まぁ、その時は諦めるとして」",
+		"NameENG": "Hairi",
+		"ENG": "\"We'd be out of luck if that's the case.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「１０年前から飼われている犬にしぼって探してみるか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's limit our search to families that have owned a dog for over ten years.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x103c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ea000100056c"
+	},
+	{
+		"LABEL": "0x1046",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x104e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1054",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 236,
+		"MSGID": 63,
+		"VOICEID": 9376,
+		"NameJPN": "鴎",
+		"JPN": "「おー」",
+		"NameENG": "Kamome",
+		"ENG": "\"Roger dodger!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1072",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "ee00000000007800"
+	},
+	{
+		"LABEL": "0x107e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "f100"
+	},
+	{
+		"LABEL": "0x1084",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x108c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1092",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x10a0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x10a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x10ac",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x10b0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x10b6",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "f300ae860100"
+	},
+	{
+		"LABEL": "0x10c0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "f600"
+	},
+	{
+		"LABEL": "0x10c6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00005400000000000000"
+	},
+	{
+		"LABEL": "0x10d4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x10dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x10e2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x10e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 64,
+		"JPN": "困った時の、少年団だ。",
+		"ENG": "When in doubt, look for the Youth Association.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x110c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fa00010028b800008002b4008900"
+	},
+	{
+		"LABEL": "0x111e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1124",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 252,
+		"MSGID": 65,
+		"VOICEID": 9377,
+		"NameJPN": "美希",
+		"JPN": "「犬を飼っている家？」",
+		"NameENG": "Miki",
+		"ENG": "\"Families that own dogs?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1152",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fe00010025b8"
+	},
+	{
+		"LABEL": "0x115c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1162",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 66,
+		"VOICEID": 9378,
+		"NameJPN": "美希",
+		"JPN": "「私の覚えている範囲でよければ」",
+		"NameENG": "Miki",
+		"ENG": "\"I can point you to the ones that I know of, if that's all right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x119a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 67,
+		"NameJPN": "羽依里",
+		"JPN": "「昔から飼っている家だとありがたい」",
+		"NameENG": "Hairi",
+		"ENG": "\"If possible, we'd like to limit it to families that have had theirs for a long time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0401010028b8"
+	},
+	{
+		"LABEL": "0x11e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x11e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 262,
+		"MSGID": 68,
+		"VOICEID": 9379,
+		"NameJPN": "美希",
+		"JPN": "「昔からって。いつ頃からだ」",
+		"NameENG": "Miki",
+		"ENG": "\"How long are we talking?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x121c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 264,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「１０年前だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"At least a decade.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1244",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 266,
+		"MSGID": 70,
+		"NameJPN": "羽依里",
+		"JPN": "「あれ、のみきは生まれてるか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, were you even alive back then?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x127c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0c0101000ab8"
+	},
+	{
+		"LABEL": "0x1286",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x128c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 71,
+		"VOICEID": 9380,
+		"NameJPN": "美希",
+		"JPN": "「生まれてるに決まってるだろっ」",
+		"NameENG": "Miki",
+		"ENG": "\"Excuse you! Yes, I was!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1001010008b8"
+	},
+	{
+		"LABEL": "0x12ce",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 72,
+		"VOICEID": 9381,
+		"NameJPN": "美希",
+		"JPN": "「まぁ、かまわないが。一体、何のために？」",
+		"NameENG": "Miki",
+		"ENG": "\"Oh, whatever. What's this for exactly?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1316",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "「え」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1336",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 278,
+		"MSGID": 74,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、こいつがなんというか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Uh, it's just this girl...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x136e",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "180101000218009001b400"
+	},
+	{
+		"LABEL": "0x137e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0101bdb700007003b4007900"
+	},
+	{
+		"LABEL": "0x138e",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010100"
+	},
+	{
+		"LABEL": "0x1396",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x139c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 281,
+		"MSGID": 75,
+		"VOICEID": 9382,
+		"NameJPN": "鴎",
+		"JPN": "「どうも久島鴎です」",
+		"NameENG": "Kamome",
+		"ENG": "\"Hello! I'm Kushima Kamome!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13c6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1b01010025b8"
+	},
+	{
+		"LABEL": "0x13d0",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x13d8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 285,
+		"MSGID": 76,
+		"VOICEID": 9383,
+		"NameJPN": "美希",
+		"JPN": "「どうも。野村美希だ」",
+		"NameENG": "Miki",
+		"ENG": "\"Hi. Nomura Miki.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x140c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1f01010028b8"
+	},
+	{
+		"LABEL": "0x1416",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0101bab7"
+	},
+	{
+		"LABEL": "0x141e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1424",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 77,
+		"VOICEID": 9384,
+		"NameJPN": "美希",
+		"JPN": "「そちらの久島さんがどうしたって」",
+		"NameENG": "Miki",
+		"ENG": "\"What about her?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x145e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 291,
+		"MSGID": 78,
+		"NameJPN": "羽依里",
+		"JPN": "「老犬が大好きらしい」",
+		"NameENG": "Hairi",
+		"ENG": "\"She just loves old dogs.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x148e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2501010008b8"
+	},
+	{
+		"LABEL": "0x1498",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x149e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 295,
+		"MSGID": 79,
+		"VOICEID": 9385,
+		"NameJPN": "美希",
+		"JPN": "「老犬が大好き？」",
+		"NameENG": "Miki",
+		"ENG": "\"She... loves them?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 297,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「なぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14ea",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2b010101c6b7"
+	},
+	{
+		"LABEL": "0x14f4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 301,
+		"MSGID": 81,
+		"VOICEID": 9386,
+		"NameJPN": "鴎",
+		"JPN": "「……え、ええ」",
+		"NameENG": "Kamome",
+		"ENG": "\"Uh, sure?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1520",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2f010101656c"
+	},
+	{
+		"LABEL": "0x152a",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010100"
+	},
+	{
+		"LABEL": "0x1532",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1538",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 305,
+		"MSGID": 82,
+		"VOICEID": 9387,
+		"NameJPN": "鴎",
+		"JPN": "「老犬大好き！」",
+		"NameENG": "Kamome",
+		"ENG": "\"Yes! I love old dogs!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x155e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "330101001bb8"
+	},
+	{
+		"LABEL": "0x1568",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x156e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 309,
+		"MSGID": 83,
+		"VOICEID": 9388,
+		"NameJPN": "美希",
+		"JPN": "「……」",
+		"NameENG": "Miki",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x158e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3701010015b8"
+	},
+	{
+		"LABEL": "0x1598",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x159e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 313,
+		"MSGID": 84,
+		"VOICEID": 9389,
+		"NameJPN": "美希",
+		"JPN": "「そ、そうか」",
+		"NameENG": "Miki",
+		"ENG": "\"A-All right then.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15c4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3b01010002b8"
+	},
+	{
+		"LABEL": "0x15ce",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 317,
+		"MSGID": 85,
+		"VOICEID": 9390,
+		"NameJPN": "美希",
+		"JPN": "「いいんじゃないか」",
+		"NameENG": "Miki",
+		"ENG": "\"Whatever floats your boat, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1600",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4101"
+	},
+	{
+		"LABEL": "0x1606",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x160e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1614",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x161a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1628",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x162e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1634",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1638",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x163e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4401"
+	},
+	{
+		"LABEL": "0x1644",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000f00000000000000"
+	},
+	{
+		"LABEL": "0x1652",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x165a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1660",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1664",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4601010028b800008002b4008900"
+	},
+	{
+		"LABEL": "0x1676",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x167c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 328,
+		"MSGID": 86,
+		"VOICEID": 9391,
+		"NameJPN": "美希",
+		"JPN": "「ほれ」",
+		"NameENG": "Miki",
+		"ENG": "\"Here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x169c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4a01010025b8"
+	},
+	{
+		"LABEL": "0x16a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 332,
+		"MSGID": 87,
+		"VOICEID": 9392,
+		"NameJPN": "美希",
+		"JPN": "「役場でアンケートをとって集まった結果だ」",
+		"NameENG": "Miki",
+		"ENG": "\"These are the results of the survey we took at the town hall.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4e01010005b8"
+	},
+	{
+		"LABEL": "0x16f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 336,
+		"MSGID": 88,
+		"VOICEID": 9393,
+		"NameJPN": "美希",
+		"JPN": "「昔から犬を飼っている家をピックアップした」",
+		"NameENG": "Miki",
+		"ENG": "\"I've picked out the families that have owned a dog for a long time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1742",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 338,
+		"MSGID": 89,
+		"NameJPN": "羽依里",
+		"JPN": "「助かる」",
+		"NameENG": "Hairi",
+		"ENG": "\"I appreciate it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1766",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 90,
+		"NameJPN": "羽依里",
+		"JPN": "「ここはおごるぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Lemme treat you to something.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1792",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "560101003cb8"
+	},
+	{
+		"LABEL": "0x179c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 344,
+		"MSGID": 91,
+		"VOICEID": 9394,
+		"NameJPN": "美希",
+		"JPN": "「ふ。いらぬ気を遣うな」",
+		"NameENG": "Miki",
+		"ENG": "\"Heh. No thanks necessary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17d2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5a0101003fb8"
+	},
+	{
+		"LABEL": "0x17dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 348,
+		"MSGID": 92,
+		"VOICEID": 9395,
+		"NameJPN": "美希",
+		"JPN": "「少年団は、困った子供達のためにいつでも働くぞ」",
+		"NameENG": "Miki",
+		"ENG": "\"The Youth Association never abandons a child in need.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x182a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 350,
+		"MSGID": 93,
+		"NameJPN": "羽依里",
+		"JPN": "「子供達……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Child...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1852",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 94,
+		"JPN": "間違いじゃないけど。",
+		"ENG": "I mean she wasn't wrong, per se.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1876",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "620101000218009001b400"
+	},
+	{
+		"LABEL": "0x1886",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0101bdb700007003b4007900"
+	},
+	{
+		"LABEL": "0x1896",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x189c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 356,
+		"MSGID": 95,
+		"VOICEID": 9396,
+		"NameJPN": "鴎",
+		"JPN": "「ありがとう少年団」",
+		"NameENG": "Kamome",
+		"ENG": "\"Thanks a bunch, Youth Association.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18c6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "66010100feb7"
+	},
+	{
+		"LABEL": "0x18d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 360,
+		"MSGID": 96,
+		"VOICEID": 9397,
+		"NameJPN": "美希",
+		"JPN": "「あぁ」",
+		"NameENG": "Miki",
+		"ENG": "\"No problem.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 362,
+		"MSGID": 97,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、早速行ってみる」",
+		"NameENG": "Hairi",
+		"ENG": "\"Then let's get started.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x192a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6e01"
+	},
+	{
+		"LABEL": "0x1930",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1938",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x193e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x1944",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1952",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1958",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x195e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1962",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1968",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7201"
+	},
+	{
+		"LABEL": "0x196e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0x197c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1984",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x198a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x198e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 373,
+		"MSGID": 98,
+		"JPN": "のみきがピックアップしてくれた家は、全部で１５軒あった。",
+		"ENG": "The number of houses that Nomiki had picked out came to a grand total of fifteen.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19d6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "77010100f4b700008002b4007900"
+	},
+	{
+		"LABEL": "0x19e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 377,
+		"MSGID": 99,
+		"VOICEID": 9398,
+		"NameJPN": "鴎",
+		"JPN": "「少なくはないね」",
+		"NameENG": "Kamome",
+		"ENG": "\"That's quite a few.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 379,
+		"MSGID": 100,
+		"NameJPN": "羽依里",
+		"JPN": "「あぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a38",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7d010100bab7"
+	},
+	{
+		"LABEL": "0x1a42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 383,
+		"MSGID": 101,
+		"VOICEID": 9399,
+		"NameJPN": "鴎",
+		"JPN": "「とりあえず、近いところから行こうか」",
+		"NameENG": "Kamome",
+		"ENG": "\"Let's start with what's closest?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a84",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "81010100000f00"
+	},
+	{
+		"LABEL": "0x1a90",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 387,
+		"MSGID": 102,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aaa",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "85010100996b00008002b4007900"
+	},
+	{
+		"LABEL": "0x1abc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ac2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 391,
+		"MSGID": 103,
+		"VOICEID": 9400,
+		"NameJPN": "鴎",
+		"JPN": "「あった、あの家かな」",
+		"NameENG": "Kamome",
+		"ENG": "\"Ah, there! I think that's it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 393,
+		"MSGID": 104,
+		"JPN": "玄関から覗くと……",
+		"ENG": "We peeked around at the front porch.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b10",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8b0101004b6b"
+	},
+	{
+		"LABEL": "0x1b1a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 397,
+		"MSGID": 105,
+		"VOICEID": 9401,
+		"NameJPN": "鴎",
+		"JPN": "「ワンちゃん、いるね」",
+		"NameENG": "Kamome",
+		"ENG": "\"Puppy spotted.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 399,
+		"MSGID": 106,
+		"JPN": "よぼよぼの犬がぼんやりとした顔で横になっている。",
+		"ENG": "A feeble-looking, old dog was lying there, relaxing, without a care in the world.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b8c",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "91010100000f00"
+	},
+	{
+		"LABEL": "0x1b98",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 403,
+		"MSGID": 107,
+		"NameJPN": "羽依里",
+		"JPN": "「ごめんください」",
+		"NameENG": "Hairi",
+		"ENG": "\"Excuse me!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 405,
+		"MSGID": 108,
+		"VOICEID": 9402,
+		"NameJPN": "やさしげなおじーさん",
+		"JPN": "「なんだい」",
+		"NameENG": "Kindly Old Man",
+		"ENG": "\"Whazzat?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 407,
+		"MSGID": 109,
+		"NameJPN": "羽依里",
+		"JPN": "「あの、こちらのワンちゃんは……いつから飼っているんですか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Um, how long have you had this dog here for?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c54",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 409,
+		"MSGID": 110,
+		"VOICEID": 9403,
+		"NameJPN": "やさしげなおじーさん",
+		"JPN": "「さぁ。もう１５年になるか」",
+		"NameENG": "Kindly Old Man",
+		"ENG": "\"Ohhh, s'pose it's been about fifteen odd years now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 411,
+		"MSGID": 111,
+		"NameJPN": "羽依里",
+		"JPN": "「おお」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fifteen, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cba",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9d010100bdb700008002b4007900"
+	},
+	{
+		"LABEL": "0x1ccc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cd2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 415,
+		"MSGID": 112,
+		"VOICEID": 9404,
+		"NameJPN": "鴎",
+		"JPN": "「やったね」",
+		"NameENG": "Kamome",
+		"ENG": "\"We got it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cf4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a1010100bab7"
+	},
+	{
+		"LABEL": "0x1cfe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 419,
+		"MSGID": 113,
+		"VOICEID": 9405,
+		"NameJPN": "鴎",
+		"JPN": "「ちょっと、触らせてもらっていいですか」",
+		"NameENG": "Kamome",
+		"ENG": "\"Do you mind if we pet him?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 421,
+		"MSGID": 114,
+		"VOICEID": 9406,
+		"NameJPN": "やさしげなおじーさん",
+		"JPN": "「あぁ。どうぞ」",
+		"NameENG": "Kindly Old Man",
+		"ENG": "\"Sure, feel free.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 423,
+		"MSGID": 115,
+		"VOICEID": 9407,
+		"NameJPN": "やさしげなおじーさん",
+		"JPN": "「こんな老犬に興味あるのか」",
+		"NameENG": "Kindly Old Man",
+		"ENG": "\"Not many fellas pay much attention to old mutts.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dbe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a9010100656c"
+	},
+	{
+		"LABEL": "0x1dc8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1dce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 427,
+		"MSGID": 116,
+		"VOICEID": 9408,
+		"NameJPN": "鴎",
+		"JPN": "「老犬大好き！」",
+		"NameENG": "Kamome",
+		"ENG": "\"I love old dogs!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1df4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 429,
+		"MSGID": 117,
+		"VOICEID": 9409,
+		"NameJPN": "やさしげなおじーさん",
+		"JPN": "「!?」",
+		"NameENG": "Kindly Old Man",
+		"ENG": "\"Hrgh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 118,
+		"VOICEID": 9410,
+		"NameJPN": "やさしげなおじーさん",
+		"JPN": "「ご、ご自由に」",
+		"NameENG": "Kindly Old Man",
+		"ENG": "\"T-Take as long as you like.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e5c",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "b1010100000f00"
+	},
+	{
+		"LABEL": "0x1e68",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 435,
+		"MSGID": 119,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e82",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "b5010005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x1e92",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x1ea0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x1eae",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x1ebc",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "b6010100"
+	},
+	{
+		"LABEL": "0x1ec4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000db00000000000000"
+	},
+	{
+		"LABEL": "0x1ed2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1eda",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x1eec",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000090ffcaff"
+	},
+	{
+		"LABEL": "0x1efa",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "b8010100536b000042041801dd00"
+	},
+	{
+		"LABEL": "0x1f0c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1f16",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f1a",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "b9013c00"
+	},
+	{
+		"LABEL": "0x1f22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 443,
+		"MSGID": 120,
+		"VOICEID": 9411,
+		"NameJPN": "鴎",
+		"JPN": "「よしよし」",
+		"NameENG": "Kamome",
+		"ENG": "\"Who's a good boy?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 445,
+		"MSGID": 121,
+		"NameJPN": "老犬",
+		"JPN": "「わう……わう……」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Boof... Boof...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 447,
+		"MSGID": 122,
+		"NameJPN": "羽依里",
+		"JPN": "「生きてた」",
+		"NameENG": "Hairi",
+		"ENG": "\"He lives.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f96",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c20101005f6b"
+	},
+	{
+		"LABEL": "0x1fa0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1fa6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1faa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 452,
+		"MSGID": 123,
+		"VOICEID": 9412,
+		"NameJPN": "鴎",
+		"JPN": "「当たり前だよ」",
+		"NameENG": "Kamome",
+		"ENG": "\"Of course he does!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 454,
+		"MSGID": 124,
+		"NameJPN": "老犬",
+		"JPN": "「わう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Aoo...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ff0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c9010100536b"
+	},
+	{
+		"LABEL": "0x1ffa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2000",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2004",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 459,
+		"MSGID": 125,
+		"JPN": "しょぼしょぼとした顔で、かすれた声を出している。",
+		"ENG": "He let out a hoarse howl, his eyes hazy and weak.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2044",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "cd010005"
+	},
+	{
+		"LABEL": "0x204c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x205a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x2060",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x206e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ce01"
+	},
+	{
+		"LABEL": "0x2074",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x207a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0x2088",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2090",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x209a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x209e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 464,
+		"MSGID": 126,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっと失礼するぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"S'cuse me for a bit.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 466,
+		"MSGID": 127,
+		"NameJPN": "羽依里",
+		"JPN": "「この辺かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Maybe around here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 128,
+		"NameJPN": "羽依里",
+		"JPN": "「この巾着がそれっぽいな」",
+		"NameENG": "Hairi",
+		"ENG": "\"This little pouch looks like it might be it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x212a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 470,
+		"MSGID": 129,
+		"JPN": "掴み上げようとする。",
+		"ENG": "I went to pick it up off the ground.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x214e",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "d801ff0001060000520601010052"
+	},
+	{
+		"LABEL": "0x2160",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520601010000"
+	},
+	{
+		"LABEL": "0x2170",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 474,
+		"MSGID": 130,
+		"NameJPN": "老犬",
+		"JPN": "「がぶ」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Chomp!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2190",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 476,
+		"MSGID": 131,
+		"NameJPN": "羽依里",
+		"JPN": "「お」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 478,
+		"MSGID": 132,
+		"JPN": "巾着にかぶりついた。",
+		"ENG": "The dog dug his teeth into it before I could.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 480,
+		"MSGID": 133,
+		"NameJPN": "老犬",
+		"JPN": "「うううううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrrrrrrrr...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 482,
+		"MSGID": 134,
+		"NameJPN": "羽依里",
+		"JPN": "「こわっ」",
+		"NameENG": "Hairi",
+		"ENG": "\"What did I do to you!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2220",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e40101009f6b00008002b4007900"
+	},
+	{
+		"LABEL": "0x2232",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2238",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 486,
+		"MSGID": 135,
+		"VOICEID": 9413,
+		"NameJPN": "鴎",
+		"JPN": "「それ、喜んでるんだよ」",
+		"NameENG": "Kamome",
+		"ENG": "\"That's him being happy.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2266",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 488,
+		"MSGID": 136,
+		"NameJPN": "羽依里",
+		"JPN": "「そうなのか??」",
+		"NameENG": "Hairi",
+		"ENG": "\"Um, he sure doesn't look like it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2292",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 490,
+		"MSGID": 137,
+		"NameJPN": "羽依里",
+		"JPN": "「怒って唸っているようにしか聞こえないぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Did you not hear him growl at me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22d6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ec010100996b"
+	},
+	{
+		"LABEL": "0x22e0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x22e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 494,
+		"MSGID": 138,
+		"VOICEID": 9414,
+		"NameJPN": "鴎",
+		"JPN": "「羽依里は犬飼ったことないの」",
+		"NameENG": "Kamome",
+		"ENG": "\"Have you never owned a dog, Hairi?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x231a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 496,
+		"MSGID": 139,
+		"NameJPN": "羽依里",
+		"JPN": "「ない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Never.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x233c",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "f2010100000f00"
+	},
+	{
+		"LABEL": "0x2348",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x234e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 500,
+		"MSGID": 140,
+		"NameJPN": "老犬",
+		"JPN": "「うううううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrrrrr...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2376",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 502,
+		"MSGID": 141,
+		"NameJPN": "羽依里",
+		"JPN": "「楽しいかそうか」",
+		"NameENG": "Hairi",
+		"ENG": "\"What, are you playing?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 504,
+		"MSGID": 142,
+		"NameJPN": "老犬",
+		"JPN": "「うううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrr...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 506,
+		"MSGID": 143,
+		"NameJPN": "羽依里",
+		"JPN": "「楽しい楽しい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Having fun? Ya like to play?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 508,
+		"MSGID": 144,
+		"NameJPN": "老犬",
+		"JPN": "「ううううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrrrr.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2416",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 510,
+		"MSGID": 145,
+		"NameJPN": "羽依里",
+		"JPN": "「いいからよこすんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Okay just cough it up already.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2446",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "0002ff0001060000520601010052"
+	},
+	{
+		"LABEL": "0x2458",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520601010000"
+	},
+	{
+		"LABEL": "0x2468",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 514,
+		"MSGID": 146,
+		"NameJPN": "老犬",
+		"JPN": "「わうっ」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Woof!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x248a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 516,
+		"MSGID": 147,
+		"JPN": "力尽くで引き離そうとする。",
+		"ENG": "I pulled as hard as I could.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 518,
+		"MSGID": 148,
+		"JPN": "が、結局、巾着を渡す様子はない。",
+		"ENG": "To absolutely no avail. He just wouldn't give it up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24e4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "08020100d5b700008002b400dd00"
+	},
+	{
+		"LABEL": "0x24f6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x24fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 522,
+		"MSGID": 149,
+		"VOICEID": 9415,
+		"NameJPN": "鴎",
+		"JPN": "「意地悪しないでっ」",
+		"NameENG": "Kamome",
+		"ENG": "\"Don't bully him!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2526",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0d0205b50d0300"
+	},
+	{
+		"LABEL": "0x2532",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "1002ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x2544",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x2554",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 530,
+		"MSGID": 150,
+		"NameJPN": "羽依里",
+		"JPN": "「いたい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ow!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2578",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 532,
+		"MSGID": 151,
+		"NameJPN": "羽依里",
+		"JPN": "「お前、どっちの味方なんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Whose side are you on?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25ae",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "160205"
+	},
+	{
+		"LABEL": "0x25b6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "180201005d6b"
+	},
+	{
+		"LABEL": "0x25c0",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x25c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x25ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 538,
+		"MSGID": 152,
+		"VOICEID": 9416,
+		"NameJPN": "鴎",
+		"JPN": "「どっちかって言われたら、こっち」",
+		"NameENG": "Kamome",
+		"ENG": "\"If I had to pick... The one with the floppy ears.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2606",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 540,
+		"MSGID": 153,
+		"NameJPN": "羽依里",
+		"JPN": "「あんだと」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wow, okay.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x262c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1e0201004b6b"
+	},
+	{
+		"LABEL": "0x2636",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x263c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 544,
+		"MSGID": 154,
+		"VOICEID": 9417,
+		"NameJPN": "鴎",
+		"JPN": "「もっと優しくお願いしたらいいんだよ」",
+		"NameENG": "Kamome",
+		"ENG": "\"You need to ask for it nicer.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2678",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 546,
+		"MSGID": 155,
+		"NameJPN": "羽依里",
+		"JPN": "「そういう問題か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is my phrasing really the issue?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26a4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "24020100516b"
+	},
+	{
+		"LABEL": "0x26ae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x26b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 550,
+		"MSGID": 156,
+		"VOICEID": 9418,
+		"NameJPN": "鴎",
+		"JPN": "「ねぇねぇ、これくれる？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Hey, can I have this, please?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 552,
+		"MSGID": 157,
+		"NameJPN": "老犬",
+		"JPN": "「くーんくーん」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Awoo...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x270c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2a0201009f6b"
+	},
+	{
+		"LABEL": "0x2716",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x271c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 556,
+		"MSGID": 158,
+		"VOICEID": 9419,
+		"NameJPN": "鴎",
+		"JPN": "「ありがとう」",
+		"NameENG": "Kamome",
+		"ENG": "\"Thank you!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2740",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2e020100516b"
+	},
+	{
+		"LABEL": "0x274a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2750",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 560,
+		"MSGID": 159,
+		"VOICEID": 9420,
+		"NameJPN": "鴎",
+		"JPN": "「いい子いい子」",
+		"NameENG": "Kamome",
+		"ENG": "\"You're such a good boy!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2776",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 562,
+		"MSGID": 160,
+		"NameJPN": "老犬",
+		"JPN": "「くーん」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Aoo...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2798",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3402000000003c00"
+	},
+	{
+		"LABEL": "0x27a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 566,
+		"MSGID": 161,
+		"NameJPN": "羽依里",
+		"JPN": "「な……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wha...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27c8",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3802b2860100"
+	},
+	{
+		"LABEL": "0x27d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 570,
+		"MSGID": 162,
+		"NameJPN": "羽依里",
+		"JPN": "「納得いかない」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, I refuse to accept this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 572,
+		"MSGID": 163,
+		"NameJPN": "羽依里",
+		"JPN": "「やり直しだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"We're doing this over again.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2824",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3e020100c9b7"
+	},
+	{
+		"LABEL": "0x282e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2834",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 576,
+		"MSGID": 164,
+		"VOICEID": 9421,
+		"NameJPN": "鴎",
+		"JPN": "「ええ」",
+		"NameENG": "Kamome",
+		"ENG": "\"What?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2852",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "42020100000f00"
+	},
+	{
+		"LABEL": "0x285e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2864",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 580,
+		"MSGID": 165,
+		"NameJPN": "羽依里",
+		"JPN": "「これくれる？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Can I have this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x288e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 582,
+		"MSGID": 166,
+		"NameJPN": "老犬",
+		"JPN": "「ううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrr.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 584,
+		"MSGID": 167,
+		"NameJPN": "羽依里",
+		"JPN": "「いい子いい子」",
+		"NameENG": "Hairi",
+		"ENG": "\"Be a good boy now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 586,
+		"MSGID": 168,
+		"NameJPN": "老犬",
+		"JPN": "「ううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrr.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 588,
+		"MSGID": 169,
+		"NameJPN": "羽依里",
+		"JPN": "「いいこいいこ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Good boy. Who's a good boy?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2926",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 590,
+		"MSGID": 170,
+		"NameJPN": "老犬",
+		"JPN": "「ううう」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Grrrrr.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2948",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "5002ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x295a",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x296a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 594,
+		"MSGID": 171,
+		"NameJPN": "羽依里",
+		"JPN": "「ごらぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You little...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x298e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "54020100d4b700008002b4007900"
+	},
+	{
+		"LABEL": "0x29a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 598,
+		"MSGID": 172,
+		"VOICEID": 9422,
+		"NameJPN": "鴎",
+		"JPN": "「意地悪しないで」",
+		"NameENG": "Kamome",
+		"ENG": "\"Stop bullying him!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29ce",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "58020100516b"
+	},
+	{
+		"LABEL": "0x29d8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 602,
+		"MSGID": 173,
+		"VOICEID": 9423,
+		"NameJPN": "鴎",
+		"JPN": "「いい子いい子」",
+		"NameENG": "Kamome",
+		"ENG": "\"You're such a good wittle boy.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 604,
+		"MSGID": 174,
+		"NameJPN": "老犬",
+		"JPN": "「くーん」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Aoo...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a26",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5e0201009f6b"
+	},
+	{
+		"LABEL": "0x2a30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2a36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 608,
+		"MSGID": 175,
+		"VOICEID": 9424,
+		"NameJPN": "鴎",
+		"JPN": "「これ貸してね」",
+		"NameENG": "Kamome",
+		"ENG": "\"I'm gonna borrow this, 'kay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 610,
+		"MSGID": 176,
+		"JPN": "鴎が巾着を取る。",
+		"ENG": "Kamome picked up the pouch.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a7c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 612,
+		"MSGID": 177,
+		"JPN": "犬は大人しい。",
+		"ENG": "The dog moved not a muscle.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a9a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "66020100bab7"
+	},
+	{
+		"LABEL": "0x2aa4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2aaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 616,
+		"MSGID": 178,
+		"VOICEID": 9425,
+		"NameJPN": "鴎",
+		"JPN": "「開けてみるね」",
+		"NameENG": "Kamome",
+		"ENG": "\"I'm gonna open it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ad0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 618,
+		"MSGID": 179,
+		"NameJPN": "羽依里",
+		"JPN": "「あぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2af2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 620,
+		"MSGID": 180,
+		"JPN": "中から出てきたのは……",
+		"ENG": "Inside was...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b18",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6e020100c6b7"
+	},
+	{
+		"LABEL": "0x2b22",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 624,
+		"MSGID": 181,
+		"VOICEID": 9426,
+		"NameJPN": "鴎",
+		"JPN": "「これは……」",
+		"NameENG": "Kamome",
+		"ENG": "\"Um...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 626,
+		"MSGID": 182,
+		"NameJPN": "羽依里",
+		"JPN": "「骨だな」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's a bone.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b70",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "74020100d1b7"
+	},
+	{
+		"LABEL": "0x2b7a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 630,
+		"MSGID": 183,
+		"VOICEID": 9427,
+		"NameJPN": "鴎",
+		"JPN": "「鍵じゃなかったね」",
+		"NameENG": "Kamome",
+		"ENG": "\"No key here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2baa",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "78020100000f00"
+	},
+	{
+		"LABEL": "0x2bb6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 634,
+		"MSGID": 184,
+		"NameJPN": "老犬",
+		"JPN": "「……」",
+		"NameENG": "Old Dog",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 636,
+		"MSGID": 185,
+		"JPN": "物欲しそうに見ていた。",
+		"ENG": "The dog stared longingly at his treat.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 638,
+		"MSGID": 186,
+		"NameJPN": "羽依里",
+		"JPN": "「返すよ。悪かったな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Here, it's yours. Sorry about that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 640,
+		"MSGID": 187,
+		"NameJPN": "老犬",
+		"JPN": "「くーん」",
+		"NameENG": "Old Dog",
+		"ENG": "\"Aooo...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c54",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8202000000007800"
+	},
+	{
+		"LABEL": "0x2c60",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8502"
+	},
+	{
+		"LABEL": "0x2c66",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2c6e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2c74",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x2c82",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2c88",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c8e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2c92",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c98",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8702a9860100"
+	},
+	{
+		"LABEL": "0x2ca2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8a02"
+	},
+	{
+		"LABEL": "0x2ca8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0x2cb6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2cbe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2cc4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2cc8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8c020100bab700008002b4007900"
+	},
+	{
+		"LABEL": "0x2cda",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2ce0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 654,
+		"MSGID": 188,
+		"VOICEID": 9428,
+		"NameJPN": "鴎",
+		"JPN": "「別の家をあたってみようか」",
+		"NameENG": "Kamome",
+		"ENG": "\"On to a different house I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 656,
+		"MSGID": 189,
+		"NameJPN": "羽依里",
+		"JPN": "「……そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"On to a different house.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d3c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "96020100ed6b"
+	},
+	{
+		"LABEL": "0x2d46",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2d4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 664,
+		"MSGID": 190,
+		"VOICEID": 9430,
+		"NameJPN": "鴎",
+		"JPN": "「どこにしよう」",
+		"NameENG": "Kamome",
+		"ENG": "\"Where to next...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 666,
+		"MSGID": 191,
+		"NameJPN": "羽依里",
+		"JPN": "「うーん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 668,
+		"MSGID": 192,
+		"JPN": "このまま手当たり次第、というのも時間がかかる、か。",
+		"ENG": "We were basically running blind. And searching around at random would take quite a bit of time.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ddc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 670,
+		"MSGID": 193,
+		"JPN": "もう一つぐらい、絞るためのてがかりがあればいいんだけど。",
+		"ENG": "If only we had some other clue to narrow things down more.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 672,
+		"MSGID": 194,
+		"NameJPN": "羽依里",
+		"JPN": "「『冥府の入り口』ってどういう意味だろうな」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wonder what 'the gates of hell' is supposed to mean.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e6a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a2020100696b"
+	},
+	{
+		"LABEL": "0x2e74",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2e7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 676,
+		"MSGID": 195,
+		"VOICEID": 9431,
+		"NameJPN": "鴎",
+		"JPN": "「え」",
+		"NameENG": "Kamome",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e96",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a6020100bab7"
+	},
+	{
+		"LABEL": "0x2ea0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2ea6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 680,
+		"MSGID": 196,
+		"VOICEID": 9432,
+		"NameJPN": "鴎",
+		"JPN": "「特に意味はないんじゃないかな。雰囲気というか」",
+		"NameENG": "Kamome",
+		"ENG": "\"I'm not sure it means anything. It just makes it sound fancy.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2eec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 682,
+		"MSGID": 197,
+		"NameJPN": "羽依里",
+		"JPN": "「俺もそうだと思ったが……」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's what I thought, too, but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 684,
+		"MSGID": 198,
+		"JPN": "ん。",
+		"ENG": "Hey.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 686,
+		"MSGID": 199,
+		"JPN": "あれは。",
+		"ENG": "What is that?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 688,
+		"MSGID": 200,
+		"VOICEID": 10776,
+		"NameJPN": "鴎",
+		"JPN": "「どうしたの」",
+		"NameENG": "Kamome",
+		"ENG": "\"What's wrong?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 690,
+		"MSGID": 201,
+		"JPN": "俺の目にとまったのは……",
+		"ENG": "What I had set my sights on was...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f9a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b5027d000100"
+	},
+	{
+		"LABEL": "0x2fa4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b6027e000100"
+	},
+	{
+		"LABEL": "0x2fae",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b7027f000100"
+	},
+	{
+		"LABEL": "0x2fb8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b80280000100"
+	},
+	{
+		"LABEL": "0x2fc2",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "c40271173901000000",
+		"JPN": [
+			"[(#125),]看板",
+			"[(#126),]空",
+			"[(#127),]ゴミ箱",
+			"[(#128),]マンホール",
+			"煙突"
+		],
+		"ENG": [
+			"[(#125),]A signboard",
+			"[(#126),]The sky",
+			"[(#127),]A trash can",
+			"[(#128),]A manhole",
+			"A chimney"
+		],
+		"Args2": "000006000000"
+	},
+	{
+		"LABEL": "0x304c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d302",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x3170"
+	},
+	{
+		"LABEL": "0x3062",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 725,
+		"MSGID": 202,
+		"NameJPN": "羽依里",
+		"JPN": "「あの看板……」",
+		"NameENG": "Hairi",
+		"ENG": "\"That signboard...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x308c",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "d7020100"
+	},
+	{
+		"LABEL": "0x3094",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d8020100996b00008002b4007900"
+	},
+	{
+		"LABEL": "0x30a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x30ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 730,
+		"MSGID": 203,
+		"VOICEID": 9433,
+		"NameJPN": "鴎",
+		"JPN": "「『お土産あります』って書いてあるね」",
+		"NameENG": "Kamome",
+		"ENG": "\"It says 'We have souvenirs!'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30e8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dc0201009f6b"
+	},
+	{
+		"LABEL": "0x30f2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x30f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 734,
+		"MSGID": 204,
+		"VOICEID": 9434,
+		"NameJPN": "鴎",
+		"JPN": "「お土産買って帰る？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Wanna grab some?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3124",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 736,
+		"MSGID": 205,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、今はいいか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Er, nah, I'm good.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3152",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e2027d000000"
+	},
+	{
+		"LABEL": "0x315c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e402",
+		"GOTO_LABEL": "0x2fc2"
+	},
+	{
+		"LABEL": "0x3166",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e602",
+		"GOTO_LABEL": "0x39d8"
+	},
+	{
+		"LABEL": "0x3170",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e902",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x33c4"
+	},
+	{
+		"LABEL": "0x3186",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "eb02"
+	},
+	{
+		"LABEL": "0x318c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x3192",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009e00000000000000"
+	},
+	{
+		"LABEL": "0x31a0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x31a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x31ae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x31b2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ed020600676b09007f0061ff"
+	},
+	{
+		"LABEL": "0x31c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 751,
+		"MSGID": 206,
+		"VOICEID": 9435,
+		"NameJPN": "鴎",
+		"JPN": "「空？」",
+		"NameENG": "Kamome",
+		"ENG": "\"The sky?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31e0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f1020600976b09007f0061ff"
+	},
+	{
+		"LABEL": "0x31f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 755,
+		"MSGID": 207,
+		"VOICEID": 9436,
+		"NameJPN": "鴎",
+		"JPN": "「空がどうかしたの？」",
+		"NameENG": "Kamome",
+		"ENG": "\"What about it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x321c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 757,
+		"MSGID": 208,
+		"NameJPN": "羽依里",
+		"JPN": "「青いなって」",
+		"NameENG": "Hairi",
+		"ENG": "\"Sure is blue.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3244",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f7020600b9b70900650061ff"
+	},
+	{
+		"LABEL": "0x3254",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 761,
+		"MSGID": 209,
+		"VOICEID": 9437,
+		"NameJPN": "鴎",
+		"JPN": "「そうだね」",
+		"NameENG": "Kamome",
+		"ENG": "\"Sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3276",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 763,
+		"MSGID": 210,
+		"NameJPN": "羽依里",
+		"JPN": "「そういえば……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Speaking of which...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32a2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fd020600ccb70900650061ff"
+	},
+	{
+		"LABEL": "0x32b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 767,
+		"MSGID": 211,
+		"VOICEID": 9438,
+		"NameJPN": "鴎",
+		"JPN": "「なに」",
+		"NameENG": "Kamome",
+		"ENG": "\"What's up?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 769,
+		"MSGID": 212,
+		"NameJPN": "羽依里",
+		"JPN": "「下着」",
+		"NameENG": "Hairi",
+		"ENG": "\"Underwear.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32f2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "03030600c5b70900650061ff"
+	},
+	{
+		"LABEL": "0x3302",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 773,
+		"MSGID": 213,
+		"VOICEID": 9439,
+		"NameJPN": "鴎",
+		"JPN": "「下着？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Underwear?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3322",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 775,
+		"MSGID": 214,
+		"NameJPN": "羽依里",
+		"JPN": "「な、なんでもない」",
+		"NameENG": "Hairi",
+		"ENG": "\"N-Never mind.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3350",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "09030600ccb70900650061ff"
+	},
+	{
+		"LABEL": "0x3360",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 779,
+		"MSGID": 215,
+		"VOICEID": 9440,
+		"NameJPN": "鴎",
+		"JPN": "「???」",
+		"NameENG": "Kamome",
+		"ENG": "\"???\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3380",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0d037e000000"
+	},
+	{
+		"LABEL": "0x338a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f03"
+	},
+	{
+		"LABEL": "0x3390",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0x339e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x33a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x33ac",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x33b0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1103",
+		"GOTO_LABEL": "0x2fc2"
+	},
+	{
+		"LABEL": "0x33ba",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1303",
+		"GOTO_LABEL": "0x39d8"
+	},
+	{
+		"LABEL": "0x33c4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1603",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x3548"
+	},
+	{
+		"LABEL": "0x33da",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "18030100"
+	},
+	{
+		"LABEL": "0x33e2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "19030100996b00008002b4007900"
+	},
+	{
+		"LABEL": "0x33f4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x33fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 795,
+		"MSGID": 216,
+		"VOICEID": 9441,
+		"NameJPN": "鴎",
+		"JPN": "「ゴミ箱に何かある？」",
+		"NameENG": "Kamome",
+		"ENG": "\"What's up with the trash can?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3426",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 797,
+		"MSGID": 217,
+		"NameJPN": "羽依里",
+		"JPN": "「この中にないかなーって」",
+		"NameENG": "Hairi",
+		"ENG": "\"I was just wondering maybe we'd find something inside.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x345a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1f0301005d6b"
+	},
+	{
+		"LABEL": "0x3464",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x346a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 801,
+		"MSGID": 218,
+		"VOICEID": 9442,
+		"NameJPN": "鴎",
+		"JPN": "「羽依里、しっかりして」",
+		"NameENG": "Kamome",
+		"ENG": "\"Hairi, turn your brain back on.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3498",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "23030100636b"
+	},
+	{
+		"LABEL": "0x34a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x34a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 805,
+		"MSGID": 219,
+		"VOICEID": 9443,
+		"NameJPN": "鴎",
+		"JPN": "「そんなところに大事なものを隠す人がいるわけないでしょう」",
+		"NameENG": "Kamome",
+		"ENG": "\"Who the heck would hide something important in a stinkin' trash can?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 807,
+		"MSGID": 220,
+		"NameJPN": "羽依里",
+		"JPN": "「ま、まぁな。そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Y-You make a good point.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x352a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "29037f000000"
+	},
+	{
+		"LABEL": "0x3534",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2b03",
+		"GOTO_LABEL": "0x2fc2"
+	},
+	{
+		"LABEL": "0x353e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2d03",
+		"GOTO_LABEL": "0x39d8"
+	},
+	{
+		"LABEL": "0x3548",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3003",
+		"Equation": "(#6001==3)",
+		"GOTO_LABEL": "0x3810"
+	},
+	{
+		"LABEL": "0x355e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 818,
+		"MSGID": 221,
+		"NameJPN": "羽依里",
+		"JPN": "「あのマンホール」",
+		"NameENG": "Hairi",
+		"ENG": "\"That manhole...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x358a",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "34030100"
+	},
+	{
+		"LABEL": "0x3592",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "35030100c6b700008002b4007900"
+	},
+	{
+		"LABEL": "0x35a4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x35aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 823,
+		"MSGID": 222,
+		"VOICEID": 9444,
+		"NameJPN": "鴎",
+		"JPN": "「あの下に隠してるってこと？」",
+		"NameENG": "Kamome",
+		"ENG": "\"You think it's hidden underneath?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35de",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "39030100cdb7"
+	},
+	{
+		"LABEL": "0x35e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x35ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 827,
+		"MSGID": 223,
+		"VOICEID": 9445,
+		"NameJPN": "鴎",
+		"JPN": "「なんで」",
+		"NameENG": "Kamome",
+		"ENG": "\"Why?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x360e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 829,
+		"MSGID": 224,
+		"NameJPN": "羽依里",
+		"JPN": "「冥府の入り口って言うと、一番それっぽいだろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's the most fitting answer for 'the gates of hell,' don't you think?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3656",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3f030100eab7"
+	},
+	{
+		"LABEL": "0x3660",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3666",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 833,
+		"MSGID": 225,
+		"VOICEID": 9446,
+		"NameJPN": "鴎",
+		"JPN": "「うーん。でもどうやって開けるの」",
+		"NameENG": "Kamome",
+		"ENG": "\"Hmm... But how are we gonna open it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x369e",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "43030100000f00"
+	},
+	{
+		"LABEL": "0x36aa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x36b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 837,
+		"MSGID": 226,
+		"NameJPN": "羽依里",
+		"JPN": "「やってみよう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let me give it a try.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x36da",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "470305070f0300"
+	},
+	{
+		"LABEL": "0x36e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 841,
+		"MSGID": 227,
+		"NameJPN": "羽依里",
+		"JPN": "「んん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nnnngghh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x370c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 843,
+		"MSGID": 228,
+		"NameJPN": "羽依里",
+		"JPN": "「無理だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nope.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3730",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4d0305"
+	},
+	{
+		"LABEL": "0x3738",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4f0301008d6b00008002b4007900"
+	},
+	{
+		"LABEL": "0x374a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3750",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 849,
+		"MSGID": 229,
+		"VOICEID": 9447,
+		"NameJPN": "鴎",
+		"JPN": "「開けるなら、役場の人に頼むしかないね」",
+		"NameENG": "Kamome",
+		"ENG": "\"We'd have to ask someone at town hall if we want$din.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x378e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 851,
+		"MSGID": 230,
+		"NameJPN": "羽依里",
+		"JPN": "「うーん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 853,
+		"MSGID": 231,
+		"NameJPN": "羽依里",
+		"JPN": "「さすがに、こんなところに隠さないか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, maybe this isn't the most logical place a kid would hide a key.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37f2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "570380000000"
+	},
+	{
+		"LABEL": "0x37fc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5903",
+		"GOTO_LABEL": "0x2fc2"
+	},
+	{
+		"LABEL": "0x3806",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5b03",
+		"GOTO_LABEL": "0x39d8"
+	},
+	{
+		"LABEL": "0x3810",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 864,
+		"MSGID": 232,
+		"NameJPN": "羽依里",
+		"JPN": "「あれって」",
+		"NameENG": "Hairi",
+		"ENG": "\"That, over there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3836",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "62030100"
+	},
+	{
+		"LABEL": "0x383e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "63030100cdb700008002b4007900"
+	},
+	{
+		"LABEL": "0x3850",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3856",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 869,
+		"MSGID": 233,
+		"VOICEID": 9448,
+		"NameJPN": "鴎",
+		"JPN": "「？　あの煙突？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Hm? The chimney?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x387e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 871,
+		"MSGID": 234,
+		"NameJPN": "羽依里",
+		"JPN": "「そう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38a0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "69030100996b"
+	},
+	{
+		"LABEL": "0x38aa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x38b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 875,
+		"MSGID": 235,
+		"VOICEID": 9449,
+		"NameJPN": "鴎",
+		"JPN": "「何の煙突だろう」",
+		"NameENG": "Kamome",
+		"ENG": "\"Whaddya think it's for?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6d0301009f6b"
+	},
+	{
+		"LABEL": "0x38e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x38e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 879,
+		"MSGID": 236,
+		"VOICEID": 9450,
+		"NameJPN": "鴎",
+		"JPN": "「クリスマス用かな」",
+		"NameENG": "Kamome",
+		"ENG": "\"Maybe Christmas.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3912",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 881,
+		"MSGID": 237,
+		"NameJPN": "羽依里",
+		"JPN": "「違う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Maybe not.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3934",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 883,
+		"MSGID": 238,
+		"NameJPN": "羽依里",
+		"JPN": "「あ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3954",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 885,
+		"MSGID": 239,
+		"NameJPN": "羽依里",
+		"JPN": "「……もしかして」",
+		"NameENG": "Hairi",
+		"ENG": "\"I've got an idea.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3980",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 887,
+		"MSGID": 240,
+		"NameJPN": "羽依里",
+		"JPN": "「こっちだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"This way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39a6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "79030100696b"
+	},
+	{
+		"LABEL": "0x39b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x39b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 891,
+		"MSGID": 241,
+		"VOICEID": 9451,
+		"NameJPN": "鴎",
+		"JPN": "「え。どこ」",
+		"NameENG": "Kamome",
+		"ENG": "\"Uh, what way?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39d8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8303"
+	},
+	{
+		"LABEL": "0x39de",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x39e6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x39ec",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x39fa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3a00",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x3a0a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3a0e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3a14",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8603"
+	},
+	{
+		"LABEL": "0x3a1a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00005400000000000000"
+	},
+	{
+		"LABEL": "0x3a28",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3a30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x3a3a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3a3e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "88030100696b00008002b4007900"
+	},
+	{
+		"LABEL": "0x3a50",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3a56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 906,
+		"MSGID": 242,
+		"VOICEID": 9452,
+		"NameJPN": "鴎",
+		"JPN": "「ここって」",
+		"NameENG": "Kamome",
+		"ENG": "\"Here?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 908,
+		"MSGID": 243,
+		"NameJPN": "羽依里",
+		"JPN": "「見つけたぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"There it is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aa0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 910,
+		"MSGID": 244,
+		"NameJPN": "羽依里",
+		"JPN": "「恐らくここだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"This has gotta be it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aca",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "90030100c6b7"
+	},
+	{
+		"LABEL": "0x3ad4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3ada",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 914,
+		"MSGID": 245,
+		"VOICEID": 9453,
+		"NameJPN": "鴎",
+		"JPN": "「え、なんで分かるの」",
+		"NameENG": "Kamome",
+		"ENG": "\"How the heck did you figure that out?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 916,
+		"MSGID": 246,
+		"NameJPN": "羽依里",
+		"JPN": "「なんでってあれだよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Because of that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b36",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "96030100cdb7"
+	},
+	{
+		"LABEL": "0x3b40",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3b46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 920,
+		"MSGID": 247,
+		"VOICEID": 9454,
+		"NameJPN": "鴎",
+		"JPN": "「煙突？」",
+		"NameENG": "Kamome",
+		"ENG": "\"The chimney?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b66",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9a030100bab7"
+	},
+	{
+		"LABEL": "0x3b70",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3b76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 924,
+		"MSGID": 248,
+		"VOICEID": 9455,
+		"NameJPN": "鴎",
+		"JPN": "「お風呂屋さんかな」",
+		"NameENG": "Kamome",
+		"ENG": "\"Maybe it's the public bath?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ba0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 926,
+		"MSGID": 249,
+		"NameJPN": "羽依里",
+		"JPN": "「ここは火葬場だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's a crematorium.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3bcc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a0030100cdb7"
+	},
+	{
+		"LABEL": "0x3bd6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3bdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 930,
+		"MSGID": 250,
+		"VOICEID": 9456,
+		"NameJPN": "鴎",
+		"JPN": "「かそうば……」",
+		"NameENG": "Kamome",
+		"ENG": "\"Cream...atorium...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c02",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a4030100c36b"
+	},
+	{
+		"LABEL": "0x3c0c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3c12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 934,
+		"MSGID": 251,
+		"VOICEID": 9457,
+		"NameJPN": "鴎",
+		"JPN": "「……ふむ」",
+		"NameENG": "Kamome",
+		"ENG": "\"...Indeed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 936,
+		"MSGID": 252,
+		"JPN": "多分分かってない。",
+		"ENG": "She doesn't get it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c56",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "aa030100e16b"
+	},
+	{
+		"LABEL": "0x3c60",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3c66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 940,
+		"MSGID": 253,
+		"VOICEID": 9458,
+		"NameJPN": "鴎",
+		"JPN": "「サンタさんに仮装して煙突で遊んだり……する……とか……？」",
+		"NameENG": "Kamome",
+		"ENG": "\"Where else is Santa gonna make his... cream... and stuff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 942,
+		"MSGID": 254,
+		"NameJPN": "羽依里",
+		"JPN": "「火葬場」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, a crematorium.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 944,
+		"MSGID": 255,
+		"NameJPN": "羽依里",
+		"JPN": "「ご遺体を焼くところだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Where they cremate people.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d0e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b20301009f6b"
+	},
+	{
+		"LABEL": "0x3d18",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3d1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 948,
+		"MSGID": 256,
+		"VOICEID": 9459,
+		"NameJPN": "鴎",
+		"JPN": "「あ、火葬場。そっか」",
+		"NameENG": "Kamome",
+		"ENG": "\"Oh, duh, crematorium, right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d4a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b6030100696b"
+	},
+	{
+		"LABEL": "0x3d54",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3d5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 952,
+		"MSGID": 257,
+		"VOICEID": 9460,
+		"NameJPN": "鴎",
+		"JPN": "「あ……」",
+		"NameENG": "Kamome",
+		"ENG": "\"Oh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d7a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ba030100eab7"
+	},
+	{
+		"LABEL": "0x3d84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3d8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 957,
+		"MSGID": 258,
+		"VOICEID": 50226,
+		"NameJPN": "鴎",
+		"JPN": "「冥府の入り口って……そういう意味……」",
+		"NameENG": "Kamome",
+		"ENG": "\"So that's what the 'gates of hell' means.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3dc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 959,
+		"MSGID": 259,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっと不謹慎な気がするけどな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not exactly the most respectful phrasing.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e04",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "c1030100000f00"
+	},
+	{
+		"LABEL": "0x3e10",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 963,
+		"MSGID": 260,
+		"JPN": "火葬場の玄関へ向かう。",
+		"ENG": "We headed for the entrance.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 965,
+		"MSGID": 261,
+		"JPN": "玄関横に、年老いた犬が一匹いた。",
+		"ENG": "There was an old dog lying at the front.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e6c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c7030100cfb700008002b4007900"
+	},
+	{
+		"LABEL": "0x3e7e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 969,
+		"MSGID": 262,
+		"VOICEID": 9462,
+		"NameJPN": "鴎",
+		"JPN": "「あのー」",
+		"NameENG": "Kamome",
+		"ENG": "\"Um, hello!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ea4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 971,
+		"MSGID": 263,
+		"JPN": "受付にいるおばちゃんに声をかける。",
+		"ENG": "Kamome called out to the old granny at the reception desk.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ed6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cd030100bab7"
+	},
+	{
+		"LABEL": "0x3ee0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3ee6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 975,
+		"MSGID": 264,
+		"VOICEID": 9463,
+		"NameJPN": "鴎",
+		"JPN": "「そこの犬、触らせてもらっていいですか」",
+		"NameENG": "Kamome",
+		"ENG": "\"Would it be okay for us to pet your dog over there?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 977,
+		"MSGID": 265,
+		"VOICEID": 9464,
+		"NameJPN": "女性",
+		"JPN": "「どうぞ。年寄りだから、目がほとんど見えないけど。人が大好きだから」",
+		"NameENG": "Woman",
+		"ENG": "\"Go ahead. He's so old that he's almost blind with age, but he really loves people.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 979,
+		"MSGID": 266,
+		"VOICEID": 9465,
+		"NameJPN": "女性",
+		"JPN": "「可愛がってあげて」",
+		"NameENG": "Woman",
+		"ENG": "\"Give the poor boy some attention.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fac",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d5030100bdb7"
+	},
+	{
+		"LABEL": "0x3fb6",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x3fbe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3fc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 983,
+		"MSGID": 267,
+		"VOICEID": 9466,
+		"NameJPN": "鴎",
+		"JPN": "「ありがとうございます」",
+		"NameENG": "Kamome",
+		"ENG": "\"Thank you!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ff2",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "d9030100000f00"
+	},
+	{
+		"LABEL": "0x3ffe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4004",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 987,
+		"MSGID": 268,
+		"JPN": "気持ちよさそうに眠っているところを失礼して、小屋を調べさせてもらう。",
+		"ENG": "I rummaged through the doghouse, interrupting its resident's pleasant nap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4058",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 989,
+		"MSGID": 269,
+		"NameJPN": "羽依里",
+		"JPN": "「お」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ohhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4078",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 991,
+		"MSGID": 270,
+		"JPN": "小さな巾着が隠されていた。",
+		"ENG": "I found a small cloth bag hidden inside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 993,
+		"MSGID": 271,
+		"JPN": "また骨じゃないよな。火葬場だし……",
+		"ENG": "This isn't just another bone, right? I would hope not, given we're at a crematorium...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40d4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e30305c60f0300"
+	},
+	{
+		"LABEL": "0x40e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 997,
+		"MSGID": 272,
+		"JPN": "巾着を開けると……",
+		"ENG": "I opened it up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4102",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 999,
+		"MSGID": 273,
+		"NameJPN": "羽依里",
+		"JPN": "「おお」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4124",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e90305"
+	},
+	{
+		"LABEL": "0x412c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "eb0301009f6b00008002b4007900"
+	},
+	{
+		"LABEL": "0x413e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1005,
+		"MSGID": 274,
+		"VOICEID": 9467,
+		"NameJPN": "鴎",
+		"JPN": "「鍵、見つかったね」",
+		"NameENG": "Kamome",
+		"ENG": "\"We found one!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x416e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ef03"
+	},
+	{
+		"LABEL": "0x4174",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "f6030100"
+	},
+	{
+		"LABEL": "0x417c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001001000000000000"
+	},
+	{
+		"LABEL": "0x418a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x4192",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x41a4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x41b2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f7030007e9fd040000000000"
+	},
+	{
+		"LABEL": "0x41c2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0009ba04040000000000"
+	},
+	{
+		"LABEL": "0x41d0",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000900"
+	},
+	{
+		"LABEL": "0x41d8",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "000796"
+	},
+	{
+		"LABEL": "0x41e0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x41e6",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "f8033c00"
+	},
+	{
+		"LABEL": "0x41ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1018,
+		"MSGID": 275,
+		"NameJPN": "羽依里",
+		"JPN": "「南京錠の鍵だよな、これ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Another key.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4222",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1024,
+		"MSGID": 276,
+		"JPN": "装飾は凝っているけど、宝箱につけられた鍵は、小さなものだ。",
+		"ENG": "For how small the locks were, these keys were pretty darn fancy.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x426c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1026,
+		"MSGID": 277,
+		"NameJPN": "羽依里",
+		"JPN": "「いっそペンチか何かで壊した方が早いんじゃ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Remind me why we aren't just breaking off those locks.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42b2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "040406005b6b09007f0061ff"
+	},
+	{
+		"LABEL": "0x42c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1030,
+		"MSGID": 278,
+		"VOICEID": 9469,
+		"NameJPN": "鴎",
+		"JPN": "「だから、それはダメ」",
+		"NameENG": "Kamome",
+		"ENG": "\"Again, no.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1032,
+		"MSGID": 279,
+		"NameJPN": "羽依里",
+		"JPN": "「ま、まぁな……いや、最終手段としては」",
+		"NameENG": "Hairi",
+		"ENG": "\"Y-Yeah, well, maybe as a last resort.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4330",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0a040600616b09007f0061ff"
+	},
+	{
+		"LABEL": "0x4340",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1036,
+		"MSGID": 280,
+		"VOICEID": 9470,
+		"NameJPN": "鴎",
+		"JPN": "「ダメぜったい」",
+		"NameENG": "Kamome",
+		"ENG": "\"Not happening.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4366",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1038,
+		"MSGID": 281,
+		"NameJPN": "羽依里",
+		"JPN": "「分かったよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fine, fine.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x438e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1004"
+	},
+	{
+		"LABEL": "0x4394",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1304"
+	},
+	{
+		"LABEL": "0x439a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0007"
+	},
+	{
+		"LABEL": "0x43a0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0009"
+	},
+	{
+		"LABEL": "0x43a6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00005400000000000000"
+	},
+	{
+		"LABEL": "0x43b4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x43bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0100fab700008002b4007900"
+	},
+	{
+		"LABEL": "0x43cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x43d2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x43d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1046,
+		"MSGID": 282,
+		"VOICEID": 28471,
+		"NameJPN": "鴎",
+		"JPN": "「ぐるる」",
+		"NameENG": "Kamome",
+		"ENG": "\"Grrrr.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1048,
+		"MSGID": 283,
+		"NameJPN": "羽依里",
+		"JPN": "「やらないって」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll back off, okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4422",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "1a040100000f00"
+	},
+	{
+		"LABEL": "0x442e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4434",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1052,
+		"MSGID": 284,
+		"JPN": "とにかく、２つめの鍵が手に入った。",
+		"ENG": "We acquired our second key.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4466",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1054,
+		"MSGID": 285,
+		"JPN": "昔隠した鍵なんて、どうせ残っているはずがない。と思っていたけど……",
+		"ENG": "I hadn't actually expected the things to still be around. Ten whole years had passed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x44b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1056,
+		"MSGID": 286,
+		"JPN": "この分だと、残りの鍵も、望みがあるのかもしれない。",
+		"ENG": "But hey, we found two, so there was still hope for the others.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x44fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1058,
+		"MSGID": 287,
+		"JPN": "ちょっとだけ、わくわくしている自分がいた。",
+		"ENG": "Things were starting to get exciting.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4534",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "26040000b800000000000000"
+	},
+	{
+		"LABEL": "0x4544",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x454c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x4552",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x455a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x4566",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x4572",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x4578",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x457e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4582",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4588",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x458c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4590",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2704"
+	},
+	{
+		"LABEL": "0x4596",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "29040080"
+	}
+]

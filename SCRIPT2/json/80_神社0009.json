@@ -1,0 +1,914 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0c00098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way over to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "さて……何をするかな。",
+		"ENG": "Now then... What shall I do today?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x80",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1600",
+		"Equation": "(#6032==9)",
+		"GOTO_LABEL": "0xaa"
+	},
+	{
+		"LABEL": "0x96",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "17008e010100"
+	},
+	{
+		"LABEL": "0xa0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1800",
+		"GOTO_LABEL": "0xaa"
+	},
+	{
+		"LABEL": "0xaa",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "1a007117d701000000",
+		"JPN": [
+			"お賽銭を入れる",
+			"おみくじを引く",
+			"[(#398),]悟りを開く"
+		],
+		"ENG": [
+			"Make an offering",
+			"Draw a fortune",
+			"[(#398),]Embrace enlightenment"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x102",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2000",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x466"
+	},
+	{
+		"LABEL": "0x118",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ、ここに来たらとりあえずはお賽銭だよな」",
+		"NameENG": "Hairi",
+		"ENG": "\"I came all the way over here, so I guess I should at least make an offering.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "24007117db01010003",
+		"JPN": [
+			"１０円",
+			"５０円",
+			"１００円"
+		],
+		"ENG": [
+			"Ten yen",
+			"Fifty yen",
+			"One hundred yen"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x194",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x1dc"
+	},
+	{
+		"LABEL": "0x1aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 3,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c6",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "2e001c27313000"
+	},
+	{
+		"LABEL": "0x1d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2f00",
+		"GOTO_LABEL": "0x1dc"
+	},
+	{
+		"LABEL": "0x1dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3000",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x224"
+	},
+	{
+		"LABEL": "0x1f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 4,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20e",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "34001c27353000"
+	},
+	{
+		"LABEL": "0x21a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3500",
+		"GOTO_LABEL": "0x224"
+	},
+	{
+		"LABEL": "0x224",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3600",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x26c"
+	},
+	{
+		"LABEL": "0x23a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 5,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x256",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "3a001c2731303000"
+	},
+	{
+		"LABEL": "0x262",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3b00",
+		"GOTO_LABEL": "0x26c"
+	},
+	{
+		"LABEL": "0x26c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「ふむ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x292",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 7,
+		"JPN": "この夏、俺はいくらくらいお賽銭に使ったんだろう。",
+		"ENG": "I wonder how much I've spent on offerings this summer?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 8,
+		"JPN": "果たして、その分だけの御利益はあったのか。",
+		"ENG": "And did I actually receive an equivalent number of blessings?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 9,
+		"JPN": "いや。",
+		"ENG": "When I really think about it...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x322",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 10,
+		"JPN": "もしかしたら、あったのかもしれない。",
+		"ENG": "I might actually have.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x356",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 11,
+		"JPN": "こうして平穏な夏休みを過ごしていられることが。",
+		"ENG": "I spent my whole summer in peace and quiet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x394",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 12,
+		"JPN": "何よりの御利益だ。",
+		"ENG": "That's about as good a blessing as anyone could ask for.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 13,
+		"JPN": "……と、言い訳してみるが。",
+		"ENG": "...Or at least, that's what I told myself.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「もっと波乱と冒険に満ちた夏休みが欲しいっ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wanted my summer to be more crazy$dand exciting...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 15,
+		"JPN": "なんだか、切なくなった。",
+		"ENG": "I felt sort of wistful, looking back on it all.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x452",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5100",
+		"GOTO_LABEL": "0x9bc"
+	},
+	{
+		"LABEL": "0x45c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5300",
+		"GOTO_LABEL": "0x466"
+	},
+	{
+		"LABEL": "0x466",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5400",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x4ee"
+	},
+	{
+		"LABEL": "0x47c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 16,
+		"JPN": "おみくじを引くか。",
+		"ENG": "Guess I'll grab a fortune.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 17,
+		"JPN": "貯金箱に１００円をいれて、と。",
+		"ENG": "I dropped a hundred yen coin into the donation box, and...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4cc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5a000000",
+		"String": "80_神社9999",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4e4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5c00",
+		"GOTO_LABEL": "0x4ee"
+	},
+	{
+		"LABEL": "0x4ee",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5d00",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x9bc"
+	},
+	{
+		"LABEL": "0x504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 18,
+		"JPN": "これだけ神社に通ったんだ。",
+		"ENG": "I've visited this shrine more times than I can remember.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 19,
+		"JPN": "今なら、悟りの１つや２つ開けるかも知れない。",
+		"ENG": "You'd think I'd be able to unveil at least one of two cosmic mysteries, by now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x56a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "63000900000000680101"
+	},
+	{
+		"LABEL": "0x578",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6400"
+	},
+	{
+		"LABEL": "0x57e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "650000009c00000000000000"
+	},
+	{
+		"LABEL": "0x58e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0000000000400040"
+	},
+	{
+		"LABEL": "0x59a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0000000000000030fd"
+	},
+	{
+		"LABEL": "0x5a8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a600900000000"
+	},
+	{
+		"LABEL": "0x5b6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5be",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5c4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 103,
+		"MSGID": 20,
+		"JPN": "思い返せば、都会の喧噪を忘れ自然の優しさに包まれていた日々……",
+		"ENG": "Looking back on it, I spent my days here wrapped in nature's gentle embrace. I'd almost forgotten about the hustle and bustle of the city.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x616",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 105,
+		"MSGID": 21,
+		"JPN": "現代人が見落としている、人と人がつながりあう古き良き生活。",
+		"ENG": "I'd been living an old-fashioned lifestyle of the sort most people these days never even dream of. I'd made some real connections, here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x660",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 107,
+		"MSGID": 22,
+		"JPN": "ここに来て、真っ先に思いついたこと。",
+		"ENG": "I thought back to what I said to myself back when I first arrived on the island.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x694",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 109,
+		"MSGID": 23,
+		"JPN": "『何もないがある』",
+		"ENG": "'What a whole lot of nothing.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 111,
+		"MSGID": 24,
+		"JPN": "目に見えない物こそが、本当に大切な物なんだ。",
+		"ENG": "Turns out the most important things in life are the ones you can't see at a glance.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "71000306e8fd03"
+	},
+	{
+		"LABEL": "0x6fe",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0x706",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0306ffb400"
+	},
+	{
+		"LABEL": "0x710",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03060000003e003e"
+	},
+	{
+		"LABEL": "0x71c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0306000000c0fe4cff"
+	},
+	{
+		"LABEL": "0x72a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 25,
+		"JPN": "そう。",
+		"ENG": "That's right.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x740",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 26,
+		"JPN": "例えば……",
+		"ENG": "For example...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x75a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "770009000000003c0001"
+	},
+	{
+		"LABEL": "0x768",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "7800000000007800"
+	},
+	{
+		"LABEL": "0x774",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7900"
+	},
+	{
+		"LABEL": "0x77a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x788",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x790",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x796",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "030600000000000000"
+	},
+	{
+		"LABEL": "0x7a4",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x7aa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x7b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x7b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x7bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x7ca",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x7d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x7d4",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "7a00cc860100"
+	},
+	{
+		"LABEL": "0x7de",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7b00"
+	},
+	{
+		"LABEL": "0x7e4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x7f2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x7fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x800",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x804",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「愛とか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"For example, love...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x82c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 28,
+		"JPN": "形にはならないけれど、確かに存在する物。",
+		"ENG": "It doesn't have a shape, but it definitely exists.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x864",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 29,
+		"JPN": "人と人を繋ぐ絆を、そう呼ぶんだろう。",
+		"ENG": "A term for the bonds that connect people to one another.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x898",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 131,
+		"MSGID": 30,
+		"JPN": "この自然がもたらす恩恵も、きっとそれだ。",
+		"ENG": "I'm sure this gratitude brought about by being one with nature is something similar.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 31,
+		"JPN": "愛……",
+		"ENG": "Love...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 32,
+		"JPN": "愛か……",
+		"ENG": "Love, huh...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 33,
+		"JPN": "俺は、今、愛を知った。",
+		"ENG": "In that moment, I truly knew love.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x924",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x94a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「ふっ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Heh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x970",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 143,
+		"MSGID": 36,
+		"JPN": "人として１つ成長した気がした。",
+		"ENG": "I felt like I'd grown slightly as a person.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x99e",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "910018005500"
+	},
+	{
+		"LABEL": "0x9a8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "93002e000100"
+	},
+	{
+		"LABEL": "0x9b2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9500",
+		"GOTO_LABEL": "0x9bc"
+	},
+	{
+		"LABEL": "0x9bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 37,
+		"JPN": "帰ろう。",
+		"ENG": "Okay, time to go.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9d4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "9c000900000000780001"
+	},
+	{
+		"LABEL": "0x9e2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9e0012000100"
+	},
+	{
+		"LABEL": "0x9ec",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "a1000000b800000000000000"
+	},
+	{
+		"LABEL": "0x9fc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa04",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xa0c",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0xa18",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0xa24",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xa2a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa30",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa3a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa3e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa42",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "a200"
+	},
+	{
+		"LABEL": "0xa48",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "a4000080"
+	}
+]

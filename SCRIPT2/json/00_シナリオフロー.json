@@ -1,0 +1,9155 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1500",
+		"Equation": "(#12008==0)",
+		"GOTO_LABEL": "0x7e"
+	},
+	{
+		"LABEL": "0x16",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1600",
+		"Equation": "(#24004>=6)",
+		"GOTO_LABEL": "0x40"
+	},
+	{
+		"LABEL": "0x2c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "170073170200"
+	},
+	{
+		"LABEL": "0x36",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1800",
+		"GOTO_LABEL": "0x74"
+	},
+	{
+		"LABEL": "0x40",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1900",
+		"Equation": "(#24004>=4)",
+		"GOTO_LABEL": "0x6a"
+	},
+	{
+		"LABEL": "0x56",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1a0073170100"
+	},
+	{
+		"LABEL": "0x60",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1b00",
+		"GOTO_LABEL": "0x74"
+	},
+	{
+		"LABEL": "0x6a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1d0073170000"
+	},
+	{
+		"LABEL": "0x74",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1f00",
+		"GOTO_LABEL": "0x7e"
+	},
+	{
+		"LABEL": "0x7e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3100",
+		"Equation": "(#6004==1)",
+		"GOTO_LABEL": "0xb2"
+	},
+	{
+		"LABEL": "0x94",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "330002000000"
+	},
+	{
+		"LABEL": "0x9e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3500",
+		"GOTO_LABEL": "0x2ae8"
+	},
+	{
+		"LABEL": "0xa8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3600",
+		"GOTO_LABEL": "0xb2"
+	},
+	{
+		"LABEL": "0xb2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3f00",
+		"Equation": "((#12002==1&&#6004==0)&&(#14003!=1&&#14003!=3))",
+		"GOTO_LABEL": "0x128"
+	},
+	{
+		"LABEL": "0xec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4100",
+		"Equation": "(#12008)",
+		"GOTO_LABEL": "0x114"
+	},
+	{
+		"LABEL": "0x100",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "420000c03300"
+	},
+	{
+		"LABEL": "0x10a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4300",
+		"GOTO_LABEL": "0x114"
+	},
+	{
+		"LABEL": "0x114",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "440001c01900"
+	},
+	{
+		"LABEL": "0x11e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4500",
+		"GOTO_LABEL": "0x128"
+	},
+	{
+		"LABEL": "0x128",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "460096650000"
+	},
+	{
+		"LABEL": "0x132",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f00",
+		"Equation": "(#14003==1)",
+		"GOTO_LABEL": "0x15c"
+	},
+	{
+		"LABEL": "0x148",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5100b3360200"
+	},
+	{
+		"LABEL": "0x152",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5300",
+		"GOTO_LABEL": "0x186"
+	},
+	{
+		"LABEL": "0x15c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5400",
+		"Equation": "(#14003==3)",
+		"GOTO_LABEL": "0x186"
+	},
+	{
+		"LABEL": "0x172",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5600b3360400"
+	},
+	{
+		"LABEL": "0x17c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5800",
+		"GOTO_LABEL": "0x186"
+	},
+	{
+		"LABEL": "0x186",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5a00",
+		"Equation": "(#14==1)",
+		"GOTO_LABEL": "0x1c2"
+	},
+	{
+		"LABEL": "0x19a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5c000e000000"
+	},
+	{
+		"LABEL": "0x1a4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5d0002000000"
+	},
+	{
+		"LABEL": "0x1ae",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5f00",
+		"GOTO_LABEL": "0x496"
+	},
+	{
+		"LABEL": "0x1b8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6000",
+		"GOTO_LABEL": "0x1c2"
+	},
+	{
+		"LABEL": "0x1c2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6a0002000100"
+	},
+	{
+		"LABEL": "0x1cc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6f00",
+		"Equation": "(#12001==0)",
+		"GOTO_LABEL": "0x23c"
+	},
+	{
+		"LABEL": "0x1e2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7000e12e0100"
+	},
+	{
+		"LABEL": "0x1ec",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7100"
+	},
+	{
+		"LABEL": "0x1f2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x200",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x208",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x20e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x214",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x21a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x228",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x22e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x232",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7200",
+		"GOTO_LABEL": "0x23c"
+	},
+	{
+		"LABEL": "0x23c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7400",
+		"Equation": "(#24004==0)",
+		"GOTO_LABEL": "0x290"
+	},
+	{
+		"LABEL": "0x252",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "750002c0100000000000"
+	},
+	{
+		"LABEL": "0x260",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7600"
+	},
+	{
+		"LABEL": "0x266",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x274",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x27c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x282",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x286",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7a00",
+		"GOTO_LABEL": "0x290"
+	},
+	{
+		"LABEL": "0x290",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7b00",
+		"Equation": "(#6004==2)",
+		"GOTO_LABEL": "0x2ba"
+	},
+	{
+		"LABEL": "0x2a6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7c0096650100"
+	},
+	{
+		"LABEL": "0x2b0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7f00",
+		"GOTO_LABEL": "0x2ba"
+	},
+	{
+		"LABEL": "0x2ba",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "810002000000"
+	},
+	{
+		"LABEL": "0x2c4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8800",
+		"Equation": "(#6004==2)",
+		"GOTO_LABEL": "0x2ee"
+	},
+	{
+		"LABEL": "0x2da",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8900",
+		"GOTO_LABEL": "0x3346"
+	},
+	{
+		"LABEL": "0x2e4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8a00",
+		"GOTO_LABEL": "0x2ee"
+	},
+	{
+		"LABEL": "0x2ee",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "92006a000100",
+		"JPN": "プロローグ ７月２５日",
+		"ENG": "Prologue: July 25th"
+	},
+	{
+		"LABEL": "0x310",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "93000000",
+		"String": "10_プロローグ0725",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x32e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "96006a000100",
+		"JPN": "プロローグ ７月２６日",
+		"ENG": "Prologue: July 26th"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732360000"
+	},
+	{
+		"LABEL": "0x35c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x362",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "97000100",
+		"String": "10_プロローグ0726",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x380",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "9a006a000100",
+		"JPN": "プロローグ ７月２７日",
+		"ENG": "Prologue: July 27th"
+	},
+	{
+		"LABEL": "0x3a2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732370000"
+	},
+	{
+		"LABEL": "0x3ae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3b4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9b000200",
+		"String": "10_プロローグ0727",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3d2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "9e006a000100",
+		"JPN": "プロローグ ７月２８日",
+		"ENG": "Prologue: July 28th"
+	},
+	{
+		"LABEL": "0x3f4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732380000"
+	},
+	{
+		"LABEL": "0x400",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x406",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9f000300",
+		"String": "10_プロローグ0728",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x424",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a100e22e0100"
+	},
+	{
+		"LABEL": "0x42e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "a9000000e8fd000000000000"
+	},
+	{
+		"LABEL": "0x43e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x444",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x448",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "716d0b00"
+	},
+	{
+		"LABEL": "0x450",
+		"Type": "MOVIE",
+		"SUBCMD": 3,
+		"Args": "a9000080",
+		"Name": "RB_OP00",
+		"Args2": "0001e8fd"
+	},
+	{
+		"LABEL": "0x464",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x46a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x470",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x474",
+		"Type": "SETBGMFLAG",
+		"SUBCMD": 0,
+		"Args": "d3860100"
+	},
+	{
+		"LABEL": "0x47c",
+		"Type": "SETBGMFLAG",
+		"SUBCMD": 0,
+		"Args": "e8860100"
+	},
+	{
+		"LABEL": "0x484",
+		"Type": "SETCGFLAG",
+		"SUBCMD": 0,
+		"Args": "c008"
+	},
+	{
+		"LABEL": "0x48a",
+		"Type": "SETCGFLAG",
+		"SUBCMD": 0,
+		"Args": "c108"
+	},
+	{
+		"LABEL": "0x490",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x496",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b3006a000100",
+		"JPN": "７月２９日",
+		"ENG": "July 29th"
+	},
+	{
+		"LABEL": "0x4ac",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732390000"
+	},
+	{
+		"LABEL": "0x4b8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4be",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b4000400",
+		"String": "10_日常0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4d6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "b500"
+	},
+	{
+		"LABEL": "0x4dc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4e4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0500",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x30"
+	},
+	{
+		"LABEL": "0x4fc",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "b600"
+	},
+	{
+		"LABEL": "0x502",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x50a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x270"
+	},
+	{
+		"LABEL": "0x522",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b7000700",
+		"String": "10_日常0729",
+		"GOTO_LABEL": "0xf36"
+	},
+	{
+		"LABEL": "0x53a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "b8000000b800000000000000"
+	},
+	{
+		"LABEL": "0x54a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x552",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x55a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x566",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x572",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x578",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x57e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x582",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x588",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x594",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x5a0",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5a4",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5a8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x5b0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x5b8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x5c0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x5c8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x5d0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "bd006a000100",
+		"JPN": "７月３０日",
+		"ENG": "July 30th"
+	},
+	{
+		"LABEL": "0x5e6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303733300000"
+	},
+	{
+		"LABEL": "0x5f2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5f8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "be000800",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x1f66"
+	},
+	{
+		"LABEL": "0x61e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "bf000900",
+		"String": "10_日常0730",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x636",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c000"
+	},
+	{
+		"LABEL": "0x63c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x644",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0a00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4e4"
+	},
+	{
+		"LABEL": "0x65c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c300",
+		"Equation": "(#76==1)",
+		"GOTO_LABEL": "0x686"
+	},
+	{
+		"LABEL": "0x670",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c5000b00",
+		"GOTO_LABEL": "0x4db0"
+	},
+	{
+		"LABEL": "0x67c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c600",
+		"GOTO_LABEL": "0x686"
+	},
+	{
+		"LABEL": "0x686",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c800"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x694",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0c00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x710"
+	},
+	{
+		"LABEL": "0x6ac",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c9000d00",
+		"String": "10_日常0730",
+		"GOTO_LABEL": "0xcb2"
+	},
+	{
+		"LABEL": "0x6c4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ca000000b800000000000000"
+	},
+	{
+		"LABEL": "0x6d4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x6dc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x6e4",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x6f0",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x6fc",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x702",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x708",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x70c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x712",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x71e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x72a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x72e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x732",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x73a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x742",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x74a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x752",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x75a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "cf006a000100",
+		"JPN": "７月３１日",
+		"ENG": "July 31st"
+	},
+	{
+		"LABEL": "0x770",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0731",
+		"ENG": "0731"
+	},
+	{
+		"LABEL": "0x782",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303733310000"
+	},
+	{
+		"LABEL": "0x78e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x794",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d0000e00",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0x7ba",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d1000f00",
+		"String": "10_日常0731",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x7d2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "d200"
+	},
+	{
+		"LABEL": "0x7d8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x7e0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x94c"
+	},
+	{
+		"LABEL": "0x7f8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d500",
+		"Equation": "(#6043==1)",
+		"GOTO_LABEL": "0x824"
+	},
+	{
+		"LABEL": "0x80e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d6001100",
+		"GOTO_LABEL": "0x4ed0"
+	},
+	{
+		"LABEL": "0x81a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d700",
+		"GOTO_LABEL": "0x84a"
+	},
+	{
+		"LABEL": "0x824",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "d900"
+	},
+	{
+		"LABEL": "0x82a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x832",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1200",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0xbb8"
+	},
+	{
+		"LABEL": "0x84a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "dc001300",
+		"String": "10_日常0731",
+		"GOTO_LABEL": "0x167a"
+	},
+	{
+		"LABEL": "0x862",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "dd000000b800000000000000"
+	},
+	{
+		"LABEL": "0x872",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x87a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x882",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x88e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x89a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x8a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x8a6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8aa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x8b0",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x8bc",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x8c8",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8cc",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8d0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x8d8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x8e0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x8e8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x8f0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x8f8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e2006a000100",
+		"JPN": "８月１日",
+		"ENG": "August 1st"
+	},
+	{
+		"LABEL": "0x90c",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0801",
+		"ENG": "0801"
+	},
+	{
+		"LABEL": "0x91e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830310000"
+	},
+	{
+		"LABEL": "0x92a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x930",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e3001400",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0x956",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e4001500",
+		"String": "10_日常0801",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x96e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e500"
+	},
+	{
+		"LABEL": "0x974",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x97c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0xe72"
+	},
+	{
+		"LABEL": "0x994",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e800",
+		"Equation": "(#418==0)",
+		"GOTO_LABEL": "0xa04"
+	},
+	{
+		"LABEL": "0x9a8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "ea00"
+	},
+	{
+		"LABEL": "0x9ae",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x9b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1700",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x10a4"
+	},
+	{
+		"LABEL": "0x9ce",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ed00",
+		"Equation": "(#6045==1)",
+		"GOTO_LABEL": "0x9fa"
+	},
+	{
+		"LABEL": "0x9e4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "ee001800",
+		"GOTO_LABEL": "0x4eec"
+	},
+	{
+		"LABEL": "0x9f0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ef00",
+		"GOTO_LABEL": "0x9fa"
+	},
+	{
+		"LABEL": "0x9fa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f000",
+		"GOTO_LABEL": "0xa04"
+	},
+	{
+		"LABEL": "0xa04",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "f2001900",
+		"String": "10_日常0801",
+		"GOTO_LABEL": "0x1776"
+	},
+	{
+		"LABEL": "0xa1c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f3000000b800000000000000"
+	},
+	{
+		"LABEL": "0xa2c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa34",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xa3c",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0xa48",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0xa54",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xa5a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0xa60",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa64",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0xa6a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0xa76",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0xa82",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa86",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa8a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0xa92",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0xa9a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0xaaa",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0xab2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "f8006a000100",
+		"JPN": "８月２日",
+		"ENG": "August 2nd"
+	},
+	{
+		"LABEL": "0xac6",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0802",
+		"ENG": "0802"
+	},
+	{
+		"LABEL": "0xad8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830320000"
+	},
+	{
+		"LABEL": "0xae4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xaea",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "f9001a00",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0xb10",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "fa001b00",
+		"String": "10_日常0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xb28",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "fb00"
+	},
+	{
+		"LABEL": "0xb2e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0xb36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1c00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x13a2"
+	},
+	{
+		"LABEL": "0xb4e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "fc00"
+	},
+	{
+		"LABEL": "0xb54",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0xb5c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1d00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x151c"
+	},
+	{
+		"LABEL": "0xb74",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "fd001e00",
+		"String": "10_日常0802",
+		"GOTO_LABEL": "0x2152"
+	},
+	{
+		"LABEL": "0xb8c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fe000000b800000000000000"
+	},
+	{
+		"LABEL": "0xb9c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xba4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xbac",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0xbb8",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0xbc4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xbca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0xbd0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xbd4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0xbda",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0xbe6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0xbf2",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xbf6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xbfa",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0xc02",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0xc0a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0xc12",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0xc1a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0xc22",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "03016a000100",
+		"JPN": "８月３日",
+		"ENG": "August 3rd"
+	},
+	{
+		"LABEL": "0xc36",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0803",
+		"ENG": "0803"
+	},
+	{
+		"LABEL": "0xc48",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830330000"
+	},
+	{
+		"LABEL": "0xc54",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xc5a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "04011f00",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0xc80",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "05012000",
+		"String": "10_日常0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xc98",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0601"
+	},
+	{
+		"LABEL": "0xc9e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0xca6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2100",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x17c8"
+	},
+	{
+		"LABEL": "0xcbe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0901",
+		"Equation": "(#6043==1)",
+		"GOTO_LABEL": "0xcea"
+	},
+	{
+		"LABEL": "0xcd4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "0a012200",
+		"GOTO_LABEL": "0x4ed0"
+	},
+	{
+		"LABEL": "0xce0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b01",
+		"GOTO_LABEL": "0xd10"
+	},
+	{
+		"LABEL": "0xcea",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0d01"
+	},
+	{
+		"LABEL": "0xcf0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0xcf8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2300",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x1a3a"
+	},
+	{
+		"LABEL": "0xd10",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "10012400",
+		"String": "10_日常0803",
+		"GOTO_LABEL": "0x166e"
+	},
+	{
+		"LABEL": "0xd28",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "11010000b800000000000000"
+	},
+	{
+		"LABEL": "0xd38",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xd40",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xd48",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0xd54",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0xd60",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xd66",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0xd6c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd70",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0xd76",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0xd82",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0xd8e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd92",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd96",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0xd9e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0xda6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0xdae",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0xdb6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0xdbe",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "16016a000100",
+		"JPN": "８月４日",
+		"ENG": "August 4th"
+	},
+	{
+		"LABEL": "0xdd2",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0804",
+		"ENG": "0804"
+	},
+	{
+		"LABEL": "0xde4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830340000"
+	},
+	{
+		"LABEL": "0xdf0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xdf6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "17012500",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0xe1c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "18012600",
+		"String": "10_日常0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xe34",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "1901"
+	},
+	{
+		"LABEL": "0xe3a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0xe42",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x1bf4"
+	},
+	{
+		"LABEL": "0xe5a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1c01",
+		"Equation": "(#6043==1)",
+		"GOTO_LABEL": "0xe86"
+	},
+	{
+		"LABEL": "0xe70",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "1d012800",
+		"GOTO_LABEL": "0x4ed0"
+	},
+	{
+		"LABEL": "0xe7c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1e01",
+		"GOTO_LABEL": "0xed8"
+	},
+	{
+		"LABEL": "0xe86",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "2001"
+	},
+	{
+		"LABEL": "0xe8c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2900",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x1e58"
+	},
+	{
+		"LABEL": "0xeac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2201",
+		"Equation": "(#6045==1)",
+		"GOTO_LABEL": "0xed8"
+	},
+	{
+		"LABEL": "0xec2",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "23012a00",
+		"GOTO_LABEL": "0x4eec"
+	},
+	{
+		"LABEL": "0xece",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2401",
+		"GOTO_LABEL": "0xed8"
+	},
+	{
+		"LABEL": "0xed8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "27012b00",
+		"String": "10_日常0804",
+		"GOTO_LABEL": "0x1d62"
+	},
+	{
+		"LABEL": "0xef0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "28010000b800000000000000"
+	},
+	{
+		"LABEL": "0xf00",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xf08",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xf10",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0xf1c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0xf28",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xf2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0xf34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf38",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0xf3e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0xf4a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0xf56",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf5a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf5e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0xf66",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0xf6e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0xf76",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0xf7e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0xf86",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2c01",
+		"Equation": "(#5==0)",
+		"GOTO_LABEL": "0x162c"
+	},
+	{
+		"LABEL": "0xf98",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "2e016a000100",
+		"JPN": "８月５日",
+		"ENG": "August 5th"
+	},
+	{
+		"LABEL": "0xfac",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0805",
+		"ENG": "0805"
+	},
+	{
+		"LABEL": "0xfbe",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830350000"
+	},
+	{
+		"LABEL": "0xfca",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xfd0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2f012c00",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0xff6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "30012d00",
+		"String": "10_日常0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x100e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3101"
+	},
+	{
+		"LABEL": "0x1014",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x101c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2e00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x20ca"
+	},
+	{
+		"LABEL": "0x1034",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3401",
+		"Equation": "(#421==0)",
+		"GOTO_LABEL": "0x10ca"
+	},
+	{
+		"LABEL": "0x1048",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3601"
+	},
+	{
+		"LABEL": "0x104e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x1056",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2f00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x232e"
+	},
+	{
+		"LABEL": "0x106e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3b01",
+		"Equation": "(#9==1)",
+		"GOTO_LABEL": "0x1094"
+	},
+	{
+		"LABEL": "0x1080",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3c01",
+		"GOTO_LABEL": "0x255e"
+	},
+	{
+		"LABEL": "0x108a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3d01",
+		"GOTO_LABEL": "0x10c0"
+	},
+	{
+		"LABEL": "0x1094",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3f01",
+		"Equation": "(#6045==1)",
+		"GOTO_LABEL": "0x10c0"
+	},
+	{
+		"LABEL": "0x10aa",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "40013000",
+		"GOTO_LABEL": "0x4eec"
+	},
+	{
+		"LABEL": "0x10b6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4101",
+		"GOTO_LABEL": "0x10c0"
+	},
+	{
+		"LABEL": "0x10c0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4301",
+		"GOTO_LABEL": "0x10ca"
+	},
+	{
+		"LABEL": "0x10ca",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "45013100",
+		"String": "10_日常0805",
+		"GOTO_LABEL": "0x133c"
+	},
+	{
+		"LABEL": "0x10e2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "46010000b800000000000000"
+	},
+	{
+		"LABEL": "0x10f2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x10fa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x1102",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x110e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x111a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1120",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x1126",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x112a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x1130",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x113c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x1148",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x114c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1150",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x1158",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x1160",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x1168",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x1170",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x1178",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4c016a000100",
+		"JPN": "８月６日",
+		"ENG": "August 6th"
+	},
+	{
+		"LABEL": "0x118c",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0806",
+		"ENG": "0806"
+	},
+	{
+		"LABEL": "0x119e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830360000"
+	},
+	{
+		"LABEL": "0x11aa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x11b0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4d013200",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0x11d6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4e013300",
+		"String": "10_日常0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x11ee",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4f01"
+	},
+	{
+		"LABEL": "0x11f4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x11fc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3400",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x2598"
+	},
+	{
+		"LABEL": "0x1214",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5201",
+		"Equation": "(#8==1)",
+		"GOTO_LABEL": "0x123a"
+	},
+	{
+		"LABEL": "0x1226",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5301",
+		"GOTO_LABEL": "0x21ee"
+	},
+	{
+		"LABEL": "0x1230",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5401",
+		"GOTO_LABEL": "0x1276"
+	},
+	{
+		"LABEL": "0x123a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5801",
+		"Equation": "(#12==1)",
+		"GOTO_LABEL": "0x1276"
+	},
+	{
+		"LABEL": "0x124e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5a013500",
+		"String": "40_鴎9999",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1264",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "5c010180"
+	},
+	{
+		"LABEL": "0x126c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5d01",
+		"GOTO_LABEL": "0x1276"
+	},
+	{
+		"LABEL": "0x1276",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6001",
+		"Equation": "(#6043==1)",
+		"GOTO_LABEL": "0x12a2"
+	},
+	{
+		"LABEL": "0x128c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "61013600",
+		"GOTO_LABEL": "0x4ed0"
+	},
+	{
+		"LABEL": "0x1298",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6201",
+		"GOTO_LABEL": "0x131a"
+	},
+	{
+		"LABEL": "0x12a2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "6401"
+	},
+	{
+		"LABEL": "0x12a8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x12b0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3700",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x2836"
+	},
+	{
+		"LABEL": "0x12c8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6801",
+		"Equation": "(#9==1)",
+		"GOTO_LABEL": "0x12ee"
+	},
+	{
+		"LABEL": "0x12da",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6901",
+		"GOTO_LABEL": "0x255e"
+	},
+	{
+		"LABEL": "0x12e4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6a01",
+		"GOTO_LABEL": "0x131a"
+	},
+	{
+		"LABEL": "0x12ee",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6c01",
+		"Equation": "(#6045==1)",
+		"GOTO_LABEL": "0x131a"
+	},
+	{
+		"LABEL": "0x1304",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "6d013800",
+		"GOTO_LABEL": "0x4eec"
+	},
+	{
+		"LABEL": "0x1310",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6e01",
+		"GOTO_LABEL": "0x131a"
+	},
+	{
+		"LABEL": "0x131a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7401",
+		"Equation": "(#403==1)",
+		"GOTO_LABEL": "0x1342"
+	},
+	{
+		"LABEL": "0x132e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7501",
+		"GOTO_LABEL": "0x364e"
+	},
+	{
+		"LABEL": "0x1338",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7601",
+		"GOTO_LABEL": "0x1342"
+	},
+	{
+		"LABEL": "0x1342",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7b01",
+		"Equation": "(#404==1)",
+		"GOTO_LABEL": "0x136a"
+	},
+	{
+		"LABEL": "0x1356",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7c01",
+		"GOTO_LABEL": "0x3c60"
+	},
+	{
+		"LABEL": "0x1360",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7d01",
+		"GOTO_LABEL": "0x136a"
+	},
+	{
+		"LABEL": "0x136a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8201",
+		"Equation": "(#405==1)",
+		"GOTO_LABEL": "0x1392"
+	},
+	{
+		"LABEL": "0x137e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8301",
+		"GOTO_LABEL": "0x430e"
+	},
+	{
+		"LABEL": "0x1388",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8401",
+		"GOTO_LABEL": "0x1392"
+	},
+	{
+		"LABEL": "0x1392",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8901",
+		"Equation": "(#7==1)",
+		"GOTO_LABEL": "0x13b8"
+	},
+	{
+		"LABEL": "0x13a4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8a01",
+		"GOTO_LABEL": "0x1d38"
+	},
+	{
+		"LABEL": "0x13ae",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8b01",
+		"GOTO_LABEL": "0x13ee"
+	},
+	{
+		"LABEL": "0x13b8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8d01",
+		"Equation": "(#92==0)",
+		"GOTO_LABEL": "0x13ee"
+	},
+	{
+		"LABEL": "0x13cc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8e013900",
+		"String": "10_日常0806",
+		"GOTO_LABEL": "0xa4e"
+	},
+	{
+		"LABEL": "0x13e4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8f01",
+		"GOTO_LABEL": "0x13ee"
+	},
+	{
+		"LABEL": "0x13ee",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "90010000b800000000000000"
+	},
+	{
+		"LABEL": "0x13fe",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1406",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x140e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x141a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x1426",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x142c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x1432",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1436",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x143c",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x1448",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x1454",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1458",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x145c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x1464",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x146c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x1474",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x147c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x1484",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "99016a000100",
+		"JPN": "８月７日",
+		"ENG": "August 7th"
+	},
+	{
+		"LABEL": "0x1498",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "6b000100",
+		"JPN": "0807",
+		"ENG": "0807"
+	},
+	{
+		"LABEL": "0x14aa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830370000"
+	},
+	{
+		"LABEL": "0x14b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x14bc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9a013a00",
+		"String": "90_島キングメインシナリオ",
+		"GOTO_LABEL": "0x10512"
+	},
+	{
+		"LABEL": "0x14e2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9b013b00",
+		"String": "10_日常0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x14fa",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "9c01"
+	},
+	{
+		"LABEL": "0x1500",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x1508",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3c00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x2a64"
+	},
+	{
+		"LABEL": "0x1520",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9f01",
+		"Equation": "(#8==1)",
+		"GOTO_LABEL": "0x1546"
+	},
+	{
+		"LABEL": "0x1532",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a001",
+		"GOTO_LABEL": "0x21ee"
+	},
+	{
+		"LABEL": "0x153c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a101",
+		"GOTO_LABEL": "0x1582"
+	},
+	{
+		"LABEL": "0x1546",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a501",
+		"Equation": "(#12==1)",
+		"GOTO_LABEL": "0x1582"
+	},
+	{
+		"LABEL": "0x155a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "a7013d00",
+		"String": "40_鴎9999",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1570",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "a9010280"
+	},
+	{
+		"LABEL": "0x1578",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "aa01",
+		"GOTO_LABEL": "0x1582"
+	},
+	{
+		"LABEL": "0x1582",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ad01",
+		"Equation": "(#6043==1)",
+		"GOTO_LABEL": "0x15ae"
+	},
+	{
+		"LABEL": "0x1598",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "ae013e00",
+		"GOTO_LABEL": "0x4ed0"
+	},
+	{
+		"LABEL": "0x15a4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af01",
+		"GOTO_LABEL": "0x15d4"
+	},
+	{
+		"LABEL": "0x15ae",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "b101"
+	},
+	{
+		"LABEL": "0x15b4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x15bc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3f00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x2c18"
+	},
+	{
+		"LABEL": "0x15d4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b301",
+		"Equation": "(#9==1)",
+		"GOTO_LABEL": "0x15fa"
+	},
+	{
+		"LABEL": "0x15e6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b401",
+		"GOTO_LABEL": "0x255e"
+	},
+	{
+		"LABEL": "0x15f0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b501",
+		"GOTO_LABEL": "0x15fa"
+	},
+	{
+		"LABEL": "0x15fa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ba01",
+		"Equation": "(#404==1)",
+		"GOTO_LABEL": "0x1622"
+	},
+	{
+		"LABEL": "0x160e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "bb01",
+		"GOTO_LABEL": "0x3c60"
+	},
+	{
+		"LABEL": "0x1618",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "bc01",
+		"GOTO_LABEL": "0x1622"
+	},
+	{
+		"LABEL": "0x1622",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "be01",
+		"GOTO_LABEL": "0x1636"
+	},
+	{
+		"LABEL": "0x162c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c401",
+		"GOTO_LABEL": "0x178e"
+	},
+	{
+		"LABEL": "0x1636",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "cb014000",
+		"String": "10_日常0807",
+		"GOTO_LABEL": "0x18c6"
+	},
+	{
+		"LABEL": "0x164e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ce01",
+		"Equation": "(#6003==0)",
+		"GOTO_LABEL": "0x16d8"
+	},
+	{
+		"LABEL": "0x1664",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d0016a000100",
+		"JPN": "８月８日",
+		"ENG": "August 8th"
+	},
+	{
+		"LABEL": "0x1678",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380000"
+	},
+	{
+		"LABEL": "0x1684",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x168a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d1014100",
+		"String": "RB40_うみ_0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x16a6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d201",
+		"Equation": "(#406==1)",
+		"GOTO_LABEL": "0x16ce"
+	},
+	{
+		"LABEL": "0x16ba",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d301",
+		"GOTO_LABEL": "0x47d4"
+	},
+	{
+		"LABEL": "0x16c4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d401",
+		"GOTO_LABEL": "0x16ce"
+	},
+	{
+		"LABEL": "0x16ce",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d601",
+		"GOTO_LABEL": "0x16d8"
+	},
+	{
+		"LABEL": "0x16d8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d7014200",
+		"String": "10_日常0807",
+		"GOTO_LABEL": "0x1ce0"
+	},
+	{
+		"LABEL": "0x16f0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d8010000b800000000000000"
+	},
+	{
+		"LABEL": "0x1700",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1708",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x1710",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x171c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x1728",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x172e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x1734",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1738",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x173e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x174a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x1756",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x175a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x175e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x1766",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x176e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x1776",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x177e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x1786",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "d9010380"
+	},
+	{
+		"LABEL": "0x178e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e1016a000100",
+		"JPN": "しろは ８月５日",
+		"ENG": "Shiroha: August 5th"
+	},
+	{
+		"LABEL": "0x17aa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830350082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x17bc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x17c2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e2014300",
+		"String": "20_しろは0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x17dc",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e5016a000100",
+		"JPN": "しろは ８月６日",
+		"ENG": "Shiroha: August 6th"
+	},
+	{
+		"LABEL": "0x17f8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830360082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x180a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1810",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e6014400",
+		"String": "20_しろは0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x182a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e9016a000100",
+		"JPN": "しろは ８月７日",
+		"ENG": "Shiroha: August 7th"
+	},
+	{
+		"LABEL": "0x1846",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830370082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x1858",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x185e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "ea014500",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1878",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "ee014600",
+		"GOTO_LABEL": "0x4d06"
+	},
+	{
+		"LABEL": "0x1884",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "f0014700",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x9f60"
+	},
+	{
+		"LABEL": "0x189e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "f3016a000100",
+		"JPN": "しろは ８月８日",
+		"ENG": "Shiroha: August 8th"
+	},
+	{
+		"LABEL": "0x18ba",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x18cc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x18d2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "f4014800",
+		"String": "20_しろは0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x18ec",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "f7016a000100",
+		"JPN": "しろは ８月９日",
+		"ENG": "Shiroha: August 9th"
+	},
+	{
+		"LABEL": "0x1908",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830390082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x191a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1920",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "f8014900",
+		"String": "20_しろは0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x193a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "fb016a000100",
+		"JPN": "しろは ８月１０日",
+		"ENG": "Shiroha: August 10th"
+	},
+	{
+		"LABEL": "0x1958",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x196a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1970",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "fc014a00",
+		"String": "20_しろは0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x198a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ff016a000100",
+		"JPN": "しろは ８月１１日",
+		"ENG": "Shiroha: August 11th"
+	},
+	{
+		"LABEL": "0x19a8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831310082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x19ba",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x19c0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "00024b00",
+		"String": "20_しろは0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x19da",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "03026a000100",
+		"JPN": "しろは ８月１２日",
+		"ENG": "Shiroha: August 12th"
+	},
+	{
+		"LABEL": "0x19f8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831320082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x1a0a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1a10",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "04024c00",
+		"String": "20_しろは0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1a2a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "07026a000100",
+		"JPN": "しろは ８月１３日",
+		"ENG": "Shiroha: August 13th"
+	},
+	{
+		"LABEL": "0x1a48",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831330082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x1a5a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1a60",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "08024d00",
+		"String": "20_しろは0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1a7a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "0b026a000100",
+		"JPN": "しろは ８月１４日",
+		"ENG": "Shiroha: August 14th"
+	},
+	{
+		"LABEL": "0x1a98",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831340082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x1aaa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1ab0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0c024e00",
+		"String": "20_しろは0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1aca",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "0f026a000100",
+		"JPN": "しろは ８月１５日",
+		"ENG": "Shiroha: August 15th"
+	},
+	{
+		"LABEL": "0x1ae8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350082b582eb82cd00"
+	},
+	{
+		"LABEL": "0x1afa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1b00",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "10024f00",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1b1a",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "14025000",
+		"GOTO_LABEL": "0x4d5c"
+	},
+	{
+		"LABEL": "0x1b26",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "16025100",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x251c"
+	},
+	{
+		"LABEL": "0x1b40",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "1a026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1b52",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1b025200",
+		"String": "20_しろは0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1b6c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "1e026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1b7e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1f025300",
+		"String": "20_しろは0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1b98",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "22026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1baa",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "23025400",
+		"String": "20_しろは0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1bc4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "26026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1bd6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "27025500",
+		"String": "20_しろは0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1bf0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "2a026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1c02",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2b025600",
+		"String": "20_しろは0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1c1c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "2e026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1c2e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2f025700",
+		"String": "20_しろは0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1c48",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "32026a000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x1c5a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "33025800",
+		"String": "20_しろは0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1c74",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "36026a000100",
+		"JPN": "しろは エピローグ",
+		"ENG": "Shiroha: Epilogue"
+	},
+	{
+		"LABEL": "0x1c92",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "37025900",
+		"String": "20_しろは0906",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1cac",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3902e32e0100"
+	},
+	{
+		"LABEL": "0x1cb6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3c02",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x1ce8"
+	},
+	{
+		"LABEL": "0x1cd8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x1ce0",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x1d1a"
+	},
+	{
+		"LABEL": "0x1ce8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3c02",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x1d1a"
+	},
+	{
+		"LABEL": "0x1d0a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x1d12",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x1d1a"
+	},
+	{
+		"LABEL": "0x1d1a",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "3f0218005e00"
+	},
+	{
+		"LABEL": "0x1d24",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "41025a00",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x1d30",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "44020480"
+	},
+	{
+		"LABEL": "0x1d38",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4b026a000100",
+		"JPN": "蒼 ８月７日",
+		"ENG": "Ao: August 7th"
+	},
+	{
+		"LABEL": "0x1d50",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038303700919300"
+	},
+	{
+		"LABEL": "0x1d5e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1d64",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4c025b00",
+		"String": "30_蒼0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1d7a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4f026a000100",
+		"JPN": "蒼 ８月８日",
+		"ENG": "Ao: August 8th"
+	},
+	{
+		"LABEL": "0x1d92",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038303800919300"
+	},
+	{
+		"LABEL": "0x1da0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1da6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "50025c00",
+		"String": "30_蒼0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1dbc",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "53026a000100",
+		"JPN": "蒼 ８月９日",
+		"ENG": "Ao: August 9th"
+	},
+	{
+		"LABEL": "0x1dd4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038303900919300"
+	},
+	{
+		"LABEL": "0x1de2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1de8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "54025d00",
+		"String": "30_蒼0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1dfe",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "57026a000100",
+		"JPN": "蒼 ８月１０日",
+		"ENG": "Ao: August 10th"
+	},
+	{
+		"LABEL": "0x1e18",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313000919300"
+	},
+	{
+		"LABEL": "0x1e26",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1e2c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "58025e00",
+		"String": "30_蒼0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1e42",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5b026a000100",
+		"JPN": "蒼 ８月１１日",
+		"ENG": "Ao: August 11th"
+	},
+	{
+		"LABEL": "0x1e5c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313100919300"
+	},
+	{
+		"LABEL": "0x1e6a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1e70",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5c025f00",
+		"String": "30_蒼0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1e86",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5f026a000100",
+		"JPN": "蒼 ８月１２日",
+		"ENG": "Ao: August 12th"
+	},
+	{
+		"LABEL": "0x1ea0",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313200919300"
+	},
+	{
+		"LABEL": "0x1eae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1eb4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "60026000",
+		"String": "30_蒼0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1eca",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "63026a000100",
+		"JPN": "蒼 ８月１３日",
+		"ENG": "Ao: August 13th"
+	},
+	{
+		"LABEL": "0x1ee4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313300919300"
+	},
+	{
+		"LABEL": "0x1ef2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1ef8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "64026100",
+		"String": "30_蒼0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1f0e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "67026a000100",
+		"JPN": "蒼 ８月１４日",
+		"ENG": "Ao: August 14th"
+	},
+	{
+		"LABEL": "0x1f28",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313400919300"
+	},
+	{
+		"LABEL": "0x1f36",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1f3c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "68026200",
+		"String": "30_蒼0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1f52",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "6b026a000100",
+		"JPN": "蒼 ８月１５日",
+		"ENG": "Ao: August 15th"
+	},
+	{
+		"LABEL": "0x1f6c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313500919300"
+	},
+	{
+		"LABEL": "0x1f7a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1f80",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6c026300",
+		"String": "30_蒼0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1f96",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "6f026a000100",
+		"JPN": "蒼 ８月１６日",
+		"ENG": "Ao: August 16th"
+	},
+	{
+		"LABEL": "0x1fb0",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313600919300"
+	},
+	{
+		"LABEL": "0x1fbe",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1fc4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "70026400",
+		"String": "30_蒼0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1fda",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "73026a000100",
+		"JPN": "蒼 ８月１７日",
+		"ENG": "Ao: August 17th"
+	},
+	{
+		"LABEL": "0x1ff4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313700919300"
+	},
+	{
+		"LABEL": "0x2002",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2008",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "74026500",
+		"String": "30_蒼0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x201e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "77026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x202c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "78026600",
+		"String": "30_蒼0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2042",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7b026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x2050",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7c026700",
+		"String": "30_蒼0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2066",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7f026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x2074",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "80026800",
+		"String": "30_蒼0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x208a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "83026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x2098",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "84026900",
+		"String": "30_蒼0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x20ae",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "87026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x20bc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "88026a00",
+		"String": "30_蒼0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x20d2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8b026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x20e0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8c026b00",
+		"String": "30_蒼0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x20f6",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8f026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x2104",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "90026c00",
+		"String": "30_蒼0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x211a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "93026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x2128",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "94026d00",
+		"String": "30_蒼0825",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x213e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "97026a000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x214c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "98026e00",
+		"String": "30_蒼0826",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2162",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9a02e42e0100"
+	},
+	{
+		"LABEL": "0x216c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9d02",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x219e"
+	},
+	{
+		"LABEL": "0x218e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x2196",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x21d0"
+	},
+	{
+		"LABEL": "0x219e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9d02",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x21d0"
+	},
+	{
+		"LABEL": "0x21c0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x21c8",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x21d0"
+	},
+	{
+		"LABEL": "0x21d0",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "a00218005f00"
+	},
+	{
+		"LABEL": "0x21da",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "a2026f00",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x21e6",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "a5020580"
+	},
+	{
+		"LABEL": "0x21ee",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ac026a000100",
+		"JPN": "鴎 ８月８日",
+		"ENG": "Kamome: August 8th"
+	},
+	{
+		"LABEL": "0x2206",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380089a800"
+	},
+	{
+		"LABEL": "0x2214",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x221a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "ad027000",
+		"String": "40_鴎0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2230",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b0026a000100",
+		"JPN": "鴎 ８月９日",
+		"ENG": "Kamome: August 9th"
+	},
+	{
+		"LABEL": "0x2248",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830390089a800"
+	},
+	{
+		"LABEL": "0x2256",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x225c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b1027100",
+		"String": "40_鴎0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2272",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b4026a000100",
+		"JPN": "鴎 ８月１０日",
+		"ENG": "Kamome: August 10th"
+	},
+	{
+		"LABEL": "0x228c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300089a800"
+	},
+	{
+		"LABEL": "0x229a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22a0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b5027200",
+		"String": "40_鴎0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x22b6",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ba026a000100",
+		"JPN": "鴎 ８月１５日",
+		"ENG": "Kamome August 15th"
+	},
+	{
+		"LABEL": "0x22d0",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350089a800"
+	},
+	{
+		"LABEL": "0x22de",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22e4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "bb027300",
+		"String": "40_鴎0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x22fa",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "be026a000100",
+		"JPN": "鴎 ８月１６日",
+		"ENG": "Kamome: August 16th"
+	},
+	{
+		"LABEL": "0x2314",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831360089a800"
+	},
+	{
+		"LABEL": "0x2322",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2328",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "bf027400",
+		"String": "40_鴎0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x233e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c2026a000100",
+		"JPN": "鴎 ８月１７日",
+		"ENG": "Kamome: August 17th"
+	},
+	{
+		"LABEL": "0x2358",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831370089a800"
+	},
+	{
+		"LABEL": "0x2366",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x236c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c3027500",
+		"String": "40_鴎0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2382",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c7026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x2390",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c8027600",
+		"String": "40_鴎0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x23a6",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "cb026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x23b4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "cc027700",
+		"String": "40_鴎0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x23ca",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "cf026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x23d8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d0027800",
+		"String": "40_鴎0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x23ee",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d3026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x23fc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d4027900",
+		"String": "40_鴎0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2412",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d7026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x2420",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d8027a00",
+		"String": "40_鴎0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2436",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "db026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x2444",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "dc027b00",
+		"String": "40_鴎0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x245a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "df026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x2468",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e0027c00",
+		"String": "40_鴎0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x247e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e3026a000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x248c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e4027d00",
+		"String": "40_鴎0829",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x24a2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e7026a000100",
+		"JPN": "鴎 エピローグ",
+		"ENG": "Kamome: Epilogue"
+	},
+	{
+		"LABEL": "0x24bc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e8027e00",
+		"String": "40_鴎0830",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x24d2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ea02e52e0100"
+	},
+	{
+		"LABEL": "0x24dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ed02",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x250e"
+	},
+	{
+		"LABEL": "0x24fe",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x2506",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2540"
+	},
+	{
+		"LABEL": "0x250e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ed02",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x2540"
+	},
+	{
+		"LABEL": "0x2530",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x2538",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2540"
+	},
+	{
+		"LABEL": "0x2540",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "f00218006000"
+	},
+	{
+		"LABEL": "0x254a",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "f2027f00",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x2556",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "f5020680"
+	},
+	{
+		"LABEL": "0x255e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "fc026a000100",
+		"JPN": "紬 ８月７日",
+		"ENG": "Tsumugi: August 7th"
+	},
+	{
+		"LABEL": "0x2576",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830370092db00"
+	},
+	{
+		"LABEL": "0x2584",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x258a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "fd028000",
+		"String": "50_紬0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x25a0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "00036a000100",
+		"JPN": "紬 ８月８日",
+		"ENG": "Tsumugi: August 8th"
+	},
+	{
+		"LABEL": "0x25b8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380092db00"
+	},
+	{
+		"LABEL": "0x25c6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x25cc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "01038100",
+		"String": "50_紬0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x25e2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "04036a000100",
+		"JPN": "紬 ８月９日",
+		"ENG": "Tsumugi: August 9th"
+	},
+	{
+		"LABEL": "0x25fa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830390092db00"
+	},
+	{
+		"LABEL": "0x2608",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x260e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "05038200",
+		"String": "50_紬0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2624",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "08036a000100",
+		"JPN": "紬 ８月１０日",
+		"ENG": "Tsumugi: August 10th"
+	},
+	{
+		"LABEL": "0x263e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300092db00"
+	},
+	{
+		"LABEL": "0x264c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2652",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "09038300",
+		"String": "50_紬0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2668",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "0c036a000100",
+		"JPN": "紬 ８月１１日",
+		"ENG": "Tsumugi: August 11th"
+	},
+	{
+		"LABEL": "0x2682",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831310092db00"
+	},
+	{
+		"LABEL": "0x2690",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2696",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0d038400",
+		"String": "50_紬0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x26ac",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "10036a000100",
+		"JPN": "紬 ８月１２日",
+		"ENG": "Tsumugi: August 12th"
+	},
+	{
+		"LABEL": "0x26c6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831320092db00"
+	},
+	{
+		"LABEL": "0x26d4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x26da",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "11038500",
+		"String": "50_紬0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x26f0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "14036a000100",
+		"JPN": "紬 ８月１３日",
+		"ENG": "Tsumugi: August 13th"
+	},
+	{
+		"LABEL": "0x270a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831330092db00"
+	},
+	{
+		"LABEL": "0x2718",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x271e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "15038600",
+		"String": "50_紬0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2734",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "18036a000100",
+		"JPN": "紬 ８月１４日",
+		"ENG": "Tsumugi: August 14th"
+	},
+	{
+		"LABEL": "0x274e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831340092db00"
+	},
+	{
+		"LABEL": "0x275c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2762",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "19038700",
+		"String": "50_紬0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2778",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "1c036a000100",
+		"JPN": "紬 ８月１５日",
+		"ENG": "Tsumugi: August 15th"
+	},
+	{
+		"LABEL": "0x2792",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350092db00"
+	},
+	{
+		"LABEL": "0x27a0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x27a6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1d038800",
+		"String": "50_紬0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x27bc",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "20036a000100",
+		"JPN": "紬 ８月１６日",
+		"ENG": "Tsumugi: August 16th"
+	},
+	{
+		"LABEL": "0x27d6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831360092db00"
+	},
+	{
+		"LABEL": "0x27e4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x27ea",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "21038900",
+		"String": "50_紬0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2800",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "24036a000100",
+		"JPN": "紬 ８月１７日",
+		"ENG": "Tsumugi: August 17th"
+	},
+	{
+		"LABEL": "0x281a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831370092db00"
+	},
+	{
+		"LABEL": "0x2828",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x282e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "25038a00",
+		"String": "50_紬0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2844",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "28036a000100",
+		"JPN": "紬 ８月１８日",
+		"ENG": "Tsumugi: August 18th"
+	},
+	{
+		"LABEL": "0x285e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831380092db00"
+	},
+	{
+		"LABEL": "0x286c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2872",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "29038b00",
+		"String": "50_紬0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2888",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "2c036a000100",
+		"JPN": "紬 ８月１９日",
+		"ENG": "Tsumugi: August 19th"
+	},
+	{
+		"LABEL": "0x28a2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831390092db00"
+	},
+	{
+		"LABEL": "0x28b0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x28b6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2d038c00",
+		"String": "50_紬0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x28cc",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "30036a000100",
+		"JPN": "紬 ８月２０日",
+		"ENG": "Tsumugi: August 20th"
+	},
+	{
+		"LABEL": "0x28e6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832300092db00"
+	},
+	{
+		"LABEL": "0x28f4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x28fa",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "31038d00",
+		"String": "50_紬0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2910",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "34036a000100",
+		"JPN": "紬 ８月２１日",
+		"ENG": "Tsumugi: August 21th"
+	},
+	{
+		"LABEL": "0x292a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832310092db00"
+	},
+	{
+		"LABEL": "0x2938",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x293e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "35038e00",
+		"String": "50_紬0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2954",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "38036a000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x2962",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "39038f00",
+		"String": "50_紬0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2978",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "3c036a000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x2986",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3d039000",
+		"String": "50_紬0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x299c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "40036a000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x29aa",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "41039100",
+		"String": "50_紬0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x29c0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "44036a000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x29ce",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "45039200",
+		"String": "50_紬0830",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x29e4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "48036a000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x29f2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "49039300",
+		"String": "50_紬0831",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2a08",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4c036a000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x2a16",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4d039400",
+		"String": "50_紬0901",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2a2c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "50036a000100",
+		"JPN": "紬 エピローグ",
+		"ENG": "Tsumugi: Epilogue"
+	},
+	{
+		"LABEL": "0x2a46",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "51039500",
+		"String": "50_紬0999",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2a5c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5303e62e0100"
+	},
+	{
+		"LABEL": "0x2a66",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5603",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x2a98"
+	},
+	{
+		"LABEL": "0x2a88",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x2a90",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2aca"
+	},
+	{
+		"LABEL": "0x2a98",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5603",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x2aca"
+	},
+	{
+		"LABEL": "0x2aba",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x2ac2",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2aca"
+	},
+	{
+		"LABEL": "0x2aca",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "590318006100"
+	},
+	{
+		"LABEL": "0x2ad4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "5b039600",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x2ae0",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "5e030780"
+	},
+	{
+		"LABEL": "0x2ae8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "65036a000100",
+		"JPN": "うみ",
+		"ENG": "Umi"
+	},
+	{
+		"LABEL": "0x2af8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "66039700",
+		"String": "60_うみ0725",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2b10",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "69036a000100",
+		"JPN": "うみ ７月２６日",
+		"ENG": "Umi: July 26th"
+	},
+	{
+		"LABEL": "0x2b2c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732360082a482dd00"
+	},
+	{
+		"LABEL": "0x2b3c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2b42",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6a039800",
+		"String": "60_うみ0726",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2b5a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "6d036a000100",
+		"JPN": "うみ ７月２７日",
+		"ENG": "Umi: July 27th"
+	},
+	{
+		"LABEL": "0x2b76",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732370082a482dd00"
+	},
+	{
+		"LABEL": "0x2b86",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2b8c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6e039900",
+		"String": "60_うみ0727",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2ba4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "71036a000100",
+		"JPN": "うみ ７月２８日",
+		"ENG": "Umi: July 28th"
+	},
+	{
+		"LABEL": "0x2bc0",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732380082a482dd00"
+	},
+	{
+		"LABEL": "0x2bd0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2bd6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "72039a00",
+		"String": "60_うみ0728",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2bee",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "75036a000100",
+		"JPN": "うみ ７月２９日",
+		"ENG": "Umi: July 29th"
+	},
+	{
+		"LABEL": "0x2c0a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303732390082a482dd00"
+	},
+	{
+		"LABEL": "0x2c1a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c20",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "76039b00",
+		"String": "60_うみ0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2c38",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "79036a000100",
+		"JPN": "うみ ７月３０日",
+		"ENG": "Umi: July 30th"
+	},
+	{
+		"LABEL": "0x2c54",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303733300082a482dd00"
+	},
+	{
+		"LABEL": "0x2c64",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2c6a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7a039c00",
+		"String": "60_うみ0730",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2c82",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7d036a000100",
+		"JPN": "うみ ７月３１日",
+		"ENG": "Umi: July 31st"
+	},
+	{
+		"LABEL": "0x2c9e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303733310082a482dd00"
+	},
+	{
+		"LABEL": "0x2cae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2cb4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7e039d00",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2ccc",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "80039e00",
+		"GOTO_LABEL": "0x4e70"
+	},
+	{
+		"LABEL": "0x2cd8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "81039f00",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x4a6e"
+	},
+	{
+		"LABEL": "0x2cf0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "84036a000100",
+		"JPN": "うみ ８月１日",
+		"ENG": "Umi: August 1st"
+	},
+	{
+		"LABEL": "0x2d0a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830310082a482dd00"
+	},
+	{
+		"LABEL": "0x2d1a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2d20",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8503a000",
+		"String": "60_うみ0801",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2d38",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "88036a000100",
+		"JPN": "うみ ８月２日",
+		"ENG": "Umi: August 2nd"
+	},
+	{
+		"LABEL": "0x2d52",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830320082a482dd00"
+	},
+	{
+		"LABEL": "0x2d62",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2d68",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8903a100",
+		"String": "60_うみ0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2d80",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8c036a000100",
+		"JPN": "うみ ８月３日",
+		"ENG": "Umi: August 3rd"
+	},
+	{
+		"LABEL": "0x2d9a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830330082a482dd00"
+	},
+	{
+		"LABEL": "0x2daa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2db0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8d03a200",
+		"String": "60_うみ0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2dc8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "92036a000100",
+		"JPN": "うみ ８月５日",
+		"ENG": "Umi: August 5th"
+	},
+	{
+		"LABEL": "0x2de2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830350082a482dd00"
+	},
+	{
+		"LABEL": "0x2df2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2df8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9303a300",
+		"String": "60_うみ0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2e10",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "98036a000100",
+		"JPN": "うみ ８月８日",
+		"ENG": "Umi: August 8th"
+	},
+	{
+		"LABEL": "0x2e2a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380082a482dd00"
+	},
+	{
+		"LABEL": "0x2e3a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2e40",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9903a400",
+		"String": "60_うみ0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2e58",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "9e036a000100",
+		"JPN": "うみ ８月１０日",
+		"ENG": "Umi: August 10th"
+	},
+	{
+		"LABEL": "0x2e74",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300082a482dd00"
+	},
+	{
+		"LABEL": "0x2e84",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2e8a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9f03a500",
+		"String": "60_うみ0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2ea2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a2036a000100",
+		"JPN": "うみ ８月１１日",
+		"ENG": "Umi: August 11th"
+	},
+	{
+		"LABEL": "0x2ebe",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831310082a482dd00"
+	},
+	{
+		"LABEL": "0x2ece",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2ed4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "a303a600",
+		"String": "60_うみ0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2eec",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a6036a000100",
+		"JPN": "うみ ８月１２日",
+		"ENG": "Umi: August 12th"
+	},
+	{
+		"LABEL": "0x2f08",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831320082a482dd00"
+	},
+	{
+		"LABEL": "0x2f18",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2f1e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "a703a700",
+		"String": "60_うみ0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2f36",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "aa036a000100",
+		"JPN": "うみ ８月１３日",
+		"ENG": "Umi: August 13th"
+	},
+	{
+		"LABEL": "0x2f52",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831330082a482dd00"
+	},
+	{
+		"LABEL": "0x2f62",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2f68",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "ab03a800",
+		"String": "60_うみ0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2f80",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ae036a000100",
+		"JPN": "うみ ８月１４日",
+		"ENG": "Umi: August 14th"
+	},
+	{
+		"LABEL": "0x2f9c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831340082a482dd00"
+	},
+	{
+		"LABEL": "0x2fac",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2fb2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "af03a900",
+		"String": "60_うみ0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2fca",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b2036a000100",
+		"JPN": "うみ ８月１５日",
+		"ENG": "Umi: August 15th"
+	},
+	{
+		"LABEL": "0x2fe6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350082a482dd00"
+	},
+	{
+		"LABEL": "0x2ff6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2ffc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b303aa00",
+		"String": "60_うみ0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3014",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b6036a000100",
+		"JPN": "うみ ８月１６日",
+		"ENG": "Umi: August 16th"
+	},
+	{
+		"LABEL": "0x3030",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831360082a482dd00"
+	},
+	{
+		"LABEL": "0x3040",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3046",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b703ab00",
+		"String": "60_うみ0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x305e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ba036a000100",
+		"JPN": "うみ ８月１７日",
+		"ENG": "Umi: August 17th"
+	},
+	{
+		"LABEL": "0x307a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831370082a482dd00"
+	},
+	{
+		"LABEL": "0x308a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3090",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "bb03ac00",
+		"String": "60_うみ0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x30a8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c0036a000100",
+		"JPN": "うみ ８月２１日",
+		"ENG": "Umi: August 21st"
+	},
+	{
+		"LABEL": "0x30c4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832310082a482dd00"
+	},
+	{
+		"LABEL": "0x30d4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x30da",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c103ad00",
+		"String": "60_うみ0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x30f2",
+		"Type": "FFSTOP",
+		"SUBCMD": 1,
+		"Args": "c50300"
+	},
+	{
+		"LABEL": "0x30fa",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "c60303c0100005000000"
+	},
+	{
+		"LABEL": "0x3108",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c703"
+	},
+	{
+		"LABEL": "0x310e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x311c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3124",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x312a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x312e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ce036a000100",
+		"JPN": "うみ ８月２２日",
+		"ENG": "Umi: August 22nd"
+	},
+	{
+		"LABEL": "0x314a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832320082a482dd00"
+	},
+	{
+		"LABEL": "0x315a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3160",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "cf03ae00",
+		"String": "60_うみ0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3178",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d2036a000100",
+		"JPN": "うみ ８月２３日",
+		"ENG": "Umi: August 23rd"
+	},
+	{
+		"LABEL": "0x3194",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832330082a482dd00"
+	},
+	{
+		"LABEL": "0x31a4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x31aa",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d303af00",
+		"String": "60_うみ0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x31c2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d6036a000100",
+		"JPN": "うみ ８月２４日",
+		"ENG": "Umi: August 24th"
+	},
+	{
+		"LABEL": "0x31de",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832340082a482dd00"
+	},
+	{
+		"LABEL": "0x31ee",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x31f4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d703b000",
+		"String": "60_うみ0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x320c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "da036a000100",
+		"JPN": "うみ ８月２５日",
+		"ENG": "Umi: August 25th"
+	},
+	{
+		"LABEL": "0x3228",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832350082a482dd00"
+	},
+	{
+		"LABEL": "0x3238",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x323e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "db03b100",
+		"String": "60_うみ0825",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3256",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "de036a000100",
+		"JPN": "うみ ８月２６日",
+		"ENG": "Umi: August 26th"
+	},
+	{
+		"LABEL": "0x3272",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "df03b200",
+		"String": "60_うみ0826",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x328a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e2036a000100",
+		"JPN": "うみ ８月２７日",
+		"ENG": "Umi: August 27th"
+	},
+	{
+		"LABEL": "0x32a6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e303b300",
+		"String": "60_うみ0827",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x32be",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e6036a000100",
+		"JPN": "うみ ８月２８日",
+		"ENG": "Umi: August 28th"
+	},
+	{
+		"LABEL": "0x32da",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e703b400",
+		"String": "60_うみ0828",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x32f2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ea036a000100",
+		"JPN": "ＡＬＫＡ",
+		"ENG": "ALKA"
+	},
+	{
+		"LABEL": "0x3306",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "eb03b500",
+		"String": "60_うみ0829",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x331e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ed03e72e0100"
+	},
+	{
+		"LABEL": "0x3328",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "f00318006200"
+	},
+	{
+		"LABEL": "0x3332",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "f203b600",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x333e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "f5030880"
+	},
+	{
+		"LABEL": "0x3346",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "fc036a000100",
+		"JPN": "Pocket",
+		"ENG": "Pocket"
+	},
+	{
+		"LABEL": "0x335e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "fd03b700",
+		"String": "70_終章_0001",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3378",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "00046a000100",
+		"JPN": "Pocket ７月２６日",
+		"ENG": "Pocket: July 26th"
+	},
+	{
+		"LABEL": "0x339c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003037323600506f636b657400"
+	},
+	{
+		"LABEL": "0x33ae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x33b4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0104b800",
+		"String": "70_終章_0726",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x33ce",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "04046a000100",
+		"JPN": "Pocket ７月２７日",
+		"ENG": "Pocket: July 27th"
+	},
+	{
+		"LABEL": "0x33f2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003037323700506f636b657400"
+	},
+	{
+		"LABEL": "0x3404",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x340a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0504b900",
+		"String": "70_終章_0727",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3424",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "08046a000100",
+		"JPN": "Pocket ７月２８日",
+		"ENG": "Pocket: July 28th"
+	},
+	{
+		"LABEL": "0x3448",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003037323800506f636b657400"
+	},
+	{
+		"LABEL": "0x345a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3460",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0904ba00",
+		"String": "70_終章_0727",
+		"GOTO_LABEL": "0x1496"
+	},
+	{
+		"LABEL": "0x347a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "0c046a000100",
+		"JPN": "Pocket ８月１０日",
+		"ENG": "Pocket: August 10th"
+	},
+	{
+		"LABEL": "0x349e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313000506f636b657400"
+	},
+	{
+		"LABEL": "0x34b0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34b6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0d04bb00",
+		"String": "70_終章_0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x34d0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "10046a000100",
+		"JPN": "Pocket ８月１１日",
+		"ENG": "Pocket: August 11th"
+	},
+	{
+		"LABEL": "0x34f4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313100506f636b657400"
+	},
+	{
+		"LABEL": "0x3506",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x350c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1104bc00",
+		"String": "70_終章_0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3526",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "14046a000100",
+		"JPN": "Pocket ８月１２日",
+		"ENG": "Pocket: August 12th"
+	},
+	{
+		"LABEL": "0x354a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "03003038313200506f636b657400"
+	},
+	{
+		"LABEL": "0x355c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3562",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1504bd00",
+		"String": "70_終章_0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x357c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "18046a000100",
+		"JPN": "Pocket",
+		"ENG": "Pocket"
+	},
+	{
+		"LABEL": "0x3594",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1904be00",
+		"String": "70_終章_0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x35ae",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1c04bf00",
+		"String": "70_終章_0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x35c8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1f04c000",
+		"String": "70_終章_0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x35e2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2204c100",
+		"String": "70_終章_0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x35fc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2504c200",
+		"String": "70_終章_9999",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3616",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2804c300",
+		"String": "RB70_エピローグ",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3632",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2a04e82e0100"
+	},
+	{
+		"LABEL": "0x363c",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "2d0418006300"
+	},
+	{
+		"LABEL": "0x3646",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "30040980"
+	},
+	{
+		"LABEL": "0x364e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "37046a000100",
+		"JPN": "美希 ８月７日",
+		"ENG": "Miki: August 7th"
+	},
+	{
+		"LABEL": "0x3668",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830370094fc8af300"
+	},
+	{
+		"LABEL": "0x3678",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x367e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3804c400",
+		"String": "RB10_美希_0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x369a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3904c500",
+		"String": "RB10_美希_0807_d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x36b8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "3c046a000100",
+		"JPN": "美希 ８月８日",
+		"ENG": "Miki: August 8th"
+	},
+	{
+		"LABEL": "0x36d2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380094fc8af300"
+	},
+	{
+		"LABEL": "0x36e2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x36e8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3d04c600",
+		"String": "RB10_美希_0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3704",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3e04c700",
+		"String": "RB10_美希_0808_d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3722",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "41046a000100",
+		"JPN": "美希 ８月９日",
+		"ENG": "Miki: August 9th"
+	},
+	{
+		"LABEL": "0x373c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830390094fc8af300"
+	},
+	{
+		"LABEL": "0x374c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3752",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4204c800",
+		"String": "RB10_美希_0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x376e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "45046a000100",
+		"JPN": "美希 ８月１０日",
+		"ENG": "Miki: August 10th"
+	},
+	{
+		"LABEL": "0x378a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300094fc8af300"
+	},
+	{
+		"LABEL": "0x379a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x37a0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4604c900",
+		"String": "RB10_美希_0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x37bc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4704ca00",
+		"String": "RB10_美希_0810d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x37d8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4a046a000100",
+		"JPN": "美希 ８月１１日",
+		"ENG": "Miki: August 11th"
+	},
+	{
+		"LABEL": "0x37f4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831310094fc8af300"
+	},
+	{
+		"LABEL": "0x3804",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x380a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4b04cb00",
+		"String": "RB10_美希_0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3826",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4e046a000100",
+		"JPN": "美希 ８月１２日",
+		"ENG": "Miki: August 12th"
+	},
+	{
+		"LABEL": "0x3842",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831320094fc8af300"
+	},
+	{
+		"LABEL": "0x3852",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3858",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4f04cc00",
+		"String": "RB10_美希_0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3874",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5004cd00",
+		"String": "RB10_美希_0812d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3890",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "53046a000100",
+		"JPN": "美希 ８月１３日",
+		"ENG": "Miki: August 13th"
+	},
+	{
+		"LABEL": "0x38ac",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831330094fc8af300"
+	},
+	{
+		"LABEL": "0x38bc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x38c2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5404ce00",
+		"String": "RB10_美希_0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x38de",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5504cf00",
+		"String": "RB10_美希_0813d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x38fa",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "58046a000100",
+		"JPN": "美希 ８月１４日",
+		"ENG": "Miki: August 14th"
+	},
+	{
+		"LABEL": "0x3916",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831340094fc8af300"
+	},
+	{
+		"LABEL": "0x3926",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x392c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5904d000",
+		"String": "RB10_美希_0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3948",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5c046a000100",
+		"JPN": "美希 ８月１５日",
+		"ENG": "Miki: August 15th"
+	},
+	{
+		"LABEL": "0x3964",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350094fc8af300"
+	},
+	{
+		"LABEL": "0x3974",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x397a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5d04d100",
+		"String": "RB10_美希_0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3996",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "60046a000100",
+		"JPN": "美希 ８月１６日",
+		"ENG": "Miki: August 16th"
+	},
+	{
+		"LABEL": "0x39b2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831360094fc8af300"
+	},
+	{
+		"LABEL": "0x39c2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x39c8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6104d200",
+		"String": "RB10_美希_0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x39e4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6204d300",
+		"String": "RB10_美希_0816d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3a00",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6604d400",
+		"String": "RB10_美希_0817d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3a1c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "69046a000100",
+		"JPN": "美希 ８月１９日",
+		"ENG": "Miki: August 19th"
+	},
+	{
+		"LABEL": "0x3a38",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831390094fc8af300"
+	},
+	{
+		"LABEL": "0x3a48",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3a4e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6a04d500",
+		"String": "RB10_美希_0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3a6a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "6d046a000100",
+		"JPN": "美希 ８月２０日",
+		"ENG": "Miki: August 20th"
+	},
+	{
+		"LABEL": "0x3a86",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832300094fc8af300"
+	},
+	{
+		"LABEL": "0x3a96",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3a9c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6e04d600",
+		"String": "RB10_美希_0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3ab8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "71046a000100",
+		"JPN": "美希 ８月２１日",
+		"ENG": "Miki: August 21st"
+	},
+	{
+		"LABEL": "0x3ad4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832310094fc8af300"
+	},
+	{
+		"LABEL": "0x3ae4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3aea",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7204d700",
+		"String": "RB10_美希_0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3b06",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "75046a000100",
+		"JPN": "美希 ８月２３日",
+		"ENG": "Miki: August 23rd"
+	},
+	{
+		"LABEL": "0x3b22",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832330094fc8af300"
+	},
+	{
+		"LABEL": "0x3b32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3b38",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7604d800",
+		"String": "RB10_美希_0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3b54",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7704d900",
+		"String": "RB10_美希_0823d",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3b70",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7a046a000100",
+		"JPN": "美希",
+		"ENG": "Miki"
+	},
+	{
+		"LABEL": "0x3b80",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7b04da00",
+		"String": "RB10_美希_0829",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3b9c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7f046a000100",
+		"JPN": "美希 エピローグ",
+		"ENG": "Miki: Epilogue"
+	},
+	{
+		"LABEL": "0x3bb8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8004db00",
+		"String": "RB10_美希_0930",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3bd4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "82041d310100"
+	},
+	{
+		"LABEL": "0x3bde",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8504",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x3c10"
+	},
+	{
+		"LABEL": "0x3c00",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x3c08",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x3c42"
+	},
+	{
+		"LABEL": "0x3c10",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8504",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x3c42"
+	},
+	{
+		"LABEL": "0x3c32",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x3c3a",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x3c42"
+	},
+	{
+		"LABEL": "0x3c42",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "88041800dd00"
+	},
+	{
+		"LABEL": "0x3c4c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "8a04dc00",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x3c58",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "8d040a80"
+	},
+	{
+		"LABEL": "0x3c60",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "94046a000100",
+		"JPN": "静久 ８月７日",
+		"ENG": "Shizuku: August 7th"
+	},
+	{
+		"LABEL": "0x3c7a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830370090c38b7600"
+	},
+	{
+		"LABEL": "0x3c8a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3c90",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9504dd00",
+		"String": "RB20_静久0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3caa",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "98046a000100",
+		"JPN": "静久 ８月８日",
+		"ENG": "Shizuku: August 8th"
+	},
+	{
+		"LABEL": "0x3cc4",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830380090c38b7600"
+	},
+	{
+		"LABEL": "0x3cd4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3cda",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9904de00",
+		"String": "RB20_静久0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3cf4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "9c046a000100",
+		"JPN": "静久 ８月９日",
+		"ENG": "Shizuku: August 9th"
+	},
+	{
+		"LABEL": "0x3d0e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830390090c38b7600"
+	},
+	{
+		"LABEL": "0x3d1e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3d24",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "9d04df00",
+		"String": "RB20_静久0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3d3e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a0046a000100",
+		"JPN": "静久 ８月１０日",
+		"ENG": "Shizuku: August 10th"
+	},
+	{
+		"LABEL": "0x3d5a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300090c38b7600"
+	},
+	{
+		"LABEL": "0x3d6a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3d70",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "a104e000",
+		"String": "RB20_静久0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3d8a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a4046a000100",
+		"JPN": "静久 ８月１１日",
+		"ENG": "Shizuku: August 11th"
+	},
+	{
+		"LABEL": "0x3da6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831310090c38b7600"
+	},
+	{
+		"LABEL": "0x3db6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3dbc",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "a504e100",
+		"String": "RB20_静久0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3dd6",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a8046a000100",
+		"JPN": "静久 ８月１２日",
+		"ENG": "Shizuku: August 12th"
+	},
+	{
+		"LABEL": "0x3df2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831320090c38b7600"
+	},
+	{
+		"LABEL": "0x3e02",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3e08",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "a904e200",
+		"String": "RB20_静久0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3e22",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ac046a000100",
+		"JPN": "静久 ８月１３日",
+		"ENG": "Shizuku: August 13th"
+	},
+	{
+		"LABEL": "0x3e3e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831330090c38b7600"
+	},
+	{
+		"LABEL": "0x3e4e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3e54",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "ad04e300",
+		"String": "RB20_静久0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3e6e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b0046a000100",
+		"JPN": "静久 ８月１４日",
+		"ENG": "Shizuku: August 14th"
+	},
+	{
+		"LABEL": "0x3e8a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831340090c38b7600"
+	},
+	{
+		"LABEL": "0x3e9a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3ea0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b104e400",
+		"String": "RB20_静久0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3eba",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b4046a000100",
+		"JPN": "静久 ８月１５日",
+		"ENG": "Shizuku: August 15th"
+	},
+	{
+		"LABEL": "0x3ed6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350090c38b7600"
+	},
+	{
+		"LABEL": "0x3ee6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3eec",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b504e500",
+		"String": "RB20_静久0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3f06",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "b8046a000100",
+		"JPN": "静久 ８月１６日",
+		"ENG": "Shizuku: August 16th"
+	},
+	{
+		"LABEL": "0x3f22",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831360090c38b7600"
+	},
+	{
+		"LABEL": "0x3f32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3f38",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "b904e600",
+		"String": "RB20_静久0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3f52",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "bc046a000100",
+		"JPN": "静久 ８月１７日",
+		"ENG": "Shizuku: August 17th"
+	},
+	{
+		"LABEL": "0x3f6e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831370090c38b7600"
+	},
+	{
+		"LABEL": "0x3f7e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3f84",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "bd04e700",
+		"String": "RB20_静久0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3f9e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c0046a000100",
+		"JPN": "静久 ８月１８日",
+		"ENG": "Shizuku: August 18th"
+	},
+	{
+		"LABEL": "0x3fba",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831380090c38b7600"
+	},
+	{
+		"LABEL": "0x3fca",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3fd0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c104e800",
+		"String": "RB20_静久0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3fea",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c4046a000100",
+		"JPN": "静久 ８月１９日",
+		"ENG": "Shizuku: August 19th"
+	},
+	{
+		"LABEL": "0x4006",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831390090c38b7600"
+	},
+	{
+		"LABEL": "0x4016",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x401c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c504e900",
+		"String": "RB20_静久0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4036",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c8046a000100",
+		"JPN": "静久 ８月２０日",
+		"ENG": "Shizuku: August 20th"
+	},
+	{
+		"LABEL": "0x4052",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832300090c38b7600"
+	},
+	{
+		"LABEL": "0x4062",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4068",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "c904ea00",
+		"String": "RB20_静久0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4082",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "cc046a000100",
+		"JPN": "静久 ８月２１日",
+		"ENG": "Shizuku: August 21st"
+	},
+	{
+		"LABEL": "0x409e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832310090c38b7600"
+	},
+	{
+		"LABEL": "0x40ae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x40b4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "cd04eb00",
+		"String": "RB20_静久0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x40ce",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d0046a000100",
+		"JPN": "静久 ８月２２日",
+		"ENG": "Shizuku: August 22nd"
+	},
+	{
+		"LABEL": "0x40ea",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832320090c38b7600"
+	},
+	{
+		"LABEL": "0x40fa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4100",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d104ec00",
+		"String": "RB20_静久0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x411a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d4046a000100",
+		"JPN": "静久 ８月２３日",
+		"ENG": "Shizuku: August 23rd"
+	},
+	{
+		"LABEL": "0x4136",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832330090c38b7600"
+	},
+	{
+		"LABEL": "0x4146",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x414c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d504ed00",
+		"String": "RB20_静久0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4166",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d8046a000100",
+		"JPN": "静久 ８月２４日",
+		"ENG": "Shizuku: August 24th"
+	},
+	{
+		"LABEL": "0x4182",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832340090c38b7600"
+	},
+	{
+		"LABEL": "0x4192",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4198",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d904ee00",
+		"String": "RB20_静久0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x41b2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "db04",
+		"Equation": "(#429==1)",
+		"GOTO_LABEL": "0x41f2"
+	},
+	{
+		"LABEL": "0x41c6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "dd04ef00",
+		"String": "RB20_静久0832",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x41e0",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "df040b80"
+	},
+	{
+		"LABEL": "0x41e8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e104",
+		"GOTO_LABEL": "0x41f2"
+	},
+	{
+		"LABEL": "0x41f2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e4046a000100",
+		"JPN": "静久 ８月２７日",
+		"ENG": "Shizuku: August 27th"
+	},
+	{
+		"LABEL": "0x420e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832370090c38b7600"
+	},
+	{
+		"LABEL": "0x421e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4224",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e504f000",
+		"String": "RB20_静久0827",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x423e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e8046a000100",
+		"JPN": "静久",
+		"ENG": "Shizuku"
+	},
+	{
+		"LABEL": "0x424e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e904f100",
+		"String": "RB20_静久0829",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4268",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "ed04f200",
+		"String": "RB20_静久0831",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4282",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ef041e310100"
+	},
+	{
+		"LABEL": "0x428c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f204",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x42be"
+	},
+	{
+		"LABEL": "0x42ae",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x42b6",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x42f0"
+	},
+	{
+		"LABEL": "0x42be",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f204",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x42f0"
+	},
+	{
+		"LABEL": "0x42e0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x42e8",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x42f0"
+	},
+	{
+		"LABEL": "0x42f0",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "f5041800de00"
+	},
+	{
+		"LABEL": "0x42fa",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "f704f300",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x4306",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "fa040c80"
+	},
+	{
+		"LABEL": "0x430e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "01056a000100",
+		"JPN": "識 ８月７日",
+		"ENG": "Shiki: August 7th"
+	},
+	{
+		"LABEL": "0x4326",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383037008eaf00"
+	},
+	{
+		"LABEL": "0x4334",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x433a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0205f400",
+		"String": "RB30_識_0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4354",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "05056a000100",
+		"JPN": "識 ８月８日",
+		"ENG": "Shiki: August 8th"
+	},
+	{
+		"LABEL": "0x436c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383038008eaf00"
+	},
+	{
+		"LABEL": "0x437a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4380",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0605f500",
+		"String": "RB30_識_0808",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x439a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "09056a000100",
+		"JPN": "識 ８月９日",
+		"ENG": "Shiki: August 9th"
+	},
+	{
+		"LABEL": "0x43b2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383039008eaf00"
+	},
+	{
+		"LABEL": "0x43c0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x43c6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0a05f600",
+		"String": "RB30_識_0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x43e0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "0d056a000100",
+		"JPN": "識 ８月１０日",
+		"ENG": "Shiki: August 10th"
+	},
+	{
+		"LABEL": "0x43fa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383130008eaf00"
+	},
+	{
+		"LABEL": "0x4408",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x440e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0e05f700",
+		"String": "RB30_識_0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4428",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "11056a000100",
+		"JPN": "識 ８月１１日",
+		"ENG": "Shiki: August 11th"
+	},
+	{
+		"LABEL": "0x4442",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383131008eaf00"
+	},
+	{
+		"LABEL": "0x4450",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4456",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1205f800",
+		"String": "RB30_識_0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4470",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "15056a000100",
+		"JPN": "識 ８月１２日",
+		"ENG": "Shiki: August 12th"
+	},
+	{
+		"LABEL": "0x448a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383132008eaf00"
+	},
+	{
+		"LABEL": "0x4498",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x449e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1605f900",
+		"String": "RB30_識_0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x44b8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "19056a000100",
+		"JPN": "識 ８月１３日",
+		"ENG": "Shiki: August 13th"
+	},
+	{
+		"LABEL": "0x44d2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383133008eaf00"
+	},
+	{
+		"LABEL": "0x44e0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x44e6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1a05fa00",
+		"String": "RB30_識_0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4500",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "1d056a000100",
+		"JPN": "識 ８月１４日",
+		"ENG": "Shiki: August 14th"
+	},
+	{
+		"LABEL": "0x451a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383134008eaf00"
+	},
+	{
+		"LABEL": "0x4528",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x452e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1e05fb00",
+		"String": "RB30_識_0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4548",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "21056a000100",
+		"JPN": "識 ８月１５日",
+		"ENG": "Shiki: August 15th"
+	},
+	{
+		"LABEL": "0x4562",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383135008eaf00"
+	},
+	{
+		"LABEL": "0x4570",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4576",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2205fc00",
+		"String": "RB30_識_0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4590",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "25056a000100",
+		"JPN": "識 ８月１６日",
+		"ENG": "Shiki: August 16th"
+	},
+	{
+		"LABEL": "0x45aa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383136008eaf00"
+	},
+	{
+		"LABEL": "0x45b8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x45be",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2605fd00",
+		"String": "RB30_識_0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x45d8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "29056a000100",
+		"JPN": "識 ８月１８日",
+		"ENG": "Shiki: August 18th"
+	},
+	{
+		"LABEL": "0x45f2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383138008eaf00"
+	},
+	{
+		"LABEL": "0x4600",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4606",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2a05fe00",
+		"String": "RB30_識_0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4620",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "2d056a000100",
+		"JPN": "識 ８月１９日",
+		"ENG": "Shiki: August 19th"
+	},
+	{
+		"LABEL": "0x463a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383139008eaf00"
+	},
+	{
+		"LABEL": "0x4648",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x464e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2e05ff00",
+		"String": "RB30_識_0819",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4668",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "31056a000100",
+		"JPN": "識 ８月２０日",
+		"ENG": "Shiki: August 20th"
+	},
+	{
+		"LABEL": "0x4682",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383230008eaf00"
+	},
+	{
+		"LABEL": "0x4690",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4696",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "32050001",
+		"String": "RB30_識_0820",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x46b0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "35056a000100",
+		"JPN": "識 ８月２１日",
+		"ENG": "Shiki: August 21st"
+	},
+	{
+		"LABEL": "0x46ca",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "030030383231008eaf00"
+	},
+	{
+		"LABEL": "0x46d8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x46de",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "36050101",
+		"String": "RB30_識_0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x46f8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "39056a000100",
+		"JPN": "識",
+		"ENG": "Shiki"
+	},
+	{
+		"LABEL": "0x4706",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3a050201",
+		"String": "RB30_識_0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4720",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "3d056a000100",
+		"JPN": "識",
+		"ENG": "Shiki"
+	},
+	{
+		"LABEL": "0x472e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3e050301",
+		"String": "RB30_識_0825",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4748",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "40051f310100"
+	},
+	{
+		"LABEL": "0x4752",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4305",
+		"Equation": "(#24004==4&&#14003==0)",
+		"GOTO_LABEL": "0x4784"
+	},
+	{
+		"LABEL": "0x4774",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360100"
+	},
+	{
+		"LABEL": "0x477c",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x47b6"
+	},
+	{
+		"LABEL": "0x4784",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4305",
+		"Equation": "(#24004==6&&#14003==2)",
+		"GOTO_LABEL": "0x47b6"
+	},
+	{
+		"LABEL": "0x47a6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "b3360300"
+	},
+	{
+		"LABEL": "0x47ae",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x47b6"
+	},
+	{
+		"LABEL": "0x47b6",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "46051800e000"
+	},
+	{
+		"LABEL": "0x47c0",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "48050401",
+		"GOTO_LABEL": "0x4fce"
+	},
+	{
+		"LABEL": "0x47cc",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "4b050d80"
+	},
+	{
+		"LABEL": "0x47d4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "52056a000100",
+		"JPN": "うみ ８月９日",
+		"ENG": "Umi: August 9th"
+	},
+	{
+		"LABEL": "0x47ee",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303830390082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4804",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x480a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "53050501",
+		"String": "RB40_うみ_0809",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4826",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "56056a000100",
+		"JPN": "うみ ８月１０日",
+		"ENG": "Umi: August 10th"
+	},
+	{
+		"LABEL": "0x4842",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831300082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4858",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x485e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "57050601",
+		"String": "RB40_うみ_0810",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x487a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5a056a000100",
+		"JPN": "うみ ８月１１日",
+		"ENG": "Umi: August 11th"
+	},
+	{
+		"LABEL": "0x4896",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831310082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x48ac",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x48b2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5b050701",
+		"String": "RB40_うみ_0811",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x48ce",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5e056a000100",
+		"JPN": "うみ ８月１２日",
+		"ENG": "Umi: August 12th"
+	},
+	{
+		"LABEL": "0x48ea",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831320082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4900",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4906",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5f050801",
+		"String": "RB40_うみ_0812",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4922",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "62056a000100",
+		"JPN": "うみ ８月１３日",
+		"ENG": "Umi: August 13th"
+	},
+	{
+		"LABEL": "0x493e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831330082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4954",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x495a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "63050901",
+		"String": "RB40_うみ_0813",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4976",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "66056a000100",
+		"JPN": "うみ ８月１４日",
+		"ENG": "Umi: August 14th"
+	},
+	{
+		"LABEL": "0x4992",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831340082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x49a8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x49ae",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "67050a01",
+		"String": "RB40_うみ_0814",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x49ca",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "6a056a000100",
+		"JPN": "うみ ８月１５日",
+		"ENG": "Umi: August 15th"
+	},
+	{
+		"LABEL": "0x49e6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831350082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x49fc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4a02",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6b050b01",
+		"String": "RB40_うみ_0815",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4a1e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "6e056a000100",
+		"JPN": "うみ ８月１６日",
+		"ENG": "Umi: August 16th"
+	},
+	{
+		"LABEL": "0x4a3a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831360082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4a50",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4a56",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "6f050c01",
+		"String": "RB40_うみ_0816",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4a72",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "72056a000100",
+		"JPN": "うみ ８月１７日",
+		"ENG": "Umi: August 17th"
+	},
+	{
+		"LABEL": "0x4a8e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831370082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4aa4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4aaa",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "73050d01",
+		"String": "RB40_うみ_0817",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4ac6",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "76056a000100",
+		"JPN": "うみ ８月１８日",
+		"ENG": "Umi: August 18th"
+	},
+	{
+		"LABEL": "0x4ae2",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303831380082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4af8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4afe",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "77050e01",
+		"String": "RB40_うみ_0818",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4b1a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7a056a000100",
+		"JPN": "うみ ８月２１日",
+		"ENG": "Umi: August 21st"
+	},
+	{
+		"LABEL": "0x4b36",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832310082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4b4c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4b52",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7b050f01",
+		"String": "RB40_うみ_0821",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4b6e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7e056a000100",
+		"JPN": "うみ ８月２２日",
+		"ENG": "Umi: August 22nd"
+	},
+	{
+		"LABEL": "0x4b8a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832320082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4ba0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4ba6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7f051001",
+		"String": "RB40_うみ_0822",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4bc2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "82056a000100",
+		"JPN": "うみ ８月２３日",
+		"ENG": "Umi: August 23rd"
+	},
+	{
+		"LABEL": "0x4bde",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832330082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4bf4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4bfa",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "83051101",
+		"String": "RB40_うみ_0823",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4c16",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "86056a000100",
+		"JPN": "うみ ８月２４日",
+		"ENG": "Umi: August 24th"
+	},
+	{
+		"LABEL": "0x4c32",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832340082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4c48",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4c4e",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "87051201",
+		"String": "RB40_うみ_0824",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4c6a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8a056a000100",
+		"JPN": "うみ ８月２５日",
+		"ENG": "Umi: August 25th"
+	},
+	{
+		"LABEL": "0x4c86",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0300303832350082a482dd825082518dce00"
+	},
+	{
+		"LABEL": "0x4c9c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4ca2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8b051301",
+		"String": "RB40_うみ_0825",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4cbe",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8e056a000100",
+		"JPN": "うみ",
+		"ENG": "Umi"
+	},
+	{
+		"LABEL": "0x4cce",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "8f051401",
+		"String": "RB40_うみ_0831",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4cea",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "910520310100"
+	},
+	{
+		"LABEL": "0x4cf4",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "94051800df00"
+	},
+	{
+		"LABEL": "0x4cfe",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "97050e80"
+	},
+	{
+		"LABEL": "0x4d06",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "aa05"
+	},
+	{
+		"LABEL": "0x4d0c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4d14",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1501",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x2d9e"
+	},
+	{
+		"LABEL": "0x4d2c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ab05",
+		"Equation": "(#6036==3)",
+		"GOTO_LABEL": "0x4d52"
+	},
+	{
+		"LABEL": "0x4d42",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "ac05"
+	},
+	{
+		"LABEL": "0x4d48",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ad05",
+		"GOTO_LABEL": "0x4d52"
+	},
+	{
+		"LABEL": "0x4d52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ae05",
+		"GOTO_LABEL": "0x4d06"
+	},
+	{
+		"LABEL": "0x4d5c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "be05"
+	},
+	{
+		"LABEL": "0x4d62",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4d6a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1601",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x2fa2"
+	},
+	{
+		"LABEL": "0x4d82",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bf05",
+		"Equation": "(#74==1)",
+		"GOTO_LABEL": "0x4da6"
+	},
+	{
+		"LABEL": "0x4d96",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "c005"
+	},
+	{
+		"LABEL": "0x4d9c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c105",
+		"GOTO_LABEL": "0x4da6"
+	},
+	{
+		"LABEL": "0x4da6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c205",
+		"GOTO_LABEL": "0x4d5c"
+	},
+	{
+		"LABEL": "0x4db0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "d605"
+	},
+	{
+		"LABEL": "0x4db6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4dbe",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1701",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x31a6"
+	},
+	{
+		"LABEL": "0x4dd6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "d7051801",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x601c"
+	},
+	{
+		"LABEL": "0x4dec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d805",
+		"Equation": "(#6042==-1)",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4e02",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "d905"
+	},
+	{
+		"LABEL": "0x4e08",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "da05",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4e12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "db05",
+		"GOTO_LABEL": "0x4db0"
+	},
+	{
+		"LABEL": "0x4e1c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "ef05"
+	},
+	{
+		"LABEL": "0x4e22",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4e2a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1901",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x35ec"
+	},
+	{
+		"LABEL": "0x4e42",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f005",
+		"Equation": "(#102==1)",
+		"GOTO_LABEL": "0x4e66"
+	},
+	{
+		"LABEL": "0x4e56",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "f105"
+	},
+	{
+		"LABEL": "0x4e5c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f205",
+		"GOTO_LABEL": "0x4e66"
+	},
+	{
+		"LABEL": "0x4e66",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f305",
+		"GOTO_LABEL": "0x4e1c"
+	},
+	{
+		"LABEL": "0x4e70",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "2b06"
+	},
+	{
+		"LABEL": "0x4e76",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4e7e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1a01",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3c92"
+	},
+	{
+		"LABEL": "0x4e96",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "2d068c1a3100"
+	},
+	{
+		"LABEL": "0x4ea0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2e06",
+		"Equation": "(#6796>=8)",
+		"GOTO_LABEL": "0x4ec6"
+	},
+	{
+		"LABEL": "0x4eb6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2f06"
+	},
+	{
+		"LABEL": "0x4ebc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3006",
+		"GOTO_LABEL": "0x4ec6"
+	},
+	{
+		"LABEL": "0x4ec6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3106",
+		"GOTO_LABEL": "0x4e70"
+	},
+	{
+		"LABEL": "0x4ed0",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "3a061b01",
+		"GOTO_LABEL": "0x4e1c"
+	},
+	{
+		"LABEL": "0x4edc",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3c069b170200"
+	},
+	{
+		"LABEL": "0x4ee6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3e06"
+	},
+	{
+		"LABEL": "0x4eec",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4906"
+	},
+	{
+		"LABEL": "0x4ef2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4efa",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1c01",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3972"
+	},
+	{
+		"LABEL": "0x4f12",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4a06",
+		"Equation": "(#107==1)",
+		"GOTO_LABEL": "0x4f3a"
+	},
+	{
+		"LABEL": "0x4f26",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4b06",
+		"GOTO_LABEL": "0x4f44"
+	},
+	{
+		"LABEL": "0x4f30",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4c06",
+		"GOTO_LABEL": "0x4f3a"
+	},
+	{
+		"LABEL": "0x4f3a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4d06",
+		"GOTO_LABEL": "0x4eec"
+	},
+	{
+		"LABEL": "0x4f44",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "5206"
+	},
+	{
+		"LABEL": "0x4f4a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "a9000000"
+	},
+	{
+		"LABEL": "0x4f52",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1d01",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3b02"
+	},
+	{
+		"LABEL": "0x4f6a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5306",
+		"Equation": "((#108+#109+#110)==3)",
+		"GOTO_LABEL": "0x4f9e"
+	},
+	{
+		"LABEL": "0x4f8a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5406",
+		"GOTO_LABEL": "0x4fa8"
+	},
+	{
+		"LABEL": "0x4f94",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5506",
+		"GOTO_LABEL": "0x4f9e"
+	},
+	{
+		"LABEL": "0x4f9e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5606",
+		"GOTO_LABEL": "0x4f44"
+	},
+	{
+		"LABEL": "0x4fa8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "58061e01",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x657a"
+	},
+	{
+		"LABEL": "0x4fbe",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5a069d170200"
+	},
+	{
+		"LABEL": "0x4fc8",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5c06"
+	},
+	{
+		"LABEL": "0x4fce",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e50602000100"
+	},
+	{
+		"LABEL": "0x4fd8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e906",
+		"Equation": "(#24004==2&&#12010==0)",
+		"GOTO_LABEL": "0x5052"
+	},
+	{
+		"LABEL": "0x4ffa",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "ea06f000"
+	},
+	{
+		"LABEL": "0x5002",
+		"Type": "FFSTOP",
+		"SUBCMD": 1,
+		"Args": "eb0601"
+	},
+	{
+		"LABEL": "0x500a",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "ec0604c0100001000000"
+	},
+	{
+		"LABEL": "0x5018",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ed06"
+	},
+	{
+		"LABEL": "0x501e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x502c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5034",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x503a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x503e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f306ea2e0100"
+	},
+	{
+		"LABEL": "0x5048",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f406",
+		"GOTO_LABEL": "0x51c0"
+	},
+	{
+		"LABEL": "0x5052",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f506",
+		"Equation": "(#24004==4&&#12011==0)",
+		"GOTO_LABEL": "0x50cc"
+	},
+	{
+		"LABEL": "0x5074",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "f606f000"
+	},
+	{
+		"LABEL": "0x507c",
+		"Type": "FFSTOP",
+		"SUBCMD": 1,
+		"Args": "f70601"
+	},
+	{
+		"LABEL": "0x5084",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "f80605c0100002000000"
+	},
+	{
+		"LABEL": "0x5092",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "f906"
+	},
+	{
+		"LABEL": "0x5098",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x50a6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x50ae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x50b4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x50b8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ff06eb2e0100"
+	},
+	{
+		"LABEL": "0x50c2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0007",
+		"GOTO_LABEL": "0x51c0"
+	},
+	{
+		"LABEL": "0x50cc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0107",
+		"Equation": "(#24004==6&&#12012==0)",
+		"GOTO_LABEL": "0x5146"
+	},
+	{
+		"LABEL": "0x50ee",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "0207f000"
+	},
+	{
+		"LABEL": "0x50f6",
+		"Type": "FFSTOP",
+		"SUBCMD": 1,
+		"Args": "030701"
+	},
+	{
+		"LABEL": "0x50fe",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "040706c0100003000000"
+	},
+	{
+		"LABEL": "0x510c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0507"
+	},
+	{
+		"LABEL": "0x5112",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x5120",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5128",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x512e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5132",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0607ec2e0100"
+	},
+	{
+		"LABEL": "0x513c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0707",
+		"GOTO_LABEL": "0x51c0"
+	},
+	{
+		"LABEL": "0x5146",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0807",
+		"Equation": "(#24004==7&&#12013==0)",
+		"GOTO_LABEL": "0x51c0"
+	},
+	{
+		"LABEL": "0x5168",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "0907f000"
+	},
+	{
+		"LABEL": "0x5170",
+		"Type": "FFSTOP",
+		"SUBCMD": 1,
+		"Args": "0a0701"
+	},
+	{
+		"LABEL": "0x5178",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "0b0707c0100004000000"
+	},
+	{
+		"LABEL": "0x5186",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0c07"
+	},
+	{
+		"LABEL": "0x518c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x519a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x51a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x51a8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x51ac",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0d07ed2e0100"
+	},
+	{
+		"LABEL": "0x51b6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0e07",
+		"GOTO_LABEL": "0x51c0"
+	},
+	{
+		"LABEL": "0x51c0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "150702000000"
+	},
+	{
+		"LABEL": "0x51ca",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9507"
+	},
+	{
+		"LABEL": "0x51d0",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "ba070f80"
+	}
+]

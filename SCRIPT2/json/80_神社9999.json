@@ -1,0 +1,3517 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "RANDOM",
+		"SUBCMD": 1,
+		"Args": "27008e1a3000393900"
+	},
+	{
+		"LABEL": "0xe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a00",
+		"Equation": "(#6798<10)",
+		"GOTO_LABEL": "0x38"
+	},
+	{
+		"LABEL": "0x24",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2b008f1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c00",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2f00",
+		"Equation": "(#6798<(10+15))",
+		"GOTO_LABEL": "0x66"
+	},
+	{
+		"LABEL": "0x52",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "30008f1a0100"
+	},
+	{
+		"LABEL": "0x5c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3100",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0x66",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3400",
+		"Equation": "(#6798<(10+15+20))",
+		"GOTO_LABEL": "0x98"
+	},
+	{
+		"LABEL": "0x84",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "35008f1a0200"
+	},
+	{
+		"LABEL": "0x8e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3600",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0x98",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3900",
+		"Equation": "(#6798<(10+15+20+25))",
+		"GOTO_LABEL": "0xcc"
+	},
+	{
+		"LABEL": "0xb8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3a008f1a0300"
+	},
+	{
+		"LABEL": "0xc2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3b00",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0xcc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3e00",
+		"Equation": "(#6798<(10+15+20+25+20))",
+		"GOTO_LABEL": "0x104"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3f008f1a0400"
+	},
+	{
+		"LABEL": "0xfa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4000",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0x104",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4200",
+		"Equation": "(#6798<(10+15+20+25+20+10))",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0x12a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "44008f1a0500"
+	},
+	{
+		"LABEL": "0x134",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4500",
+		"GOTO_LABEL": "0x13e"
+	},
+	{
+		"LABEL": "0x13e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "51000000",
+		"GOTO_LABEL": "0x296c"
+	},
+	{
+		"LABEL": "0x14a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5500",
+		"Equation": "(#6033==0)",
+		"GOTO_LABEL": "0x23c"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「よっしゃ！　大吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"All right!! Great luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x190",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 1,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c0",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "5b000100",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「どういうことだろう……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What's that supposed to mean...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x202",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 3,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x222",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "610092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x232",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6300",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x23c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6400",
+		"Equation": "(#6033==1)",
+		"GOTO_LABEL": "0x338"
+	},
+	{
+		"LABEL": "0x252",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「うっしゃ！　大吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"All right!! Great luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x282",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b2",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "6a000200",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x2be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「宴……？　飲み食いするってことか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Legendary extravagance...? Like, some kind of super fancy meal, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 7,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "700092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x32e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7200",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7300",
+		"Equation": "(#6033==2)",
+		"GOTO_LABEL": "0x434"
+	},
+	{
+		"LABEL": "0x34e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「おっしゃ！　大吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"All right! Great luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 119,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ae",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "79000300",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x3ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 123,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「宴……？　飲み食いするってことか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Legendary extravagance...? Like, some kind of super fancy meal, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 11,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7f0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x42a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8100",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x434",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8200",
+		"Equation": "(#6033==3)",
+		"GOTO_LABEL": "0x530"
+	},
+	{
+		"LABEL": "0x44a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「ひゃはぁ！　大吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yes! Great luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x47a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4aa",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "88000400",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x4b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「宴……？　飲み食いするってことか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Legendary extravagance...? Like, some kind of super fancy meal, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 15,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8e0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x526",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9000",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x530",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9200",
+		"Equation": "(#6033==4)",
+		"GOTO_LABEL": "0x618"
+	},
+	{
+		"LABEL": "0x546",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 148,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fair luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x568",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x598",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "98000500",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x5a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「崖で……チャーハン食うのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm supposed to... eat fried rice on a cliff...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 19,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fe",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9e0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x60e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a000",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x618",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a100",
+		"Equation": "(#6033==5)",
+		"GOTO_LABEL": "0x6fe"
+	},
+	{
+		"LABEL": "0x62e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fair luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x650",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x680",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "a7000600",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「……裸王……？　賢者……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...'The Naked king'...? 'Sagedom'...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 23,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6e4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ad0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x6f4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af00",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x6fe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b000",
+		"Equation": "(#6033==6)",
+		"GOTO_LABEL": "0x7e8"
+	},
+	{
+		"LABEL": "0x714",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「吉！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fair luck!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x736",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 180,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x766",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "b6000700",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x772",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 26,
+		"NameJPN": "羽依里",
+		"JPN": "「……白き三角を……夜の山……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A white triangle... in the mountain at night...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 27,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ce",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "bc0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x7de",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "be00",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x7e8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c000",
+		"Equation": "(#6033==7)",
+		"GOTO_LABEL": "0x8e6"
+	},
+	{
+		"LABEL": "0x7fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x822",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 196,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x852",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c6000800",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x85e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「……ヴァンパイア？　……純白の衣ってなんだ……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A vampire? And what does it mean by 'a pure white cloth'...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 31,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8cc",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "cc0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x8dc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ce00",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x8e6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cf00",
+		"Equation": "(#6033==8)",
+		"GOTO_LABEL": "0x9da"
+	},
+	{
+		"LABEL": "0x8fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x920",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 211,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x950",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d5000900",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x95c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「……神様？　え？　いろいろヤバくない？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...God? Huh? That's ridiculous in all sorts of ways, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 217,
+		"MSGID": 35,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "db0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0x9d0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dd00",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x9da",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "de00",
+		"Equation": "(#6033==9)",
+		"GOTO_LABEL": "0xacc"
+	},
+	{
+		"LABEL": "0x9f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 226,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa44",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "e4000a00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xa50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 38,
+		"NameJPN": "羽依里",
+		"JPN": "「……ん？　酔って寝てて財宝守れるの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Huh? How're you supposed to protect your treasure when you're that drunk?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa92",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 39,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xab2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ea0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0xac2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ec00",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0xacc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ee00",
+		"Equation": "(#6033==10)",
+		"GOTO_LABEL": "0xbb2"
+	},
+	{
+		"LABEL": "0xae2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 240,
+		"MSGID": 40,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb36",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "f4000b00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xb42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 246,
+		"MSGID": 42,
+		"NameJPN": "羽依里",
+		"JPN": "「……んー……水面に乾杯？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Hmm? Am I supposed to celebrate the water, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 43,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb98",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fa0092fe2336303333000100"
+	},
+	{
+		"LABEL": "0xba8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fc00",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0xbb2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fd00",
+		"Equation": "(#6033==11)",
+		"GOTO_LABEL": "0xca4"
+	},
+	{
+		"LABEL": "0xbc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 255,
+		"MSGID": 44,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 257,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc1c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "03010c00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xc28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 261,
+		"MSGID": 46,
+		"NameJPN": "羽依里",
+		"JPN": "「……マーメイドって……足、ないじゃん」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A mermaid? But they don't even have legs!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 47,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc8a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "090192fe2336303333000100"
+	},
+	{
+		"LABEL": "0xc9a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b01",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0xca4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0c01",
+		"Equation": "(#6033==12)",
+		"GOTO_LABEL": "0xd9a"
+	},
+	{
+		"LABEL": "0xcba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcde",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 272,
+		"MSGID": 49,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd0e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "12010d00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xd1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「……神様……、豪華なのか俗っぽいのか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A god...? I'm really not sure if this one's trying to sound lavish or cheap...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 278,
+		"MSGID": 51,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd80",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "180192fe2336303333000100"
+	},
+	{
+		"LABEL": "0xd90",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1a01",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0xd9a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1b01",
+		"Equation": "(#6033==13)",
+		"GOTO_LABEL": "0xe88"
+	},
+	{
+		"LABEL": "0xdb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 285,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「中吉か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Normal luck, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdd4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 287,
+		"MSGID": 53,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe04",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "21010e00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xe10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 291,
+		"MSGID": 54,
+		"NameJPN": "羽依里",
+		"JPN": "「……三本足の……鳥？　悟るのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A three legged... bird? And it's supposed to be enlightened, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 293,
+		"MSGID": 55,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe6e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "270192fe2336303333000100"
+	},
+	{
+		"LABEL": "0xe7e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2901",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0xe88",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2b01",
+		"Equation": "(#6033==14)",
+		"GOTO_LABEL": "0xf78"
+	},
+	{
+		"LABEL": "0xe9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 301,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xec4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 303,
+		"MSGID": 57,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xef4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "31010f00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xf00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 307,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「……宝石が甘い物をほしがるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Why would a jewel even want sweet stuff?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 309,
+		"MSGID": 59,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf5e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "370192fe2336303333000100"
+	},
+	{
+		"LABEL": "0xf6e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3901",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0xf78",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3a01",
+		"Equation": "(#6033==15)",
+		"GOTO_LABEL": "0x105c"
+	},
+	{
+		"LABEL": "0xf8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 61,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "40011000",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0xff0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 322,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「……悪魔とか……怖い」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A devil...? That's kinda scary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1022",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 324,
+		"MSGID": 63,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1042",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "460192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x1052",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4801",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x105c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4901",
+		"Equation": "(#6033==16)",
+		"GOTO_LABEL": "0x114e"
+	},
+	{
+		"LABEL": "0x1072",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 331,
+		"MSGID": 64,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1098",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 333,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10c8",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "4f011100",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x10d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 337,
+		"MSGID": 66,
+		"NameJPN": "羽依里",
+		"JPN": "「……英雄の甲冑……、伝説の武具?!」",
+		"NameENG": "Hairi",
+		"ENG": "\"...The armor of heroes...? So, like, legendary gear!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1114",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 339,
+		"MSGID": 67,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1134",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "550192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5701",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x114e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5801",
+		"Equation": "(#6033==17)",
+		"GOTO_LABEL": "0x1238"
+	},
+	{
+		"LABEL": "0x1164",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 346,
+		"MSGID": 68,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x118a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 348,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11ba",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "5e011200",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x11c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 70,
+		"NameJPN": "羽依里",
+		"JPN": "「……農耕派の……ノコギリ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A... saw? To raise grain?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 354,
+		"MSGID": 71,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x121e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "640192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x122e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6601",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1238",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6701",
+		"Equation": "(#6033==18)",
+		"GOTO_LABEL": "0x1328"
+	},
+	{
+		"LABEL": "0x124e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 361,
+		"MSGID": 72,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1274",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 363,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12a4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "6d011300",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x12b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 367,
+		"MSGID": 74,
+		"NameJPN": "羽依里",
+		"JPN": "「……丸まって賢くなる竜？　壁で？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A dragon that becomes a saint when it curls up into a ball? On a cliff?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 369,
+		"MSGID": 75,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x130e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "730192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x131e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7501",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1328",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7601",
+		"Equation": "(#6033==19)",
+		"GOTO_LABEL": "0x1412"
+	},
+	{
+		"LABEL": "0x133e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 376,
+		"MSGID": 76,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1364",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 378,
+		"MSGID": 77,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1394",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "7c011400",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x13a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 382,
+		"MSGID": 78,
+		"NameJPN": "羽依里",
+		"JPN": "「……いい……まら……Ｈっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Penis worms...? L-Lewd!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 384,
+		"MSGID": 79,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13f8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "820192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x1408",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8401",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1412",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8501",
+		"Equation": "(#6033==20)",
+		"GOTO_LABEL": "0x1500"
+	},
+	{
+		"LABEL": "0x1428",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 391,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x144e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 393,
+		"MSGID": 81,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x147e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "8b011500",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x148a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 397,
+		"MSGID": 82,
+		"NameJPN": "羽依里",
+		"JPN": "「……？　そりゃ海賊も仕留めるわ」",
+		"NameENG": "Hairi",
+		"ENG": "\"...? I mean, yeah, I guess the king of the seas would be good at taking out pirates.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 399,
+		"MSGID": 83,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14e6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "910192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x14f6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9301",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1500",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9401",
+		"Equation": "(#6033==21)",
+		"GOTO_LABEL": "0x15f4"
+	},
+	{
+		"LABEL": "0x1516",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 406,
+		"MSGID": 84,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x153c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 408,
+		"MSGID": 85,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x156c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "9a011600",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1578",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 412,
+		"MSGID": 86,
+		"NameJPN": "羽依里",
+		"JPN": "「……賢い教え？　本を池に沈めるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scales of the wise men? Did they toss some ancient lawyer into a pond or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 414,
+		"MSGID": 87,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15da",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a00192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x15ea",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a201",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x15f4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a301",
+		"Equation": "(#6033==22)",
+		"GOTO_LABEL": "0x16da"
+	},
+	{
+		"LABEL": "0x160a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 421,
+		"MSGID": 88,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1630",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 423,
+		"MSGID": 89,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1660",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "a9011700",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x166c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 427,
+		"MSGID": 90,
+		"NameJPN": "羽依里",
+		"JPN": "「……海の底に扉？　猿？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...The double gates of the ocean floor? Monkeys?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 429,
+		"MSGID": 91,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16c0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "af0192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x16d0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b101",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x16da",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b201",
+		"Equation": "(#6033==23)",
+		"GOTO_LABEL": "0x17ce"
+	},
+	{
+		"LABEL": "0x16f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 436,
+		"MSGID": 92,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1716",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 438,
+		"MSGID": 93,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1746",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "b8011800",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1752",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 442,
+		"MSGID": 94,
+		"NameJPN": "羽依里",
+		"JPN": "「……海に大きな衣……？　米、食うの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...The massive gown that floats through the ocean...? It eats rice?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1794",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 444,
+		"MSGID": 95,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17b4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "be0192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x17c4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c001",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x17ce",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c101",
+		"Equation": "(#6033==24)",
+		"GOTO_LABEL": "0x18c0"
+	},
+	{
+		"LABEL": "0x17e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 451,
+		"MSGID": 96,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x180a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 453,
+		"MSGID": 97,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x183a",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c7011900",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1846",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 457,
+		"MSGID": 98,
+		"NameJPN": "羽依里",
+		"JPN": "「……なんか、すごく格好いいけど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...That sounds kinda cool, but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1886",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 459,
+		"MSGID": 99,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18a6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "cd0192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x18b6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cf01",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x18c0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d001",
+		"Equation": "(#6033==25)",
+		"GOTO_LABEL": "0x19b8"
+	},
+	{
+		"LABEL": "0x18d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 466,
+		"MSGID": 100,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 101,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x192c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d6011a00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1938",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 472,
+		"MSGID": 102,
+		"NameJPN": "羽依里",
+		"JPN": "「……途中まで格好いいのに最後がなんか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...It started off kinda cool, but the ending was a little...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x197e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 474,
+		"MSGID": 103,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x199e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "dc0192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x19ae",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "de01",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x19b8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "df01",
+		"Equation": "(#6033==26)",
+		"GOTO_LABEL": "0x1ab8"
+	},
+	{
+		"LABEL": "0x19ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 481,
+		"MSGID": 104,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 483,
+		"MSGID": 105,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a24",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "e5011b00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1a30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 487,
+		"MSGID": 106,
+		"NameJPN": "羽依里",
+		"JPN": "「ずいぶんと我慢強いのに……誘われるものがしょぼい」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's really trying, but... Honestly, it's super weak overall.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 489,
+		"MSGID": 107,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a9e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "eb0192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x1aae",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ed01",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1ab8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ee01",
+		"Equation": "(#6033==27)",
+		"GOTO_LABEL": "0x1bb4"
+	},
+	{
+		"LABEL": "0x1ace",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 496,
+		"MSGID": 108,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1af4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 498,
+		"MSGID": 109,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b24",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "f4011c00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1b30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 502,
+		"MSGID": 110,
+		"NameJPN": "羽依里",
+		"JPN": "「……ちょっと冒険してるみたいで格好いい」",
+		"NameENG": "Hairi",
+		"ENG": "\"...That's actually kind of adventurous and cool.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 504,
+		"MSGID": 111,
+		"JPN": "でも、よく分からない。",
+		"ENG": "But it didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b9a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fa0192fe2336303333000100"
+	},
+	{
+		"LABEL": "0x1baa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fc01",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1bb4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fd01",
+		"Equation": "(#6033==28)",
+		"GOTO_LABEL": "0x1caa"
+	},
+	{
+		"LABEL": "0x1bca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 511,
+		"MSGID": 112,
+		"NameJPN": "羽依里",
+		"JPN": "「小吉かぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Small luck, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bf0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 513,
+		"MSGID": 113,
+		"NameJPN": "羽依里",
+		"JPN": "「えー、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's see here...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c20",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "03021d00",
+		"GOTO_LABEL": "0x1ef8"
+	},
+	{
+		"LABEL": "0x1c2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 517,
+		"MSGID": 114,
+		"NameJPN": "羽依里",
+		"JPN": "「……最速のくせ求めるものが小さいな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...That's a pretty petty ambition for 'the fastest white streak,' isn't it...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 519,
+		"MSGID": 115,
+		"JPN": "よく分からない。",
+		"ENG": "The fortune didn't really make much sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c90",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "090292fe2336303333000100"
+	},
+	{
+		"LABEL": "0x1ca0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b02",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1caa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0d02",
+		"Equation": "(#6033==29)",
+		"GOTO_LABEL": "0x1d46"
+	},
+	{
+		"LABEL": "0x1cc0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 527,
+		"MSGID": 116,
+		"NameJPN": "羽依里",
+		"JPN": "「凶、待ち人来ず、失せ物現れず……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Bad luck: the people you are waiting for will not come, and the things you have lost will not reappear...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 529,
+		"MSGID": 117,
+		"JPN": "何もない夏にとどめを刺すようなおみくじだった。",
+		"ENG": "It was a fortune that practically dealt the deathblow to my mediocre summer.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d3c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1302",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1d46",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1502",
+		"Equation": "(#6033==30)",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1d5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 535,
+		"MSGID": 118,
+		"NameJPN": "羽依里",
+		"JPN": "「大凶、はずれ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Horrible luck...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 537,
+		"MSGID": 119,
+		"JPN": "とだけ、書いてあった。",
+		"ENG": "...Was all that was written on it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1db0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 539,
+		"MSGID": 120,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dd6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 541,
+		"MSGID": 121,
+		"NameJPN": "羽依里",
+		"JPN": "「雑いっ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wow, blunt.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dfa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 543,
+		"MSGID": 122,
+		"NameJPN": "羽依里",
+		"JPN": "「そりゃ大凶は引いちゃいけないかもしれないけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, horrible luck is definitely an exceptionally bad result...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 545,
+		"MSGID": 123,
+		"NameJPN": "羽依里",
+		"JPN": "「だとしても、雑い」",
+		"NameENG": "Hairi",
+		"ENG": "\"But still, this is a little too blunt, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 547,
+		"MSGID": 124,
+		"JPN": "むしろ、悪意さえ感じる。",
+		"ENG": "It almost felt malicious.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 549,
+		"MSGID": 125,
+		"JPN": "とても嫌な思いをした。",
+		"ENG": "What an awful experience.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ec0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 551,
+		"MSGID": 126,
+		"JPN": "まさに、大凶。",
+		"ENG": "Horrible luck. Man.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ede",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2902",
+		"GOTO_LABEL": "0x1ee8"
+	},
+	{
+		"LABEL": "0x1ee8",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "300218005600"
+	},
+	{
+		"LABEL": "0x1ef2",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6e02"
+	},
+	{
+		"LABEL": "0x1ef8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9d02",
+		"Equation": "((#6033)==0)",
+		"GOTO_LABEL": "0x1f64"
+	},
+	{
+		"LABEL": "0x1f10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 669,
+		"MSGID": 127,
+		"JPN": "『猛き蛇亀（じゃき）、静かなる水地に、純白の薄衣捧ぐべし』",
+		"ENG": "'Voracious turtle-snake, in the waterlands it be; awaiting your silken white offering.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f5a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9e02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x1f64",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9e02",
+		"Equation": "((#6033)==1)",
+		"GOTO_LABEL": "0x1fc6"
+	},
+	{
+		"LABEL": "0x1f7c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 670,
+		"MSGID": 128,
+		"JPN": "『堅牢なる虎王（こおう）、深き山にて、宴を望む』",
+		"ENG": "'Everlasting king of tigers, living deep in the mountains; he wishes for legendary extravagance.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fbc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9f02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x1fc6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9f02",
+		"Equation": "((#6033)==2)",
+		"GOTO_LABEL": "0x201a"
+	},
+	{
+		"LABEL": "0x1fde",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 671,
+		"MSGID": 129,
+		"JPN": "『緋影の大翼、神域にて、宴を望む』",
+		"ENG": "'Silhouette of the blazing wings, living in the palace of the gods; he wishes for legendary extravagance.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2010",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a002",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x201a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a002",
+		"Equation": "((#6033)==3)",
+		"GOTO_LABEL": "0x2068"
+	},
+	{
+		"LABEL": "0x2032",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 672,
+		"MSGID": 130,
+		"JPN": "『蒼き水神、断崖、宴を望む』",
+		"ENG": "'Azure water god of the cliffs; he wishes for legendary extravagance.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x205e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a102",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2068",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a102",
+		"Equation": "((#6033)==4)",
+		"GOTO_LABEL": "0x20c0"
+	},
+	{
+		"LABEL": "0x2080",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 673,
+		"MSGID": 131,
+		"JPN": "『随身の化生、断崖で究極の炒飯を待つ』",
+		"ENG": "'The spiritual familiar awaits the ultimate fried rice at the cliffs.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20b6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a202",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x20c0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a202",
+		"Equation": "((#6033)==5)",
+		"GOTO_LABEL": "0x2118"
+	},
+	{
+		"LABEL": "0x20d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 674,
+		"MSGID": 132,
+		"JPN": "『裸王は白波のしぶきの中で賢者となる』",
+		"ENG": "'The naked king embraces sagedom amongst the misty white waves.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x210e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a302",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2118",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a302",
+		"Equation": "((#6033)==6)",
+		"GOTO_LABEL": "0x216e"
+	},
+	{
+		"LABEL": "0x2130",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 675,
+		"MSGID": 133,
+		"JPN": "『夜を山で過ごす者、白き三角を追う』",
+		"ENG": "'The one who spends his nights in the mountains pursues a white triangle.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2164",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a402",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x216e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a402",
+		"Equation": "((#6033)==7)",
+		"GOTO_LABEL": "0x21d6"
+	},
+	{
+		"LABEL": "0x2186",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 676,
+		"MSGID": 134,
+		"JPN": "『深き山にて、ヴァンパイアは深紅の瞳で純白の衣を狙う』",
+		"ENG": "'Deep inside the mountains, the vampire with blood red eyes chases a pure white cloth.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21cc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a502",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x21d6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a502",
+		"Equation": "((#6033)==8)",
+		"GOTO_LABEL": "0x2234"
+	},
+	{
+		"LABEL": "0x21ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 677,
+		"MSGID": 135,
+		"JPN": "『滅びし大神、秘されし地にて、パンツを嗅ぐ』",
+		"ENG": "'The extinct god sniffs panties in its hidden garden.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x222a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a602",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2234",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a602",
+		"Equation": "((#6033)==9)",
+		"GOTO_LABEL": "0x228c"
+	},
+	{
+		"LABEL": "0x224c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 678,
+		"MSGID": 136,
+		"JPN": "『原始の顎は、酔眠とともに財宝を守る』",
+		"ENG": "'The bite of origins protects the pirates' treasure in a drunken stupor.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2282",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a702",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x228c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a702",
+		"Equation": "((#6033)==10)",
+		"GOTO_LABEL": "0x22e2"
+	},
+	{
+		"LABEL": "0x22a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 679,
+		"MSGID": 137,
+		"JPN": "『民を潤す水面に映る主に杯を捧げよ』",
+		"ENG": "'Let us raise our goblets to the king underneath the waters of the pond, who brings grace to us all.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22d8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a802",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x22e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a802",
+		"Equation": "((#6033)==11)",
+		"GOTO_LABEL": "0x2342"
+	},
+	{
+		"LABEL": "0x22fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 680,
+		"MSGID": 138,
+		"JPN": "『打ち上げられたマーメイドが憧れる白き履き物』",
+		"ENG": "'The white leggings that the mermaid fireworks aspire to be.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2338",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a902",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2342",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a902",
+		"Equation": "((#6033)==12)",
+		"GOTO_LABEL": "0x239c"
+	},
+	{
+		"LABEL": "0x235a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 681,
+		"MSGID": 139,
+		"JPN": "『太陽神、黄金と共に長き携行食肉を喰む』",
+		"ENG": "'The sun god consumes thin snack meats together with chests of gold.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2392",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "aa02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x239c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "aa02",
+		"Equation": "((#6033)==13)",
+		"GOTO_LABEL": "0x23fc"
+	},
+	{
+		"LABEL": "0x23b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 682,
+		"MSGID": 140,
+		"JPN": "『黒き翼の三つ足、賢人の悟りを秘匿の地で詠む』",
+		"ENG": "'Wings of darkness and legs of three, a sage of enlightenment in the most hidden of trees.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23f2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ab02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x23fc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ab02",
+		"Equation": "((#6033)==14)",
+		"GOTO_LABEL": "0x2450"
+	},
+	{
+		"LABEL": "0x2414",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 683,
+		"MSGID": 141,
+		"JPN": "『山に潜む宝石は、穀糖を求め潜む』",
+		"ENG": "'The hidden jewel of the mountain lies in wait for sugars extracted from grain.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2446",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ac02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2450",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ac02",
+		"Equation": "((#6033)==15)",
+		"GOTO_LABEL": "0x24aa"
+	},
+	{
+		"LABEL": "0x2468",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 684,
+		"MSGID": 142,
+		"JPN": "『幼き悪魔は揺れる果実を秘密の境に隠す』",
+		"ENG": "'The young devil hides the quivering fruit in the hidden land.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24a0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ad02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x24aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ad02",
+		"Equation": "((#6033)==16)",
+		"GOTO_LABEL": "0x250e"
+	},
+	{
+		"LABEL": "0x24c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 685,
+		"MSGID": 143,
+		"JPN": "『英雄を冠する甲冑、忘れられた地で故郷の蜜を待つ』",
+		"ENG": "'Donning the armor of heroes, it waits for honey in the hidden land.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2504",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ae02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x250e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ae02",
+		"Equation": "((#6033)==17)",
+		"GOTO_LABEL": "0x256a"
+	},
+	{
+		"LABEL": "0x2526",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 686,
+		"MSGID": 144,
+		"JPN": "『ギラギラしたノコギリ、山奥で米を育てる』",
+		"ENG": "'Raising grain in the depths of the mountain using saws as long as a giraffe's neck.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2560",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af02",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x256a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "af02",
+		"Equation": "((#6033)==18)",
+		"GOTO_LABEL": "0x25cc"
+	},
+	{
+		"LABEL": "0x2582",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 687,
+		"MSGID": 145,
+		"JPN": "『絶対障壁を転がる小竜は、賢くなるほど丸くなる』",
+		"ENG": "'The little dragon who bowls through sheer cliffs curls into the form of a saint.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25c2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b002",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x25cc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b002",
+		"Equation": "((#6033)==19)",
+		"GOTO_LABEL": "0x262a"
+	},
+	{
+		"LABEL": "0x25e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 688,
+		"MSGID": 146,
+		"JPN": "『竜宮よりの使者、イイマラめがけて壁を登る』",
+		"ENG": "'The messenger from the Dragon King's Palace scales cliffs in search of penis worms.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2620",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b102",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x262a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b102",
+		"Equation": "((#6033)==20)",
+		"GOTO_LABEL": "0x2682"
+	},
+	{
+		"LABEL": "0x2642",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 689,
+		"MSGID": 147,
+		"JPN": "『海賊が仕留めた深海の大王はすごくＨ』",
+		"ENG": "'The Lord of the Seas, Destroyer of Pirates, is extremely lewd.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2678",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b202",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2682",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b202",
+		"Equation": "((#6033)==21)",
+		"GOTO_LABEL": "0x26da"
+	},
+	{
+		"LABEL": "0x269a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 690,
+		"MSGID": 148,
+		"JPN": "『太古の鱗は賢き教えを、古池に沈める』",
+		"ENG": "'The ancient scales of the wise men have sunken to the depths of the primordial pond.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26d0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b302",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x26da",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b302",
+		"Equation": "((#6033)==22)",
+		"GOTO_LABEL": "0x2732"
+	},
+	{
+		"LABEL": "0x26f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 691,
+		"MSGID": 149,
+		"JPN": "『海底の二枚扉を開き秘境を目指すは猿』",
+		"ENG": "'The key to the double gates of the ocean floor is the monkey who journeys for the forgotten land.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2728",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b402",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2732",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b402",
+		"Equation": "((#6033)==23)",
+		"GOTO_LABEL": "0x2798"
+	},
+	{
+		"LABEL": "0x274a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 692,
+		"MSGID": 150,
+		"JPN": "『大海漂う大きな衣、極めし炒め米を波打ち際で求める』",
+		"ENG": "'The massive gown that floats through the oceans awaits the pinnacle of fried rice amongst the gentle breaking of the waves.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x278e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b502",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2798",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b502",
+		"Equation": "((#6033)==24)",
+		"GOTO_LABEL": "0x27f6"
+	},
+	{
+		"LABEL": "0x27b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 693,
+		"MSGID": 151,
+		"JPN": "『王の翅、賢者と共に森の最奥で目覚めを待つ』",
+		"ENG": "'The queen's wings await their awakening together with the sage of the deepest forest.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27ec",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b602",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x27f6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b602",
+		"Equation": "((#6033)==25)",
+		"GOTO_LABEL": "0x2854"
+	},
+	{
+		"LABEL": "0x280e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 694,
+		"MSGID": 152,
+		"JPN": "『古きセイレイの帝王、忘却の地で水飴舐める』",
+		"ENG": "'The emperor of the ancient kingdom laps its sugary jelly in the forgotten land.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x284a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b702",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2854",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b702",
+		"Equation": "((#6033)==26)",
+		"GOTO_LABEL": "0x28bc"
+	},
+	{
+		"LABEL": "0x286c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 695,
+		"MSGID": 153,
+		"JPN": "『秘匿の大地の底で１７年。甘さ無くした平棒に誘われる』",
+		"ENG": "'Hidden away for seventeen years in the depths of the promised land. Lured in by the quenched sweetness of the everyday stick.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28b2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b802",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x28bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b802",
+		"Equation": "((#6033)==27)",
+		"GOTO_LABEL": "0x291a"
+	},
+	{
+		"LABEL": "0x28d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 696,
+		"MSGID": 154,
+		"JPN": "『小さき羽ばたきは蜜の為に大きな壁を越える』",
+		"ENG": "'Little wing-beats overcome the precipice for the sake of honey.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2910",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b902",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x291a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b902",
+		"Equation": "((#6033)==28)",
+		"GOTO_LABEL": "0x2966"
+	},
+	{
+		"LABEL": "0x2932",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 697,
+		"MSGID": 155,
+		"JPN": "『白き最速、細き肉を求め絶壁を駆る』",
+		"ENG": "'The fastest white streak dashes among the cliffs, searching for a stick of meat.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2966",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "bb02"
+	},
+	{
+		"LABEL": "0x296c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "040311271e00"
+	},
+	{
+		"LABEL": "0x2976",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "050312271e00"
+	},
+	{
+		"LABEL": "0x2980",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0703",
+		"Equation": "((#6799)==0)",
+		"GOTO_LABEL": "0x29b6"
+	},
+	{
+		"LABEL": "0x2998",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "090311270000"
+	},
+	{
+		"LABEL": "0x29a2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0a0312270300"
+	},
+	{
+		"LABEL": "0x29ac",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0c03",
+		"GOTO_LABEL": "0x2aba"
+	},
+	{
+		"LABEL": "0x29b6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0c03",
+		"Equation": "((#6799)==1)",
+		"GOTO_LABEL": "0x29ec"
+	},
+	{
+		"LABEL": "0x29ce",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0e0311270400"
+	},
+	{
+		"LABEL": "0x29d8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0f0312270600"
+	},
+	{
+		"LABEL": "0x29e2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1103",
+		"GOTO_LABEL": "0x2aba"
+	},
+	{
+		"LABEL": "0x29ec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1103",
+		"Equation": "((#6799)==2)",
+		"GOTO_LABEL": "0x2a22"
+	},
+	{
+		"LABEL": "0x2a04",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "130311270700"
+	},
+	{
+		"LABEL": "0x2a0e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "140312270d00"
+	},
+	{
+		"LABEL": "0x2a18",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1603",
+		"GOTO_LABEL": "0x2aba"
+	},
+	{
+		"LABEL": "0x2a22",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1603",
+		"Equation": "((#6799)==3)",
+		"GOTO_LABEL": "0x2a58"
+	},
+	{
+		"LABEL": "0x2a3a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "180311270e00"
+	},
+	{
+		"LABEL": "0x2a44",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "190312271c00"
+	},
+	{
+		"LABEL": "0x2a4e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1b03",
+		"GOTO_LABEL": "0x2aba"
+	},
+	{
+		"LABEL": "0x2a58",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1b03",
+		"Equation": "((#6799)==4)",
+		"GOTO_LABEL": "0x2a8e"
+	},
+	{
+		"LABEL": "0x2a70",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1d0311271d00"
+	},
+	{
+		"LABEL": "0x2a7a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1e0312271d00"
+	},
+	{
+		"LABEL": "0x2a84",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2003",
+		"GOTO_LABEL": "0x2aba"
+	},
+	{
+		"LABEL": "0x2a8e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2003",
+		"Equation": "((#6799)==5)",
+		"GOTO_LABEL": "0x2aba"
+	},
+	{
+		"LABEL": "0x2aa6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "220311271e00"
+	},
+	{
+		"LABEL": "0x2ab0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "230312271e00"
+	},
+	{
+		"LABEL": "0x2aba",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "280314270000"
+	},
+	{
+		"LABEL": "0x2ac4",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "29031327",
+		"String": "#10001"
+	},
+	{
+		"LABEL": "0x2ad4",
+		"Type": "IFN",
+		"SUBCMD": 0,
+		"Equation": "(#10003<=#10002)",
+		"GOTO_LABEL": "0x2b42"
+	},
+	{
+		"LABEL": "0x2aee",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2b03",
+		"Equation": "(#366[#10003]==0)",
+		"GOTO_LABEL": "0x2b1e"
+	},
+	{
+		"LABEL": "0x2b0a",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "2c0314273100"
+	},
+	{
+		"LABEL": "0x2b14",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2d03",
+		"GOTO_LABEL": "0x2b1e"
+	},
+	{
+		"LABEL": "0x2b1e",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "2e0313273100"
+	},
+	{
+		"LABEL": "0x2b28",
+		"Type": "IFY",
+		"SUBCMD": 0,
+		"Equation": "(#10003<=#10002)",
+		"GOTO_LABEL": "0x2aee"
+	},
+	{
+		"LABEL": "0x2b42",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3003",
+		"Equation": "(#10004!=0)",
+		"GOTO_LABEL": "0x2c34"
+	},
+	{
+		"LABEL": "0x2b58",
+		"Type": "RANDOM",
+		"SUBCMD": 1,
+		"Args": "3303142730002331303030342d3100"
+	},
+	{
+		"LABEL": "0x2b6c",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "340314273100"
+	},
+	{
+		"LABEL": "0x2b76",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "36031327",
+		"String": "#10001"
+	},
+	{
+		"LABEL": "0x2b86",
+		"Type": "IFN",
+		"SUBCMD": 0,
+		"Equation": "(#10003<=#10002)",
+		"GOTO_LABEL": "0x2c2a"
+	},
+	{
+		"LABEL": "0x2ba0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3703",
+		"Equation": "(#366[#10003]==0)",
+		"GOTO_LABEL": "0x2c06"
+	},
+	{
+		"LABEL": "0x2bbc",
+		"Type": "SUB",
+		"SUBCMD": 1,
+		"Args": "380314273100"
+	},
+	{
+		"LABEL": "0x2bc6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3903",
+		"Equation": "(#10004==0)",
+		"GOTO_LABEL": "0x2bfc"
+	},
+	{
+		"LABEL": "0x2bdc",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "3a039117",
+		"String": "#10003"
+	},
+	{
+		"LABEL": "0x2bec",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3c03"
+	},
+	{
+		"LABEL": "0x2bf2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3d03",
+		"GOTO_LABEL": "0x2bfc"
+	},
+	{
+		"LABEL": "0x2bfc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3e03",
+		"GOTO_LABEL": "0x2c06"
+	},
+	{
+		"LABEL": "0x2c06",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "3f0313273100"
+	},
+	{
+		"LABEL": "0x2c10",
+		"Type": "IFY",
+		"SUBCMD": 0,
+		"Equation": "(#10003<=#10002)",
+		"GOTO_LABEL": "0x2ba0"
+	},
+	{
+		"LABEL": "0x2c2a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4003",
+		"GOTO_LABEL": "0x2c34"
+	},
+	{
+		"LABEL": "0x2c34",
+		"Type": "RANDOM",
+		"SUBCMD": 1,
+		"Args": "430391172331303030310023313030303200"
+	},
+	{
+		"LABEL": "0x2c4a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4503"
+	},
+	{
+		"LABEL": "0x2c50",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "73030080"
+	}
+]

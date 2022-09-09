@@ -1,0 +1,2397 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000f00000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「こんにちは」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hello.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"VOICEID": 41889,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「おう、来たなあんちゃん」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Oh. You made it, kid.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 2,
+		"VOICEID": 41890,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「はやく戸を閉めな」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Hurry up and shut the door.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　あ、はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Ah, right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「俺のって不文律を犯すメニューでしたか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Did you have to break another unwritten law to make my order?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x130",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 5,
+		"VOICEID": 41891,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「少しだけな」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Had to bend 'em, anyway.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 6,
+		"VOICEID": 41892,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「でも、ギリセーフだと思ってる」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"But I think it'll slip by, just barely.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 7,
+		"JPN": "コンコン……",
+		"ENG": "Knock knock...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 8,
+		"VOICEID": 41893,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「――……合い言葉を」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"...Password.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 9,
+		"VOICEID": 41894,
+		"NameJPN": "？？？",
+		"JPN": "「雉も鳴かずば撃たれまい……」",
+		"NameENG": "???",
+		"ENG": "\"A silent pheasant won't get shot...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 10,
+		"VOICEID": 41895,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あんちゃん、入れてやってくれ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Let 'em in, kid.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x270",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 11,
+		"JPN": "おっちゃんに言われて戸を開ける。",
+		"ENG": "I did as he asked and opened the door.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2a00010095a20000d200b4006d00"
+	},
+	{
+		"LABEL": "0x2b2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0101035300008002b4007500"
+	},
+	{
+		"LABEL": "0x2c2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010276b900002e04b4006900"
+	},
+	{
+		"LABEL": "0x2d2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000009000b400"
+	},
+	{
+		"LABEL": "0x2e0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100021800d200b400"
+	},
+	{
+		"LABEL": "0x2ee",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010000003e02b400"
+	},
+	{
+		"LABEL": "0x2fc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218008002b400"
+	},
+	{
+		"LABEL": "0x30a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0102000000ec03b400"
+	},
+	{
+		"LABEL": "0x318",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01020218002e04b400"
+	},
+	{
+		"LABEL": "0x326",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x32c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 12,
+		"JPN": "人が通れる最低限の隙間から、蒼と良一、天善が滑り込んできた。",
+		"ENG": "When it was cracked just enough to fit through, Ao, Ryouichi and Tenzen squeezed in.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x378",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 13,
+		"VOICEID": 41896,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「悪いな、お前ら」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Sorry for the trouble, y'all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ac",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "300001009ba2"
+	},
+	{
+		"LABEL": "0x3b6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01015753"
+	},
+	{
+		"LABEL": "0x3be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010279b9"
+	},
+	{
+		"LABEL": "0x3c6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 14,
+		"VOICEID": 41897,
+		"NameJPN": "良一",
+		"JPN": "「なーに、おっちゃんと羽依里のためならこのくらいなんてことねーぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Oh, c'mon, for you and Hairi this is nothing.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x426",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "33000100d7a2"
+	},
+	{
+		"LABEL": "0x430",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x436",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 15,
+		"VOICEID": 41898,
+		"NameJPN": "天善",
+		"JPN": "「この食堂に出会った、夢追い人の１人として協力しよう」",
+		"NameENG": "Tenzen",
+		"ENG": "\"As fellow dreamchasers bound together by this diner, we're glad to cooperate.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x484",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "36000101fd52"
+	},
+	{
+		"LABEL": "0x48e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x494",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 16,
+		"VOICEID": 41899,
+		"NameJPN": "蒼",
+		"JPN": "「にしても、あんたもやっかいなメニュー頼んだわねえ」",
+		"NameENG": "Ao",
+		"ENG": "\"But still, you sure picked an obnoxious order, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 17,
+		"JPN": "蒼が紙袋をおっちゃんに渡す。",
+		"ENG": "Ao passed the shopkeep a paper bag.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x50a",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "3b000100000f00"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x520",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x52a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x530",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 18,
+		"JPN": "おっちゃんは中身を確認して満足そうに頷くと、調理場から自前で用意したと思われる紙袋を取り出す。",
+		"ENG": "He checked inside and gave a satisfied nod, then brought out a paper bag of his own from the kitchen.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x59e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 19,
+		"VOICEID": 41900,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「集められるだけ集めたぜ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"I gathered up as many as I could.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "42000100f15200008002b4007500"
+	},
+	{
+		"LABEL": "0x5ec",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x5f6",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x606",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 20,
+		"VOICEID": 41901,
+		"NameJPN": "蒼",
+		"JPN": "「駄菓子屋にあった分、全部買ってきたわ」",
+		"NameENG": "Ao",
+		"ENG": "\"And I bought up every last one at the candy store.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x644",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 21,
+		"JPN": "カウンターに紙袋が開けられる。",
+		"ENG": "He dumped the bags out onto the counter.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x672",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "47000100000f00"
+	},
+	{
+		"LABEL": "0x67e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x688",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x692",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x698",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「ラッキーターン……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Lucky Turns...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 23,
+		"JPN": "あの甘塩っぱくてなんとも言えないコクのある粉がまぶされたせんべい。",
+		"ENG": "Sweet and salty rice crackers coated in an indescribably flavorful powder.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x71a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 24,
+		"JPN": "むしろせんべいじゃなく、あの「粉」が本命といってもいいお菓子。",
+		"ENG": "Honestly, the powder characterizes them as a product more than the rice crackers themselves.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x768",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 25,
+		"JPN": "時々粉が多めにまぶされた「当たり」の個体がある。",
+		"ENG": "Every once in a while, very rarely, you'll get lucky and open the package to find that your cracker's coated in an extra helping of powder.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 26,
+		"JPN": "あれを口に入れたときのラッキー感はすごい。",
+		"ENG": "The sense of luck when you bite into one of those is just exquisite.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 83,
+		"MSGID": 27,
+		"JPN": "だから、誰もが一度は思ったはず。",
+		"ENG": "As such, I think pretty much everyone's considered it at least once...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x812",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 28,
+		"JPN": "あのラッキーパウダーが大量に塗されたラッキーターンを目一杯食べて見たい！と。",
+		"ENG": "About how great it'd be to eat their fill of extra powdery Lucky Turns.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x86e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「でも、なんでこんなにたくさんラッキーターンを？」",
+		"NameENG": "Hairi",
+		"ENG": "\"But why'd you buy this many of them?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「てっきり、あの粉を作ってくれるんだと思ってたんですけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"I was sure that you'd just make the powder$dyourself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x90e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "5b000100fd5200008002b4007500"
+	},
+	{
+		"LABEL": "0x920",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x92a",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x934",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x93a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 31,
+		"VOICEID": 41902,
+		"NameJPN": "蒼",
+		"JPN": "「わかってないわね、あんた」",
+		"NameENG": "Ao",
+		"ENG": "\"You just don't get it, do you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x96c",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "5e0001000218009001b400"
+	},
+	{
+		"LABEL": "0x97c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010179b900007003b4006900"
+	},
+	{
+		"LABEL": "0x98c",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x996",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x99c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 32,
+		"VOICEID": 41903,
+		"NameJPN": "良一",
+		"JPN": "「ピックル、ビルクルはヤフルトにあらず」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Bikkle cannot live up to Yakult.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9dc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "61000102a1a20000d200b4006d00"
+	},
+	{
+		"LABEL": "0x9ee",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x9fc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218002e04b400"
+	},
+	{
+		"LABEL": "0xa0a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 33,
+		"VOICEID": 41904,
+		"NameJPN": "天善",
+		"JPN": "「テカビタＣはオロナメンＣにあらず」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Gatorade cannot live up to Emergen-C!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa4c",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "64000100000f00"
+	},
+	{
+		"LABEL": "0xa58",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0xa62",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0xa6c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 34,
+		"VOICEID": 41905,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あんちゃんが食いたいのは、本物だろ？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"You want to eat the real thing, right, kid?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xabc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 35,
+		"JPN": "そう言って、刷毛を取り出す。",
+		"ENG": "He brought out a basting brush as he spoke.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xae8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「まさか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"You don't mean...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 37,
+		"VOICEID": 41906,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「夢、叶えようぜ」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Let's make your dream come true.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 38,
+		"JPN": "俺たちは、刷毛でラッキーターンの表面を擦って、パウダーだけをお皿の上に貯めていく。",
+		"ENG": "We brushed away at the Lucky Turns, gradually building up a pile of Lucky Powder on a plate.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xba6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "700001007db900008002b4006900"
+	},
+	{
+		"LABEL": "0xbb8",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0xbc2",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0xbcc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbd2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 113,
+		"MSGID": 39,
+		"VOICEID": 41907,
+		"NameJPN": "良一",
+		"JPN": "「けっこー地味な作業だな」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Welp, this is boring as hell.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc04",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7c000101a1a200009001b4006d00"
+	},
+	{
+		"LABEL": "0xc16",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0xc24",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0xc2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 40,
+		"VOICEID": 41910,
+		"NameJPN": "天善",
+		"JPN": "「短く手首を返すだけの作業。特訓として悪くない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"A job accomplished exclusively with short, repetitive wrist movements. Not bad training at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc7c",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "7f000101021800d200b400"
+	},
+	{
+		"LABEL": "0xc8c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "01023d5200008002b4007500"
+	},
+	{
+		"LABEL": "0xc9c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01008eb9"
+	},
+	{
+		"LABEL": "0xca4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218002e04b400"
+	},
+	{
+		"LABEL": "0xcb2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 128,
+		"MSGID": 41,
+		"VOICEID": 41911,
+		"NameJPN": "蒼",
+		"JPN": "「天善ー、強く擦りすぎると、粉が飛ぶし、せんべいが削れる」",
+		"NameENG": "Ao",
+		"ENG": "\"Tenzen, if you put that much strength into it you'll blow the powder everywhere and start chipping at the cracker.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd08",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "820001019ba2"
+	},
+	{
+		"LABEL": "0xd12",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 131,
+		"MSGID": 42,
+		"VOICEID": 41912,
+		"NameJPN": "天善",
+		"JPN": "「フェザータッチということか、小学生を相手に試合をすると思えばいいんだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"It needs a feather touch, then? I'll just imagine I'm up against a grade schooler.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd7a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "850001024952"
+	},
+	{
+		"LABEL": "0xd84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 43,
+		"VOICEID": 41913,
+		"NameJPN": "蒼",
+		"JPN": "「あんた、小学生相手でも本気でやってるでしょ」",
+		"NameENG": "Ao",
+		"ENG": "\"You go all out against grade schoolers, though, don't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdce",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "88000101cba2"
+	},
+	{
+		"LABEL": "0xdd8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xdde",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 44,
+		"VOICEID": 41914,
+		"NameJPN": "天善",
+		"JPN": "「相手が誰だろうと、試合で手をぬけるものか！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"As if I'd hold back in a match, no matter who I'm up against!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe24",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8b0001025b52"
+	},
+	{
+		"LABEL": "0xe2e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01007fb9"
+	},
+	{
+		"LABEL": "0xe36",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 45,
+		"VOICEID": 41915,
+		"NameJPN": "良一",
+		"JPN": "「叫ぶな！　粉が飛ぶ！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Don't shout, you're gonna blow the powder away!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 46,
+		"VOICEID": 41916,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「わるいな、手伝わせちまって」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Sorry to make y'all help.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 47,
+		"VOICEID": 41917,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「本当なら俺１人でやって格好つけたかったところだったけど、どうにも時間がかかる」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Normally I'd act all cool doing it all myself, but I just didn't have the time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf1e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "920001019ba2"
+	},
+	{
+		"LABEL": "0xf28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01028552"
+	},
+	{
+		"LABEL": "0xf30",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010079b9"
+	},
+	{
+		"LABEL": "0xf38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 48,
+		"VOICEID": 41918,
+		"NameJPN": "良一",
+		"JPN": "「いいんだよ、俺たちゃもう夢が叶った」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Don't worry about it. Our wishes already came true.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf7c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "95000101d7a2"
+	},
+	{
+		"LABEL": "0xf86",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 49,
+		"VOICEID": 41919,
+		"NameJPN": "天善",
+		"JPN": "「店主の為なら、そして鷹原のためならこのくらいお安いご用だ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"For you, and for Takahara, this is the least we could do.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "980001024d54"
+	},
+	{
+		"LABEL": "0xfea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xff0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 50,
+		"VOICEID": 41920,
+		"NameJPN": "蒼",
+		"JPN": "「あ、でもあたしたちも、少しはご相伴に預からせて貰うから」",
+		"NameENG": "Ao",
+		"ENG": "\"Ah, but we'll be claiming a bit of it for ourselves in exchange.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1040",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 51,
+		"NameJPN": "羽依里",
+		"JPN": "「そりゃもちろん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, yeah, of course.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x106c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「……でも、ラッキーパウダーを落としたせんべいはどうするんです？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...But, what're we gonna do with all the powderless crackers?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 159,
+		"MSGID": 53,
+		"JPN": "美味しい部分を削ぎ落とされた、せんべいが皿の上に貯められている。",
+		"ENG": "Another plate was piled high with crackers that were stripped of the ingredient that made them worth eating.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1118",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "a1000100000f00"
+	},
+	{
+		"LABEL": "0x1124",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x112e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x1138",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x113e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 54,
+		"VOICEID": 41921,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「心配すんな。ちゃんと粉々にして唐揚げやカツの衣に使う」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"No worries. I'll grind 'em up and use 'em as breading for fried chicken and stuff.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1198",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 55,
+		"VOICEID": 41922,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「香ばしくなるんだぜ？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Gives 'em a real nice aroma, y'know?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11d2",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "a700000000003c00"
+	},
+	{
+		"LABEL": "0x11de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 56,
+		"JPN": "と、そこまで言って、おっちゃんの顔色が変わった。",
+		"ENG": "But then, suddenly, the color drained from his face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x121e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 57,
+		"JPN": "何かを感じ取ったように、店の戸を見た。",
+		"ENG": "He looked over at the door, like he'd sensed something.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1254",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ad00010015a400009001b4006d00"
+	},
+	{
+		"LABEL": "0x1266",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "01017db900007003b4006900"
+	},
+	{
+		"LABEL": "0x1276",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x1280",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1286",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 175,
+		"MSGID": 58,
+		"JPN": "同じように良一も身構えて店の戸を見る。",
+		"ENG": "Ryouichi turned to the door as well, looking on guard.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 177,
+		"MSGID": 59,
+		"JPN": "天善もラケットを構えて、店の戸を睨み付けている。",
+		"ENG": "Tenzen had his racket at the ready, too, and was glaring in the door's direction.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 179,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　どうしたんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? What's wrong?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x132e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b5000100d9a3"
+	},
+	{
+		"LABEL": "0x1338",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x133e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 61,
+		"VOICEID": 41923,
+		"NameJPN": "天善",
+		"JPN": "「店主と良一が反応したから、マネをしてみた」",
+		"NameENG": "Tenzen",
+		"ENG": "\"The owner and Ryouichi reacted, so I was imitating them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1382",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 62,
+		"JPN": "くそ……ポンコツかよ。",
+		"ENG": "Dammit, this guy, I swear.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 63,
+		"JPN": "だけど、店主と良一は何かを確かに感じ取っているようだ。",
+		"ENG": "The shopkeep and Ryouichi really did seem to have sensed something, though.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 64,
+		"VOICEID": 41924,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「く、来る……」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Sh-She's coming...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1420",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "be0001017bb9"
+	},
+	{
+		"LABEL": "0x142a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1430",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 191,
+		"MSGID": 65,
+		"VOICEID": 41925,
+		"NameJPN": "良一",
+		"JPN": "「来やがる……」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Sure is...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1458",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "c3000100000f00"
+	},
+	{
+		"LABEL": "0x1464",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x146e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x1478",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x147e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 66,
+		"JPN": "バン！と勢いよく戸が開けられる。",
+		"ENG": "Bam! The door to the diner flew open.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14ae",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "c700ca860100"
+	},
+	{
+		"LABEL": "0x14b8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c900010061b800008002b4008900"
+	},
+	{
+		"LABEL": "0x14ca",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000001602b400"
+	},
+	{
+		"LABEL": "0x14d8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x14e6",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x14f0",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x14fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1500",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 67,
+		"VOICEID": 41926,
+		"NameJPN": "美希",
+		"JPN": "「執行部だ！　この食堂で不当な料理が出されているというタレコミがあった！」",
+		"NameENG": "Miki",
+		"ENG": "\"This is the Executive Committee! We got a tip-off that this diner's been serving food that's not up to code.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 68,
+		"VOICEID": 41927,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「くっ……ここまでか……」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"No... Is this where it all ends...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x159e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ce0001017db900008002b4006900"
+	},
+	{
+		"LABEL": "0x15b0",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x15ba",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x15c4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 69,
+		"VOICEID": 41928,
+		"NameJPN": "良一",
+		"JPN": "「そうはさせねえよ……」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"I'm not letting that happen...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d100010179b9"
+	},
+	{
+		"LABEL": "0x1604",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x160a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 70,
+		"VOICEID": 41929,
+		"NameJPN": "良一",
+		"JPN": "「おっちゃん……、またヤフルト、たのむぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Owner... Serve me up another Yakult sometime.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x164c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 71,
+		"VOICEID": 41930,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「三谷の……？　なにをする気だ……？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Mitani...? What're you planning...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1694",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d60001017fb9"
+	},
+	{
+		"LABEL": "0x169e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 72,
+		"VOICEID": 41931,
+		"NameJPN": "良一",
+		"JPN": "「羽依里！　おめーは夢を叶えろ！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Hairi! You'd better make your wish come true!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16de",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "db0001016db9"
+	},
+	{
+		"LABEL": "0x16e8",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010100"
+	},
+	{
+		"LABEL": "0x16f0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 221,
+		"MSGID": 73,
+		"JPN": "そういうと、良一は服を脱いだ。",
+		"ENG": "And then he stripped.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1724",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "df000100dda200009001b4006d00"
+	},
+	{
+		"LABEL": "0x1736",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218007003b400"
+	},
+	{
+		"LABEL": "0x1744",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x174e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1754",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 74,
+		"VOICEID": 41932,
+		"NameJPN": "良一",
+		"JPN": "「天善！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Tenzen!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1776",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e400010089a5"
+	},
+	{
+		"LABEL": "0x1780",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x1788",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x178e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 229,
+		"MSGID": 75,
+		"VOICEID": 41933,
+		"NameJPN": "天善",
+		"JPN": "「おう！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Right!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 231,
+		"MSGID": 76,
+		"JPN": "天善も脱いだ！",
+		"ENG": "Tenzen, too!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17ce",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "e90001000000009001b400"
+	},
+	{
+		"LABEL": "0x17de",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100021800bb00b400"
+	},
+	{
+		"LABEL": "0x17ec",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010000007003b400"
+	},
+	{
+		"LABEL": "0x17fa",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218009b02b400"
+	},
+	{
+		"LABEL": "0x1808",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x1812",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x181c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1822",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 77,
+		"JPN": "そしてふたりが並んで、店の外に飛び出した。",
+		"ENG": "The two of them sprinted out of the diner, side by side.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x185c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ed000600597809006500b1ff"
+	},
+	{
+		"LABEL": "0x186c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0500602b000000000000"
+	},
+	{
+		"LABEL": "0x187a",
+		"Type": "MASK",
+		"SUBCMD": 0,
+		"Args": "06000000"
+	},
+	{
+		"LABEL": "0x1882",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 78,
+		"VOICEID": 41934,
+		"NameJPN": "良一",
+		"JPN": "「裸祭りだぜーーーーーーー！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Naked festivaaaaaaaaaaal!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18b8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f00006007ba509006b00b1ff"
+	},
+	{
+		"LABEL": "0x18c8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0500"
+	},
+	{
+		"LABEL": "0x18ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 241,
+		"MSGID": 79,
+		"VOICEID": 41935,
+		"NameJPN": "天善",
+		"JPN": "「はははは、はははははーー！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hahahaha... hahahahahaaaaaa!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1904",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f300010070b800008002b4008900"
+	},
+	{
+		"LABEL": "0x1916",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x1920",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x192a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1930",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 244,
+		"MSGID": 80,
+		"VOICEID": 41936,
+		"NameJPN": "美希",
+		"JPN": "「なっ!?　貴様等！　待てーーー！」",
+		"NameENG": "Miki",
+		"ENG": "\"Wha!? Why you―stop right there!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x196c",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "f60001000000008002b400"
+	},
+	{
+		"LABEL": "0x197c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100021800ab01b400"
+	},
+	{
+		"LABEL": "0x198a",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x1994",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x199a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 81,
+		"JPN": "裸の２人を追いかけて、のみきも店の外に飛び出した。",
+		"ENG": "Nomiki chased the two rampaging nudists outside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 250,
+		"MSGID": 82,
+		"JPN": "おっちゃんがすかさず戸を閉めて鍵をかけた。",
+		"ENG": "Without a moment's delay, the shopkeep closed the door and locked it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 252,
+		"MSGID": 83,
+		"VOICEID": 41937,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あんちゃん！　今のうちだ！」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Kid! Now's your chance!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a56",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fe000100435200008002b4007500"
+	},
+	{
+		"LABEL": "0x1a68",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x1a72",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x1a7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 255,
+		"MSGID": 84,
+		"VOICEID": 41938,
+		"NameJPN": "蒼",
+		"JPN": "「羽依里！　これ！」",
+		"NameENG": "Ao",
+		"ENG": "\"Hairi, here!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 257,
+		"MSGID": 85,
+		"JPN": "蒼がむき出しのラッキーターンを手渡してくれる。",
+		"ENG": "Ao passed me a powderless Lucky Turn.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aea",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "03010100000f00"
+	},
+	{
+		"LABEL": "0x1af6",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x1b00",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x1b0a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 261,
+		"MSGID": 86,
+		"JPN": "すかさず、みんなが集めてくれたラッキーパウダーに埋める。",
+		"ENG": "Without wasting a second, I buried it in the Lucky Powder everyone collected for me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 87,
+		"JPN": "たっぷりと塗して――推定、５００％の量を――口に放り込む！",
+		"ENG": "When it was completely covered─at a 500% Lucky Powder level, bare minimum─I shoved it into my mouth!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ba2",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0901000000003c00"
+	},
+	{
+		"LABEL": "0x1bae",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "0b01ff00c900"
+	},
+	{
+		"LABEL": "0x1bb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 269,
+		"MSGID": 88,
+		"NameJPN": "羽依里",
+		"JPN": "「んぶぉふっ!!」",
+		"NameENG": "Hairi",
+		"ENG": "\"Mnbwaugh!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1be4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 272,
+		"MSGID": 89,
+		"JPN": "むせた。",
+		"ENG": "...And choked.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bfc",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1201b2860100"
+	},
+	{
+		"LABEL": "0x1c06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 90,
+		"NameJPN": "羽依里",
+		"JPN": "「んごふっ、えふっ！　えふっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Mnghah, bwah! Gah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c40",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 278,
+		"MSGID": 91,
+		"VOICEID": 41939,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あんちゃん、大丈夫か？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"You okay, kid?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c7c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 280,
+		"MSGID": 92,
+		"NameJPN": "羽依里",
+		"JPN": "「口の中が……味が濃すぎて……痛いです……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Holy crap, my mouth... The flavor, it's too strong... The pain...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cc2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 93,
+		"VOICEID": 41940,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「夢、叶ったかい？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Did your dream come true?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cf8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 284,
+		"MSGID": 94,
+		"NameJPN": "羽依里",
+		"JPN": "「……はい、一応……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Yeah, more or less...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 286,
+		"MSGID": 95,
+		"JPN": "もしかしたら、夢のままが良かったかもしれない。",
+		"ENG": "It's entirely possible I should've let that one stay a dream.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 288,
+		"MSGID": 96,
+		"JPN": "きっとラッキーパウダーの分量の最適解ってのがあるな……",
+		"ENG": "Apparently there's a very specific optimal quantity of Lucky Powder...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 290,
+		"MSGID": 97,
+		"JPN": "さっきの半分くらいが、おそらく限界だろう。",
+		"ENG": "About half of what I just ate would probably be the upper limit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1de6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "24010100315200008002b4007500"
+	},
+	{
+		"LABEL": "0x1df8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1dfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 293,
+		"MSGID": 98,
+		"VOICEID": 41941,
+		"NameJPN": "蒼",
+		"JPN": "「あっ、あたしも１つ良い？」",
+		"NameENG": "Ao",
+		"ENG": "\"Ah, can I try one, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 295,
+		"MSGID": 99,
+		"NameJPN": "羽依里",
+		"JPN": "「どぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Go for it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e52",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "29010100e552"
+	},
+	{
+		"LABEL": "0x1e5c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 299,
+		"MSGID": 100,
+		"JPN": "蒼はラッキーパウダーをせんべいの上に、山盛り乗せて口に運ぶ。",
+		"ENG": "Ao piled a mountain of lucky powder on one of the crackers and chomped into it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1eae",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d010100bb52"
+	},
+	{
+		"LABEL": "0x1eb8",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01001600"
+	},
+	{
+		"LABEL": "0x1ec0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ec6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 101,
+		"VOICEID": 50215,
+		"NameJPN": "蒼",
+		"JPN": "「んぶふぅっ!!」",
+		"NameENG": "Ao",
+		"ENG": "\"Mmbwahah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1eee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 305,
+		"MSGID": 102,
+		"JPN": "むせた。",
+		"ENG": "...And choked.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f06",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "33010100a952"
+	},
+	{
+		"LABEL": "0x1f10",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 308,
+		"MSGID": 103,
+		"VOICEID": 41943,
+		"NameJPN": "蒼",
+		"JPN": "「濃すぎる……これ、口の中辛いわよ……」",
+		"NameENG": "Ao",
+		"ENG": "\"It's way too strong... It's actually hurting my mouth...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f54",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 310,
+		"MSGID": 104,
+		"JPN": "涙目になっていた。",
+		"ENG": "She was starting to tear up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f76",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "390106003f7709006500b1ff"
+	},
+	{
+		"LABEL": "0x1f86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 314,
+		"MSGID": 105,
+		"VOICEID": 41944,
+		"NameJPN": "良一",
+		"JPN": "「ぎゃああああああああぁぁぁぁーーー！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"GYAAAAAAAAAHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fc6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3c0106008ba409006b00b1ff"
+	},
+	{
+		"LABEL": "0x1fd6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 317,
+		"MSGID": 106,
+		"VOICEID": 41945,
+		"NameJPN": "天善",
+		"JPN": "「ぐわああああああああぁぁぁぁーーー！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"GAAAAAAAAAAHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2016",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 319,
+		"MSGID": 107,
+		"JPN": "そして、遠くから聞こえてくる裸２人の叫び声。",
+		"ENG": "I heard the death-wails of two nudists far off in the distance.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2052",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 321,
+		"MSGID": 108,
+		"NameJPN": "羽依里",
+		"JPN": "「おっちゃん……水、下さい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey... Could I get a glass of water?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2088",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 323,
+		"MSGID": 109,
+		"JPN": "この島の忘れられない思い出が、また１つ増えた。",
+		"ENG": "That's another unforgettable memory of this island to add to the pile.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c6",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "45011800d200"
+	},
+	{
+		"LABEL": "0x20d0",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "4801ff000000"
+	},
+	{
+		"LABEL": "0x20da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x20e8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x20f0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x20f6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x20fc",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0102"
+	},
+	{
+		"LABEL": "0x2102",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x210a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x2116",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x2122",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2128",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x212e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2132",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2138",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x213c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2140",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4901"
+	},
+	{
+		"LABEL": "0x2146",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "4a010080"
+	}
+]

@@ -1,0 +1,816 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1000"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001827"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「おはよう……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Morning...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "140001000aac00008002b4009100"
+	},
+	{
+		"LABEL": "0x74",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 1,
+		"VOICEID": 27080,
+		"NameJPN": "うみ",
+		"JPN": "「おはよう」",
+		"NameENG": "Umi",
+		"ENG": "\"Morning.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 2,
+		"JPN": "今朝もうみちゃんが、朝食の準備を整えていた。",
+		"ENG": "I found Umi-chan in the kitchen preparing breakfast again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xda",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「悪いね」",
+		"NameENG": "Hairi",
+		"ENG": "\"Thanks for cooking.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1c000100c4ac"
+	},
+	{
+		"LABEL": "0x108",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x110",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x116",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 4,
+		"VOICEID": 27081,
+		"NameJPN": "うみ",
+		"JPN": "「そういう分担だもん」",
+		"NameENG": "Umi",
+		"ENG": "\"Hey, that's how the chores were split.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「鏡子さんはやっぱりいないんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Still no Kyouko-san this morning.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2200010052ac"
+	},
+	{
+		"LABEL": "0x188",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 6,
+		"VOICEID": 27082,
+		"NameJPN": "うみ",
+		"JPN": "「すごく朝早いみたいだよ」",
+		"NameENG": "Umi",
+		"ENG": "\"I think she's a bit of a morning person.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2600010098ae"
+	},
+	{
+		"LABEL": "0x1ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 7,
+		"VOICEID": 27083,
+		"NameJPN": "うみ",
+		"JPN": "「あと……すごく偏食みたい……」",
+		"NameENG": "Umi",
+		"ENG": "\"And also... a really bad eater...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x208",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2a000005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x218",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x226",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x234",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x242",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "2b000100"
+	},
+	{
+		"LABEL": "0x24a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x258",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e000080026801"
+	},
+	{
+		"LABEL": "0x26a",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x272",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000000000000b400"
+	},
+	{
+		"LABEL": "0x280",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a340800004cff"
+	},
+	{
+		"LABEL": "0x28e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x296",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x29c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 8,
+		"JPN": "言ってちらりとシンクを見る。",
+		"ENG": "She glanced at the sink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 9,
+		"JPN": "そこには食べて洗った後の、カップうどんの容器が置いてあった。",
+		"ENG": "Lying inside was a washed, instant udon bowl.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x314",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "31000005"
+	},
+	{
+		"LABEL": "0x31c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x32a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x330",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x33e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3200"
+	},
+	{
+		"LABEL": "0x344",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x352",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x35a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x360",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x364",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「あれを朝に食べたんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"She ate that for breakfast?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x396",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3600010062ae00008002b4009100"
+	},
+	{
+		"LABEL": "0x3a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 11,
+		"VOICEID": 27084,
+		"NameJPN": "うみ",
+		"JPN": "「そのうち私が直さないと」",
+		"NameENG": "Umi",
+		"ENG": "\"I have to make sure to fix that habit of hers, one day!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 12,
+		"JPN": "使命感を燃やしていた。",
+		"ENG": "Someone's fired up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x406",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "3c000100000f00"
+	},
+	{
+		"LABEL": "0x412",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x418",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 13,
+		"JPN": "でも……",
+		"ENG": "But...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x430",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4000007c100300"
+	},
+	{
+		"LABEL": "0x43c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4100"
+	},
+	{
+		"LABEL": "0x442",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x448",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00008908000000000000"
+	},
+	{
+		"LABEL": "0x456",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x45e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x464",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x468",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 14,
+		"JPN": "うみちゃんが作っている朝食は、チャーハンだった。",
+		"ENG": "Umi-chan's breakfast was fried rice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 15,
+		"JPN": "不自然に甘い香りがしている。",
+		"ENG": "It smelled oddly sweet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「偏食……か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Who's a bad eater...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fc",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "49000000000000780001"
+	},
+	{
+		"LABEL": "0x50a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4b00"
+	},
+	{
+		"LABEL": "0x510",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x518",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x526",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x52c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x532",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x536",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x53c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4d00"
+	},
+	{
+		"LABEL": "0x542",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x550",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x558",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x55e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 17,
+		"JPN": "２人で朝食をとる。",
+		"ENG": "The two of us had breakfast together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x584",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 18,
+		"JPN": "今更だけど、変な感じだ。",
+		"ENG": "It was a little awkward. Though maybe it's a bit late to say that now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 83,
+		"MSGID": 19,
+		"JPN": "チャーハンは――……なんか、甘い。",
+		"ENG": "The fried rice was... for some reason, a little sweet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5de",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "5500010078ad00008002b4009100"
+	},
+	{
+		"LABEL": "0x5f0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 20,
+		"VOICEID": 27085,
+		"NameJPN": "うみ",
+		"JPN": "「お醤油とっておとーさん」",
+		"NameENG": "Umi",
+		"ENG": "\"Could you pass the soy sauce, Dad?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x628",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「……は」",
+		"NameENG": "Hairi",
+		"ENG": "\"...What?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x64c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5b00010050ae"
+	},
+	{
+		"LABEL": "0x656",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x65e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x664",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 22,
+		"VOICEID": 27086,
+		"NameJPN": "うみ",
+		"JPN": "「はっ」",
+		"NameENG": "Umi",
+		"ENG": "\"Hah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x684",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5f00010098ae"
+	},
+	{
+		"LABEL": "0x68e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x694",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 23,
+		"VOICEID": 27087,
+		"NameJPN": "うみ",
+		"JPN": "「変な呼び方しちゃった」",
+		"NameENG": "Umi",
+		"ENG": "\"Sorry, that was super weird just now!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 99,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「まぁあるよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, it happens, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「先生のことをおかーさんって呼んだり」",
+		"NameENG": "Hairi",
+		"ENG": "\"Like, when you accidentally call your teacher$d'Mom.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x72c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6600010010ac"
+	},
+	{
+		"LABEL": "0x736",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x73c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 26,
+		"VOICEID": 27088,
+		"NameJPN": "うみ",
+		"JPN": "「それっ」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x75e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6a0001000aac"
+	},
+	{
+		"LABEL": "0x768",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x76e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 27,
+		"VOICEID": 27089,
+		"NameJPN": "うみ",
+		"JPN": "「あるよね」",
+		"NameENG": "Umi",
+		"ENG": "\"It happens!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x792",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「まぁ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, I guess...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 29,
+		"JPN": "あったかな。",
+		"ENG": "Sure it does, right?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 30,
+		"JPN": "チャーハンを食べる。",
+		"ENG": "I chowed on my fried rice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「うみちゃん、俺も醤油ちょうだい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi-chan, could I get some soy sauce, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x830",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7900"
+	},
+	{
+		"LABEL": "0x836",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "7b000080"
+	}
+]

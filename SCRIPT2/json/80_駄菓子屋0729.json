@@ -1,0 +1,5008 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0b00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0f00010038b200008002b4002d00"
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「あれは……うみちゃん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Isn't that... Umi-chan?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "駄菓子屋で何かを買っているようだ。",
+		"ENG": "She was buying something at the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1500010044b2"
+	},
+	{
+		"LABEL": "0xae",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0xb6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 2,
+		"JPN": "腕に何かを巻き付けて、満足げに頷いている。",
+		"ENG": "She wrapped it around her wrist and nodded in satisfaction.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 3,
+		"JPN": "そして……",
+		"ENG": "Then she went off on her way.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x110",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1b00"
+	},
+	{
+		"LABEL": "0x116",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1c00010034b3"
+	},
+	{
+		"LABEL": "0x120",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "1d001200"
+	},
+	{
+		"LABEL": "0x12e",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "1e0001000000008002b400"
+	},
+	{
+		"LABEL": "0x13e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100021800c202b400"
+	},
+	{
+		"LABEL": "0x14c",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x156",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15c",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "1f001200"
+	},
+	{
+		"LABEL": "0x164",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「走って行ってしまった」",
+		"NameENG": "Hairi",
+		"ENG": "\"Somebody's in a hurry.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x196",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 5,
+		"JPN": "とりあえず、俺も駄菓子屋へ。",
+		"ENG": "I figured I might as well check the store out, too.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 6,
+		"VOICEID": 23763,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「何が入り用かいの？」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Need somethin'?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x202",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 7,
+		"NameJPN": "羽依里",
+		"JPN": "「えーっと」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ummm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x228",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "29007117ff01000000",
+		"JPN": [
+			"うみちゃんと同じ物を１つ",
+			"かき氷をひとつ"
+		],
+		"ENG": [
+			"One of what Umi-chan had",
+			"One shaved ice"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x26a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2f00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0xb1a"
+	},
+	{
+		"LABEL": "0x280",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「さっきの子と同じのを」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll take the same thing as the girl who was just$dhere.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 9,
+		"VOICEID": 41946,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「どっちじゃったかの？」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Which one?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　どっちって？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Which what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x324",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 11,
+		"VOICEID": 41947,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「うぉっちタイプと、りすとばんどタイプがあるでの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"We've got watch-types and wristband-types.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x380",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「えーっと……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Err...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 13,
+		"JPN": "遠目だったからよく分からない。",
+		"ENG": "They were behind the counter, and I couldn't even see them clearly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 14,
+		"JPN": "とりあえず……",
+		"ENG": "Time to pick one at random, I guess...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f6",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "420071170202010002",
+		"JPN": [
+			"うぉっちタイプを",
+			"りすとばんどタイプを"
+		],
+		"ENG": [
+			"The watch one",
+			"The wristband one"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x436",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4700",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x456"
+	},
+	{
+		"LABEL": "0x44c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4900",
+		"GOTO_LABEL": "0x534"
+	},
+	{
+		"LABEL": "0x456",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4a00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x534"
+	},
+	{
+		"LABEL": "0x46c",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4d000000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x48a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "51008d170200"
+	},
+	{
+		"LABEL": "0x494",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5400",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x4be"
+	},
+	{
+		"LABEL": "0x4aa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5500",
+		"GOTO_LABEL": "0xb30"
+	},
+	{
+		"LABEL": "0x4b4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5600",
+		"GOTO_LABEL": "0x4be"
+	},
+	{
+		"LABEL": "0x4be",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "58008e173100"
+	},
+	{
+		"LABEL": "0x4c8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "5b000000b800000000000000"
+	},
+	{
+		"LABEL": "0x4d8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x4e0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x4e6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x4ee",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x4fa",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x506",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x50c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x512",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x51c",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x520",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x524",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5c00"
+	},
+	{
+		"LABEL": "0x52a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5e00",
+		"GOTO_LABEL": "0x534"
+	},
+	{
+		"LABEL": "0x534",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 15,
+		"VOICEID": 23764,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ほほ～う、おまえさんも行くのかい、ファイターの道を」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Hohoo? So you've decided to walk the path of the Fighter as well?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x594",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 17,
+		"JPN": "やばいのを引いたかも。",
+		"ENG": "I might've just made a terrible decision.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 18,
+		"VOICEID": 23765,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「その目、覚悟は十分のようだのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"You're ready, aren'tcha? I can see it in your eyes.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「いえ、見間違いだと思います」",
+		"NameENG": "Hairi",
+		"ENG": "\"I think it might be time for your annual vision checkup, ma'am.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x662",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 20,
+		"VOICEID": 23766,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「受け取るがええ、ファイターの証じゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Accept this as the emblem of your fighting spirit!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「いえ、やっぱいらないっす」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nah, think I'll pass after all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「って、腕を勝手に……！　",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, hands off my wrist! ",
+		"Args": "05"
+	},
+	{
+		"LABEL": "0x71c",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0001060000520601010052"
+	},
+	{
+		"LABEL": "0x72c",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520601010000"
+	},
+	{
+		"LABEL": "0x73c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 23,
+		"JPN": "ちょ、力…強っ！　おばーちゃん力強っ…やめ、やめろっ！」",
+		"ENG": "Woah, wha...!? Holy crap, how are you this strong, lady!? Stop! Cut it out!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x784",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "720005f20f0300"
+	},
+	{
+		"LABEL": "0x790",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 24,
+		"JPN": "カチャ……",
+		"ENG": "Kachak...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「なんだこのできそこないの腕時計みたいなのは……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"The heck's with this watch? It doesn't even work!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 119,
+		"MSGID": 26,
+		"VOICEID": 23767,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「これで今からおまえさんもファイターじゃて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"As of this moment, you've become a Fighter.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x84e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 121,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「うみちゃんは一体何をしてるんだ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"What on earth has Umi-chan gotten herself wrapped up in...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x88e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 123,
+		"MSGID": 28,
+		"VOICEID": 23768,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「この鳥白島に住む数多の島モンたちを手に入れ、王を目指すのじゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Capture the Shimamon living on this island, and aim for the throne of the King!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「あー……なるほど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ahh... Okay, I think I get it...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x92a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 30,
+		"JPN": "どうやら夏休みの子供向けのイベントのようだ。",
+		"ENG": "I figured it must be some sort of summer vacation event for the islander kids.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x966",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 31,
+		"JPN": "うみちゃんとの会話が増えるかもしれないし、乗っかるか。",
+		"ENG": "It might give me something to talk about with Umi-chan, so might as well give it a try.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「ルールはよく分からないけど、いっちょ王を目指すか」",
+		"NameENG": "Hairi",
+		"ENG": "\"No clue what the rules are, but guess I might as well set my sights on the crown.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 33,
+		"VOICEID": 23769,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「時が来れば、その腕輪がなすべき事を教えてくれよる」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"When the time comes, your watch will teach you all you need to know.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「ふーん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huuuh.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa7c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 35,
+		"VOICEID": 23770,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「……死ぬなよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"...Don't die, dearie.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xab6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　死ぬの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Wait, is that on the table?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xae2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 37,
+		"JPN": "物騒な事を言われた。",
+		"ENG": "That's a pretty concerning thing to get told out of nowhere!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb06",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "90008d170100"
+	},
+	{
+		"LABEL": "0xb10",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9300",
+		"GOTO_LABEL": "0x5092"
+	},
+	{
+		"LABEL": "0xb1a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9500",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x5092"
+	},
+	{
+		"LABEL": "0xb30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 38,
+		"NameJPN": "羽依里",
+		"JPN": "「かき氷をひとつ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll have a shaved ice, please.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 39,
+		"NameJPN": "羽依里",
+		"JPN": "「味は同じだけどイチゴで」",
+		"NameENG": "Hairi",
+		"ENG": "\"Strawberry flavor, and yes, I know they all taste the same.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb90",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 158,
+		"MSGID": 40,
+		"VOICEID": 23771,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「１００万円じゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"That'll be a million yen.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 160,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「９９万９千９００円足りないけど、まけてほしい」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm nine hundred and ninety-nine thousand, nine hundred yen short, but hopefully you'll cut me a discount.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 162,
+		"MSGID": 42,
+		"JPN": "全てに先手をうって１００円を手渡す。",
+		"ENG": "I stole all of her jokes' punchlines and handed over a hundred yen coin.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 164,
+		"MSGID": 43,
+		"VOICEID": 23772,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「………」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 166,
+		"MSGID": 44,
+		"JPN": "受け取らない。",
+		"ENG": "She didn't take it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「あの……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 170,
+		"MSGID": 46,
+		"VOICEID": 23773,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "$S048「きええええええええぇぇぇぇぇぇぇーーーーーーー！」$S",
+		"NameENG": "Candy Store Lady",
+		"ENG": "$S048\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd30",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "ac00ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0xd42",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0xd52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 174,
+		"MSGID": 47,
+		"JPN": "びくっ！",
+		"ENG": "Holy!?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 176,
+		"MSGID": 48,
+		"VOICEID": 23774,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "$S048「呪われろぉーーー！　きええええええええぇぇぇぇーーー！」$S",
+		"NameENG": "Candy Store Lady",
+		"ENG": "$S048\"A CURSE UPON YOOUUU! KIIII$dEEEEEEEEEEEHHHHHHHHHHHHH!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xddc",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "b200000000007800"
+	},
+	{
+		"LABEL": "0xde8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "b40000a10e0300"
+	},
+	{
+		"LABEL": "0xdf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 49,
+		"JPN": "そう叫んでおばーさんは走り去っていった。",
+		"ENG": "Then she ran off, still screaming.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「えーー……」",
+		"NameENG": "Hairi",
+		"ENG": "\"What.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe54",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "ba0000000000005a0001"
+	},
+	{
+		"LABEL": "0xe62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 51,
+		"JPN": "かき氷はない……",
+		"ENG": "My shaved ice...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe82",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "be00b2860100"
+	},
+	{
+		"LABEL": "0xe8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 52,
+		"VOICEID": 29247,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ねえ、聞いた？」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Hey, did you hear that?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xebc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 53,
+		"VOICEID": 29248,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「やらかしちゃったみたいだね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He's really done it now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xef8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 196,
+		"MSGID": 54,
+		"VOICEID": 23777,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「恐ろしいことになりますわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Nothing good could possibly come of this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 198,
+		"MSGID": 55,
+		"NameJPN": "羽依里",
+		"JPN": "「またおまえらか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, you girls again?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf5e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c800",
+		"Equation": "(#23==1)",
+		"GOTO_LABEL": "0x1fe2"
+	},
+	{
+		"LABEL": "0xf72",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cb00",
+		"Equation": "(@称号を獲得したことがある(2))",
+		"GOTO_LABEL": "0x1298"
+	},
+	{
+		"LABEL": "0xf9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 56,
+		"VOICEID": 29249,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「従順なルシファーだって言ってたのに……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He used to be such a docile Lucifer, too...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 208,
+		"MSGID": 57,
+		"VOICEID": 29250,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……恐ろしい……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Did he seriously just defy the old lady of the candy store...? That's crazy...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1036",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 58,
+		"VOICEID": 29251,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「さすが神に弓を引いた堕天使ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Just as one would expect from the fallen angel who pointed his bow at God.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1074",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 59,
+		"VOICEID": 23781,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 211,
+		"MSGID": 60,
+		"VOICEID": 29252,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 213,
+		"MSGID": 61,
+		"VOICEID": 29253,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われた従順なルシファーよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Cursed Docile Lucifer!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x111a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「なんでも頭につけるのはどうかと思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Just how many adjectives are you planning to attach to my title?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x115a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 217,
+		"MSGID": 63,
+		"VOICEID": 29254,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「でも事実は変わらないし」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"There's no escaping the truth, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1192",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 219,
+		"MSGID": 64,
+		"VOICEID": 23785,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「きっと、不幸なことが起こるに違いないですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"I'm sure something unfortunate will happen to you very soon.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 221,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1208",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e00071170600"
+	},
+	{
+		"LABEL": "0x1212",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0100",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x122c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e10005410e0300"
+	},
+	{
+		"LABEL": "0x1238",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000006000000"
+	},
+	{
+		"LABEL": "0x1244",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "e20018000800"
+	},
+	{
+		"LABEL": "0x124e",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "e3004200000000",
+		"JPN": "呪われた従順なルシファーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x1288",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x128e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e500",
+		"GOTO_LABEL": "0x1fd8"
+	},
+	{
+		"LABEL": "0x1298",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e800",
+		"Equation": "(@称号を獲得したことがある(4))",
+		"GOTO_LABEL": "0x1612"
+	},
+	{
+		"LABEL": "0x12c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 234,
+		"MSGID": 67,
+		"VOICEID": 29255,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「所詮はファッションにしか興味が無いルシファーなのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Even though he's nothing more than a fashion-crazed Lucifer...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1316",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 68,
+		"VOICEID": 29250,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……恐ろしい……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Did he seriously just defy the old lady of the candy store...? That's crazy...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1368",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 69,
+		"VOICEID": 29251,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「さすが神に弓を引いた堕天使ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Just as one would expect from the fallen angel who pointed his bow at God.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 239,
+		"MSGID": 70,
+		"VOICEID": 23781,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 240,
+		"MSGID": 71,
+		"VOICEID": 29252,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1408",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 72,
+		"VOICEID": 29256,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われたファッションのルシファーよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Lucifer of Cursed Fashion!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1454",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 246,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "「意味が分からないけど……それってどうなるんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"No clue what that even means, but... what's gonna happen to me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 74,
+		"VOICEID": 29257,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「よく見ればあなたの服装、ダサいわね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Come to think of it, your clothes are actually really tacky, aren't they?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 250,
+		"MSGID": 75,
+		"VOICEID": 23789,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「理由は分からないけど、すごく不快ですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"I can't put my finger on why, but they seem incredibly unpleasant.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x152c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 252,
+		"MSGID": 76,
+		"NameJPN": "羽依里",
+		"JPN": "「なるほど、俺のファッションが、早速呪われたか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, that explains it. My fashion sense has already fallen prey to the curse...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x157a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ff0071170700"
+	},
+	{
+		"LABEL": "0x1584",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0200",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x159e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "000105410e0300"
+	},
+	{
+		"LABEL": "0x15aa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000007000000"
+	},
+	{
+		"LABEL": "0x15b6",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "010118000900"
+	},
+	{
+		"LABEL": "0x15c0",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "02014d00000000",
+		"JPN": "呪われたファッションのルシファーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x1602",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1608",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0301",
+		"GOTO_LABEL": "0x1fd8"
+	},
+	{
+		"LABEL": "0x1612",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0701",
+		"Equation": "(@称号を獲得したことがある(3))",
+		"GOTO_LABEL": "0x1a26"
+	},
+	{
+		"LABEL": "0x163c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 265,
+		"MSGID": 78,
+		"VOICEID": 23790,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「ルシフェァレェァ……なんてことを……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Lucifyela... What have you done...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1682",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 268,
+		"MSGID": 79,
+		"VOICEID": 29250,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……恐ろしい……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Did he seriously just defy the old lady of the candy store...? That's crazy...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 269,
+		"MSGID": 80,
+		"VOICEID": 29251,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「さすが神に弓を引いた堕天使ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Just as one would expect from the fallen angel who pointed his bow at God.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1712",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 81,
+		"VOICEID": 23781,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1748",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 271,
+		"MSGID": 82,
+		"VOICEID": 29252,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1774",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 273,
+		"MSGID": 83,
+		"VOICEID": 23791,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われたルシフェァレェァ……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"The cursed Lucifyela...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 275,
+		"MSGID": 84,
+		"VOICEID": 23792,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「いえ……、のるぉわるぇーた・ルシフェァレェァ……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"No... The Currsieaded Lucifyela...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1804",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 277,
+		"MSGID": 85,
+		"NameJPN": "羽依里",
+		"JPN": "「呪われたは日本語だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Cursed' is just a normal word, you don't have to say it all weird.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1838",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 279,
+		"MSGID": 86,
+		"VOICEID": 23793,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "$S048「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」$S",
+		"NameENG": "Island Girl C",
+		"ENG": "$S048\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x189c",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "1901ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x18ae",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x18be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 283,
+		"MSGID": 87,
+		"JPN": "びくっ！",
+		"ENG": "Holy!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 285,
+		"MSGID": 88,
+		"JPN": "女の子は走り去ってしまった。",
+		"ENG": "The girl ran off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1902",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 287,
+		"MSGID": 89,
+		"VOICEID": 29258,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたわね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"She cursed him, didn't she?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1930",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 90,
+		"VOICEID": 29259,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yep, she cursed him all right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1962",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 291,
+		"MSGID": 91,
+		"NameJPN": "羽依里",
+		"JPN": "「……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x198c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "260171170800"
+	},
+	{
+		"LABEL": "0x1996",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0300",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x19b0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "270105410e0300"
+	},
+	{
+		"LABEL": "0x19bc",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000008000000"
+	},
+	{
+		"LABEL": "0x19c8",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "280118000a00"
+	},
+	{
+		"LABEL": "0x19d2",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "29015c00000000",
+		"JPN": "のるぉわるぇーた・ルシフェァレェァの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x1a16",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1a1c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2b01",
+		"GOTO_LABEL": "0x1fd8"
+	},
+	{
+		"LABEL": "0x1a26",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2e01",
+		"Equation": "(@称号を獲得したことがある(5))",
+		"GOTO_LABEL": "0x1fd8"
+	},
+	{
+		"LABEL": "0x1a50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 93,
+		"VOICEID": 29260,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ヒデに会ったことがあるルシファーは伊達じゃないのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Looks like Lucifer really does have what it takes to meet Hide!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aa4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 307,
+		"MSGID": 94,
+		"VOICEID": 29250,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……恐ろしい……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Did he seriously just defy the old lady of the candy store...? That's crazy...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1af6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 308,
+		"MSGID": 95,
+		"VOICEID": 29251,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「さすが神に弓を引いた堕天使ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Just as one would expect from the fallen angel who pointed his bow at God.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 309,
+		"MSGID": 96,
+		"VOICEID": 23781,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 310,
+		"MSGID": 97,
+		"VOICEID": 29252,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 312,
+		"MSGID": 98,
+		"VOICEID": 29261,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたヒデに会ったことがあるルシファーね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"The Cursed-Hide-Acquainted Lucifer, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1be2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 314,
+		"MSGID": 99,
+		"NameJPN": "羽依里",
+		"JPN": "「まって」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 100,
+		"NameJPN": "羽依里",
+		"JPN": "「勝手にヒデを呪わないでくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Don't say it like that―you're making it sound like Hide's cursed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 101,
+		"VOICEID": 23798,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「他人に呪いを押しつけるなんて……あなた、もしかして凄腕？」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He just foisted his curse off on someone else like it was nothing... Are you a master, perchance?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 320,
+		"MSGID": 102,
+		"NameJPN": "羽依里",
+		"JPN": "「なんの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Of what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 322,
+		"MSGID": 103,
+		"VOICEID": 29262,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「いいえ、言わなくてもいいわ」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"No, it's okay. You don't have to say it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cfa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 324,
+		"MSGID": 104,
+		"VOICEID": 29263,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「私には分かる。あなたは強い業を背負っているの」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"I understand. You're carrying the weight of the world on your shoulders.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 326,
+		"MSGID": 105,
+		"VOICEID": 29264,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「過去……それも遠い遠い過去の…こことは違う世界」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"In the past... A long, long time ago... In a world completely different from ours...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 328,
+		"MSGID": 106,
+		"VOICEID": 29265,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「え……怖い……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Whaaa...? That's scary...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 330,
+		"MSGID": 107,
+		"VOICEID": 29266,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「そうね、怖いね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yeah, he's terrifying.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1df8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 332,
+		"MSGID": 108,
+		"VOICEID": 29267,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなたが……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I meant you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 334,
+		"MSGID": 109,
+		"VOICEID": 29268,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「え?!　わたし？」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Huh!? Me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 336,
+		"MSGID": 110,
+		"VOICEID": 23806,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「こっち見ないで」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Don't look at me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 338,
+		"MSGID": 111,
+		"VOICEID": 29269,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「そんなーーー！」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"No wayyyy!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1eb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 112,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1edc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 342,
+		"MSGID": 113,
+		"JPN": "女子の友情に亀裂を入れてしまった。",
+		"ENG": "I'd driven a wedge into the girls' tightly knit friendship.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 344,
+		"MSGID": 114,
+		"JPN": "罪深いことをしてしまった。",
+		"ENG": "I've done something unforgivable.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f38",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5b0171170900"
+	},
+	{
+		"LABEL": "0x1f42",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0400",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1f5c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "5c0105410e0300"
+	},
+	{
+		"LABEL": "0x1f68",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000009000000"
+	},
+	{
+		"LABEL": "0x1f74",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "5d0118000b00"
+	},
+	{
+		"LABEL": "0x1f7e",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "5e017300000000",
+		"JPN": "呪われたヒデに会ったことがあるルシファーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x1fc8",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1fce",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5f01",
+		"GOTO_LABEL": "0x1fd8"
+	},
+	{
+		"LABEL": "0x1fd8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6101",
+		"GOTO_LABEL": "0x4fca"
+	},
+	{
+		"LABEL": "0x1fe2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6301",
+		"Equation": "(#24==1)",
+		"GOTO_LABEL": "0x3094"
+	},
+	{
+		"LABEL": "0x1ff6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6601",
+		"Equation": "(@称号を獲得したことがある(10))",
+		"GOTO_LABEL": "0x2322"
+	},
+	{
+		"LABEL": "0x2020",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 360,
+		"MSGID": 116,
+		"VOICEID": 29270,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「従順なカナリアンロッカーだって言ってたのに……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He used to be such a docile Canary 'n' Rocker,$dtoo...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2070",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 363,
+		"MSGID": 117,
+		"VOICEID": 29271,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Did he seriously just defy the old lady of the candy store...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 364,
+		"MSGID": 118,
+		"VOICEID": 29272,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「まさにロックな生き様ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Definitely living a rocker's way of life.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 365,
+		"MSGID": 119,
+		"VOICEID": 23811,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2124",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 366,
+		"MSGID": 120,
+		"VOICEID": 29273,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2150",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 368,
+		"MSGID": 121,
+		"VOICEID": 29274,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われた従順なカナリアンロッカーよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Cursed Docile Canary 'n' Rocker!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x219c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 370,
+		"MSGID": 122,
+		"NameJPN": "羽依里",
+		"JPN": "「なんでも頭につけるのはどうかと思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Just how many adjectives are you planning to attach to my title?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 123,
+		"VOICEID": 29275,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「でも事実は変わらないし」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"There's no escaping the truth, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2214",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 374,
+		"MSGID": 124,
+		"VOICEID": 23815,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「きっと、不幸なことが起こるに違いないですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"I'm sure something unfortunate will happen to you very soon.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2260",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 376,
+		"MSGID": 125,
+		"NameJPN": "羽依里",
+		"JPN": "「……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x228a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7b0171170e00"
+	},
+	{
+		"LABEL": "0x2294",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0500",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x22ae",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "7c0105410e0300"
+	},
+	{
+		"LABEL": "0x22ba",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000000e000000"
+	},
+	{
+		"LABEL": "0x22c6",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "7d0118001000"
+	},
+	{
+		"LABEL": "0x22d0",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "7e017e00000000",
+		"JPN": "呪われた従順なカナリアンロッカーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x2312",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2318",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7f01",
+		"GOTO_LABEL": "0x308a"
+	},
+	{
+		"LABEL": "0x2322",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8201",
+		"Equation": "(@称号を獲得したことがある(11))",
+		"GOTO_LABEL": "0x268c"
+	},
+	{
+		"LABEL": "0x234c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 388,
+		"MSGID": 127,
+		"VOICEID": 29276,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「所詮はファッションにしか興味が無いカナリアンロッカーなのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Even though he's nothing more than a fashion-crazed canary 'n' rocker...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 391,
+		"MSGID": 128,
+		"VOICEID": 29271,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think that he would defy the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 392,
+		"MSGID": 129,
+		"VOICEID": 29272,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「まさにロックな生き様ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Definitely living a rocker's way of life.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2426",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 393,
+		"MSGID": 130,
+		"VOICEID": 23811,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x245c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 394,
+		"MSGID": 131,
+		"VOICEID": 29273,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2488",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 396,
+		"MSGID": 132,
+		"VOICEID": 29277,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われたファッションのカナリアンロッカーよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Canary 'n' Rocker of Cursed Fashion!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 398,
+		"MSGID": 133,
+		"NameJPN": "羽依里",
+		"JPN": "「あれ？　チェックが無くなってないか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Weren't you supposed to check my fashion sense at some point in there?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x251e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 400,
+		"MSGID": 134,
+		"VOICEID": 29278,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「よく見ればあなたの服装、ダサいわね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Now that you mention it, your clothes are actually really tacky, aren't they?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 402,
+		"MSGID": 135,
+		"VOICEID": 23819,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「理由は分からないけど、すごく不快ですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"I can't put my finger on why, but they seem incredibly unpleasant.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 404,
+		"MSGID": 136,
+		"NameJPN": "羽依里",
+		"JPN": "「俺のファッションが早速呪われたか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"So my fashion sense has already fallen prey to the curse...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25ec",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "970171170f00"
+	},
+	{
+		"LABEL": "0x25f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0600",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2610",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "980105410e0300"
+	},
+	{
+		"LABEL": "0x261c",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000000f000000"
+	},
+	{
+		"LABEL": "0x2628",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "990118001100"
+	},
+	{
+		"LABEL": "0x2632",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "9a018900000000",
+		"JPN": "呪われたファッションのカナリアンロッカーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x267c",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2682",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9b01",
+		"GOTO_LABEL": "0x308a"
+	},
+	{
+		"LABEL": "0x268c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9e01",
+		"Equation": "(@称号を獲得したことがある(12))",
+		"GOTO_LABEL": "0x2ad2"
+	},
+	{
+		"LABEL": "0x26b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 416,
+		"MSGID": 138,
+		"VOICEID": 23820,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「ロケンローレァ……さすがですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Rock 'n' Rollah... That was incredible.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 420,
+		"MSGID": 139,
+		"VOICEID": 29271,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think that he would defy the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x273c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 421,
+		"MSGID": 140,
+		"VOICEID": 29272,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「まさにロックな生き様ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Definitely living a rocker's way of life.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2774",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 423,
+		"MSGID": 141,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ、ロケンローレァだし」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, I mean, I am the Rock 'n' Rollah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 425,
+		"MSGID": 142,
+		"VOICEID": 23811,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 426,
+		"MSGID": 143,
+		"VOICEID": 29273,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x280c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 428,
+		"MSGID": 144,
+		"VOICEID": 23821,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われたロケンローレァ……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"The Cursed Rock 'n' Rollah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2848",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 432,
+		"MSGID": 145,
+		"VOICEID": 23822,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「いえ……、のるぉわるぇーた・ロケンローレァ……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"No... The Currsieaded Rock 'n' Rollah...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2898",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 436,
+		"MSGID": 146,
+		"NameJPN": "羽依里",
+		"JPN": "「呪われたは日本語だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Cursed' is just a normal word, you don't have to say it all weird.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 439,
+		"MSGID": 147,
+		"VOICEID": 23793,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "$S048「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」$S",
+		"NameENG": "Island Girl C",
+		"ENG": "$S048\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2930",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "b901ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x2942",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x2952",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 443,
+		"MSGID": 148,
+		"JPN": "びくっ！",
+		"ENG": "Holy!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x296a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "bd0100a10e0300"
+	},
+	{
+		"LABEL": "0x2976",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 447,
+		"MSGID": 149,
+		"JPN": "女の子は走り去ってしまった。",
+		"ENG": "The girl ran off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29a2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c10100000000005a0001"
+	},
+	{
+		"LABEL": "0x29b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 451,
+		"MSGID": 150,
+		"VOICEID": 29258,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたわね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"She cursed him, didn't she?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 453,
+		"MSGID": 151,
+		"VOICEID": 29259,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yep, she cursed him all right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 455,
+		"MSGID": 152,
+		"NameJPN": "羽依里",
+		"JPN": "「……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a3a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "cb0171171000"
+	},
+	{
+		"LABEL": "0x2a44",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0700",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2a5e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "cc0105410e0300"
+	},
+	{
+		"LABEL": "0x2a6a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000010000000"
+	},
+	{
+		"LABEL": "0x2a76",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "cd0118001200"
+	},
+	{
+		"LABEL": "0x2a80",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "ce019900000000",
+		"JPN": "のるぉわるぇーた・ロケンローレァの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x2ac2",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2ac8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cf01",
+		"GOTO_LABEL": "0x308a"
+	},
+	{
+		"LABEL": "0x2ad2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d201",
+		"Equation": "(@称号を獲得したことがある(13))",
+		"GOTO_LABEL": "0x308a"
+	},
+	{
+		"LABEL": "0x2afc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 154,
+		"VOICEID": 29279,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ヒデに会ったことがあるカナリアンロッカーは伊達じゃないのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Looks like the Canary 'n' Rocker really does have what it takes to meet Hide!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 471,
+		"MSGID": 155,
+		"VOICEID": 29271,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに逆らっちゃうなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think he would defy the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 472,
+		"MSGID": 156,
+		"VOICEID": 29272,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「まさにロックな生き様ね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Definitely living a rocker's way of life.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bd6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 473,
+		"MSGID": 157,
+		"VOICEID": 23811,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c0c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 474,
+		"MSGID": 158,
+		"VOICEID": 29273,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 476,
+		"MSGID": 159,
+		"VOICEID": 29280,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたヒデに会ったことがあるカナリアンロッカーね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"The Cursed-Hide-acquainted Canary 'n' Rocker, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 478,
+		"MSGID": 160,
+		"NameJPN": "羽依里",
+		"JPN": "「まって」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 480,
+		"MSGID": 161,
+		"NameJPN": "羽依里",
+		"JPN": "「勝手にヒデを呪わないでくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Don't say it like that―you're making it sound like Hide's cursed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ce8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 483,
+		"MSGID": 162,
+		"VOICEID": 23798,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「他人に呪いを押しつけるなんて……あなた、もしかして凄腕？」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He just foisted his curse off on someone else like it was nothing... Are you a master, perchance?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 485,
+		"MSGID": 163,
+		"NameJPN": "羽依里",
+		"JPN": "「なんの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Of what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 487,
+		"MSGID": 164,
+		"VOICEID": 29262,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「いいえ、言わなくてもいいわ」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"No, it's okay. You don't have to say it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2da4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 489,
+		"MSGID": 165,
+		"VOICEID": 29263,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「私には分かる。あなたは強い業を背負っているの」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"I understand. You're carrying the weight of the world on your shoulders.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2df2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 491,
+		"MSGID": 166,
+		"VOICEID": 29264,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「過去……それも遠い遠い過去の…こことは違う世界」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"In the past... A past, long, long ago... In a world completely different from ours...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 493,
+		"MSGID": 167,
+		"VOICEID": 29265,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「え……怖い……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Whaaa...? That's scary...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 495,
+		"MSGID": 168,
+		"VOICEID": 29266,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「そうね、怖いね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yeah, he's terrifying.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ea2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 497,
+		"MSGID": 169,
+		"VOICEID": 29267,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなたが……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I meant you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ed0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 499,
+		"MSGID": 170,
+		"VOICEID": 29268,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「え?!　わたし？」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Huh!? Me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 501,
+		"MSGID": 171,
+		"VOICEID": 23806,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「こっち見ないで」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Don't look at me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 503,
+		"MSGID": 172,
+		"VOICEID": 29269,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「そんなーーー！」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"No wayyyy!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 505,
+		"MSGID": 173,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 507,
+		"MSGID": 174,
+		"JPN": "女子の友情に亀裂を入れてしまった。",
+		"ENG": "I'd driven a wedge into the girls' tightly knit friendship.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 509,
+		"MSGID": 175,
+		"JPN": "罪深いことをしてしまった。",
+		"ENG": "I've done something unforgivable.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "000271171100"
+	},
+	{
+		"LABEL": "0x2fec",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0800",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3006",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "010205410e0300"
+	},
+	{
+		"LABEL": "0x3012",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000011000000"
+	},
+	{
+		"LABEL": "0x301e",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "020218001300"
+	},
+	{
+		"LABEL": "0x3028",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "0302b000000000",
+		"JPN": "呪われたヒデに会ったことがあるカナリアンロッカーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x307a",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3080",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0402",
+		"GOTO_LABEL": "0x308a"
+	},
+	{
+		"LABEL": "0x308a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0602",
+		"GOTO_LABEL": "0x4fca"
+	},
+	{
+		"LABEL": "0x3094",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0802",
+		"Equation": "(#25==1)",
+		"GOTO_LABEL": "0x4152"
+	},
+	{
+		"LABEL": "0x30a8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0b02",
+		"Equation": "(@称号を獲得したことがある(18))",
+		"GOTO_LABEL": "0x33da"
+	},
+	{
+		"LABEL": "0x30d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 525,
+		"MSGID": 177,
+		"VOICEID": 29281,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「従順なチャンピオンだって言ってたのに……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He was such a docile Champion, too...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x311c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 528,
+		"MSGID": 178,
+		"VOICEID": 29282,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんにカウンターパンチなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think that he would dare to strike back at the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3166",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 529,
+		"MSGID": 179,
+		"VOICEID": 29283,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「後の先ね、きっとスピードには自信があったのよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I'm sure he had full confidence in the speed of his counters.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 530,
+		"MSGID": 180,
+		"VOICEID": 23828,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 531,
+		"MSGID": 181,
+		"VOICEID": 29284,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3216",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 533,
+		"MSGID": 182,
+		"VOICEID": 29285,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、鈍くて従順なチャンピオンよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Rusty Docile Champion!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x325a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 535,
+		"MSGID": 183,
+		"NameJPN": "羽依里",
+		"JPN": "「待って、なんか意味が変わった」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, the meaning kinda changed there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3294",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 537,
+		"MSGID": 184,
+		"VOICEID": 29286,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「でも事実は変わらないし」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"There's no escaping the truth, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 539,
+		"MSGID": 185,
+		"VOICEID": 23832,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「きっと、いざという時に機敏な動きができないですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"I'm sure his reflexes will betray him when he needs them most.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x331e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 541,
+		"MSGID": 186,
+		"NameJPN": "羽依里",
+		"JPN": "「……うそぉ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...No way...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x334a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "200271171600"
+	},
+	{
+		"LABEL": "0x3354",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0900",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x336e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "210205410e0300"
+	},
+	{
+		"LABEL": "0x337a",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000016000000"
+	},
+	{
+		"LABEL": "0x3386",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "220218001800"
+	},
+	{
+		"LABEL": "0x3390",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "2302bb00000000",
+		"JPN": "鈍くて従順なチャンピオンの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x33ca",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x33d0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2402",
+		"GOTO_LABEL": "0x4148"
+	},
+	{
+		"LABEL": "0x33da",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2702",
+		"Equation": "(@称号を獲得したことがある(19))",
+		"GOTO_LABEL": "0x3766"
+	},
+	{
+		"LABEL": "0x3404",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 553,
+		"MSGID": 188,
+		"VOICEID": 29287,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ファッションにしか興味が無いチャンピオンだと思っていたのに……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I was sure he was just a plain old Fashion-Crazed Champion...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3464",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 556,
+		"MSGID": 189,
+		"VOICEID": 29282,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんにカウンターパンチなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think that he would dare to strike back at the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 557,
+		"MSGID": 190,
+		"VOICEID": 29283,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「後の先ね、きっとスピードには自信があったのよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I'm sure he had full confidence in the speed of his counters.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 558,
+		"MSGID": 191,
+		"VOICEID": 23828,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3532",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 559,
+		"MSGID": 192,
+		"VOICEID": 29284,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x355e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 561,
+		"MSGID": 193,
+		"VOICEID": 29288,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われたファッションボクサーよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Boxer of Cursed Fashion!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 563,
+		"MSGID": 194,
+		"NameJPN": "羽依里",
+		"JPN": "「あれ？　なんか、なんちゃってボクサーになったぞ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? That sorta makes me sound like I'm not a boxer at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 565,
+		"MSGID": 195,
+		"VOICEID": 29289,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「格好だけのボクサーね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"A boxer in appearance only, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x362a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 567,
+		"MSGID": 196,
+		"VOICEID": 23836,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「ボクシング漫画を読んで、照明の紐を相手にシャドーボクシングしてそうですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He sounds like the kind of guy who would read boxing manga, then shadow box with the pull cord of a lamp.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3694",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 569,
+		"MSGID": 197,
+		"NameJPN": "羽依里",
+		"JPN": "「呪いとかどうでもよくなってない？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What happened to the curse?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x36d2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3c0271171700"
+	},
+	{
+		"LABEL": "0x36dc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0a00",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x36f6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3d0205410e0300"
+	},
+	{
+		"LABEL": "0x3702",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000017000000"
+	},
+	{
+		"LABEL": "0x370e",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "3e0218001900"
+	},
+	{
+		"LABEL": "0x3718",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "3f02c600000000",
+		"JPN": "呪われたファッションボクサーの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x3756",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x375c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4002",
+		"GOTO_LABEL": "0x4148"
+	},
+	{
+		"LABEL": "0x3766",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4302",
+		"Equation": "(@称号を獲得したことがある(20))",
+		"GOTO_LABEL": "0x3b88"
+	},
+	{
+		"LABEL": "0x3790",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 581,
+		"MSGID": 199,
+		"VOICEID": 23837,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「チャンピョン……さすがですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Champyon... That was incredible.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 584,
+		"MSGID": 200,
+		"VOICEID": 29282,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんにカウンターパンチなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think that he would dare to strike back at the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3818",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 585,
+		"MSGID": 201,
+		"VOICEID": 29283,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「後の先ね、きっとスピードには自信があったのよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I'm sure he had full confidence in the speed of his counters.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3866",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 586,
+		"MSGID": 202,
+		"VOICEID": 23828,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x389c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 587,
+		"MSGID": 203,
+		"VOICEID": 29284,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 589,
+		"MSGID": 204,
+		"VOICEID": 23838,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われたチャンピョン……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"The Cursed Champyon...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3902",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 591,
+		"MSGID": 205,
+		"VOICEID": 23839,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「いえ……、のるぉわるぇーた・チャンピョン……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"No... The Currsieaded Champyon...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3950",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 593,
+		"MSGID": 206,
+		"NameJPN": "羽依里",
+		"JPN": "「呪われたは日本語だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Cursed' is just a normal word, you don't have to say it all weird.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3984",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 596,
+		"MSGID": 207,
+		"VOICEID": 23793,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "$S048「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」$S",
+		"NameENG": "Island Girl C",
+		"ENG": "$S048\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39e8",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "5602ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x39fa",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x3a0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 600,
+		"MSGID": 208,
+		"JPN": "びくっ！",
+		"ENG": "Holy!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a22",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "5a0200a10e0300"
+	},
+	{
+		"LABEL": "0x3a2e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 604,
+		"MSGID": 209,
+		"JPN": "女の子は走り去ってしまった。",
+		"ENG": "The girl ran off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a5a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "5e0200000000005a0001"
+	},
+	{
+		"LABEL": "0x3a68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 608,
+		"MSGID": 210,
+		"VOICEID": 29258,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたわね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"She cursed him, didn't she?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 610,
+		"MSGID": 211,
+		"VOICEID": 29259,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yep, she cursed him all right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ac8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 612,
+		"MSGID": 212,
+		"NameJPN": "羽依里",
+		"JPN": "「……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scary.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3af2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "680271171800"
+	},
+	{
+		"LABEL": "0x3afc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0b00",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3b16",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "690205410e0300"
+	},
+	{
+		"LABEL": "0x3b22",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000018000000"
+	},
+	{
+		"LABEL": "0x3b2e",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "6a0218001a00"
+	},
+	{
+		"LABEL": "0x3b38",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "6b02d500000000",
+		"JPN": "のるぉわるぇーた・チャンピョンの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x3b78",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x3b7e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6c02",
+		"GOTO_LABEL": "0x4148"
+	},
+	{
+		"LABEL": "0x3b88",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6f02",
+		"Equation": "(@称号を獲得したことがある(21))",
+		"GOTO_LABEL": "0x4148"
+	},
+	{
+		"LABEL": "0x3bb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 625,
+		"MSGID": 214,
+		"VOICEID": 29290,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ヒデに会ったことがあるチャンピオンは伊達じゃないのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Looks like the Champion really does have what it takes to meet Hide!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 628,
+		"MSGID": 215,
+		"VOICEID": 29282,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんにカウンターパンチなんて……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"To think that he would dare to strike back at the old lady of the candy store...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 629,
+		"MSGID": 216,
+		"VOICEID": 29283,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「後の先ね、きっとスピードには自信があったのよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I'm sure he had full confidence in the speed of his counters.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ca0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 630,
+		"MSGID": 217,
+		"VOICEID": 23828,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、呪われましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He's cursed now, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cd6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 631,
+		"MSGID": 218,
+		"VOICEID": 29284,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He sure is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 633,
+		"MSGID": 219,
+		"VOICEID": 29291,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたヒデに会ったことがあるチャンピオンね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"The Cursed-Hide-Acquainted Champion, huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 635,
+		"MSGID": 220,
+		"NameJPN": "羽依里",
+		"JPN": "「まって」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 637,
+		"MSGID": 221,
+		"NameJPN": "羽依里",
+		"JPN": "「勝手にヒデを呪わないでくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Don't say it like that―you're making it sound like Hide's cursed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3dac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 640,
+		"MSGID": 222,
+		"VOICEID": 23798,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「他人に呪いを押しつけるなんて……あなた、もしかして凄腕？」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"He just foisted his curse off on someone else like it was nothing... Are you a master, perchance?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 642,
+		"MSGID": 223,
+		"NameJPN": "羽依里",
+		"JPN": "「なんの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Of what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 644,
+		"MSGID": 224,
+		"VOICEID": 29262,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「いいえ、言わなくてもいいわ」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"No, it's okay. You don't have to say it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 646,
+		"MSGID": 225,
+		"VOICEID": 29263,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「私には分かる。あなたは強い業を背負っているの」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"I understand. You're carrying the weight of the world on your shoulders.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3eb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 648,
+		"MSGID": 226,
+		"VOICEID": 29264,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「過去……それも遠い遠い過去の…こことは違う世界」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"In the past... A past, long, long ago... In a world completely different from ours...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 650,
+		"MSGID": 227,
+		"VOICEID": 29265,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「え……怖い……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Whaaa...? That's scary...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 652,
+		"MSGID": 228,
+		"VOICEID": 29266,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「そうね、怖いね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yeah, he's terrifying.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 654,
+		"MSGID": 229,
+		"VOICEID": 29267,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなたが……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"I meant you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f94",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 656,
+		"MSGID": 230,
+		"VOICEID": 29268,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「え?!　わたし？」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Huh!? Me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 658,
+		"MSGID": 231,
+		"VOICEID": 23806,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「こっち見ないで」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Don't look at me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ff6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 660,
+		"MSGID": 232,
+		"VOICEID": 29269,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「そんなーーー！」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"No wayyyy!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4026",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 662,
+		"MSGID": 233,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x404a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 664,
+		"MSGID": 234,
+		"JPN": "女子の友情に亀裂を入れてしまった。",
+		"ENG": "I'd driven a wedge into the girls' tightly knit friendship.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x407c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 666,
+		"MSGID": 235,
+		"JPN": "罪深いことをしてしまった。",
+		"ENG": "I've done something unforgivable.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40a6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9d0271171900"
+	},
+	{
+		"LABEL": "0x40b0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0c00",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x40ca",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "9e0205410e0300"
+	},
+	{
+		"LABEL": "0x40d6",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000019000000"
+	},
+	{
+		"LABEL": "0x40e2",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "9f0218001b00"
+	},
+	{
+		"LABEL": "0x40ec",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "a002ec00000000",
+		"JPN": "呪われたヒデに会ったことがあるチャンピオンの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x4138",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x413e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a102",
+		"GOTO_LABEL": "0x4148"
+	},
+	{
+		"LABEL": "0x4148",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a302",
+		"GOTO_LABEL": "0x4fca"
+	},
+	{
+		"LABEL": "0x4152",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a502",
+		"Equation": "(#26==1)",
+		"GOTO_LABEL": "0x4fca"
+	},
+	{
+		"LABEL": "0x4166",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a802",
+		"Equation": "(@称号を獲得したことがある(26))",
+		"GOTO_LABEL": "0x44d6"
+	},
+	{
+		"LABEL": "0x4190",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 682,
+		"MSGID": 237,
+		"VOICEID": 29292,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「従順なショッキングタカだって言ってたのに……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He used to be such a docile Shockin' Taka, too...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 685,
+		"MSGID": 238,
+		"VOICEID": 29293,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに対する優しさが無かったね……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He wasn't kind to the old lady at all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x422a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 686,
+		"MSGID": 239,
+		"VOICEID": 29294,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「やっぱり口説き方を忘れてしまったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He really has lost his silver tongue.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4270",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 687,
+		"MSGID": 240,
+		"VOICEID": 23845,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われても仕方ありませんわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"It's no surprise he'd get cursed after acting like that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 688,
+		"MSGID": 241,
+		"VOICEID": 29295,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われて当然ね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yeah, it was only natural.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 690,
+		"MSGID": 242,
+		"VOICEID": 29296,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われた従順なショッキングタカよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Cursed Docile Shockin' Taka!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x432c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 692,
+		"MSGID": 243,
+		"NameJPN": "羽依里",
+		"JPN": "「なんでも頭につけるのはどうかと思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Just how many adjectives are you planning to attach to my title?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x436c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 694,
+		"MSGID": 244,
+		"VOICEID": 29297,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「ホストは頭に数字を付けていくじゃない」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Hosts tend to attach numbers to their names, don't they?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 696,
+		"MSGID": 245,
+		"VOICEID": 23849,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「ナンバー１のショッキングタカを目指したことはあるんでしょ？」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Have you ever aimed for the position of #1 Shockin' Taka?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x440e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 698,
+		"MSGID": 246,
+		"NameJPN": "羽依里",
+		"JPN": "「いや……ないけど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"No... I haven't, actually...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4440",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "bd0271171e00"
+	},
+	{
+		"LABEL": "0x444a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0d00",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4464",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "be0205410e0300"
+	},
+	{
+		"LABEL": "0x4470",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000001e000000"
+	},
+	{
+		"LABEL": "0x447c",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "bf0218002000"
+	},
+	{
+		"LABEL": "0x4486",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "c002f700000000",
+		"JPN": "呪われた従順なショッキングタカの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x44c6",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x44cc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c102",
+		"GOTO_LABEL": "0x4fc0"
+	},
+	{
+		"LABEL": "0x44d6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c402",
+		"Equation": "(@称号を獲得したことがある(27))",
+		"GOTO_LABEL": "0x4826"
+	},
+	{
+		"LABEL": "0x4500",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 710,
+		"MSGID": 248,
+		"VOICEID": 29298,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ファッションに関してはキングなのに……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He was supposed to be the king of all things fashion...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4548",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 713,
+		"MSGID": 249,
+		"VOICEID": 29293,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに対する優しさが無かったね……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He wasn't kind to the old lady at all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4594",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 714,
+		"MSGID": 250,
+		"VOICEID": 29294,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「やっぱり口説き方を忘れてしまったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He really has lost his silver tongue...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 715,
+		"MSGID": 251,
+		"VOICEID": 23845,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われても仕方ありませんわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"It's no surprise he'd get cursed after acting like that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4616",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 716,
+		"MSGID": 252,
+		"VOICEID": 29295,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われて当然ね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yeah, it was only natural.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x464c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 719,
+		"MSGID": 253,
+		"VOICEID": 29299,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あなた、呪われたファッションキングタカよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"You're the Cursed King of Fashion, Taka!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4696",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 721,
+		"MSGID": 254,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっとかっこ良くなってきてない？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, huh. It actually sounds a bit better that way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 723,
+		"MSGID": 255,
+		"VOICEID": 29300,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「この人、やっぱり駄目かも」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"This guy's beyond all help.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4710",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 725,
+		"MSGID": 256,
+		"VOICEID": 23853,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「ホストは引退した方がいいですわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"You should probably retire from being a host.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4750",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 727,
+		"MSGID": 257,
+		"NameJPN": "羽依里",
+		"JPN": "「そもそもホストじゃないんだけど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not that I was ever a host in the first place...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4790",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "da0271171f00"
+	},
+	{
+		"LABEL": "0x479a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0e00",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x47b4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "db0205410e0300"
+	},
+	{
+		"LABEL": "0x47c0",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000001f000000"
+	},
+	{
+		"LABEL": "0x47cc",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "dc0218002100"
+	},
+	{
+		"LABEL": "0x47d6",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "dd020201000000",
+		"JPN": "呪われたファッションキングタカの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x4816",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x481c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "de02",
+		"GOTO_LABEL": "0x4fc0"
+	},
+	{
+		"LABEL": "0x4826",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e102",
+		"Equation": "(@称号を獲得したことがある(28))",
+		"GOTO_LABEL": "0x4c64"
+	},
+	{
+		"LABEL": "0x4850",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 739,
+		"MSGID": 259,
+		"VOICEID": 23854,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「ショッキンタクァ……失望しましたわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"Shockin' Takwa... What a shame.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4894",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 742,
+		"MSGID": 260,
+		"VOICEID": 29293,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「おばーちゃんに対する優しさが無かったね……」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"He wasn't kind to the old lady at all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x48e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 743,
+		"MSGID": 261,
+		"VOICEID": 29294,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「やっぱり口説き方を忘れてしまったのね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"He really has lost his silver tongue...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4926",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 744,
+		"MSGID": 262,
+		"VOICEID": 23845,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われても仕方ありませんわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"It's no surprise he'd get cursed after acting like that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4962",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 745,
+		"MSGID": 263,
+		"VOICEID": 29295,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われて当然ね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yeah, it was only natural.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4998",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 748,
+		"MSGID": 264,
+		"VOICEID": 23855,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「呪われたショッキンタクァ……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"The cursed Shockin' Takwa...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 750,
+		"MSGID": 265,
+		"VOICEID": 23856,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「いえ……、のるぉわるぇーた・ショッキンタクァ……」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"No... The Currsieaded Shockin' Takwa...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 752,
+		"MSGID": 266,
+		"NameJPN": "羽依里",
+		"JPN": "「呪われたは日本語だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Cursed' is just a normal word, you don't have to say it all weird.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 755,
+		"MSGID": 267,
+		"VOICEID": 23793,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "$S048「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」$S",
+		"NameENG": "Island Girl C",
+		"ENG": "$S048\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"$S",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ac0",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "f502ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x4ad2",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x4ae2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 759,
+		"MSGID": 268,
+		"JPN": "びくっ！",
+		"ENG": "Holy!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4afa",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "f90200a10e0300"
+	},
+	{
+		"LABEL": "0x4b06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 763,
+		"MSGID": 269,
+		"JPN": "女の子は走り去ってしまった。",
+		"ENG": "The girl ran off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b32",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "fd0200000000005a0001"
+	},
+	{
+		"LABEL": "0x4b40",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 767,
+		"MSGID": 270,
+		"VOICEID": 29258,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたわね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"She cursed him, didn't she?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 769,
+		"MSGID": 271,
+		"VOICEID": 29259,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「うん、呪われたね」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"Yep, she cursed him all right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ba0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 771,
+		"MSGID": 272,
+		"NameJPN": "羽依里",
+		"JPN": "「……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Scary...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4bca",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "070371172000"
+	},
+	{
+		"LABEL": "0x4bd4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0f00",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4bee",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "080305410e0300"
+	},
+	{
+		"LABEL": "0x4bfa",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000020000000"
+	},
+	{
+		"LABEL": "0x4c06",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "090318002200"
+	},
+	{
+		"LABEL": "0x4c10",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "0a031101000000",
+		"JPN": "のるぉわるぇーた・ショッキンタクァの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x4c54",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x4c5a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b03",
+		"GOTO_LABEL": "0x4fc0"
+	},
+	{
+		"LABEL": "0x4c64",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0e03",
+		"Equation": "(@称号を獲得したことがある(29))",
+		"GOTO_LABEL": "0x4fc0"
+	},
+	{
+		"LABEL": "0x4c8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 784,
+		"MSGID": 274,
+		"VOICEID": 29301,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ヒデに会ったことがあるショッキングタカ……さすがね」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Just as expected of the Hide-Acquainted Shockin' Taka...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ce2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 786,
+		"MSGID": 275,
+		"VOICEID": 29302,
+		"NameJPN": "島の少女Ｂ",
+		"JPN": "「ヒデの生き方に憧れて、ホストに進んだんでしょ？」",
+		"NameENG": "Island Girl B",
+		"ENG": "\"You became a host because you admired Hide's lifestyle, didn't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 787,
+		"MSGID": 276,
+		"VOICEID": 29303,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「ヒデはすごいもの。ナンバー１を越えるオンリー１」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Hide is amazing! He's not just 'number one,' he's the 'only one'!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 788,
+		"MSGID": 277,
+		"VOICEID": 23860,
+		"NameJPN": "島の少女Ｃ",
+		"JPN": "「でも、そんな彼も呪いには……勝てませんわ」",
+		"NameENG": "Island Girl C",
+		"ENG": "\"But even someone like that... can't win against the curse.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4dcc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 789,
+		"MSGID": 278,
+		"VOICEID": 29304,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「そうね……、残念だったわ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Right... What a shame.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 792,
+		"MSGID": 279,
+		"NameJPN": "羽依里",
+		"JPN": "「まって。なんか俺の知ってるヒデとキミらの言うヒデが違ってる気がしてきた」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait. I get the feeling that we might not actually be talking about the same Hide, here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 794,
+		"MSGID": 280,
+		"VOICEID": 29305,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「呪われたヒデに憧れるタカ……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"The cursed Hide-Admirer, Taka...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ea8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 796,
+		"MSGID": 281,
+		"VOICEID": 29306,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「それがあなたよ」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"That's you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ed8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 798,
+		"MSGID": 282,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4efc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 800,
+		"MSGID": 283,
+		"NameJPN": "羽依里",
+		"JPN": "「……なんか……怖い……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...That's kinda... scary...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f30",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "230371172100"
+	},
+	{
+		"LABEL": "0x4f3a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1000",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4f54",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "240305410e0300"
+	},
+	{
+		"LABEL": "0x4f60",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000021000000"
+	},
+	{
+		"LABEL": "0x4f6c",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "250318002300"
+	},
+	{
+		"LABEL": "0x4f76",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "26031c01000000",
+		"JPN": "呪われたヒデに憧れるタカの称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x4fb0",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x4fb6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2703",
+		"GOTO_LABEL": "0x4fc0"
+	},
+	{
+		"LABEL": "0x4fc0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2903",
+		"GOTO_LABEL": "0x4fca"
+	},
+	{
+		"LABEL": "0x4fca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 811,
+		"MSGID": 285,
+		"JPN": "島の少女たちは、ひとしきり騒いで帰っていった。",
+		"ENG": "They ran around for a bit, then went home.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5008",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 813,
+		"MSGID": 286,
+		"JPN": "俺に新たな十字架を背負わせて。",
+		"ENG": "But not before nailing a new cross onto my back.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5036",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2f0327000100"
+	},
+	{
+		"LABEL": "0x5040",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3003d1010100"
+	},
+	{
+		"LABEL": "0x504a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3203000000007800"
+	},
+	{
+		"LABEL": "0x5056",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 820,
+		"MSGID": 287,
+		"JPN": "結局かき氷を食べ損ねた。",
+		"ENG": "In the end, I never got to have any shaved ice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x507e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "37038d170200"
+	},
+	{
+		"LABEL": "0x5088",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3903",
+		"GOTO_LABEL": "0x5092"
+	},
+	{
+		"LABEL": "0x5092",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "3b038e173100"
+	},
+	{
+		"LABEL": "0x509c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3e030000b800000000000000"
+	},
+	{
+		"LABEL": "0x50ac",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x50b4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x50ba",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x50c2",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x50ce",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x50da",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x50e0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x50e6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x50ea",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x50f0",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x50f4",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x50f8",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3f03"
+	},
+	{
+		"LABEL": "0x50fe",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "41030080"
+	}
+]

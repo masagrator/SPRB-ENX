@@ -1,0 +1,582 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0a00ac860100"
+	},
+	{
+		"LABEL": "0xa",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0c0002003002"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020002"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009c00000000000000"
+	},
+	{
+		"LABEL": "0x2a",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0000000000400040"
+	},
+	{
+		"LABEL": "0x36",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x44",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000ae40c00fb0000"
+	},
+	{
+		"LABEL": "0x52",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x60",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "0d00"
+	},
+	{
+		"LABEL": "0x66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 15,
+		"MSGID": 0,
+		"JPN": "名実共に夫婦になった俺たちだったが、しろはは翌日から家にこもってしまった。",
+		"ENG": "The two of us were a married couple in both name and reality, but Shiroha spent the next day shut up in her house.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 1,
+		"JPN": "『夏鳥の役』の少女は、今日から儀式までの間、外部の人間と会ってはいけないらしい。",
+		"ENG": "Apparently, the girl who'll be playing the role of the 'Summer Bird' isn't supposed to meet with outsiders from today until the day of the ritual.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x120",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 2,
+		"JPN": "それも儀式の一環だそうだ。",
+		"ENG": "I guess it's just another aspect of the ceremony.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 3,
+		"JPN": "身を清めるためとかなんとか。",
+		"ENG": "So she can purify her body, or something to that effect.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x176",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1800"
+	},
+	{
+		"LABEL": "0x17c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0x182",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020000"
+	},
+	{
+		"LABEL": "0x18a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x198",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1a6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 4,
+		"JPN": "しろはと会えなくてうみは寂しがるかと思ったが、今回は意外にも元気だった。",
+		"ENG": "I thought that not being able to see Shiroha would make Umi lonely, but she was surprisingly lively this time.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x202",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「おかーさんと会えなくても寂しくないのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're okay not seeing Mom? You don't miss her?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x248",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1e000100f0ad00008002b4009100"
+	},
+	{
+		"LABEL": "0x25a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x260",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 6,
+		"VOICEID": 19841,
+		"NameJPN": "うみ",
+		"JPN": "「うん」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x280",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "21000100daae"
+	},
+	{
+		"LABEL": "0x28a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x290",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 7,
+		"VOICEID": 19842,
+		"NameJPN": "うみ",
+		"JPN": "「おかーさんのおふね、たのしみ」",
+		"NameENG": "Umi",
+		"ENG": "\"I can't wait to see her boat.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「そうか」",
+		"NameENG": "Hairi",
+		"ENG": "\"That so?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ec",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "26000100000f00"
+	},
+	{
+		"LABEL": "0x2f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 9,
+		"JPN": "うみは、スケッチブックにクレヨンで舟の絵を描いていた。",
+		"ENG": "Umi was drawing a boat in her sketchbook with a crayon.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x344",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 10,
+		"JPN": "しろはと一緒に儀式に参加できるのが、楽しみでたまらないらしい。",
+		"ENG": "It seemed she was excited beyond measure to participate in the ritual with Shiroha.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x392",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 11,
+		"JPN": "数日後に控えた祭りに、すでに心を躍らせているようだった。",
+		"ENG": "It was like her heart was already dancing in anticipation of the festival that was still a few days away.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「お、もう昼か」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, it's already lunchtime?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x404",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、チャーハン作るかな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Guess I'll make some fried rice, then.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「今日は最高得点狙うぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm aiming for a new high score today!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3400010096ad00008002b4009100"
+	},
+	{
+		"LABEL": "0x480",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x486",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 15,
+		"VOICEID": 19843,
+		"NameJPN": "うみ",
+		"JPN": "「あ……」",
+		"NameENG": "Umi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 16,
+		"JPN": "うみがスケッチブックから顔を上げる。",
+		"ENG": "Umi looked up from her sketchbook.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4dc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "390001009eae"
+	},
+	{
+		"LABEL": "0x4e6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 17,
+		"VOICEID": 19844,
+		"NameJPN": "うみ",
+		"JPN": "「てつだってもいい？」",
+		"NameENG": "Umi",
+		"ENG": "\"Can I help?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x51a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「うみもチャーハン作りたいのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You want to make fried rice, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x556",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3e0001006eae"
+	},
+	{
+		"LABEL": "0x560",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x566",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 19,
+		"VOICEID": 19845,
+		"NameJPN": "うみ",
+		"JPN": "「うん」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x586",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、やってみるか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"In that case, wanna try together?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ba",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "430001000aac"
+	},
+	{
+		"LABEL": "0x5c4",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x5cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 21,
+		"VOICEID": 19846,
+		"NameJPN": "うみ",
+		"JPN": "「うん！」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 22,
+		"JPN": "俺は、しろはがいない間、しっかり『おとーさん』を務めないとな。",
+		"ENG": "While Shiroha wasn't around, I had to do my best to be a proper 'dad.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x642",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4d000000b800000000000000"
+	},
+	{
+		"LABEL": "0x652",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x65a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x660",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x668",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x674",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x680",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x686",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x690",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x696",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x6a2",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x6ae",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6b2",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6b6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x6be",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x6c6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x6ce",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x6d6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x6de",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4e00"
+	},
+	{
+		"LABEL": "0x6e4",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "50000080"
+	}
+]

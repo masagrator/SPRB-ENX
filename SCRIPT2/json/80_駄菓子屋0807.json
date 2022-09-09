@@ -1,0 +1,635 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0800"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0a00",
+		"Equation": "(#6030==8&&#40==1)",
+		"GOTO_LABEL": "0x93c"
+	},
+	{
+		"LABEL": "0x44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 0,
+		"VOICEID": 28826,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「よく来たの、まっとったで」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"There you are. I've been waiting.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 1,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ma'am?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 2,
+		"VOICEID": 28827,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「毎日、うちに通ってくれていたでの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"You've been coming by this store every day.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x104",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 3,
+		"VOICEID": 28828,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「何か礼でもと、思っておったんじゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"So I thought maybe I'd give you something in$dreturn.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x152",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、そんな」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, no, you really don't have to.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「暇だったから、寄っていただけだし」",
+		"NameENG": "Hairi",
+		"ENG": "\"I've just been stopping by 'cause I'm bored.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 6,
+		"VOICEID": 28829,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「店番もしてくれたじゃろうて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"You even watched over the store for me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x202",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 7,
+		"VOICEID": 28830,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「都会の子にしとくのはもったいないわい」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's almost a waste that you live in the city.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x254",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 8,
+		"VOICEID": 28831,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「そんなええ子に、これをやろうと思うてな」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Since you're a boy with so much integrity, I thought you might like this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「これは……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, is that...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「もりいいぞう？」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Mori Iso'?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 11,
+		"VOICEID": 28832,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「珍しい酒じゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's a rare sake.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「未成年です」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm underage.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x360",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 13,
+		"VOICEID": 28833,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「…………」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x396",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 15,
+		"VOICEID": 28834,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「呑めんのか？」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Not gonna drink it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、呑んじゃいかんです」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, I mean, I can't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 17,
+		"VOICEID": 28835,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「そうか、残念じゃの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Is that so? Too bad.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 18,
+		"VOICEID": 28836,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「村の爺さんたちなら、殴り合ってでも欲しがる酒なんじゃがの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's such a coveted brand of shochu that village men would fight each other just to get their hands on a bottle.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 19,
+		"VOICEID": 28837,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「仕方ない」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"But if you can't drink it, you can't drink it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x508",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 20,
+		"VOICEID": 28838,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「おまえさんが、酒を呑めるようになるまで、ボトルキープしておくかの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"I'll just have to lock this bottle up until you're old enough to drink.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x576",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 21,
+		"VOICEID": 28839,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「一緒に、これを呑める日が来るのをまっとるでな」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"I'll be waiting for the day we can crack it open together.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃん……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ma'am...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 23,
+		"VOICEID": 28840,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「もし……」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"If...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x634",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「もし？」",
+		"NameENG": "Hairi",
+		"ENG": "\"If?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x658",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 25,
+		"VOICEID": 28841,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「わしがおらんようになったとしても」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"If I'm not around to celebrate that moment...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 26,
+		"VOICEID": 28842,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「島で$[出会$/で_お$]うた、友達と呑むとええ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"You should enjoy it with a friend you made on this island.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x704",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 27,
+		"VOICEID": 28843,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「いや……」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Actually...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x73a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 28,
+		"VOICEID": 28844,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「それが、一番美味い呑み方かもしれんのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"That might be the most rewarding way to enjoy it, anyway.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x78e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「おばーちゃん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ma'am...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「ありがとうございます」",
+		"NameENG": "Hairi",
+		"ENG": "\"Thank you very much.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 31,
+		"JPN": "なんだかよく分からないけど、無理矢理いい話に持って行かれた。",
+		"ENG": "I wasn't exactly sure what was going on, but I'd somehow been dragged into a promise.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x836",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 32,
+		"JPN": "俺が酒を呑める歳になった時。",
+		"ENG": "I'll be old enough to drink, someday.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x862",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 33,
+		"JPN": "また、この島に来るんだろうか。",
+		"ENG": "Will I come back to this island, when the time comes?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x890",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 34,
+		"JPN": "いや。",
+		"ENG": "She might be right.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 35,
+		"JPN": "そういう場所があるのも悪くないか。",
+		"ENG": "Having a place like that might actually be kinda nice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8d8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5700"
+	},
+	{
+		"LABEL": "0x8de",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05420e0300"
+	},
+	{
+		"LABEL": "0x8e8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000013001500"
+	},
+	{
+		"LABEL": "0x8f4",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "58002400000000",
+		"JPN": "『稀少焼酎・もりいいぞう』をＧｅｔした！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x92c",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x932",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5a00",
+		"GOTO_LABEL": "0x9ce"
+	},
+	{
+		"LABEL": "0x93c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 37,
+		"JPN": "駄菓子屋に来たけど……誰も居ない。",
+		"ENG": "I made my way over to the candy store, but... nobody was there.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x96e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 38,
+		"JPN": "かき氷を食べたかったけど、仕方ないか。",
+		"ENG": "I'd wanted some shaved ice, but I suppose there's nothing I can do about that.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 39,
+		"JPN": "おとなしく別の所に行こう。",
+		"ENG": "I'll just have to head somewhere else.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9ce",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "650014000100"
+	},
+	{
+		"LABEL": "0x9d8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "69000000b800000000000000"
+	},
+	{
+		"LABEL": "0x9e8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x9f0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x9f8",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0xa04",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0xa10",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xa16",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa1c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa20",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa26",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa2a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa2e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6a00"
+	},
+	{
+		"LABEL": "0xa34",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "6b000080"
+	}
+]

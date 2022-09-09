@@ -1,0 +1,60 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "060000c00b00"
+	},
+	{
+		"LABEL": "0xa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0800",
+		"Equation": "(#10013<300)",
+		"GOTO_LABEL": "0x76"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「まだチームは完成していないぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Team isn't complete.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0b00"
+	},
+	{
+		"LABEL": "0x62",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0c00",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x6c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0d00",
+		"GOTO_LABEL": "0x76"
+	},
+	{
+		"LABEL": "0x76",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7c",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "11000080"
+	}
+]

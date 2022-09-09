@@ -1,0 +1,845 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0800"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 0,
+		"JPN": "駄菓子屋にやってきた。",
+		"ENG": "I made my way over to the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 1,
+		"VOICEID": 23895,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「よう来たの。何がほしいんじゃ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Hey there. Lookin' for something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x96",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「そうっすね……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmmm... I guess I'd like...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc2",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "100071170802000000",
+		"JPN": [
+			"ガチャガチャをしたい",
+			"奥義の伝授を"
+		],
+		"ENG": [
+			"To use the gacha machine",
+			"To learn an ultimate technique"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0xfe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1500",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x76a"
+	},
+	{
+		"LABEL": "0x114",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「そこのガチャガチャをしようと思って」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd like to play the gacha machine over there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x154",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 4,
+		"JPN": "俺は１００円玉をピシっとかっこよく取り出してみせる。",
+		"ENG": "I whipped out a hundred yen coin.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x198",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 5,
+		"VOICEID": 23929,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「良いものが出ると良いのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Hope you get something good.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「祈っててください」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wish me luck.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "1e0005e70d0300"
+	},
+	{
+		"LABEL": "0x218",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 7,
+		"JPN": "俺は一度指で１００玉を弾いて、空中で回転させる。",
+		"ENG": "I flicked the coin with my thumb, sending it spinning through the air.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x258",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 9,
+		"JPN": "キャッチ失敗。",
+		"ENG": "...And totally failed to catch it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 10,
+		"JPN": "１００円玉は転がって自販機の下に消えていった。",
+		"ENG": "The coin hit the ground with a clink, then rolled right under a vending machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 12,
+		"VOICEID": 23930,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「拾わんのかいの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Not gonna pick it up?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「拾います」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, I am.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 14,
+		"JPN": "地面に伏して、手を自販機の下に突っ込んだ。",
+		"ENG": "I lay down on the ground and stuck my arm under the vending machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x398",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「この辺か……いや、こっち…あれ？　これっぽいけど…ん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Think it'd be around here? Okay, guess not... Huh? Okay, think I got it... Wait, what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 16,
+		"JPN": "手を引き抜くと、お金が２００円に増えていた。",
+		"ENG": "I emerged with an extra coin, leaving me with two hundred yen total.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x428",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 17,
+		"JPN": "ラッキー。",
+		"ENG": "Nice, lucky me!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x442",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、改めて……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's try this again...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x472",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 19,
+		"JPN": "１００円をガチャガチャに入れて、レバーを回す。",
+		"ENG": "I put one of the hundred yen coins into the gacha machine and turned the crank.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3a0005e20d0300"
+	},
+	{
+		"LABEL": "0x4bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 20,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「これは……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「……バケツのミニチュア…？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...A miniature bucket...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x53c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 23,
+		"VOICEID": 23931,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「すらいみーじゃな」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Oh, it's slime.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「すらいみぃ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Slime?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 25,
+		"VOICEID": 23932,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「開けて手に乗せてみい」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Try opening it and pouring it into your hand.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 26,
+		"NameJPN": "羽依里",
+		"JPN": "「うわっ！　どろっとして冷たくてぬるぬるした粘液が！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah! It's full of some sorta cold, slimy goo!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x636",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「あれ？　でも手にくっつかない!?　なにこれ??」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? But it doesn't stick to my hand!? What the heck is this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x682",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 28,
+		"VOICEID": 23933,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「すらいみーじゃよ」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's slime.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「気持ち悪いけど、癖になる！」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is gross, but I think I kinda like it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 30,
+		"JPN": "手の平の上で伸ばしたり押しつぶしたり。",
+		"ENG": "I played around with the Slime, flattening it in the palm of my hand and then squishing it back into a ball.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x72e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 31,
+		"JPN": "不思議な感触を堪能した。",
+		"ENG": "It felt super weird, but I enjoyed it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x756",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "530093173100"
+	},
+	{
+		"LABEL": "0x760",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5400",
+		"GOTO_LABEL": "0xcde"
+	},
+	{
+		"LABEL": "0x76a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5700",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0xcde"
+	},
+	{
+		"LABEL": "0x780",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「奥義の伝授を……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I want to learn an ultimate technique.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 33,
+		"VOICEID": 23934,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ふむ……おまえさんのその目……」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Hmph... I like the look in your eyes...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 34,
+		"VOICEID": 23935,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「良かろう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Very well.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x830",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 35,
+		"VOICEID": 23936,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「この世界をすろぉもーしょんで見られる秘技を教えてやろうかのう」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"I shall teach you a technique that will allow you to perceive this world in slow motion.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x89a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「え!?　そんな凄いことが出来るの?!」",
+		"NameENG": "Hairi",
+		"ENG": "\"What!? That's crazy! Is that really possible!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 37,
+		"VOICEID": 23937,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「まぶたを高速でぱちぱちしてみい」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Try blinking as fast as you can.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x928",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 38,
+		"NameJPN": "羽依里",
+		"JPN": "「こうっすか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Like this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x952",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 39,
+		"JPN": "ぱちぱち……ぱちぱち…",
+		"ENG": "Blink, blink... blink, blink...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x978",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 40,
+		"VOICEID": 23938,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「もっとはやくじゃて」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Faster than that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 41,
+		"JPN": "ぱちぱちぱち……ぱちぱちぱち…",
+		"ENG": "Blink blink blink... blink blink blink...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 42,
+		"VOICEID": 23939,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「もっと」",
+		"NameENG": "Candy Store Lady.",
+		"ENG": "\"Faster.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 43,
+		"JPN": "ぱちぱちぱちぱち……ぱちぱちぱちぱち…",
+		"ENG": "Blinkblinkblinkblink... blinkblinkblinkblink...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 44,
+		"VOICEID": 23940,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「はりあーーっぷ！」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Hurry uuuuupppp!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 45,
+		"JPN": "それ、早さの意味違うから！",
+		"ENG": "Your English isn't quite on-point, lady!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xab8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 46,
+		"JPN": "ﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁﾊﾟﾁ",
+		"ENG": "Blibliblibliblibliblibliblibliblink!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 47,
+		"NameJPN": "羽依里",
+		"JPN": "「お……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wha...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「おおお!?　せ、世界がまるでコマ送りに……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ohhh!? The world looks like some kind of flip book...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 49,
+		"VOICEID": 23941,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「それが常人とは異なる世界の入り口」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"That skill is the gateway to the world of superhumans.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 50,
+		"VOICEID": 23942,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「$[瞬界$/しゅん_かい$]……そう呼んでおるでの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"I call it 'The Everlasting Moment.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 51,
+		"NameJPN": "羽依里",
+		"JPN": "「瞬界……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"The Everlasting Moment...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc50",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8000"
+	},
+	{
+		"LABEL": "0xc56",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05420e0300"
+	},
+	{
+		"LABEL": "0xc60",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800",
+		"Category": 0,
+		"ID": 10,
+		"JPN": "『奥義・瞬界』を会得した！",
+		"ENG": "You have obtained the skill \"Transcendence: The Everlasting Moment\"!"
+	},
+	{
+		"LABEL": "0xc86",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "81003400000000",
+		"JPN": "『奥義・瞬界』を会得した！",
+		"ENG": "You have obtained the skill \"Transcendence: The Everlasting Moment\"!",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0xcb0",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0xcb6",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "83001800c200"
+	},
+	{
+		"LABEL": "0xcc0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "84006c010100"
+	},
+	{
+		"LABEL": "0xcca",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8500cf010100"
+	},
+	{
+		"LABEL": "0xcd4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8800",
+		"GOTO_LABEL": "0xcde"
+	},
+	{
+		"LABEL": "0xcde",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "8a008e173100"
+	},
+	{
+		"LABEL": "0xce8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8b0014000100"
+	},
+	{
+		"LABEL": "0xcf2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8e000000b800000000000000"
+	},
+	{
+		"LABEL": "0xd02",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xd0a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xd12",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0xd1e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0xd2a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xd30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xd36",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd3a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xd40",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd44",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd48",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8f00"
+	},
+	{
+		"LABEL": "0xd4e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "91000080"
+	}
+]

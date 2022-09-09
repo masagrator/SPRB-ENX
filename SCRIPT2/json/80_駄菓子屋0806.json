@@ -1,0 +1,1404 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0a00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 0,
+		"JPN": "駄菓子屋にやってきた。",
+		"ENG": "I made my way over to the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 1,
+		"JPN": "が、誰も居ない。",
+		"ENG": "But there was nobody there.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 2,
+		"JPN": "店の中を見回してみる。",
+		"ENG": "I took a look inside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x92",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 3,
+		"JPN": "やっぱり誰も居ない。",
+		"ENG": "But, nope, the place was totally unmanned.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 4,
+		"JPN": "これは……チャンスなのかもしれない。",
+		"ENG": "I realized I might've found a golden opportunity.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 5,
+		"JPN": "ずっとやってみたかったことがあった。",
+		"ENG": "There was something I'd been meaning to try.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 6,
+		"JPN": "こういう場所で……",
+		"ENG": "And that was the perfect place...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x140",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 7,
+		"JPN": "告白の練習を！",
+		"ENG": "To practice a confession of love!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 8,
+		"JPN": "誰も居ないこの場所なら出来るかも知れない。",
+		"ENG": "I might be able to work up the nerve if nobody's around.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x198",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 9,
+		"JPN": "いつか来るだろう、告白をする日が。",
+		"ENG": "I'll have to do it for real someday, probably.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 10,
+		"JPN": "その練習を！",
+		"ENG": "And if I wanna get it right, I have to practice!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 11,
+		"JPN": "男子校で練習してたのが懐かしいな……",
+		"ENG": "The idea brought me back to all the times I practiced this at my old school...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 12,
+		"JPN": "まずは深呼吸をして……",
+		"ENG": "First, take a deep breath... Then...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x240",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2800",
+		"Equation": "(#38==1)",
+		"GOTO_LABEL": "0xf2a"
+	},
+	{
+		"LABEL": "0x254",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2a00010012b800008002b4008900"
+	},
+	{
+		"LABEL": "0x266",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x26c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 13,
+		"VOICEID": 23981,
+		"NameJPN": "美希",
+		"JPN": "「鷹原、何をしている？」",
+		"NameENG": "Miki",
+		"ENG": "\"Oh, Takahara? What are you up to?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29c",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "2d00ff0001060000550002010055"
+	},
+	{
+		"LABEL": "0x2ae",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000550002010000"
+	},
+	{
+		"LABEL": "0x2be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「うおっ！　あぶねっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah! Holy crap, that was close!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3100010008b8"
+	},
+	{
+		"LABEL": "0x2fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x300",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 15,
+		"VOICEID": 23982,
+		"NameJPN": "美希",
+		"JPN": "「何がだ？」",
+		"NameENG": "Miki",
+		"ENG": "\"What was?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x324",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「危うくのみきに告白するところだった」",
+		"NameENG": "Hairi",
+		"ENG": "\"I almost just confessed to you!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x364",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3600010044b8"
+	},
+	{
+		"LABEL": "0x36e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x374",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 17,
+		"VOICEID": 23983,
+		"NameJPN": "美希",
+		"JPN": "「ほう……」",
+		"NameENG": "Miki",
+		"ENG": "\"Huh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x398",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3900010065b8"
+	},
+	{
+		"LABEL": "0x3a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 18,
+		"VOICEID": 23984,
+		"NameJPN": "美希",
+		"JPN": "「なかなか面白い冗談だな」",
+		"NameENG": "Miki",
+		"ENG": "\"You have quite the sense of humor, I see.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「あ、まって、ハイドロはやめて」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah, wait, put the gun down!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x414",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3e0001000db8"
+	},
+	{
+		"LABEL": "0x41e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x424",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 20,
+		"VOICEID": 23985,
+		"NameJPN": "美希",
+		"JPN": "「むっ……誰か来る」",
+		"NameENG": "Miki",
+		"ENG": "\"Ah... Someone's coming.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x450",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「隠れろ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hide!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x476",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "430001000000008002b400"
+	},
+	{
+		"LABEL": "0x486",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100021800c202b400"
+	},
+	{
+		"LABEL": "0x494",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x49e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 22,
+		"JPN": "のみきの手を引いて、店内に隠れる。",
+		"ENG": "I grabbed Nomiki's hand and dashed into the back of the store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4700060009b809006b002bff"
+	},
+	{
+		"LABEL": "0x4e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 23,
+		"VOICEID": 23986,
+		"NameJPN": "美希",
+		"JPN": "（なぜ隠れなければならない）",
+		"NameENG": "Miki",
+		"ENG": "(Why do we have to hide!?)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x51a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "（あ、いや……なんとなく…）",
+		"NameENG": "Hairi",
+		"ENG": "(Ah, err... It just kinda... felt like we should, I guess...)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x550",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 25,
+		"JPN": "そっと外の様子をうかがう。",
+		"ENG": "I snuck a glance outside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 26,
+		"VOICEID": 23987,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「あ……あの、来てくれてありがとう……」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Uh... Umm, thanks for coming...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 27,
+		"VOICEID": 29325,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「うん……、用ってなにかな……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Y-Yeah... What did you need...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 28,
+		"VOICEID": 23989,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「えっと……」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Umm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 29,
+		"VOICEID": 23990,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「よ！　よかったら！　一緒に今度遊びにいかないかな！」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"I-If it's all right with you...! Do you wanna hang out together!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x67e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 30,
+		"VOICEID": 29326,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「それって……みんなで、じゃない…よね？」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"By that, you mean... not together with everyone else... right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 31,
+		"VOICEID": 23992,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「う、うん！　２人で……」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Y-Yeah! Just the two of us...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 32,
+		"VOICEID": 29327,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「………」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x726",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 33,
+		"VOICEID": 29328,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「……いい、よ……」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"...I-I don't mind...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x758",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 34,
+		"VOICEID": 23995,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「よかった～……断られたらどうしようかと思った」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Thank goodness... I didn't know what I'd do if you said no.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 35,
+		"VOICEID": 29329,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「あのね、でもその前に１つだけ良い……？」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Umm... But, before that, could I ask one thing...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 36,
+		"VOICEID": 23997,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「え……な、なにかな」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Huh...? W-What is it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x822",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 37,
+		"VOICEID": 29330,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「２人でいる時は、下の名前で呼んでくれると嬉しい」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"When we're alone, I'd like you to call me by my first name...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x872",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 38,
+		"VOICEID": 23999,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「う、うん……じゅ…$[朱里絵都$/じゅ_り_えっ_と$]」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"R-Right... J... Jyurietto...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 39,
+		"VOICEID": 29331,
+		"NameJPN": "島の少女Ａ",
+		"JPN": "「えへへ、行こ、$[絽壬緒$/ろ_み_お$]」",
+		"NameENG": "Island Girl A",
+		"ENG": "\"Eheheh! Let's go, Romio.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x918",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 40,
+		"JPN": "島の少年と少女は、手を繋いで駄菓子屋の店先から去って行った。",
+		"ENG": "The island kids left the candy store hand in hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x964",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x988",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "6f00010021b800008002b4008900"
+	},
+	{
+		"LABEL": "0x99a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x9a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 42,
+		"VOICEID": 24001,
+		"NameJPN": "美希",
+		"JPN": "「………」",
+		"NameENG": "Miki",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「……なあ、のみき……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Hey, Nomiki...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 44,
+		"NameJPN": "羽依里",
+		"JPN": "「最近の小学生は……凄いんだな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Elementary schoolers these days... sure are amazing, huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa32",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "760001001bb8"
+	},
+	{
+		"LABEL": "0xa3c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 119,
+		"MSGID": 45,
+		"VOICEID": 24002,
+		"NameJPN": "美希",
+		"JPN": "「ち、近寄るな！」",
+		"NameENG": "Miki",
+		"ENG": "\"D-Don't come any closer!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 121,
+		"MSGID": 46,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　なんで？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Why?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa98",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7b0001001eb8"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xaa8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 47,
+		"VOICEID": 24003,
+		"NameJPN": "美希",
+		"JPN": "「こ、このドキドキは吊り橋効果というものだ」",
+		"NameENG": "Miki",
+		"ENG": "\"M-My heart's only beating like this becasue of the suspension bridge effect!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaec",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7e00010015b8"
+	},
+	{
+		"LABEL": "0xaf6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xafc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 48,
+		"VOICEID": 24004,
+		"NameJPN": "美希",
+		"JPN": "「間違ってもこのタイミングで告白などされようものなら……」",
+		"NameENG": "Miki",
+		"ENG": "\"If you confessed to me to me in a situation like this, even on accident...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb4e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8100010021b8"
+	},
+	{
+		"LABEL": "0xb58",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 49,
+		"VOICEID": 24005,
+		"NameJPN": "美希",
+		"JPN": "「勘違いしてしまう……じゃないか……」",
+		"NameENG": "Miki",
+		"ENG": "Don't you think... I'd take it the wrong way...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょ……やめてくれ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey... Cut it out...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 51,
+		"NameJPN": "羽依里",
+		"JPN": "「急にそんなしおらしいこと言われると……」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're making this weird by getting all meek like that...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「ドキドキする……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm gonna end up getting anxious too...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 53,
+		"NameJPN": "羽依里",
+		"JPN": "「俺、男子校だから……」",
+		"NameENG": "Hairi",
+		"ENG": "\"'Cause I'm from an all-boys school, and all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 54,
+		"NameJPN": "羽依里",
+		"JPN": "「そういうギャップに免疫ないんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I really don't know how to deal with that sort of personality shift!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 55,
+		"NameJPN": "羽依里",
+		"JPN": "「勘違いしてしまう」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll end up taking it in the wrong way!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcde",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9000010015b8"
+	},
+	{
+		"LABEL": "0xce8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 145,
+		"MSGID": 56,
+		"VOICEID": 24006,
+		"NameJPN": "美希",
+		"JPN": "「………」",
+		"NameENG": "Miki",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 57,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd34",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "950001006bb8"
+	},
+	{
+		"LABEL": "0xd3e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 58,
+		"VOICEID": 24007,
+		"NameJPN": "美希",
+		"JPN": "「ハイドログラディエーター改！　自爆モード！」",
+		"NameENG": "Miki",
+		"ENG": "\"Hydro Gladiator Kai! Self-destruct mode!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd8a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "98000025100300"
+	},
+	{
+		"LABEL": "0xd96",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "99003200640001000000dc05"
+	},
+	{
+		"LABEL": "0xda6",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "9a00ff00c900"
+	},
+	{
+		"LABEL": "0xdb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 59,
+		"JPN": "ばしゃーーー！",
+		"ENG": "Booom!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 158,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「うわっ！　なんで自分に水かけてるんだよ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Woah! Why are you spraying yourself with water!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe14",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a000010065b8"
+	},
+	{
+		"LABEL": "0xe1e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 61,
+		"VOICEID": 24008,
+		"NameJPN": "美希",
+		"JPN": "「あ、頭を冷やしただけだ！」",
+		"NameENG": "Miki",
+		"ENG": "\"I-I was just trying to cool my head!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe58",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a300010056b8"
+	},
+	{
+		"LABEL": "0xe62",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 164,
+		"MSGID": 62,
+		"VOICEID": 24009,
+		"NameJPN": "美希",
+		"JPN": "「私は行くからな！」",
+		"NameENG": "Miki",
+		"ENG": "\"I'm leaving, okay!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "a60001000000008002b400"
+	},
+	{
+		"LABEL": "0xea4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218004b02b400"
+	},
+	{
+		"LABEL": "0xeb2",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0xebc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xec2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 63,
+		"JPN": "のみきはびしょ濡れになったまま去っていった。",
+		"ENG": "Nomiki left the candy store, soaking wet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xefe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 170,
+		"MSGID": 64,
+		"JPN": "……ドキドキした。",
+		"ENG": "...That really made my heart skip a beat.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf20",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ab00",
+		"GOTO_LABEL": "0x12c0"
+	},
+	{
+		"LABEL": "0xf2a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 174,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 176,
+		"MSGID": 66,
+		"NameJPN": "羽依里",
+		"JPN": "「小っ恥ずかしくてできねーーーーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I can't! It's too embarrassiiiiing!!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf94",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 67,
+		"JPN": "駄菓子屋の前で告白って、そもそも何？",
+		"ENG": "Why would I confess my love to someone at a candy store, anyway?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 180,
+		"MSGID": 68,
+		"JPN": "夏の暑さでちょっと頭がおかしくなっていた。",
+		"ENG": "The summer heat must be messing with my head.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1002",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 69,
+		"JPN": "ちょっと頭を冷やそう。",
+		"ENG": "Let's try cooling down.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1028",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 70,
+		"NameJPN": "羽依里",
+		"JPN": "「ふぅ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"*Inhale*...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x104e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 71,
+		"NameJPN": "羽依里",
+		"JPN": "「良一、お前の技を借りるぜ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ryouichi, I'll be borrowing one of your techniques.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1084",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 72,
+		"NameJPN": "羽依里",
+		"JPN": "「はあっ!!」",
+		"NameENG": "Hairi",
+		"ENG": "\"Haah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10ac",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c000056b0e0300"
+	},
+	{
+		"LABEL": "0x10b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 193,
+		"MSGID": 73,
+		"JPN": "服を勢いよく脱ぐ。",
+		"ENG": "I threw off my shirt.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 195,
+		"MSGID": 74,
+		"JPN": "刹那。",
+		"ENG": "It barely took an instant.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10f0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c5000025100300"
+	},
+	{
+		"LABEL": "0x10fc",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "c6003200640001000000dc05"
+	},
+	{
+		"LABEL": "0x110c",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "c700ff00c900"
+	},
+	{
+		"LABEL": "0x1116",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 201,
+		"MSGID": 75,
+		"JPN": "バシュ！",
+		"ENG": "Pschoo!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x112e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 76,
+		"NameJPN": "羽依里",
+		"JPN": "「ぐはっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Guaagh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1154",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 77,
+		"JPN": "予想通り、水が飛んできた。",
+		"ENG": "As expected, I was immediately nailed by a burst of water.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x117e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 78,
+		"VOICEID": 1244,
+		"NameJPN": "美希",
+		"JPN": "『海水浴場以外で服を脱ぐのは禁止されている』",
+		"NameENG": "Miki",
+		"ENG": "\"Taking off your clothes outside of the beach area is expressly forbidden.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 79,
+		"VOICEID": 1245,
+		"NameJPN": "美希",
+		"JPN": "『速やかに服を着ろ』",
+		"NameENG": "Miki",
+		"ENG": "\"Put a shirt on, now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 211,
+		"MSGID": 80,
+		"JPN": "そして、お決まりのセリフ。",
+		"ENG": "And with it, the usual announcement.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1218",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 213,
+		"MSGID": 81,
+		"JPN": "けど、今回はそれでいい。",
+		"ENG": "But this time, that was exactly what I was hoping for.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1240",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 82,
+		"JPN": "俺は颯爽と服を着ると、鉄塔に向かって頭を下げた。",
+		"ENG": "I put my shirt back on and bowed towards the tower in thanks.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1280",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 218,
+		"MSGID": 83,
+		"JPN": "遠くにいるのみきが、首を傾げているのが分かった。",
+		"ENG": "In the distance, I could see Nomiki cocking her head in confusion.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c0",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "de008e173100"
+	},
+	{
+		"LABEL": "0x12ca",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "df0014000100"
+	},
+	{
+		"LABEL": "0x12d4",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "e200ff000000"
+	},
+	{
+		"LABEL": "0x12de",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x12ec",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x12f4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x12fa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x1302",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x130e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x131a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1320",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1326",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x132a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1330",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1334",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1338",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e300"
+	},
+	{
+		"LABEL": "0x133e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "e5000080"
+	}
+]

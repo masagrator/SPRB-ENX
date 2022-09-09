@@ -1,0 +1,6774 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0c00ca860100"
+	},
+	{
+		"LABEL": "0xa",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "10003b00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "11000000",
+		"GOTO_LABEL": "0x1512"
+	},
+	{
+		"LABEL": "0x1e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3800"
+	},
+	{
+		"LABEL": "0x24",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "43000000",
+		"String": "@set_RB_table_tennis_player_id(1,0,2)"
+	},
+	{
+		"LABEL": "0x52",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4600ca860100"
+	},
+	{
+		"LABEL": "0x5c",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "490000c037000000ab0200000040000000000000"
+	},
+	{
+		"LABEL": "0x74",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4c00000000003c00"
+	},
+	{
+		"LABEL": "0x80",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "4f0001ff"
+	},
+	{
+		"LABEL": "0x88",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x9a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa2",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e00162f1e00"
+	},
+	{
+		"LABEL": "0xac",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0xb2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5500de1b0000"
+	},
+	{
+		"LABEL": "0xbc",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5800dd1b0000"
+	},
+	{
+		"LABEL": "0xc6",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "5b007117",
+		"String": "@get_RB_table_tennis_player_id(1,0)"
+	},
+	{
+		"LABEL": "0xf2",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "5c007117",
+		"String": "@get_RB_table_tennis_character_place(#6001)"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "5d000000",
+		"String": "@set_RB_table_tennis_game_place(#6001)"
+	},
+	{
+		"LABEL": "0x156",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "60000000",
+		"String": "@set_RB_table_tennis_player_entry_type(0,1,1)"
+	},
+	{
+		"LABEL": "0x18c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "61000000",
+		"String": "@set_RB_table_tennis_player_entry_type(1,1,1)"
+	},
+	{
+		"LABEL": "0x1c2",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "63001e00"
+	},
+	{
+		"LABEL": "0x1ca",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "6c000100",
+		"GOTO_LABEL": "0x1512"
+	},
+	{
+		"LABEL": "0x1d6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6e00"
+	},
+	{
+		"LABEL": "0x1dc",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "80000000",
+		"String": "@set_RB_table_tennis_game_place(11)"
+	},
+	{
+		"LABEL": "0x208",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "84000200",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x214",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8700c0270200"
+	},
+	{
+		"LABEL": "0x21e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "88000300",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x22a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8c00",
+		"Equation": "(@is_RB_table_tennis_progress_winner_character()==0)",
+		"GOTO_LABEL": "0x29c"
+	},
+	{
+		"LABEL": "0x26a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8e00c0270a00"
+	},
+	{
+		"LABEL": "0x274",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "8f000400",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x280",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "92000500",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x28c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9500"
+	},
+	{
+		"LABEL": "0x292",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9600",
+		"GOTO_LABEL": "0x29c"
+	},
+	{
+		"LABEL": "0x29c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "99000600",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x2a8",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "9c00000000003c00"
+	},
+	{
+		"LABEL": "0x2b4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9f00"
+	},
+	{
+		"LABEL": "0x2ba",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x2c8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2d0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2d6",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e00162f1e00"
+	},
+	{
+		"LABEL": "0x2e0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0x2e6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x2f4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x2fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "a6000000",
+		"String": "@set_RB_table_tennis_game_place(11)"
+	},
+	{
+		"LABEL": "0x32a",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "a7000000",
+		"String": "@set_RB_table_tennis_player_id(0,1,2)"
+	},
+	{
+		"LABEL": "0x358",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "aa00ca860100"
+	},
+	{
+		"LABEL": "0x362",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "ac003800"
+	},
+	{
+		"LABEL": "0x36a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "af00dd1b0100"
+	},
+	{
+		"LABEL": "0x374",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "b2000000",
+		"String": "@set_RB_table_tennis_player_entry_type(0,1,0)"
+	},
+	{
+		"LABEL": "0x3aa",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "b3000000",
+		"String": "@set_RB_table_tennis_player_entry_type(1,1,0)"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "b600000000003c00"
+	},
+	{
+		"LABEL": "0x3ec",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "b90001ff"
+	},
+	{
+		"LABEL": "0x3f4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3f8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x406",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x40e",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e00162f1e00"
+	},
+	{
+		"LABEL": "0x418",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0x41e",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "bc000000",
+		"String": "@create_RB_table_tennis_team_set()"
+	},
+	{
+		"LABEL": "0x44a",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "bd000000",
+		"String": "@init_RB_table_tennis_tournament()"
+	},
+	{
+		"LABEL": "0x476",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "be000000",
+		"String": "@create_RB_table_tennis_tournament_list()"
+	},
+	{
+		"LABEL": "0x4a8",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c2000700",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x4b4",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "c500c027",
+		"String": "@RB_卓球_パートナー"
+	},
+	{
+		"LABEL": "0x4d0",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "c600c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(#10176,5)"
+	},
+	{
+		"LABEL": "0x510",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c7000800",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x51c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "ca007117",
+		"String": "@get_RB_table_tennis_tournament8_enemy_team_id()"
+	},
+	{
+		"LABEL": "0x556",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "cb000000",
+		"String": "@set_RB_table_tennis_tournament_enemy_team_id(#6001)"
+	},
+	{
+		"LABEL": "0x594",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id1(#6001)"
+	},
+	{
+		"LABEL": "0x5ce",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,0,#10001)"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id2(#6001)"
+	},
+	{
+		"LABEL": "0x63a",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,1,#10001)"
+	},
+	{
+		"LABEL": "0x66c",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@CS_set_RB_table_tennis_team_name(1)"
+	},
+	{
+		"LABEL": "0x698",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ce00de1b0100"
+	},
+	{
+		"LABEL": "0x6a2",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "d2000000",
+		"String": "@CS_set_RB_table_tennis_team_name(0)"
+	},
+	{
+		"LABEL": "0x6d0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "d500c0270300"
+	},
+	{
+		"LABEL": "0x6da",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d6000900",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x6e6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d800",
+		"Equation": "(#471!=0)",
+		"GOTO_LABEL": "0x70e"
+	},
+	{
+		"LABEL": "0x6fa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d900",
+		"GOTO_LABEL": "0xd00"
+	},
+	{
+		"LABEL": "0x704",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "da00",
+		"GOTO_LABEL": "0x70e"
+	},
+	{
+		"LABEL": "0x70e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "db00",
+		"Equation": "(#472!=0)",
+		"GOTO_LABEL": "0x736"
+	},
+	{
+		"LABEL": "0x722",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dc00",
+		"GOTO_LABEL": "0xf2e"
+	},
+	{
+		"LABEL": "0x72c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dd00",
+		"GOTO_LABEL": "0x736"
+	},
+	{
+		"LABEL": "0x736",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e300c0270400"
+	},
+	{
+		"LABEL": "0x740",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "e4000a00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x74c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "e6000b00",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x758",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "e9000c00",
+		"GOTO_LABEL": "0x4e18"
+	},
+	{
+		"LABEL": "0x764",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ec00",
+		"Equation": "(@get_RB_table_tennis_winner_team_type()==0)",
+		"GOTO_LABEL": "0x800"
+	},
+	{
+		"LABEL": "0x79c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "ee00c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(@RB_卓球_パートナー,6)"
+	},
+	{
+		"LABEL": "0x7ea",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "ef000d00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x7f6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f000",
+		"GOTO_LABEL": "0x80a"
+	},
+	{
+		"LABEL": "0x800",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f400",
+		"GOTO_LABEL": "0x123c"
+	},
+	{
+		"LABEL": "0x80a",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "f9000000",
+		"String": "@CS_set_RB_table_tennis_team_name(0)"
+	},
+	{
+		"LABEL": "0x838",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "fd007117",
+		"String": "@get_RB_table_tennis_tournament4_enemy_team_id()"
+	},
+	{
+		"LABEL": "0x872",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "fe000000",
+		"String": "@set_RB_table_tennis_tournament_enemy_team_id(#6001)"
+	},
+	{
+		"LABEL": "0x8b0",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id1(#6001)"
+	},
+	{
+		"LABEL": "0x8ea",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,0,#10001)"
+	},
+	{
+		"LABEL": "0x91c",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id2(#6001)"
+	},
+	{
+		"LABEL": "0x956",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,1,#10001)"
+	},
+	{
+		"LABEL": "0x988",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@CS_set_RB_table_tennis_team_name(1)"
+	},
+	{
+		"LABEL": "0x9b4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0101c0270500"
+	},
+	{
+		"LABEL": "0x9be",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "02010e00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x9ca",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "04010f00",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x9d6",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "07011000",
+		"GOTO_LABEL": "0x4e18"
+	},
+	{
+		"LABEL": "0x9e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0a01",
+		"Equation": "(@get_RB_table_tennis_winner_team_type()==0)",
+		"GOTO_LABEL": "0xa7e"
+	},
+	{
+		"LABEL": "0xa1a",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "0c01c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(@RB_卓球_パートナー,7)"
+	},
+	{
+		"LABEL": "0xa68",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "0d011100",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0xa74",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0e01",
+		"GOTO_LABEL": "0xa88"
+	},
+	{
+		"LABEL": "0xa7e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1201",
+		"GOTO_LABEL": "0x123c"
+	},
+	{
+		"LABEL": "0xa88",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "19017117",
+		"String": "@get_RB_table_tennis_tournament2_enemy_team_id()"
+	},
+	{
+		"LABEL": "0xac2",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "1a010000",
+		"String": "@set_RB_table_tennis_tournament_enemy_team_id(#6001)"
+	},
+	{
+		"LABEL": "0xb00",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id1(#6001)"
+	},
+	{
+		"LABEL": "0xb3a",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,0,#10001)"
+	},
+	{
+		"LABEL": "0xb6c",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id2(#6001)"
+	},
+	{
+		"LABEL": "0xba6",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,1,#10001)"
+	},
+	{
+		"LABEL": "0xbd8",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@CS_set_RB_table_tennis_team_name(1)"
+	},
+	{
+		"LABEL": "0xc04",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1d01c0270600"
+	},
+	{
+		"LABEL": "0xc0e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "1e011200",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0xc1a",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "20011300",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0xc26",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "23011400",
+		"GOTO_LABEL": "0x4e18"
+	},
+	{
+		"LABEL": "0xc32",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "26010000",
+		"String": "@check_RB_table_tennis_record()"
+	},
+	{
+		"LABEL": "0xc5a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2901",
+		"Equation": "(@get_RB_table_tennis_winner_team_type()==0)",
+		"GOTO_LABEL": "0xcf6"
+	},
+	{
+		"LABEL": "0xc92",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "2b01c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(@RB_卓球_パートナー,8)"
+	},
+	{
+		"LABEL": "0xce0",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "2c011500",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0xcec",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2d01",
+		"GOTO_LABEL": "0xd00"
+	},
+	{
+		"LABEL": "0xcf6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3101",
+		"GOTO_LABEL": "0x123c"
+	},
+	{
+		"LABEL": "0xd00",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "39010000",
+		"String": "@set_RB_table_tennis_game_place(11)"
+	},
+	{
+		"LABEL": "0xd2c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "3c010000",
+		"String": "@set_RB_table_tennis_tournament_enemy_team_id(17)"
+	},
+	{
+		"LABEL": "0xd66",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id1(17)"
+	},
+	{
+		"LABEL": "0xd9c",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,0,#10001)"
+	},
+	{
+		"LABEL": "0xdce",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id2(17)"
+	},
+	{
+		"LABEL": "0xe04",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,1,#10001)"
+	},
+	{
+		"LABEL": "0xe36",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@CS_set_RB_table_tennis_team_name(1)"
+	},
+	{
+		"LABEL": "0xe62",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3f01c0270700"
+	},
+	{
+		"LABEL": "0xe6c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "40011600",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0xe78",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "42011700",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0xe84",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "45011800",
+		"GOTO_LABEL": "0x1512"
+	},
+	{
+		"LABEL": "0xe90",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4801",
+		"Equation": "(@get_RB_table_tennis_winner_team_type()==0)",
+		"GOTO_LABEL": "0xf24"
+	},
+	{
+		"LABEL": "0xec8",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "4b010000",
+		"String": "@on_RB_table_tennis_story_flag(1)"
+	},
+	{
+		"LABEL": "0xef2",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "4e010000",
+		"String": "@check_RB_table_tennis_record()"
+	},
+	{
+		"LABEL": "0xf1a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4f01",
+		"GOTO_LABEL": "0xf2e"
+	},
+	{
+		"LABEL": "0xf24",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5301",
+		"GOTO_LABEL": "0x13f2"
+	},
+	{
+		"LABEL": "0xf2e",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "5c010000",
+		"String": "@set_RB_table_tennis_game_place(11)"
+	},
+	{
+		"LABEL": "0xf5a",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "5f010000",
+		"String": "@set_RB_table_tennis_tournament_enemy_team_id(18)"
+	},
+	{
+		"LABEL": "0xf94",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id1(18)"
+	},
+	{
+		"LABEL": "0xfca",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,0,#10001)"
+	},
+	{
+		"LABEL": "0xffc",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "1127",
+		"String": "@get_RB_table_tennis_team_set_character_id2(18)"
+	},
+	{
+		"LABEL": "0x1032",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@set_RB_table_tennis_player_id(1,1,#10001)"
+	},
+	{
+		"LABEL": "0x1064",
+		"Type": "EQU",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "@CS_set_RB_table_tennis_team_name(1)"
+	},
+	{
+		"LABEL": "0x1090",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "62010000",
+		"String": "@set_RB_table_tennis_player_entry_type(1,1,1)"
+	},
+	{
+		"LABEL": "0x10c6",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "64011900",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x10d2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6701c0270800"
+	},
+	{
+		"LABEL": "0x10dc",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "68011a00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x10e8",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "6a011b00",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x10f4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "6d011c00",
+		"GOTO_LABEL": "0x1512"
+	},
+	{
+		"LABEL": "0x1100",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7001",
+		"Equation": "(@get_RB_table_tennis_winner_team_type()==0)",
+		"GOTO_LABEL": "0x1194"
+	},
+	{
+		"LABEL": "0x1138",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "72010000",
+		"String": "@on_RB_table_tennis_story_flag(2)"
+	},
+	{
+		"LABEL": "0x1162",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "75010000",
+		"String": "@check_RB_table_tennis_record()"
+	},
+	{
+		"LABEL": "0x118a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7601",
+		"GOTO_LABEL": "0x119e"
+	},
+	{
+		"LABEL": "0x1194",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7a01",
+		"GOTO_LABEL": "0x1482"
+	},
+	{
+		"LABEL": "0x119e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8101c0270b00"
+	},
+	{
+		"LABEL": "0x11a8",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "82011d00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x11b4",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "890100000000b400"
+	},
+	{
+		"LABEL": "0x11c0",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "8a01b400"
+	},
+	{
+		"LABEL": "0x11c8",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "8c0101c03c00"
+	},
+	{
+		"LABEL": "0x11d2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8e01"
+	},
+	{
+		"LABEL": "0x11d8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x11e6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x11ee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x11f4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x11f8",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "930101ff"
+	},
+	{
+		"LABEL": "0x1200",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1204",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1212",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x121a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x1220",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x1226",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "94017800"
+	},
+	{
+		"LABEL": "0x122e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "97010080"
+	},
+	{
+		"LABEL": "0x1236",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9801"
+	},
+	{
+		"LABEL": "0x123c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "9f01c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(@RB_卓球_パートナー,9)"
+	},
+	{
+		"LABEL": "0x128a",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "a0011e00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x1296",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a401c0270c00"
+	},
+	{
+		"LABEL": "0x12a0",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "a5011f00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x12ac",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "a7012000",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x12b8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ab01",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x13ec"
+	},
+	{
+		"LABEL": "0x12ce",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "ac010000",
+		"String": "@restart_RB_table_tennis_playlog_index()"
+	},
+	{
+		"LABEL": "0x1300",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "ad010000",
+		"String": "@restart_RB_table_tennis_tournament_state()"
+	},
+	{
+		"LABEL": "0x1334",
+		"Type": "IFY",
+		"SUBCMD": 1,
+		"Args": "b001",
+		"Equation": "((@get_RB_table_tennis_tournament_state())==0)",
+		"GOTO_LABEL": "0x758"
+	},
+	{
+		"LABEL": "0x136e",
+		"Type": "IFY",
+		"SUBCMD": 1,
+		"Args": "b101",
+		"Equation": "((@get_RB_table_tennis_tournament_state())==1)",
+		"GOTO_LABEL": "0x9d6"
+	},
+	{
+		"LABEL": "0x13a8",
+		"Type": "IFY",
+		"SUBCMD": 1,
+		"Args": "b201",
+		"Equation": "((@get_RB_table_tennis_tournament_state())==2)",
+		"GOTO_LABEL": "0xc26"
+	},
+	{
+		"LABEL": "0x13e2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b501",
+		"GOTO_LABEL": "0x13ec"
+	},
+	{
+		"LABEL": "0x13ec",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "b801"
+	},
+	{
+		"LABEL": "0x13f2",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "be012100",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x13fe",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c101c0270d00"
+	},
+	{
+		"LABEL": "0x1408",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c2012200",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x1414",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "c4012300",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x1420",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c701",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x147c"
+	},
+	{
+		"LABEL": "0x1436",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "c8010000",
+		"String": "@restart_RB_table_tennis_playlog_index()"
+	},
+	{
+		"LABEL": "0x1468",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ca01",
+		"GOTO_LABEL": "0xe84"
+	},
+	{
+		"LABEL": "0x1472",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cb01",
+		"GOTO_LABEL": "0x147c"
+	},
+	{
+		"LABEL": "0x147c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "cd01"
+	},
+	{
+		"LABEL": "0x1482",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d3012400",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x148e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "d601c0270e00"
+	},
+	{
+		"LABEL": "0x1498",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d7012500",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x14a4",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "d9012600",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x14b0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "dc01",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x150c"
+	},
+	{
+		"LABEL": "0x14c6",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "dd010000",
+		"String": "@restart_RB_table_tennis_playlog_index()"
+	},
+	{
+		"LABEL": "0x14f8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "df01",
+		"GOTO_LABEL": "0x10f4"
+	},
+	{
+		"LABEL": "0x1502",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e001",
+		"GOTO_LABEL": "0x150c"
+	},
+	{
+		"LABEL": "0x150c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e201"
+	},
+	{
+		"LABEL": "0x1512",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ef01c0270000"
+	},
+	{
+		"LABEL": "0x151c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "f0017117",
+		"String": "@get_RB_table_tennis_player_id(1,0)"
+	},
+	{
+		"LABEL": "0x1548",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f401",
+		"Equation": "(@get_RB_table_tennis_game_match()==2)",
+		"GOTO_LABEL": "0x1584"
+	},
+	{
+		"LABEL": "0x157a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f501",
+		"GOTO_LABEL": "0x168a"
+	},
+	{
+		"LABEL": "0x1584",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fa01",
+		"Equation": "(@get_RB_table_tennis_game_mode()==0)",
+		"GOTO_LABEL": "0x168a"
+	},
+	{
+		"LABEL": "0x15b4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fc01",
+		"Equation": "(@get_RB_table_tennis_character_battle_count(#6001)==0)",
+		"GOTO_LABEL": "0x1640"
+	},
+	{
+		"LABEL": "0x15f6",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "fe01c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(#6001,0)"
+	},
+	{
+		"LABEL": "0x1636",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ff01",
+		"GOTO_LABEL": "0x1680"
+	},
+	{
+		"LABEL": "0x1640",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "0302c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(#6001,1)"
+	},
+	{
+		"LABEL": "0x1680",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0502",
+		"GOTO_LABEL": "0x168a"
+	},
+	{
+		"LABEL": "0x168a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0e02",
+		"Equation": "(#10176!=0)",
+		"GOTO_LABEL": "0x16b6"
+	},
+	{
+		"LABEL": "0x16a0",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "10022700",
+		"GOTO_LABEL": "0x21c2"
+	},
+	{
+		"LABEL": "0x16ac",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1102",
+		"GOTO_LABEL": "0x16b6"
+	},
+	{
+		"LABEL": "0x16b6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "13024b1c0000"
+	},
+	{
+		"LABEL": "0x16c0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1a02"
+	},
+	{
+		"LABEL": "0x16c6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3002",
+		"Equation": "(0)",
+		"GOTO_LABEL": "0x1830"
+	},
+	{
+		"LABEL": "0x16d4",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "310202c001007117ab020100004000000600dd52613024006400a08c51300000"
+	},
+	{
+		"LABEL": "0x16f8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3502",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x17f4"
+	},
+	{
+		"LABEL": "0x170e",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "36020000",
+		"String": "@set_RB_table_tennis_winner_team_type(0)"
+	},
+	{
+		"LABEL": "0x1740",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3702",
+		"Equation": "(@get_RB_table_tennis_game_mode()==0)",
+		"GOTO_LABEL": "0x17ea"
+	},
+	{
+		"LABEL": "0x1770",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "38021127",
+		"String": "@get_RB_table_tennis_player_id(1,0)"
+	},
+	{
+		"LABEL": "0x179c",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "39020000",
+		"String": "@add_RB_table_tennis_progress_winner_character_list(#10001)"
+	},
+	{
+		"LABEL": "0x17e0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3a02",
+		"GOTO_LABEL": "0x17ea"
+	},
+	{
+		"LABEL": "0x17ea",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3b02",
+		"GOTO_LABEL": "0x1826"
+	},
+	{
+		"LABEL": "0x17f4",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "3d020000",
+		"String": "@set_RB_table_tennis_winner_team_type(1)"
+	},
+	{
+		"LABEL": "0x1826",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3f02",
+		"GOTO_LABEL": "0x1ae4"
+	},
+	{
+		"LABEL": "0x1830",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4302c0270000"
+	},
+	{
+		"LABEL": "0x183a",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "44020100"
+	},
+	{
+		"LABEL": "0x1842",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "45020101"
+	},
+	{
+		"LABEL": "0x184a",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "46020102"
+	},
+	{
+		"LABEL": "0x1852",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "47023a000000"
+	},
+	{
+		"LABEL": "0x185c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4902",
+		"Equation": "(#10176!=0)",
+		"GOTO_LABEL": "0x18a2"
+	},
+	{
+		"LABEL": "0x1872",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "4b022800",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x187e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4d02"
+	},
+	{
+		"LABEL": "0x1884",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4e02c0270000"
+	},
+	{
+		"LABEL": "0x188e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4f02",
+		"GOTO_LABEL": "0x1830"
+	},
+	{
+		"LABEL": "0x1898",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5002",
+		"GOTO_LABEL": "0x18a2"
+	},
+	{
+		"LABEL": "0x18a2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5202",
+		"Equation": "(#7243==1)",
+		"GOTO_LABEL": "0x1978"
+	},
+	{
+		"LABEL": "0x18b8",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "55020000",
+		"String": "@on_RB_table_tennis_story_flag(2)"
+	},
+	{
+		"LABEL": "0x18e2",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "5c020000",
+		"String": "@check_RB_table_tennis_record()"
+	},
+	{
+		"LABEL": "0x190a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6702c0278403"
+	},
+	{
+		"LABEL": "0x1914",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "68022900",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x1920",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6c02"
+	},
+	{
+		"LABEL": "0x1926",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6f02dd1b0000"
+	},
+	{
+		"LABEL": "0x1930",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "72020000",
+		"String": "@on_RB_table_tennis_story_flag(4)"
+	},
+	{
+		"LABEL": "0x195a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7a024b1c0200"
+	},
+	{
+		"LABEL": "0x1964",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7b02",
+		"GOTO_LABEL": "0x16c0"
+	},
+	{
+		"LABEL": "0x196e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7c02",
+		"GOTO_LABEL": "0x1978"
+	},
+	{
+		"LABEL": "0x1978",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7d02",
+		"Equation": "(#7243==3)",
+		"GOTO_LABEL": "0x1ae4"
+	},
+	{
+		"LABEL": "0x198e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8002",
+		"Equation": "(@get_RB_table_tennis_winner_team_type==0)",
+		"GOTO_LABEL": "0x19ee"
+	},
+	{
+		"LABEL": "0x19c4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8302c0278503"
+	},
+	{
+		"LABEL": "0x19ce",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "84022a00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x19da",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8502d3270100"
+	},
+	{
+		"LABEL": "0x19e4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8602",
+		"GOTO_LABEL": "0x1a46"
+	},
+	{
+		"LABEL": "0x19ee",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8b02c0278603"
+	},
+	{
+		"LABEL": "0x19f8",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "8c022b00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x1a04",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "8d02d227",
+		"String": "#6001"
+	},
+	{
+		"LABEL": "0x1a12",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9002",
+		"Equation": "(#10194==0)",
+		"GOTO_LABEL": "0x1a3c"
+	},
+	{
+		"LABEL": "0x1a28",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9102d3270000"
+	},
+	{
+		"LABEL": "0x1a32",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9202",
+		"GOTO_LABEL": "0x1a46"
+	},
+	{
+		"LABEL": "0x1a3c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9502d3270100"
+	},
+	{
+		"LABEL": "0x1a46",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9a02"
+	},
+	{
+		"LABEL": "0x1a4c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a002",
+		"Equation": "(#10195==1)",
+		"GOTO_LABEL": "0x1ac6"
+	},
+	{
+		"LABEL": "0x1a62",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a1024b1c0400"
+	},
+	{
+		"LABEL": "0x1a6c",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "a9023a000000"
+	},
+	{
+		"LABEL": "0x1a76",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ac02dd1b0100"
+	},
+	{
+		"LABEL": "0x1a80",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "af020000",
+		"String": "@set_RB_table_tennis_player_entry_type(0,1,0)"
+	},
+	{
+		"LABEL": "0x1ab6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "b002"
+	},
+	{
+		"LABEL": "0x1abc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b102",
+		"GOTO_LABEL": "0x1ada"
+	},
+	{
+		"LABEL": "0x1ac6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b5024b1c0600"
+	},
+	{
+		"LABEL": "0x1ad0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "da02",
+		"GOTO_LABEL": "0x16c0"
+	},
+	{
+		"LABEL": "0x1ada",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dc02",
+		"GOTO_LABEL": "0x1ae4"
+	},
+	{
+		"LABEL": "0x1ae4",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "e1020000",
+		"String": "@check_RB_table_tennis_record()"
+	},
+	{
+		"LABEL": "0x1b0c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e502c0270000"
+	},
+	{
+		"LABEL": "0x1b16",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e902",
+		"Equation": "(@get_RB_table_tennis_game_match()==2)",
+		"GOTO_LABEL": "0x1b52"
+	},
+	{
+		"LABEL": "0x1b48",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ea02",
+		"GOTO_LABEL": "0x1c20"
+	},
+	{
+		"LABEL": "0x1b52",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ee02",
+		"Equation": "(@get_RB_table_tennis_game_mode()==0)",
+		"GOTO_LABEL": "0x1c20"
+	},
+	{
+		"LABEL": "0x1b82",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "f0027117",
+		"String": "@get_RB_table_tennis_player_id(1,0)"
+	},
+	{
+		"LABEL": "0x1bae",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "f102c027",
+		"String": "@get_RB_table_tennis_character_scenario_label(#6001,2+@get_RB_table_tennis_winner_team_type())"
+	},
+	{
+		"LABEL": "0x1c16",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f202",
+		"GOTO_LABEL": "0x1c20"
+	},
+	{
+		"LABEL": "0x1c20",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fb02",
+		"Equation": "(#10176!=0)",
+		"GOTO_LABEL": "0x1c58"
+	},
+	{
+		"LABEL": "0x1c36",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "fc022c00",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x1c42",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "fd022d00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x1c4e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fe02",
+		"GOTO_LABEL": "0x1c58"
+	},
+	{
+		"LABEL": "0x1c58",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0503000000003c00"
+	},
+	{
+		"LABEL": "0x1c64",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0903",
+		"Equation": "(@is_RB_table_tennis_boss_battle()==2)",
+		"GOTO_LABEL": "0x1ca8"
+	},
+	{
+		"LABEL": "0x1c96",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "0a033c00"
+	},
+	{
+		"LABEL": "0x1c9e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b03",
+		"GOTO_LABEL": "0x1cd6"
+	},
+	{
+		"LABEL": "0x1ca8",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "0f0301ff"
+	},
+	{
+		"LABEL": "0x1cb0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1cb4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1cc2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1cca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1cd0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1cd6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "1803"
+	},
+	{
+		"LABEL": "0x1cdc",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1f03cb860100"
+	},
+	{
+		"LABEL": "0x1ce6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2403",
+		"Equation": "((@get_RB_table_tennis_game_place())==0)",
+		"GOTO_LABEL": "0x1d4c"
+	},
+	{
+		"LABEL": "0x1d1a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d1e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003300000000000000"
+	},
+	{
+		"LABEL": "0x1d2c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1d34",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1d3e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d42",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2503",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1d4c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2503",
+		"Equation": "((@get_RB_table_tennis_game_place())==1)",
+		"GOTO_LABEL": "0x1db2"
+	},
+	{
+		"LABEL": "0x1d80",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d84",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x1d92",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1d9a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1da4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1da8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2603",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1db2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2603",
+		"Equation": "((@get_RB_table_tennis_game_place())==2)",
+		"GOTO_LABEL": "0x1e18"
+	},
+	{
+		"LABEL": "0x1de6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1dea",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001900000000000000"
+	},
+	{
+		"LABEL": "0x1df8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1e00",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1e0a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1e0e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2703",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1e18",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2703",
+		"Equation": "((@get_RB_table_tennis_game_place())==3)",
+		"GOTO_LABEL": "0x1e7e"
+	},
+	{
+		"LABEL": "0x1e4c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1e50",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00008100000000000000"
+	},
+	{
+		"LABEL": "0x1e5e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1e66",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1e70",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1e74",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2803",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1e7e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2803",
+		"Equation": "((@get_RB_table_tennis_game_place())==4)",
+		"GOTO_LABEL": "0x1ee4"
+	},
+	{
+		"LABEL": "0x1eb2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1eb6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00005400000000000000"
+	},
+	{
+		"LABEL": "0x1ec4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1ecc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1ed6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1eda",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2903",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1ee4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2903",
+		"Equation": "((@get_RB_table_tennis_game_place())==5)",
+		"GOTO_LABEL": "0x1f4a"
+	},
+	{
+		"LABEL": "0x1f18",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f1c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003000000000000000"
+	},
+	{
+		"LABEL": "0x1f2a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1f32",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1f3c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f40",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2a03",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1f4a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a03",
+		"Equation": "((@get_RB_table_tennis_game_place())==6)",
+		"GOTO_LABEL": "0x1fb0"
+	},
+	{
+		"LABEL": "0x1f7e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f82",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002500000000000000"
+	},
+	{
+		"LABEL": "0x1f90",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1f98",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1fa2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1fa6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2b03",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x1fb0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2b03",
+		"Equation": "((@get_RB_table_tennis_game_place())==7)",
+		"GOTO_LABEL": "0x2016"
+	},
+	{
+		"LABEL": "0x1fe4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1fe8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f00000000000000"
+	},
+	{
+		"LABEL": "0x1ff6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1ffe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x2008",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x200c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c03",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x2016",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2c03",
+		"Equation": "((@get_RB_table_tennis_game_place())==8)",
+		"GOTO_LABEL": "0x207c"
+	},
+	{
+		"LABEL": "0x204a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x204e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003a00000000000000"
+	},
+	{
+		"LABEL": "0x205c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2064",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x206e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2072",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2d03",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x207c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2d03",
+		"Equation": "((@get_RB_table_tennis_game_place())==9)",
+		"GOTO_LABEL": "0x20e2"
+	},
+	{
+		"LABEL": "0x20b0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x20b4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001c00000000000000"
+	},
+	{
+		"LABEL": "0x20c2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x20ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x20d4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x20d8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2e03",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x20e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2e03",
+		"Equation": "((@get_RB_table_tennis_game_place())==10)",
+		"GOTO_LABEL": "0x2148"
+	},
+	{
+		"LABEL": "0x2116",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x211a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00005700000000000000"
+	},
+	{
+		"LABEL": "0x2128",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2130",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x213a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x213e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2f03",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x2148",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2f03",
+		"Equation": "((@get_RB_table_tennis_game_place())==11)",
+		"GOTO_LABEL": "0x21a4"
+	},
+	{
+		"LABEL": "0x217c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2180",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x218e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2196",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x21a0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x21a4",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3103"
+	},
+	{
+		"LABEL": "0x21aa",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3503000000003c00"
+	},
+	{
+		"LABEL": "0x21b6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3703"
+	},
+	{
+		"LABEL": "0x21bc",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3b03"
+	},
+	{
+		"LABEL": "0x21c2",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "40032e00",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x21ce",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "43032f00",
+		"GOTO_LABEL": "0x21ec"
+	},
+	{
+		"LABEL": "0x21da",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "47033000",
+		"GOTO_LABEL": "0x21aa"
+	},
+	{
+		"LABEL": "0x21e6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4903"
+	},
+	{
+		"LABEL": "0x21ec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4d03",
+		"Equation": "((#10176)==1)",
+		"GOTO_LABEL": "0x222a"
+	},
+	{
+		"LABEL": "0x2204",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2220",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4e03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x222a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4e03",
+		"Equation": "((#10176)==2)",
+		"GOTO_LABEL": "0x2268"
+	},
+	{
+		"LABEL": "0x2242",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x16a0"
+	},
+	{
+		"LABEL": "0x225e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4f03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2268",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f03",
+		"Equation": "((#10176)==3)",
+		"GOTO_LABEL": "0x22a6"
+	},
+	{
+		"LABEL": "0x2280",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1e94"
+	},
+	{
+		"LABEL": "0x229c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x22a6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5003",
+		"Equation": "((#10176)==4)",
+		"GOTO_LABEL": "0x22e4"
+	},
+	{
+		"LABEL": "0x22be",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2ef8"
+	},
+	{
+		"LABEL": "0x22da",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x22e4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5103",
+		"Equation": "((#10176)==5)",
+		"GOTO_LABEL": "0x2322"
+	},
+	{
+		"LABEL": "0x22fc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x324e"
+	},
+	{
+		"LABEL": "0x2318",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2322",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5203",
+		"Equation": "((#10176)==6)",
+		"GOTO_LABEL": "0x2360"
+	},
+	{
+		"LABEL": "0x233a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x35d8"
+	},
+	{
+		"LABEL": "0x2356",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2360",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5303",
+		"Equation": "((#10176)==7)",
+		"GOTO_LABEL": "0x239e"
+	},
+	{
+		"LABEL": "0x2378",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x3ce0"
+	},
+	{
+		"LABEL": "0x2394",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x239e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5403",
+		"Equation": "((#10176)==8)",
+		"GOTO_LABEL": "0x23dc"
+	},
+	{
+		"LABEL": "0x23b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x451c"
+	},
+	{
+		"LABEL": "0x23d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x23dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5503",
+		"Equation": "((#10176)==10)",
+		"GOTO_LABEL": "0x241c"
+	},
+	{
+		"LABEL": "0x23f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1c2c"
+	},
+	{
+		"LABEL": "0x2412",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x241c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5603",
+		"Equation": "((#10176)==11)",
+		"GOTO_LABEL": "0x245c"
+	},
+	{
+		"LABEL": "0x2436",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x7944"
+	},
+	{
+		"LABEL": "0x2452",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x245c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5703",
+		"Equation": "((#10176)==12)",
+		"GOTO_LABEL": "0x249c"
+	},
+	{
+		"LABEL": "0x2476",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x9f6c"
+	},
+	{
+		"LABEL": "0x2492",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x249c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5803",
+		"Equation": "((#10176)==13)",
+		"GOTO_LABEL": "0x24dc"
+	},
+	{
+		"LABEL": "0x24b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xafca"
+	},
+	{
+		"LABEL": "0x24d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x24dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5903",
+		"Equation": "((#10176)==14)",
+		"GOTO_LABEL": "0x251c"
+	},
+	{
+		"LABEL": "0x24f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xc250"
+	},
+	{
+		"LABEL": "0x2512",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5a03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x251c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5a03",
+		"Equation": "((#10176)==15)",
+		"GOTO_LABEL": "0x255c"
+	},
+	{
+		"LABEL": "0x2536",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xcacc"
+	},
+	{
+		"LABEL": "0x2552",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5b03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x255c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5b03",
+		"Equation": "((#10176)==16)",
+		"GOTO_LABEL": "0x259c"
+	},
+	{
+		"LABEL": "0x2576",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xcc46"
+	},
+	{
+		"LABEL": "0x2592",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5d03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x259c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5d03",
+		"Equation": "((#10176)==20)",
+		"GOTO_LABEL": "0x25dc"
+	},
+	{
+		"LABEL": "0x25b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xce20"
+	},
+	{
+		"LABEL": "0x25d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5e03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x25dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5e03",
+		"Equation": "((#10176)==21)",
+		"GOTO_LABEL": "0x261c"
+	},
+	{
+		"LABEL": "0x25f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xd348"
+	},
+	{
+		"LABEL": "0x2612",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5f03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x261c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5f03",
+		"Equation": "((#10176)==22)",
+		"GOTO_LABEL": "0x265c"
+	},
+	{
+		"LABEL": "0x2636",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xd5fc"
+	},
+	{
+		"LABEL": "0x2652",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x265c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6003",
+		"Equation": "((#10176)==23)",
+		"GOTO_LABEL": "0x269c"
+	},
+	{
+		"LABEL": "0x2676",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xdb04"
+	},
+	{
+		"LABEL": "0x2692",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x269c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6103",
+		"Equation": "((#10176)==25)",
+		"GOTO_LABEL": "0x26dc"
+	},
+	{
+		"LABEL": "0x26b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xddf8"
+	},
+	{
+		"LABEL": "0x26d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x26dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6203",
+		"Equation": "((#10176)==26)",
+		"GOTO_LABEL": "0x271c"
+	},
+	{
+		"LABEL": "0x26f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xe0d6"
+	},
+	{
+		"LABEL": "0x2712",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x271c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6303",
+		"Equation": "((#10176)==27)",
+		"GOTO_LABEL": "0x275c"
+	},
+	{
+		"LABEL": "0x2736",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xe23e"
+	},
+	{
+		"LABEL": "0x2752",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x275c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6403",
+		"Equation": "((#10176)==28)",
+		"GOTO_LABEL": "0x279c"
+	},
+	{
+		"LABEL": "0x2776",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xe49a"
+	},
+	{
+		"LABEL": "0x2792",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x279c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6503",
+		"Equation": "((#10176)==29)",
+		"GOTO_LABEL": "0x27dc"
+	},
+	{
+		"LABEL": "0x27b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xe634"
+	},
+	{
+		"LABEL": "0x27d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x27dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6703",
+		"Equation": "((#10176)==30)",
+		"GOTO_LABEL": "0x281c"
+	},
+	{
+		"LABEL": "0x27f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xe846"
+	},
+	{
+		"LABEL": "0x2812",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x281c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6803",
+		"Equation": "((#10176)==31)",
+		"GOTO_LABEL": "0x285c"
+	},
+	{
+		"LABEL": "0x2836",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xebea"
+	},
+	{
+		"LABEL": "0x2852",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x285c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6903",
+		"Equation": "((#10176)==32)",
+		"GOTO_LABEL": "0x289c"
+	},
+	{
+		"LABEL": "0x2876",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xef22"
+	},
+	{
+		"LABEL": "0x2892",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6a03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x289c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6a03",
+		"Equation": "((#10176)==33)",
+		"GOTO_LABEL": "0x28dc"
+	},
+	{
+		"LABEL": "0x28b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xf4f6"
+	},
+	{
+		"LABEL": "0x28d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6b03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x28dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6b03",
+		"Equation": "((#10176)==35)",
+		"GOTO_LABEL": "0x291c"
+	},
+	{
+		"LABEL": "0x28f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xf804"
+	},
+	{
+		"LABEL": "0x2912",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6c03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x291c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6c03",
+		"Equation": "((#10176)==36)",
+		"GOTO_LABEL": "0x295c"
+	},
+	{
+		"LABEL": "0x2936",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xfbfc"
+	},
+	{
+		"LABEL": "0x2952",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6d03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x295c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6d03",
+		"Equation": "((#10176)==37)",
+		"GOTO_LABEL": "0x299c"
+	},
+	{
+		"LABEL": "0x2976",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xfdb2"
+	},
+	{
+		"LABEL": "0x2992",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6e03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x299c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6e03",
+		"Equation": "((#10176)==38)",
+		"GOTO_LABEL": "0x29dc"
+	},
+	{
+		"LABEL": "0x29b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xff88"
+	},
+	{
+		"LABEL": "0x29d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6f03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x29dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6f03",
+		"Equation": "((#10176)==39)",
+		"GOTO_LABEL": "0x2a1c"
+	},
+	{
+		"LABEL": "0x29f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x101d6"
+	},
+	{
+		"LABEL": "0x2a12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2a1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7103",
+		"Equation": "((#10176)==40)",
+		"GOTO_LABEL": "0x2a5c"
+	},
+	{
+		"LABEL": "0x2a36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x103e2"
+	},
+	{
+		"LABEL": "0x2a52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2a5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7203",
+		"Equation": "((#10176)==41)",
+		"GOTO_LABEL": "0x2a9c"
+	},
+	{
+		"LABEL": "0x2a76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x105c8"
+	},
+	{
+		"LABEL": "0x2a92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2a9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7303",
+		"Equation": "((#10176)==42)",
+		"GOTO_LABEL": "0x2adc"
+	},
+	{
+		"LABEL": "0x2ab6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1074e"
+	},
+	{
+		"LABEL": "0x2ad2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2adc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7403",
+		"Equation": "((#10176)==43)",
+		"GOTO_LABEL": "0x2b1c"
+	},
+	{
+		"LABEL": "0x2af6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x10c16"
+	},
+	{
+		"LABEL": "0x2b12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2b1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7503",
+		"Equation": "((#10176)==45)",
+		"GOTO_LABEL": "0x2b5c"
+	},
+	{
+		"LABEL": "0x2b36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x10e52"
+	},
+	{
+		"LABEL": "0x2b52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2b5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7603",
+		"Equation": "((#10176)==46)",
+		"GOTO_LABEL": "0x2b9c"
+	},
+	{
+		"LABEL": "0x2b76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x111f4"
+	},
+	{
+		"LABEL": "0x2b92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2b9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7703",
+		"Equation": "((#10176)==47)",
+		"GOTO_LABEL": "0x2bdc"
+	},
+	{
+		"LABEL": "0x2bb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x114b8"
+	},
+	{
+		"LABEL": "0x2bd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2bdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7803",
+		"Equation": "((#10176)==48)",
+		"GOTO_LABEL": "0x2c1c"
+	},
+	{
+		"LABEL": "0x2bf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x11816"
+	},
+	{
+		"LABEL": "0x2c12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2c1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7903",
+		"Equation": "((#10176)==49)",
+		"GOTO_LABEL": "0x2c5c"
+	},
+	{
+		"LABEL": "0x2c36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x11b62"
+	},
+	{
+		"LABEL": "0x2c52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7b03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2c5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7b03",
+		"Equation": "((#10176)==50)",
+		"GOTO_LABEL": "0x2c9c"
+	},
+	{
+		"LABEL": "0x2c76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x11dda"
+	},
+	{
+		"LABEL": "0x2c92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7c03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2c9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7c03",
+		"Equation": "((#10176)==51)",
+		"GOTO_LABEL": "0x2cdc"
+	},
+	{
+		"LABEL": "0x2cb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x122de"
+	},
+	{
+		"LABEL": "0x2cd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7d03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2cdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7d03",
+		"Equation": "((#10176)==52)",
+		"GOTO_LABEL": "0x2d1c"
+	},
+	{
+		"LABEL": "0x2cf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x124e2"
+	},
+	{
+		"LABEL": "0x2d12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7e03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2d1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7e03",
+		"Equation": "((#10176)==53)",
+		"GOTO_LABEL": "0x2d5c"
+	},
+	{
+		"LABEL": "0x2d36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x129bc"
+	},
+	{
+		"LABEL": "0x2d52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7f03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2d5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7f03",
+		"Equation": "((#10176)==55)",
+		"GOTO_LABEL": "0x2d9c"
+	},
+	{
+		"LABEL": "0x2d76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x12bf8"
+	},
+	{
+		"LABEL": "0x2d92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2d9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8003",
+		"Equation": "((#10176)==56)",
+		"GOTO_LABEL": "0x2ddc"
+	},
+	{
+		"LABEL": "0x2db6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1305e"
+	},
+	{
+		"LABEL": "0x2dd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2ddc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8103",
+		"Equation": "((#10176)==57)",
+		"GOTO_LABEL": "0x2e1c"
+	},
+	{
+		"LABEL": "0x2df6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x132dc"
+	},
+	{
+		"LABEL": "0x2e12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2e1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8203",
+		"Equation": "((#10176)==58)",
+		"GOTO_LABEL": "0x2e5c"
+	},
+	{
+		"LABEL": "0x2e36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x13536"
+	},
+	{
+		"LABEL": "0x2e52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2e5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8303",
+		"Equation": "((#10176)==59)",
+		"GOTO_LABEL": "0x2e9c"
+	},
+	{
+		"LABEL": "0x2e76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x13848"
+	},
+	{
+		"LABEL": "0x2e92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2e9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8503",
+		"Equation": "((#10176)==60)",
+		"GOTO_LABEL": "0x2edc"
+	},
+	{
+		"LABEL": "0x2eb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x13aba"
+	},
+	{
+		"LABEL": "0x2ed2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2edc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8603",
+		"Equation": "((#10176)==61)",
+		"GOTO_LABEL": "0x2f1c"
+	},
+	{
+		"LABEL": "0x2ef6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x13ef0"
+	},
+	{
+		"LABEL": "0x2f12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2f1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8703",
+		"Equation": "((#10176)==62)",
+		"GOTO_LABEL": "0x2f5c"
+	},
+	{
+		"LABEL": "0x2f36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x14188"
+	},
+	{
+		"LABEL": "0x2f52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2f5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8803",
+		"Equation": "((#10176)==63)",
+		"GOTO_LABEL": "0x2f9c"
+	},
+	{
+		"LABEL": "0x2f76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x145ea"
+	},
+	{
+		"LABEL": "0x2f92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2f9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8903",
+		"Equation": "((#10176)==65)",
+		"GOTO_LABEL": "0x2fdc"
+	},
+	{
+		"LABEL": "0x2fb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x14840"
+	},
+	{
+		"LABEL": "0x2fd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8a03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x2fdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8a03",
+		"Equation": "((#10176)==66)",
+		"GOTO_LABEL": "0x301c"
+	},
+	{
+		"LABEL": "0x2ff6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x14ae2"
+	},
+	{
+		"LABEL": "0x3012",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8b03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x301c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8b03",
+		"Equation": "((#10176)==67)",
+		"GOTO_LABEL": "0x305c"
+	},
+	{
+		"LABEL": "0x3036",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x14cfc"
+	},
+	{
+		"LABEL": "0x3052",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8c03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x305c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8c03",
+		"Equation": "((#10176)==68)",
+		"GOTO_LABEL": "0x309c"
+	},
+	{
+		"LABEL": "0x3076",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x14fce"
+	},
+	{
+		"LABEL": "0x3092",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8d03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x309c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8d03",
+		"Equation": "((#10176)==69)",
+		"GOTO_LABEL": "0x30dc"
+	},
+	{
+		"LABEL": "0x30b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1530e"
+	},
+	{
+		"LABEL": "0x30d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8f03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x30dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8f03",
+		"Equation": "((#10176)==70)",
+		"GOTO_LABEL": "0x311c"
+	},
+	{
+		"LABEL": "0x30f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x155ee"
+	},
+	{
+		"LABEL": "0x3112",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x311c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9003",
+		"Equation": "((#10176)==71)",
+		"GOTO_LABEL": "0x315c"
+	},
+	{
+		"LABEL": "0x3136",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x159de"
+	},
+	{
+		"LABEL": "0x3152",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x315c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9103",
+		"Equation": "((#10176)==72)",
+		"GOTO_LABEL": "0x319c"
+	},
+	{
+		"LABEL": "0x3176",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x15ca4"
+	},
+	{
+		"LABEL": "0x3192",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x319c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9203",
+		"Equation": "((#10176)==73)",
+		"GOTO_LABEL": "0x31dc"
+	},
+	{
+		"LABEL": "0x31b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x161fe"
+	},
+	{
+		"LABEL": "0x31d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x31dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9303",
+		"Equation": "((#10176)==75)",
+		"GOTO_LABEL": "0x321c"
+	},
+	{
+		"LABEL": "0x31f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x16420"
+	},
+	{
+		"LABEL": "0x3212",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x321c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9403",
+		"Equation": "((#10176)==76)",
+		"GOTO_LABEL": "0x325c"
+	},
+	{
+		"LABEL": "0x3236",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x16834"
+	},
+	{
+		"LABEL": "0x3252",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x325c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9503",
+		"Equation": "((#10176)==77)",
+		"GOTO_LABEL": "0x329c"
+	},
+	{
+		"LABEL": "0x3276",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x16a8c"
+	},
+	{
+		"LABEL": "0x3292",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x329c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9603",
+		"Equation": "((#10176)==78)",
+		"GOTO_LABEL": "0x32dc"
+	},
+	{
+		"LABEL": "0x32b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x16ef8"
+	},
+	{
+		"LABEL": "0x32d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x32dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9703",
+		"Equation": "((#10176)==79)",
+		"GOTO_LABEL": "0x331c"
+	},
+	{
+		"LABEL": "0x32f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1737a"
+	},
+	{
+		"LABEL": "0x3312",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x331c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9903",
+		"Equation": "((#10176)==80)",
+		"GOTO_LABEL": "0x335c"
+	},
+	{
+		"LABEL": "0x3336",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x17714"
+	},
+	{
+		"LABEL": "0x3352",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9a03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x335c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9a03",
+		"Equation": "((#10176)==81)",
+		"GOTO_LABEL": "0x339c"
+	},
+	{
+		"LABEL": "0x3376",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x179bc"
+	},
+	{
+		"LABEL": "0x3392",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9b03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x339c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9b03",
+		"Equation": "((#10176)==82)",
+		"GOTO_LABEL": "0x33dc"
+	},
+	{
+		"LABEL": "0x33b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x17d86"
+	},
+	{
+		"LABEL": "0x33d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9c03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x33dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9c03",
+		"Equation": "((#10176)==83)",
+		"GOTO_LABEL": "0x341c"
+	},
+	{
+		"LABEL": "0x33f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x181e8"
+	},
+	{
+		"LABEL": "0x3412",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9d03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x341c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9d03",
+		"Equation": "((#10176)==85)",
+		"GOTO_LABEL": "0x345c"
+	},
+	{
+		"LABEL": "0x3436",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x184fc"
+	},
+	{
+		"LABEL": "0x3452",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9e03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x345c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9e03",
+		"Equation": "((#10176)==86)",
+		"GOTO_LABEL": "0x349c"
+	},
+	{
+		"LABEL": "0x3476",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x18754"
+	},
+	{
+		"LABEL": "0x3492",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9f03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x349c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9f03",
+		"Equation": "((#10176)==87)",
+		"GOTO_LABEL": "0x34dc"
+	},
+	{
+		"LABEL": "0x34b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1889a"
+	},
+	{
+		"LABEL": "0x34d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x34dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a003",
+		"Equation": "((#10176)==88)",
+		"GOTO_LABEL": "0x351c"
+	},
+	{
+		"LABEL": "0x34f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x18b06"
+	},
+	{
+		"LABEL": "0x3512",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x351c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a103",
+		"Equation": "((#10176)==89)",
+		"GOTO_LABEL": "0x355c"
+	},
+	{
+		"LABEL": "0x3536",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x18d64"
+	},
+	{
+		"LABEL": "0x3552",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x355c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a303",
+		"Equation": "((#10176)==90)",
+		"GOTO_LABEL": "0x359c"
+	},
+	{
+		"LABEL": "0x3576",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x18fe4"
+	},
+	{
+		"LABEL": "0x3592",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x359c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a403",
+		"Equation": "((#10176)==91)",
+		"GOTO_LABEL": "0x35dc"
+	},
+	{
+		"LABEL": "0x35b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x192a2"
+	},
+	{
+		"LABEL": "0x35d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x35dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a503",
+		"Equation": "((#10176)==92)",
+		"GOTO_LABEL": "0x361c"
+	},
+	{
+		"LABEL": "0x35f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x19432"
+	},
+	{
+		"LABEL": "0x3612",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x361c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a603",
+		"Equation": "((#10176)==93)",
+		"GOTO_LABEL": "0x365c"
+	},
+	{
+		"LABEL": "0x3636",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1996a"
+	},
+	{
+		"LABEL": "0x3652",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x365c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a703",
+		"Equation": "((#10176)==95)",
+		"GOTO_LABEL": "0x369c"
+	},
+	{
+		"LABEL": "0x3676",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x19b7e"
+	},
+	{
+		"LABEL": "0x3692",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x369c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a803",
+		"Equation": "((#10176)==96)",
+		"GOTO_LABEL": "0x36dc"
+	},
+	{
+		"LABEL": "0x36b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x19e70"
+	},
+	{
+		"LABEL": "0x36d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x36dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a903",
+		"Equation": "((#10176)==97)",
+		"GOTO_LABEL": "0x371c"
+	},
+	{
+		"LABEL": "0x36f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1a078"
+	},
+	{
+		"LABEL": "0x3712",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "aa03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x371c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "aa03",
+		"Equation": "((#10176)==98)",
+		"GOTO_LABEL": "0x375c"
+	},
+	{
+		"LABEL": "0x3736",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1a26c"
+	},
+	{
+		"LABEL": "0x3752",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ab03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x375c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ab03",
+		"Equation": "((#10176)==99)",
+		"GOTO_LABEL": "0x379c"
+	},
+	{
+		"LABEL": "0x3776",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1a4d6"
+	},
+	{
+		"LABEL": "0x3792",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ad03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x379c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ad03",
+		"Equation": "((#10176)==100)",
+		"GOTO_LABEL": "0x37dc"
+	},
+	{
+		"LABEL": "0x37b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1a758"
+	},
+	{
+		"LABEL": "0x37d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ae03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x37dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ae03",
+		"Equation": "((#10176)==101)",
+		"GOTO_LABEL": "0x381c"
+	},
+	{
+		"LABEL": "0x37f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1aa8c"
+	},
+	{
+		"LABEL": "0x3812",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x381c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "af03",
+		"Equation": "((#10176)==102)",
+		"GOTO_LABEL": "0x385c"
+	},
+	{
+		"LABEL": "0x3836",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ae54"
+	},
+	{
+		"LABEL": "0x3852",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x385c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b003",
+		"Equation": "((#10176)==103)",
+		"GOTO_LABEL": "0x389c"
+	},
+	{
+		"LABEL": "0x3876",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1b684"
+	},
+	{
+		"LABEL": "0x3892",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x389c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b103",
+		"Equation": "((#10176)==105)",
+		"GOTO_LABEL": "0x38dc"
+	},
+	{
+		"LABEL": "0x38b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1b8fa"
+	},
+	{
+		"LABEL": "0x38d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x38dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b203",
+		"Equation": "((#10176)==106)",
+		"GOTO_LABEL": "0x391c"
+	},
+	{
+		"LABEL": "0x38f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1bc56"
+	},
+	{
+		"LABEL": "0x3912",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x391c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b303",
+		"Equation": "((#10176)==107)",
+		"GOTO_LABEL": "0x395c"
+	},
+	{
+		"LABEL": "0x3936",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1befe"
+	},
+	{
+		"LABEL": "0x3952",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x395c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b403",
+		"Equation": "((#10176)==108)",
+		"GOTO_LABEL": "0x399c"
+	},
+	{
+		"LABEL": "0x3976",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1c1bc"
+	},
+	{
+		"LABEL": "0x3992",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x399c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b503",
+		"Equation": "((#10176)==109)",
+		"GOTO_LABEL": "0x39dc"
+	},
+	{
+		"LABEL": "0x39b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1c522"
+	},
+	{
+		"LABEL": "0x39d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x39dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b703",
+		"Equation": "((#10176)==110)",
+		"GOTO_LABEL": "0x3a1c"
+	},
+	{
+		"LABEL": "0x39f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1c8bc"
+	},
+	{
+		"LABEL": "0x3a12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3a1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b803",
+		"Equation": "((#10176)==111)",
+		"GOTO_LABEL": "0x3a5c"
+	},
+	{
+		"LABEL": "0x3a36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1cb44"
+	},
+	{
+		"LABEL": "0x3a52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3a5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b903",
+		"Equation": "((#10176)==112)",
+		"GOTO_LABEL": "0x3a9c"
+	},
+	{
+		"LABEL": "0x3a76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1cd6e"
+	},
+	{
+		"LABEL": "0x3a92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ba03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3a9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ba03",
+		"Equation": "((#10176)==113)",
+		"GOTO_LABEL": "0x3adc"
+	},
+	{
+		"LABEL": "0x3ab6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1d100"
+	},
+	{
+		"LABEL": "0x3ad2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "bb03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3adc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bb03",
+		"Equation": "((#10176)==115)",
+		"GOTO_LABEL": "0x3b1c"
+	},
+	{
+		"LABEL": "0x3af6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1d458"
+	},
+	{
+		"LABEL": "0x3b12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "bd03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3b1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bd03",
+		"Equation": "((#10176)==120)",
+		"GOTO_LABEL": "0x3b5c"
+	},
+	{
+		"LABEL": "0x3b36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1d670"
+	},
+	{
+		"LABEL": "0x3b52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "be03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3b5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "be03",
+		"Equation": "((#10176)==121)",
+		"GOTO_LABEL": "0x3b9c"
+	},
+	{
+		"LABEL": "0x3b76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1db94"
+	},
+	{
+		"LABEL": "0x3b92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "bf03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3b9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bf03",
+		"Equation": "((#10176)==122)",
+		"GOTO_LABEL": "0x3bdc"
+	},
+	{
+		"LABEL": "0x3bb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ddcc"
+	},
+	{
+		"LABEL": "0x3bd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3bdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c003",
+		"Equation": "((#10176)==123)",
+		"GOTO_LABEL": "0x3c1c"
+	},
+	{
+		"LABEL": "0x3bf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1e42a"
+	},
+	{
+		"LABEL": "0x3c12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3c1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c103",
+		"Equation": "((#10176)==125)",
+		"GOTO_LABEL": "0x3c5c"
+	},
+	{
+		"LABEL": "0x3c36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9a00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1e6b0"
+	},
+	{
+		"LABEL": "0x3c52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3c5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c203",
+		"Equation": "((#10176)==126)",
+		"GOTO_LABEL": "0x3c9c"
+	},
+	{
+		"LABEL": "0x3c76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ea24"
+	},
+	{
+		"LABEL": "0x3c92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3c9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c303",
+		"Equation": "((#10176)==127)",
+		"GOTO_LABEL": "0x3cdc"
+	},
+	{
+		"LABEL": "0x3cb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9c00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ed54"
+	},
+	{
+		"LABEL": "0x3cd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3cdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c403",
+		"Equation": "((#10176)==128)",
+		"GOTO_LABEL": "0x3d1c"
+	},
+	{
+		"LABEL": "0x3cf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9d00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1f0cc"
+	},
+	{
+		"LABEL": "0x3d12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3d1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c503",
+		"Equation": "((#10176)==129)",
+		"GOTO_LABEL": "0x3d5c"
+	},
+	{
+		"LABEL": "0x3d36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9e00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1f526"
+	},
+	{
+		"LABEL": "0x3d52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3d5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c703",
+		"Equation": "((#10176)==120)",
+		"GOTO_LABEL": "0x3d9c"
+	},
+	{
+		"LABEL": "0x3d76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9f00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1d670"
+	},
+	{
+		"LABEL": "0x3d92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3d9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c803",
+		"Equation": "((#10176)==121)",
+		"GOTO_LABEL": "0x3ddc"
+	},
+	{
+		"LABEL": "0x3db6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1db94"
+	},
+	{
+		"LABEL": "0x3dd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3ddc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c903",
+		"Equation": "((#10176)==122)",
+		"GOTO_LABEL": "0x3e1c"
+	},
+	{
+		"LABEL": "0x3df6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ddcc"
+	},
+	{
+		"LABEL": "0x3e12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ca03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3e1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ca03",
+		"Equation": "((#10176)==123)",
+		"GOTO_LABEL": "0x3e5c"
+	},
+	{
+		"LABEL": "0x3e36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1e42a"
+	},
+	{
+		"LABEL": "0x3e52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cb03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3e5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cb03",
+		"Equation": "((#10176)==125)",
+		"GOTO_LABEL": "0x3e9c"
+	},
+	{
+		"LABEL": "0x3e76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1e6b0"
+	},
+	{
+		"LABEL": "0x3e92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cc03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3e9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cc03",
+		"Equation": "((#10176)==126)",
+		"GOTO_LABEL": "0x3edc"
+	},
+	{
+		"LABEL": "0x3eb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ea24"
+	},
+	{
+		"LABEL": "0x3ed2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cd03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3edc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cd03",
+		"Equation": "((#10176)==127)",
+		"GOTO_LABEL": "0x3f1c"
+	},
+	{
+		"LABEL": "0x3ef6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1ed54"
+	},
+	{
+		"LABEL": "0x3f12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ce03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3f1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ce03",
+		"Equation": "((#10176)==128)",
+		"GOTO_LABEL": "0x3f5c"
+	},
+	{
+		"LABEL": "0x3f36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1f0cc"
+	},
+	{
+		"LABEL": "0x3f52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cf03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3f5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cf03",
+		"Equation": "((#10176)==129)",
+		"GOTO_LABEL": "0x3f9c"
+	},
+	{
+		"LABEL": "0x3f76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1f526"
+	},
+	{
+		"LABEL": "0x3f92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3f9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d103",
+		"Equation": "((#10176)==130)",
+		"GOTO_LABEL": "0x3fdc"
+	},
+	{
+		"LABEL": "0x3fb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x1f99c"
+	},
+	{
+		"LABEL": "0x3fd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x3fdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d203",
+		"Equation": "((#10176)==131)",
+		"GOTO_LABEL": "0x401c"
+	},
+	{
+		"LABEL": "0x3ff6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x20176"
+	},
+	{
+		"LABEL": "0x4012",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x401c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d303",
+		"Equation": "((#10176)==132)",
+		"GOTO_LABEL": "0x405c"
+	},
+	{
+		"LABEL": "0x4036",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "aa00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x204ac"
+	},
+	{
+		"LABEL": "0x4052",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x405c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d403",
+		"Equation": "((#10176)==133)",
+		"GOTO_LABEL": "0x409c"
+	},
+	{
+		"LABEL": "0x4076",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ab00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x20d42"
+	},
+	{
+		"LABEL": "0x4092",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x409c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d503",
+		"Equation": "((#10176)==135)",
+		"GOTO_LABEL": "0x40dc"
+	},
+	{
+		"LABEL": "0x40b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ac00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x210d4"
+	},
+	{
+		"LABEL": "0x40d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x40dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d603",
+		"Equation": "((#10176)==136)",
+		"GOTO_LABEL": "0x411c"
+	},
+	{
+		"LABEL": "0x40f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ad00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x216e4"
+	},
+	{
+		"LABEL": "0x4112",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x411c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d703",
+		"Equation": "((#10176)==137)",
+		"GOTO_LABEL": "0x415c"
+	},
+	{
+		"LABEL": "0x4136",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ae00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x21c30"
+	},
+	{
+		"LABEL": "0x4152",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x415c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d803",
+		"Equation": "((#10176)==138)",
+		"GOTO_LABEL": "0x419c"
+	},
+	{
+		"LABEL": "0x4176",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "af00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2211c"
+	},
+	{
+		"LABEL": "0x4192",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x419c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d903",
+		"Equation": "((#10176)==139)",
+		"GOTO_LABEL": "0x41dc"
+	},
+	{
+		"LABEL": "0x41b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2250a"
+	},
+	{
+		"LABEL": "0x41d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "db03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x41dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "db03",
+		"Equation": "((#10176)==150)",
+		"GOTO_LABEL": "0x421c"
+	},
+	{
+		"LABEL": "0x41f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2288a"
+	},
+	{
+		"LABEL": "0x4212",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dc03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x421c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "dc03",
+		"Equation": "((#10176)==151)",
+		"GOTO_LABEL": "0x425c"
+	},
+	{
+		"LABEL": "0x4236",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x22b10"
+	},
+	{
+		"LABEL": "0x4252",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dd03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x425c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "dd03",
+		"Equation": "((#10176)==152)",
+		"GOTO_LABEL": "0x429c"
+	},
+	{
+		"LABEL": "0x4276",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x22e08"
+	},
+	{
+		"LABEL": "0x4292",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "de03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x429c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "de03",
+		"Equation": "((#10176)==153)",
+		"GOTO_LABEL": "0x42dc"
+	},
+	{
+		"LABEL": "0x42b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x232b6"
+	},
+	{
+		"LABEL": "0x42d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "df03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x42dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "df03",
+		"Equation": "((#10176)==155)",
+		"GOTO_LABEL": "0x431c"
+	},
+	{
+		"LABEL": "0x42f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x234ea"
+	},
+	{
+		"LABEL": "0x4312",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x431c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e003",
+		"Equation": "((#10176)==156)",
+		"GOTO_LABEL": "0x435c"
+	},
+	{
+		"LABEL": "0x4336",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2372c"
+	},
+	{
+		"LABEL": "0x4352",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e103",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x435c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e103",
+		"Equation": "((#10176)==157)",
+		"GOTO_LABEL": "0x439c"
+	},
+	{
+		"LABEL": "0x4376",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2399c"
+	},
+	{
+		"LABEL": "0x4392",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x439c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e203",
+		"Equation": "((#10176)==158)",
+		"GOTO_LABEL": "0x43dc"
+	},
+	{
+		"LABEL": "0x43b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x23cc6"
+	},
+	{
+		"LABEL": "0x43d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x43dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e303",
+		"Equation": "((#10176)==159)",
+		"GOTO_LABEL": "0x441c"
+	},
+	{
+		"LABEL": "0x43f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x23ffe"
+	},
+	{
+		"LABEL": "0x4412",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x441c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e503",
+		"Equation": "((#10176)==160)",
+		"GOTO_LABEL": "0x445c"
+	},
+	{
+		"LABEL": "0x4436",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ba00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x24238"
+	},
+	{
+		"LABEL": "0x4452",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x445c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e603",
+		"Equation": "((#10176)==161)",
+		"GOTO_LABEL": "0x449c"
+	},
+	{
+		"LABEL": "0x4476",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bb00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2451a"
+	},
+	{
+		"LABEL": "0x4492",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x449c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e703",
+		"Equation": "((#10176)==162)",
+		"GOTO_LABEL": "0x44dc"
+	},
+	{
+		"LABEL": "0x44b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bc00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x24770"
+	},
+	{
+		"LABEL": "0x44d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x44dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e803",
+		"Equation": "((#10176)==163)",
+		"GOTO_LABEL": "0x451c"
+	},
+	{
+		"LABEL": "0x44f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bd00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x24ce2"
+	},
+	{
+		"LABEL": "0x4512",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x451c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e903",
+		"Equation": "((#10176)==165)",
+		"GOTO_LABEL": "0x455c"
+	},
+	{
+		"LABEL": "0x4536",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "be00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x250a0"
+	},
+	{
+		"LABEL": "0x4552",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ea03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x455c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ea03",
+		"Equation": "((#10176)==166)",
+		"GOTO_LABEL": "0x459c"
+	},
+	{
+		"LABEL": "0x4576",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bf00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x253c2"
+	},
+	{
+		"LABEL": "0x4592",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "eb03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x459c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "eb03",
+		"Equation": "((#10176)==167)",
+		"GOTO_LABEL": "0x45dc"
+	},
+	{
+		"LABEL": "0x45b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2561e"
+	},
+	{
+		"LABEL": "0x45d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ec03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x45dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ec03",
+		"Equation": "((#10176)==168)",
+		"GOTO_LABEL": "0x461c"
+	},
+	{
+		"LABEL": "0x45f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x25a26"
+	},
+	{
+		"LABEL": "0x4612",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ed03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x461c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ed03",
+		"Equation": "((#10176)==169)",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x4636",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x25d08"
+	},
+	{
+		"LABEL": "0x4652",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ef03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x465c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ef03",
+		"Equation": "((#10176)==310)",
+		"GOTO_LABEL": "0x469c"
+	},
+	{
+		"LABEL": "0x4676",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x260ac"
+	},
+	{
+		"LABEL": "0x4692",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f003",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x469c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f003",
+		"Equation": "((#10176)==320)",
+		"GOTO_LABEL": "0x46dc"
+	},
+	{
+		"LABEL": "0x46b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x260b2"
+	},
+	{
+		"LABEL": "0x46d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f203",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x46dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f203",
+		"Equation": "((#10176)==500)",
+		"GOTO_LABEL": "0x471c"
+	},
+	{
+		"LABEL": "0x46f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x260b8"
+	},
+	{
+		"LABEL": "0x4712",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f303",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x471c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f303",
+		"Equation": "((#10176)==510)",
+		"GOTO_LABEL": "0x475c"
+	},
+	{
+		"LABEL": "0x4736",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x26158"
+	},
+	{
+		"LABEL": "0x4752",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f403",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x475c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f403",
+		"Equation": "((#10176)==520)",
+		"GOTO_LABEL": "0x479c"
+	},
+	{
+		"LABEL": "0x4776",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2615e"
+	},
+	{
+		"LABEL": "0x4792",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f503",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x479c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f503",
+		"Equation": "((#10176)==530)",
+		"GOTO_LABEL": "0x47dc"
+	},
+	{
+		"LABEL": "0x47b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x26164"
+	},
+	{
+		"LABEL": "0x47d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f603",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x47dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f603",
+		"Equation": "((#10176)==540)",
+		"GOTO_LABEL": "0x481c"
+	},
+	{
+		"LABEL": "0x47f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2616a"
+	},
+	{
+		"LABEL": "0x4812",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f703",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x481c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f703",
+		"Equation": "((#10176)==550)",
+		"GOTO_LABEL": "0x485c"
+	},
+	{
+		"LABEL": "0x4836",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ca00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x26170"
+	},
+	{
+		"LABEL": "0x4852",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f803",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x485c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f803",
+		"Equation": "((#10176)==560)",
+		"GOTO_LABEL": "0x489c"
+	},
+	{
+		"LABEL": "0x4876",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cb00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x26176"
+	},
+	{
+		"LABEL": "0x4892",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f903",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x489c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f903",
+		"Equation": "((#10176)==570)",
+		"GOTO_LABEL": "0x48dc"
+	},
+	{
+		"LABEL": "0x48b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cc00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2617c"
+	},
+	{
+		"LABEL": "0x48d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fa03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x48dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fa03",
+		"Equation": "((#10176)==580)",
+		"GOTO_LABEL": "0x491c"
+	},
+	{
+		"LABEL": "0x48f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cd00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x261ea"
+	},
+	{
+		"LABEL": "0x4912",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fb03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x491c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fb03",
+		"Equation": "((#10176)==590)",
+		"GOTO_LABEL": "0x495c"
+	},
+	{
+		"LABEL": "0x4936",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ce00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x26258"
+	},
+	{
+		"LABEL": "0x4952",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fc03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x495c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fc03",
+		"Equation": "((#10176)==600)",
+		"GOTO_LABEL": "0x499c"
+	},
+	{
+		"LABEL": "0x4976",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cf00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2632e"
+	},
+	{
+		"LABEL": "0x4992",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fd03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x499c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fd03",
+		"Equation": "((#10176)==610)",
+		"GOTO_LABEL": "0x49dc"
+	},
+	{
+		"LABEL": "0x49b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263ac"
+	},
+	{
+		"LABEL": "0x49d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fe03",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x49dc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fe03",
+		"Equation": "((#10176)==620)",
+		"GOTO_LABEL": "0x4a1c"
+	},
+	{
+		"LABEL": "0x49f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263b2"
+	},
+	{
+		"LABEL": "0x4a12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0004",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4a1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0004",
+		"Equation": "((#10176)==700)",
+		"GOTO_LABEL": "0x4a5c"
+	},
+	{
+		"LABEL": "0x4a36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d200",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263b8"
+	},
+	{
+		"LABEL": "0x4a52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0104",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4a5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0104",
+		"Equation": "((#10176)==710)",
+		"GOTO_LABEL": "0x4a9c"
+	},
+	{
+		"LABEL": "0x4a76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d300",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263be"
+	},
+	{
+		"LABEL": "0x4a92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0204",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4a9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0204",
+		"Equation": "((#10176)==720)",
+		"GOTO_LABEL": "0x4adc"
+	},
+	{
+		"LABEL": "0x4ab6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d400",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263c4"
+	},
+	{
+		"LABEL": "0x4ad2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0304",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4adc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0304",
+		"Equation": "((#10176)==730)",
+		"GOTO_LABEL": "0x4b1c"
+	},
+	{
+		"LABEL": "0x4af6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d500",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263ca"
+	},
+	{
+		"LABEL": "0x4b12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0404",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4b1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0404",
+		"Equation": "((#10176)==740)",
+		"GOTO_LABEL": "0x4b5c"
+	},
+	{
+		"LABEL": "0x4b36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d600",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263d0"
+	},
+	{
+		"LABEL": "0x4b52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0504",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4b5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0504",
+		"Equation": "((#10176)==750)",
+		"GOTO_LABEL": "0x4b9c"
+	},
+	{
+		"LABEL": "0x4b76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d700",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263d6"
+	},
+	{
+		"LABEL": "0x4b92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0604",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4b9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0604",
+		"Equation": "((#10176)==760)",
+		"GOTO_LABEL": "0x4bdc"
+	},
+	{
+		"LABEL": "0x4bb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d800",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263dc"
+	},
+	{
+		"LABEL": "0x4bd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0704",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4bdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0704",
+		"Equation": "((#10176)==770)",
+		"GOTO_LABEL": "0x4c1c"
+	},
+	{
+		"LABEL": "0x4bf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263e2"
+	},
+	{
+		"LABEL": "0x4c12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0804",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4c1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0804",
+		"Equation": "((#10176)==780)",
+		"GOTO_LABEL": "0x4c5c"
+	},
+	{
+		"LABEL": "0x4c36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "da00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x263e8"
+	},
+	{
+		"LABEL": "0x4c52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0904",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4c5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0904",
+		"Equation": "((#10176)==790)",
+		"GOTO_LABEL": "0x4c9c"
+	},
+	{
+		"LABEL": "0x4c76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "db00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x26996"
+	},
+	{
+		"LABEL": "0x4c92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0a04",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4c9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0a04",
+		"Equation": "((#10176)==800)",
+		"GOTO_LABEL": "0x4cdc"
+	},
+	{
+		"LABEL": "0x4cb6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "dc00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x2699c"
+	},
+	{
+		"LABEL": "0x4cd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b04",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4cdc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0b04",
+		"Equation": "((#10176)==810)",
+		"GOTO_LABEL": "0x4d1c"
+	},
+	{
+		"LABEL": "0x4cf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "dd00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x269a2"
+	},
+	{
+		"LABEL": "0x4d12",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0c04",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4d1c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0c04",
+		"Equation": "((#10176)==820)",
+		"GOTO_LABEL": "0x4d5c"
+	},
+	{
+		"LABEL": "0x4d36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "de00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x269a8"
+	},
+	{
+		"LABEL": "0x4d52",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0e04",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4d5c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0e04",
+		"Equation": "((#10176)==900)",
+		"GOTO_LABEL": "0x4d9c"
+	},
+	{
+		"LABEL": "0x4d76",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "df00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x4fe6"
+	},
+	{
+		"LABEL": "0x4d92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0f04",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4d9c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0f04",
+		"Equation": "((#10176)==901)",
+		"GOTO_LABEL": "0x4ddc"
+	},
+	{
+		"LABEL": "0x4db6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e000",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x6bc0"
+	},
+	{
+		"LABEL": "0x4dd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1004",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4ddc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1004",
+		"Equation": "((#10176)==902)",
+		"GOTO_LABEL": "0x4e12"
+	},
+	{
+		"LABEL": "0x4df6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e100",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0x71ba"
+	},
+	{
+		"LABEL": "0x4e12",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "1204"
+	},
+	{
+		"LABEL": "0x4e18",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "1a04e200",
+		"GOTO_LABEL": "0x1512"
+	},
+	{
+		"LABEL": "0x4e24",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "1d047117",
+		"String": "@get_RB_table_tennis_winner_team_type()"
+	},
+	{
+		"LABEL": "0x4e54",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "1e040000",
+		"String": "@advance_RB_table_tennis_tournament_list(#6001)"
+	},
+	{
+		"LABEL": "0x4e8c",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "2104e300",
+		"GOTO_LABEL": "0x1cdc"
+	},
+	{
+		"LABEL": "0x4e98",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2404"
+	},
+	{
+		"LABEL": "0x4e9e",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "240403c03900"
+	},
+	{
+		"LABEL": "0x4ea8",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2604"
+	},
+	{
+		"LABEL": "0x4eae",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "26080180"
+	}
+]

@@ -1,0 +1,2335 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0b00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004500000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0e005d2b5a00"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 13,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「………はっ」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Ah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 15,
+		"MSGID": 1,
+		"NameJPN": "羽依里",
+		"JPN": "「うみ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 2,
+		"JPN": "目が覚めて、すぐにうみのことを考えた。",
+		"ENG": "The moment I woke up, I was already thinking about Umi.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xac",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1300ac860100"
+	},
+	{
+		"LABEL": "0xb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「覚えてる……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I remember...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 4,
+		"JPN": "忘れていなかったということにホッとする。",
+		"ENG": "I was relieved that I hadn't forgotten her. ",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x118",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 5,
+		"JPN": "寝ている間に忘れてしまったら、もうどうしようもないから。",
+		"ENG": "I couldn't do anything about it if my memories faded overnight.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「うみはまだ寝てるのかな？」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wonder if she's still asleep?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x196",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 7,
+		"JPN": "ちょっと前までは毎朝起こしてくれてたのに、最近は１人で起きてばかりだ。",
+		"ENG": "Up until just a little while ago she woke me up every morning, but lately I've been getting up on my own.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「そろそろ起こしてやるか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Guess I should go wake her up soon.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x220",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2100000000003c00"
+	},
+	{
+		"LABEL": "0x22c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2500"
+	},
+	{
+		"LABEL": "0x232",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x238",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x246",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00000012271800"
+	},
+	{
+		"LABEL": "0x252",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x256",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x264",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00000012271800"
+	},
+	{
+		"LABEL": "0x270",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x274",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x27c",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2700a5860100"
+	},
+	{
+		"LABEL": "0x286",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「うみー、入るぞー」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi, I'm coming in!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 10,
+		"JPN": "声をかけて部屋に入る。",
+		"ENG": "I called out and entered her room.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 11,
+		"JPN": "案の定、うみはまだ布団にいた。",
+		"ENG": "As expected, she was still in her futon.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x308",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「うみ、朝だぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi, it's morning.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x332",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「ラジオ体操に行こう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's go to the radio calisthenics.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x362",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "33000600baae09006b00dcfe"
+	},
+	{
+		"LABEL": "0x372",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 14,
+		"VOICEID": 20557,
+		"NameJPN": "うみ",
+		"JPN": "「……んーん……」",
+		"NameENG": "Umi",
+		"ENG": "\"...Mmm-mmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 15,
+		"JPN": "返事が返ってきた。",
+		"ENG": "She mumbled in reply.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「起きてるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You awake?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「んーんって、ラジオ体操、行かないのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Does 'mmm-mmm' mean you don't want to go today?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3c000600a2ae09006b00dcfe"
+	},
+	{
+		"LABEL": "0x43e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 18,
+		"VOICEID": 20558,
+		"NameJPN": "うみ",
+		"JPN": "「……んー」",
+		"NameENG": "Umi",
+		"ENG": "\"...Mmmm.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x462",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 19,
+		"JPN": "なんだか愚図っている。",
+		"ENG": "She seemed kinda out of it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x488",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 20,
+		"JPN": "目は覚めてるみたいだけど……",
+		"ENG": "She was gradually waking up, though...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "43000600b4ae09006b00dcfe"
+	},
+	{
+		"LABEL": "0x4c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 21,
+		"VOICEID": 20559,
+		"NameJPN": "うみ",
+		"JPN": "「おかーさんは？」",
+		"NameENG": "Umi",
+		"ENG": "\"Where's Mom?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「しろはか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You mean Shiroha?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「今日はまだ来てないけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"She hasn't come over yet today.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x54a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4a000600baae09006b00dcfe"
+	},
+	{
+		"LABEL": "0x55a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 24,
+		"VOICEID": 20560,
+		"NameJPN": "うみ",
+		"JPN": "「おかーさん……」",
+		"NameENG": "Umi",
+		"ENG": "\"Mom...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x584",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 25,
+		"JPN": "泣きそうな声が聞こえてくる。",
+		"ENG": "She sounded like she was about to cry.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 26,
+		"JPN": "もしかしてこれは、しろはが来ないと布団から出て来ないか……",
+		"ENG": "I had a feeling she wouldn't get out of bed until Shiroha showed up...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5200"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0306e9fd030000000000"
+	},
+	{
+		"LABEL": "0x60e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x614",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x61a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x61e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x624",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x62a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x630",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x634",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「うみー、おかーさん来たぞー」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi, Mom's here!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x66c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "58000100478600008002b4007d00"
+	},
+	{
+		"LABEL": "0x67e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x684",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 28,
+		"VOICEID": 20561,
+		"NameJPN": "しろは",
+		"JPN": "「うみちゃん、おかーさんよ」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Umi-chan, it's Mom!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6ba",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "5b0006007aac09006b00dcfe"
+	},
+	{
+		"LABEL": "0x6ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 29,
+		"VOICEID": 20562,
+		"NameJPN": "うみ",
+		"JPN": "「おかーさん！」",
+		"NameENG": "Umi",
+		"ENG": "\"Mom!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「あ、出て来た」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah, there she is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x71c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 31,
+		"JPN": "やっとうみが布団から顔を出した。",
+		"ENG": "Umi finally popped her head out from under the covers.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x74c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "650006003eac09006b00dcfe"
+	},
+	{
+		"LABEL": "0x75c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 32,
+		"VOICEID": 20563,
+		"NameJPN": "うみ",
+		"JPN": "「おかーさん、だっこ……」",
+		"NameENG": "Umi",
+		"ENG": "\"Mom, hug...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x78e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 33,
+		"JPN": "布団の中から、手だけをしろはに向けて伸ばす。",
+		"ENG": "She stuck her arms out from her futon towards Shiroha.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 107,
+		"MSGID": 34,
+		"VOICEID": 20564,
+		"NameJPN": "しろは",
+		"JPN": "「いいわよ、抱っこ」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Sure, I can give you a hug.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6d0001006586"
+	},
+	{
+		"LABEL": "0x802",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x808",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 35,
+		"VOICEID": 20565,
+		"NameJPN": "しろは",
+		"JPN": "「でも、布団出て、ちゃんと起きてからね」",
+		"NameENG": "Shiroha",
+		"ENG": "\"But only after you get out of your futon and wake up properly, okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x84a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7000060068ac09006b00dcfe"
+	},
+	{
+		"LABEL": "0x85a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 113,
+		"MSGID": 36,
+		"VOICEID": 20566,
+		"NameJPN": "うみ",
+		"JPN": "「うん……」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x87e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "740000000000b400"
+	},
+	{
+		"LABEL": "0x88a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7500"
+	},
+	{
+		"LABEL": "0x890",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x898",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x89e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x8ac",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x8b2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8b8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8bc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8c2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x8c8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x8d6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x8de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8e4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8e8",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "7900b9860100"
+	},
+	{
+		"LABEL": "0x8f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 123,
+		"MSGID": 37,
+		"JPN": "ようやく起きたうみは、またしろはの膝の上で折り紙をしている。",
+		"ENG": "Umi was finally up and about. She sat on Shiroha's lap again, folding origami.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x93e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7d000100baad00008002b4009100"
+	},
+	{
+		"LABEL": "0x950",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x956",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 38,
+		"VOICEID": 20567,
+		"NameJPN": "うみ",
+		"JPN": "「うー……」",
+		"NameENG": "Umi",
+		"ENG": "\"Uhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x97a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 128,
+		"MSGID": 39,
+		"JPN": "でも、やっぱり上手く折れないみたいだ。",
+		"ENG": "But it looked like it wasn't going very well.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 40,
+		"JPN": "今日はこの前よりさらにひどい。",
+		"ENG": "Even worse than last time, actually.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9de",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "84000100aaae"
+	},
+	{
+		"LABEL": "0x9e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x9ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 41,
+		"VOICEID": 20568,
+		"NameJPN": "うみ",
+		"JPN": "「あー……うー……」",
+		"NameENG": "Umi",
+		"ENG": "\"Aaah... uhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 42,
+		"JPN": "唸るような声を上げながら、うみはぎこちなく折り紙を折る。",
+		"ENG": "She kept clumsily folding away at the paper, groaning all the while.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 137,
+		"MSGID": 43,
+		"JPN": "でも、どうしてもしっかり折ることができない。",
+		"ENG": "But no matter what she tried, she couldn't get it to fold properly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 44,
+		"JPN": "おそらく紙飛行機を折ろうとしているのだろう。",
+		"ENG": "I figured she was probably trying to make another paper airplane.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xada",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 45,
+		"JPN": "それがかろうじて分かる程度の出来映えだ。",
+		"ENG": "I could just barely figure it out, watching her work.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb12",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8f000100a4ae"
+	},
+	{
+		"LABEL": "0xb1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 46,
+		"VOICEID": 20569,
+		"NameJPN": "うみ",
+		"JPN": "「うー……」",
+		"NameENG": "Umi",
+		"ENG": "\"Uhhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 146,
+		"MSGID": 47,
+		"JPN": "思い通りにならないことに、うみは泣きそうになる。",
+		"ENG": "She just couldn't make it turn out right, and was on the verge of tears.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 148,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「うみ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umi...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 49,
+		"JPN": "見ているのがツラくなってしまう光景だった。",
+		"ENG": "It was painful to watch.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbe6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "98000100d4ae"
+	},
+	{
+		"LABEL": "0xbf0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218009001b400"
+	},
+	{
+		"LABEL": "0xbfe",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0101b38600007003b4007d00"
+	},
+	{
+		"LABEL": "0xc0e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 50,
+		"VOICEID": 20570,
+		"NameJPN": "しろは",
+		"JPN": "「大丈夫」",
+		"NameENG": "Shiroha",
+		"ENG": "\"It's okay.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc38",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9b0001014786"
+	},
+	{
+		"LABEL": "0xc42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 51,
+		"VOICEID": 20571,
+		"NameJPN": "しろは",
+		"JPN": "「おかーさんが手伝ってあげるから」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Mom'll help you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 158,
+		"MSGID": 52,
+		"JPN": "しろはがまたうみの手をとり、丁寧に一緒に折っていく。",
+		"ENG": "Shiroha took Umi's hands in hers again and started carefully guiding Umi's folds.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcc8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a0000101ad86"
+	},
+	{
+		"LABEL": "0xcd2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcd8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 53,
+		"VOICEID": 20572,
+		"NameJPN": "しろは",
+		"JPN": "「またみんなで飛行機飛ばす？」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Do you want to fly paper airplanes together again?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd10",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a3000100faac"
+	},
+	{
+		"LABEL": "0xd1a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 164,
+		"MSGID": 54,
+		"VOICEID": 20573,
+		"NameJPN": "うみ",
+		"JPN": "「うん、ひこーきとばすー」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah, fly airplanes!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 166,
+		"MSGID": 55,
+		"JPN": "笑いながら答えているが、以前と比べるとずいぶん舌足らずな喋り方だ。",
+		"ENG": "She replied with a smile, but the way she spoke was a lot less clear and well developed than it used to be. ",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xda4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 56,
+		"JPN": "しろはは赤ちゃん返りと言っていたが、こういうのは幼児退行というのかもしれない。",
+		"ENG": "Shiroha talked about infantile regression, but at this point she might be acting even younger than that.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 170,
+		"MSGID": 57,
+		"JPN": "そして、症状はどんどん進んでいるように思えた。",
+		"ENG": "To top it off, her symptoms were getting worse and worse.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe40",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ac0001014186"
+	},
+	{
+		"LABEL": "0xe4a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「よし、じゃあおとーさんはごはんを作るぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Okay then, I'll go make us something to eat.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "af00010010ac"
+	},
+	{
+		"LABEL": "0xe9e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xea4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 176,
+		"MSGID": 59,
+		"VOICEID": 20574,
+		"NameJPN": "うみ",
+		"JPN": "「ちゃーはんー」",
+		"NameENG": "Umi",
+		"ENG": "\"Fried rice!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xecc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、おとーさんはチャーハンしか作れないからな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah. I mean, it's the only thing I can make$dproperly.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 180,
+		"MSGID": 61,
+		"NameJPN": "羽依里",
+		"JPN": "「でも、美味いぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"But it'll be tasty!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 182,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「おかーさん仕込みだからな」",
+		"NameENG": "Hairi",
+		"ENG": "\"All thanks to Mom's training, of course.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf7a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b80001000aac"
+	},
+	{
+		"LABEL": "0xf84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 185,
+		"MSGID": 63,
+		"VOICEID": 20575,
+		"NameJPN": "うみ",
+		"JPN": "「ちゃーはん、たべるー」",
+		"NameENG": "Umi",
+		"ENG": "\"Eat fried rice!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfba",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bb000101a786"
+	},
+	{
+		"LABEL": "0xfc4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xfca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 64,
+		"VOICEID": 20576,
+		"NameJPN": "しろは",
+		"JPN": "「おとーさん、美味しくできるかしらね？」",
+		"NameENG": "Shiroha",
+		"ENG": "\"I wonder if you can make it right, Dad?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x100c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「まかせとけって」",
+		"NameENG": "Hairi",
+		"ENG": "\"Leave it to me!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1038",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c00001014786"
+	},
+	{
+		"LABEL": "0x1042",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1048",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 193,
+		"MSGID": 66,
+		"VOICEID": 20577,
+		"NameJPN": "しろは",
+		"JPN": "「じゃあ、チャーハン食べたら飛行機飛ばそう」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Okay, we'll eat our fried rice, then fly the airplanes.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x108e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c30001015986"
+	},
+	{
+		"LABEL": "0x1098",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x109e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 196,
+		"MSGID": 67,
+		"VOICEID": 20578,
+		"NameJPN": "しろは",
+		"JPN": "「おとーさんがチャーハン作ってる間に、飛行機折っちゃおうね」",
+		"NameENG": "Shiroha",
+		"ENG": "\"We'll fold them up while Dad's cooking.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10f4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c60001006eae"
+	},
+	{
+		"LABEL": "0x10fe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1104",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 199,
+		"MSGID": 68,
+		"VOICEID": 20579,
+		"NameJPN": "うみ",
+		"JPN": "「うんー」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1126",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c900"
+	},
+	{
+		"LABEL": "0x112c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x113a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1142",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1148",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x114e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1154",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x115a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1160",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x116e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x1174",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1178",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 69,
+		"JPN": "楽しそうに飛行機を折る２人を見ながら、俺はチャーハンを作った。",
+		"ENG": "I watched them happily work on their airplanes as I made the fried rice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 70,
+		"JPN": "そして、紙飛行機を作り終えたうみたちと、３人で食卓を囲んだ。",
+		"ENG": "When they were finished, the three of us sat around the dining table.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1212",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "cf00"
+	},
+	{
+		"LABEL": "0x1218",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x1226",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x122e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1234",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1238",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d10001003aac00008002b4009100"
+	},
+	{
+		"LABEL": "0x124a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1250",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 71,
+		"VOICEID": 20580,
+		"NameJPN": "うみ",
+		"JPN": "「もぐもぐー」",
+		"NameENG": "Umi",
+		"ENG": "\"Nom nom.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1276",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 72,
+		"NameJPN": "羽依里",
+		"JPN": "「美味いか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is it tasty?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x129e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d600010010ac"
+	},
+	{
+		"LABEL": "0x12a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 215,
+		"MSGID": 73,
+		"VOICEID": 20581,
+		"NameJPN": "うみ",
+		"JPN": "「うん、んまいー」",
+		"NameENG": "Umi",
+		"ENG": "\"Yeah, tasty!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 217,
+		"MSGID": 74,
+		"NameJPN": "羽依里",
+		"JPN": "「そうかそうか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nice, nice.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1302",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 219,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、今日は何点だ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So, how many points today?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1336",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dd00010070ac"
+	},
+	{
+		"LABEL": "0x1340",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1346",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 76,
+		"VOICEID": 20582,
+		"NameJPN": "うみ",
+		"JPN": "「んー？」",
+		"NameENG": "Umi",
+		"ENG": "\"Hmm?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1368",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 77,
+		"JPN": "うみは、もぐもぐしながら首を傾げる。",
+		"ENG": "Umi tilted her head as she chewed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x139c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 226,
+		"MSGID": 78,
+		"JPN": "まるで何を訊かれているのか分からないみたいだ。",
+		"ENG": "It was almost like she hadn't understood my question.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 228,
+		"MSGID": 79,
+		"NameJPN": "羽依里",
+		"JPN": "「ほら、点数だよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Y'know, the points?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1406",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「毎回俺のチャーハンに点数つけてたろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You've been judging my fried rice and giving it a score every day, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1448",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e800010064ac"
+	},
+	{
+		"LABEL": "0x1452",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1458",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 233,
+		"MSGID": 81,
+		"VOICEID": 20583,
+		"NameJPN": "うみ",
+		"JPN": "「んー……？」",
+		"NameENG": "Umi",
+		"ENG": "\"Hmmm...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x147e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 82,
+		"JPN": "困ってる。",
+		"ENG": "She looked confused.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1498",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "ed0001000218009001b400"
+	},
+	{
+		"LABEL": "0x14a8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0101978700007003b4007d00"
+	},
+	{
+		"LABEL": "0x14b8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 83,
+		"VOICEID": 20584,
+		"NameJPN": "しろは",
+		"JPN": "「忘れちゃったの？」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Have you forgotten?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14ec",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f00001005eac"
+	},
+	{
+		"LABEL": "0x14f6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 241,
+		"MSGID": 84,
+		"VOICEID": 20585,
+		"NameJPN": "うみ",
+		"JPN": "「うー……」",
+		"NameENG": "Umi",
+		"ENG": "\"Uhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1520",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "f3000100000f00"
+	},
+	{
+		"LABEL": "0x152c",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x1536",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x153c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 85,
+		"JPN": "んーとか、うーとかしか言わない。",
+		"ENG": "She wouldn't say anything other than 'mmm' or 'uhh.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x156c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 247,
+		"MSGID": 86,
+		"JPN": "もどかしい気持ちでいっぱいになる。",
+		"ENG": "I was starting to get really frustrated.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x159e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 249,
+		"MSGID": 87,
+		"JPN": "でも、チャーハンは美味そうだ。",
+		"ENG": "But she seemed to think the fried rice was tasty, at least.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 251,
+		"MSGID": 88,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ、美味しければいいか」",
+		"NameENG": "Hairi",
+		"ENG": "\"I guess if you like it, that's what really matters.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1602",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "fd0001000d8a00008002b4007d00"
+	},
+	{
+		"LABEL": "0x1614",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x161e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1624",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 254,
+		"MSGID": 89,
+		"VOICEID": 20586,
+		"NameJPN": "しろは",
+		"JPN": "「そうね」",
+		"NameENG": "Shiroha",
+		"ENG": "\"That's right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1648",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "00010100000f00"
+	},
+	{
+		"LABEL": "0x1654",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x165e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1664",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 90,
+		"JPN": "俺たちは、強引にそう自分を納得させた。",
+		"ENG": "We forced ourselves to accept the situation.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x169a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "040101007aae00008002b4009100"
+	},
+	{
+		"LABEL": "0x16ac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 261,
+		"MSGID": 91,
+		"VOICEID": 20587,
+		"NameJPN": "うみ",
+		"JPN": "「んー……ふわぅ」",
+		"NameENG": "Umi",
+		"ENG": "\"Mmm... fuwah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 92,
+		"JPN": "うみがあくびをする。",
+		"ENG": "Umi yawned.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1700",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 265,
+		"MSGID": 93,
+		"JPN": "スプーンから、すくったチャーハンがこぼれた。",
+		"ENG": "The fried rice she'd scooped up fell from her spoon.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x173c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0b0101018f8600008002b4007d00"
+	},
+	{
+		"LABEL": "0x174e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x1758",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x175e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 268,
+		"MSGID": 94,
+		"VOICEID": 20588,
+		"NameJPN": "しろは",
+		"JPN": "「あ、こぼれてるよ」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Ah, you're dropping it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x178c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0e0101016b86"
+	},
+	{
+		"LABEL": "0x1796",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x179c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 271,
+		"MSGID": 95,
+		"VOICEID": 20589,
+		"NameJPN": "しろは",
+		"JPN": "「もう眠いの？　食べ終わるまでガマンできない？」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Are you already sleepy? You can't hold on until you're done eating?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17e6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "11010100bcae00008002b4009100"
+	},
+	{
+		"LABEL": "0x17f8",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x1802",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1808",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 96,
+		"VOICEID": 20590,
+		"NameJPN": "うみ",
+		"JPN": "「……ん……んぅ……」",
+		"NameENG": "Umi",
+		"ENG": "\"...Mmm... mmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1836",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 97,
+		"JPN": "うみはもう、うつらうつらし始めていた。",
+		"ENG": "Umi was already nodding off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x186c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 278,
+		"MSGID": 98,
+		"JPN": "眠くて仕方ないみたいだ。",
+		"ENG": "She was so sleepy, she couldn't help it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1894",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "18010100000f00"
+	},
+	{
+		"LABEL": "0x18a0",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x18aa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18b0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1901"
+	},
+	{
+		"LABEL": "0x18b6",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "1a011e00"
+	},
+	{
+		"LABEL": "0x18be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 285,
+		"MSGID": 99,
+		"VOICEID": 20591,
+		"NameJPN": "うみ",
+		"JPN": "「……すぅ……すぅ……」",
+		"NameENG": "Umi",
+		"ENG": "\"...Zzz... Zzz...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 287,
+		"MSGID": 100,
+		"JPN": "そして、本当に寝てしまった。",
+		"ENG": "Eventually, she fell asleep for real.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x191a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 101,
+		"NameJPN": "羽依里",
+		"JPN": "「食べながら寝ちゃうなんて、本当に小さな子供みたいだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Falling asleep mid-meal? She really is like a little kid.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x196c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "23010100858700008002b4007d00"
+	},
+	{
+		"LABEL": "0x197e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x1988",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x198e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 292,
+		"MSGID": 102,
+		"VOICEID": 20592,
+		"NameJPN": "しろは",
+		"JPN": "「うん……」",
+		"NameENG": "Shiroha",
+		"ENG": "\"Yeah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 103,
+		"JPN": "うみの手のスプーンを片付けながら、しろはは心配そうだった。",
+		"ENG": "Shiroha cleaned up after Umi, taking the spoon from her hand. She looked worried.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 104,
+		"JPN": "俺も同じ気持ちだ。",
+		"ENG": "I felt the same way.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 298,
+		"MSGID": 105,
+		"JPN": "うみはこのままどんどん赤ん坊のようになってしまうんだろうか？",
+		"ENG": "Would Umi keep regressing further and further into infancy from now on?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 300,
+		"MSGID": 106,
+		"JPN": "でも、なぜ……",
+		"ENG": "But, why...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 107,
+		"JPN": "分からないからこそ、心配だった。",
+		"ENG": "I was all the more worried because I had no clue what the cause was.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 108,
+		"JPN": "それに、俺たちの中のうみの存在が、徐々に希薄になっていると思えるようなことも……",
+		"ENG": "Not to mention that Umi's presence in our minds was gradually becoming weaker and weaker...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b1a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "32010100ad86"
+	},
+	{
+		"LABEL": "0x1b24",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b2a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 307,
+		"MSGID": 109,
+		"VOICEID": 20593,
+		"NameJPN": "しろは",
+		"JPN": "「飛行機は、明日だね」",
+		"NameENG": "Shiroha",
+		"ENG": "\"I guess the airplanes will have to wait until tomorrow.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 309,
+		"MSGID": 110,
+		"JPN": "不安を覆い隠すように、しろははそう言って笑った。",
+		"ENG": "Shiroha smiled, hiding away her concern.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 311,
+		"MSGID": 111,
+		"JPN": "俺も、同じように笑顔を作る。",
+		"ENG": "I forced a smile as well.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 313,
+		"MSGID": 112,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bf2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3b01"
+	},
+	{
+		"LABEL": "0x1bf8",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "3c010100"
+	},
+	{
+		"LABEL": "0x1c00",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x1c06",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009c00000000000000"
+	},
+	{
+		"LABEL": "0x1c14",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e000080026801"
+	},
+	{
+		"LABEL": "0x1c26",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x1c2e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000004cff"
+	},
+	{
+		"LABEL": "0x1c3c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a34080000b400"
+	},
+	{
+		"LABEL": "0x1c4a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c52",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1c58",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "3d013c00"
+	},
+	{
+		"LABEL": "0x1c60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 319,
+		"MSGID": 113,
+		"JPN": "明日の約束だけが、今の俺たちの、心の支えだった。",
+		"ENG": "In that moment, a promise for tomorrow was all the moral support we could find.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ca0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "46010000b800000000000000"
+	},
+	{
+		"LABEL": "0x1cb0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1cb8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x1cc0",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x1ccc",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x1cd8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1cde",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x1ce4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1ce8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x1cee",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x1cfa",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x1d06",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d0a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d0e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x1d16",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x1d1e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x1d26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x1d2e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x1d36",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4701"
+	},
+	{
+		"LABEL": "0x1d3c",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "49010080"
+	}
+]

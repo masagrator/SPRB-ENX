@@ -1,0 +1,1872 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0900"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0b00010076ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 0,
+		"VOICEID": 39827,
+		"NameJPN": "うみ",
+		"JPN": "「おはよう、羽依里さん」",
+		"NameENG": "Umi",
+		"ENG": "\"Morning, Hairi-san.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 1,
+		"NameJPN": "羽依里",
+		"JPN": "「ん……ふわぁっ……あふっ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ngh... fwaaahhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「……あれ、うみちゃん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...? Umi-chan?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 3,
+		"JPN": "うみちゃんに起こされるのは久しぶりだった。",
+		"ENG": "How long's it been since Umi-chan woke me up?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x116",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 4,
+		"JPN": "識がこの家に居候し始めて、俺は居間で寝るようになった。",
+		"ENG": "I've been sleeping in the living room, ever since Shiki started rooming here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 5,
+		"JPN": "朝の早い鏡子さんやうみちゃんは、俺を起こさないように気を遣って、声をかけないでいてくれる。",
+		"ENG": "Kyouko-san and Umi-chan were always careful not to wake me up early in the morning.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c6",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "18000100000f00"
+	},
+	{
+		"LABEL": "0x1d2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「ん……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hm...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 7,
+		"JPN": "台所の方から、良い匂いがした。",
+		"ENG": "Something from the kitchen smelled good.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、もうご飯の時間だったのか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, time for breakfast.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x268",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「……サザエチャーハン？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Sazae fried rice?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 10,
+		"JPN": "昨日もらったサザエは、夕飯だけでは消費仕切れなかった。",
+		"ENG": "We couldn't use up all of it on just dinner yesterday.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 11,
+		"JPN": "だけど、この香りは、昨夜のとはずいぶんと違って……",
+		"ENG": "But this scent was very different from last night's.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x324",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 12,
+		"JPN": "美味しそうな匂いだ。",
+		"ENG": "It smelled delicious.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x348",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2800010078ad00008002b4009100"
+	},
+	{
+		"LABEL": "0x35a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x360",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 13,
+		"VOICEID": 39828,
+		"NameJPN": "うみ",
+		"JPN": "「識さんが、朝ごはんを作ってくれてるよ」",
+		"NameENG": "Umi",
+		"ENG": "\"Shiki-san's cooking for us.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「識が？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shiki?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "2d000a00000000780001"
+	},
+	{
+		"LABEL": "0x3d2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2f00"
+	},
+	{
+		"LABEL": "0x3d8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x3e6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3ee",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x3f4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x404",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x40a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x418",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x41e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x422",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "310000fd0e0300"
+	},
+	{
+		"LABEL": "0x42e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "320001fc0e0300"
+	},
+	{
+		"LABEL": "0x43a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3400"
+	},
+	{
+		"LABEL": "0x440",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x44e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x456",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x460",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x464",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 15,
+		"JPN": "台所に行ってみると。",
+		"ENG": "I popped into the kitchen.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x488",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "380000000000003c0001"
+	},
+	{
+		"LABEL": "0x496",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3a00010030bc00008002b4008800"
+	},
+	{
+		"LABEL": "0x4a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 16,
+		"VOICEID": 39829,
+		"NameJPN": "識",
+		"JPN": "「やあ、起きたかい羽依里くん」",
+		"NameENG": "Shiki",
+		"ENG": "\"Up and about, Hairi-kun?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「おはよう、おまえ……本当に料理作れたのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Morning. So you actually can cook?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3f00010044bc"
+	},
+	{
+		"LABEL": "0x534",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x53a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 18,
+		"VOICEID": 39830,
+		"NameJPN": "識",
+		"JPN": "「失礼だな。逆にどうして僕が食事を作れないって思ったんだい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"How rude. And why did you think I couldn't, hm?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「おむすびしか作れないと思ってた」",
+		"NameENG": "Hairi",
+		"ENG": "\"I figured you could only make omusubi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ca",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "440001004cbc"
+	},
+	{
+		"LABEL": "0x5d4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 20,
+		"VOICEID": 39831,
+		"NameJPN": "識",
+		"JPN": "「おむすびは、あくまでも僕の得意料理さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Omusubi is merely my specialty.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x618",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4700010042bc"
+	},
+	{
+		"LABEL": "0x622",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x628",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 21,
+		"VOICEID": 39832,
+		"NameJPN": "識",
+		"JPN": "「他の料理が作れないなんて、一言も言っていないぜ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I said not a word about not being able to make other things.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x670",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「たしかに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"True, you didn't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x69a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4c0001004cbc"
+	},
+	{
+		"LABEL": "0x6a4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 23,
+		"VOICEID": 39833,
+		"NameJPN": "識",
+		"JPN": "「いつも作って貰ってばかりだから、たまにはお返しをするさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm always being cooked for, so I wanted to return the favor for a change.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6fa",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "4f000100000f00"
+	},
+	{
+		"LABEL": "0x706",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x70c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "510000fe0e0300"
+	},
+	{
+		"LABEL": "0x718",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "520001fc0e0300"
+	},
+	{
+		"LABEL": "0x724",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 24,
+		"JPN": "そう言って、識は調理に戻る。",
+		"ENG": "She returned to cooking.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x750",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 25,
+		"JPN": "美味しそうな香りが、さらに濃くなった。",
+		"ENG": "The delicious fragrance thickened.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x786",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "58000000000000780001"
+	},
+	{
+		"LABEL": "0x794",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "59000100000000780001"
+	},
+	{
+		"LABEL": "0x7a2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5c00"
+	},
+	{
+		"LABEL": "0x7a8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x7b0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x7b6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x7c4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x7ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x7d0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x7d4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x7da",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5e00"
+	},
+	{
+		"LABEL": "0x7e0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x7ee",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x7f6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x7fc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x800",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "60000100d76e0000d200b4008100"
+	},
+	{
+		"LABEL": "0x812",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010113bc00008002b4008800"
+	},
+	{
+		"LABEL": "0x822",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010276ac00002e04b4009100"
+	},
+	{
+		"LABEL": "0x832",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x838",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 26,
+		"VOICEID": 39834,
+		"NameJPN": "鏡子",
+		"JPN": "「それじゃ、いただくわね、識ちゃん」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Shall we dig in, Shiki-chan?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x874",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "630001020aac"
+	},
+	{
+		"LABEL": "0x87e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x884",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 27,
+		"VOICEID": 39835,
+		"NameJPN": "うみ",
+		"JPN": "「いただきます」",
+		"NameENG": "Umi",
+		"ENG": "\"Thanks for the food.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「いただきまーす」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's eat!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8d8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "68000101fdbb"
+	},
+	{
+		"LABEL": "0x8e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 105,
+		"MSGID": 29,
+		"VOICEID": 39836,
+		"NameJPN": "識",
+		"JPN": "「どうぞ召し上がれ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Stuff your bellies!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x914",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "6b000100000f00"
+	},
+	{
+		"LABEL": "0x920",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x92a",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0x934",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x93a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 109,
+		"MSGID": 30,
+		"JPN": "食卓に並んだ料理の数々は、久しぶりに『和』という感じだった。",
+		"ENG": "The various dishes on the table gave off a very 'Japanese' kind of vibe. Something we've sorely lacked with other meals.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x986",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 111,
+		"MSGID": 31,
+		"JPN": "山菜のおひたしや、浅漬け、菜っ葉の味噌汁。",
+		"ENG": "Boiled herbs, pickled vegetables, leafy miso soup...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 113,
+		"MSGID": 32,
+		"JPN": "メインの食材はもちろんサザエで、サザエの串焼き、甘辛煮、なんと壺焼きまである。",
+		"ENG": "Sazae was the main dish, obviously. Spit-roasted sazae, sazae amakara-ni, even tsuboyaki.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 33,
+		"JPN": "そして、極めつけはサザエの炊き込みご飯。",
+		"ENG": "And to top it off―sazae on rice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 34,
+		"JPN": "サザエづくしだ。",
+		"ENG": "Sazae everything.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa76",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7700010052ac00008002b4009100"
+	},
+	{
+		"LABEL": "0xa88",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0xa92",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0xa9c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 35,
+		"VOICEID": 39837,
+		"NameJPN": "うみ",
+		"JPN": "「はむっ……もぐもぐ……」",
+		"NameENG": "Umi",
+		"ENG": "\"Hahm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xad4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7a00010113bc00009001b4008800"
+	},
+	{
+		"LABEL": "0xae6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0xaf4",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0102000f00"
+	},
+	{
+		"LABEL": "0xafe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 123,
+		"MSGID": 36,
+		"VOICEID": 39838,
+		"NameJPN": "識",
+		"JPN": "「どうかな？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Well?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7e00010016ac"
+	},
+	{
+		"LABEL": "0xb32",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 37,
+		"VOICEID": 39839,
+		"NameJPN": "うみ",
+		"JPN": "「すごく……美味しいっ」",
+		"NameENG": "Umi",
+		"ENG": "\"It's... amazing!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb68",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8100010103bc"
+	},
+	{
+		"LABEL": "0xb72",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 38,
+		"VOICEID": 39840,
+		"NameJPN": "識",
+		"JPN": "「んへへ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Nhehe!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb98",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "840001022b6f0000d200b4008100"
+	},
+	{
+		"LABEL": "0xbaa",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218008002b400"
+	},
+	{
+		"LABEL": "0xbb8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218002e04b400"
+	},
+	{
+		"LABEL": "0xbc6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbcc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 39,
+		"VOICEID": 39841,
+		"NameJPN": "鏡子",
+		"JPN": "「うん、とっても美味しいわ、識ちゃん」",
+		"NameENG": "Kyouko",
+		"ENG": "\"It really is, Shiki-chan.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc0a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "870001010cbc"
+	},
+	{
+		"LABEL": "0xc14",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 40,
+		"VOICEID": 39842,
+		"NameJPN": "識",
+		"JPN": "「喜んでもらえて何よりだよ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm glad you like it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc4c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8a00010010ac"
+	},
+	{
+		"LABEL": "0xc56",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 41,
+		"VOICEID": 39843,
+		"NameJPN": "うみ",
+		"JPN": "「鏡子さん、この甘辛煮を食べてみて！」",
+		"NameENG": "Umi",
+		"ENG": "\"Kyouko-san, you've gotta try this amakara-ni!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc9a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8d0001000aac"
+	},
+	{
+		"LABEL": "0xca4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 42,
+		"VOICEID": 39844,
+		"NameJPN": "うみ",
+		"JPN": "「すっごく美味しいよ！」",
+		"NameENG": "Umi",
+		"ENG": "\"It's totally incredible!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcda",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 43,
+		"JPN": "珍しくうみちゃんが食べ物で興奮している。",
+		"ENG": "Even Umi-chan was going nuts over it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd12",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "92000102d76e"
+	},
+	{
+		"LABEL": "0xd1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 44,
+		"VOICEID": 39845,
+		"NameJPN": "鏡子",
+		"JPN": "「どれどれ……あむっ……ん、本当だわ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Let's see... ahm... Nh, you're right!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd60",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "95000102d16e"
+	},
+	{
+		"LABEL": "0xd6a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 45,
+		"VOICEID": 39846,
+		"NameJPN": "鏡子",
+		"JPN": "「生姜が効いていて、いい味してるわね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"The ginger is just perfect.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdae",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9800010103bc"
+	},
+	{
+		"LABEL": "0xdb8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xdbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 46,
+		"VOICEID": 39847,
+		"NameJPN": "識",
+		"JPN": "「んへへへへ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Nhehehehehe!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xde2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9b00010113bc"
+	},
+	{
+		"LABEL": "0xdec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xdf2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 47,
+		"VOICEID": 39848,
+		"NameJPN": "識",
+		"JPN": "「羽依里くんも、どう――」",
+		"NameENG": "Shiki",
+		"ENG": "\"What do you think, Hai―\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 158,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「んぐんぐ……ごっくん。おかわり」",
+		"NameENG": "Hairi",
+		"ENG": "\"Mnh... Seconds, please.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe5e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a0000102016f"
+	},
+	{
+		"LABEL": "0xe68",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010114bc"
+	},
+	{
+		"LABEL": "0xe70",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010046ac"
+	},
+	{
+		"LABEL": "0xe78",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 162,
+		"MSGID": 49,
+		"JPN": "空になったお茶碗を識に差し出した。",
+		"ENG": "I held out my empty bowl to Shiki.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeb0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a40001007cac"
+	},
+	{
+		"LABEL": "0xeba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xec0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 50,
+		"VOICEID": 39849,
+		"NameJPN": "うみ",
+		"JPN": "「はやっ！」",
+		"NameENG": "Umi",
+		"ENG": "\"Holy―!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xee4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a700010070ac"
+	},
+	{
+		"LABEL": "0xeee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xef4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 51,
+		"VOICEID": 39850,
+		"NameJPN": "うみ",
+		"JPN": "「羽依里さん、もうおかわりなの!?」",
+		"NameENG": "Umi",
+		"ENG": "\"You're already going for seconds!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 170,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「だって美味いから」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well it's good.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf5e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ac000102256f"
+	},
+	{
+		"LABEL": "0xf68",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 174,
+		"MSGID": 53,
+		"JPN": "サザエの炊き込みご飯の味は最高だった。",
+		"ENG": "That sazae on rice was to die for.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfa4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b000010113bc"
+	},
+	{
+		"LABEL": "0xfae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xfb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 177,
+		"MSGID": 54,
+		"VOICEID": 39851,
+		"NameJPN": "識",
+		"JPN": "「気に入ってくれたかい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"You like it, do ya?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 179,
+		"MSGID": 55,
+		"NameJPN": "羽依里",
+		"JPN": "「うん。これだけで何杯でもいける」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, I could eat this for days on end.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1020",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 181,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「昨日のサザエチャーハンより美味しい」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's way better than last night's fried rice.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1060",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b700010016ac"
+	},
+	{
+		"LABEL": "0x106a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1070",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 57,
+		"VOICEID": 39852,
+		"NameJPN": "うみ",
+		"JPN": "「あんだと？」",
+		"NameENG": "Umi",
+		"ENG": "\"Wanna repeat that?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1096",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ba00010103bc"
+	},
+	{
+		"LABEL": "0x10a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 187,
+		"MSGID": 58,
+		"VOICEID": 39853,
+		"NameJPN": "識",
+		"JPN": "「そう言ってもらえると嬉しいよ。んへへ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm so happy to hear you say that! Nhehe!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 189,
+		"MSGID": 59,
+		"JPN": "識は嬉しそうに俺の茶碗を受け取り、おかわりを山盛りにして返してくれた。",
+		"ENG": "Shiki gladly took up my bowl and piled on seconds.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x113a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bf00010101bc"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x114a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 60,
+		"VOICEID": 39854,
+		"NameJPN": "識",
+		"JPN": "「おかわりはたくさんあるから、何杯でも食べておくれ」",
+		"NameENG": "Shiki",
+		"ENG": "\"There's plenty left, so eat as much as ya want!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1194",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 61,
+		"NameJPN": "羽依里",
+		"JPN": "「おう！」",
+		"NameENG": "Hairi",
+		"ENG": "\"You got it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11b8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c40001002eac"
+	},
+	{
+		"LABEL": "0x11c2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x11c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 62,
+		"VOICEID": 39855,
+		"NameJPN": "うみ",
+		"JPN": "「朝からすごい食欲だよね」",
+		"NameENG": "Umi",
+		"ENG": "\"That's some appetite you've got first thing in the morning.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c7000102d16e"
+	},
+	{
+		"LABEL": "0x1204",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x120a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 63,
+		"VOICEID": 39856,
+		"NameJPN": "鏡子",
+		"JPN": "「そういううみちゃんも、もうすぐご飯おしまいね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Your bowl's looking a bit empty there, Umi-chan.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1252",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ca0001006aac"
+	},
+	{
+		"LABEL": "0x125c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1262",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 64,
+		"VOICEID": 39857,
+		"NameJPN": "うみ",
+		"JPN": "「うう……」",
+		"NameENG": "Umi",
+		"ENG": "\"Er...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1286",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cd000101fdbb"
+	},
+	{
+		"LABEL": "0x1290",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1296",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 206,
+		"MSGID": 65,
+		"VOICEID": 39858,
+		"NameJPN": "識",
+		"JPN": "「おかわりするかい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Is that a 'seconds' I hear?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d100010064ac"
+	},
+	{
+		"LABEL": "0x12cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 66,
+		"VOICEID": 39859,
+		"NameJPN": "うみ",
+		"JPN": "「……お願い……します」",
+		"NameENG": "Umi",
+		"ENG": "\"...Yes, please.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1302",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d4000102256f"
+	},
+	{
+		"LABEL": "0x130c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1312",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 213,
+		"MSGID": 67,
+		"VOICEID": 39860,
+		"NameJPN": "鏡子",
+		"JPN": "「でもサザエご飯なんて懐かしいわね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"But I haven't had sazae rice in ages.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x134e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d7000102d76e"
+	},
+	{
+		"LABEL": "0x1358",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x135e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 68,
+		"VOICEID": 39861,
+		"NameJPN": "鏡子",
+		"JPN": "「昔、時々おばーちゃんが作ってくれたことあったわ」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Your grandmother would make it from time to time in the past.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13a8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "da00010101bc"
+	},
+	{
+		"LABEL": "0x13b2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 219,
+		"MSGID": 69,
+		"VOICEID": 39862,
+		"NameJPN": "識",
+		"JPN": "「この島の伝統的な料理なんだぜ」",
+		"NameENG": "Shiki",
+		"ENG": "\"It's a tradition, y'know.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dd000102016f"
+	},
+	{
+		"LABEL": "0x13f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 70,
+		"VOICEID": 39863,
+		"NameJPN": "鏡子",
+		"JPN": "「あら、そうなの？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Oh, is it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x142a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 71,
+		"NameJPN": "羽依里",
+		"JPN": "「鏡子さんも知らなかったんですか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not even Kyouko-san knew?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1468",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e200010070ac"
+	},
+	{
+		"LABEL": "0x1472",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1478",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 227,
+		"MSGID": 72,
+		"VOICEID": 39864,
+		"NameJPN": "うみ",
+		"JPN": "「この島の伝統料理はチャーハンじゃないの？」",
+		"NameENG": "Umi",
+		"ENG": "\"Is the island's traditional dish not fried rice?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 229,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "「それはうみちゃんが好きなだけだろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You wish.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e70001020d6f"
+	},
+	{
+		"LABEL": "0x1504",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010016ac"
+	},
+	{
+		"LABEL": "0x150c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1512",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 74,
+		"VOICEID": 39865,
+		"NameJPN": "うみ",
+		"JPN": "「ぬぬ～……」",
+		"NameENG": "Umi",
+		"ENG": "\"Grrr...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1538",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ea00010113bc"
+	},
+	{
+		"LABEL": "0x1542",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1548",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 75,
+		"VOICEID": 39866,
+		"NameJPN": "識",
+		"JPN": "「このサザエご飯を美味しいと思って貰えたなら、覚えておいて欲しい」",
+		"NameENG": "Shiki",
+		"ENG": "\"If you think this sazae rice is delicious, that's something I'd like you to remember.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15a0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ed0001010cbc"
+	},
+	{
+		"LABEL": "0x15aa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 76,
+		"VOICEID": 39867,
+		"NameJPN": "識",
+		"JPN": "「この島には忘れられてしまったものがたくさんあるってことを」",
+		"NameENG": "Shiki",
+		"ENG": "\"There are many things forgotten on this island.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1602",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f00001021f6f"
+	},
+	{
+		"LABEL": "0x160c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010070ac"
+	},
+	{
+		"LABEL": "0x1614",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x161a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 77,
+		"NameJPN": "羽依里",
+		"JPN": "「識？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shiki?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x163c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f400010103bc"
+	},
+	{
+		"LABEL": "0x1646",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x164c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 78,
+		"VOICEID": 39868,
+		"NameJPN": "識",
+		"JPN": "「んへへ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Nhehe!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x166c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "fb00"
+	},
+	{
+		"LABEL": "0x1672",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "fd000080"
+	}
+]

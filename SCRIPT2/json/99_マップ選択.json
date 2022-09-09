@@ -1,0 +1,7536 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5200"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5e00"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6800"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7400"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8000"
+	},
+	{
+		"LABEL": "0x1e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8c00"
+	},
+	{
+		"LABEL": "0x24",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9800"
+	},
+	{
+		"LABEL": "0x2a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "a400"
+	},
+	{
+		"LABEL": "0x30",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ac006d000100",
+		"JPN": "0729a",
+		"ENG": "0729a"
+	},
+	{
+		"LABEL": "0x46",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "ac0000c03500a2173b02000000400000000000003037323961000000"
+	},
+	{
+		"LABEL": "0x66",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ad00ff1b0700"
+	},
+	{
+		"LABEL": "0x70",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ae00001c1d00"
+	},
+	{
+		"LABEL": "0x7a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "af00011c0000"
+	},
+	{
+		"LABEL": "0x84",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b200",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0xbe"
+	},
+	{
+		"LABEL": "0x9c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0xb4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b300",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0xbe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b300",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x102"
+	},
+	{
+		"LABEL": "0xd6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0100",
+		"String": "20_しろは0729AM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "30000100"
+	},
+	{
+		"LABEL": "0xf8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b400",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x102",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b400",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x12e"
+	},
+	{
+		"LABEL": "0x11a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "0200",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x124",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b500",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x12e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b500",
+		"Equation": "((#6050)==4)",
+		"GOTO_LABEL": "0x16a"
+	},
+	{
+		"LABEL": "0x146",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0300",
+		"String": "80_駄菓子屋0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b600",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x16a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b600",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x1a4"
+	},
+	{
+		"LABEL": "0x182",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0400",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0x19a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b700",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x1a4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b700",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x1de"
+	},
+	{
+		"LABEL": "0x1bc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0500",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4186"
+	},
+	{
+		"LABEL": "0x1d4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b800",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x1de",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b800",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x218"
+	},
+	{
+		"LABEL": "0x1f6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0600",
+		"String": "RB30_識_0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x20e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b900",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x218",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b900",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x24c"
+	},
+	{
+		"LABEL": "0x230",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0700",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x24c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bb00",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x26a"
+	},
+	{
+		"LABEL": "0x262",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x30"
+	},
+	{
+		"LABEL": "0x26a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "bd00"
+	},
+	{
+		"LABEL": "0x270",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c5006d000100",
+		"JPN": "0729b",
+		"ENG": "0729b"
+	},
+	{
+		"LABEL": "0x286",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "c50001c03500a2173b02010000400000000000003037323962000000"
+	},
+	{
+		"LABEL": "0x2a6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c600ff1b0700"
+	},
+	{
+		"LABEL": "0x2b0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c700001c1d00"
+	},
+	{
+		"LABEL": "0x2ba",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c800011c0100"
+	},
+	{
+		"LABEL": "0x2c4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ca00",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x2fe"
+	},
+	{
+		"LABEL": "0x2dc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0800",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x2f4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cb00",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cb00",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x342"
+	},
+	{
+		"LABEL": "0x316",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0900",
+		"String": "20_しろは0729PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x330",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "31000100"
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cc00",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x342",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cc00",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x37c"
+	},
+	{
+		"LABEL": "0x35a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0a00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0x372",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cd00",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x37c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cd00",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x3b4"
+	},
+	{
+		"LABEL": "0x394",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0b00",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3aa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ce00",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x3b4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ce00",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x3ea"
+	},
+	{
+		"LABEL": "0x3cc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0c00",
+		"String": "30_蒼0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cf00",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x3ea",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cf00",
+		"Equation": "((#6050)==4)",
+		"GOTO_LABEL": "0x426"
+	},
+	{
+		"LABEL": "0x402",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0d00",
+		"String": "80_駄菓子屋0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x41c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d000",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x426",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d000",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x460"
+	},
+	{
+		"LABEL": "0x43e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0e00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x456",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d100",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x460",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d100",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x49e"
+	},
+	{
+		"LABEL": "0x478",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0f00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x494",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d200",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x49e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d200",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x4c0"
+	},
+	{
+		"LABEL": "0x4b6",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "1000",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x4c0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d400",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x4de"
+	},
+	{
+		"LABEL": "0x4d6",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x270"
+	},
+	{
+		"LABEL": "0x4de",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "d600"
+	},
+	{
+		"LABEL": "0x4e4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "de006d000100",
+		"JPN": "0730a",
+		"ENG": "0730a"
+	},
+	{
+		"LABEL": "0x4fa",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "de0002c03500a2173b02020000400000000000003037333061000000"
+	},
+	{
+		"LABEL": "0x51a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "df00ff1b0700"
+	},
+	{
+		"LABEL": "0x524",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e000001c1e00"
+	},
+	{
+		"LABEL": "0x52e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e100011c0000"
+	},
+	{
+		"LABEL": "0x538",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e400",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x572"
+	},
+	{
+		"LABEL": "0x550",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1100",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x568",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e500",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x572",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e500",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x5b6"
+	},
+	{
+		"LABEL": "0x58a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1200",
+		"String": "20_しろは0730AM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x5a4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "32000100"
+	},
+	{
+		"LABEL": "0x5ac",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e600",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x5b6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e600",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x5e2"
+	},
+	{
+		"LABEL": "0x5ce",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "1300",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x5d8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e700",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x5e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e700",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x618"
+	},
+	{
+		"LABEL": "0x5fa",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1400",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x60e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e800",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x618",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e800",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x652"
+	},
+	{
+		"LABEL": "0x630",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1500",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0x648",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e900",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x652",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e900",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x68c"
+	},
+	{
+		"LABEL": "0x66a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4186"
+	},
+	{
+		"LABEL": "0x682",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ea00",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ea00",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x6ca"
+	},
+	{
+		"LABEL": "0x6a4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1700",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x6c0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "eb00",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x6ca",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "eb00",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x6ec"
+	},
+	{
+		"LABEL": "0x6e2",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "1800",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x6ec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ed00",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x70a"
+	},
+	{
+		"LABEL": "0x702",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x4e4"
+	},
+	{
+		"LABEL": "0x70a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "ef00"
+	},
+	{
+		"LABEL": "0x710",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "f7006d000100",
+		"JPN": "0730b",
+		"ENG": "0730b"
+	},
+	{
+		"LABEL": "0x726",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "f70003c03500a2173b02030000400000000000003037333062000000"
+	},
+	{
+		"LABEL": "0x746",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f800ff1b0700"
+	},
+	{
+		"LABEL": "0x750",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f900001c1e00"
+	},
+	{
+		"LABEL": "0x75a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fa00011c0100"
+	},
+	{
+		"LABEL": "0x764",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fc00",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x79e"
+	},
+	{
+		"LABEL": "0x77c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1900",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x794",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fd00",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x79e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fd00",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x7d8"
+	},
+	{
+		"LABEL": "0x7b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1a00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0x7ce",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fe00",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x7d8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fe00",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x810"
+	},
+	{
+		"LABEL": "0x7f0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1b00",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x2c"
+	},
+	{
+		"LABEL": "0x806",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0001",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x810",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0001",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x854"
+	},
+	{
+		"LABEL": "0x828",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1c00",
+		"String": "20_しろは0730PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x842",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "33000100"
+	},
+	{
+		"LABEL": "0x84a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0101",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x854",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0101",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x88e"
+	},
+	{
+		"LABEL": "0x86c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1d00",
+		"String": "RB30_識_0730",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x884",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0201",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x88e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0201",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x8c8"
+	},
+	{
+		"LABEL": "0x8a6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1e00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x8be",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0301",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x8c8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0301",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x906"
+	},
+	{
+		"LABEL": "0x8e0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "1f00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x8fc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0401",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x906",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0401",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x928"
+	},
+	{
+		"LABEL": "0x91e",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "2000",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x928",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0601",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x946"
+	},
+	{
+		"LABEL": "0x93e",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x710"
+	},
+	{
+		"LABEL": "0x946",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0801"
+	},
+	{
+		"LABEL": "0x94c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "10016d000100",
+		"JPN": "0731a",
+		"ENG": "0731a"
+	},
+	{
+		"LABEL": "0x962",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "100104c03500a2173b02040000400000000000003037333161000000"
+	},
+	{
+		"LABEL": "0x982",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1101ff1b0700"
+	},
+	{
+		"LABEL": "0x98c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1201001c1f00"
+	},
+	{
+		"LABEL": "0x996",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1301011c0000"
+	},
+	{
+		"LABEL": "0x9a0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1501",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x9e4"
+	},
+	{
+		"LABEL": "0x9b8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2100",
+		"String": "20_しろは0731AM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x9d2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "34000100"
+	},
+	{
+		"LABEL": "0x9da",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1701",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0x9e4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1701",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0xa1e"
+	},
+	{
+		"LABEL": "0x9fc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2200",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0xa14",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1801",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xa1e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1801",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0xa4a"
+	},
+	{
+		"LABEL": "0xa36",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "2300",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0xa40",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1901",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xa4a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1901",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0xa84"
+	},
+	{
+		"LABEL": "0xa62",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2400",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0xa7a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1a01",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xa84",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1a01",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0xac0"
+	},
+	{
+		"LABEL": "0xa9c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2500",
+		"String": "80_駄菓子屋0731",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xab6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1b01",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xac0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1b01",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0xafa"
+	},
+	{
+		"LABEL": "0xad8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4186"
+	},
+	{
+		"LABEL": "0xaf0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1c01",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xafa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1c01",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0xb34"
+	},
+	{
+		"LABEL": "0xb12",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2700",
+		"String": "RB30_識_0731",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xb2a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1d01",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xb34",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1d01",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0xb72"
+	},
+	{
+		"LABEL": "0xb4c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2800",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0xb68",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1e01",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xb72",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1e01",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0xb94"
+	},
+	{
+		"LABEL": "0xb8a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "2900",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0xb94",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2001",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0xbb2"
+	},
+	{
+		"LABEL": "0xbaa",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x94c"
+	},
+	{
+		"LABEL": "0xbb2",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2201"
+	},
+	{
+		"LABEL": "0xbb8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "2a016d000100",
+		"JPN": "0731b",
+		"ENG": "0731b"
+	},
+	{
+		"LABEL": "0xbce",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "2a0105c03500a2173b02050000400000000000003037333162000000"
+	},
+	{
+		"LABEL": "0xbee",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2b01ff1b0700"
+	},
+	{
+		"LABEL": "0xbf8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2c01001c1f00"
+	},
+	{
+		"LABEL": "0xc02",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2d01011c0100"
+	},
+	{
+		"LABEL": "0xc0c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2f01",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0xc46"
+	},
+	{
+		"LABEL": "0xc24",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2a00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0xc3c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3001",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xc46",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3001",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0xc80"
+	},
+	{
+		"LABEL": "0xc5e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2b00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0xc76",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3101",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xc80",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3101",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0xcb8"
+	},
+	{
+		"LABEL": "0xc98",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2c00",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x58"
+	},
+	{
+		"LABEL": "0xcae",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3201",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3201",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0xd44"
+	},
+	{
+		"LABEL": "0xcd0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3401",
+		"Equation": "(#51==1)",
+		"GOTO_LABEL": "0xd14"
+	},
+	{
+		"LABEL": "0xce4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "35012d00",
+		"String": "20_しろは0731PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xd00",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "360135000100"
+	},
+	{
+		"LABEL": "0xd0a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3701",
+		"GOTO_LABEL": "0xd3a"
+	},
+	{
+		"LABEL": "0xd14",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "3a012e00",
+		"String": "20_しろは0730PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xd30",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3b0133000100"
+	},
+	{
+		"LABEL": "0xd3a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3d01",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xd44",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3d01",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0xd7a"
+	},
+	{
+		"LABEL": "0xd5c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "2f00",
+		"String": "30_蒼0731",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xd70",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3e01",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xd7a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3e01",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0xdb4"
+	},
+	{
+		"LABEL": "0xd92",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x42fa"
+	},
+	{
+		"LABEL": "0xdaa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3f01",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xdb4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3f01",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0xdee"
+	},
+	{
+		"LABEL": "0xdcc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3100",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0xde4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4001",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xdee",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4001",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0xe2c"
+	},
+	{
+		"LABEL": "0xe06",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3200",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0xe22",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4101",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xe2c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4101",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0xe4e"
+	},
+	{
+		"LABEL": "0xe44",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "3300",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0xe4e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4301",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0xe6c"
+	},
+	{
+		"LABEL": "0xe64",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0xbb8"
+	},
+	{
+		"LABEL": "0xe6c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4501"
+	},
+	{
+		"LABEL": "0xe72",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4d016d000100",
+		"JPN": "0801a",
+		"ENG": "0801a"
+	},
+	{
+		"LABEL": "0xe88",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "4d0106c03500a2173b02060000400000000000003038303161000000"
+	},
+	{
+		"LABEL": "0xea8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4e01ff1b0800"
+	},
+	{
+		"LABEL": "0xeb2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4f01001c0100"
+	},
+	{
+		"LABEL": "0xebc",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5001011c0000"
+	},
+	{
+		"LABEL": "0xec6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5201",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0xf0a"
+	},
+	{
+		"LABEL": "0xede",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3400",
+		"String": "20_しろは0801AM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xef8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "36000100"
+	},
+	{
+		"LABEL": "0xf00",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5301",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0xf0a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5301",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0xf44"
+	},
+	{
+		"LABEL": "0xf22",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3500",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0xf3a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5401",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0xf44",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5401",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0xf70"
+	},
+	{
+		"LABEL": "0xf5c",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "3600",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0xf66",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5501",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0xf70",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5501",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0xfac"
+	},
+	{
+		"LABEL": "0xf88",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3700",
+		"String": "80_駄菓子屋0801",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xfa2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5601",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0xfac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5601",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0xfe6"
+	},
+	{
+		"LABEL": "0xfc4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3800",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4186"
+	},
+	{
+		"LABEL": "0xfdc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5701",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0xfe6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5701",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x1020"
+	},
+	{
+		"LABEL": "0xffe",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3900",
+		"String": "RB30_識_0801",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1016",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5801",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0x1020",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5801",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x105e"
+	},
+	{
+		"LABEL": "0x1038",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3a00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x1054",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5901",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0x105e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5901",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x1080"
+	},
+	{
+		"LABEL": "0x1076",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "3b00",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x1080",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5b01",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x109e"
+	},
+	{
+		"LABEL": "0x1096",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0xe72"
+	},
+	{
+		"LABEL": "0x109e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5d01"
+	},
+	{
+		"LABEL": "0x10a4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "65016d000100",
+		"JPN": "0801b",
+		"ENG": "0801b"
+	},
+	{
+		"LABEL": "0x10ba",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "650107c03500a2173b02070000400000000000003038303162000000"
+	},
+	{
+		"LABEL": "0x10da",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6601ff1b0800"
+	},
+	{
+		"LABEL": "0x10e4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6701001c0100"
+	},
+	{
+		"LABEL": "0x10ee",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6801011c0100"
+	},
+	{
+		"LABEL": "0x10f8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6a01",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x1132"
+	},
+	{
+		"LABEL": "0x1110",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3c00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x1128",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6b01",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x1132",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6b01",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x116c"
+	},
+	{
+		"LABEL": "0x114a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3d00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0x1162",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6c01",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x116c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6c01",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x11a4"
+	},
+	{
+		"LABEL": "0x1184",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "3e00",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x84"
+	},
+	{
+		"LABEL": "0x119a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6d01",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x11a4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6d01",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x1274"
+	},
+	{
+		"LABEL": "0x11bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6f01",
+		"Equation": "(#53==1)",
+		"GOTO_LABEL": "0x1200"
+	},
+	{
+		"LABEL": "0x11d0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "70013f00",
+		"String": "20_しろは0801PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x11ec",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "710137000100"
+	},
+	{
+		"LABEL": "0x11f6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7201",
+		"GOTO_LABEL": "0x126a"
+	},
+	{
+		"LABEL": "0x1200",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7401",
+		"Equation": "(#51==1)",
+		"GOTO_LABEL": "0x1244"
+	},
+	{
+		"LABEL": "0x1214",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "75014000",
+		"String": "20_しろは0731PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1230",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "760135000100"
+	},
+	{
+		"LABEL": "0x123a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7701",
+		"GOTO_LABEL": "0x126a"
+	},
+	{
+		"LABEL": "0x1244",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "7a014100",
+		"String": "20_しろは0730PM",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1260",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7b0133000100"
+	},
+	{
+		"LABEL": "0x126a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7d01",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x1274",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7d01",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x12aa"
+	},
+	{
+		"LABEL": "0x128c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4200",
+		"String": "30_蒼0801",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x12a0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7e01",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x12aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7e01",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x12e4"
+	},
+	{
+		"LABEL": "0x12c2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4300",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x42fa"
+	},
+	{
+		"LABEL": "0x12da",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7f01",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x12e4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7f01",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x131e"
+	},
+	{
+		"LABEL": "0x12fc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4400",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x1314",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8001",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x131e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8001",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x135c"
+	},
+	{
+		"LABEL": "0x1336",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4500",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x1352",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8101",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x135c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8101",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x137e"
+	},
+	{
+		"LABEL": "0x1374",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "4600",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x137e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8301",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x139c"
+	},
+	{
+		"LABEL": "0x1394",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x10a4"
+	},
+	{
+		"LABEL": "0x139c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8501"
+	},
+	{
+		"LABEL": "0x13a2",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8d016d000100",
+		"JPN": "0802a",
+		"ENG": "0802a"
+	},
+	{
+		"LABEL": "0x13b8",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "8d0108c03500a2173b02080000400000000000003038303261000000"
+	},
+	{
+		"LABEL": "0x13d8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8e01ff1b0800"
+	},
+	{
+		"LABEL": "0x13e2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8f01001c0200"
+	},
+	{
+		"LABEL": "0x13ec",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9001011c0000"
+	},
+	{
+		"LABEL": "0x13f6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9301",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x1430"
+	},
+	{
+		"LABEL": "0x140e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4700",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x1426",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9401",
+		"GOTO_LABEL": "0x14f8"
+	},
+	{
+		"LABEL": "0x1430",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9401",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x145c"
+	},
+	{
+		"LABEL": "0x1448",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "4800",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x1452",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9501",
+		"GOTO_LABEL": "0x14f8"
+	},
+	{
+		"LABEL": "0x145c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9501",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x1498"
+	},
+	{
+		"LABEL": "0x1474",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4900",
+		"String": "80_駄菓子屋0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x148e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9601",
+		"GOTO_LABEL": "0x14f8"
+	},
+	{
+		"LABEL": "0x1498",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9601",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x14d6"
+	},
+	{
+		"LABEL": "0x14b0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4a00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x14cc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9701",
+		"GOTO_LABEL": "0x14f8"
+	},
+	{
+		"LABEL": "0x14d6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9701",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x14f8"
+	},
+	{
+		"LABEL": "0x14ee",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "4b00",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x14f8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9901",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x1516"
+	},
+	{
+		"LABEL": "0x150e",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x13a2"
+	},
+	{
+		"LABEL": "0x1516",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9b01"
+	},
+	{
+		"LABEL": "0x151c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a3016d000100",
+		"JPN": "0802b",
+		"ENG": "0802b"
+	},
+	{
+		"LABEL": "0x1532",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "a30109c03500a2173b02090000400000000000003038303262000000"
+	},
+	{
+		"LABEL": "0x1552",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a401ff1b0800"
+	},
+	{
+		"LABEL": "0x155c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a501001c0200"
+	},
+	{
+		"LABEL": "0x1566",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a601011c0100"
+	},
+	{
+		"LABEL": "0x1570",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a801",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x15aa"
+	},
+	{
+		"LABEL": "0x1588",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4c00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x15a0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a901",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x15aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a901",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x15ec"
+	},
+	{
+		"LABEL": "0x15c2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4d00",
+		"String": "20_しろは0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x15da",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "38000100"
+	},
+	{
+		"LABEL": "0x15e2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "aa01",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x15ec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "aa01",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x1624"
+	},
+	{
+		"LABEL": "0x1604",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4e00",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0xb0"
+	},
+	{
+		"LABEL": "0x161a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ab01",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x1624",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ab01",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x165a"
+	},
+	{
+		"LABEL": "0x163c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "4f00",
+		"String": "30_蒼0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1650",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ac01",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x165a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ac01",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x1694"
+	},
+	{
+		"LABEL": "0x1672",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4186"
+	},
+	{
+		"LABEL": "0x168a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ad01",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x1694",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ad01",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x16ce"
+	},
+	{
+		"LABEL": "0x16ac",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5100",
+		"String": "RB30_識_0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x16c4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ae01",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x16ce",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ae01",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x1708"
+	},
+	{
+		"LABEL": "0x16e6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5200",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x16fe",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af01",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x1708",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "af01",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x1744"
+	},
+	{
+		"LABEL": "0x1720",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5300",
+		"String": "RB80_突然のコイ",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x173a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b001",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x1744",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b001",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x1782"
+	},
+	{
+		"LABEL": "0x175c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5400",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x1778",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b101",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x1782",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b101",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x17a4"
+	},
+	{
+		"LABEL": "0x179a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "5500",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x17a4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b301",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x17c2"
+	},
+	{
+		"LABEL": "0x17ba",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x151c"
+	},
+	{
+		"LABEL": "0x17c2",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "b601"
+	},
+	{
+		"LABEL": "0x17c8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "be016d000100",
+		"JPN": "0803a",
+		"ENG": "0803a"
+	},
+	{
+		"LABEL": "0x17de",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "be010ac03500a2173b020a0000400000000000003038303361000000"
+	},
+	{
+		"LABEL": "0x17fe",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "bf01ff1b0800"
+	},
+	{
+		"LABEL": "0x1808",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c001001c0300"
+	},
+	{
+		"LABEL": "0x1812",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c101011c0000"
+	},
+	{
+		"LABEL": "0x181c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c401",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x1856"
+	},
+	{
+		"LABEL": "0x1834",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x184c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c501",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x1856",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c501",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x1882"
+	},
+	{
+		"LABEL": "0x186e",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "5700",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x1878",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c601",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x1882",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c601",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x18bc"
+	},
+	{
+		"LABEL": "0x189a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5800",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0x18b2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c701",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x18bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c701",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x18fe"
+	},
+	{
+		"LABEL": "0x18d4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5900",
+		"String": "20_しろは0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x18ec",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "39000100"
+	},
+	{
+		"LABEL": "0x18f4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c801",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x18fe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c801",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x193a"
+	},
+	{
+		"LABEL": "0x1916",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5a00",
+		"String": "80_駄菓子屋0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1930",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c901",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x193a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c901",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x197c"
+	},
+	{
+		"LABEL": "0x1952",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5b00",
+		"String": "20_しろは0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x196a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "39000100"
+	},
+	{
+		"LABEL": "0x1972",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cb01",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x197c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cb01",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x19b6"
+	},
+	{
+		"LABEL": "0x1994",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5c00",
+		"String": "RB30_識_0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x19ac",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cc01",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x19b6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cc01",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x19f4"
+	},
+	{
+		"LABEL": "0x19ce",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5d00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x19ea",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cd01",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x19f4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cd01",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x1a16"
+	},
+	{
+		"LABEL": "0x1a0c",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "5e00",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x1a16",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cf01",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x1a34"
+	},
+	{
+		"LABEL": "0x1a2c",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x17c8"
+	},
+	{
+		"LABEL": "0x1a34",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "d101"
+	},
+	{
+		"LABEL": "0x1a3a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "d9016d000100",
+		"JPN": "0803b",
+		"ENG": "0803b"
+	},
+	{
+		"LABEL": "0x1a50",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "d9010bc03500a2173b020b0000400000000000003038303362000000"
+	},
+	{
+		"LABEL": "0x1a70",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "da01ff1b0800"
+	},
+	{
+		"LABEL": "0x1a7a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "db01001c0300"
+	},
+	{
+		"LABEL": "0x1a84",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "dc01011c0100"
+	},
+	{
+		"LABEL": "0x1a8e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "de01",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x1ac8"
+	},
+	{
+		"LABEL": "0x1aa6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "5f00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x1abe",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "df01",
+		"GOTO_LABEL": "0x1bd0"
+	},
+	{
+		"LABEL": "0x1ac8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "df01",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x1b00"
+	},
+	{
+		"LABEL": "0x1ae0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6000",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0xdc"
+	},
+	{
+		"LABEL": "0x1af6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e001",
+		"GOTO_LABEL": "0x1bd0"
+	},
+	{
+		"LABEL": "0x1b00",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e001",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x1b36"
+	},
+	{
+		"LABEL": "0x1b18",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6100",
+		"String": "30_蒼0803",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1b2c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e101",
+		"GOTO_LABEL": "0x1bd0"
+	},
+	{
+		"LABEL": "0x1b36",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e101",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x1b70"
+	},
+	{
+		"LABEL": "0x1b4e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6200",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x42fa"
+	},
+	{
+		"LABEL": "0x1b66",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e201",
+		"GOTO_LABEL": "0x1bd0"
+	},
+	{
+		"LABEL": "0x1b70",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e201",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x1bae"
+	},
+	{
+		"LABEL": "0x1b88",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6300",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x1ba4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e301",
+		"GOTO_LABEL": "0x1bd0"
+	},
+	{
+		"LABEL": "0x1bae",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e301",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x1bd0"
+	},
+	{
+		"LABEL": "0x1bc6",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "6400",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x1bd0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e501",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x1bee"
+	},
+	{
+		"LABEL": "0x1be6",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x1a3a"
+	},
+	{
+		"LABEL": "0x1bee",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e701"
+	},
+	{
+		"LABEL": "0x1bf4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "ef016d000100",
+		"JPN": "0804a",
+		"ENG": "0804a"
+	},
+	{
+		"LABEL": "0x1c0a",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "ef010cc03500a2173b020c0000400000000000003038303461000000"
+	},
+	{
+		"LABEL": "0x1c2a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f001ff1b0800"
+	},
+	{
+		"LABEL": "0x1c34",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f101001c0400"
+	},
+	{
+		"LABEL": "0x1c3e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f201011c0000"
+	},
+	{
+		"LABEL": "0x1c48",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f501",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x1c82"
+	},
+	{
+		"LABEL": "0x1c60",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6500",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x1c78",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f601",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1c82",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f601",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x1cae"
+	},
+	{
+		"LABEL": "0x1c9a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "6600",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x1ca4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f801",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1cae",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f801",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x1ce8"
+	},
+	{
+		"LABEL": "0x1cc6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6700",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0x1cde",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f901",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1ce8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f901",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x1d24"
+	},
+	{
+		"LABEL": "0x1d00",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6800",
+		"String": "80_駄菓子屋0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1d1a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fa01",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1d24",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fa01",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x1d60"
+	},
+	{
+		"LABEL": "0x1d3c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6900",
+		"String": "RB10_美希_0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1d56",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fb01",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1d60",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fb01",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x1d9a"
+	},
+	{
+		"LABEL": "0x1d78",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6a00",
+		"String": "RB30_識_0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1d90",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fc01",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1d9a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fc01",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x1dd4"
+	},
+	{
+		"LABEL": "0x1db2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6b00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x1dca",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fd01",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1dd4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fd01",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x1e12"
+	},
+	{
+		"LABEL": "0x1dec",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6c00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x1e08",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "fe01",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1e12",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fe01",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x1e34"
+	},
+	{
+		"LABEL": "0x1e2a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "6d00",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x1e34",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0002",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x1e52"
+	},
+	{
+		"LABEL": "0x1e4a",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x1bf4"
+	},
+	{
+		"LABEL": "0x1e52",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0202"
+	},
+	{
+		"LABEL": "0x1e58",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "0a026d000100",
+		"JPN": "0804b",
+		"ENG": "0804b"
+	},
+	{
+		"LABEL": "0x1e6e",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "0a020dc03500a2173b020d0000400000000000003038303462000000"
+	},
+	{
+		"LABEL": "0x1e8e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0b02ff1b0800"
+	},
+	{
+		"LABEL": "0x1e98",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0c02001c0400"
+	},
+	{
+		"LABEL": "0x1ea2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0d02011c0100"
+	},
+	{
+		"LABEL": "0x1eac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0f02",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x1ee6"
+	},
+	{
+		"LABEL": "0x1ec4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6e00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x1edc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1002",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x1ee6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1002",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x1f28"
+	},
+	{
+		"LABEL": "0x1efe",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "6f00",
+		"String": "20_しろは0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1f16",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3a000100"
+	},
+	{
+		"LABEL": "0x1f1e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1102",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x1f28",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1102",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x1f62"
+	},
+	{
+		"LABEL": "0x1f40",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0x1f58",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1202",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x1f62",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1202",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x1f9a"
+	},
+	{
+		"LABEL": "0x1f7a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7100",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x108"
+	},
+	{
+		"LABEL": "0x1f90",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1302",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x1f9a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1302",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x1fd0"
+	},
+	{
+		"LABEL": "0x1fb2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7200",
+		"String": "30_蒼0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1fc6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1402",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x1fd0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1402",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x200c"
+	},
+	{
+		"LABEL": "0x1fe8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7300",
+		"String": "80_駄菓子屋0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2002",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1502",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x200c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1502",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x2046"
+	},
+	{
+		"LABEL": "0x2024",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7400",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x42fa"
+	},
+	{
+		"LABEL": "0x203c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1602",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x2046",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1602",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x2084"
+	},
+	{
+		"LABEL": "0x205e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7500",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x207a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1702",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x2084",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1702",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x20a6"
+	},
+	{
+		"LABEL": "0x209c",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "7600",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x20a6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1902",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x20c4"
+	},
+	{
+		"LABEL": "0x20bc",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x1e58"
+	},
+	{
+		"LABEL": "0x20c4",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "1b02"
+	},
+	{
+		"LABEL": "0x20ca",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "23026d000100",
+		"JPN": "0805a",
+		"ENG": "0805a"
+	},
+	{
+		"LABEL": "0x20e0",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "23020ec03500a2173b020e0000400000000000003038303561000000"
+	},
+	{
+		"LABEL": "0x2100",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2402ff1b0800"
+	},
+	{
+		"LABEL": "0x210a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2502001c0500"
+	},
+	{
+		"LABEL": "0x2114",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2602011c0000"
+	},
+	{
+		"LABEL": "0x211e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2902",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x2158"
+	},
+	{
+		"LABEL": "0x2136",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7700",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x214e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2a02",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x2158",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a02",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x2184"
+	},
+	{
+		"LABEL": "0x2170",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "7800",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x217a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2b02",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x2184",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2b02",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x21c0"
+	},
+	{
+		"LABEL": "0x219c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7900",
+		"String": "80_駄菓子屋0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x21b6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c02",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x21c0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2c02",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x2236"
+	},
+	{
+		"LABEL": "0x21d8",
+		"Type": "IFN",
+		"SUBCMD": 0,
+		"Equation": "(#420==1)",
+		"GOTO_LABEL": "0x2210"
+	},
+	{
+		"LABEL": "0x21ea",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2d027a00",
+		"String": "RB10_美希_0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2206",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2e02",
+		"GOTO_LABEL": "0x222c"
+	},
+	{
+		"LABEL": "0x2210",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "30027b00",
+		"String": "RB10_美希_0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x222c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3302",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x2236",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3302",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x2270"
+	},
+	{
+		"LABEL": "0x224e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7c00",
+		"String": "RB30_識_0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2266",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3402",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x2270",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3402",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x22aa"
+	},
+	{
+		"LABEL": "0x2288",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7d00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x22a0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3502",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x22aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3502",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x22e8"
+	},
+	{
+		"LABEL": "0x22c2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "7e00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x22de",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3602",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x22e8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3602",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x230a"
+	},
+	{
+		"LABEL": "0x2300",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "7f00",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x230a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3802",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2328"
+	},
+	{
+		"LABEL": "0x2320",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x20ca"
+	},
+	{
+		"LABEL": "0x2328",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3a02"
+	},
+	{
+		"LABEL": "0x232e",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "42026d000100",
+		"JPN": "0805b",
+		"ENG": "0805b"
+	},
+	{
+		"LABEL": "0x2344",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "42020fc03500a2173b020f0000400000000000003038303562000000"
+	},
+	{
+		"LABEL": "0x2364",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4302ff1b0800"
+	},
+	{
+		"LABEL": "0x236e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4402001c0500"
+	},
+	{
+		"LABEL": "0x2378",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4502011c0100"
+	},
+	{
+		"LABEL": "0x2382",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4702",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x23bc"
+	},
+	{
+		"LABEL": "0x239a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x23b2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4802",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x23bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4802",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x23f6"
+	},
+	{
+		"LABEL": "0x23d4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8100",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0x23ec",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4902",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x23f6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4902",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x242e"
+	},
+	{
+		"LABEL": "0x240e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8200",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x134"
+	},
+	{
+		"LABEL": "0x2424",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4a02",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x242e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4a02",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x2464"
+	},
+	{
+		"LABEL": "0x2446",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8300",
+		"String": "30_蒼0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x245a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4b02",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x2464",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4b02",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x24a0"
+	},
+	{
+		"LABEL": "0x247c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8400",
+		"String": "80_駄菓子屋0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2496",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4c02",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x24a0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4c02",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x24da"
+	},
+	{
+		"LABEL": "0x24b8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8500",
+		"String": "RB30_識_0805",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x24d0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4d02",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x24da",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4d02",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x2514"
+	},
+	{
+		"LABEL": "0x24f2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x42fa"
+	},
+	{
+		"LABEL": "0x250a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4e02",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x2514",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4e02",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x2552"
+	},
+	{
+		"LABEL": "0x252c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8700",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x2548",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4f02",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x2552",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f02",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x2574"
+	},
+	{
+		"LABEL": "0x256a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "8800",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x2574",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5102",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2592"
+	},
+	{
+		"LABEL": "0x258a",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x232e"
+	},
+	{
+		"LABEL": "0x2592",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5302"
+	},
+	{
+		"LABEL": "0x2598",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5b026d000100",
+		"JPN": "0806a",
+		"ENG": "0806a"
+	},
+	{
+		"LABEL": "0x25ae",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "5b0210c03500a2173b02100000400000000000003038303661000000"
+	},
+	{
+		"LABEL": "0x25ce",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5c02ff1b0800"
+	},
+	{
+		"LABEL": "0x25d8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5d02001c0600"
+	},
+	{
+		"LABEL": "0x25e2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5e02011c0000"
+	},
+	{
+		"LABEL": "0x25ec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6102",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x2626"
+	},
+	{
+		"LABEL": "0x2604",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8900",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x261c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6202",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x2626",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6202",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x2652"
+	},
+	{
+		"LABEL": "0x263e",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "8a00",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x2648",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6302",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x2652",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6302",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x268c"
+	},
+	{
+		"LABEL": "0x266a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8b00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0x2682",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6402",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x268c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6402",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x26c8"
+	},
+	{
+		"LABEL": "0x26a4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8c00",
+		"String": "80_駄菓子屋0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x26be",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6502",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x26c8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6502",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x273e"
+	},
+	{
+		"LABEL": "0x26e0",
+		"Type": "IFN",
+		"SUBCMD": 0,
+		"Equation": "(#420==1)",
+		"GOTO_LABEL": "0x2718"
+	},
+	{
+		"LABEL": "0x26f2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "66028d00",
+		"String": "RB10_美希_0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x270e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6702",
+		"GOTO_LABEL": "0x2734"
+	},
+	{
+		"LABEL": "0x2718",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "69028e00",
+		"String": "RB10_美希_0804",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2734",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6c02",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x273e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6c02",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x2778"
+	},
+	{
+		"LABEL": "0x2756",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "8f00",
+		"String": "RB30_識_0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x276e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6d02",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x2778",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6d02",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x27b2"
+	},
+	{
+		"LABEL": "0x2790",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9000",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x4482"
+	},
+	{
+		"LABEL": "0x27a8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6e02",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x27b2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6e02",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x27f0"
+	},
+	{
+		"LABEL": "0x27ca",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9100",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x27e6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6f02",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x27f0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6f02",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x2812"
+	},
+	{
+		"LABEL": "0x2808",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "9200",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x2812",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7102",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2830"
+	},
+	{
+		"LABEL": "0x2828",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2598"
+	},
+	{
+		"LABEL": "0x2830",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7302"
+	},
+	{
+		"LABEL": "0x2836",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "7b026d000100",
+		"JPN": "0806b",
+		"ENG": "0806b"
+	},
+	{
+		"LABEL": "0x284c",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "7b0211c03500a2173b02110000400000000000003038303662000000"
+	},
+	{
+		"LABEL": "0x286c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7c02ff1b0800"
+	},
+	{
+		"LABEL": "0x2876",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7d02001c0600"
+	},
+	{
+		"LABEL": "0x2880",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7e02011c0100"
+	},
+	{
+		"LABEL": "0x288a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8002",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x28c4"
+	},
+	{
+		"LABEL": "0x28a2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9300",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x28ba",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8102",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x28c4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8102",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x28fc"
+	},
+	{
+		"LABEL": "0x28dc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9400",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x160"
+	},
+	{
+		"LABEL": "0x28f2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8202",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x28fc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8202",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x2932"
+	},
+	{
+		"LABEL": "0x2914",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9500",
+		"String": "30_蒼0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2928",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8302",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x2932",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8302",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x296c"
+	},
+	{
+		"LABEL": "0x294a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9600",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x37e6"
+	},
+	{
+		"LABEL": "0x2962",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8402",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x296c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8402",
+		"Equation": "((#6050)==32)",
+		"GOTO_LABEL": "0x29a6"
+	},
+	{
+		"LABEL": "0x2984",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9700",
+		"String": "RB30_識_0806",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x299c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8502",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x29a6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8502",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x29e0"
+	},
+	{
+		"LABEL": "0x29be",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9800",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x42fa"
+	},
+	{
+		"LABEL": "0x29d6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8602",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x29e0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8602",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x2a1e"
+	},
+	{
+		"LABEL": "0x29f8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9900",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x2a14",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8702",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x2a1e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8702",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x2a40"
+	},
+	{
+		"LABEL": "0x2a36",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "9a00",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x2a40",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8902",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2a5e"
+	},
+	{
+		"LABEL": "0x2a56",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2836"
+	},
+	{
+		"LABEL": "0x2a5e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8b02"
+	},
+	{
+		"LABEL": "0x2a64",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "93026d000100",
+		"JPN": "0807a",
+		"ENG": "0807a"
+	},
+	{
+		"LABEL": "0x2a7a",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "930212c03500a2173b02120000400000000000003038303761000000"
+	},
+	{
+		"LABEL": "0x2a9a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9402ff1b0800"
+	},
+	{
+		"LABEL": "0x2aa4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9502001c0700"
+	},
+	{
+		"LABEL": "0x2aae",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9602011c0000"
+	},
+	{
+		"LABEL": "0x2ab8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9902",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x2af2"
+	},
+	{
+		"LABEL": "0x2ad0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9b00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x2ae8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9a02",
+		"GOTO_LABEL": "0x2bf4"
+	},
+	{
+		"LABEL": "0x2af2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9a02",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x2b1e"
+	},
+	{
+		"LABEL": "0x2b0a",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "9c00",
+		"GOTO_LABEL": "0x463a"
+	},
+	{
+		"LABEL": "0x2b14",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9b02",
+		"GOTO_LABEL": "0x2bf4"
+	},
+	{
+		"LABEL": "0x2b1e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9b02",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x2b58"
+	},
+	{
+		"LABEL": "0x2b36",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9d00",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3460"
+	},
+	{
+		"LABEL": "0x2b4e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9c02",
+		"GOTO_LABEL": "0x2bf4"
+	},
+	{
+		"LABEL": "0x2b58",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9c02",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x2b94"
+	},
+	{
+		"LABEL": "0x2b70",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9e00",
+		"String": "80_駄菓子屋0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2b8a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9d02",
+		"GOTO_LABEL": "0x2bf4"
+	},
+	{
+		"LABEL": "0x2b94",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9d02",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x2bd2"
+	},
+	{
+		"LABEL": "0x2bac",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "9f00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x2bc8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9e02",
+		"GOTO_LABEL": "0x2bf4"
+	},
+	{
+		"LABEL": "0x2bd2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9e02",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x2bf4"
+	},
+	{
+		"LABEL": "0x2bea",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "a000",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x2bf4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a002",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2c12"
+	},
+	{
+		"LABEL": "0x2c0a",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2a64"
+	},
+	{
+		"LABEL": "0x2c12",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "a202"
+	},
+	{
+		"LABEL": "0x2c18",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "aa026d000100",
+		"JPN": "0807b",
+		"ENG": "0807b"
+	},
+	{
+		"LABEL": "0x2c2e",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "aa0213c03500a2173b02130000400000000000003038303762000000"
+	},
+	{
+		"LABEL": "0x2c4e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ab02ff1b0800"
+	},
+	{
+		"LABEL": "0x2c58",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ac02001c0700"
+	},
+	{
+		"LABEL": "0x2c62",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ad02011c0100"
+	},
+	{
+		"LABEL": "0x2c6c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "af02",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x2ca6"
+	},
+	{
+		"LABEL": "0x2c84",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a100",
+		"String": "99_マップ選択",
+		"GOTO_LABEL": "0x3f28"
+	},
+	{
+		"LABEL": "0x2c9c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b102",
+		"GOTO_LABEL": "0x2d7a"
+	},
+	{
+		"LABEL": "0x2ca6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b102",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x2cde"
+	},
+	{
+		"LABEL": "0x2cbe",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a200",
+		"String": "80_秘密基地",
+		"GOTO_LABEL": "0x18c"
+	},
+	{
+		"LABEL": "0x2cd4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b202",
+		"GOTO_LABEL": "0x2d7a"
+	},
+	{
+		"LABEL": "0x2cde",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b202",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x2d1a"
+	},
+	{
+		"LABEL": "0x2cf6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a300",
+		"String": "80_駄菓子屋0807",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2d10",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b302",
+		"GOTO_LABEL": "0x2d7a"
+	},
+	{
+		"LABEL": "0x2d1a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b302",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x2d58"
+	},
+	{
+		"LABEL": "0x2d32",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a400",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x2d4e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b402",
+		"GOTO_LABEL": "0x2d7a"
+	},
+	{
+		"LABEL": "0x2d58",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b402",
+		"Equation": "((#6050)==31)",
+		"GOTO_LABEL": "0x2d7a"
+	},
+	{
+		"LABEL": "0x2d70",
+		"Type": "GOSUB",
+		"SUBCMD": 0,
+		"Args": "a500",
+		"GOTO_LABEL": "0x465c"
+	},
+	{
+		"LABEL": "0x2d7a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b602",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2d98"
+	},
+	{
+		"LABEL": "0x2d90",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2c18"
+	},
+	{
+		"LABEL": "0x2d98",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "b802"
+	},
+	{
+		"LABEL": "0x2d9e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c502a9000100"
+	},
+	{
+		"LABEL": "0x2da8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "c7026d000100",
+		"JPN": "0807a_shiroha",
+		"ENG": "0807a_shiroha"
+	},
+	{
+		"LABEL": "0x2dce",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "c70214c03500a2173b021400004000000000000030383037615f736869726f6861000000"
+	},
+	{
+		"LABEL": "0x2df6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c802ff1b0800"
+	},
+	{
+		"LABEL": "0x2e00",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "c902001c0700"
+	},
+	{
+		"LABEL": "0x2e0a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ca02011c0100"
+	},
+	{
+		"LABEL": "0x2e14",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cc02",
+		"Equation": "((#6050)==4)",
+		"GOTO_LABEL": "0x2e4e"
+	},
+	{
+		"LABEL": "0x2e2c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a600",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x7e0a"
+	},
+	{
+		"LABEL": "0x2e44",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cd02",
+		"GOTO_LABEL": "0x2f6a"
+	},
+	{
+		"LABEL": "0x2e4e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cd02",
+		"Equation": "((#6050)==12)",
+		"GOTO_LABEL": "0x2e88"
+	},
+	{
+		"LABEL": "0x2e66",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a700",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x854e"
+	},
+	{
+		"LABEL": "0x2e7e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ce02",
+		"GOTO_LABEL": "0x2f6a"
+	},
+	{
+		"LABEL": "0x2e88",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ce02",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x2ec2"
+	},
+	{
+		"LABEL": "0x2ea0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a800",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x8bd2"
+	},
+	{
+		"LABEL": "0x2eb8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "cf02",
+		"GOTO_LABEL": "0x2f6a"
+	},
+	{
+		"LABEL": "0x2ec2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cf02",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x2efc"
+	},
+	{
+		"LABEL": "0x2eda",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "a900",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x8fea"
+	},
+	{
+		"LABEL": "0x2ef2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d002",
+		"GOTO_LABEL": "0x2f6a"
+	},
+	{
+		"LABEL": "0x2efc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d002",
+		"Equation": "((#6050)==17)",
+		"GOTO_LABEL": "0x2f36"
+	},
+	{
+		"LABEL": "0x2f14",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "aa00",
+		"String": "20_しろは0807",
+		"GOTO_LABEL": "0x9a00"
+	},
+	{
+		"LABEL": "0x2f2c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d102",
+		"GOTO_LABEL": "0x2f6a"
+	},
+	{
+		"LABEL": "0x2f36",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d102",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x2f6a"
+	},
+	{
+		"LABEL": "0x2f4e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ab00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x2f6a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d302",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x2f92"
+	},
+	{
+		"LABEL": "0x2f80",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2d9e"
+	},
+	{
+		"LABEL": "0x2f88",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d502",
+		"GOTO_LABEL": "0x2f92"
+	},
+	{
+		"LABEL": "0x2f92",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "d502a9000000"
+	},
+	{
+		"LABEL": "0x2f9c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "d702"
+	},
+	{
+		"LABEL": "0x2fa2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "df02a9000100"
+	},
+	{
+		"LABEL": "0x2fac",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "e1026d000100",
+		"JPN": "0815a_shiroha",
+		"ENG": "0815a_shiroha"
+	},
+	{
+		"LABEL": "0x2fd2",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "e10215c03500a2173b021500004000000000000030383135615f736869726f6861000000"
+	},
+	{
+		"LABEL": "0x2ffa",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e202ff1b0800"
+	},
+	{
+		"LABEL": "0x3004",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e302001c0f00"
+	},
+	{
+		"LABEL": "0x300e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e402011c0000"
+	},
+	{
+		"LABEL": "0x3018",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e602",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x3052"
+	},
+	{
+		"LABEL": "0x3030",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ac00",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x1024"
+	},
+	{
+		"LABEL": "0x3048",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e702",
+		"GOTO_LABEL": "0x316e"
+	},
+	{
+		"LABEL": "0x3052",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e702",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x308c"
+	},
+	{
+		"LABEL": "0x306a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ad00",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x13da"
+	},
+	{
+		"LABEL": "0x3082",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e802",
+		"GOTO_LABEL": "0x316e"
+	},
+	{
+		"LABEL": "0x308c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e802",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x30c6"
+	},
+	{
+		"LABEL": "0x30a4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ae00",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x1ad0"
+	},
+	{
+		"LABEL": "0x30bc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e902",
+		"GOTO_LABEL": "0x316e"
+	},
+	{
+		"LABEL": "0x30c6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e902",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x3100"
+	},
+	{
+		"LABEL": "0x30de",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "af00",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x1fce"
+	},
+	{
+		"LABEL": "0x30f6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ea02",
+		"GOTO_LABEL": "0x316e"
+	},
+	{
+		"LABEL": "0x3100",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ea02",
+		"Equation": "((#6050)==17)",
+		"GOTO_LABEL": "0x313a"
+	},
+	{
+		"LABEL": "0x3118",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b000",
+		"String": "20_しろは0815",
+		"GOTO_LABEL": "0x212e"
+	},
+	{
+		"LABEL": "0x3130",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "eb02",
+		"GOTO_LABEL": "0x316e"
+	},
+	{
+		"LABEL": "0x313a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "eb02",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x316e"
+	},
+	{
+		"LABEL": "0x3152",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b100",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x316e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ed02",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x3196"
+	},
+	{
+		"LABEL": "0x3184",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x2fa2"
+	},
+	{
+		"LABEL": "0x318c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ef02",
+		"GOTO_LABEL": "0x3196"
+	},
+	{
+		"LABEL": "0x3196",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ef02a9000000"
+	},
+	{
+		"LABEL": "0x31a0",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "f102"
+	},
+	{
+		"LABEL": "0x31a6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fb02a9000100"
+	},
+	{
+		"LABEL": "0x31b0",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "fd026d000100",
+		"JPN": "0730a_ao",
+		"ENG": "0730a_ao"
+	},
+	{
+		"LABEL": "0x31cc",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "fd0216c03500a2173b021600004000000000000030373330615f616f000000"
+	},
+	{
+		"LABEL": "0x31f0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fe02ff1b0700"
+	},
+	{
+		"LABEL": "0x31fa",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "ff02001c1e00"
+	},
+	{
+		"LABEL": "0x3204",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0003011c0000"
+	},
+	{
+		"LABEL": "0x320e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0203",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x3244"
+	},
+	{
+		"LABEL": "0x3226",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b200",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x1900"
+	},
+	{
+		"LABEL": "0x323a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0303",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x3244",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0303",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x327a"
+	},
+	{
+		"LABEL": "0x325c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b300",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x201e"
+	},
+	{
+		"LABEL": "0x3270",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0403",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x327a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0403",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x32b0"
+	},
+	{
+		"LABEL": "0x3292",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b400",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x26b8"
+	},
+	{
+		"LABEL": "0x32a6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0503",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x32b0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0503",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x32e6"
+	},
+	{
+		"LABEL": "0x32c8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b500",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x2ec4"
+	},
+	{
+		"LABEL": "0x32dc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0603",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x32e6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0603",
+		"Equation": "((#6050)==17)",
+		"GOTO_LABEL": "0x331c"
+	},
+	{
+		"LABEL": "0x32fe",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b600",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x380a"
+	},
+	{
+		"LABEL": "0x3312",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0703",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x331c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0703",
+		"Equation": "((#6050)==18)",
+		"GOTO_LABEL": "0x3352"
+	},
+	{
+		"LABEL": "0x3334",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b700",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x3e80"
+	},
+	{
+		"LABEL": "0x3348",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0803",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x3352",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0803",
+		"Equation": "((#6050)==19)",
+		"GOTO_LABEL": "0x3388"
+	},
+	{
+		"LABEL": "0x336a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b800",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x4578"
+	},
+	{
+		"LABEL": "0x337e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0903",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x3388",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0903",
+		"Equation": "((#6050)==20)",
+		"GOTO_LABEL": "0x33be"
+	},
+	{
+		"LABEL": "0x33a0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "b900",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x4e08"
+	},
+	{
+		"LABEL": "0x33b4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0a03",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x33be",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0a03",
+		"Equation": "((#6050)==21)",
+		"GOTO_LABEL": "0x33f4"
+	},
+	{
+		"LABEL": "0x33d6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ba00",
+		"String": "30_蒼0730",
+		"GOTO_LABEL": "0x57aa"
+	},
+	{
+		"LABEL": "0x33ea",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b03",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x33f4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0b03",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x3428"
+	},
+	{
+		"LABEL": "0x340c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bb00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x3428",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0d03",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x3450"
+	},
+	{
+		"LABEL": "0x343e",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x31a6"
+	},
+	{
+		"LABEL": "0x3446",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0f03",
+		"GOTO_LABEL": "0x3450"
+	},
+	{
+		"LABEL": "0x3450",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0f03a9000000"
+	},
+	{
+		"LABEL": "0x345a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "1103"
+	},
+	{
+		"LABEL": "0x3460",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2503",
+		"Equation": "(#6007<1)",
+		"GOTO_LABEL": "0x3486"
+	},
+	{
+		"LABEL": "0x3474",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "77170100"
+	},
+	{
+		"LABEL": "0x347c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2603",
+		"GOTO_LABEL": "0x3486"
+	},
+	{
+		"LABEL": "0x3486",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2603",
+		"Equation": "(#6007>6)",
+		"GOTO_LABEL": "0x34ac"
+	},
+	{
+		"LABEL": "0x349a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "77170600"
+	},
+	{
+		"LABEL": "0x34a2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2703",
+		"GOTO_LABEL": "0x34ac"
+	},
+	{
+		"LABEL": "0x34ac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2903",
+		"Equation": "((#6007)==1)",
+		"GOTO_LABEL": "0x34e2"
+	},
+	{
+		"LABEL": "0x34c4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bc00",
+		"String": "40_鴎0001",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x34d8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2a03",
+		"GOTO_LABEL": "0x35e6"
+	},
+	{
+		"LABEL": "0x34e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a03",
+		"Equation": "((#6007)==2)",
+		"GOTO_LABEL": "0x3518"
+	},
+	{
+		"LABEL": "0x34fa",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bd00",
+		"String": "40_鴎0002",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x350e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2b03",
+		"GOTO_LABEL": "0x35e6"
+	},
+	{
+		"LABEL": "0x3518",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2b03",
+		"Equation": "((#6007)==3)",
+		"GOTO_LABEL": "0x354e"
+	},
+	{
+		"LABEL": "0x3530",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "be00",
+		"String": "40_鴎0003",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3544",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c03",
+		"GOTO_LABEL": "0x35e6"
+	},
+	{
+		"LABEL": "0x354e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2c03",
+		"Equation": "((#6007)==4)",
+		"GOTO_LABEL": "0x3584"
+	},
+	{
+		"LABEL": "0x3566",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "bf00",
+		"String": "40_鴎0004",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x357a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2d03",
+		"GOTO_LABEL": "0x35e6"
+	},
+	{
+		"LABEL": "0x3584",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2d03",
+		"Equation": "((#6007)==5)",
+		"GOTO_LABEL": "0x35ba"
+	},
+	{
+		"LABEL": "0x359c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c000",
+		"String": "40_鴎0005",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x35b0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2e03",
+		"GOTO_LABEL": "0x35e6"
+	},
+	{
+		"LABEL": "0x35ba",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2e03",
+		"Equation": "((#6007)==6)",
+		"GOTO_LABEL": "0x35e6"
+	},
+	{
+		"LABEL": "0x35d2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c100",
+		"String": "40_鴎0006",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x35e6",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3003"
+	},
+	{
+		"LABEL": "0x35ec",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3703a9000100"
+	},
+	{
+		"LABEL": "0x35f6",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "3a036d000100",
+		"JPN": "$(day_no)b_kamome",
+		"ENG": "$(day_no)b_kamome"
+	},
+	{
+		"LABEL": "0x3624",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "3a0317c03500a2173b0217000040000000000000242831303729625f6b616d6f6d65000000"
+	},
+	{
+		"LABEL": "0x364e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3b03ff1b0700"
+	},
+	{
+		"LABEL": "0x3658",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3c03001c1f00"
+	},
+	{
+		"LABEL": "0x3662",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3d03011c0000"
+	},
+	{
+		"LABEL": "0x366c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3f03",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x36a2"
+	},
+	{
+		"LABEL": "0x3684",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c200",
+		"String": "40_鴎0003",
+		"GOTO_LABEL": "0x3118"
+	},
+	{
+		"LABEL": "0x3698",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4003",
+		"GOTO_LABEL": "0x37ae"
+	},
+	{
+		"LABEL": "0x36a2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4003",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x36d8"
+	},
+	{
+		"LABEL": "0x36ba",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c300",
+		"String": "40_鴎0003",
+		"GOTO_LABEL": "0x32fe"
+	},
+	{
+		"LABEL": "0x36ce",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4103",
+		"GOTO_LABEL": "0x37ae"
+	},
+	{
+		"LABEL": "0x36d8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4103",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x370e"
+	},
+	{
+		"LABEL": "0x36f0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c400",
+		"String": "40_鴎0003",
+		"GOTO_LABEL": "0x3574"
+	},
+	{
+		"LABEL": "0x3704",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4203",
+		"GOTO_LABEL": "0x37ae"
+	},
+	{
+		"LABEL": "0x370e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4203",
+		"Equation": "((#6050)==16)",
+		"GOTO_LABEL": "0x3744"
+	},
+	{
+		"LABEL": "0x3726",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c500",
+		"String": "40_鴎0003",
+		"GOTO_LABEL": "0x3826"
+	},
+	{
+		"LABEL": "0x373a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4303",
+		"GOTO_LABEL": "0x37ae"
+	},
+	{
+		"LABEL": "0x3744",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4303",
+		"Equation": "((#6050)==17)",
+		"GOTO_LABEL": "0x377a"
+	},
+	{
+		"LABEL": "0x375c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c600",
+		"String": "40_鴎0003",
+		"GOTO_LABEL": "0x3a38"
+	},
+	{
+		"LABEL": "0x3770",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4403",
+		"GOTO_LABEL": "0x37ae"
+	},
+	{
+		"LABEL": "0x377a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4403",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x37ae"
+	},
+	{
+		"LABEL": "0x3792",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c700",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x37ae",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4603",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x37d6"
+	},
+	{
+		"LABEL": "0x37c4",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x35ec"
+	},
+	{
+		"LABEL": "0x37cc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4803",
+		"GOTO_LABEL": "0x37d6"
+	},
+	{
+		"LABEL": "0x37d6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4803a9000000"
+	},
+	{
+		"LABEL": "0x37e0",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4a03"
+	},
+	{
+		"LABEL": "0x37e6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5f03",
+		"Equation": "(#6008<1)",
+		"GOTO_LABEL": "0x380c"
+	},
+	{
+		"LABEL": "0x37fa",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "78170100"
+	},
+	{
+		"LABEL": "0x3802",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6003",
+		"GOTO_LABEL": "0x380c"
+	},
+	{
+		"LABEL": "0x380c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6003",
+		"Equation": "(#6008>6)",
+		"GOTO_LABEL": "0x3832"
+	},
+	{
+		"LABEL": "0x3820",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "78170600"
+	},
+	{
+		"LABEL": "0x3828",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6103",
+		"GOTO_LABEL": "0x3832"
+	},
+	{
+		"LABEL": "0x3832",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6303",
+		"Equation": "((#6008)==1)",
+		"GOTO_LABEL": "0x3868"
+	},
+	{
+		"LABEL": "0x384a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c800",
+		"String": "50_紬0001",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x385e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6403",
+		"GOTO_LABEL": "0x396c"
+	},
+	{
+		"LABEL": "0x3868",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6403",
+		"Equation": "((#6008)==2)",
+		"GOTO_LABEL": "0x389e"
+	},
+	{
+		"LABEL": "0x3880",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "c900",
+		"String": "50_紬0002",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3894",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6503",
+		"GOTO_LABEL": "0x396c"
+	},
+	{
+		"LABEL": "0x389e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6503",
+		"Equation": "((#6008)==3)",
+		"GOTO_LABEL": "0x38d4"
+	},
+	{
+		"LABEL": "0x38b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ca00",
+		"String": "50_紬0003",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x38ca",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6603",
+		"GOTO_LABEL": "0x396c"
+	},
+	{
+		"LABEL": "0x38d4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6603",
+		"Equation": "((#6008)==4)",
+		"GOTO_LABEL": "0x390a"
+	},
+	{
+		"LABEL": "0x38ec",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cb00",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3900",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6703",
+		"GOTO_LABEL": "0x396c"
+	},
+	{
+		"LABEL": "0x390a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6703",
+		"Equation": "((#6008)==5)",
+		"GOTO_LABEL": "0x3940"
+	},
+	{
+		"LABEL": "0x3922",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cc00",
+		"String": "50_紬0005",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3936",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6803",
+		"GOTO_LABEL": "0x396c"
+	},
+	{
+		"LABEL": "0x3940",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6803",
+		"Equation": "((#6008)==6)",
+		"GOTO_LABEL": "0x396c"
+	},
+	{
+		"LABEL": "0x3958",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cd00",
+		"String": "50_紬0006",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x396c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6a03"
+	},
+	{
+		"LABEL": "0x3972",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7103a9000100"
+	},
+	{
+		"LABEL": "0x397c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "74036d000100",
+		"JPN": "$(day_no)b_tsumugi",
+		"ENG": "$(day_no)b_tsumugi"
+	},
+	{
+		"LABEL": "0x39ac",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "740318c03500a2173b0218000040000000000000242831303729625f7473756d756769000000"
+	},
+	{
+		"LABEL": "0x39d6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7503ff1b0800"
+	},
+	{
+		"LABEL": "0x39e0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7603001c0100"
+	},
+	{
+		"LABEL": "0x39ea",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7703011c0100"
+	},
+	{
+		"LABEL": "0x39f4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7903",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x3a2a"
+	},
+	{
+		"LABEL": "0x3a0c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ce00",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x3d4c"
+	},
+	{
+		"LABEL": "0x3a20",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7a03",
+		"GOTO_LABEL": "0x3aca"
+	},
+	{
+		"LABEL": "0x3a2a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7a03",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x3a60"
+	},
+	{
+		"LABEL": "0x3a42",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "cf00",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x4086"
+	},
+	{
+		"LABEL": "0x3a56",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7b03",
+		"GOTO_LABEL": "0x3aca"
+	},
+	{
+		"LABEL": "0x3a60",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7b03",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x3a96"
+	},
+	{
+		"LABEL": "0x3a78",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d000",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x42bc"
+	},
+	{
+		"LABEL": "0x3a8c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7c03",
+		"GOTO_LABEL": "0x3aca"
+	},
+	{
+		"LABEL": "0x3a96",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7c03",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x3aca"
+	},
+	{
+		"LABEL": "0x3aae",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d100",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x3aca",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7e03",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x3af2"
+	},
+	{
+		"LABEL": "0x3ae0",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x3972"
+	},
+	{
+		"LABEL": "0x3ae8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8003",
+		"GOTO_LABEL": "0x3af2"
+	},
+	{
+		"LABEL": "0x3af2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8003a9000000"
+	},
+	{
+		"LABEL": "0x3afc",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8203"
+	},
+	{
+		"LABEL": "0x3b02",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8a03a9000100"
+	},
+	{
+		"LABEL": "0x3b0c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "8d036d000100",
+		"JPN": "$(day_no)b_shizuku",
+		"ENG": "$(day_no)b_shizuku"
+	},
+	{
+		"LABEL": "0x3b3c",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "8d0319c03500a2173b0219000040000000000000242831303729625f7368697a756b75000000"
+	},
+	{
+		"LABEL": "0x3b66",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8e03ff1b0800"
+	},
+	{
+		"LABEL": "0x3b70",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "8f03001c0100"
+	},
+	{
+		"LABEL": "0x3b7a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9003011c0100"
+	},
+	{
+		"LABEL": "0x3b84",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9203",
+		"Equation": "((#6050)==13)",
+		"GOTO_LABEL": "0x3bba"
+	},
+	{
+		"LABEL": "0x3b9c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d200",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x4cd6"
+	},
+	{
+		"LABEL": "0x3bb0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9303",
+		"GOTO_LABEL": "0x3c5a"
+	},
+	{
+		"LABEL": "0x3bba",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9303",
+		"Equation": "((#6050)==14)",
+		"GOTO_LABEL": "0x3bf0"
+	},
+	{
+		"LABEL": "0x3bd2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d300",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x5104"
+	},
+	{
+		"LABEL": "0x3be6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9403",
+		"GOTO_LABEL": "0x3c5a"
+	},
+	{
+		"LABEL": "0x3bf0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9403",
+		"Equation": "((#6050)==15)",
+		"GOTO_LABEL": "0x3c26"
+	},
+	{
+		"LABEL": "0x3c08",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d400",
+		"String": "50_紬0004",
+		"GOTO_LABEL": "0x614a"
+	},
+	{
+		"LABEL": "0x3c1c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9503",
+		"GOTO_LABEL": "0x3c5a"
+	},
+	{
+		"LABEL": "0x3c26",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9503",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x3c5a"
+	},
+	{
+		"LABEL": "0x3c3e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d500",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x3c5a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9703",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x3c82"
+	},
+	{
+		"LABEL": "0x3c70",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x3b02"
+	},
+	{
+		"LABEL": "0x3c78",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9903",
+		"GOTO_LABEL": "0x3c82"
+	},
+	{
+		"LABEL": "0x3c82",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9903a9000000"
+	},
+	{
+		"LABEL": "0x3c8c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9b03"
+	},
+	{
+		"LABEL": "0x3c92",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a503a9000100"
+	},
+	{
+		"LABEL": "0x3c9c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "a7036d000100",
+		"JPN": "0731b_umi",
+		"ENG": "0731b_umi"
+	},
+	{
+		"LABEL": "0x3cba",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "a7031ac03500a2173b021a00004000000000000030373331625f756d69000000"
+	},
+	{
+		"LABEL": "0x3cde",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a803ff1b0700"
+	},
+	{
+		"LABEL": "0x3ce8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a903001c1f00"
+	},
+	{
+		"LABEL": "0x3cf2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "aa03011c0100"
+	},
+	{
+		"LABEL": "0x3cfc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ac03",
+		"Equation": "((#6050)==0)",
+		"GOTO_LABEL": "0x3d34"
+	},
+	{
+		"LABEL": "0x3d14",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d600",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x15fc"
+	},
+	{
+		"LABEL": "0x3d2a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ad03",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3d34",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ad03",
+		"Equation": "((#6050)==1)",
+		"GOTO_LABEL": "0x3d6c"
+	},
+	{
+		"LABEL": "0x3d4c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d700",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x1974"
+	},
+	{
+		"LABEL": "0x3d62",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ae03",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3d6c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ae03",
+		"Equation": "((#6050)==2)",
+		"GOTO_LABEL": "0x3da4"
+	},
+	{
+		"LABEL": "0x3d84",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d800",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x1ebe"
+	},
+	{
+		"LABEL": "0x3d9a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "af03",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3da4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "af03",
+		"Equation": "((#6050)==3)",
+		"GOTO_LABEL": "0x3ddc"
+	},
+	{
+		"LABEL": "0x3dbc",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "d900",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x22ce"
+	},
+	{
+		"LABEL": "0x3dd2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b003",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3ddc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b003",
+		"Equation": "((#6050)==8)",
+		"GOTO_LABEL": "0x3e14"
+	},
+	{
+		"LABEL": "0x3df4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "da00",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x2b2e"
+	},
+	{
+		"LABEL": "0x3e0a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b103",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3e14",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b103",
+		"Equation": "((#6050)==7)",
+		"GOTO_LABEL": "0x3e4c"
+	},
+	{
+		"LABEL": "0x3e2c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "db00",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x3476"
+	},
+	{
+		"LABEL": "0x3e42",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b203",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3e4c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b203",
+		"Equation": "((#6050)==5)",
+		"GOTO_LABEL": "0x3e84"
+	},
+	{
+		"LABEL": "0x3e64",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "dc00",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x38a2"
+	},
+	{
+		"LABEL": "0x3e7a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b303",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3e84",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b303",
+		"Equation": "((#6050)==6)",
+		"GOTO_LABEL": "0x3ebc"
+	},
+	{
+		"LABEL": "0x3e9c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "dd00",
+		"String": "60_うみ0731",
+		"GOTO_LABEL": "0x40fe"
+	},
+	{
+		"LABEL": "0x3eb2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b403",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3ebc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b403",
+		"Equation": "((#6050)==33)",
+		"GOTO_LABEL": "0x3ef0"
+	},
+	{
+		"LABEL": "0x3ed4",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "de00",
+		"String": "_島モン_CS用処理",
+		"GOTO_LABEL": "0x7b2"
+	},
+	{
+		"LABEL": "0x3ef0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b603",
+		"Equation": "(#6050==99)",
+		"GOTO_LABEL": "0x3f18"
+	},
+	{
+		"LABEL": "0x3f06",
+		"Type": "GOTO",
+		"SUBCMD": 0,
+		"GOTO_LABEL": "0x3c92"
+	},
+	{
+		"LABEL": "0x3f0e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b803",
+		"GOTO_LABEL": "0x3f18"
+	},
+	{
+		"LABEL": "0x3f18",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b803a9000000"
+	},
+	{
+		"LABEL": "0x3f22",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "ba03"
+	},
+	{
+		"LABEL": "0x3f28",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "d30390173100"
+	},
+	{
+		"LABEL": "0x3f32",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d403",
+		"Equation": "(#6032>10)",
+		"GOTO_LABEL": "0x3f5a"
+	},
+	{
+		"LABEL": "0x3f48",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "90170a00"
+	},
+	{
+		"LABEL": "0x3f50",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d503",
+		"GOTO_LABEL": "0x3f5a"
+	},
+	{
+		"LABEL": "0x3f5a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d703",
+		"Equation": "((#6032)==1)",
+		"GOTO_LABEL": "0x3f92"
+	},
+	{
+		"LABEL": "0x3f72",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "df00",
+		"String": "80_神社0001",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3f88",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d803",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x3f92",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d803",
+		"Equation": "((#6032)==2)",
+		"GOTO_LABEL": "0x3fca"
+	},
+	{
+		"LABEL": "0x3faa",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e000",
+		"String": "80_神社0002",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3fc0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d903",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x3fca",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d903",
+		"Equation": "((#6032)==3)",
+		"GOTO_LABEL": "0x4002"
+	},
+	{
+		"LABEL": "0x3fe2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e100",
+		"String": "80_神社0003",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x3ff8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "da03",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x4002",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "da03",
+		"Equation": "((#6032)==4)",
+		"GOTO_LABEL": "0x403a"
+	},
+	{
+		"LABEL": "0x401a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e200",
+		"String": "80_神社0004",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4030",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "db03",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x403a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "db03",
+		"Equation": "((#6032)==5)",
+		"GOTO_LABEL": "0x4072"
+	},
+	{
+		"LABEL": "0x4052",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e300",
+		"String": "80_神社0005",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4068",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dc03",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x4072",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "dc03",
+		"Equation": "((#6032)==6)",
+		"GOTO_LABEL": "0x40aa"
+	},
+	{
+		"LABEL": "0x408a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e400",
+		"String": "80_神社0006",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x40a0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dd03",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x40aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "dd03",
+		"Equation": "((#6032)==7)",
+		"GOTO_LABEL": "0x40e2"
+	},
+	{
+		"LABEL": "0x40c2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e500",
+		"String": "80_神社0007",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x40d8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "de03",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x40e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "de03",
+		"Equation": "((#6032)==8)",
+		"GOTO_LABEL": "0x411a"
+	},
+	{
+		"LABEL": "0x40fa",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e600",
+		"String": "80_神社0008",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4110",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "df03",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x411a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "df03",
+		"Equation": "((#6032)==9)",
+		"GOTO_LABEL": "0x4152"
+	},
+	{
+		"LABEL": "0x4132",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e700",
+		"String": "80_神社0009",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4148",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e003",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x4152",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e003",
+		"Equation": "((#6032)==10)",
+		"GOTO_LABEL": "0x4180"
+	},
+	{
+		"LABEL": "0x416a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e800",
+		"String": "80_神社0010",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4180",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e203"
+	},
+	{
+		"LABEL": "0x4186",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0004",
+		"Equation": "(#6012<1)",
+		"GOTO_LABEL": "0x41ac"
+	},
+	{
+		"LABEL": "0x419a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "7c170100"
+	},
+	{
+		"LABEL": "0x41a2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0104",
+		"GOTO_LABEL": "0x41ac"
+	},
+	{
+		"LABEL": "0x41ac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0104",
+		"Equation": "(#6012>5)",
+		"GOTO_LABEL": "0x41d2"
+	},
+	{
+		"LABEL": "0x41c0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "7c170500"
+	},
+	{
+		"LABEL": "0x41c8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0204",
+		"GOTO_LABEL": "0x41d2"
+	},
+	{
+		"LABEL": "0x41d2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0404",
+		"Equation": "((#6012)==1)",
+		"GOTO_LABEL": "0x420e"
+	},
+	{
+		"LABEL": "0x41ea",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "e900",
+		"String": "RB10_美希_0729",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4204",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0504",
+		"GOTO_LABEL": "0x42f4"
+	},
+	{
+		"LABEL": "0x420e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0504",
+		"Equation": "((#6012)==2)",
+		"GOTO_LABEL": "0x424a"
+	},
+	{
+		"LABEL": "0x4226",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ea00",
+		"String": "RB10_美希_0730",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4240",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0604",
+		"GOTO_LABEL": "0x42f4"
+	},
+	{
+		"LABEL": "0x424a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0604",
+		"Equation": "((#6012)==3)",
+		"GOTO_LABEL": "0x4286"
+	},
+	{
+		"LABEL": "0x4262",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "eb00",
+		"String": "RB10_美希_0731",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x427c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0704",
+		"GOTO_LABEL": "0x42f4"
+	},
+	{
+		"LABEL": "0x4286",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0704",
+		"Equation": "((#6012)==4)",
+		"GOTO_LABEL": "0x42c2"
+	},
+	{
+		"LABEL": "0x429e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ec00",
+		"String": "RB10_美希_0801",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x42b8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0804",
+		"GOTO_LABEL": "0x42f4"
+	},
+	{
+		"LABEL": "0x42c2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0804",
+		"Equation": "((#6012)==5)",
+		"GOTO_LABEL": "0x42f4"
+	},
+	{
+		"LABEL": "0x42da",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ed00",
+		"String": "RB10_美希_0802",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x42f4",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0a04"
+	},
+	{
+		"LABEL": "0x42fa",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "1d04d31b3100"
+	},
+	{
+		"LABEL": "0x4304",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1e04",
+		"Equation": "(#7123>6)",
+		"GOTO_LABEL": "0x432a"
+	},
+	{
+		"LABEL": "0x4318",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d31b0600"
+	},
+	{
+		"LABEL": "0x4320",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1f04",
+		"GOTO_LABEL": "0x432a"
+	},
+	{
+		"LABEL": "0x432a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2104",
+		"Equation": "((#7123)==1)",
+		"GOTO_LABEL": "0x4364"
+	},
+	{
+		"LABEL": "0x4342",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ee00",
+		"String": "RB80_食堂0001",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x435a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2204",
+		"GOTO_LABEL": "0x447c"
+	},
+	{
+		"LABEL": "0x4364",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2204",
+		"Equation": "((#7123)==2)",
+		"GOTO_LABEL": "0x439e"
+	},
+	{
+		"LABEL": "0x437c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "ef00",
+		"String": "RB80_食堂0002",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4394",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2304",
+		"GOTO_LABEL": "0x447c"
+	},
+	{
+		"LABEL": "0x439e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2304",
+		"Equation": "((#7123)==3)",
+		"GOTO_LABEL": "0x43d8"
+	},
+	{
+		"LABEL": "0x43b6",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f000",
+		"String": "RB80_食堂0003",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x43ce",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2404",
+		"GOTO_LABEL": "0x447c"
+	},
+	{
+		"LABEL": "0x43d8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2404",
+		"Equation": "((#7123)==4)",
+		"GOTO_LABEL": "0x4412"
+	},
+	{
+		"LABEL": "0x43f0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f100",
+		"String": "RB80_食堂0004",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4408",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2504",
+		"GOTO_LABEL": "0x447c"
+	},
+	{
+		"LABEL": "0x4412",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2504",
+		"Equation": "((#7123)==5)",
+		"GOTO_LABEL": "0x444c"
+	},
+	{
+		"LABEL": "0x442a",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f200",
+		"String": "RB80_食堂0005",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4442",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2604",
+		"GOTO_LABEL": "0x447c"
+	},
+	{
+		"LABEL": "0x444c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2604",
+		"Equation": "((#7123)==6)",
+		"GOTO_LABEL": "0x447c"
+	},
+	{
+		"LABEL": "0x4464",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f300",
+		"String": "RB80_食堂0006",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x447c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2804"
+	},
+	{
+		"LABEL": "0x4482",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3904",
+		"Equation": "(#6013>6)",
+		"GOTO_LABEL": "0x44a8"
+	},
+	{
+		"LABEL": "0x4496",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "7d170600"
+	},
+	{
+		"LABEL": "0x449e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3a04",
+		"GOTO_LABEL": "0x44a8"
+	},
+	{
+		"LABEL": "0x44a8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3c04",
+		"Equation": "((#6013)==0)",
+		"GOTO_LABEL": "0x44e2"
+	},
+	{
+		"LABEL": "0x44c0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f400",
+		"String": "RB20_静久0000",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x44d8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3d04",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x44e2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3d04",
+		"Equation": "((#6013)==1)",
+		"GOTO_LABEL": "0x451c"
+	},
+	{
+		"LABEL": "0x44fa",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f500",
+		"String": "RB20_静久0001",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4512",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3e04",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x451c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3e04",
+		"Equation": "((#6013)==2)",
+		"GOTO_LABEL": "0x4556"
+	},
+	{
+		"LABEL": "0x4534",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f600",
+		"String": "RB20_静久0002",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x454c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3f04",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x4556",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3f04",
+		"Equation": "((#6013)==3)",
+		"GOTO_LABEL": "0x4590"
+	},
+	{
+		"LABEL": "0x456e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f700",
+		"String": "RB20_静久0003",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4586",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4004",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x4590",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4004",
+		"Equation": "((#6013)==4)",
+		"GOTO_LABEL": "0x45ca"
+	},
+	{
+		"LABEL": "0x45a8",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f800",
+		"String": "RB20_静久0004",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x45c0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4104",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x45ca",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4104",
+		"Equation": "((#6013)==5)",
+		"GOTO_LABEL": "0x4604"
+	},
+	{
+		"LABEL": "0x45e2",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "f900",
+		"String": "RB20_静久0005",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x45fa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4204",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x4604",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4204",
+		"Equation": "((#6013)==6)",
+		"GOTO_LABEL": "0x4634"
+	},
+	{
+		"LABEL": "0x461c",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "fa00",
+		"String": "RB20_静久0006",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x4634",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4404"
+	},
+	{
+		"LABEL": "0x463a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "4b04fb00",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x1f38"
+	},
+	{
+		"LABEL": "0x4656",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4c04"
+	},
+	{
+		"LABEL": "0x465c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5604",
+		"Equation": "(#7167>=8&&#7168>=4&&#7169>=1)",
+		"GOTO_LABEL": "0x46b0"
+	},
+	{
+		"LABEL": "0x4686",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5704fc00",
+		"String": "RB90_島ポンCS用処理",
+		"GOTO_LABEL": "0x1dc"
+	},
+	{
+		"LABEL": "0x46a6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5804",
+		"GOTO_LABEL": "0x46d0"
+	},
+	{
+		"LABEL": "0x46b0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "5a04fd00",
+		"String": "RB90_島ポンCS用処理",
+		"GOTO_LABEL": "0x24"
+	},
+	{
+		"LABEL": "0x46d0",
+		"Type": "PRINTF",
+		"SUBCMD": 1,
+		"Args": "5d040000de30c330d73078909e62390039003a007a00310030003000200066006100640065000000"
+	},
+	{
+		"LABEL": "0x46fc",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "610400000000b400"
+	},
+	{
+		"LABEL": "0x4708",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "640401ff"
+	},
+	{
+		"LABEL": "0x4710",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4714",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x4722",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x472a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4730",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4736",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "65043c00"
+	},
+	{
+		"LABEL": "0x473e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6904"
+	},
+	{
+		"LABEL": "0x4744",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "fe040080"
+	}
+]

@@ -1,0 +1,8118 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0f000a860f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "110002003102"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020002"
+	},
+	{
+		"LABEL": "0x24",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009c00000000000000"
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0000000000400040"
+	},
+	{
+		"LABEL": "0x3e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a6009000030fd"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x62",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x68",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "1200b400"
+	},
+	{
+		"LABEL": "0x70",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "14000600c0ba09006b002bff"
+	},
+	{
+		"LABEL": "0x80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 0,
+		"VOICEID": 38448,
+		"NameJPN": "識",
+		"JPN": "「ぶえええええええーーーーー！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Bweeeeeeeeeeeeehhhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "17000a00000000780001"
+	},
+	{
+		"LABEL": "0xc4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1900"
+	},
+	{
+		"LABEL": "0xca",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0xd0",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020000"
+	},
+	{
+		"LABEL": "0xd8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0xe6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "1e00"
+	},
+	{
+		"LABEL": "0xf4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf8",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "1b00ff00ce00"
+	},
+	{
+		"LABEL": "0x102",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 1,
+		"NameJPN": "羽依里",
+		"JPN": "「んえ？　なんだ??」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nheh? Wha...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x132",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2100cb860100"
+	},
+	{
+		"LABEL": "0x13c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2500",
+		"Equation": "(#6003==2)",
+		"GOTO_LABEL": "0x1c4"
+	},
+	{
+		"LABEL": "0x152",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2700010070ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x164",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000003e02b400"
+	},
+	{
+		"LABEL": "0x172",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x180",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x186",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 2,
+		"VOICEID": 38449,
+		"NameJPN": "うみ",
+		"JPN": "「おにーちゃん、じけんー？」",
+		"NameENG": "Umi",
+		"ENG": "\"Onii-chan, scandal?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ba",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2a00",
+		"GOTO_LABEL": "0x2dc"
+	},
+	{
+		"LABEL": "0x1c4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a00",
+		"Equation": "(#6003==1)",
+		"GOTO_LABEL": "0x24e"
+	},
+	{
+		"LABEL": "0x1da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2c00010094ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x1ec",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000003e02b400"
+	},
+	{
+		"LABEL": "0x1fa",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x208",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x20e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 3,
+		"VOICEID": 38450,
+		"NameJPN": "うみ",
+		"JPN": "「羽依里さん！　何したの!?」",
+		"NameENG": "Umi",
+		"ENG": "\"Hairi-san! What'd you do!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x244",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2f00",
+		"GOTO_LABEL": "0x2dc"
+	},
+	{
+		"LABEL": "0x24e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2f00",
+		"Equation": "(#6003==0)",
+		"GOTO_LABEL": "0x2dc"
+	},
+	{
+		"LABEL": "0x264",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3100010094ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x276",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000000003e02b400"
+	},
+	{
+		"LABEL": "0x284",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x292",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x298",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 4,
+		"VOICEID": 38451,
+		"NameJPN": "うみ",
+		"JPN": "「鷹原さん！　何したんですか!?」",
+		"NameENG": "Umi",
+		"ENG": "\"Takahara-san! What did you do!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3300",
+		"GOTO_LABEL": "0x2dc"
+	},
+	{
+		"LABEL": "0x2dc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "37000101fb6e00009001b4008100"
+	},
+	{
+		"LABEL": "0x2ee",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0x2fc",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01009100"
+	},
+	{
+		"LABEL": "0x304",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010000004e01b400"
+	},
+	{
+		"LABEL": "0x312",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218009001b400"
+	},
+	{
+		"LABEL": "0x320",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x326",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 5,
+		"VOICEID": 38452,
+		"NameJPN": "鏡子",
+		"JPN": "「羽依里くん、何をしたの？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Hairi-kun, what did you do?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「……目を覚ましました……すみません……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I woke up... I'm sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 7,
+		"JPN": "寝起きを謝罪したのは人生初だった。",
+		"ENG": "This is the first I've had to apologize for opening my eyes.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「って、待って」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey, wait.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「俺、ここで寝てますよね？　てかまさにここにいますよ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"I was sleeping here, right? More importantly, I'm here right this very second.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x44c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "43000100016f00009001b4008100"
+	},
+	{
+		"LABEL": "0x45e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010170ac00007003b4009100"
+	},
+	{
+		"LABEL": "0x46e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x474",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「完全に濡れ衣でしょ、これ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm being completely framed right now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ac",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4700",
+		"Equation": "(#6003==2)",
+		"GOTO_LABEL": "0x516"
+	},
+	{
+		"LABEL": "0x4c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "490001011ead"
+	},
+	{
+		"LABEL": "0x4cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 11,
+		"VOICEID": 38453,
+		"NameJPN": "うみ",
+		"JPN": "「ごめんなさい、おにーちゃん……」",
+		"NameENG": "Umi",
+		"ENG": "\"I'm sorry, Onii-chan...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x50c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4c00",
+		"GOTO_LABEL": "0x5f6"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4c00",
+		"Equation": "(#6003==1)",
+		"GOTO_LABEL": "0x584"
+	},
+	{
+		"LABEL": "0x52c",
+		"Type": "PRIORITY",
+		"SUBCMD": 1,
+		"Args": "4f0001008100"
+	},
+	{
+		"LABEL": "0x536",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01017ead"
+	},
+	{
+		"LABEL": "0x53e",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01019100"
+	},
+	{
+		"LABEL": "0x546",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x54c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 12,
+		"VOICEID": 38454,
+		"NameJPN": "うみ",
+		"JPN": "「ごめんなさーい……」",
+		"NameENG": "Umi",
+		"ENG": "\"Sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5200",
+		"GOTO_LABEL": "0x5f6"
+	},
+	{
+		"LABEL": "0x584",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5200",
+		"Equation": "(#6003==0)",
+		"GOTO_LABEL": "0x5f6"
+	},
+	{
+		"LABEL": "0x59a",
+		"Type": "PRIORITY",
+		"SUBCMD": 1,
+		"Args": "540001008100"
+	},
+	{
+		"LABEL": "0x5a4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01011ead"
+	},
+	{
+		"LABEL": "0x5ac",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01019100"
+	},
+	{
+		"LABEL": "0x5b4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 13,
+		"VOICEID": 38455,
+		"NameJPN": "うみ",
+		"JPN": "「ごめんなさい、鷹原さん」",
+		"NameENG": "Umi",
+		"ENG": "\"I'm sorry, Takahara-san.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ec",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5600",
+		"GOTO_LABEL": "0x5f6"
+	},
+	{
+		"LABEL": "0x5f6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5a000100cd6f"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01008100"
+	},
+	{
+		"LABEL": "0x608",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01019100"
+	},
+	{
+		"LABEL": "0x610",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x616",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 91,
+		"MSGID": 14,
+		"VOICEID": 38456,
+		"NameJPN": "鏡子",
+		"JPN": "「識ちゃんの悲鳴を聞くと、つい、ね」",
+		"NameENG": "Kyouko",
+		"ENG": "\"Just, after hearing Shiki-chan shout...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x652",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「まったく……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh for crying out loud...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x67c",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "5f00000000007800"
+	},
+	{
+		"LABEL": "0x688",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6100"
+	},
+	{
+		"LABEL": "0x68e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x69c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x6a4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x6aa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x6b0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x6b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x6c0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x6c6",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff000000"
+	},
+	{
+		"LABEL": "0x6ce",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x6dc",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x6e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 99,
+		"MSGID": 16,
+		"JPN": "うみちゃんと鏡子さんと一緒に、客間にやってきた。",
+		"ENG": "Umi-chan, Kyouko-san, and I came to the guest room.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x726",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 101,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「おい、入るぞ、識」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey, we're coming in, Shiki.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x754",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "6900ac860100"
+	},
+	{
+		"LABEL": "0x75e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6c00"
+	},
+	{
+		"LABEL": "0x764",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004500000000000000"
+	},
+	{
+		"LABEL": "0x772",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x77a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x784",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x788",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 18,
+		"JPN": "部屋に入ると、識はまだ布団の上で寝ていた。",
+		"ENG": "We entered, only to find her still asleep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 19,
+		"JPN": "さっきのは寝言か？と思ったけど、違う事にすぐ気づく。",
+		"ENG": "Was she just sleep talking? No, I soon realized that wasn't the case.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x806",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 20,
+		"JPN": "寝ているんじゃなく、体をピクピクと痙攣させていた。",
+		"ENG": "She wasn't sleeping, but convulsing on the ground.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x848",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 21,
+		"JPN": "そして手には、おむすび。",
+		"ENG": "Omusubi in hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x870",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 22,
+		"JPN": "――昨夜、$[鏡子さん$/$A4・・・・$]が作ったおむすびだ。",
+		"ENG": "The one Kyouko-san made last night.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8c0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "78000600c3ba09006b002bff"
+	},
+	{
+		"LABEL": "0x8d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 121,
+		"MSGID": 23,
+		"VOICEID": 38457,
+		"NameJPN": "識",
+		"JPN": "「毒を……もら……れ、た……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I've... been... poisoned...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x904",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7b000100fb6e00008002b4008100"
+	},
+	{
+		"LABEL": "0x916",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x91c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 24,
+		"VOICEID": 38458,
+		"NameJPN": "鏡子",
+		"JPN": "「そんな……一体誰に……？」",
+		"NameENG": "Kyouko",
+		"ENG": "\"What...? By who!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x950",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 25,
+		"JPN": "うろたえる鏡子さん。",
+		"ENG": "Kyouko-san lost herself in confusion.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x974",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "80000600baae09006b00dcfe"
+	},
+	{
+		"LABEL": "0x984",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 26,
+		"JPN": "俺とうみちゃんは目を閉じて、ゆっくりと首を横に振った。",
+		"ENG": "Umi-chan and I closed our eyes and shook our heads.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9ca",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8400000000007800"
+	},
+	{
+		"LABEL": "0x9d6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8600"
+	},
+	{
+		"LABEL": "0x9dc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x9e4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x9ea",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x9f8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x9fe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa04",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa08",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa0e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8800ad860100"
+	},
+	{
+		"LABEL": "0xa18",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8b00"
+	},
+	{
+		"LABEL": "0xa1e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0xa2c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa34",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa3a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 143,
+		"MSGID": 27,
+		"JPN": "お昼を過ぎた頃になって、ようやく青い顔をした識が起きてきた。",
+		"ENG": "In the afternoon, Shiki's pale face finally got out of bed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa8a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "91000100e2bb00008002b4008800"
+	},
+	{
+		"LABEL": "0xa9c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「お……起きてきたか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, you're up.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xad2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "95000100e5bb"
+	},
+	{
+		"LABEL": "0xadc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xae2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 29,
+		"VOICEID": 38459,
+		"NameJPN": "識",
+		"JPN": "「酷い目にあったぜ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"That was terrible...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 30,
+		"JPN": "どうやら『毒』はまだ抜けきっていないようだ。",
+		"ENG": "Evidently, the 'poison' was yet to clear completely.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「その様子だと、まだ何も食べられないか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Still don't look like you're ready to eat anything, are you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb90",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9c000100a7bb"
+	},
+	{
+		"LABEL": "0xb9a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xba0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 157,
+		"MSGID": 32,
+		"VOICEID": 38460,
+		"NameJPN": "識",
+		"JPN": "「……何かあるのかい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"What is there?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbce",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9f00",
+		"Equation": "(#6003==0)",
+		"GOTO_LABEL": "0xc8e"
+	},
+	{
+		"LABEL": "0xbe4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「うみちゃんが作り置きしてくれた、チャーハンがある」",
+		"NameENG": "Hairi",
+		"ENG": "\"Some fried rice Umi-chan made in advance.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 34,
+		"JPN": "識のためにと、三角に握られたチャーハンがお皿の上に載せられていた。",
+		"ENG": "Triangularly-molded fried rice was left on a dish, just for Shiki.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc84",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a500",
+		"GOTO_LABEL": "0xd26"
+	},
+	{
+		"LABEL": "0xc8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 167,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「朝の内に食堂に行って、おむすびを作ってもらっておいた」",
+		"NameENG": "Hairi",
+		"ENG": "\"I went to the diner this morning and had some omusubi made.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xce0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 36,
+		"JPN": "形の整った、見事なおむすびがお皿の上に載せられていた。",
+		"ENG": "Clean and splendidly crafted omusubi sat on a dish.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd26",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "af000100a5bb"
+	},
+	{
+		"LABEL": "0xd30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 176,
+		"MSGID": 37,
+		"VOICEID": 38461,
+		"NameJPN": "識",
+		"JPN": "「おむすび……！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Omusubi!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 178,
+		"MSGID": 38,
+		"JPN": "素早くちゃぶ台の前に正座し、両手を合わせる。",
+		"ENG": "She sat on her heels in front of the dining table and put her hands together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd9a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b4000100a1bb"
+	},
+	{
+		"LABEL": "0xda4",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0xdac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xdb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 181,
+		"MSGID": 39,
+		"VOICEID": 38462,
+		"NameJPN": "識",
+		"JPN": "「いただきます！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Thank you for the food!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdda",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 183,
+		"MSGID": 40,
+		"JPN": "飛びつくようにかぶりついた。",
+		"ENG": "She practically pounced for it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe06",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b9000100a6bb"
+	},
+	{
+		"LABEL": "0xe10",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 186,
+		"MSGID": 41,
+		"VOICEID": 38463,
+		"NameJPN": "識",
+		"JPN": "「はむっ！　んぐんぐ……ごっくん！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hahm! Mnnh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 188,
+		"MSGID": 42,
+		"NameJPN": "羽依里",
+		"JPN": "「お、おい、いきなり食べて大丈夫なのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"H-Hey, are you okay scarfing all that down?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "be000100a5bb"
+	},
+	{
+		"LABEL": "0xe9e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xea4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 191,
+		"MSGID": 43,
+		"VOICEID": 38464,
+		"NameJPN": "識",
+		"JPN": "「おむすびを食べれば大丈夫さ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Omusubi always fixes me right up!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeda",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c1000100a1bb"
+	},
+	{
+		"LABEL": "0xee4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xeea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 44,
+		"VOICEID": 38465,
+		"NameJPN": "識",
+		"JPN": "「元気になるに決まっているじゃないか！」",
+		"NameENG": "Shiki",
+		"ENG": "\"It'll make me right as rain, no doubt about it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 196,
+		"MSGID": 45,
+		"JPN": "そう信じて疑わない満面の笑みだった。",
+		"ENG": "She beamed like she had full faith in that.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 198,
+		"MSGID": 46,
+		"NameJPN": "羽依里",
+		"JPN": "「なあ、なんでそんなにおむすびが好きなんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why do you even like omusubi that much?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfa4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c8000100b9bb"
+	},
+	{
+		"LABEL": "0xfae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xfb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 201,
+		"MSGID": 47,
+		"VOICEID": 38466,
+		"NameJPN": "識",
+		"JPN": "「おむすびを食べると、作ってくれた人の元気をもらえるからさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Because eating it imparts the spirit of the one who made it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1006",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「というと？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Meaning?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x102e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cd000100a6bb"
+	},
+	{
+		"LABEL": "0x1038",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x103e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 206,
+		"MSGID": 49,
+		"VOICEID": 38467,
+		"NameJPN": "識",
+		"JPN": "「おむすびは、人と人とを結ぶ食べ物なんだぜ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Omusubi connects people!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1082",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 208,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「あー……そういや、そんなこと言ってたな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ahhh, I remember you saying something like that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 51,
+		"JPN": "おむすびは、お結び。",
+		"ENG": "Omusubi means 'connection.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 52,
+		"JPN": "人と人とを結び、作った人の元気をもらえる食べ物。",
+		"ENG": "Eating it connects people, imparts the spirit of the one who made it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x112a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 214,
+		"MSGID": 53,
+		"JPN": "なるほど。",
+		"ENG": "I see.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 54,
+		"JPN": "なんか、納得してしまった。",
+		"ENG": "It kinda makes sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x116e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "da000100a1bb"
+	},
+	{
+		"LABEL": "0x1178",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x117e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 219,
+		"MSGID": 55,
+		"VOICEID": 38468,
+		"NameJPN": "識",
+		"JPN": "「はぐっ！　もぐもぐ……あむっ！　んぐんぐ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hahm! Mmnh... mmh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 221,
+		"MSGID": 56,
+		"JPN": "それにしても、相変わらず良い食べっぷりだ。",
+		"ENG": "That appetite of hers, though.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 223,
+		"MSGID": 57,
+		"JPN": "俺はしばし、識の食べる姿を見守った。",
+		"ENG": "I watched her eat for a while.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1232",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 225,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「……ちょっと聞いていいか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Can I ask something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e3000100b8bb"
+	},
+	{
+		"LABEL": "0x1274",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x127a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 228,
+		"MSGID": 59,
+		"VOICEID": 38469,
+		"NameJPN": "識",
+		"JPN": "「んぐっ……なんだい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Ngh... what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「昨日、なんであんな所でぶっ倒れてたんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why were you passed out in a place like that yesterday?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e8000100b9bb"
+	},
+	{
+		"LABEL": "0x12f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 233,
+		"MSGID": 61,
+		"VOICEID": 38470,
+		"NameJPN": "識",
+		"JPN": "「もぐもぐ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Mmh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1324",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「それに、古文書を読んで、泣きながら家を飛び出していっただろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"And you read that old book, then ran out of the house crying.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x137e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ed000100b8bb"
+	},
+	{
+		"LABEL": "0x1388",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x138e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 63,
+		"VOICEID": 38471,
+		"NameJPN": "識",
+		"JPN": "「んぐんぐ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Mnh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 240,
+		"MSGID": 64,
+		"NameJPN": "羽依里",
+		"JPN": "「何かを思いだしたって言ってたよな？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You said you remembered something.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「何を思いだして、そうなったんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What was it to make you like that?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1432",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f4000100b7bb"
+	},
+	{
+		"LABEL": "0x143c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1442",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 245,
+		"MSGID": 66,
+		"VOICEID": 38472,
+		"NameJPN": "識",
+		"JPN": "「……ごっくん」",
+		"NameENG": "Shiki",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1468",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f7000100b6bb"
+	},
+	{
+		"LABEL": "0x1472",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1478",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 67,
+		"VOICEID": 38473,
+		"NameJPN": "識",
+		"JPN": "「全然ちょっとじゃないね」",
+		"NameENG": "Shiki",
+		"ENG": "\"That's a little more than 'something.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14a8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fa000100bbbb"
+	},
+	{
+		"LABEL": "0x14b2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 251,
+		"MSGID": 68,
+		"VOICEID": 38474,
+		"NameJPN": "識",
+		"JPN": "「それに、おむすびを食べながら答えられるような問いでもないぜ」",
+		"NameENG": "Shiki",
+		"ENG": "\"And how do ya expect me to answer all that while eating?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x150c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 253,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「……そうだな。でも気になってるんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Right. But it was bothering me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x154c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ff000100b8bb"
+	},
+	{
+		"LABEL": "0x1556",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x155c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 70,
+		"VOICEID": 38475,
+		"NameJPN": "識",
+		"JPN": "「あむっ……んぐんぐ……ごっくん」",
+		"NameENG": "Shiki",
+		"ENG": "\"Ahm... mmnh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1594",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 71,
+		"JPN": "最後の一口を食べ終えると、識はまた手を合わせた。",
+		"ENG": "She took her last bite, then put her hands together again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15d4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "04010100a1bb"
+	},
+	{
+		"LABEL": "0x15de",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x15e6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 261,
+		"MSGID": 72,
+		"VOICEID": 38476,
+		"NameJPN": "識",
+		"JPN": "「ごちそうさまでした」",
+		"NameENG": "Shiki",
+		"ENG": "\"Thank you for the meal.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1618",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "08010100b9bb"
+	},
+	{
+		"LABEL": "0x1622",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1628",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 265,
+		"MSGID": 73,
+		"VOICEID": 38477,
+		"NameJPN": "識",
+		"JPN": "「さて……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Now...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x164a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0b010100a5bb"
+	},
+	{
+		"LABEL": "0x1654",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x165a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 268,
+		"MSGID": 74,
+		"VOICEID": 38478,
+		"NameJPN": "識",
+		"JPN": "「それじゃ出かけようか」",
+		"NameENG": "Shiki",
+		"ENG": "\"Let's head out.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1688",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「出かける？　なんで急に？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Out? Why all of a sudden?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "10010100b9bb"
+	},
+	{
+		"LABEL": "0x16c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 273,
+		"MSGID": 76,
+		"VOICEID": 38479,
+		"NameJPN": "識",
+		"JPN": "「今の君の問いに答えるためさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"To answer your questions.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1702",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "13010100ecbb"
+	},
+	{
+		"LABEL": "0x170c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1712",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 77,
+		"VOICEID": 38480,
+		"NameJPN": "識",
+		"JPN": "「外で話そう」",
+		"NameENG": "Shiki",
+		"ENG": "\"Let's talk outside.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1736",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "16010100eebb"
+	},
+	{
+		"LABEL": "0x1740",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1746",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 279,
+		"MSGID": 78,
+		"VOICEID": 38481,
+		"NameJPN": "識",
+		"JPN": "「その方が、きっとわかってもらえる」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm sure it'd be easier to take in that way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1780",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1901000000007800"
+	},
+	{
+		"LABEL": "0x178c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1b01"
+	},
+	{
+		"LABEL": "0x1792",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x179a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x17a0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x17ae",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x17b4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x17ba",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x17be",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x17c4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "1f0109850f030002f85b007800"
+	},
+	{
+		"LABEL": "0x17d6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2201"
+	},
+	{
+		"LABEL": "0x17dc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002500000000000000"
+	},
+	{
+		"LABEL": "0x17ea",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x17f2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x17fc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1800",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 79,
+		"JPN": "識と一緒に、外に出てきた。",
+		"ENG": "I went outside with Shiki.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x182a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 80,
+		"JPN": "相変わらず島の陽射しは厳しくて、蝉の声がけたたましい。",
+		"ENG": "The island sun and shower of cicada cries poured over us mercilessly, as always.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1870",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 298,
+		"MSGID": 81,
+		"JPN": "どっちももう慣れたけど。",
+		"ENG": "I was used to both by now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1898",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 300,
+		"MSGID": 82,
+		"JPN": "識は、どこか嬉しそうに、周りをキョロキョロと見回している。",
+		"ENG": "Shiki glanced around, somewhat happily.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 83,
+		"JPN": "何かを探しているというより、景色を楽しんでいるように見えた。",
+		"ENG": "Not so much like she was looking for something, but as if she was taking in the sights.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x192e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 84,
+		"NameJPN": "羽依里",
+		"JPN": "「楽しそうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well don't you look happy.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1958",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "320101006abb00008002b4008800"
+	},
+	{
+		"LABEL": "0x196a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1970",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 307,
+		"MSGID": 85,
+		"VOICEID": 38482,
+		"NameJPN": "識",
+		"JPN": "「そうだね」",
+		"NameENG": "Shiki",
+		"ENG": "\"I suppose I am.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1992",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "350101008cbb"
+	},
+	{
+		"LABEL": "0x199c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 310,
+		"MSGID": 86,
+		"VOICEID": 38483,
+		"NameJPN": "識",
+		"JPN": "「忘れていた間は、この景色をなんとも思わなかった」",
+		"NameENG": "Shiki",
+		"ENG": "\"I didn't offer a single thought to this scenery while my memories were gone.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19ea",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "380101004dbb"
+	},
+	{
+		"LABEL": "0x19f4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 313,
+		"MSGID": 87,
+		"VOICEID": 38484,
+		"NameJPN": "識",
+		"JPN": "「でも、思い出してみると、所々面影があるんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"But as I remember, I see the traces here and there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a3e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3b01010050bb"
+	},
+	{
+		"LABEL": "0x1a48",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 88,
+		"VOICEID": 38485,
+		"NameJPN": "識",
+		"JPN": "「随分と変わってしまっているけどね」",
+		"NameENG": "Shiki",
+		"ENG": "\"Though things have changed quite a bit.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 89,
+		"NameJPN": "羽依里",
+		"JPN": "「面影って……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Traces...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ab2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 320,
+		"MSGID": 90,
+		"JPN": "まるで以前にもこの島に来たことがあるような言い方だった。",
+		"ENG": "She spoke as if she's been here in the past.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1afa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4201010044bb"
+	},
+	{
+		"LABEL": "0x1b04",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 323,
+		"MSGID": 91,
+		"VOICEID": 38486,
+		"NameJPN": "識",
+		"JPN": "「羽依里くん、手を繋いでくれないかい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hairi-kun, could we hold hands?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 325,
+		"MSGID": 92,
+		"NameJPN": "羽依里",
+		"JPN": "「へ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wha―?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b6a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4701010023bb"
+	},
+	{
+		"LABEL": "0x1b74",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x1b7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 328,
+		"MSGID": 93,
+		"VOICEID": 38487,
+		"NameJPN": "識",
+		"JPN": "「ほら、恥ずかしがらずに」",
+		"NameENG": "Shiki",
+		"ENG": "\"Come on, don't be embarrassed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bb2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4901010045bb"
+	},
+	{
+		"LABEL": "0x1bbc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bc2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 330,
+		"MSGID": 94,
+		"JPN": "強引に手を繋がされた。",
+		"ENG": "She forced my hand into hers.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1be8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4c01010086bb"
+	},
+	{
+		"LABEL": "0x1bf2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bf8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 333,
+		"MSGID": 95,
+		"VOICEID": 38488,
+		"NameJPN": "識",
+		"JPN": "「あ……んへへ……男の子の手は、大きいんだね……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Ah... nhehe... Boys' hands sure are big...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c40",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 335,
+		"MSGID": 96,
+		"NameJPN": "羽依里",
+		"JPN": "「そっちが先に照れるのかよ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Who's the embarrassed one, again?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 337,
+		"MSGID": 97,
+		"JPN": "しかも照れるのが早い。",
+		"ENG": "She spared no time with that blush, either.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ca0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 339,
+		"MSGID": 98,
+		"JPN": "逆にこっちの恥ずかしさが緩和された。",
+		"ENG": "It ended up alleviating my own.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cd4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5501010082bb"
+	},
+	{
+		"LABEL": "0x1cde",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ce4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 342,
+		"MSGID": 99,
+		"VOICEID": 38489,
+		"NameJPN": "識",
+		"JPN": "「こんなことするのは初めてなんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"This is the first time I've done something like this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d1c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 344,
+		"MSGID": 100,
+		"NameJPN": "羽依里",
+		"JPN": "「なんで急に？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Where'd this come from?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d46",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5a01010091bb"
+	},
+	{
+		"LABEL": "0x1d50",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 347,
+		"MSGID": 101,
+		"VOICEID": 38490,
+		"NameJPN": "識",
+		"JPN": "「……少しだけ勇気をわけてほしいんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I needed a little courage.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d92",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 349,
+		"MSGID": 102,
+		"NameJPN": "羽依里",
+		"JPN": "「勇気？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Courage?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1db6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5f01010077bb"
+	},
+	{
+		"LABEL": "0x1dc0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1dc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 103,
+		"VOICEID": 38491,
+		"NameJPN": "識",
+		"JPN": "「怖いんだ……向き合うことが」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm scared... of facing it...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dfa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 354,
+		"MSGID": 104,
+		"JPN": "識の小さな手は震えていた。",
+		"ENG": "Her delicate hand trembled.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 356,
+		"MSGID": 105,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 358,
+		"MSGID": 106,
+		"JPN": "俺は無言で識の手を強く握り返した。",
+		"ENG": "I squeezed it in return, without a word.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e7c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "68010900000000780001"
+	},
+	{
+		"LABEL": "0x1e8a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6a01"
+	},
+	{
+		"LABEL": "0x1e90",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1e98",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1e9e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x1eac",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1eb2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1ebc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1ec0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1ec6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "6c010f3910030002f85b007800"
+	},
+	{
+		"LABEL": "0x1ed8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "6f0100009a01000000000000"
+	},
+	{
+		"LABEL": "0x1ee8",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e"
+	},
+	{
+		"LABEL": "0x1ef4",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x1efc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000004cff"
+	},
+	{
+		"LABEL": "0x1f0a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a340880fd4cff"
+	},
+	{
+		"LABEL": "0x1f18",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1f20",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1f26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 369,
+		"MSGID": 107,
+		"JPN": "識と手を繋ぎながらやってきたのは、島の外れのさらに先。",
+		"ENG": "Hand-in-hand, we arrived at the very outskirts of the island.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 371,
+		"MSGID": 108,
+		"JPN": "あまり人が立ち入りそうにない寂しげな場所だった。",
+		"ENG": "A lonely place that seemed a stranger to human contact.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 373,
+		"MSGID": 109,
+		"JPN": "すぐそばはもう海だ。",
+		"ENG": "The ocean churned right nearby.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 375,
+		"MSGID": 110,
+		"JPN": "もし海が荒れれば、波は相当近くまで来るだろう。",
+		"ENG": "Should it turn violent, the waves would likely roll awfully close.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x200e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 377,
+		"MSGID": 111,
+		"JPN": "そんな場所に、小さな石碑が建っていた。",
+		"ENG": "And in this place stood a small stone monument.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2044",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7b01"
+	},
+	{
+		"LABEL": "0x204a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009a01000000000000"
+	},
+	{
+		"LABEL": "0x2058",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2060",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2066",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x206a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 381,
+		"MSGID": 112,
+		"NameJPN": "羽依里",
+		"JPN": "「こんなとこあったんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I never knew this place existed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x209c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 383,
+		"MSGID": 113,
+		"JPN": "色々と回って、島は巡り尽くしたと思っていたけど、まだ知らない場所があったようだ。",
+		"ENG": "I thought I'd been from corner to corner, but apparently there were still locations I hadn't been to.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 385,
+		"MSGID": 114,
+		"JPN": "石碑は、だいぶ古い物のようだ。",
+		"ENG": "The monument looked rather aged.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x212a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 387,
+		"MSGID": 115,
+		"JPN": "海風や波にさらされ、所々が欠けている。",
+		"ENG": "Pieces were chipped in areas, worn down by the salty wind and waves.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2160",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 389,
+		"MSGID": 116,
+		"JPN": "刻まれた文字もずいぶんと薄くなっていた。",
+		"ENG": "The engraving, too, was faded a good deal.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2198",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 391,
+		"MSGID": 117,
+		"JPN": "そんな石碑に、識は近づいていく。",
+		"ENG": "Shiki approached it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21c8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "89010f00000000780001"
+	},
+	{
+		"LABEL": "0x21d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 395,
+		"MSGID": 118,
+		"NameJPN": "羽依里",
+		"JPN": "「それは？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What is that?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21fc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8d01010093bb00008002b4008800"
+	},
+	{
+		"LABEL": "0x220e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2214",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 398,
+		"MSGID": 119,
+		"VOICEID": 38492,
+		"NameJPN": "識",
+		"JPN": "「慰霊碑さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"A cenotaph.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2236",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 400,
+		"MSGID": 120,
+		"NameJPN": "羽依里",
+		"JPN": "「慰霊碑？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A cenotaph?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x225c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9201010090bb"
+	},
+	{
+		"LABEL": "0x2266",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x226c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 403,
+		"MSGID": 121,
+		"VOICEID": 38493,
+		"NameJPN": "識",
+		"JPN": "「昨日見つけたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I found it yesterday.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2296",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "95010100000f00"
+	},
+	{
+		"LABEL": "0x22a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x22a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 407,
+		"MSGID": 122,
+		"JPN": "俺は慰霊碑に触れ、刻まれた文字を追ってみた。",
+		"ENG": "I put my hand to it and traced the characters chiseled into it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 409,
+		"MSGID": 123,
+		"NameJPN": "羽依里",
+		"JPN": "「嘉永津波……供養塔？」",
+		"NameENG": "Hairi",
+		"ENG": "\"In memory of... the Kaei Tsunami?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2316",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 411,
+		"MSGID": 124,
+		"JPN": "嘉永はおそらく元号。",
+		"ENG": "Kaei was most likely the era.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x233a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 413,
+		"MSGID": 125,
+		"JPN": "古文書にあった、１５０年前の津波のことを指しているんだと思う。",
+		"ENG": "This probably referred to the tsunami a hundred fifty years ago recorded in the archive.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2388",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 415,
+		"MSGID": 126,
+		"JPN": "そして、その石碑には『七十八名』の文字もあった。",
+		"ENG": "There was a number, as well―'78.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 417,
+		"MSGID": 127,
+		"JPN": "これは、津波で被害に遭った人達の数……か。",
+		"ENG": "The people who lost their lives...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2402",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "a301010076bb00008002b4008800"
+	},
+	{
+		"LABEL": "0x2414",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x241a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 420,
+		"MSGID": 128,
+		"VOICEID": 38494,
+		"NameJPN": "識",
+		"JPN": "「…………」",
+		"NameENG": "Shiki",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x243c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 422,
+		"MSGID": 129,
+		"JPN": "いつの間にか、識は慰霊碑の前に跪いていた。",
+		"ENG": "Shiki suddenly knelt before the memorial.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2476",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 424,
+		"MSGID": 130,
+		"NameJPN": "羽依里",
+		"JPN": "「識……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shiki...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x249c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 426,
+		"MSGID": 131,
+		"JPN": "ジッと慰霊碑と向き合う識のその頬を、一筋の涙が伝い、零れ落ちた。",
+		"ENG": "A single tear rolled across her cheek and spilled to the ground.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24ec",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "ac01b9860100"
+	},
+	{
+		"LABEL": "0x24f6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ae01"
+	},
+	{
+		"LABEL": "0x24fc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ae01000000000000"
+	},
+	{
+		"LABEL": "0x250a",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x251c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x252a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2532",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2538",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "01007cbb00008002b400ec00"
+	},
+	{
+		"LABEL": "0x2548",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x254e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2552",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 132,
+		"VOICEID": 38495,
+		"NameJPN": "識",
+		"JPN": "「……ごめん、よ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x257e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 432,
+		"MSGID": 133,
+		"VOICEID": 38496,
+		"NameJPN": "識",
+		"JPN": "「ごめん……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm so sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 433,
+		"MSGID": 134,
+		"VOICEID": 38497,
+		"NameJPN": "識",
+		"JPN": "「僕が……逃げてしまったばかりに……」",
+		"NameENG": "Shiki",
+		"ENG": "\"All because I ran...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25de",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b301010035bb"
+	},
+	{
+		"LABEL": "0x25e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x25ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 436,
+		"MSGID": 135,
+		"VOICEID": 38498,
+		"NameJPN": "識",
+		"JPN": "「ごめん……本当に……ごめ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm sorry... I'm so... sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2624",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 437,
+		"MSGID": 136,
+		"VOICEID": 38499,
+		"NameJPN": "識",
+		"JPN": "「う……うあ……あ……あああっ……！」",
+		"NameENG": "Shiki",
+		"ENG": "\"...Urh... ah... ahhh...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2660",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b701010037bb"
+	},
+	{
+		"LABEL": "0x266a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2670",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 440,
+		"MSGID": 137,
+		"VOICEID": 38500,
+		"NameJPN": "識",
+		"JPN": "「あああああぁぁぁぁぁっーーーーー!!!」",
+		"NameENG": "Shiki",
+		"ENG": "\"Aaaaaaaaaaahhhhhhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 442,
+		"MSGID": 138,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 444,
+		"MSGID": 139,
+		"JPN": "突然泣き出した識に、俺は声をかけることができなかった。",
+		"ENG": "Shiki burst into tears and I could say nothing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x271c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 446,
+		"MSGID": 140,
+		"JPN": "それは泣き声というより、悲鳴。",
+		"ENG": "But they weren't sobs, so much as they were shrieks.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x274a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 448,
+		"MSGID": 141,
+		"JPN": "悲鳴というより……慟哭。",
+		"ENG": "But not so much shrieks, as they were... wails of lament.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2772",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 450,
+		"MSGID": 142,
+		"VOICEID": 38501,
+		"NameJPN": "識",
+		"JPN": "「ああっ……うあああああぁぁぁぁぁーーーーー!!!」",
+		"NameENG": "Shiki",
+		"ENG": "\"Aaahhh! Aaaaaaaaaaahhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 452,
+		"MSGID": 143,
+		"JPN": "その姿はあまりにも痛ましく見えて……",
+		"ENG": "She looked to be in such wretched pain...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 454,
+		"MSGID": 144,
+		"JPN": "どうしてか俺まで胸が痛んだ。",
+		"ENG": "Somehow, I felt the same down in my chest.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x281c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ca01"
+	},
+	{
+		"LABEL": "0x2822",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x282a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2830",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x283e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2844",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x284a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x284e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2854",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "cc01"
+	},
+	{
+		"LABEL": "0x285a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009a01000000000000"
+	},
+	{
+		"LABEL": "0x2868",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2870",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2876",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x287a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ce0101007ebb00008002b4008800"
+	},
+	{
+		"LABEL": "0x288c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2892",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 463,
+		"MSGID": 145,
+		"VOICEID": 38502,
+		"NameJPN": "識",
+		"JPN": "「っく……ひっ……ひっく……ぐすっ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Kh... hic... ghh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 465,
+		"MSGID": 146,
+		"JPN": "ようやく泣き止んだ識に、俺は思い出したようにハンカチを渡した。",
+		"ENG": "Her cries finally died down and I offered a handkerchief, remembering I had one.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x291e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d301010034bb"
+	},
+	{
+		"LABEL": "0x2928",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x292e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 147,
+		"VOICEID": 38503,
+		"NameJPN": "識",
+		"JPN": "「ぐすっ……んっ……ありがとう……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Guh... nh... Thank you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2968",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d60101007bbb"
+	},
+	{
+		"LABEL": "0x2972",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2978",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 471,
+		"MSGID": 148,
+		"VOICEID": 38504,
+		"NameJPN": "識",
+		"JPN": "「ずびっ！　ずびびびびっ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hic! ...Hic!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 473,
+		"MSGID": 149,
+		"NameJPN": "羽依里",
+		"JPN": "「……それはやめてほしかった」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I would've liked you to stop crying.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29e2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "db01010034bb"
+	},
+	{
+		"LABEL": "0x29ec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 476,
+		"MSGID": 150,
+		"VOICEID": 38505,
+		"NameJPN": "識",
+		"JPN": "「ぐすっ……ごめんよ」",
+		"NameENG": "Shiki",
+		"ENG": "\"...Sorry...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 495,
+		"MSGID": 151,
+		"NameJPN": "羽依里",
+		"JPN": "「なあ識、話してくれないか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shiki, will you talk to me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 497,
+		"MSGID": 152,
+		"NameJPN": "羽依里",
+		"JPN": "「お前のことをさ」",
+		"NameENG": "Hairi",
+		"ENG": "\"About yourself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a82",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f301010050bb"
+	},
+	{
+		"LABEL": "0x2a8c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2a92",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 500,
+		"MSGID": 153,
+		"VOICEID": 38506,
+		"NameJPN": "識",
+		"JPN": "「話したところで……理解できない話さ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"You wouldn't understand, even if I did...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ad2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f60101004dbb"
+	},
+	{
+		"LABEL": "0x2adc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2ae2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 503,
+		"MSGID": 154,
+		"VOICEID": 38507,
+		"NameJPN": "識",
+		"JPN": "「滑稽だと、笑ってしまうぜ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"It's absurd. You'll laugh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 505,
+		"MSGID": 155,
+		"NameJPN": "羽依里",
+		"JPN": "「笑わない」",
+		"NameENG": "Hairi",
+		"ENG": "\"I won't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b3e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fb0101004abb"
+	},
+	{
+		"LABEL": "0x2b48",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b4e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 508,
+		"MSGID": 156,
+		"VOICEID": 38508,
+		"NameJPN": "識",
+		"JPN": "「羽依里くん……？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hairi-kun...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 510,
+		"MSGID": 157,
+		"NameJPN": "羽依里",
+		"JPN": "「ちゃんと識の事を知りたいんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I want to know you, Shiki.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 512,
+		"MSGID": 158,
+		"NameJPN": "羽依里",
+		"JPN": "「俺は、識を知りたい」",
+		"NameENG": "Hairi",
+		"ENG": "\"I want to know who you are.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2be2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0202010050bb"
+	},
+	{
+		"LABEL": "0x2bec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bf2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 515,
+		"MSGID": 159,
+		"VOICEID": 38509,
+		"NameJPN": "識",
+		"JPN": "「ありがとうよ……ぐすっ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Thank you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 517,
+		"MSGID": 160,
+		"JPN": "識は、慰霊碑の前に跪いたまま語り始める。",
+		"ENG": "She began to speak, still knelt in front of the memorial.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c5e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0702010087bb"
+	},
+	{
+		"LABEL": "0x2c68",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2c6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 520,
+		"MSGID": 161,
+		"VOICEID": 38510,
+		"NameJPN": "識",
+		"JPN": "「僕はね、羽依里くん……僕は……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hairi-kun, I'm... I'm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ca6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 522,
+		"MSGID": 162,
+		"JPN": "そこで深呼吸をした。",
+		"ENG": "She took a deep breath.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cca",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0c02000000007800"
+	},
+	{
+		"LABEL": "0x2cd6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0e02010090bb"
+	},
+	{
+		"LABEL": "0x2ce0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2ce6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 527,
+		"MSGID": 163,
+		"VOICEID": 38511,
+		"NameJPN": "識",
+		"JPN": "「僕は、この時代の人間じゃないんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm not of this time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d20",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1402010093bb"
+	},
+	{
+		"LABEL": "0x2d2a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2d30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 533,
+		"MSGID": 164,
+		"VOICEID": 38512,
+		"NameJPN": "識",
+		"JPN": "「んへへ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Nhehe...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d54",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1902b3860100"
+	},
+	{
+		"LABEL": "0x2d5e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1b02010044bb"
+	},
+	{
+		"LABEL": "0x2d68",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2d6e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 540,
+		"MSGID": 165,
+		"VOICEID": 38513,
+		"NameJPN": "識",
+		"JPN": "「僕はね、ずっとずっと昔に、この島で暮らしていた鬼なんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm an oni who lived on this island a long, long time ago.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2dbe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1e0201004dbb"
+	},
+	{
+		"LABEL": "0x2dc8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2dce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 543,
+		"MSGID": 166,
+		"VOICEID": 38514,
+		"NameJPN": "識",
+		"JPN": "「いや……鬼になろうとした人間だ」",
+		"NameENG": "Shiki",
+		"ENG": "\"No, I'm a human who tried to become one.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 545,
+		"MSGID": 167,
+		"JPN": "そう言って、識は海の方に視線を向ける。",
+		"ENG": "She looked towards the ocean.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e3c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2302010039bb"
+	},
+	{
+		"LABEL": "0x2e46",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2e4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 548,
+		"MSGID": 168,
+		"VOICEID": 38515,
+		"NameJPN": "識",
+		"JPN": "「この島に住んでいた人たちは、みんなとても優しかった」",
+		"NameENG": "Shiki",
+		"ENG": "\"Everyone who lived here was so kind.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e98",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "260201001fbb"
+	},
+	{
+		"LABEL": "0x2ea2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2ea8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 551,
+		"MSGID": 169,
+		"VOICEID": 38516,
+		"NameJPN": "識",
+		"JPN": "「優しい人たちばかりが、仲良く暮らしていたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"They all lived together happily.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2eee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2902010040bb"
+	},
+	{
+		"LABEL": "0x2ef8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2efe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 554,
+		"MSGID": 170,
+		"VOICEID": 38517,
+		"NameJPN": "識",
+		"JPN": "「でも、そんな優しい人たちでも、唯一避けていた一族がいたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"But among all of them was a single, solitary family.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f52",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2c0201004dbb"
+	},
+	{
+		"LABEL": "0x2f5c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2f62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 557,
+		"MSGID": 171,
+		"VOICEID": 38518,
+		"NameJPN": "識",
+		"JPN": "「それが……」",
+		"NameENG": "Shiki",
+		"ENG": "\"They were...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 559,
+		"MSGID": 172,
+		"NameJPN": "羽依里",
+		"JPN": "「神山家、か？」",
+		"NameENG": "Hairi",
+		"ENG": "\"The Kamiyama family?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 561,
+		"MSGID": 173,
+		"JPN": "蒼が言っていた。",
+		"ENG": "Ao said so herself.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 563,
+		"MSGID": 174,
+		"JPN": "神山の家は、鬼の一族と言われていたと。",
+		"ENG": "The Kamiyamas were descended from oni.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3006",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 565,
+		"MSGID": 175,
+		"JPN": "だから――",
+		"ENG": "So―",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3020",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3702010040bb"
+	},
+	{
+		"LABEL": "0x302a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3030",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 568,
+		"MSGID": 176,
+		"VOICEID": 38519,
+		"NameJPN": "識",
+		"JPN": "「……違うよ」",
+		"NameENG": "Shiki",
+		"ENG": "\"No.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3054",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 570,
+		"MSGID": 177,
+		"JPN": "識は、静かに頭を横に振って否定した。",
+		"ENG": "She shook her head.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3088",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3c0201004dbb"
+	},
+	{
+		"LABEL": "0x3092",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3098",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 573,
+		"MSGID": 178,
+		"VOICEID": 38520,
+		"NameJPN": "識",
+		"JPN": "「鳴瀬家さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"The Naruse family.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 575,
+		"MSGID": 179,
+		"NameJPN": "羽依里",
+		"JPN": "「鳴瀬？　しろはの家のご先祖様か？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Naruse? Shiroha's ancestors?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30f8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4102010050bb"
+	},
+	{
+		"LABEL": "0x3102",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3108",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 578,
+		"MSGID": 180,
+		"VOICEID": 38521,
+		"NameJPN": "識",
+		"JPN": "「そう、その鳴瀬だよ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Right. That very same Naruse.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3134",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4402010039bb"
+	},
+	{
+		"LABEL": "0x313e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 581,
+		"MSGID": 181,
+		"VOICEID": 38522,
+		"NameJPN": "識",
+		"JPN": "「鳴瀬の家には、娘がいてね」",
+		"NameENG": "Shiki",
+		"ENG": "\"The family had a daughter.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3176",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 583,
+		"MSGID": 182,
+		"JPN": "一瞬、しろはの顔が思い浮かんだ。",
+		"ENG": "Shiroha's face flashed in my mind.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31a6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4a02"
+	},
+	{
+		"LABEL": "0x31ac",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x31ba",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x31c2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x31c8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x31ce",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x31d4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x31da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x31e8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x31ee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x31f2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4c020301230203"
+	},
+	{
+		"LABEL": "0x31fe",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030102"
+	},
+	{
+		"LABEL": "0x3206",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4d0202000490000000000000"
+	},
+	{
+		"LABEL": "0x3216",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "020032"
+	},
+	{
+		"LABEL": "0x321e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "02000000cc3ccc3c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x3230",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "02000000002603e2ff"
+	},
+	{
+		"LABEL": "0x323e",
+		"Type": "SEPIA_COLOR",
+		"SUBCMD": 0,
+		"Args": "ffffff000000"
+	},
+	{
+		"LABEL": "0x3248",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff00ff"
+	},
+	{
+		"LABEL": "0x3250",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "4f023c00"
+	},
+	{
+		"LABEL": "0x3258",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x325c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 599,
+		"MSGID": 183,
+		"VOICEID": 38523,
+		"NameJPN": "識",
+		"JPN": "「彼女は、不幸を呼ぶ呪われた巫女だと言われていたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"They called her cursed. A shrine maiden of misery.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 601,
+		"MSGID": 184,
+		"NameJPN": "羽依里",
+		"JPN": "「なんで、そんな……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why would they say something so awful...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 604,
+		"MSGID": 185,
+		"VOICEID": 38524,
+		"NameJPN": "識",
+		"JPN": "「鳴瀬の巫女には、不思議な力があったのさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"The Naruse maidens had a strange power, you see.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x331a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 607,
+		"MSGID": 186,
+		"VOICEID": 38525,
+		"NameJPN": "識",
+		"JPN": "「それは、未来を見る力……予言とか予知とか、そういう力が」",
+		"NameENG": "Shiki",
+		"ENG": "\"The power to see the future, prophecies, predictions.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x336a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 610,
+		"MSGID": 187,
+		"VOICEID": 38526,
+		"NameJPN": "識",
+		"JPN": "「鳴瀬の巫女が口にした言葉は、現実になる」",
+		"NameENG": "Shiki",
+		"ENG": "\"What they spoke became reality.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 613,
+		"MSGID": 188,
+		"VOICEID": 38527,
+		"NameJPN": "識",
+		"JPN": "「決まって、不幸な事象ばかりがね」",
+		"NameENG": "Shiki",
+		"ENG": "\"And it was always tragedy.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 616,
+		"MSGID": 189,
+		"VOICEID": 38528,
+		"NameJPN": "識",
+		"JPN": "「それが恐ろしくて、島の人たちはみんな彼女を敬遠していた」",
+		"NameENG": "Shiki",
+		"ENG": "\"The islanders feared her, and so kept their$ddistance.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3432",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 619,
+		"MSGID": 190,
+		"VOICEID": 38529,
+		"NameJPN": "識",
+		"JPN": "「あえて彼女の言葉を聞かないようにしたのさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"They purposefully avoided her words.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3474",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "6d020301"
+	},
+	{
+		"LABEL": "0x347c",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030100"
+	},
+	{
+		"LABEL": "0x3484",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6f02"
+	},
+	{
+		"LABEL": "0x348a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x3498",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x34a0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0x34a6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "020000000000000000"
+	},
+	{
+		"LABEL": "0x34b4",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0x34ba",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff0000"
+	},
+	{
+		"LABEL": "0x34c2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x34c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34ce",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34d4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x34e2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x34e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x34ec",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7102"
+	},
+	{
+		"LABEL": "0x34f2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009a01000000000000"
+	},
+	{
+		"LABEL": "0x3500",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3508",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010040bb00008002b4008800"
+	},
+	{
+		"LABEL": "0x3518",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x351e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3524",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 627,
+		"MSGID": 191,
+		"NameJPN": "羽依里",
+		"JPN": "「……おまえもなのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...You, too?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3556",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7502010044bb"
+	},
+	{
+		"LABEL": "0x3560",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3566",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 630,
+		"MSGID": 192,
+		"VOICEID": 38530,
+		"NameJPN": "識",
+		"JPN": "「あいにく、僕は彼女と妙にウマが合ってね」",
+		"NameENG": "Shiki",
+		"ENG": "\"Unfortunately, the two of us got along strangely well.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35a6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7802010022bb"
+	},
+	{
+		"LABEL": "0x35b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x35b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 633,
+		"MSGID": 193,
+		"VOICEID": 38531,
+		"NameJPN": "識",
+		"JPN": "「空門の巫女と一緒に、鳴瀬の家に通っては３人で遊んだものさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Along with the Sorakado maiden, we would all play together at the Naruse house.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3608",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7b02010025bb"
+	},
+	{
+		"LABEL": "0x3612",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3618",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 636,
+		"MSGID": 194,
+		"VOICEID": 38532,
+		"NameJPN": "識",
+		"JPN": "「鬼ごっことか、ね。んへへ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Games like oni. Nhehe...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x364a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7e02010072bb"
+	},
+	{
+		"LABEL": "0x3654",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x365a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 639,
+		"MSGID": 195,
+		"VOICEID": 38533,
+		"NameJPN": "識",
+		"JPN": "「でもさ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"But...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x367e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 640,
+		"MSGID": 196,
+		"VOICEID": 38534,
+		"NameJPN": "識",
+		"JPN": "「……ある日、彼女がまた予知をしたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"One day, she had another prediction.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x36bc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8202010076bb"
+	},
+	{
+		"LABEL": "0x36c6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x36cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 643,
+		"MSGID": 197,
+		"VOICEID": 38535,
+		"NameJPN": "識",
+		"JPN": "「その予知に、彼女自身が怯えていた」",
+		"NameENG": "Shiki",
+		"ENG": "\"It terrified her.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3706",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 644,
+		"MSGID": 198,
+		"VOICEID": 38536,
+		"NameJPN": "識",
+		"JPN": "「あまりにも恐ろしい未来を見てしまったと」",
+		"NameENG": "Shiki",
+		"ENG": "\"She said she saw a truly horrifying future.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3746",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8602010072bb"
+	},
+	{
+		"LABEL": "0x3750",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3756",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 647,
+		"MSGID": 199,
+		"VOICEID": 38537,
+		"NameJPN": "識",
+		"JPN": "「海から災いがくる、と」",
+		"NameENG": "Shiki",
+		"ENG": "\"That a disaster would come from the ocean.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3784",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "890201008ebb"
+	},
+	{
+		"LABEL": "0x378e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3794",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 650,
+		"MSGID": 200,
+		"VOICEID": 38538,
+		"NameJPN": "識",
+		"JPN": "「それが……」",
+		"NameENG": "Shiki",
+		"ENG": "\"And that was...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 652,
+		"MSGID": 201,
+		"NameJPN": "羽依里",
+		"JPN": "「津波、か」",
+		"NameENG": "Hairi",
+		"ENG": "\"The tsunami?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37de",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9002"
+	},
+	{
+		"LABEL": "0x37e4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x37f2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x37fa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x3800",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3806",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x380c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3812",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3820",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x3826",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x382a",
+		"Type": "SEPIA_COLOR",
+		"SUBCMD": 1,
+		"Args": "9202ffffff000000"
+	},
+	{
+		"LABEL": "0x3836",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff00ff"
+	},
+	{
+		"LABEL": "0x383e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "94020005e9fd030000000000"
+	},
+	{
+		"LABEL": "0x384e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd030000000000"
+	},
+	{
+		"LABEL": "0x385c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x386a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x3878",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "98020301150203"
+	},
+	{
+		"LABEL": "0x3884",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0302150203"
+	},
+	{
+		"LABEL": "0x388e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "030200000000fb"
+	},
+	{
+		"LABEL": "0x389a",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030202"
+	},
+	{
+		"LABEL": "0x38a2",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "9b02160002009700be0042ff9cff9cff7800204e0000050038ff"
+	},
+	{
+		"LABEL": "0x38c0",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "9c023c00"
+	},
+	{
+		"LABEL": "0x38c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 671,
+		"MSGID": 202,
+		"VOICEID": 38539,
+		"NameJPN": "識",
+		"JPN": "「そう……当時の鳥白島を襲った大津波さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Yeah... The great wave that struck Torishirojima.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3906",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 674,
+		"MSGID": 203,
+		"VOICEID": 38540,
+		"NameJPN": "識",
+		"JPN": "「彼女の予知を、一刻も早く島のみんなに知らせるべきだった」",
+		"NameENG": "Shiki",
+		"ENG": "\"She had to inform the island as quickly as possible.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3956",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 677,
+		"MSGID": 204,
+		"VOICEID": 38541,
+		"NameJPN": "識",
+		"JPN": "「そうすれば、島の人たちはみんな助かる」",
+		"NameENG": "Shiki",
+		"ENG": "\"That way everyone would be saved.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3994",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 680,
+		"MSGID": 205,
+		"VOICEID": 38542,
+		"NameJPN": "識",
+		"JPN": "「だけど、それは叶わなかったんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"But that didn't happen.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 683,
+		"MSGID": 206,
+		"VOICEID": 38543,
+		"NameJPN": "識",
+		"JPN": "「信じて貰えなかった……」",
+		"NameENG": "Shiki",
+		"ENG": "\"They didn't believe her...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 686,
+		"MSGID": 207,
+		"VOICEID": 38544,
+		"NameJPN": "識",
+		"JPN": "「これまで鳴瀬が予知していた不幸とは、あまりに規模が違いすぎたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"The scale of the calamities predicted by the Naruses were always far off from actual events.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 689,
+		"MSGID": 208,
+		"VOICEID": 38545,
+		"NameJPN": "識",
+		"JPN": "「島が滅びかねないような予知なんて、さすがに笑い話さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"For her to predict the possible destruction of the island, all they could do was laugh.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 692,
+		"MSGID": 209,
+		"VOICEID": 38546,
+		"NameJPN": "識",
+		"JPN": "「でも……」",
+		"NameENG": "Shiki",
+		"ENG": "\"But...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ac4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 694,
+		"MSGID": 210,
+		"NameJPN": "羽依里",
+		"JPN": "「お前は信じたんだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"You believed her, didn't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3af4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 697,
+		"MSGID": 211,
+		"VOICEID": 38547,
+		"NameJPN": "識",
+		"JPN": "「……うん」",
+		"NameENG": "Shiki",
+		"ENG": "\"Yeah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 700,
+		"MSGID": 212,
+		"VOICEID": 38548,
+		"NameJPN": "識",
+		"JPN": "「友達だったからね、信じるさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"She was my friend. Of course I would.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 703,
+		"MSGID": 213,
+		"VOICEID": 38549,
+		"NameJPN": "識",
+		"JPN": "「僕はどんなことをしてでも、津波からみんなを守ろうと思ったんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I decided to do whatever it took to protect everyone.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ba0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 706,
+		"MSGID": 214,
+		"VOICEID": 38550,
+		"NameJPN": "識",
+		"JPN": "「津波が来るその日に島の人たちを山へ向かわせたかった」",
+		"NameENG": "Shiki",
+		"ENG": "\"I wanted to send everyone to the mountains on the day of the tsunami.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3bec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 709,
+		"MSGID": 215,
+		"VOICEID": 38551,
+		"NameJPN": "識",
+		"JPN": "「だからね、僕はそこで一計を案じたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"So I devised a plan.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c2a",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "c70216000000"
+	},
+	{
+		"LABEL": "0x3c34",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c802"
+	},
+	{
+		"LABEL": "0x3c3a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x3c48",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3c50",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff0000"
+	},
+	{
+		"LABEL": "0x3c58",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0005"
+	},
+	{
+		"LABEL": "0x3c5e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x3c6c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x3c72",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x3c80",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0301"
+	},
+	{
+		"LABEL": "0x3c86",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x3c8c",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030200"
+	},
+	{
+		"LABEL": "0x3c94",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3c9a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3ca0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3ca6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x3cb4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x3cba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3cbe",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ca02"
+	},
+	{
+		"LABEL": "0x3cc4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009a01000000000000"
+	},
+	{
+		"LABEL": "0x3cd2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3cda",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010039bb00008002b4008800"
+	},
+	{
+		"LABEL": "0x3cea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3cf0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x3cf6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 716,
+		"MSGID": 216,
+		"NameJPN": "羽依里",
+		"JPN": "「それって？」",
+		"NameENG": "Hairi",
+		"ENG": "\"And that was?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d1e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ce02010061bb"
+	},
+	{
+		"LABEL": "0x3d28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3d2e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 719,
+		"MSGID": 217,
+		"VOICEID": 38552,
+		"NameJPN": "識",
+		"JPN": "「僕が鬼になって、島を襲うのさ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"I would become an oni and assail the island!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 721,
+		"MSGID": 218,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d8c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d30201005dbb"
+	},
+	{
+		"LABEL": "0x3d96",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3d9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 724,
+		"MSGID": 219,
+		"VOICEID": 38553,
+		"NameJPN": "識",
+		"JPN": "「どうだい羽依里くん？　素晴らしい企てだとは思わないかい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Well? A magnificent plot, don't ya think?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3dee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 726,
+		"MSGID": 220,
+		"NameJPN": "羽依里",
+		"JPN": "「……真面目に考えたんだよな？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...You thought over this seriously, I take it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d802010055bb"
+	},
+	{
+		"LABEL": "0x3e32",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3e38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 729,
+		"MSGID": 221,
+		"VOICEID": 38554,
+		"NameJPN": "識",
+		"JPN": "「もちろん大真面目さ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"With the highest of sincerity!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 731,
+		"MSGID": 222,
+		"NameJPN": "羽依里",
+		"JPN": "「うん……いや……うん」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh... well... hm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e98",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dd0201003ebb"
+	},
+	{
+		"LABEL": "0x3ea2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3ea8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 734,
+		"MSGID": 223,
+		"VOICEID": 38555,
+		"NameJPN": "識",
+		"JPN": "「言いたいことがあるのなら、言ったらどうだい！」",
+		"NameENG": "Shiki",
+		"ENG": "\"If you've got something to say, then say it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3eee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 736,
+		"MSGID": 224,
+		"NameJPN": "羽依里",
+		"JPN": "「いいんだ。おまえが大真面目に考えたってことは、よくわかるよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, I know how sincere you must've been.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f46",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "e2020100000f00"
+	},
+	{
+		"LABEL": "0x3f52",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3f58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 740,
+		"MSGID": 225,
+		"JPN": "考え方は間違っちゃいない。",
+		"ENG": "Her way of thinking wasn't off.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 742,
+		"MSGID": 226,
+		"JPN": "要は、津波が島を襲うその日に、島の人たちが、自分たちから山に逃げるよう仕向ければいいんだ。",
+		"ENG": "Basically, all she had to do was push the islanders to the mountains on the day of the tsunami by making them run away from her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 744,
+		"MSGID": 227,
+		"JPN": "ただ、そのために識が鬼になるというのは……無理があるんじゃないだろうか……",
+		"ENG": "But her becoming an oni to that end... might be asking a bit too much.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4046",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 746,
+		"MSGID": 228,
+		"JPN": "あらゆる鬼の昔話には、逸話がある。",
+		"ENG": "There are plenty of anecdotes about all sorts of oni legends.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4078",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 748,
+		"MSGID": 229,
+		"JPN": "でもそれらを紐解けば、鬼の正体は日本に流れ着いた異人だったり、ただの力持ちだったり、山賊や海賊の類を例えたものだ。",
+		"ENG": "But when you pull back the curtain, these oni were usually foreigners, men of strength, or bandits or pirates of some kind.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x40fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 750,
+		"MSGID": 230,
+		"JPN": "果たして、この小柄な１４歳が、どのようにして鬼になろうとしたのだろうか？",
+		"ENG": "So just how could a tiny fourteen-year-old become one?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4152",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f002010057bb00008002b4008800"
+	},
+	{
+		"LABEL": "0x4164",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x416a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 753,
+		"MSGID": 231,
+		"VOICEID": 38556,
+		"NameJPN": "識",
+		"JPN": "「もちろん、僕なりにいろいろ考えていたさ！」",
+		"NameENG": "Shiki",
+		"ENG": "\"I thought of a few ideas of my own, of course!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41ac",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f302010044bb"
+	},
+	{
+		"LABEL": "0x41b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x41bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 756,
+		"MSGID": 232,
+		"VOICEID": 38557,
+		"NameJPN": "識",
+		"JPN": "「幸い、鳴瀬の巫女が予知した大津波の日までは、まだ時間があったからね」",
+		"NameENG": "Shiki",
+		"ENG": "\"Thankfully, we had some time until the predicted disaster.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4218",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f60201001fbb"
+	},
+	{
+		"LABEL": "0x4222",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4228",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 759,
+		"MSGID": 233,
+		"VOICEID": 38558,
+		"NameJPN": "識",
+		"JPN": "「だから僕はその時までにたくさん準備をした」",
+		"NameENG": "Shiki",
+		"ENG": "\"So I made all kinds of preparations.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x426a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f902010044bb"
+	},
+	{
+		"LABEL": "0x4274",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x427a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 762,
+		"MSGID": 234,
+		"VOICEID": 38559,
+		"NameJPN": "識",
+		"JPN": "「鬼になって、島の人たちを怖がらせるために、いろいろ用意したんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I made arrangements to become an oni and strike fear into the hearts of the islanders.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42d2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fc02010025bb"
+	},
+	{
+		"LABEL": "0x42dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x42e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 765,
+		"MSGID": 235,
+		"VOICEID": 38560,
+		"NameJPN": "識",
+		"JPN": "「鬼になりきろうとして、島の人たちを憎もうと頑張ったんだぜ？」",
+		"NameENG": "Shiki",
+		"ENG": "\"I really tried my best to come into the role and make the islanders hate me, y'know.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4336",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ff02010044bb"
+	},
+	{
+		"LABEL": "0x4340",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4346",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 768,
+		"MSGID": 236,
+		"VOICEID": 38561,
+		"NameJPN": "識",
+		"JPN": "「自分は鬼で、あいつらは敵の人間だって」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm the oni and they're the enemy humans.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4384",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "020301004dbb"
+	},
+	{
+		"LABEL": "0x438e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4394",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 771,
+		"MSGID": 237,
+		"VOICEID": 38562,
+		"NameJPN": "識",
+		"JPN": "「そこまでしないと、みんなが僕を怖れてくれないと思って」",
+		"NameENG": "Shiki",
+		"ENG": "\"I thought if I didn't take it that far, no one would be afraid of me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43e2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0503010050bb"
+	},
+	{
+		"LABEL": "0x43ec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x43f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 774,
+		"MSGID": 238,
+		"VOICEID": 38563,
+		"NameJPN": "識",
+		"JPN": "「自分なりに、精一杯頑張ってみたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I tried as hard as I could.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x442e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0803010040bb"
+	},
+	{
+		"LABEL": "0x4438",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x443e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 777,
+		"MSGID": 239,
+		"VOICEID": 38564,
+		"NameJPN": "識",
+		"JPN": "「だけど僕は……鬼になろうとして……なりきることができなかった……」",
+		"NameENG": "Shiki",
+		"ENG": "\"But I... I tried and... I couldn't do it...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4498",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 778,
+		"MSGID": 240,
+		"VOICEID": 38565,
+		"NameJPN": "識",
+		"JPN": "「自分がしようとしていることが、もし失敗したらみんなを助けられないんじゃないかって」",
+		"NameENG": "Shiki",
+		"ENG": "\"If I failed in my efforts, I wouldn't be able to save them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4502",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0c03010087bb"
+	},
+	{
+		"LABEL": "0x450c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4512",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 781,
+		"MSGID": 241,
+		"VOICEID": 38566,
+		"NameJPN": "識",
+		"JPN": "「よしんば、成功したとして……」",
+		"NameENG": "Shiki",
+		"ENG": "\"But should I succeed...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4548",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 782,
+		"MSGID": 242,
+		"VOICEID": 38567,
+		"NameJPN": "識",
+		"JPN": "「僕は……島の皆からどんな風に見られてしまうんだろうって……」",
+		"NameENG": "Shiki",
+		"ENG": "\"How would everyone look at me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x459c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1003010076bb"
+	},
+	{
+		"LABEL": "0x45a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x45ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 785,
+		"MSGID": 243,
+		"VOICEID": 38568,
+		"NameJPN": "識",
+		"JPN": "「怖かったんだ。優しかったみんなが、仲良くしてくれたみんなが僕に批難の目を向けてくるかもしれないことが」",
+		"NameENG": "Shiki",
+		"ENG": "\"I was scared. Afraid of the condemning gazes I might receive from such kind people, my friends.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x462a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 786,
+		"MSGID": 244,
+		"VOICEID": 38569,
+		"NameJPN": "識",
+		"JPN": "「不安で、悩んで、苦しんで……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I was so nervous, so conflicted, so pained...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4660",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "140301007bbb"
+	},
+	{
+		"LABEL": "0x466a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4670",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 789,
+		"MSGID": 245,
+		"VOICEID": 38570,
+		"NameJPN": "識",
+		"JPN": "「逃げ出したくなって……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I wanted to run away...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 791,
+		"MSGID": 246,
+		"JPN": "そりゃそうだ……",
+		"ENG": "Of course you would...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 793,
+		"MSGID": 247,
+		"JPN": "１４歳の女の子が、一人で抱えるようなことじゃない。",
+		"ENG": "These aren't things a fourteen-year-old girl should have to shoulder alone.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4702",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1b03000000005a00"
+	},
+	{
+		"LABEL": "0x470e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1d03010040bb"
+	},
+	{
+		"LABEL": "0x4718",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x471e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 798,
+		"MSGID": 248,
+		"VOICEID": 38571,
+		"NameJPN": "識",
+		"JPN": "「……僕は迷ってしまった」",
+		"NameENG": "Shiki",
+		"ENG": "\"I became lost.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x474e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "20030f3910030002f85b007800"
+	},
+	{
+		"LABEL": "0x4760",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 802,
+		"MSGID": 249,
+		"NameJPN": "羽依里",
+		"JPN": "「その企てを本当にするかどうかを……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Over whether to go through with your plan or not?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x47a2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "240301004dbb"
+	},
+	{
+		"LABEL": "0x47ac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x47b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 805,
+		"MSGID": 250,
+		"VOICEID": 38572,
+		"NameJPN": "識",
+		"JPN": "「いいや、言葉の通りさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"No, literally.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x47e0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2703010050bb"
+	},
+	{
+		"LABEL": "0x47ea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x47f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 808,
+		"MSGID": 251,
+		"VOICEID": 38573,
+		"NameJPN": "識",
+		"JPN": "「ただ山を歩いていたはずなのに、気づけば変な場所にいた」",
+		"NameENG": "Shiki",
+		"ENG": "\"I was just walking through the mountains when I found myself in a strange place.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x483e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 810,
+		"MSGID": 252,
+		"NameJPN": "羽依里",
+		"JPN": "「変な……？　どんな場所なんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Strange...? What kind of place was this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x487a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "2c030f00000000780001"
+	},
+	{
+		"LABEL": "0x4888",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2e03"
+	},
+	{
+		"LABEL": "0x488e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x489c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x48a4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x48aa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x48b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x48b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x48bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x48ca",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x48d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x48d4",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3003c1860100"
+	},
+	{
+		"LABEL": "0x48de",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "3303160002009b00f00010ff9cff9cff7800c05d0000050038ff"
+	},
+	{
+		"LABEL": "0x48fc",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "34037800"
+	},
+	{
+		"LABEL": "0x4904",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "35037800"
+	},
+	{
+		"LABEL": "0x490c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 824,
+		"MSGID": 253,
+		"VOICEID": 38574,
+		"NameJPN": "識",
+		"JPN": "「真っ白な花が咲く、どこまでも続く世界……とでもいえばいいのかな」",
+		"NameENG": "Shiki",
+		"ENG": "\"An endless world of pure white flowers... I guess might be an apt way to put it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4964",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 827,
+		"MSGID": 254,
+		"VOICEID": 38575,
+		"NameJPN": "識",
+		"JPN": "「そんな場所さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"That's the kind of place it was.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x498a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 829,
+		"MSGID": 255,
+		"JPN": "不意に、以前のみきが話してくれた、この島にある言い伝えの１つを思い出す。",
+		"ENG": "I remembered one of this island's legends Nomiki told us about.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 831,
+		"MSGID": 256,
+		"JPN": "――神隠し。",
+		"ENG": "How people were spirited away.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 833,
+		"MSGID": 257,
+		"JPN": "ある日突然島の人が消えて、何事も無かったように戻ってきたり、そのままいなくなったり……",
+		"ENG": "How islanders vanish, then reappear as if nothing had changed, or simply remain gone...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a64",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 836,
+		"MSGID": 258,
+		"VOICEID": 38576,
+		"NameJPN": "識",
+		"JPN": "「ずっと一人で居た」",
+		"NameENG": "Shiki",
+		"ENG": "\"I was alone for so long.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 839,
+		"MSGID": 259,
+		"VOICEID": 38577,
+		"NameJPN": "識",
+		"JPN": "「ずっとずっと……とても長い時間をそこで過ごした」",
+		"NameENG": "Shiki",
+		"ENG": "\"So very long... I spent an incredible amount of time there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4ad6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 842,
+		"MSGID": 260,
+		"VOICEID": 38578,
+		"NameJPN": "識",
+		"JPN": "「本当に気が遠くなるほどの時間だった」",
+		"NameENG": "Shiki",
+		"ENG": "\"So long I could feel my consciousness fading.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 845,
+		"MSGID": 261,
+		"VOICEID": 38579,
+		"NameJPN": "識",
+		"JPN": "「でも、そこにいると、不思議とお腹は空かないんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"But for some reason I never went hungry.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 848,
+		"MSGID": 262,
+		"VOICEID": 38580,
+		"NameJPN": "識",
+		"JPN": "「歳を取ることもなかった」",
+		"NameENG": "Shiki",
+		"ENG": "\"I didn't age, either.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 851,
+		"MSGID": 263,
+		"VOICEID": 38581,
+		"NameJPN": "識",
+		"JPN": "「でも、あまりに時間が経ちすぎて……」",
+		"NameENG": "Shiki",
+		"ENG": "\"But too much time passed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4bc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 854,
+		"MSGID": 264,
+		"VOICEID": 38582,
+		"NameJPN": "識",
+		"JPN": "「しゃべることも無く、ただその場所に居続けて……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I stayed there, not saying a thing.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 857,
+		"MSGID": 265,
+		"VOICEID": 38583,
+		"NameJPN": "識",
+		"JPN": "「やがて考えたりすることもできなくなってしまって……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Eventually, I stopped thinking entirely.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 860,
+		"MSGID": 266,
+		"VOICEID": 38584,
+		"NameJPN": "識",
+		"JPN": "「だから忘れてしまった」",
+		"NameENG": "Shiki",
+		"ENG": "\"And I forgot.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 863,
+		"MSGID": 267,
+		"VOICEID": 38585,
+		"NameJPN": "識",
+		"JPN": "「僕がしたかったことや、その理由……自分自身のことを」",
+		"NameENG": "Shiki",
+		"ENG": "\"What I wanted to do, the reason why, my very self.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4cd4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 866,
+		"MSGID": 268,
+		"VOICEID": 38586,
+		"NameJPN": "識",
+		"JPN": "「あのままあそこにいたら、それこそ識という名前も忘れていたかもしれない……」",
+		"NameENG": "Shiki",
+		"ENG": "\"If I had stayed like that, I might've even forgotten the name 'Shiki.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 869,
+		"MSGID": 269,
+		"VOICEID": 38587,
+		"NameJPN": "識",
+		"JPN": "「なのに、時折何かが僕の頭の中を通り過ぎていくんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"But something would occasionally pass through my head.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 872,
+		"MSGID": 270,
+		"VOICEID": 38588,
+		"NameJPN": "識",
+		"JPN": "「あそこを抜け出せたのは、本当にただの偶然だったんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"My escape was really due to nothing but chance.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4dcc",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "6a0316000000"
+	},
+	{
+		"LABEL": "0x4dd6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6c03"
+	},
+	{
+		"LABEL": "0x4ddc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x4dea",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x4df2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x4df8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x4dfe",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x4e04",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x4e12",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x4e18",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4e1c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "6e030307290205"
+	},
+	{
+		"LABEL": "0x4e28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6f030306e8fd03"
+	},
+	{
+		"LABEL": "0x4e34",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "030696"
+	},
+	{
+		"LABEL": "0x4e3c",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03060000003e003e"
+	},
+	{
+		"LABEL": "0x4e48",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0306000000c0fe4cff"
+	},
+	{
+		"LABEL": "0x4e56",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "70030005e8fd000000000000"
+	},
+	{
+		"LABEL": "0x4e66",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e8fd000000000000"
+	},
+	{
+		"LABEL": "0x4e74",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000008bfe"
+	},
+	{
+		"LABEL": "0x4e82",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000007501"
+	},
+	{
+		"LABEL": "0x4e90",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "71030005dc"
+	},
+	{
+		"LABEL": "0x4e9a",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "72030006dc"
+	},
+	{
+		"LABEL": "0x4ea4",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "73032100010000000000ffffffff"
+	},
+	{
+		"LABEL": "0x4eb6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7503"
+	},
+	{
+		"LABEL": "0x4ebc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000452b000000000000"
+	},
+	{
+		"LABEL": "0x4eca",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x4ed2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4ed8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4edc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 888,
+		"MSGID": 271,
+		"VOICEID": 38589,
+		"NameJPN": "識",
+		"JPN": "「ある時、その世界に、何かが開くような光が見えたんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"At some point, a light appeared to open before me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 891,
+		"MSGID": 272,
+		"VOICEID": 38590,
+		"NameJPN": "識",
+		"JPN": "「まるで、どこかへ通じる出入口のようだった」",
+		"NameENG": "Shiki",
+		"ENG": "\"Just like an exit of some kind.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 894,
+		"MSGID": 273,
+		"VOICEID": 38591,
+		"NameJPN": "識",
+		"JPN": "「少しすると光は消えるんだけど、また一定間隔で現れてさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"After a while, it would vanish, but then reappear at regular intervals.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 897,
+		"MSGID": 274,
+		"VOICEID": 38592,
+		"NameJPN": "識",
+		"JPN": "「最初は気にも留めなかったんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"I didn't pay attention to it at first.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 900,
+		"MSGID": 275,
+		"VOICEID": 38593,
+		"NameJPN": "識",
+		"JPN": "「でも、その時だけなぜか気になって……僕はその光をくぐったんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"But that specific time, for one reason or another, it grabbed me and I went into it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5044",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 903,
+		"MSGID": 276,
+		"VOICEID": 38594,
+		"NameJPN": "識",
+		"JPN": "「そうしたら……」",
+		"NameENG": "Shiki",
+		"ENG": "\"After that...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x506c",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "8b0321000000"
+	},
+	{
+		"LABEL": "0x5076",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "22000000"
+	},
+	{
+		"LABEL": "0x507e",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "8c030307"
+	},
+	{
+		"LABEL": "0x5086",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x508c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "030600000000000000"
+	},
+	{
+		"LABEL": "0x509a",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x50a0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0005"
+	},
+	{
+		"LABEL": "0x50a6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x50b4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x50ba",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x50c8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8d03"
+	},
+	{
+		"LABEL": "0x50ce",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x50dc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x50e4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x50ea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x50f0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x50f6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x5104",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x510a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x510e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8e030307290205"
+	},
+	{
+		"LABEL": "0x511a",
+		"Type": "SEPIA_COLOR",
+		"SUBCMD": 0,
+		"Args": "d5d5d52a1005"
+	},
+	{
+		"LABEL": "0x5124",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff00ff"
+	},
+	{
+		"LABEL": "0x512c",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff04ff"
+	},
+	{
+		"LABEL": "0x5134",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9203"
+	},
+	{
+		"LABEL": "0x513a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002500000000000000"
+	},
+	{
+		"LABEL": "0x5148",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5150",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "010022ba00008002b4008800"
+	},
+	{
+		"LABEL": "0x5160",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x5166",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x516c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 916,
+		"MSGID": 277,
+		"VOICEID": 38595,
+		"NameJPN": "識",
+		"JPN": "「この時代に来ていた」",
+		"NameENG": "Shiki",
+		"ENG": "\"I arrived in this time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5198",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9603010015ba"
+	},
+	{
+		"LABEL": "0x51a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x51a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 919,
+		"MSGID": 278,
+		"VOICEID": 38596,
+		"NameJPN": "識",
+		"JPN": "「その時覚えていたのは、識という自分の名前と、鬼の話を探さなければならないという使命感のようなもの」",
+		"NameENG": "Shiki",
+		"ENG": "\"All I remembered was my own name and the vague sense that I had to find stories about oni.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5222",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 920,
+		"MSGID": 279,
+		"VOICEID": 38597,
+		"NameJPN": "識",
+		"JPN": "「今なら、どうしてそんなことをしようとしていたのかわかるよ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Now I understand why.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5274",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "9a030307"
+	},
+	{
+		"LABEL": "0x527c",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff0000"
+	},
+	{
+		"LABEL": "0x5284",
+		"Type": "SEPIA",
+		"SUBCMD": 0,
+		"Args": "ff0400"
+	},
+	{
+		"LABEL": "0x528c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a003"
+	},
+	{
+		"LABEL": "0x5292",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009a01000000000000"
+	},
+	{
+		"LABEL": "0x52a0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x52a8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010040bb"
+	},
+	{
+		"LABEL": "0x52b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x52b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x52bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 930,
+		"MSGID": 280,
+		"VOICEID": 38598,
+		"NameJPN": "識",
+		"JPN": "「僕はね、羽依里くん……自分の企てが成功したかどうかを確かめたかったんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hairi-kun, I... wanted to see if my plan came to fruition.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x531c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a403010029bb"
+	},
+	{
+		"LABEL": "0x5326",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x532c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 933,
+		"MSGID": 281,
+		"VOICEID": 38599,
+		"NameJPN": "識",
+		"JPN": "「鬼になって、島の人たちを山に追い立てて、津波から助ける」",
+		"NameENG": "Shiki",
+		"ENG": "\"My plan to become an oni, run out the islanders, and save them from the tsunami.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x537c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a703010047bb"
+	},
+	{
+		"LABEL": "0x5386",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x538c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 936,
+		"MSGID": 282,
+		"VOICEID": 38600,
+		"NameJPN": "識",
+		"JPN": "「この時代の鳥白島に、鬼の昔話が残っていれば、僕のその企ては成功したということになる」",
+		"NameENG": "Shiki",
+		"ENG": "\"If there were folk legends about oni in the Torishirojima of this time, that would mean it succeeded.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x53f8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "aa03010029bb"
+	},
+	{
+		"LABEL": "0x5402",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5408",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 939,
+		"MSGID": 283,
+		"VOICEID": 38601,
+		"NameJPN": "識",
+		"JPN": "「だから、確かめたかった」",
+		"NameENG": "Shiki",
+		"ENG": "\"I wanted to find out.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5438",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ad03010087bb"
+	},
+	{
+		"LABEL": "0x5442",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5448",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 942,
+		"MSGID": 284,
+		"VOICEID": 38602,
+		"NameJPN": "識",
+		"JPN": "「僕が……鬼になれていたのかを」",
+		"NameENG": "Shiki",
+		"ENG": "\"Did I manage to become an oni?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x547e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b203010076bb"
+	},
+	{
+		"LABEL": "0x5488",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x548e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 947,
+		"MSGID": 285,
+		"VOICEID": 38603,
+		"NameJPN": "識",
+		"JPN": "「でも……この島には、鬼の昔話は残っていなかった」",
+		"NameENG": "Shiki",
+		"ENG": "\"But there were no stories to find here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x54d6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b503010090bb"
+	},
+	{
+		"LABEL": "0x54e0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x54e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 950,
+		"MSGID": 286,
+		"VOICEID": 38604,
+		"NameJPN": "識",
+		"JPN": "「つまり、僕は鬼になることができなかった……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Meaning I couldn't do it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x552a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b803010093bb"
+	},
+	{
+		"LABEL": "0x5534",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x553a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 953,
+		"MSGID": 287,
+		"VOICEID": 38605,
+		"NameJPN": "識",
+		"JPN": "「その結果がこれさ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"And this is the result...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5568",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 955,
+		"MSGID": 288,
+		"JPN": "識は手を伸ばし、慰霊碑に触れた。",
+		"ENG": "She put her hand to the memorial.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5598",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bd03010072bb"
+	},
+	{
+		"LABEL": "0x55a2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x55a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 958,
+		"MSGID": 289,
+		"VOICEID": 38606,
+		"NameJPN": "識",
+		"JPN": "「僕が鬼になれなかったばかりに、島の人たちが犠牲になった……」",
+		"NameENG": "Shiki",
+		"ENG": "\"All because I couldn't become an oni, these people lost their lives...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x55fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 959,
+		"MSGID": 290,
+		"VOICEID": 38607,
+		"NameJPN": "識",
+		"JPN": "「７８人もの人が死んでしまった……僕が大好きだった人たちが……こんなにたくさん……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Seventy-eight people died... People I loved... so many of them...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5666",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c103010076bb"
+	},
+	{
+		"LABEL": "0x5670",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5676",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 962,
+		"MSGID": 291,
+		"VOICEID": 38608,
+		"NameJPN": "識",
+		"JPN": "「助けられなかった……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I couldn't save them...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x56a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 963,
+		"MSGID": 292,
+		"VOICEID": 38609,
+		"NameJPN": "識",
+		"JPN": "「助けたかったのに……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I wanted to so bad...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x56d2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c503010093bb"
+	},
+	{
+		"LABEL": "0x56dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x56e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 966,
+		"MSGID": 293,
+		"VOICEID": 38610,
+		"NameJPN": "識",
+		"JPN": "「せっかく鳴瀬の巫女が僕に予知の話をしてくれたのに……」",
+		"NameENG": "Shiki",
+		"ENG": "\"The Naruse maiden told me of her predictions and yet...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5730",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c803010050bb"
+	},
+	{
+		"LABEL": "0x573a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5740",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 969,
+		"MSGID": 294,
+		"VOICEID": 38611,
+		"NameJPN": "識",
+		"JPN": "「まったく、情けない話さ」",
+		"NameENG": "Shiki",
+		"ENG": "\"How pathetic...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5770",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cb0301004dbb"
+	},
+	{
+		"LABEL": "0x577a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5780",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 972,
+		"MSGID": 295,
+		"VOICEID": 38612,
+		"NameJPN": "識",
+		"JPN": "「結局僕は、自分かわいさに逃げ出したんだからさ」",
+		"NameENG": "Shiki",
+		"ENG": "\"In the end, I ran away out of my own selfishness.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 974,
+		"MSGID": 296,
+		"JPN": "笑いながら肩をすくめる識。",
+		"ENG": "She shrugged her shoulders and laughed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x57f0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "d003"
+	},
+	{
+		"LABEL": "0x57f6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ae01000000000000"
+	},
+	{
+		"LABEL": "0x5804",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x5816",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000015000c00"
+	},
+	{
+		"LABEL": "0x5824",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x582c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x5832",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "01002dbb00008002b400ec00"
+	},
+	{
+		"LABEL": "0x5842",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5848",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x584c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 978,
+		"MSGID": 297,
+		"JPN": "そんな彼女の小さな体を、俺は思わず抱きしめてしまう。",
+		"ENG": "I took her petite body in my arms without thinking.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5890",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d40301004bbb"
+	},
+	{
+		"LABEL": "0x589a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x58a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 981,
+		"MSGID": 298,
+		"VOICEID": 38613,
+		"NameJPN": "識",
+		"JPN": "「羽依里くん？」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hairi-kun?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58c6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d70301004ebb"
+	},
+	{
+		"LABEL": "0x58d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x58d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 984,
+		"MSGID": 299,
+		"VOICEID": 38614,
+		"NameJPN": "識",
+		"JPN": "「急にどうしたんだい？」",
+		"NameENG": "Shiki",
+		"ENG": "\"What's gotten into you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5904",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 986,
+		"MSGID": 300,
+		"NameJPN": "羽依里",
+		"JPN": "「いや……なんていうか、おまえが無理してるから……」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're just... I don't know. You're just pushing yourself so far...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5952",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dc03010041bb"
+	},
+	{
+		"LABEL": "0x595c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5962",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 989,
+		"MSGID": 301,
+		"VOICEID": 38615,
+		"NameJPN": "識",
+		"JPN": "「別に無理なんて……」",
+		"NameENG": "Shiki",
+		"ENG": "\"I'm not pushing anything.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x598e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 991,
+		"MSGID": 302,
+		"NameJPN": "羽依里",
+		"JPN": "「泣いてるのに泣いてない……」",
+		"NameENG": "Hairi",
+		"ENG": "\"You want to cry, but won't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x59c6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e10301004ebb"
+	},
+	{
+		"LABEL": "0x59d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x59d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 994,
+		"MSGID": 303,
+		"VOICEID": 38616,
+		"NameJPN": "識",
+		"JPN": "「よしてくれよ、僕がしたことは泣いて許されるようなことじゃない」",
+		"NameENG": "Shiki",
+		"ENG": "\"Stop this. What I've done can't be forgiven with tears.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a2c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e40301002abb"
+	},
+	{
+		"LABEL": "0x5a36",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5a3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 997,
+		"MSGID": 304,
+		"VOICEID": 38617,
+		"NameJPN": "識",
+		"JPN": "「なにより、僕自身が許せないんだ」",
+		"NameENG": "Shiki",
+		"ENG": "\"More than anything, I can't forgive myself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 999,
+		"MSGID": 305,
+		"NameJPN": "羽依里",
+		"JPN": "「おまえのせいじゃない」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's not your fault.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5aa6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e90301004bbb"
+	},
+	{
+		"LABEL": "0x5ab0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5ab6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1002,
+		"MSGID": 306,
+		"VOICEID": 38618,
+		"NameJPN": "識",
+		"JPN": "「え……」",
+		"NameENG": "Shiki",
+		"ENG": "\"What...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ad6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1004,
+		"MSGID": 307,
+		"NameJPN": "羽依里",
+		"JPN": "「おまえは、頑張ったんだろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You tried your best, didn't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1006,
+		"MSGID": 308,
+		"NameJPN": "羽依里",
+		"JPN": "「友達のために、島の人たちのために」",
+		"NameENG": "Hairi",
+		"ENG": "\"For your friends, for everyone on the island.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1008,
+		"MSGID": 309,
+		"NameJPN": "羽依里",
+		"JPN": "「だったら、悪い事なんて何もないよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"If you did, then you've done nothing wrong.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b8a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f20301004ebb"
+	},
+	{
+		"LABEL": "0x5b94",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5b9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1011,
+		"MSGID": 310,
+		"VOICEID": 38619,
+		"NameJPN": "識",
+		"JPN": "「羽依里くん……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Hairi-kun...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5bc2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f503010051bb"
+	},
+	{
+		"LABEL": "0x5bcc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5bd2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1014,
+		"MSGID": 311,
+		"VOICEID": 38620,
+		"NameJPN": "識",
+		"JPN": "「んへへ……ずいぶんと優しいじゃないか」",
+		"NameENG": "Shiki",
+		"ENG": "\"Nhehe... You're being awfully gentle.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c10",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f80301004ebb"
+	},
+	{
+		"LABEL": "0x5c1a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5c20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1017,
+		"MSGID": 312,
+		"VOICEID": 38621,
+		"NameJPN": "識",
+		"JPN": "「……よしてくれよ……こんな時に優しくするなんて、ずるいぜ……」",
+		"NameENG": "Shiki",
+		"ENG": "\"Stop it... It's not fair of you to be this kind at a time like this...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1019,
+		"MSGID": 313,
+		"JPN": "俺の胸の中で、識の肩が小さく震え始める。",
+		"ENG": "Her shoulders began to shake like a leaf.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5cae",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fd03010035bb"
+	},
+	{
+		"LABEL": "0x5cb8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5cbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1022,
+		"MSGID": 314,
+		"VOICEID": 38622,
+		"NameJPN": "識",
+		"JPN": "「そんなふうにされたら……我慢……出来なくなるっ……！」",
+		"NameENG": "Shiki",
+		"ENG": "\"If you treat me like this, I... I won't be able to control myself!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d0c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0004010037bb"
+	},
+	{
+		"LABEL": "0x5d16",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5d1c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1025,
+		"MSGID": 315,
+		"VOICEID": 38623,
+		"NameJPN": "識",
+		"JPN": "「う……うううっ……うあああっ……！」",
+		"NameENG": "Shiki",
+		"ENG": "\"...Uuuaaaah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1026,
+		"MSGID": 316,
+		"VOICEID": 38624,
+		"NameJPN": "識",
+		"JPN": "「うあああああぁぁぁぁぁーーーーー!!!」",
+		"NameENG": "Shiki",
+		"ENG": "\"Aaaaaaaaaaaaaahhhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5d98",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1028,
+		"MSGID": 317,
+		"JPN": "ああ、なんか悔しいな。",
+		"ENG": "God, how frustrating this is...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5dbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1030,
+		"MSGID": 318,
+		"JPN": "識が泣いているのに、こうやって抱き締める事くらいしかできない。",
+		"ENG": "Shiki's crying and all I can do is hold her like this.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e0c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1032,
+		"MSGID": 319,
+		"JPN": "でも、これで少しでも識が楽になれるのなら。",
+		"ENG": "But as long as it brings her even a little peace...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1034,
+		"MSGID": 320,
+		"JPN": "それでも良いと思った。",
+		"ENG": "I'm okay with that.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e6c",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0e04000000007800"
+	},
+	{
+		"LABEL": "0x5e78",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1004"
+	},
+	{
+		"LABEL": "0x5e7e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5e86",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x5e8c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x5e9a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x5ea0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x5ea6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5eaa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5eb0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1204d11b0200"
+	},
+	{
+		"LABEL": "0x5eba",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1404b6860100"
+	},
+	{
+		"LABEL": "0x5ec4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1704"
+	},
+	{
+		"LABEL": "0x5eca",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003f00000000000000"
+	},
+	{
+		"LABEL": "0x5ed8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5ee0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x5ee6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5eea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1049,
+		"MSGID": 321,
+		"JPN": "よほど泣き疲れたのか、家に戻るなり識は布団に潜り込み、食事もせずにそのまま深く眠ってしまった。",
+		"ENG": "After Shiki cried herself out, we came back home, she slipped into her futon, then fell fast asleep without eating.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1051,
+		"MSGID": 322,
+		"JPN": "俺は座布団の上に寝転がりながら、あらためて鳥白山海文書を読んでいた。",
+		"ENG": "I looked through the Torishiro Archive of Mountain and Sea, reclined on a floor cushion.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5fac",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "1d0405b20d0300"
+	},
+	{
+		"LABEL": "0x5fb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1055,
+		"MSGID": 323,
+		"NameJPN": "羽依里",
+		"JPN": "「１５０年前の鳥白島からきた１４歳の少女か……」",
+		"NameENG": "Hairi",
+		"ENG": "\"A fourteen-year-old girl from a Torishirojima a hundred and fifty years in the past...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6002",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1057,
+		"MSGID": 324,
+		"JPN": "にわかには信じられない話だった。",
+		"ENG": "It was hard to believe right away.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6032",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1059,
+		"MSGID": 325,
+		"JPN": "正直、俺もまだ混乱している。",
+		"ENG": "Honestly, my head was still swimming.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x605e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1061,
+		"MSGID": 326,
+		"JPN": "識の様子からすれば、彼女が嘘をついているとは思えない。",
+		"ENG": "Based on how she acted, it didn't seem like a lie.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1063,
+		"MSGID": 327,
+		"JPN": "思春期特有のアレだというには、真剣味が違いすぎる。",
+		"ENG": "The somberness of it all was just too far gone from some adolescent 'phase.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1065,
+		"MSGID": 328,
+		"JPN": "でも……",
+		"ENG": "But...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1067,
+		"MSGID": 329,
+		"NameJPN": "羽依里",
+		"JPN": "「すぐに信じろっていう方が無理だよな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"There's just no way I can go with it right away...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6142",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "2d0405b20d0300"
+	},
+	{
+		"LABEL": "0x614e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1071,
+		"MSGID": 330,
+		"JPN": "１５０年前、この島が津波に襲われることは、確かに古文書に書かれている。",
+		"ENG": "Clear as day, the tsunami that flooded the island a hundred fifty years ago was written in these pages.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x61a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1073,
+		"MSGID": 331,
+		"JPN": "そして、この古文書を読んだ識なら、そのことも当然知っていることだろう。",
+		"ENG": "And Shiki read them, so of course she would know about it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x61fa",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "330405b20d0300"
+	},
+	{
+		"LABEL": "0x6206",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1077,
+		"MSGID": 332,
+		"JPN": "古文書に書かれていることを、自分の記憶として取り込んだ可能性もある。",
+		"ENG": "It's possible she took this record as her own memory.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x625a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1079,
+		"MSGID": 333,
+		"JPN": "まるで自分が物語の登場人物だったような思い込みを――……",
+		"ENG": "Like she has herself convinced she's the protagonist of this―",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62a2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "390405b20d0300"
+	},
+	{
+		"LABEL": "0x62ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1083,
+		"MSGID": 334,
+		"NameJPN": "羽依里",
+		"JPN": "「……ん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hm?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1085,
+		"MSGID": 335,
+		"JPN": "古文書を読んでいて、妙な違和感を覚える。",
+		"ENG": "As I read, a weird feeling crept up on me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x630c",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3f0400000000b400"
+	},
+	{
+		"LABEL": "0x6318",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1089,
+		"MSGID": 336,
+		"NameJPN": "羽依里",
+		"JPN": "「なんだこれ……こんなこと書かれていたか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What is this? Was this written in here before?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x635e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4304be860100"
+	},
+	{
+		"LABEL": "0x6368",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1093,
+		"MSGID": 337,
+		"JPN": "古文書の内容が、以前読んだものと変わっていた。",
+		"ENG": "The contents of the book were different from the last time I read it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x63a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1095,
+		"MSGID": 338,
+		"NameJPN": "羽依里",
+		"JPN": "「別の本……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is it a different book...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x63d0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4a04"
+	},
+	{
+		"LABEL": "0x63d6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4b040005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x63e6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x63f4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x6402",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x6410",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "53040000fb00000000000000"
+	},
+	{
+		"LABEL": "0x6420",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x6428",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x643a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x6448",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "55040007e9fd040000000000"
+	},
+	{
+		"LABEL": "0x6458",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0009a507040000000000"
+	},
+	{
+		"LABEL": "0x6466",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000900"
+	},
+	{
+		"LABEL": "0x646e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "000796"
+	},
+	{
+		"LABEL": "0x6476",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x647c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1111,
+		"MSGID": 339,
+		"JPN": "表紙を確認してみたが、『鳥白山海文書』とちゃんと書かれている。",
+		"ENG": "I confirmed the title on the cover―The Torishiro Archive of Mountain and Sea.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x64ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1113,
+		"MSGID": 340,
+		"NameJPN": "羽依里",
+		"JPN": "「だよな……でも……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Right... but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x64fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1115,
+		"MSGID": 341,
+		"JPN": "再び中身を確認すると、明らかに見覚えのない言葉がいくつかあった。",
+		"ENG": "After rechecking its pages, I found unfamiliar words distinctly among them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x654a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1117,
+		"MSGID": 342,
+		"JPN": "その中で一番印象的なのは……",
+		"ENG": "The ones that left the biggest impression were...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6576",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1119,
+		"MSGID": 343,
+		"NameJPN": "羽依里",
+		"JPN": "「鬼姫と名乗る……海賊……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"The pirate known as... Onihime?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x65ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1121,
+		"MSGID": 344,
+		"JPN": "以前読んだときには、『鬼』なんて文字はなかった。",
+		"ENG": "I found no 'oni' when I read it before.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x65ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1123,
+		"MSGID": 345,
+		"JPN": "その文字には特に注意して読んだから覚えている。",
+		"ENG": "I paid special attention to that word, so I'm positive.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x662c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1125,
+		"MSGID": 346,
+		"JPN": "一つくらいなら見過ごしたとしても、今は『鬼姫』という文字がいくつも出てくる。",
+		"ENG": "Maybe I could've missed one or two, but the name 'Onihime' now appeared everywhere.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6688",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1127,
+		"MSGID": 347,
+		"NameJPN": "羽依里",
+		"JPN": "「古文書の内容が変わっている……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"The record's changed...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x66c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1129,
+		"MSGID": 348,
+		"JPN": "古文書には、鬼姫と名乗る海賊が、この島を根城にしていたということが書かれている。",
+		"ENG": "According to it, this pirate called Onihime used this island as a headquarters.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6726",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "6b0400000000b400"
+	},
+	{
+		"LABEL": "0x6732",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1133,
+		"MSGID": 349,
+		"JPN": "ただ……とにかく弱かった、と。",
+		"ENG": "But also... they were weak.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6760",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6f04"
+	},
+	{
+		"LABEL": "0x6766",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "70040005"
+	},
+	{
+		"LABEL": "0x676e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x677c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x6782",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x6790",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7204"
+	},
+	{
+		"LABEL": "0x6796",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0007"
+	},
+	{
+		"LABEL": "0x679c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0009"
+	},
+	{
+		"LABEL": "0x67a2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003f00000000000000"
+	},
+	{
+		"LABEL": "0x67b0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x67b8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x67be",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x67c2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "74040c220f030002"
+	},
+	{
+		"LABEL": "0x67ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1142,
+		"MSGID": 350,
+		"NameJPN": "羽依里",
+		"JPN": "「なんだ、これ？　弱い海賊？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What? A weak pirate?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6806",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1144,
+		"MSGID": 351,
+		"NameJPN": "羽依里",
+		"JPN": "「わけわかんねえ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I don't get this...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6836",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "7a040c00000000b40001"
+	},
+	{
+		"LABEL": "0x6844",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1148,
+		"MSGID": 352,
+		"JPN": "謎だけが残った……",
+		"ENG": "More mysteries for the pile...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6866",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "81040000b800000000000000"
+	},
+	{
+		"LABEL": "0x6876",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x687e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x6886",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x6892",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x689e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x68a4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x68aa",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x68ae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x68b4",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x68c0",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x68cc",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x68d0",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x68d4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x68dc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x68e4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x68ec",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x68f4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x68fc",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "8204"
+	},
+	{
+		"LABEL": "0x6902",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "84040080"
+	}
+]

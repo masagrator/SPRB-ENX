@@ -1,0 +1,462 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0d00098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1000"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way over to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 1,
+		"JPN": "ここは俺が、十字架を背負った場所だ。",
+		"ENG": "Or rather, to the site of my crucifixion.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1600",
+		"Equation": "(#23==1)",
+		"GOTO_LABEL": "0xe0"
+	},
+	{
+		"LABEL": "0xa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「……ルシファー、か……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Lucifer, really...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1800",
+		"GOTO_LABEL": "0x1e6"
+	},
+	{
+		"LABEL": "0xe0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1900",
+		"Equation": "(#24==1)",
+		"GOTO_LABEL": "0x13a"
+	},
+	{
+		"LABEL": "0xf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「……カナリアンロッカー、か……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Canary 'n' Rocker, really...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x130",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1b00",
+		"GOTO_LABEL": "0x1e6"
+	},
+	{
+		"LABEL": "0x13a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1c00",
+		"Equation": "(#25==1)",
+		"GOTO_LABEL": "0x18e"
+	},
+	{
+		"LABEL": "0x14e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「……チャンピオン、か……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Champion, really...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x184",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1e00",
+		"GOTO_LABEL": "0x1e6"
+	},
+	{
+		"LABEL": "0x18e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1f00",
+		"Equation": "(#26==1)",
+		"GOTO_LABEL": "0x1e6"
+	},
+	{
+		"LABEL": "0x1a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「……ショッキングタカ、か……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Shockin' Taka, really...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2100",
+		"GOTO_LABEL": "0x1e6"
+	},
+	{
+		"LABEL": "0x1e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 6,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 7,
+		"JPN": "意味、わかんね。",
+		"ENG": "What's that even supposed to mean?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 8,
+		"JPN": "でも折角こんなとこまできたんだし、お参りくらいしていこう。",
+		"ENG": "In any case, I came all the way out here, so I figured I might as well pay the shrine a visit.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x264",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 9,
+		"JPN": "賽銭箱に近づく。",
+		"ENG": "I walked up to the offertory box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x284",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 10,
+		"JPN": "さて、いくら入れようか。",
+		"ENG": "Now then, how much should I offer?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ac",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "2d007117b001000000",
+		"JPN": [
+			"１０円",
+			"５０円",
+			"１００円"
+		],
+		"ENG": [
+			"Ten yen",
+			"Fifty yen",
+			"A hundred yen"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x2e0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3500",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x360"
+	},
+	{
+		"LABEL": "0x2f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 11,
+		"JPN": "お賽銭だし、とりあえずこんなもんだろう。",
+		"ENG": "This is pretty much the standard for offerings.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 12,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34a",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "3a001c27313000"
+	},
+	{
+		"LABEL": "0x356",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3b00",
+		"GOTO_LABEL": "0x360"
+	},
+	{
+		"LABEL": "0x360",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3d00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x3d2"
+	},
+	{
+		"LABEL": "0x376",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 13,
+		"JPN": "御縁が十分ありますよーに。",
+		"ENG": "To a brighter future.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 14,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3bc",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "42001c27353000"
+	},
+	{
+		"LABEL": "0x3c8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4300",
+		"GOTO_LABEL": "0x3d2"
+	},
+	{
+		"LABEL": "0x3d2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4500",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x446"
+	},
+	{
+		"LABEL": "0x3e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 15,
+		"JPN": "１００の縁にありますよーに。",
+		"ENG": "To a future of a hundred fortuities.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x414",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 16,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x430",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "4a001c2731303000"
+	},
+	{
+		"LABEL": "0x43c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4b00",
+		"GOTO_LABEL": "0x446"
+	},
+	{
+		"LABEL": "0x446",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 17,
+		"JPN": "さて、帰ろう。",
+		"ENG": "All right, time to head out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x464",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "51000900000000780001"
+	},
+	{
+		"LABEL": "0x472",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "530018005100"
+	},
+	{
+		"LABEL": "0x47c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "550012000100"
+	},
+	{
+		"LABEL": "0x486",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "58000000b800000000000000"
+	},
+	{
+		"LABEL": "0x496",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x49e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x4a6",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x4b2",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x4be",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x4c4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4ca",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4ce",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x4d4",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4d8",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4dc",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5900"
+	},
+	{
+		"LABEL": "0x4e2",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "5d000080"
+	}
+]

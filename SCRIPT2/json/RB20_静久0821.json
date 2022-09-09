@@ -1,0 +1,3869 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1000"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000200000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "130000ad0f030002"
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "1400013c10030002"
+	},
+	{
+		"LABEL": "0x3e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "150002ab0d0300"
+	},
+	{
+		"LABEL": "0x4a",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "17003c00"
+	},
+	{
+		"LABEL": "0x52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 0,
+		"VOICEID": 35526,
+		"NameJPN": "静久の母",
+		"JPN": "「お待たせしました、鷹原くん」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Thank you for waiting, Takahara-kun.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 1,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、こんにちは」",
+		"NameENG": "Hairi",
+		"ENG": "\"No problem.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 2,
+		"JPN": "フェリー乗り場で、目当ての人と落ち合う。",
+		"ENG": "I found the person I was waiting for at the dock.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「急に呼んでしまってすみません」",
+		"NameENG": "Hairi",
+		"ENG": "\"Sorry for calling you out here so suddenly.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 4,
+		"VOICEID": 35527,
+		"NameJPN": "静久の母",
+		"JPN": "「いえ、大丈夫ですよ。……それで用事って」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"No, it's quite all right. So, what is this business you mentioned you had?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x172",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「その……前に言ってたことなんですが」",
+		"NameENG": "Hairi",
+		"ENG": "\"Um... About what I said before...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 6,
+		"VOICEID": 35528,
+		"NameJPN": "静久の母",
+		"JPN": "「静久……とのことですか？」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"You mean about Shizuku?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 7,
+		"NameJPN": "羽依里",
+		"JPN": "「はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yes.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「相談……してみませんか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Do you... want to try counseling?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x242",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 9,
+		"VOICEID": 35529,
+		"NameJPN": "静久の母",
+		"JPN": "「相談？　……誰に」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Counseling? With who?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x272",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「色んな人の悩みを、解決してきた人がいるんです」",
+		"NameENG": "Hairi",
+		"ENG": "\"I know someone who's resolved all sorts of worries from all sorts of people.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 11,
+		"VOICEID": 35530,
+		"NameJPN": "静久の母",
+		"JPN": "「そんな人が……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"And who is...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「案内しますので、どうぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll take you there. This way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 13,
+		"VOICEID": 35531,
+		"NameJPN": "静久の母",
+		"JPN": "「あ……はい」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Ah... Okay.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x348",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "350000000000003c0001"
+	},
+	{
+		"LABEL": "0x356",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "360001000000003c0001"
+	},
+	{
+		"LABEL": "0x364",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "370002000000003c0001"
+	},
+	{
+		"LABEL": "0x372",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 14,
+		"JPN": "俺の後に、静久のお母さんがついてくる。",
+		"ENG": "Shizuku's mother followed behind me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 15,
+		"JPN": "そして向かった先は。",
+		"ENG": "As we headed to...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3f00"
+	},
+	{
+		"LABEL": "0x3d2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009201000000000000"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x3f2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3f6",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4100b3860100"
+	},
+	{
+		"LABEL": "0x400",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 16,
+		"VOICEID": 35532,
+		"NameJPN": "静久の母",
+		"JPN": "「ここ……は」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"This is...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x42a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 17,
+		"JPN": "そこは……彼女も知っている場所。",
+		"ENG": "A place she, too, knew well.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「こちらに……どうぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"This way, please.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x48a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 19,
+		"VOICEID": 35533,
+		"NameJPN": "静久の母",
+		"JPN": "「は、はい……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Y-Yes...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4a00"
+	},
+	{
+		"LABEL": "0x4bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009f01000000000000"
+	},
+	{
+		"LABEL": "0x4ca",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x4d2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x4dc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x4e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 20,
+		"JPN": "静久のお母さんを……",
+		"ENG": "I brought her inside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x504",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「静久……いいか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shizuku... Everything good?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x532",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "50000600159309006b006eff"
+	},
+	{
+		"LABEL": "0x542",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 81,
+		"MSGID": 22,
+		"VOICEID": 35534,
+		"NameJPN": "静久",
+		"JPN": "「……うん」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Mm-hmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x566",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5500"
+	},
+	{
+		"LABEL": "0x56c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x574",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x582",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x588",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x58e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x592",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x598",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5600"
+	},
+	{
+		"LABEL": "0x59e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001f08000000000000"
+	},
+	{
+		"LABEL": "0x5ac",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5b4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5ba",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 23,
+		"VOICEID": 35535,
+		"NameJPN": "静久の母",
+		"JPN": "「あ……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 24,
+		"JPN": "静久の前に座ってもらう。",
+		"ENG": "And had her sit in front of Shizuku.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 25,
+		"JPN": "俺は……静久の隣に座る。",
+		"ENG": "I sat next to her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x634",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 26,
+		"JPN": "静久は、少し迷った後で。",
+		"ENG": "Shizuku, after some hesitation―",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x65c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 27,
+		"VOICEID": 35536,
+		"NameJPN": "静久",
+		"JPN": "「悩みが……あるそうで……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I hear there's... something troubling you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x690",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 28,
+		"JPN": "そう口を開いた。",
+		"ENG": "Spoke those words.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 29,
+		"VOICEID": 35537,
+		"NameJPN": "静久の母",
+		"JPN": "「……はい」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Yes...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 30,
+		"JPN": "母娘の対面……。",
+		"ENG": "Mother meets daughter...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 31,
+		"JPN": "だけれど、それは感じない。",
+		"ENG": "It felt like nothing of the sort.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x722",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 32,
+		"JPN": "いや、感じさせないようにしているんだろう。",
+		"ENG": "No, they were keeping it from feeling like that on purpose.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x75c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 33,
+		"JPN": "お母さんもそれは察したようだ。",
+		"ENG": "Her mother seemed to figure it out, too.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x78a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 34,
+		"JPN": "娘と母親という関係では、怒ってしまう。",
+		"ENG": "If they were parent and child, she would snap.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 35,
+		"JPN": "だから……こういう形で。",
+		"ENG": "So they took a different form.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 36,
+		"JPN": "相談者という形でなら……うまくいくかもしれない。",
+		"ENG": "As counselor and consulter, things just might go well.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x828",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 37,
+		"JPN": "向き合えるかもしれない。",
+		"ENG": "They just might be able to face each other.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x850",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7600"
+	},
+	{
+		"LABEL": "0x856",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002008000000000000"
+	},
+	{
+		"LABEL": "0x864",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x86c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x872",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x876",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 38,
+		"VOICEID": 35538,
+		"NameJPN": "静久",
+		"JPN": "「……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x896",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 39,
+		"VOICEID": 35539,
+		"NameJPN": "静久の母",
+		"JPN": "「……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 40,
+		"VOICEID": 35540,
+		"NameJPN": "静久",
+		"JPN": "「あ……の……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Uh... Ummm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 41,
+		"VOICEID": 35541,
+		"NameJPN": "静久の母",
+		"JPN": "「……はい」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"...Yes.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x90a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8000000000007800"
+	},
+	{
+		"LABEL": "0x916",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 42,
+		"JPN": "そう言ったきり、二人ともが黙ってしまう。",
+		"ENG": "They fell silent.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x94e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 43,
+		"JPN": "お互いに思うことがあるからこそ……。",
+		"ENG": "They each had things on their minds.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x982",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 44,
+		"JPN": "……何も言えない。",
+		"ENG": "So they could say nothing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 45,
+		"JPN": "でも、きっと……これは彼女たちの問題。",
+		"ENG": "But... this was their problem. Not mine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 46,
+		"JPN": "だから……。",
+		"ENG": "So...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9f6",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "8e00ab860100"
+	},
+	{
+		"LABEL": "0xa00",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9000"
+	},
+	{
+		"LABEL": "0xa06",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002308000000000000"
+	},
+	{
+		"LABEL": "0xa14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xa22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 146,
+		"MSGID": 47,
+		"VOICEID": 35542,
+		"NameJPN": "静久",
+		"JPN": "「あ……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 148,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 49,
+		"JPN": "頑張れ……と、手を握った。",
+		"ENG": "I held her hand in support.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa94",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 50,
+		"JPN": "震える手が。",
+		"ENG": "Her trembling...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xab0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 51,
+		"JPN": "冷たい手が。",
+		"ENG": "Cold hand...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xacc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 52,
+		"JPN": "体温を取り戻していく。",
+		"ENG": "Gradually regained its warmth.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaf2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a000"
+	},
+	{
+		"LABEL": "0xaf8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002208000000000000"
+	},
+	{
+		"LABEL": "0xb06",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xb0e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xb14",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xb18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 161,
+		"MSGID": 53,
+		"VOICEID": 35543,
+		"NameJPN": "静久",
+		"JPN": "「……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 54,
+		"JPN": "もう、大丈夫だろう。",
+		"ENG": "She'll be okay.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 193,
+		"MSGID": 55,
+		"VOICEID": 35546,
+		"NameJPN": "静久",
+		"JPN": "「お悩みを……どうぞ？」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Please, tell me what's concerning you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 198,
+		"MSGID": 56,
+		"VOICEID": 35272,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子の好きにさせたい……そう思うんですが」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I want to give her freedom. I really do, but―!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbd6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 57,
+		"VOICEID": 35273,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子が何かをするたびに、アドバイスをしたくなってしまうんです」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Every time she does something, I can't help wanting to advise her.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 58,
+		"VOICEID": 35274,
+		"NameJPN": "静久の母",
+		"JPN": "「……求めていないことまで、アドバイスをしてしまい」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Even where it isn't warranted, I can't help myself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 206,
+		"MSGID": 59,
+		"VOICEID": 35275,
+		"NameJPN": "静久の母",
+		"JPN": "「これから、どういうことをするか、先回りして考えてしまうんです」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I start thinking ahead to what she might do in the future.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xce0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 208,
+		"MSGID": 60,
+		"JPN": "……似ている。",
+		"ENG": "...How similar she was...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 61,
+		"JPN": "静久に。",
+		"ENG": "To Shizuku...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 62,
+		"VOICEID": 35276,
+		"NameJPN": "静久の母",
+		"JPN": "「何が起こるか、どんな問題が起こるか、どうすれば効率的か……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"What's going to happen? What problems will arise? What is the most efficient?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 214,
+		"MSGID": 63,
+		"VOICEID": 35277,
+		"NameJPN": "静久の母",
+		"JPN": "「そんなことを、私が考え……強要してしまいます」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I start thinking about these things and... force my will on her.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 64,
+		"JPN": "考えて答えを出すこと。",
+		"ENG": "The way she thinks things through to arrive at a solution.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xde2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 218,
+		"MSGID": 65,
+		"JPN": "それも、静久が得意とすること。",
+		"ENG": "Shizuku was good at that same thing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 220,
+		"MSGID": 66,
+		"VOICEID": 35278,
+		"NameJPN": "静久の母",
+		"JPN": "「正しいことはこう。こうしなければいけない」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"This is the correct way. You have to do it this way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 67,
+		"VOICEID": 35279,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子の好きにさせようとしていたことが、結局私の意見で塗りつぶしている」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Everything I try to let her do on her own, I end up spoiling with my own opinions.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xebe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 68,
+		"VOICEID": 35280,
+		"NameJPN": "静久の母",
+		"JPN": "「そして、そこから外れたら……イライラして……しまうんです」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"And if she steps out of line... I get... frustrated.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 226,
+		"MSGID": 69,
+		"VOICEID": 35281,
+		"NameJPN": "静久の母",
+		"JPN": "「私の考えたことで、成功していくあの子が見たい……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I want to see her succeed along the way I've thought out.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 228,
+		"MSGID": 70,
+		"VOICEID": 35282,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子は、いい子ですから……それに従います」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"And she's a good girl, so... she obeys.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 230,
+		"MSGID": 71,
+		"VOICEID": 35283,
+		"NameJPN": "静久の母",
+		"JPN": "「その中で……思っている以上の結果を出します」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"All the while going above and beyond expectations.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xffa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 72,
+		"VOICEID": 35284,
+		"NameJPN": "静久の母",
+		"JPN": "「ある日、私がアドバイスをしなかったことがあります」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"One day, I didn't give her any advice.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x104a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 234,
+		"MSGID": 73,
+		"VOICEID": 35285,
+		"NameJPN": "静久の母",
+		"JPN": "「『好きにすれば』と冷たく当たり、あの子は自分一人でそれをしました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I brushed her off, told her to do what she felt like, and she did it on her own.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 236,
+		"MSGID": 74,
+		"VOICEID": 35286,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子は、おずおずと、気を遣いながら作業をしていました……私は……その様子を見て……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"She so timidly and carefully went about it and... as I watched...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x111e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 75,
+		"VOICEID": 35287,
+		"NameJPN": "静久の母",
+		"JPN": "「失敗してほしいと……そう思っていました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I wanted her to fail...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1164",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 240,
+		"MSGID": 76,
+		"VOICEID": 35288,
+		"NameJPN": "静久の母",
+		"JPN": "「どうせ失敗する……私に泣きついてくる」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"She's just going to fail anyway. She'll come crying back to me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 242,
+		"MSGID": 77,
+		"VOICEID": 35289,
+		"NameJPN": "静久の母",
+		"JPN": "「私がいてあげないと、あの子は何もできない」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"She can't do a thing without me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 244,
+		"MSGID": 78,
+		"VOICEID": 35290,
+		"NameJPN": "静久の母",
+		"JPN": "「それに気づいてほしい……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Can't she just realize it already?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1228",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 246,
+		"MSGID": 79,
+		"VOICEID": 35291,
+		"NameJPN": "静久の母",
+		"JPN": "「そう思っていたのですが……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I thought all of that, but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1262",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 80,
+		"VOICEID": 35292,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子は、成果を出しました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"She succeeded.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x129c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 250,
+		"MSGID": 81,
+		"VOICEID": 35293,
+		"NameJPN": "静久の母",
+		"JPN": "「私が考えている以上に……大きな成果を」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Far and away. To an even greater extent than I imagined.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 252,
+		"MSGID": 82,
+		"JPN": "鏡子さんの言葉や、徳田が頭をよぎる。",
+		"ENG": "Kyouko-san's and Tokuda's words crossed my mind.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1314",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 254,
+		"MSGID": 83,
+		"JPN": "並の努力では到達できない場所に、あの子は難なく到達する人間。",
+		"ENG": "She effortlessly reaches heights the average person can't.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1360",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 84,
+		"JPN": "頼りにされたい母と、それを難なく超えていってしまう娘。",
+		"ENG": "The mother wanted to be relied upon, yet the daughter surpassed her with ease.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 85,
+		"VOICEID": 35294,
+		"NameJPN": "静久の母",
+		"JPN": "「私はただ……あの子を縛りたかっただけなのだ……と、気が付きました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I realized that... all I wanted was to tie her down.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1406",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 260,
+		"MSGID": 86,
+		"VOICEID": 35295,
+		"NameJPN": "静久の母",
+		"JPN": "「私は……間違っていたのだと……そう思いました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"That... I was wrong...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1452",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 262,
+		"MSGID": 87,
+		"VOICEID": 35296,
+		"NameJPN": "静久の母",
+		"JPN": "「もう、あの子に何かを言うのはやめよう……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I decided to stop telling her everything.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x149a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 264,
+		"MSGID": 88,
+		"VOICEID": 35297,
+		"NameJPN": "静久の母",
+		"JPN": "「そうやって……自分に言い聞かせました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"That's what I told myself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 266,
+		"MSGID": 89,
+		"VOICEID": 35298,
+		"NameJPN": "静久の母",
+		"JPN": "「けれど……知っているでしょう？」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"But I'm sure you're aware.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x151c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 268,
+		"MSGID": 90,
+		"VOICEID": 35299,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子は……相手を立てて、気を遣います……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"She's considerate and raises others up.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1566",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 270,
+		"MSGID": 91,
+		"VOICEID": 35300,
+		"NameJPN": "静久の母",
+		"JPN": "「その日以降も……気を遣って、求めてくるんです」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Ever since that day, she used that consideration of hers and sought me out.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 272,
+		"MSGID": 92,
+		"VOICEID": 35301,
+		"NameJPN": "静久の母",
+		"JPN": "「私がアドバイスをしたいのを見越して……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"She saw that I wanted to give advice...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 93,
+		"VOICEID": 35302,
+		"NameJPN": "静久の母",
+		"JPN": "「『おかーさん、あれはどうすればいいの？』」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"'What should I do, Mom?'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1640",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 276,
+		"MSGID": 94,
+		"VOICEID": 35303,
+		"NameJPN": "静久の母",
+		"JPN": "「『おかーさん、これのやり方がわからないから教えて』」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"'Can you teach me how to do that, Mom?'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1692",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 278,
+		"MSGID": 95,
+		"VOICEID": 35304,
+		"NameJPN": "静久の母",
+		"JPN": "「『おかーさんのおかげでうまくいったよ？』」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"'You're the reason it turned out well, Mom.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 280,
+		"MSGID": 96,
+		"VOICEID": 35305,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子の考えでやった方が、明らかに成果は上がる」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"It was obvious everything would be better if she just did it her own way.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1728",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 97,
+		"VOICEID": 35306,
+		"NameJPN": "静久の母",
+		"JPN": "「なのに……自分を下げて、アドバイスをもらって……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"But she humbled herself and took the advice...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1778",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 284,
+		"MSGID": 98,
+		"VOICEID": 35307,
+		"NameJPN": "静久の母",
+		"JPN": "「見透かされたうえで……気を遣われている」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Not only did she see right through me, but she was being considerate of me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 286,
+		"MSGID": 99,
+		"JPN": "先回りしてアドバイスをしようとしたお母さん。",
+		"ENG": "Her mother tried to think ahead and give advice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 288,
+		"MSGID": 100,
+		"JPN": "さらにそれを先回りして、アドバイスを求めてくる静久。",
+		"ENG": "Shizuku thought even further ahead and asked for it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x183e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 290,
+		"MSGID": 101,
+		"JPN": "どちらかが、それに気が付かなければ楽なのに……。",
+		"ENG": "If only one of them, just one of them, hadn't realized it...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x187e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 292,
+		"MSGID": 102,
+		"JPN": "優秀がゆえに、気が付いてしまう。",
+		"ENG": "But they were brilliant, and so they did.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 103,
+		"VOICEID": 35308,
+		"NameJPN": "静久の母",
+		"JPN": "「……馬鹿にされているとすら思いました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"It felt like I was being made a fool of.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 104,
+		"VOICEID": 35309,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子を縛りたいという気持ちが……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"My desire to tie her down...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1934",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 298,
+		"MSGID": 105,
+		"VOICEID": 35310,
+		"NameJPN": "静久の母",
+		"JPN": "「怒りに変わりました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Turned to anger.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1966",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 300,
+		"MSGID": 106,
+		"VOICEID": 35311,
+		"NameJPN": "静久の母",
+		"JPN": "「それからあの子を怒ったら……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"And every time I shouted at her...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 107,
+		"VOICEID": 35312,
+		"NameJPN": "静久の母",
+		"JPN": "「『望むような、娘になれなくてごめんなさい……』」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"'I'm sorry I can't be the daughter you want...'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 108,
+		"VOICEID": 35313,
+		"NameJPN": "静久の母",
+		"JPN": "「そう言ってきました」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"―She would say.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 306,
+		"MSGID": 109,
+		"VOICEID": 35314,
+		"NameJPN": "静久の母",
+		"JPN": "「私の怒っていることすらも、何もかも……全て見透かされているようで……！」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Even my anger! Everything! She simply read me like a book!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 308,
+		"MSGID": 110,
+		"VOICEID": 35315,
+		"NameJPN": "静久の母",
+		"JPN": "「……怖い！　怖いんです！」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"It was frightening! I was terrified!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ac0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 310,
+		"MSGID": 111,
+		"VOICEID": 35316,
+		"NameJPN": "静久の母",
+		"JPN": "「娘に使う言葉ではないというのはわかっています！」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I know this isn't how one should speak about their daughter.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 312,
+		"MSGID": 112,
+		"VOICEID": 35317,
+		"NameJPN": "静久の母",
+		"JPN": "「それも受け入れるのが、親だと思っていますけど……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I know it's a parent's duty to accept these things...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 314,
+		"MSGID": 113,
+		"VOICEID": 35318,
+		"NameJPN": "静久の母",
+		"JPN": "「でも……できないんです！　どうしても……！」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"But... I can't! I just can't!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ba8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 114,
+		"VOICEID": 35319,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子の母になりたいのに……あの子の親になりたいのに……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I want to be her mother... I want to be her parent...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 115,
+		"VOICEID": 35320,
+		"NameJPN": "静久の母",
+		"JPN": "「それができない……！」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"But I can't!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 320,
+		"MSGID": 116,
+		"VOICEID": 35321,
+		"NameJPN": "静久の母",
+		"JPN": "「あの子みたいに……なんでも受け入れてあげることが……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"The way she can accept anything and everything...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 322,
+		"MSGID": 117,
+		"VOICEID": 35322,
+		"NameJPN": "静久の母",
+		"JPN": "「私にはできないんです……！」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"I can't do it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cc2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 324,
+		"MSGID": 118,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ce4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 326,
+		"MSGID": 119,
+		"JPN": "この人はきっと……本気で苦しんでいる。",
+		"ENG": "She was, without a doubt, in real pain.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 328,
+		"MSGID": 120,
+		"JPN": "苦しみ続けている。",
+		"ENG": "She was suffering.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 330,
+		"MSGID": 121,
+		"JPN": "その原因の一つは……まだ静久の母親でいようとしていること。",
+		"ENG": "And one of the reasons was... she was still trying to be Shizuku's mother.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 332,
+		"MSGID": 122,
+		"JPN": "それを諦めてしまえば……楽なのに。",
+		"ENG": "Even though it would be so much easier to give it up...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1db8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 334,
+		"MSGID": 123,
+		"JPN": "それでもまだ、愛情を向けようとしている。",
+		"ENG": "She was still trying to love her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1df0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 336,
+		"MSGID": 124,
+		"JPN": "間違った愛情を向けていたことを反省して。",
+		"ENG": "She knew her love had become twisted, and she regretted it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 338,
+		"MSGID": 125,
+		"JPN": "それでも、静久を愛している。",
+		"ENG": "But still, she loved her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e54",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 126,
+		"JPN": "それでも、彼女の母になることを諦めていない。",
+		"ENG": "But still, she wouldn't give up on being her mother.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e90",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 342,
+		"MSGID": 127,
+		"JPN": "ちゃんと愛情を向けようとしている。",
+		"ENG": "She was trying to love her the right way.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ec2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 344,
+		"MSGID": 128,
+		"JPN": "そしておそらく静久も。",
+		"ENG": "And Shizuku, too, for certain.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 346,
+		"MSGID": 129,
+		"JPN": "お母さんのことが好きなのだろう。",
+		"ENG": "She loved her back.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 348,
+		"MSGID": 130,
+		"JPN": "先回りするその癖も。",
+		"ENG": "Their habit of thinking ahead―",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 350,
+		"MSGID": 131,
+		"JPN": "シミュレーションする思考も。",
+		"ENG": "The way they simulate things in their head―",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 132,
+		"JPN": "よく似ている。",
+		"ENG": "These two were mirror images.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 354,
+		"MSGID": 133,
+		"JPN": "たぶん尊敬している。",
+		"ENG": "They probably respected each other.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1faa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 356,
+		"MSGID": 134,
+		"JPN": "なのに。",
+		"ENG": "And yet―",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fc2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 358,
+		"MSGID": 135,
+		"JPN": "実の母娘なのに……。",
+		"ENG": "They were mother and daughter, and yet...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fe6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 360,
+		"MSGID": 136,
+		"JPN": "母娘になれていないことに……苦しみ続けている。",
+		"ENG": "The fact that they couldn't be pained them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2024",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 362,
+		"MSGID": 137,
+		"JPN": "そして……。",
+		"ENG": "Then...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2040",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 364,
+		"MSGID": 138,
+		"JPN": "静久が口を開く。",
+		"ENG": "Shizuku spoke.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2060",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6e01"
+	},
+	{
+		"LABEL": "0x2066",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002308000000000000"
+	},
+	{
+		"LABEL": "0x2074",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x207c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2082",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2086",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 368,
+		"MSGID": 139,
+		"VOICEID": 44111,
+		"NameJPN": "静久",
+		"JPN": "「私……自分で言うのもなんですけど……いろんな人から信頼されているんです」",
+		"NameENG": "Shizuku",
+		"ENG": "\"This... might come from me, but... I'm trusted by lots of people.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 370,
+		"MSGID": 140,
+		"VOICEID": 44112,
+		"NameJPN": "静久",
+		"JPN": "「でも……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"But...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x210c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 141,
+		"VOICEID": 44113,
+		"NameJPN": "静久",
+		"JPN": "「仲良くなれなかった子がいるんです……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"There was one person I couldn't get along with.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x214c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 374,
+		"MSGID": 142,
+		"VOICEID": 44114,
+		"NameJPN": "静久",
+		"JPN": "「学校にあまり来なくて、一人でいることが多くて……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"They didn't come to school often and they were always alone.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2198",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 376,
+		"MSGID": 143,
+		"VOICEID": 44115,
+		"NameJPN": "静久",
+		"JPN": "「だから私……友達になってあげようかなって……そう思ったんです」",
+		"NameENG": "Shizuku",
+		"ENG": "\"So I wanted to be friends with them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21f0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7a01"
+	},
+	{
+		"LABEL": "0x21f6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002208000000000000"
+	},
+	{
+		"LABEL": "0x2204",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x220c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2212",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2216",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 380,
+		"MSGID": 144,
+		"VOICEID": 44116,
+		"NameJPN": "静久",
+		"JPN": "「いつでも学校に戻れるように、勉強を教えてあげようかなとか……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I thought about tutoring them so they could always come back to school whenever.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x226e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 382,
+		"MSGID": 145,
+		"VOICEID": 44117,
+		"NameJPN": "静久",
+		"JPN": "「コミュニケーションの方法を教えてあげようかな」",
+		"NameENG": "Shizuku",
+		"ENG": "\"About teaching them how to communicate better.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 384,
+		"MSGID": 146,
+		"VOICEID": 44118,
+		"NameJPN": "静久",
+		"JPN": "「なんて……そんなことを考えながら、彼女に接してたら……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Things like that. And when I approached her with all that in mind...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2308",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 386,
+		"MSGID": 147,
+		"VOICEID": 44119,
+		"NameJPN": "静久",
+		"JPN": "「嫌われちゃいました」",
+		"NameENG": "Shizuku",
+		"ENG": "\"She ended up hating me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2336",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 388,
+		"MSGID": 148,
+		"VOICEID": 44120,
+		"NameJPN": "静久",
+		"JPN": "「でも……そういうこともやめて」",
+		"NameENG": "Shizuku",
+		"ENG": "\"So, I stopped.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x236e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 390,
+		"MSGID": 149,
+		"VOICEID": 44121,
+		"NameJPN": "静久",
+		"JPN": "「この前、カレーをおすそ分けしたら」",
+		"NameENG": "Shizuku",
+		"ENG": "\"And not too long ago, when I shared some curry with her...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23aa",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8801"
+	},
+	{
+		"LABEL": "0x23b0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002108000000000000"
+	},
+	{
+		"LABEL": "0x23be",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x23c6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x23cc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x23d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 393,
+		"MSGID": 150,
+		"VOICEID": 44122,
+		"NameJPN": "静久",
+		"JPN": "「海の家にチャーハンを持ってきてくれました」",
+		"NameENG": "Shizuku",
+		"ENG": "\"She brought fried rice here, to the beach hut.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2414",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 395,
+		"MSGID": 151,
+		"VOICEID": 44123,
+		"NameJPN": "静久",
+		"JPN": "「彼女からの、初めてのアプローチです」",
+		"NameENG": "Shizuku",
+		"ENG": "\"That was the first time she approached me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2452",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 397,
+		"MSGID": 152,
+		"VOICEID": 44124,
+		"NameJPN": "静久",
+		"JPN": "「それから、少し料理の話をして……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"After that, we talked a bit about cooking.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x248e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 399,
+		"MSGID": 153,
+		"VOICEID": 44125,
+		"NameJPN": "静久",
+		"JPN": "「また、カレーとチャーハンを合わせたものを作ろう……なんて言って」",
+		"NameENG": "Shizuku",
+		"ENG": "\"We talked about combining curry and fried rice to make something.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 401,
+		"MSGID": 154,
+		"VOICEID": 44126,
+		"NameJPN": "静久",
+		"JPN": "「すごく心地がよかったんです……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"It was really nice...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2522",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 403,
+		"MSGID": 155,
+		"VOICEID": 44127,
+		"NameJPN": "静久",
+		"JPN": "「ああ……彼女との距離は、ここなんだなって……そう思ったんです」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I realized... that was the right distance for her.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x257a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 405,
+		"MSGID": 156,
+		"VOICEID": 44128,
+		"NameJPN": "静久",
+		"JPN": "「毎日会うことが、仲がいいっていうことじゃなくて」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Seeing each other every day doesn't make you good friends.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 407,
+		"MSGID": 157,
+		"VOICEID": 44129,
+		"NameJPN": "静久",
+		"JPN": "「人と人には、それぞれの距離感があるんだなって……そう思いました」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I realized that everyone has their own boundaries and distances they feel comfortable at.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x261e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 409,
+		"MSGID": 158,
+		"VOICEID": 44130,
+		"NameJPN": "静久",
+		"JPN": "「きっと……あなたと娘さんは……普通の親子の距離では、合わないんだと思います」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I'm sure the average parent-child distance just isn't right for you and your daughter.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2684",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 411,
+		"MSGID": 159,
+		"VOICEID": 44131,
+		"NameJPN": "静久",
+		"JPN": "「普通の親子には……なれないんです……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"You can't become the average family.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 414,
+		"MSGID": 160,
+		"VOICEID": 35250,
+		"NameJPN": "静久の母",
+		"JPN": "「……」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26e8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a001"
+	},
+	{
+		"LABEL": "0x26ee",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002408000000000000"
+	},
+	{
+		"LABEL": "0x26fc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2704",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x270a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x270e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 417,
+		"MSGID": 161,
+		"VOICEID": 44132,
+		"NameJPN": "静久",
+		"JPN": "「でもね……」",
+		"NameENG": "Shizuku",
+		"ENG": "\"But...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2734",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 419,
+		"MSGID": 162,
+		"VOICEID": 44133,
+		"NameJPN": "静久",
+		"JPN": "「でも……知ってるんだよ」",
+		"NameENG": "Shizuku",
+		"ENG": "\"But... I know.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2766",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 421,
+		"MSGID": 163,
+		"VOICEID": 44134,
+		"NameJPN": "静久",
+		"JPN": "「わかってるんだよ……感じてるんだよ！」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I understand... I feel it...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 423,
+		"MSGID": 164,
+		"VOICEID": 44135,
+		"NameJPN": "静久",
+		"JPN": "「お母さんが、私のことを好きだって……思ってくれていること！」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I know that you love me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 425,
+		"MSGID": 165,
+		"VOICEID": 44136,
+		"NameJPN": "静久",
+		"JPN": "「心配してくれてるってこと……！」",
+		"NameENG": "Shizuku",
+		"ENG": "\"I know that you worry for me!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2836",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 427,
+		"MSGID": 166,
+		"VOICEID": 44137,
+		"NameJPN": "静久",
+		"JPN": "「伝わってないわけじゃ……ないんだよ？」",
+		"NameENG": "Shizuku",
+		"ENG": "\"There's no way... I wouldn't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2876",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 429,
+		"MSGID": 167,
+		"VOICEID": 44138,
+		"NameJPN": "静久",
+		"JPN": "「だから……ね」",
+		"NameENG": "Shizuku",
+		"ENG": "\"So that's why...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x289e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 168,
+		"VOICEID": 44139,
+		"NameJPN": "静久",
+		"JPN": "「きっと私たちは……距離をとらないといけないんだよ」",
+		"NameENG": "Shizuku",
+		"ENG": "\"We have to give ourselves space.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 433,
+		"MSGID": 169,
+		"VOICEID": 44140,
+		"NameJPN": "静久",
+		"JPN": "「私とお母さんにとって、すごくいい距離があるはずなんだよ」",
+		"NameENG": "Shizuku",
+		"ENG": "\"There has to be a distance between us that feels just right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x293c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 435,
+		"MSGID": 170,
+		"VOICEID": 44141,
+		"NameJPN": "静久",
+		"JPN": "「お互いを大好きって思える距離が……！」",
+		"NameENG": "Shizuku",
+		"ENG": "\"A distance where we can both know that we love each other.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x297c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 437,
+		"MSGID": 171,
+		"VOICEID": 44142,
+		"NameJPN": "静久",
+		"JPN": "「だからね……それを探したいなって思う」",
+		"NameENG": "Shizuku",
+		"ENG": "\"And... I want to find it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 439,
+		"MSGID": 172,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 441,
+		"MSGID": 173,
+		"JPN": "ここからは……。",
+		"ENG": "This is where...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 443,
+		"MSGID": 174,
+		"JPN": "俺がいない方がいいだろう。",
+		"ENG": "I should probably take my leave.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 445,
+		"MSGID": 175,
+		"JPN": "母娘が……久しぶりに、その関係を取り戻したんだから。",
+		"ENG": "They finally, after so long, became mother and daughter again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 447,
+		"MSGID": 176,
+		"JPN": "また、親子に戻ろうとしているのだから。",
+		"ENG": "They're trying their hardest to become family again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2aa2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c101"
+	},
+	{
+		"LABEL": "0x2aa8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009201000000000000"
+	},
+	{
+		"LABEL": "0x2ab6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2abe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2ac4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2ac8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 453,
+		"MSGID": 177,
+		"JPN": "がんばれ……二人とも。",
+		"ENG": "Hang in there, you guys.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2aee",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c901"
+	},
+	{
+		"LABEL": "0x2af4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009501000000000000"
+	},
+	{
+		"LABEL": "0x2b02",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0400"
+	},
+	{
+		"LABEL": "0x2b0a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2b10",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2b14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 459,
+		"MSGID": 178,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b38",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "cd0101007b9200008002b4008500"
+	},
+	{
+		"LABEL": "0x2b4a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 462,
+		"MSGID": 179,
+		"VOICEID": 35548,
+		"NameJPN": "静久",
+		"JPN": "「お待たせ」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Sorry for the wait.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 464,
+		"MSGID": 180,
+		"JPN": "ちょっと疲れたような、そんな表情で出てきた。",
+		"ENG": "Shizuku came out looking a bit worn.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 466,
+		"MSGID": 181,
+		"VOICEID": 35549,
+		"NameJPN": "静久の母",
+		"JPN": "「さてと……帰ろうかな？」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Now then... I suppose I'll go home.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2be6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d40101001d93"
+	},
+	{
+		"LABEL": "0x2bf0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bf6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 469,
+		"MSGID": 182,
+		"VOICEID": 35550,
+		"NameJPN": "静久",
+		"JPN": "「うん」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Okay.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 471,
+		"MSGID": 183,
+		"JPN": "母娘の相談は終わったみたいだ。",
+		"ENG": "Looks like they finished up their talk.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 473,
+		"MSGID": 184,
+		"VOICEID": 35551,
+		"NameJPN": "静久の母",
+		"JPN": "「鷹原くん」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Takahara-kun.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 475,
+		"MSGID": 185,
+		"NameJPN": "羽依里",
+		"JPN": "「あ、はい」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, yes?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c92",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 477,
+		"MSGID": 186,
+		"VOICEID": 35552,
+		"NameJPN": "静久の母",
+		"JPN": "「今日はありがとうね」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Thank you for today.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 479,
+		"MSGID": 187,
+		"VOICEID": 35553,
+		"NameJPN": "静久の母",
+		"JPN": "「この子を、お願いします」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"Please take care of her.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cfa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 481,
+		"MSGID": 188,
+		"JPN": "深く頭が下げられる。",
+		"ENG": "She took a deep bow.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 483,
+		"MSGID": 189,
+		"NameJPN": "羽依里",
+		"JPN": "「こ、こちらこそ」",
+		"NameENG": "Hairi",
+		"ENG": "\"L-Likewise.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 485,
+		"MSGID": 190,
+		"NameJPN": "羽依里",
+		"JPN": "「解決は……」",
+		"NameENG": "Hairi",
+		"ENG": "\"And everything's...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 487,
+		"MSGID": 191,
+		"VOICEID": 35554,
+		"NameJPN": "静久の母",
+		"JPN": "「難しいかもね」",
+		"NameENG": "Shizuku's Mother",
+		"ENG": "\"A bit complicated.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 489,
+		"MSGID": 192,
+		"NameJPN": "羽依里",
+		"JPN": "「え？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2dc0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "eb010100b4bc"
+	},
+	{
+		"LABEL": "0x2dca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2dd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 492,
+		"MSGID": 193,
+		"VOICEID": 35555,
+		"NameJPN": "静久",
+		"JPN": "「そうね。ちょっと時間がかかるかも」",
+		"NameENG": "Shizuku",
+		"ENG": "\"Right. It's going to take some time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e0c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 494,
+		"MSGID": 194,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 496,
+		"MSGID": 195,
+		"JPN": "時間がかかる……。",
+		"ENG": "It'll take time...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e52",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 498,
+		"MSGID": 196,
+		"JPN": "ということは、解決できないわけじゃない。",
+		"ENG": "Meaning a resolution wasn't out of the question.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 500,
+		"MSGID": 197,
+		"JPN": "それどころか、この二人が同じ方向を向いている。",
+		"ENG": "Rather, they now faced the same direction.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ec8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 502,
+		"MSGID": 198,
+		"JPN": "前進しようとしている。",
+		"ENG": "They were trying to move forward.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2eee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 504,
+		"MSGID": 199,
+		"JPN": "それならきっと……。",
+		"ENG": "In which case...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 506,
+		"MSGID": 200,
+		"JPN": "いつか解決方法は出てくるだろう。",
+		"ENG": "They'll find a solution. Some day.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 508,
+		"MSGID": 201,
+		"JPN": "いつか解決できるだろう。",
+		"ENG": "Some day, they'll be able to settle things.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 510,
+		"MSGID": 202,
+		"JPN": "今はまだ苦しいかもしれないけど。",
+		"ENG": "It might still be painful right now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 512,
+		"MSGID": 203,
+		"JPN": "今はまだ親子じゃないかもしれないけど。",
+		"ENG": "They might still not be a family.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 514,
+		"MSGID": 204,
+		"JPN": "でも。",
+		"ENG": "But...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 516,
+		"MSGID": 205,
+		"JPN": "いつかこの母娘が、親子になれる気がした……。",
+		"ENG": "This mother and daughter will be someday. I could feel it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3022",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 518,
+		"MSGID": 206,
+		"JPN": "静久が……無償の愛というものを。",
+		"ENG": "The day Shizuku believes in unconditional love...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3052",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 520,
+		"MSGID": 207,
+		"JPN": "実感する日が来るんじゃないかと思った。",
+		"ENG": "That day has to be on the horizon.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3088",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0a02000000007800"
+	},
+	{
+		"LABEL": "0x3094",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0b02"
+	},
+	{
+		"LABEL": "0x309a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x30a8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x30b0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x30b6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x30bc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x30c2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x30c8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x30d6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x30dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x30e0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0d020005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x30f0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x30fe",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x310c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x311a",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "0e020000"
+	},
+	{
+		"LABEL": "0x3122",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x312a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bf00000000000000"
+	},
+	{
+		"LABEL": "0x3138",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x3140",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0400"
+	},
+	{
+		"LABEL": "0x3148",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e"
+	},
+	{
+		"LABEL": "0x3154",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0000000000c0fe4cff"
+	},
+	{
+		"LABEL": "0x3162",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "0f023c00"
+	},
+	{
+		"LABEL": "0x316a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x316e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "11020f3c10030002"
+	},
+	{
+		"LABEL": "0x317a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 531,
+		"MSGID": 208,
+		"JPN": "――お母さんと一緒に船を待つ。",
+		"ENG": "―I waited for the boat with my mom.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 533,
+		"MSGID": 209,
+		"JPN": "――こんなことはいつ以来だろう。",
+		"ENG": "―How long has it been since we did something like this?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 535,
+		"MSGID": 210,
+		"JPN": "――確か……猫の神様のせいで熱が出て。",
+		"ENG": "―If I recall... I caught a fever because of the cat god...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x320e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 537,
+		"MSGID": 211,
+		"JPN": "――……引越しをすることになった。",
+		"ENG": "―...And we ended up moving.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3240",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 539,
+		"MSGID": 212,
+		"JPN": "――あの時以来かもしれない。",
+		"ENG": "―Not since then.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x326c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 541,
+		"MSGID": 213,
+		"JPN": "――あの時も、すごく怒られたなー。",
+		"ENG": "―She was simply furious back then, too.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x329e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 543,
+		"MSGID": 214,
+		"JPN": "――……。",
+		"ENG": "―......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 545,
+		"MSGID": 215,
+		"JPN": "――……あれ？",
+		"ENG": "―...Huh?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 547,
+		"MSGID": 216,
+		"JPN": "――怒られた記憶なのに……どうして覚えているんだろう？",
+		"ENG": "―Why do I have memories of being scolded?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x331c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 549,
+		"MSGID": 217,
+		"JPN": "――……。",
+		"ENG": "―......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3336",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 551,
+		"MSGID": 218,
+		"JPN": "――あれ？　あれ？",
+		"ENG": "―Huh? What?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3358",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 553,
+		"MSGID": 219,
+		"JPN": "――……。",
+		"ENG": "―......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3372",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 555,
+		"MSGID": 220,
+		"JPN": "――今まで、忘れていたことを……ふと思い出す感覚。",
+		"ENG": "―I suddenly felt the things I'd forgotten coming back to me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 557,
+		"MSGID": 221,
+		"JPN": "――お母さんと向き合って。",
+		"ENG": "―Did facing my mother...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 559,
+		"MSGID": 222,
+		"JPN": "――あの時のことを思い出してきた……の？",
+		"ENG": "―Make me remember my past?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3416",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 561,
+		"MSGID": 223,
+		"JPN": "――……そうそう。",
+		"ENG": "―...That's right.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3438",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 563,
+		"MSGID": 224,
+		"JPN": "――付箋を貼っていたのは……。",
+		"ENG": "―I posted those sticky notes...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3466",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 565,
+		"MSGID": 225,
+		"JPN": "――褒められたことを忘れないためだった。",
+		"ENG": "―So that I wouldn't forget the times people praised me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x349e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 567,
+		"MSGID": 226,
+		"JPN": "――記憶がなくなっても。",
+		"ENG": "―Even if my memory vanished...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 569,
+		"MSGID": 227,
+		"JPN": "――いいことを忘れないようにするためにして……。",
+		"ENG": "―I wouldn't forget the good things.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3506",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 571,
+		"MSGID": 228,
+		"JPN": "――そんなとこだったと思う。",
+		"ENG": "―I think that's what it was for.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3532",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 573,
+		"MSGID": 229,
+		"JPN": "――でも、どうしてそんなことを？",
+		"ENG": "―But why would I do that?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 575,
+		"MSGID": 230,
+		"JPN": "――猫の神様は……嫌な記憶と。",
+		"ENG": "―The cat god only erases bad memories and...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3590",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 577,
+		"MSGID": 231,
+		"JPN": "――恋愛の記憶だけ……消すはずなのに。",
+		"ENG": "―Memories of love...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 579,
+		"MSGID": 232,
+		"JPN": "――どうして？",
+		"ENG": "―Why?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 581,
+		"MSGID": 233,
+		"JPN": "――ねえ。",
+		"ENG": "―Hey.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 583,
+		"MSGID": 234,
+		"JPN": "――猫の神様って。",
+		"ENG": "―Was this cat god...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3620",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 585,
+		"MSGID": 235,
+		"JPN": "――本当にいたの？",
+		"ENG": "―Were you ever real?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3642",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 587,
+		"MSGID": 236,
+		"JPN": "――本当……に？",
+		"ENG": "―Were you... ever there?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3662",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 589,
+		"MSGID": 237,
+		"JPN": "――もしかして……私は。",
+		"ENG": "―Maybe I...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x368a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4f02"
+	},
+	{
+		"LABEL": "0x3690",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5002"
+	},
+	{
+		"LABEL": "0x3696",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x36a4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x36ac",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0005"
+	},
+	{
+		"LABEL": "0x36b2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x36c0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x36c6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x36d4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x36da",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x36e0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x36e6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x36f4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x36fa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x36fe",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "51020101d05b"
+	},
+	{
+		"LABEL": "0x3708",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "520201ff0e0300"
+	},
+	{
+		"LABEL": "0x3714",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "53021e00"
+	},
+	{
+		"LABEL": "0x371c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5502"
+	},
+	{
+		"LABEL": "0x3722",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000400000000000000"
+	},
+	{
+		"LABEL": "0x3730",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0400"
+	},
+	{
+		"LABEL": "0x3738",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x373e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3742",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "57021e00"
+	},
+	{
+		"LABEL": "0x374a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "580201000000003c0001"
+	},
+	{
+		"LABEL": "0x3758",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 603,
+		"MSGID": 238,
+		"JPN": "――そっか。",
+		"ENG": "―I see.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3774",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 605,
+		"MSGID": 239,
+		"JPN": "――そういうことだったのね。",
+		"ENG": "―So that's what it was.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 607,
+		"MSGID": 240,
+		"JPN": "――これは、私自身の問題。",
+		"ENG": "―This is about me and me alone.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 609,
+		"MSGID": 241,
+		"JPN": "――私は。",
+		"ENG": "―I...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 611,
+		"MSGID": 242,
+		"JPN": "――このままじゃいけない。",
+		"ENG": "―Can't stay like this.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x380e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 613,
+		"MSGID": 243,
+		"JPN": "――このままでいたくない。",
+		"ENG": "―I don't want to be like this.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3838",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 615,
+		"MSGID": 244,
+		"JPN": "――この気持ちを。",
+		"ENG": "―These feelings...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x385a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 617,
+		"MSGID": 245,
+		"JPN": "――この夏に起こった。",
+		"ENG": "―Everything that's happened this summer...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3880",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 619,
+		"MSGID": 246,
+		"JPN": "――いいことも悪いことも。",
+		"ENG": "―Good and bad...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 621,
+		"MSGID": 247,
+		"JPN": "――ううん……これから起こることも。",
+		"ENG": "―No, even the things that are yet to happen...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 623,
+		"MSGID": 248,
+		"JPN": "――私は忘れたくない！",
+		"ENG": "―I don't want to forget them!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3904",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 625,
+		"MSGID": 249,
+		"JPN": "――だから。",
+		"ENG": "―That's why...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3920",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 627,
+		"MSGID": 250,
+		"JPN": "――忘れたくない思い出をたくさん作らないと！",
+		"ENG": "―I have to make memories I don't want to forget! Lots of them!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x395c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 629,
+		"MSGID": 251,
+		"JPN": "――お母さんと少し話をして。",
+		"ENG": "―After talking with my mother...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3988",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 631,
+		"MSGID": 252,
+		"JPN": "――もう少しだけ、帰りの船を遅らせることにした。",
+		"ENG": "―I decided to take a later ferry home.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 633,
+		"MSGID": 253,
+		"JPN": "――そして。",
+		"ENG": "―Then...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 635,
+		"MSGID": 254,
+		"JPN": "――駄菓子屋さんに足を向ける。",
+		"ENG": "―I set out for the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a12",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7e020000b800000000000000"
+	},
+	{
+		"LABEL": "0x3a22",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x3a2a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x3a32",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000b40001"
+	},
+	{
+		"LABEL": "0x3a3e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000b40001"
+	},
+	{
+		"LABEL": "0x3a4a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3a50",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x3a56",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3a5a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x3a60",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x3a6c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x3a78",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3a7c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3a80",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x3a88",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x3a90",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x3a98",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x3aa0",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x3aa8",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7f02"
+	},
+	{
+		"LABEL": "0x3aae",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "80020080"
+	}
+]

@@ -1,0 +1,40 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "05000000",
+		"String": "@set_syougou()"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0600"
+	},
+	{
+		"LABEL": "0x1e",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "0a000000",
+		"String": "@rescine_syougou()"
+	},
+	{
+		"LABEL": "0x3a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0b00"
+	},
+	{
+		"LABEL": "0x40",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "1000"
+	},
+	{
+		"LABEL": "0x46",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "11000080"
+	}
+]
