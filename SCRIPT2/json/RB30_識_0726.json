@@ -1,0 +1,3959 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "09000d100e030002"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0d00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009e00000000000000"
+	},
+	{
+		"LABEL": "0x20",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x32",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 0,
+		"JPN": "再び宛のないツーリングへと発つ。",
+		"ENG": "I resumed my aimless wandering.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 1,
+		"JPN": "さて、どっちに方角に向かうかな……",
+		"ENG": "Now, where to go...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x98",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "170071178102000000",
+		"JPN": [
+			"夢に向かう",
+			"明日に向かう"
+		],
+		"ENG": [
+			"To dreams",
+			"To tomorrow"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0xca",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1c00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x174"
+	},
+	{
+		"LABEL": "0xe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「果てしない旅になりそうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"That'd be one endless journey.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x118",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 3,
+		"JPN": "１人で空を見上げて、微笑んでみる。",
+		"ENG": "I looked up at the sky and smiled.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 4,
+		"JPN": "浸ってしまった。",
+		"ENG": "Deep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2400",
+		"GOTO_LABEL": "0x22c"
+	},
+	{
+		"LABEL": "0x174",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「俺の明日は……どっちだろうな……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wonder which way my tomorrow is...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 6,
+		"JPN": "１人で空を見上げて、切なげな目をしてしまう。",
+		"ENG": "I looked up at the sky longingly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 7,
+		"JPN": "自分が進むべき道を、いきなり見失ってしまった。",
+		"ENG": "So suddenly, without warning, I'd lost my way.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 8,
+		"JPN": "…………",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x244",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 9,
+		"JPN": "よし、行こう。",
+		"ENG": "All right, let's go.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x262",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "32000d000000005a0001"
+	},
+	{
+		"LABEL": "0x270",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "330002040e030002"
+	},
+	{
+		"LABEL": "0x27c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "340000f40d0300"
+	},
+	{
+		"LABEL": "0x288",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 10,
+		"JPN": "が、すぐにブレーキを握ることになった。",
+		"ENG": "However, I immediately found myself braking yet again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2be",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "38000200000000780001"
+	},
+	{
+		"LABEL": "0x2cc",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3a0000050e030000f85b003c00"
+	},
+	{
+		"LABEL": "0x2de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「……嘘だあ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Are you for real?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30a",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3f00da860100"
+	},
+	{
+		"LABEL": "0x314",
+		"Type": "SETCGFLAG",
+		"SUBCMD": 1,
+		"Args": "4300ae07"
+	},
+	{
+		"LABEL": "0x31c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x320",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000af07000000000000"
+	},
+	{
+		"LABEL": "0x32e",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x334",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000094fdc7fe"
+	},
+	{
+		"LABEL": "0x342",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000c5802aafff3ff"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x358",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x360",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x366",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "4400d200"
+	},
+	{
+		"LABEL": "0x36e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 12,
+		"JPN": "ついさっき、道の脇で寝ている女の子を見た。",
+		"ENG": "I literally just saw a girl sleeping on the side of a road.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 13,
+		"JPN": "そして、また目の前に道ばたで寝ている女の子がいた……",
+		"ENG": "And now there's another one...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ec",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4a00"
+	},
+	{
+		"LABEL": "0x3f2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ae07000000000000"
+	},
+	{
+		"LABEL": "0x400",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x408",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x40e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x412",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「この島じゃ、どこででも寝るのは普通なのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Do people just sleep wherever on this island?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「田舎、おおらかすぎるだろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"These country folk are way too chill.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x490",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 16,
+		"JPN": "エンジンを切り、バイクを押しながら少女に近づく。",
+		"ENG": "I cut the engine and pushed it along closer to her.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 84,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「着物……？　まさに田舎の子って感じだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"A kimono...? That's definitely country, all right.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x514",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 18,
+		"JPN": "しばらく様子を見てみる。",
+		"ENG": "I watched her for a while.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x53c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 19,
+		"JPN": "動く気配はない。",
+		"ENG": "No signs of movement.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x55c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 20,
+		"NameJPN": "羽依里",
+		"JPN": "「……さっきの子は放っておいてって言ってたけど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"The last girl told me to leave her alone...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 21,
+		"JPN": "さて、この子にはどうするべきだろうか？",
+		"ENG": "What am I supposed to do with this one?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 22,
+		"JPN": "また警戒されてもな。",
+		"ENG": "I'd prefer to not deal with yet more accusations.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x604",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 96,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「そっとしておくか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let's just leave her be.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x632",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 24,
+		"JPN": "それがこの島の流儀のようだから。",
+		"ENG": "That's apparently the way this island does things.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x662",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 25,
+		"JPN": "道の端に避けながら、少女の脇を通り過ぎようとした。",
+		"ENG": "I started to pass by her, keeping my distance.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6a4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "670005e00e0300"
+	},
+	{
+		"LABEL": "0x6b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 26,
+		"JPN": "ぐきゅるる～……",
+		"ENG": "Grrrrrr～...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「……個性的ないびきだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Weird snoring.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x702",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6c00"
+	},
+	{
+		"LABEL": "0x708",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000aa07000000000000"
+	},
+	{
+		"LABEL": "0x716",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x71e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x724",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x728",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 109,
+		"MSGID": 28,
+		"JPN": "ガシっ！と、いきなり足首を掴まれた。",
+		"ENG": "Her hand suddenly shot out and snagged my ankle.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x75c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 111,
+		"MSGID": 29,
+		"VOICEID": 36302,
+		"NameJPN": "着物の少女",
+		"JPN": "「……そこの人」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"You there...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x78a",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "7100ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x79c",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x7ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「ひぃっ!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hiiih!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7d4",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7500"
+	},
+	{
+		"LABEL": "0x7da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ad07000000000000"
+	},
+	{
+		"LABEL": "0x7e8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x7f0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7f6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x7fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 31,
+		"VOICEID": 36303,
+		"NameJPN": "着物の少女",
+		"JPN": "「……恥を忍んで……お願いするよ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Though it shames me, I beg of you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x83e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 32,
+		"VOICEID": 36304,
+		"NameJPN": "着物の少女",
+		"JPN": "「食べ物を……持っていないかい……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Do ya have any food...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x880",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「も、持ってないけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"I-I don't.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8b0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7c00"
+	},
+	{
+		"LABEL": "0x8b6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ac07000000000000"
+	},
+	{
+		"LABEL": "0x8c4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x8cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8d2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 34,
+		"VOICEID": 36305,
+		"NameJPN": "着物の少女",
+		"JPN": "「……使えぬ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Useless...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x906",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「ひどい言われようだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wow, that's kinda awful.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x936",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 36,
+		"VOICEID": 36306,
+		"NameJPN": "着物の少女",
+		"JPN": "「……解せぬ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Unfathomable...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x966",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 131,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「解せよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fathom it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x98a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 133,
+		"MSGID": 38,
+		"JPN": "理不尽だ。",
+		"ENG": "Talk about unreasonable.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 39,
+		"NameJPN": "羽依里",
+		"JPN": "「腹減ってるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You hungry?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9d2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "8a0005e00e0300"
+	},
+	{
+		"LABEL": "0x9de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 139,
+		"MSGID": 40,
+		"JPN": "ぐきゅるる～……",
+		"ENG": "Grrrrrr～...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9fe",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8d00"
+	},
+	{
+		"LABEL": "0xa04",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ad07000000000000"
+	},
+	{
+		"LABEL": "0xa12",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xa1a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa20",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xa24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 41,
+		"VOICEID": 36307,
+		"NameJPN": "着物の少女",
+		"JPN": "「……この通りさ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"As you can see...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 42,
+		"NameJPN": "羽依里",
+		"JPN": "「器用な……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Clever stomach you've got there...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 146,
+		"MSGID": 43,
+		"VOICEID": 36308,
+		"NameJPN": "着物の少女",
+		"JPN": "「……恥を忍んで……お願いするよ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Though it shames me, I beg of you...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xac4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 148,
+		"MSGID": 44,
+		"VOICEID": 36309,
+		"NameJPN": "着物の少女",
+		"JPN": "「食べ物を……持ってきてくれないかい……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Could you bring me some food...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb0c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「ええ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Uhhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 46,
+		"VOICEID": 36310,
+		"NameJPN": "着物の少女",
+		"JPN": "「女の子に恩を売れるいい機会だと思うんだよ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"This would be a good chance to have a girl owe you a favor, y'know?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb7c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 47,
+		"VOICEID": 36311,
+		"NameJPN": "着物の少女",
+		"JPN": "「こう見えて僕は義理堅いよ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I may not look it, but I have a strong sense of duty.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 48,
+		"VOICEID": 36312,
+		"NameJPN": "着物の少女",
+		"JPN": "「きっと恩返しをすると思うんだ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I'll surely repay you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 158,
+		"MSGID": 49,
+		"NameJPN": "羽依里",
+		"JPN": "「別に恩返しとかいらないけど……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, I'm not really looking for repayment, but...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 160,
+		"MSGID": 50,
+		"JPN": "このまま放置するのも寝覚めが悪い。",
+		"ENG": "I'd feel pretty guilty about just leaving her like this.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 162,
+		"MSGID": 51,
+		"NameJPN": "羽依里",
+		"JPN": "「食えれば何でも良いか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is anything fine?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc96",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a400"
+	},
+	{
+		"LABEL": "0xc9c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b007000000000000"
+	},
+	{
+		"LABEL": "0xcaa",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xcb2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xcbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 52,
+		"VOICEID": 36313,
+		"NameJPN": "着物の少女",
+		"JPN": "「背に腹はかえたい」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Needs mustn't when the devil drives.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 167,
+		"MSGID": 53,
+		"NameJPN": "羽依里",
+		"JPN": "「それ、どういう意味？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What's that supposed to mean?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 54,
+		"VOICEID": 36314,
+		"NameJPN": "着物の少女",
+		"JPN": "「おいしいものがいい」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I want something tasty.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd54",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 55,
+		"NameJPN": "羽依里",
+		"JPN": "「善処してみる」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll see what I can do.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 175,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「とりあえず、戻ってくるまでは生きてろよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Just stay alive until I get back.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdc2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "b20005e00e0300"
+	},
+	{
+		"LABEL": "0xdce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 179,
+		"MSGID": 57,
+		"JPN": "ぐきゅるる～……",
+		"ENG": "Grrrrrr～...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 181,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「いい返事だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Good answer.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe16",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "b900"
+	},
+	{
+		"LABEL": "0xe1c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xe24",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0xe32",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xe38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0xe42",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xe46",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xe4c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "c000"
+	},
+	{
+		"LABEL": "0xe52",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000f00000000000000"
+	},
+	{
+		"LABEL": "0xe60",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xe68",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0xe72",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xe76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 198,
+		"MSGID": 59,
+		"JPN": "昨日の夕飯を食べた食堂にやってきた。",
+		"ENG": "I came to the diner I ate at for dinner yesterday.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 200,
+		"MSGID": 60,
+		"JPN": "ここ以外に食べ物が買える店を知らない。",
+		"ENG": "I didn't know anywhere else to buy food here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xee0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 61,
+		"VOICEID": 36315,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「いらっしゃい」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Welcome.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 206,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「……どうも」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Hi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf3a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 208,
+		"MSGID": 63,
+		"JPN": "お昼をだいぶ過ぎているから、他に客はいない。",
+		"ENG": "It was long past lunch, so there were no other customers.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf76",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 64,
+		"VOICEID": 36316,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「いつものでいいかい？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"The usual?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「来たの、まだ２回目ですが」",
+		"NameENG": "Hairi",
+		"ENG": "\"I've been here twice.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 214,
+		"MSGID": 66,
+		"VOICEID": 36317,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「かっこいいだろ？」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Cool, ain't it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x101c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 216,
+		"MSGID": 67,
+		"JPN": "確かに。",
+		"ENG": "It sure is.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1034",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 218,
+		"MSGID": 68,
+		"JPN": "パチンと指を鳴らす。",
+		"ENG": "I snapped my fingers.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1058",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 220,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「マスター、いつもの」",
+		"NameENG": "Hairi",
+		"ENG": "\"The usual, chief.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1088",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 70,
+		"NameJPN": "羽依里",
+		"JPN": "「テイクアウトで」",
+		"NameENG": "Hairi",
+		"ENG": "\"To go.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 71,
+		"VOICEID": 36318,
+		"NameJPN": "食堂のおっさん",
+		"JPN": "「あいよ！」",
+		"NameENG": "Diner Guy",
+		"ENG": "\"Comin' right up!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10e2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "e200"
+	},
+	{
+		"LABEL": "0x10e8",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x10f0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x10fe",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1104",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x110e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1112",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1118",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e4000d100e030002"
+	},
+	{
+		"LABEL": "0x1124",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e70002003002"
+	},
+	{
+		"LABEL": "0x112e",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020002"
+	},
+	{
+		"LABEL": "0x1136",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009c00000000000000"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0000000000400040"
+	},
+	{
+		"LABEL": "0x1150",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x115e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000ae40c00fb0000"
+	},
+	{
+		"LABEL": "0x116c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1174",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x117e",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "e800"
+	},
+	{
+		"LABEL": "0x1184",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 234,
+		"MSGID": 72,
+		"JPN": "包んで貰った食べ物を手にぶら下げながら、カブを走らせる。",
+		"ENG": "The wrapped food dangled from my hand as I drove the Cub.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 236,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "（これ……テイクアウトできるんだ……）",
+		"NameENG": "Hairi",
+		"ENG": "(You can get this to go...?)",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x120c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 74,
+		"JPN": "風を受けてブラブラと揺れるビニール袋を気にしつつ、女の子が倒れていた場所に急いだ。",
+		"ENG": "I hurried to the girl while paying mind to the plastic bag flapping in the wind.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "f3000d00000000780001"
+	},
+	{
+		"LABEL": "0x127c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "f500"
+	},
+	{
+		"LABEL": "0x1282",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x128a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0x1290",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020000"
+	},
+	{
+		"LABEL": "0x1298",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x12a6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x12ac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x12b6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x12ba",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x12c0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "f800"
+	},
+	{
+		"LABEL": "0x12c6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002500000000000000"
+	},
+	{
+		"LABEL": "0x12d4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x12dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x12e6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x12ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 254,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「……生きてるか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You alive?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1318",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x131e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000ae07000000000000"
+	},
+	{
+		"LABEL": "0x132c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1334",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x133a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x133e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "040105e00e0300"
+	},
+	{
+		"LABEL": "0x134a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 261,
+		"MSGID": 76,
+		"JPN": "ぐきゅるる～……",
+		"ENG": "Grrrrrr～...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x136a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 77,
+		"NameJPN": "羽依里",
+		"JPN": "「……よし」",
+		"NameENG": "Hairi",
+		"ENG": "\"Cool.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1390",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 265,
+		"MSGID": 78,
+		"VOICEID": 36319,
+		"NameJPN": "着物の少女",
+		"JPN": "「……クンクン……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"...Sniff, sniff...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13c2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0c01"
+	},
+	{
+		"LABEL": "0x13c8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b107000000000000"
+	},
+	{
+		"LABEL": "0x13d6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x13de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13e4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x13e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 269,
+		"MSGID": 79,
+		"VOICEID": 36320,
+		"NameJPN": "着物の少女",
+		"JPN": "「食べ物！」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Food!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1412",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 271,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、持ってきたぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yep, as promised.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1442",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1201"
+	},
+	{
+		"LABEL": "0x1448",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002500000000000000"
+	},
+	{
+		"LABEL": "0x1456",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x145e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1464",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1468",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1f01",
+		"Equation": "(#407==1)",
+		"GOTO_LABEL": "0x1802"
+	},
+	{
+		"LABEL": "0x147c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 81,
+		"NameJPN": "羽依里",
+		"JPN": "「お造り定食だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's the sashimi set.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14a6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2301010013ba00008002b4008800"
+	},
+	{
+		"LABEL": "0x14b8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 292,
+		"MSGID": 82,
+		"VOICEID": 36321,
+		"NameJPN": "着物の少女",
+		"JPN": "「この陽気の中を正気かい？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"In this weather? Are you sane?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 83,
+		"NameJPN": "羽依里",
+		"JPN": "「ちゃんと最新機種でチンしてるぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hey, it's been nuked in the latest model.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1534",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2801010000ba"
+	},
+	{
+		"LABEL": "0x153e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1544",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 297,
+		"MSGID": 84,
+		"VOICEID": 36322,
+		"NameJPN": "着物の少女",
+		"JPN": "「これ、お造りだよね？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"This is sashimi, isn't it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x157a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 299,
+		"MSGID": 85,
+		"NameJPN": "羽依里",
+		"JPN": "「不思議と美味いんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's weirdly good.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 301,
+		"MSGID": 86,
+		"JPN": "本当に不思議と。",
+		"ENG": "Emphasis on the 'weirdly.'",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 303,
+		"MSGID": 87,
+		"JPN": "女の子はその場で正座すると、両手を合わせる。",
+		"ENG": "She sat down on her heels, seiza-style, then put her hands together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1606",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "31010100f1b9"
+	},
+	{
+		"LABEL": "0x1610",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x1618",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x161e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 306,
+		"MSGID": 88,
+		"VOICEID": 36323,
+		"NameJPN": "着物の少女",
+		"JPN": "「いただきます」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Thank you for the food.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x164c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 308,
+		"MSGID": 89,
+		"JPN": "礼儀正しい。",
+		"ENG": "How polite.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1668",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3601010018ba"
+	},
+	{
+		"LABEL": "0x1672",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1678",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 311,
+		"MSGID": 90,
+		"VOICEID": 36324,
+		"NameJPN": "着物の少女",
+		"JPN": "「もぐもぐ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Mmgh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16a6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "390101001bba"
+	},
+	{
+		"LABEL": "0x16b0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 314,
+		"MSGID": 91,
+		"VOICEID": 36325,
+		"NameJPN": "着物の少女",
+		"JPN": "「確かに美味しいね。ちゃんと冷たいし」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"This really is good. And it's nice and cold.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3c010100f1b9"
+	},
+	{
+		"LABEL": "0x1704",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x170a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 317,
+		"MSGID": 92,
+		"VOICEID": 36326,
+		"NameJPN": "着物の少女",
+		"JPN": "「あぶらものってる」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Fatty, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x173c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 319,
+		"MSGID": 93,
+		"NameJPN": "羽依里",
+		"JPN": "「チンしたんだぜ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Straight from the microwave.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1768",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 321,
+		"MSGID": 94,
+		"NameJPN": "羽依里",
+		"JPN": "「不思議だろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Weird, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1792",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "430101001bba"
+	},
+	{
+		"LABEL": "0x179c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 324,
+		"MSGID": 95,
+		"VOICEID": 36327,
+		"NameJPN": "着物の少女",
+		"JPN": "「不思議だね」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"That it is.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 326,
+		"MSGID": 96,
+		"JPN": "本当に不思議だ。",
+		"ENG": "So weird.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17ee",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "48011800d800"
+	},
+	{
+		"LABEL": "0x17f8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4a01",
+		"GOTO_LABEL": "0x22fc"
+	},
+	{
+		"LABEL": "0x1802",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4d01",
+		"Equation": "(#408==1)",
+		"GOTO_LABEL": "0x1cec"
+	},
+	{
+		"LABEL": "0x1816",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 335,
+		"MSGID": 97,
+		"NameJPN": "羽依里",
+		"JPN": "「カツ丼だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's katsudon.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x183c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "51010100f5b900008002b4008800"
+	},
+	{
+		"LABEL": "0x184e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1854",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 338,
+		"MSGID": 98,
+		"VOICEID": 36328,
+		"NameJPN": "着物の少女",
+		"JPN": "「これはおいしそうだね」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"This does look tasty.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x188a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 340,
+		"MSGID": 99,
+		"NameJPN": "羽依里",
+		"JPN": "「冷める前に食ってくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Eat it while it's hot.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18bc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "56010100f1b9"
+	},
+	{
+		"LABEL": "0x18c6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 343,
+		"MSGID": 100,
+		"VOICEID": 36329,
+		"NameJPN": "着物の少女",
+		"JPN": "「うん、いただくよ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Yep, I will.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18fe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "590101000cba"
+	},
+	{
+		"LABEL": "0x1908",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x190e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 347,
+		"MSGID": 101,
+		"JPN": "女の子はその場で正座すると、両手を合わせる。",
+		"ENG": "She sat down on her heels, seiza-style, then put her hands together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x194a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5d010100f1b9"
+	},
+	{
+		"LABEL": "0x1954",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x195c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1962",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 350,
+		"MSGID": 102,
+		"VOICEID": 36330,
+		"NameJPN": "着物の少女",
+		"JPN": "「いただきます」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Thank you for the food.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1990",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 103,
+		"JPN": "礼儀正しい。",
+		"ENG": "How polite.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 354,
+		"MSGID": 104,
+		"NameJPN": "羽依里",
+		"JPN": "「じーーーーー」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19d6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6401010018ba"
+	},
+	{
+		"LABEL": "0x19e0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 357,
+		"MSGID": 105,
+		"VOICEID": 36331,
+		"NameJPN": "着物の少女",
+		"JPN": "「もぐもぐ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Mmgh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 359,
+		"MSGID": 106,
+		"NameJPN": "羽依里",
+		"JPN": "「じーーーーー」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 361,
+		"MSGID": 107,
+		"VOICEID": 36332,
+		"NameJPN": "着物の少女",
+		"JPN": "「もぐ……もぐ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Mm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 363,
+		"MSGID": 108,
+		"NameJPN": "羽依里",
+		"JPN": "「どうだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"How is it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a96",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6d010100f1b9"
+	},
+	{
+		"LABEL": "0x1aa0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1aa6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 366,
+		"MSGID": 109,
+		"VOICEID": 36333,
+		"NameJPN": "着物の少女",
+		"JPN": "「美味しいよ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Tasty.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ad2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 368,
+		"MSGID": 110,
+		"NameJPN": "羽依里",
+		"JPN": "「そうか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Good.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1af6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 370,
+		"MSGID": 111,
+		"NameJPN": "羽依里",
+		"JPN": "「それで、どうなんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7401010000ba"
+	},
+	{
+		"LABEL": "0x1b32",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 373,
+		"MSGID": 112,
+		"VOICEID": 36334,
+		"NameJPN": "着物の少女",
+		"JPN": "「何がだい？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"So?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b64",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 375,
+		"MSGID": 113,
+		"NameJPN": "羽依里",
+		"JPN": "「どうして、やっちゃったんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why'd you do it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b9e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7901010022ba"
+	},
+	{
+		"LABEL": "0x1ba8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 378,
+		"MSGID": 114,
+		"VOICEID": 36335,
+		"NameJPN": "着物の少女",
+		"JPN": "「……？　??」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"...???\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 380,
+		"MSGID": 115,
+		"NameJPN": "羽依里",
+		"JPN": "「正直になったらどうなんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why not just be honest?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 382,
+		"MSGID": 116,
+		"NameJPN": "羽依里",
+		"JPN": "「楽になるぞ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It'd make things a whole lot easier.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c3a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8001010013ba"
+	},
+	{
+		"LABEL": "0x1c44",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1c4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 385,
+		"MSGID": 117,
+		"VOICEID": 36336,
+		"NameJPN": "着物の少女",
+		"JPN": "「何なんだい、これは？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"What is even happening?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c80",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 387,
+		"MSGID": 118,
+		"NameJPN": "羽依里",
+		"JPN": "「取り調べごっこ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Play interrogation.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 389,
+		"MSGID": 119,
+		"JPN": "やらなきゃいけない気がした。",
+		"ENG": "I just felt like I had to.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cd8",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "87011800d900"
+	},
+	{
+		"LABEL": "0x1ce2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8901",
+		"GOTO_LABEL": "0x22fc"
+	},
+	{
+		"LABEL": "0x1cec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8c01",
+		"Equation": "(#409==1)",
+		"GOTO_LABEL": "0x201a"
+	},
+	{
+		"LABEL": "0x1d00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 400,
+		"MSGID": 120,
+		"NameJPN": "羽依里",
+		"JPN": "「クリームパン定食だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's the cream bun set.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d30",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9201010022ba00008002b4008800"
+	},
+	{
+		"LABEL": "0x1d42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 403,
+		"MSGID": 121,
+		"VOICEID": 36337,
+		"NameJPN": "着物の少女",
+		"JPN": "「味噌汁がついてるぜ？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"There's miso soup.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 405,
+		"MSGID": 122,
+		"NameJPN": "羽依里",
+		"JPN": "「定食だからな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well it's a set.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1da8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "97010100f1b9"
+	},
+	{
+		"LABEL": "0x1db2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1db8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 408,
+		"MSGID": 123,
+		"VOICEID": 36338,
+		"NameJPN": "着物の少女",
+		"JPN": "「なるほど、それなら仕方が無いね」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Oh, that makes sense.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1df8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 410,
+		"MSGID": 124,
+		"JPN": "受け入れた。",
+		"ENG": "She actually went with it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e14",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9c0101000cba"
+	},
+	{
+		"LABEL": "0x1e1e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e24",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 414,
+		"MSGID": 125,
+		"JPN": "女の子はその場で正座すると、両手を合わせる。",
+		"ENG": "She sat down on her heels, seiza-style, then put her hands together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e60",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a0010100f1b9"
+	},
+	{
+		"LABEL": "0x1e6a",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x1e72",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 417,
+		"MSGID": 126,
+		"VOICEID": 36339,
+		"NameJPN": "着物の少女",
+		"JPN": "「いただきます」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Thank you for the food.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ea6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 419,
+		"MSGID": 127,
+		"JPN": "礼儀正しい。",
+		"ENG": "How polite.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ec2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a501010018ba"
+	},
+	{
+		"LABEL": "0x1ecc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ed2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 422,
+		"MSGID": 128,
+		"VOICEID": 36340,
+		"NameJPN": "着物の少女",
+		"JPN": "「もぐもぐ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Mmgh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 424,
+		"MSGID": 129,
+		"JPN": "クリームパン……味噌汁……冷や奴と、順番に食べていく。",
+		"ENG": "She ate the cream bun, miso soup, and chilled tofu one by one.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f46",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "aa01010013ba"
+	},
+	{
+		"LABEL": "0x1f50",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 427,
+		"MSGID": 130,
+		"VOICEID": 36341,
+		"NameJPN": "着物の少女",
+		"JPN": "「……合わない」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"...None of this fits.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f84",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ad01010015ba"
+	},
+	{
+		"LABEL": "0x1f8e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f94",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 430,
+		"MSGID": 131,
+		"VOICEID": 36342,
+		"NameJPN": "着物の少女",
+		"JPN": "「すごく合わないぜ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Not a thing here goes together.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 432,
+		"MSGID": 132,
+		"NameJPN": "羽依里",
+		"JPN": "「だよな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nope.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 434,
+		"MSGID": 133,
+		"JPN": "知っている。",
+		"ENG": "I'm well aware.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2006",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "b4011800da00"
+	},
+	{
+		"LABEL": "0x2010",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b601",
+		"GOTO_LABEL": "0x22fc"
+	},
+	{
+		"LABEL": "0x201a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b901",
+		"Equation": "(#410==1)",
+		"GOTO_LABEL": "0x22fc"
+	},
+	{
+		"LABEL": "0x202e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 444,
+		"MSGID": 134,
+		"NameJPN": "羽依里",
+		"JPN": "「ハッピーセットだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's a Happy Meal.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x205c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "be01010000ba00008002b4008800"
+	},
+	{
+		"LABEL": "0x206e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2074",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 447,
+		"MSGID": 135,
+		"VOICEID": 36343,
+		"NameJPN": "着物の少女",
+		"JPN": "「親子丼じゃないのかい？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Isn't this oyakodon?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 449,
+		"MSGID": 136,
+		"NameJPN": "羽依里",
+		"JPN": "「親子一緒にいけるんだから、幸せだよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"The parent and child get to leave this world together, so it's happy.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 451,
+		"MSGID": 137,
+		"JPN": "言ってみたかった。",
+		"ENG": "I just wanted to try saying that.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x210e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c50101000cba"
+	},
+	{
+		"LABEL": "0x2118",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x211e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 454,
+		"MSGID": 138,
+		"VOICEID": 36344,
+		"NameJPN": "着物の少女",
+		"JPN": "「なるほど、それは確かに幸せだね」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I see, that is quite happy!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x215e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 456,
+		"MSGID": 139,
+		"JPN": "すごく自然に受け入れた。",
+		"ENG": "She just accepted it like it was nothing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2186",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 458,
+		"MSGID": 140,
+		"JPN": "女の子はその場で正座すると、両手を合わせる。",
+		"ENG": "She sat down on her heels, seiza-style, then put her hands together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "cc010100f1b9"
+	},
+	{
+		"LABEL": "0x21cc",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x21d4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x21da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 461,
+		"MSGID": 141,
+		"VOICEID": 36345,
+		"NameJPN": "着物の少女",
+		"JPN": "「いただきます」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Thank you for the food.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2208",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 463,
+		"MSGID": 142,
+		"JPN": "礼儀正しい。",
+		"ENG": "How polite.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2224",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d101010018ba"
+	},
+	{
+		"LABEL": "0x222e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2234",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 466,
+		"MSGID": 143,
+		"VOICEID": 36346,
+		"NameJPN": "着物の少女",
+		"JPN": "「もぐもぐ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Mmgh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2262",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 144,
+		"NameJPN": "羽依里",
+		"JPN": "「ハッピーか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Feeling happy?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x228c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "d6010100f5b9"
+	},
+	{
+		"LABEL": "0x2296",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x229c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 471,
+		"MSGID": 145,
+		"VOICEID": 36347,
+		"NameJPN": "着物の少女",
+		"JPN": "「おいしいぜ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"This is great.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 473,
+		"MSGID": 146,
+		"JPN": "それはなにより。",
+		"ENG": "That's good, then.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22e8",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "db011800db00"
+	},
+	{
+		"LABEL": "0x22f2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "dd01",
+		"GOTO_LABEL": "0x22fc"
+	},
+	{
+		"LABEL": "0x22fc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e10101000cba"
+	},
+	{
+		"LABEL": "0x2306",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x230c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 483,
+		"MSGID": 147,
+		"JPN": "女の子は綺麗に全部平らげると、お箸を丁寧に器の上に置く。",
+		"ENG": "After clearing all of her food, she placed the chopsticks courteously on top of the container.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2354",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 485,
+		"MSGID": 148,
+		"JPN": "そしてまた両手を合わせる。",
+		"ENG": "She then put her hands together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x237e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e7010100f1b9"
+	},
+	{
+		"LABEL": "0x2388",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x2390",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2396",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 488,
+		"MSGID": 149,
+		"VOICEID": 36348,
+		"NameJPN": "着物の少女",
+		"JPN": "「ごちそうさまでした」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Thank you for the meal.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x23ca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 490,
+		"MSGID": 150,
+		"NameJPN": "羽依里",
+		"JPN": "「満足して貰えたようでなによりだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'm glad to see you look satisfied.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2406",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ec010100f5b9"
+	},
+	{
+		"LABEL": "0x2410",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2416",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 493,
+		"MSGID": 151,
+		"VOICEID": 36349,
+		"NameJPN": "着物の少女",
+		"JPN": "「いや、不満だぜ？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Oh, I'm not in the slightest!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2448",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 495,
+		"MSGID": 152,
+		"NameJPN": "羽依里",
+		"JPN": "「なんだと？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Excuse me?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2470",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 497,
+		"MSGID": 153,
+		"JPN": "あんだけ美味そうに食べていて？",
+		"ENG": "After the way she scarfed it down so happily?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x249e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 499,
+		"MSGID": 154,
+		"NameJPN": "羽依里",
+		"JPN": "「量、足りなかったか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Was it not enough?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24d0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f5010100f1b9"
+	},
+	{
+		"LABEL": "0x24da",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x24e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 502,
+		"MSGID": 155,
+		"VOICEID": 36350,
+		"NameJPN": "着物の少女",
+		"JPN": "「量は申し分ないさ、味も良かった」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I have no objections to the amount. It tasted good, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2520",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 504,
+		"MSGID": 156,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ何が不満なんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Then why're you unsatisfied?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2554",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fa01010015ba"
+	},
+	{
+		"LABEL": "0x255e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2564",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 507,
+		"MSGID": 157,
+		"VOICEID": 36351,
+		"NameJPN": "着物の少女",
+		"JPN": "「おむすびじゃなかったことさ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"It wasn't omusubi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 509,
+		"MSGID": 158,
+		"NameJPN": "羽依里",
+		"JPN": "「……ふむ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 511,
+		"MSGID": 159,
+		"JPN": "よくわからない。",
+		"ENG": "I don't get it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x25e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 513,
+		"MSGID": 160,
+		"NameJPN": "羽依里",
+		"JPN": "「君はつまり、おにぎりが食べたかったと？」",
+		"NameENG": "Hairi",
+		"ENG": "\"So basically you just wanted rice balls?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x262a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "03020100a9ba"
+	},
+	{
+		"LABEL": "0x2634",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x263a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 516,
+		"MSGID": 161,
+		"VOICEID": 36352,
+		"NameJPN": "着物の少女",
+		"JPN": "「おにぎりじゃない、おむすびさ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Not rice balls. Omusubi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2678",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 518,
+		"MSGID": 162,
+		"NameJPN": "羽依里",
+		"JPN": "「何が違うんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"And the difference being?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26a4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0802010095ba"
+	},
+	{
+		"LABEL": "0x26ae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x26b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 521,
+		"MSGID": 163,
+		"VOICEID": 36353,
+		"NameJPN": "着物の少女",
+		"JPN": "「おいおい、おにぎりは、お米を握ったものだぜ？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Woah now, rice balls are clumps of rice squeezed together.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2702",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 523,
+		"MSGID": 164,
+		"NameJPN": "羽依里",
+		"JPN": "「おむすびもだろ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, and so are omusubi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x272e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0d02010035ba"
+	},
+	{
+		"LABEL": "0x2738",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x273e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 526,
+		"MSGID": 165,
+		"VOICEID": 36354,
+		"NameJPN": "着物の少女",
+		"JPN": "「おむすびはお米で人と人とを結ぶものさ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Omusubi are a means of binding people together by way of rice!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2784",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1002010039ba"
+	},
+	{
+		"LABEL": "0x278e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2794",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 529,
+		"MSGID": 166,
+		"VOICEID": 36355,
+		"NameJPN": "着物の少女",
+		"JPN": "「愛情という掛け替えのない隠し味が詰まっているんだぜ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"They're chock-full of love! The most irreplaceable of secret ingredients!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 531,
+		"MSGID": 167,
+		"JPN": "あ、なんか浸ってるぞ、こいつ。",
+		"ENG": "Dang, she's getting kinda deep.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2816",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "150201001bba"
+	},
+	{
+		"LABEL": "0x2820",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2826",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 534,
+		"MSGID": 168,
+		"VOICEID": 36356,
+		"NameJPN": "着物の少女",
+		"JPN": "「ともかく、君のおかげで助かったよ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Anyway, you've saved me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2868",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "18020100f1b9"
+	},
+	{
+		"LABEL": "0x2872",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2878",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 537,
+		"MSGID": 169,
+		"VOICEID": 36357,
+		"NameJPN": "着物の少女",
+		"JPN": "「命の恩人だ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I owe you my life.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 539,
+		"MSGID": 170,
+		"NameJPN": "羽依里",
+		"JPN": "「そんな大げさな」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's a bit of an exaggeration.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28d0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1d020100f5b9"
+	},
+	{
+		"LABEL": "0x28da",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x28e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 542,
+		"MSGID": 171,
+		"VOICEID": 36358,
+		"NameJPN": "着物の少女",
+		"JPN": "「いやいや、一飯の恩は返さないといけないんだ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Not at all! I've gotta repay what I've been fed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x292c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "200201001bba"
+	},
+	{
+		"LABEL": "0x2936",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x293c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 545,
+		"MSGID": 172,
+		"VOICEID": 36359,
+		"NameJPN": "着物の少女",
+		"JPN": "「なんでも１つ、キミの願い事を叶えるぜ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I'll grant ya any one wish of yours.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2982",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 547,
+		"MSGID": 173,
+		"NameJPN": "羽依里",
+		"JPN": "「なんでも?!」",
+		"NameENG": "Hairi",
+		"ENG": "\"Any!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29ac",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2502010030ba"
+	},
+	{
+		"LABEL": "0x29b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 550,
+		"MSGID": 174,
+		"VOICEID": 36360,
+		"NameJPN": "着物の少女",
+		"JPN": "「なんでもさ」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Any.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29e8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2802010039ba"
+	},
+	{
+		"LABEL": "0x29f2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 553,
+		"MSGID": 175,
+		"VOICEID": 36361,
+		"NameJPN": "着物の少女",
+		"JPN": "「おむすびにかけて二言は無い」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I swear on omusubi I won't go back on my word.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 555,
+		"MSGID": 176,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ、折角だし……一仕事してもらうかな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Then I guess I'll have you do something for me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a7a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d0201004cba"
+	},
+	{
+		"LABEL": "0x2a84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2a8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 558,
+		"MSGID": 177,
+		"VOICEID": 36362,
+		"NameJPN": "着物の少女",
+		"JPN": "「なぬ？」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"What now?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ab2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 560,
+		"MSGID": 178,
+		"NameJPN": "羽依里",
+		"JPN": "「この島を案内してくれないか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Could you show me around the island?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2aea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 562,
+		"MSGID": 179,
+		"NameJPN": "羽依里",
+		"JPN": "「俺、ここに来たばかりで、何があるかよく知らないんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I've only just got here, so I don't really know what's around.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b3a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 564,
+		"MSGID": 180,
+		"NameJPN": "羽依里",
+		"JPN": "「だから、今もちょうど散策中で――……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I was just doing some roaming, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b7c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3602010013ba"
+	},
+	{
+		"LABEL": "0x2b86",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 567,
+		"MSGID": 181,
+		"VOICEID": 36363,
+		"NameJPN": "着物の少女",
+		"JPN": "「…………」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 569,
+		"MSGID": 182,
+		"NameJPN": "羽依里",
+		"JPN": "「……どうした？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...What's wrong?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2be2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3b02010015ba"
+	},
+	{
+		"LABEL": "0x2bec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bf2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 572,
+		"MSGID": 183,
+		"VOICEID": 36364,
+		"NameJPN": "着物の少女",
+		"JPN": "「解せぬ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Unfathomable...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c1e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 574,
+		"MSGID": 184,
+		"NameJPN": "羽依里",
+		"JPN": "「どういうこと？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What is?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c4a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4002010013ba"
+	},
+	{
+		"LABEL": "0x2c54",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2c5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 577,
+		"MSGID": 185,
+		"VOICEID": 36365,
+		"NameJPN": "着物の少女",
+		"JPN": "「食べた分、働かせようとは……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"You would have me work for what I ate?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c98",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "430201001fba"
+	},
+	{
+		"LABEL": "0x2ca2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2ca8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 580,
+		"MSGID": 186,
+		"VOICEID": 36366,
+		"NameJPN": "着物の少女",
+		"JPN": "「まさに鬼の所業」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"The deed of a true oni!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cd8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 582,
+		"MSGID": 187,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、なんでもって言ったから……」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, you did say 'any wish'...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d16",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4802010009ba"
+	},
+	{
+		"LABEL": "0x2d20",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2d26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 585,
+		"MSGID": 188,
+		"VOICEID": 36367,
+		"NameJPN": "着物の少女",
+		"JPN": "「働きたくない」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"I don't wanna work...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d54",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 587,
+		"MSGID": 189,
+		"NameJPN": "羽依里",
+		"JPN": "「え？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d76",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4d0201007bba"
+	},
+	{
+		"LABEL": "0x2d80",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2d86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 590,
+		"MSGID": 190,
+		"VOICEID": 36368,
+		"NameJPN": "着物の少女",
+		"JPN": "「っ……ひっ……ぐっ……」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"Urh... hic... guh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2dbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 592,
+		"MSGID": 191,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょ?!　俺泣くようなこと言ったか??」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hold up! What did I even say!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e02",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5202010078ba"
+	},
+	{
+		"LABEL": "0x2e0c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2e12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 595,
+		"MSGID": 192,
+		"VOICEID": 36369,
+		"NameJPN": "着物の少女",
+		"JPN": "「……ぶえええええええーーーーー！」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"...Bweeeeeeeeeeeeeehhhhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e54",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "580200a10e0300"
+	},
+	{
+		"LABEL": "0x2e60",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "590201000000008002b400"
+	},
+	{
+		"LABEL": "0x2e70",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100021800d600b400"
+	},
+	{
+		"LABEL": "0x2e7e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x2e88",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2e8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 602,
+		"MSGID": 193,
+		"VOICEID": 36370,
+		"NameJPN": "着物の少女",
+		"JPN": "「鬼ーーーー！」",
+		"NameENG": "Kimono Girl",
+		"ENG": "\"You oniiiiii!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ebc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 604,
+		"MSGID": 194,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっ！　え!?　速っ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wo― Holy crap, she's fast!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ef2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 606,
+		"MSGID": 195,
+		"JPN": "すぐにその姿は見えなくなった。",
+		"ENG": "She soon vanished from sight.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f20",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 608,
+		"MSGID": 196,
+		"JPN": "あまりにもあっという間の出来事に、俺は何が何やらわからず……",
+		"ENG": "It all happened in the blink of an eye and my head couldn't keep up.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 610,
+		"MSGID": 197,
+		"NameJPN": "羽依里",
+		"JPN": "「……５０メートル６秒台ってとこか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Fifty meters in six seconds...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 612,
+		"MSGID": 198,
+		"JPN": "この島には、色々な奴がいるんだなぁ。",
+		"ENG": "There sure are lots of characters on this island.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fe2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "68020000b800000000000000"
+	},
+	{
+		"LABEL": "0x2ff2",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2ffa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x3000",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x3008",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x3014",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x3020",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x3026",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x302c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3030",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "7800"
+	},
+	{
+		"LABEL": "0x3036",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000080001"
+	},
+	{
+		"LABEL": "0x3042",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000080001"
+	},
+	{
+		"LABEL": "0x304e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3052",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x3056",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "16000000"
+	},
+	{
+		"LABEL": "0x305e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "12000000"
+	},
+	{
+		"LABEL": "0x3066",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "13000000"
+	},
+	{
+		"LABEL": "0x306e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "14000000"
+	},
+	{
+		"LABEL": "0x3076",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "d11b0000"
+	},
+	{
+		"LABEL": "0x307e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6902"
+	},
+	{
+		"LABEL": "0x3084",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "6b020080"
+	}
+]
