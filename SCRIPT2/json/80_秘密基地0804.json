@@ -1,0 +1,4987 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0e00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0f00b4860100"
+	},
+	{
+		"LABEL": "0x30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"JPN": "秘密基地にやってきた。",
+		"ENG": "I made my way over to the secret base.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "すると……",
+		"ENG": "Walking inside...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x70",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "17000403d10004"
+	},
+	{
+		"LABEL": "0x7c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000080fe1800"
+	},
+	{
+		"LABEL": "0x8a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "04049cb904"
+	},
+	{
+		"LABEL": "0x94",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0404000000d600b400"
+	},
+	{
+		"LABEL": "0xa2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff060000000cfe0000"
+	},
+	{
+		"LABEL": "0xb0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff040000000cfe0000"
+	},
+	{
+		"LABEL": "0xbe",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0405612b06"
+	},
+	{
+		"LABEL": "0xc8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000076010000"
+	},
+	{
+		"LABEL": "0xd6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff06021e0000000000"
+	},
+	{
+		"LABEL": "0xe4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e0000000000"
+	},
+	{
+		"LABEL": "0xf2",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040c00"
+	},
+	{
+		"LABEL": "0xfa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x100",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 2,
+		"VOICEID": 23456,
+		"NameJPN": "良一",
+		"JPN": "「――……っ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 3,
+		"JPN": "良一が、スリングで何かを狙っていた。",
+		"ENG": "I found Ryouichi aiming a slingshot.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15a",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "1d00ff06021e000cfe0000"
+	},
+	{
+		"LABEL": "0x16a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e000cfe0000"
+	},
+	{
+		"LABEL": "0x178",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x17e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0403"
+	},
+	{
+		"LABEL": "0x184",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000000000000"
+	},
+	{
+		"LABEL": "0x192",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0404"
+	},
+	{
+		"LABEL": "0x198",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040400000000000000"
+	},
+	{
+		"LABEL": "0x1a6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0405"
+	},
+	{
+		"LABEL": "0x1ac",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000000000000"
+	},
+	{
+		"LABEL": "0x1ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1c0",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040000000000000000"
+	},
+	{
+		"LABEL": "0x1ce",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff06"
+	},
+	{
+		"LABEL": "0x1d4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff04"
+	},
+	{
+		"LABEL": "0x1da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 31,
+		"MSGID": 4,
+		"JPN": "その先には……",
+		"ENG": "And in front of him...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "21000406d10005"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0406000000d4011800"
+	},
+	{
+		"LABEL": "0x212",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0407cba305"
+	},
+	{
+		"LABEL": "0x21c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04070000002a04b400"
+	},
+	{
+		"LABEL": "0x22a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07000000d6010000"
+	},
+	{
+		"LABEL": "0x238",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05000000d6010000"
+	},
+	{
+		"LABEL": "0x246",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0408612b07"
+	},
+	{
+		"LABEL": "0x250",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04080000002a030000"
+	},
+	{
+		"LABEL": "0x25e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07021e0000000000"
+	},
+	{
+		"LABEL": "0x26c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e0000000000"
+	},
+	{
+		"LABEL": "0x27a",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff051300"
+	},
+	{
+		"LABEL": "0x282",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x288",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 5,
+		"VOICEID": 23457,
+		"NameJPN": "天善",
+		"JPN": "「……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 6,
+		"JPN": "天善がラケットを構えていた。",
+		"ENG": "...Was Tenzen, holding a racket at the ready.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d4",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "2700ff07021e00d6010000"
+	},
+	{
+		"LABEL": "0x2e4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e00d6010000"
+	},
+	{
+		"LABEL": "0x2f2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2f8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0406"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000000000000"
+	},
+	{
+		"LABEL": "0x30c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0407"
+	},
+	{
+		"LABEL": "0x312",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040700000000000000"
+	},
+	{
+		"LABEL": "0x320",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0408"
+	},
+	{
+		"LABEL": "0x326",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040800000000000000"
+	},
+	{
+		"LABEL": "0x334",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x33a",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff050000000000000000"
+	},
+	{
+		"LABEL": "0x348",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff07"
+	},
+	{
+		"LABEL": "0x34e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff05"
+	},
+	{
+		"LABEL": "0x354",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2900010085b900008002b4006900"
+	},
+	{
+		"LABEL": "0x366",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x36c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 7,
+		"VOICEID": 23458,
+		"NameJPN": "良一",
+		"JPN": "「お、羽依里」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Oh, Hairi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x392",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「何してるんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What're you guys up to?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3be",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2e0001008eb9"
+	},
+	{
+		"LABEL": "0x3c8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3ce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 9,
+		"VOICEID": 23459,
+		"NameJPN": "良一",
+		"JPN": "「見りゃ分かるだろ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Can't you tell?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「全然わからない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nope, not at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x428",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3300010079b9"
+	},
+	{
+		"LABEL": "0x432",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x438",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 11,
+		"VOICEID": 23460,
+		"NameJPN": "良一",
+		"JPN": "「んじゃ、見てれば分かるよ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Then I'm sure you'll figure it out if you watch.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46c",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "36000100000f00"
+	},
+	{
+		"LABEL": "0x478",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x47e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 12,
+		"JPN": "そう言うと、良一はスリングから指を離す。",
+		"ENG": "Ryouichi released the slingshot's elastic band.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3b0000f60e0300"
+	},
+	{
+		"LABEL": "0x4c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 13,
+		"JPN": "すると、とてつもない速さのピンポン玉が発射される。",
+		"ENG": "It catapulted a ping-pong ball towards Tenzen at an incredible speed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x504",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3f000100e5a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000500"
+	},
+	{
+		"LABEL": "0x51e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x524",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 14,
+		"VOICEID": 23461,
+		"NameJPN": "天善",
+		"JPN": "「ふっ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x546",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "42000000"
+	},
+	{
+		"LABEL": "0x54e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x55c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x564",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x56a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x570",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x576",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x57c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x58a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x590",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x594",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "430001480f0300"
+	},
+	{
+		"LABEL": "0x5a0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4400"
+	},
+	{
+		"LABEL": "0x5a6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x5b4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5bc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5c2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 15,
+		"JPN": "が、天善は、いとも簡単にそれを良一の元へと打ち返した。",
+		"ENG": "Tenzen swatted it right back at him, as if it were the simplest thing in the world.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x60c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4a00010088b900008002b4006900"
+	},
+	{
+		"LABEL": "0x61e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x624",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 16,
+		"VOICEID": 23462,
+		"NameJPN": "良一",
+		"JPN": "「な？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"See?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x644",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 77,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「なじゃない。何だこれ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, actually. What?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x678",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4f00010109a400009001b4006d00"
+	},
+	{
+		"LABEL": "0x68a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010079b9"
+	},
+	{
+		"LABEL": "0x692",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0x6a0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 18,
+		"VOICEID": 23463,
+		"NameJPN": "天善",
+		"JPN": "「特訓だ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Special training.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「特訓って、卓球の？」",
+		"NameENG": "Hairi",
+		"ENG": "\"And by special training, you mean for ping-pong?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "54000101afa3"
+	},
+	{
+		"LABEL": "0x702",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x708",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 20,
+		"VOICEID": 23464,
+		"NameJPN": "天善",
+		"JPN": "「それ以外に何があるんだ？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What else could it be for?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x73c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、こんな卓球の特訓は見たことないぞ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"I've never seen anybody train for ping-pong like this before, that's for sure.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x782",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5900010076b9"
+	},
+	{
+		"LABEL": "0x78c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x792",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 22,
+		"VOICEID": 23465,
+		"NameJPN": "良一",
+		"JPN": "「都会じゃ、こういう練習しないのか？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"They don't do this sorta training in the city?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「しないな。こっちの方ではよくやるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nope. Is this seriously a thing over here?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x814",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5e0001017fa3"
+	},
+	{
+		"LABEL": "0x81e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x824",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 24,
+		"VOICEID": 23466,
+		"NameJPN": "天善",
+		"JPN": "「いや、俺以外やってる奴はいない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"No, I'm the only one who does it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x85e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "610001008ab9"
+	},
+	{
+		"LABEL": "0x868",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x86e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 25,
+		"VOICEID": 23467,
+		"NameJPN": "良一",
+		"JPN": "「そうなのか!?」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"For real!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x898",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 26,
+		"JPN": "付き合わされている良一も知らなかったようだ。",
+		"ENG": "Even his partner in crime, Ryouichi, had no idea.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8d4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "66000101d9a3"
+	},
+	{
+		"LABEL": "0x8de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 103,
+		"MSGID": 27,
+		"VOICEID": 23468,
+		"NameJPN": "天善",
+		"JPN": "「動体視力と反射神経を鍛える為の、オリジナルの練習方法だ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"This is an original training method I developed to hone my hand-eye coordination and reflexes.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x936",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "690001008cb9"
+	},
+	{
+		"LABEL": "0x940",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x946",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「効果はあるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Does it work?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x974",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6c000101c7a3"
+	},
+	{
+		"LABEL": "0x97e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x984",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 109,
+		"MSGID": 29,
+		"VOICEID": 23469,
+		"NameJPN": "天善",
+		"JPN": "「いや。あの程度の球速じゃ、あまり期待できない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"No. There's not much for me to learn from that slow of a shot.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9cc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6f0001007db9"
+	},
+	{
+		"LABEL": "0x9d6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x9dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 30,
+		"VOICEID": 23470,
+		"NameJPN": "良一",
+		"JPN": "「手伝い損かよ……」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"And it wasn't even helpful...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa08",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "72000101bba3"
+	},
+	{
+		"LABEL": "0xa12",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa18",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 31,
+		"VOICEID": 23471,
+		"NameJPN": "天善",
+		"JPN": "「もっと速くすることはできないか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Do you think you could you make the ball fly any faster?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa54",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7500010076b9"
+	},
+	{
+		"LABEL": "0xa5e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa64",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 32,
+		"VOICEID": 23472,
+		"NameJPN": "良一",
+		"JPN": "「無理だな。スリングじゃあれで精一杯だ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Not happening. This is already pushing my slingshot to the limit.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaa4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7800010191a3"
+	},
+	{
+		"LABEL": "0xaae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xab4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 121,
+		"MSGID": 33,
+		"VOICEID": 23473,
+		"NameJPN": "天善",
+		"JPN": "「そうか。もっといい特訓方法はないか……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see. There must be some better way for me to train...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaf6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 123,
+		"MSGID": 34,
+		"JPN": "ピンポン玉を、あれ以上の速さで飛ばすなんて、物理的に不可能だろう。",
+		"ENG": "Physics-wise, wasn't that pretty close to how fast ping-pong balls can fly, period?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb48",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7d0001008eb9"
+	},
+	{
+		"LABEL": "0xb52",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb58",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 35,
+		"VOICEID": 23474,
+		"NameJPN": "良一",
+		"JPN": "「お！　こういうのはどうだ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Oh! How 'bout this?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb8e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8000010085b9"
+	},
+	{
+		"LABEL": "0xb98",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb9e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 36,
+		"VOICEID": 23475,
+		"NameJPN": "良一",
+		"JPN": "「天善が飛んでくる玉に向かって、全力で走りながら打つんだよ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Why don't you try sprinting as fast as you can at the ball as it flies towards you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbf2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8300010079b9"
+	},
+	{
+		"LABEL": "0xbfc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 37,
+		"VOICEID": 23476,
+		"NameJPN": "良一",
+		"JPN": "「そうすりゃ玉が速く感じるだろ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"It'll look faster to you that way, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc3a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8600010185a3"
+	},
+	{
+		"LABEL": "0xc44",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc4a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 38,
+		"VOICEID": 23477,
+		"NameJPN": "天善",
+		"JPN": "「なるほど、発想は悪くない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see. That isn't a bad idea.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc7e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "890001017fa3"
+	},
+	{
+		"LABEL": "0xc88",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 39,
+		"VOICEID": 23478,
+		"NameJPN": "天善",
+		"JPN": "「だが、それだけではたかが知れている」",
+		"NameENG": "Tenzen",
+		"ENG": "\"But, even that has its limits.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xccc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8c0001008cb9"
+	},
+	{
+		"LABEL": "0xcd6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcdc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 141,
+		"MSGID": 40,
+		"VOICEID": 23479,
+		"NameJPN": "良一",
+		"JPN": "「んじゃ自転車で坂を下りながらなんてどうだ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Hmm, then how 'bout if you do it while riding a bike down a hill?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd22",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8f00010191a3"
+	},
+	{
+		"LABEL": "0xd2c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 144,
+		"MSGID": 41,
+		"VOICEID": 23480,
+		"NameJPN": "天善",
+		"JPN": "「それは良さそうだが、そんなに長い坂がない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"That sounds appealing, but there aren't any hills that would be long enough for it around here.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd76",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9200010076b9"
+	},
+	{
+		"LABEL": "0xd80",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 42,
+		"VOICEID": 23481,
+		"NameJPN": "良一",
+		"JPN": "「じゃあ、羽依里のバイクに乗れよ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Then use Hairi's motorcycle.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdc0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 149,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「は!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xde4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "97000101c1a3"
+	},
+	{
+		"LABEL": "0xdee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xdf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 44,
+		"VOICEID": 23482,
+		"NameJPN": "天善",
+		"JPN": "「なるほど。それは良さそうだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see. That might just work!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 168,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、あのバイクは借り物だし……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umm, for what it's worth, it's not actually mine...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe6a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "aa0001019da3"
+	},
+	{
+		"LABEL": "0xe74",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010200"
+	},
+	{
+		"LABEL": "0xe7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 46,
+		"VOICEID": 23487,
+		"NameJPN": "天善",
+		"JPN": "「頼む……この通りだ……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Please! I'm begging you!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xeb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 47,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xed6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 175,
+		"MSGID": 48,
+		"JPN": "そんなに深々と頭を下げられるとな……",
+		"ENG": "How am I supposed to say no to a bow like that?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 177,
+		"MSGID": 49,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ、いいか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, I guess it's fine...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf38",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "b300010185a3"
+	},
+	{
+		"LABEL": "0xf42",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 180,
+		"MSGID": 50,
+		"VOICEID": 23488,
+		"NameJPN": "天善",
+		"JPN": "「恩に着る」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You have my thanks!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf6c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "b600"
+	},
+	{
+		"LABEL": "0xf72",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0xf80",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xf88",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0xf8e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0xf94",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xf9a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xfa0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xfa6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0xfb4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0xfba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xfbe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 51,
+		"JPN": "１度家に帰り、バイクに乗って秘密基地まで戻ってくる。",
+		"ENG": "I made a trip home, then rode the Cub all the way back to the secret base.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1002",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "bb00"
+	},
+	{
+		"LABEL": "0x1008",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002800000000000000"
+	},
+	{
+		"LABEL": "0x1016",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x101e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1028",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x102c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "bd000403e40004"
+	},
+	{
+		"LABEL": "0x1038",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000080fe1800"
+	},
+	{
+		"LABEL": "0x1046",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "040499b904"
+	},
+	{
+		"LABEL": "0x1050",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0404000000d600b400"
+	},
+	{
+		"LABEL": "0x105e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff060000000cfe0000"
+	},
+	{
+		"LABEL": "0x106c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff040000000cfe0000"
+	},
+	{
+		"LABEL": "0x107a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0405612b06"
+	},
+	{
+		"LABEL": "0x1084",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000076010000"
+	},
+	{
+		"LABEL": "0x1092",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff06021e0000000000"
+	},
+	{
+		"LABEL": "0x10a0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e0000000000"
+	},
+	{
+		"LABEL": "0x10ae",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040c00"
+	},
+	{
+		"LABEL": "0x10b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 191,
+		"MSGID": 52,
+		"VOICEID": 23489,
+		"NameJPN": "良一",
+		"JPN": "「こっちはいつでもいいぜ、天善！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Ready whenever you are, Tenzen!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 193,
+		"MSGID": 53,
+		"JPN": "良一がピンポン玉をセットしてスリングを構える。",
+		"ENG": "Ryouichi loaded a ball into his slingshot and pulled it back.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1134",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "c300ff06021e000cfe0000"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e000cfe0000"
+	},
+	{
+		"LABEL": "0x1152",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1158",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0403"
+	},
+	{
+		"LABEL": "0x115e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000000000000"
+	},
+	{
+		"LABEL": "0x116c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0404"
+	},
+	{
+		"LABEL": "0x1172",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040400000000000000"
+	},
+	{
+		"LABEL": "0x1180",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0405"
+	},
+	{
+		"LABEL": "0x1186",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000000000000"
+	},
+	{
+		"LABEL": "0x1194",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x119a",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040000000000000000"
+	},
+	{
+		"LABEL": "0x11a8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff06"
+	},
+	{
+		"LABEL": "0x11ae",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff04"
+	},
+	{
+		"LABEL": "0x11b4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c70000040e030002"
+	},
+	{
+		"LABEL": "0x11c0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c9000406e40005"
+	},
+	{
+		"LABEL": "0x11cc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0406000000d4011800"
+	},
+	{
+		"LABEL": "0x11da",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "040793a205"
+	},
+	{
+		"LABEL": "0x11e4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04070000002a04b400"
+	},
+	{
+		"LABEL": "0x11f2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07000000d6010000"
+	},
+	{
+		"LABEL": "0x1200",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05000000d6010000"
+	},
+	{
+		"LABEL": "0x120e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0408612b07"
+	},
+	{
+		"LABEL": "0x1218",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04080000002a030000"
+	},
+	{
+		"LABEL": "0x1226",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07021e0000000000"
+	},
+	{
+		"LABEL": "0x1234",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e0000000000"
+	},
+	{
+		"LABEL": "0x1242",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff051400"
+	},
+	{
+		"LABEL": "0x124a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1250",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 203,
+		"MSGID": 54,
+		"JPN": "そしてその先には天善。",
+		"ENG": "A good fifty meters in front of him, Tenzen sat on the Cub.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1276",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 205,
+		"MSGID": 55,
+		"JPN": "遠くでバイクにまたがり、エンジンを鳴らしている。",
+		"ENG": "Its engine hummed in the distance.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12b6",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "cf00ff07021e00d6010000"
+	},
+	{
+		"LABEL": "0x12c6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e00d6010000"
+	},
+	{
+		"LABEL": "0x12d4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x12da",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0406"
+	},
+	{
+		"LABEL": "0x12e0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000000000000"
+	},
+	{
+		"LABEL": "0x12ee",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0407"
+	},
+	{
+		"LABEL": "0x12f4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040700000000000000"
+	},
+	{
+		"LABEL": "0x1302",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0408"
+	},
+	{
+		"LABEL": "0x1308",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040800000000000000"
+	},
+	{
+		"LABEL": "0x1316",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x131c",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff050000000000000000"
+	},
+	{
+		"LABEL": "0x132a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff07"
+	},
+	{
+		"LABEL": "0x1330",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff05"
+	},
+	{
+		"LABEL": "0x1336",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「間違えても俺の相棒に当てるなよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"You'd better not hit my partner, okay? Not even on accident!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1372",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d3000403e40004"
+	},
+	{
+		"LABEL": "0x137e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000080fe1800"
+	},
+	{
+		"LABEL": "0x138c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "040493b904"
+	},
+	{
+		"LABEL": "0x1396",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0404000000d600b400"
+	},
+	{
+		"LABEL": "0x13a4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff060000000cfe0000"
+	},
+	{
+		"LABEL": "0x13b2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff040000000cfe0000"
+	},
+	{
+		"LABEL": "0x13c0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0405612b06"
+	},
+	{
+		"LABEL": "0x13ca",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000076010000"
+	},
+	{
+		"LABEL": "0x13d8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff06021e0000000000"
+	},
+	{
+		"LABEL": "0x13e6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e0000000000"
+	},
+	{
+		"LABEL": "0x13f4",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040c00"
+	},
+	{
+		"LABEL": "0x13fc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1402",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 212,
+		"MSGID": 57,
+		"VOICEID": 23490,
+		"NameJPN": "良一",
+		"JPN": "「わかってるって！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"I know, I know!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x142e",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "d500ff06021e000cfe0000"
+	},
+	{
+		"LABEL": "0x143e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e000cfe0000"
+	},
+	{
+		"LABEL": "0x144c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1452",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0403"
+	},
+	{
+		"LABEL": "0x1458",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000000000000"
+	},
+	{
+		"LABEL": "0x1466",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0404"
+	},
+	{
+		"LABEL": "0x146c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040400000000000000"
+	},
+	{
+		"LABEL": "0x147a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0405"
+	},
+	{
+		"LABEL": "0x1480",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000000000000"
+	},
+	{
+		"LABEL": "0x148e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1494",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040000000000000000"
+	},
+	{
+		"LABEL": "0x14a2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff06"
+	},
+	{
+		"LABEL": "0x14a8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff04"
+	},
+	{
+		"LABEL": "0x14ae",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "d700ca860100"
+	},
+	{
+		"LABEL": "0x14b8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "d90000000000003c0001"
+	},
+	{
+		"LABEL": "0x14c6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "db0001f20d0300"
+	},
+	{
+		"LABEL": "0x14d2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "de000600c9a209006b00b1ff"
+	},
+	{
+		"LABEL": "0x14e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 223,
+		"MSGID": 58,
+		"VOICEID": 23491,
+		"NameJPN": "天善",
+		"JPN": "「さあ行くぞ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Here I come!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x150a",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e10001000000003c0001"
+	},
+	{
+		"LABEL": "0x1518",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "e3000d100e030002"
+	},
+	{
+		"LABEL": "0x1524",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e5000302132a03"
+	},
+	{
+		"LABEL": "0x1530",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03020000663c663c000080026801"
+	},
+	{
+		"LABEL": "0x1542",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "e6000000"
+	},
+	{
+		"LABEL": "0x154a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x154e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 232,
+		"MSGID": 59,
+		"JPN": "エンジン音が激しくなり、それがこちらの方へと近づいてくる。",
+		"ENG": "The sound of the roaring engine grew closer and closer.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1598",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "ea00ff0400000000000000"
+	},
+	{
+		"LABEL": "0x15a8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff0600000000000000"
+	},
+	{
+		"LABEL": "0x15b6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0405622b06"
+	},
+	{
+		"LABEL": "0x15c0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0405000000abfc2100"
+	},
+	{
+		"LABEL": "0x15ce",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500120000002100"
+	},
+	{
+		"LABEL": "0x15dc",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0405ff1200"
+	},
+	{
+		"LABEL": "0x15e6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0406622b06"
+	},
+	{
+		"LABEL": "0x15f0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000055034601"
+	},
+	{
+		"LABEL": "0x15fe",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600120000004601"
+	},
+	{
+		"LABEL": "0x160c",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0406ff1200"
+	},
+	{
+		"LABEL": "0x1616",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x161c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0403e40004"
+	},
+	{
+		"LABEL": "0x1626",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04030000002a001800"
+	},
+	{
+		"LABEL": "0x1634",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0404c9a204"
+	},
+	{
+		"LABEL": "0x163e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "040400"
+	},
+	{
+		"LABEL": "0x1646",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0404ff1200"
+	},
+	{
+		"LABEL": "0x1650",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04040000008002b400"
+	},
+	{
+		"LABEL": "0x165e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "ff0400"
+	},
+	{
+		"LABEL": "0x1666",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "ff04ff1200"
+	},
+	{
+		"LABEL": "0x1670",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff041500"
+	},
+	{
+		"LABEL": "0x1678",
+		"Type": "WIPE",
+		"SUBCMD": 0,
+		"Args": "0c00652b0f00"
+	},
+	{
+		"LABEL": "0x1682",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 236,
+		"MSGID": 60,
+		"VOICEID": 23492,
+		"NameJPN": "天善",
+		"JPN": "「おおおおおぉぉぉぉぉぉ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Uooooooooogh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 61,
+		"JPN": "トップスピードで、俺たちの方へと向かってきた。",
+		"ENG": "Tenzen came rushing at us at max speed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16f4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f0000403e40004"
+	},
+	{
+		"LABEL": "0x1700",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0404cba204"
+	},
+	{
+		"LABEL": "0x170a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1710",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 243,
+		"MSGID": 62,
+		"VOICEID": 23493,
+		"NameJPN": "天善",
+		"JPN": "「来い！　良一！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Now! Ryouichi!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x173a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f5000600817a09006500b1ff"
+	},
+	{
+		"LABEL": "0x174a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 246,
+		"MSGID": 63,
+		"VOICEID": 23494,
+		"NameJPN": "良一",
+		"JPN": "「行くぜ！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Here goes!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x176e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "f80001f60e0300"
+	},
+	{
+		"LABEL": "0x177a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 249,
+		"MSGID": 64,
+		"JPN": "シュバッ！",
+		"ENG": "Fwoosh!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1794",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 251,
+		"MSGID": 65,
+		"JPN": "ピンポン玉がすごい速さで射出される。",
+		"ENG": "The ping-pong ball flew from his slingshot at an incredibly fast speed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17c8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fd000403e40004"
+	},
+	{
+		"LABEL": "0x17d4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0404a1a204"
+	},
+	{
+		"LABEL": "0x17de",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x17e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 255,
+		"MSGID": 66,
+		"JPN": "天善がラケットを構えようとする……が。",
+		"ENG": "Tenzen tried to ready his racket... but.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x181a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "01010403e40004"
+	},
+	{
+		"LABEL": "0x1826",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0404b9a204"
+	},
+	{
+		"LABEL": "0x1830",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1836",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 67,
+		"VOICEID": 23495,
+		"NameJPN": "天善",
+		"JPN": "「ラケットが持てない!?」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I can't grab my racket!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1868",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 260,
+		"MSGID": 68,
+		"JPN": "右手はハンドルを握ってるせいで、ラケットに持ち替えられない。",
+		"ENG": "He was holding the handlebars, and didn't have a hand free for his racket.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18b4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "06010403e40004"
+	},
+	{
+		"LABEL": "0x18c0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0404bba204"
+	},
+	{
+		"LABEL": "0x18ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 264,
+		"MSGID": 69,
+		"JPN": "その結果。",
+		"ENG": "Predictable results followed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18ea",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "0a01"
+	},
+	{
+		"LABEL": "0x18f0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0e010000"
+	},
+	{
+		"LABEL": "0x18f8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x1906",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x190e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x1914",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x191a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0405"
+	},
+	{
+		"LABEL": "0x1920",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000000000000"
+	},
+	{
+		"LABEL": "0x192e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0406"
+	},
+	{
+		"LABEL": "0x1934",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000000000000"
+	},
+	{
+		"LABEL": "0x1942",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0403"
+	},
+	{
+		"LABEL": "0x1948",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000000000000"
+	},
+	{
+		"LABEL": "0x1956",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0404"
+	},
+	{
+		"LABEL": "0x195c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040400000000000000"
+	},
+	{
+		"LABEL": "0x196a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1970",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1976",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x197c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x198a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x1990",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1994",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "10010d00000000780001"
+	},
+	{
+		"LABEL": "0x19a2",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "110105720d0300"
+	},
+	{
+		"LABEL": "0x19ae",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 1,
+		"Args": "1201ff00c800"
+	},
+	{
+		"LABEL": "0x19b8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1301"
+	},
+	{
+		"LABEL": "0x19be",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "ff000000"
+	},
+	{
+		"LABEL": "0x19c6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002800000000000000"
+	},
+	{
+		"LABEL": "0x19d4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x19dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x19e2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x19e6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "15010600c9a209006b00b1ff"
+	},
+	{
+		"LABEL": "0x19f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 278,
+		"MSGID": 70,
+		"VOICEID": 23496,
+		"NameJPN": "天善",
+		"JPN": "「ぬぁ!?」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Nugagh!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 280,
+		"MSGID": 71,
+		"JPN": "ピンポン玉は顔に当たり。",
+		"ENG": "The ping-pong ball hit him right in the face.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 284,
+		"MSGID": 72,
+		"JPN": "俺の相棒と共に、盛大に転倒した。",
+		"ENG": "He fell to the ground with a crash, together with my beloved partner.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a72",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1e01b4860100"
+	},
+	{
+		"LABEL": "0x1a7c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "200106009f7a09006500b1ff"
+	},
+	{
+		"LABEL": "0x1a8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 73,
+		"VOICEID": 23497,
+		"NameJPN": "良一",
+		"JPN": "「………」",
+		"NameENG": "Ryouichi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 291,
+		"MSGID": 74,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ad2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 294,
+		"MSGID": 75,
+		"JPN": "……えらいことになった。",
+		"ENG": "...That couldn't possibly have turned out worse.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1afa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 76,
+		"JPN": "２人で近づいてみる。",
+		"ENG": "We closed in on the crime scene.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b1e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2a0101007db900008002b4006900"
+	},
+	{
+		"LABEL": "0x1b30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 299,
+		"MSGID": 77,
+		"VOICEID": 23498,
+		"NameJPN": "良一",
+		"JPN": "「おい、天善。生きてるか？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Hey, Tenzen? You alive?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b6a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2d0101019da300009001b4006d00"
+	},
+	{
+		"LABEL": "0x1b7c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0x1b8a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1b90",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 302,
+		"MSGID": 78,
+		"VOICEID": 23499,
+		"NameJPN": "天善",
+		"JPN": "「と、当然だ………」",
+		"NameENG": "Tenzen",
+		"ENG": "\"O-Of course...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1bbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 304,
+		"MSGID": 79,
+		"JPN": "よろよろと立ち上がり、そしてゆっくりバイクも起こした。",
+		"ENG": "He shakily picked himself off of the ground, then slowly picked the Cub up and set it upright.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 306,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「怪我とかないか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Are you hurt?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c30",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3401010197a3"
+	},
+	{
+		"LABEL": "0x1c3a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1c40",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 309,
+		"MSGID": 81,
+		"VOICEID": 23500,
+		"NameJPN": "天善",
+		"JPN": "「あると思うか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Do you think I am?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 311,
+		"MSGID": 82,
+		"NameJPN": "羽依里",
+		"JPN": "「思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 313,
+		"MSGID": 83,
+		"JPN": "大事故だ。",
+		"ENG": "That was a pretty big crash.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ca6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3b01010115a4"
+	},
+	{
+		"LABEL": "0x1cb0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 316,
+		"MSGID": 84,
+		"VOICEID": 23501,
+		"NameJPN": "天善",
+		"JPN": "「俺は平気だ。さあ、続きを頼む」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'm fine. Now, go prepare for the next round.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3e0101008ab9"
+	},
+	{
+		"LABEL": "0x1cf8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cfe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 319,
+		"MSGID": 85,
+		"VOICEID": 23502,
+		"NameJPN": "良一",
+		"JPN": "「まだやる気かよ!?」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"You're not giving up yet!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d2c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4101010109a4"
+	},
+	{
+		"LABEL": "0x1d36",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01007db9"
+	},
+	{
+		"LABEL": "0x1d3e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d44",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 322,
+		"MSGID": 86,
+		"VOICEID": 23503,
+		"NameJPN": "天善",
+		"JPN": "「当然だ。久々に、俺が打ち返せない球に出会った」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Of course. I've finally found another shot I'm unable to return, after all this time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 324,
+		"MSGID": 87,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、打ち返せない理由は別だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, pretty sure you couldn't hit that one for a really different reason.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dc6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 326,
+		"MSGID": 88,
+		"NameJPN": "羽依里",
+		"JPN": "「ラケットを持ってたら運転できない」",
+		"NameENG": "Hairi",
+		"ENG": "\"You can't drive while holding onto a racket.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e04",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "48010101d9a3"
+	},
+	{
+		"LABEL": "0x1e0e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01010218008002b400"
+	},
+	{
+		"LABEL": "0x1e1c",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x1e26",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e2c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 329,
+		"MSGID": 89,
+		"VOICEID": 23504,
+		"NameJPN": "天善",
+		"JPN": "「大丈夫だ。ラケットを持つために、手放しで運転してみせる」",
+		"NameENG": "Tenzen",
+		"ENG": "\"It'll be fine. I'll try driving hands-free so I can keep my racket at the ready!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 331,
+		"MSGID": 90,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、スロットルを回せないから無理だ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"The throttle's on the handlebars, though...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ec4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4d010101afa3"
+	},
+	{
+		"LABEL": "0x1ece",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ed4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 334,
+		"MSGID": 91,
+		"VOICEID": 23505,
+		"NameJPN": "天善",
+		"JPN": "「む……そうか……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Mgh... That's right...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f00",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 336,
+		"MSGID": 92,
+		"NameJPN": "羽依里",
+		"JPN": "「だから諦めてくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Seriously, just give up.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f2e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "520101017fa3"
+	},
+	{
+		"LABEL": "0x1f38",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f3e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 339,
+		"MSGID": 93,
+		"VOICEID": 23506,
+		"NameJPN": "天善",
+		"JPN": "「いや、こうしよう」",
+		"NameENG": "Tenzen",
+		"ENG": "\"No, I have a plan.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f6a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5601"
+	},
+	{
+		"LABEL": "0x1f70",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x1f76",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x1f7c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0306e9fd030000000000"
+	},
+	{
+		"LABEL": "0x1f8a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1f90",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1f96",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f9a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1fa0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x1fa6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1fac",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1fb0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "580100040e030002"
+	},
+	{
+		"LABEL": "0x1fbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 346,
+		"MSGID": 94,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fde",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "5c010406e40005"
+	},
+	{
+		"LABEL": "0x1fea",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0406000000d4011800"
+	},
+	{
+		"LABEL": "0x1ff8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0407d5a305"
+	},
+	{
+		"LABEL": "0x2002",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04070000002a04b400"
+	},
+	{
+		"LABEL": "0x2010",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07000000d6010000"
+	},
+	{
+		"LABEL": "0x201e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05000000d6010000"
+	},
+	{
+		"LABEL": "0x202c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0408612b07"
+	},
+	{
+		"LABEL": "0x2036",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04080000002a030000"
+	},
+	{
+		"LABEL": "0x2044",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07021e0000000000"
+	},
+	{
+		"LABEL": "0x2052",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e0000000000"
+	},
+	{
+		"LABEL": "0x2060",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff051600"
+	},
+	{
+		"LABEL": "0x2068",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x206e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 350,
+		"MSGID": 95,
+		"VOICEID": 23507,
+		"NameJPN": "天善",
+		"JPN": "「さあ、やってくれ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Now then, I'm counting on you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x209a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 352,
+		"MSGID": 96,
+		"JPN": "天善が背中でそう言った。",
+		"ENG": "I heard Tenzen behind me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20c2",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "6201ff07021e00d6010000"
+	},
+	{
+		"LABEL": "0x20d2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e00d6010000"
+	},
+	{
+		"LABEL": "0x20e0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x20e6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0406"
+	},
+	{
+		"LABEL": "0x20ec",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000000000000"
+	},
+	{
+		"LABEL": "0x20fa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0407"
+	},
+	{
+		"LABEL": "0x2100",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040700000000000000"
+	},
+	{
+		"LABEL": "0x210e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0408"
+	},
+	{
+		"LABEL": "0x2114",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040800000000000000"
+	},
+	{
+		"LABEL": "0x2122",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2128",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff050000000000000000"
+	},
+	{
+		"LABEL": "0x2136",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff07"
+	},
+	{
+		"LABEL": "0x213c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff05"
+	},
+	{
+		"LABEL": "0x2142",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 356,
+		"MSGID": 97,
+		"JPN": "俺は今、天善を後ろに乗せてハンドルを握っている。",
+		"ENG": "I was in the driver's seat and Tenzen sat behind me, racket in hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2182",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 358,
+		"MSGID": 98,
+		"JPN": "打ち返すことに集中するために、俺が運転手にさせられた。",
+		"ENG": "In order to let him dedicate his complete focus to returning the ball, he had me take the wheel.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x21c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 364,
+		"MSGID": 99,
+		"NameJPN": "羽依里",
+		"JPN": "「成功しても失敗しても、これで終わりだぞ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"This is the last time whether you pull it off or not, okay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x220e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "6e010406e40005"
+	},
+	{
+		"LABEL": "0x221a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0406000000d4011800"
+	},
+	{
+		"LABEL": "0x2228",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "04070ba405"
+	},
+	{
+		"LABEL": "0x2232",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04070000002a04b400"
+	},
+	{
+		"LABEL": "0x2240",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07000000d6010000"
+	},
+	{
+		"LABEL": "0x224e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05000000d6010000"
+	},
+	{
+		"LABEL": "0x225c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0408612b07"
+	},
+	{
+		"LABEL": "0x2266",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04080000002a030000"
+	},
+	{
+		"LABEL": "0x2274",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07021e0000000000"
+	},
+	{
+		"LABEL": "0x2282",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e0000000000"
+	},
+	{
+		"LABEL": "0x2290",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff051700"
+	},
+	{
+		"LABEL": "0x2298",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x229e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 367,
+		"MSGID": 100,
+		"VOICEID": 23509,
+		"NameJPN": "天善",
+		"JPN": "「わかっている」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'm well aware!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 369,
+		"MSGID": 101,
+		"NameJPN": "羽依里",
+		"JPN": "「ケガしても知らないぞ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"And it's not my responsibility if you get hurt, all right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22fa",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "73010406e40005"
+	},
+	{
+		"LABEL": "0x2306",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "0407dba305"
+	},
+	{
+		"LABEL": "0x2310",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2316",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 102,
+		"VOICEID": 23510,
+		"NameJPN": "天善",
+		"JPN": "「ふっ……望むところだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hmph... That's just how I like it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2346",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 374,
+		"MSGID": 103,
+		"JPN": "それは望んではいけない。",
+		"ENG": "It really shouldn't be.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x236e",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "7801ff07021e00d6010000"
+	},
+	{
+		"LABEL": "0x237e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e00d6010000"
+	},
+	{
+		"LABEL": "0x238c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2392",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0406"
+	},
+	{
+		"LABEL": "0x2398",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000000000000"
+	},
+	{
+		"LABEL": "0x23a6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0407"
+	},
+	{
+		"LABEL": "0x23ac",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040700000000000000"
+	},
+	{
+		"LABEL": "0x23ba",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0408"
+	},
+	{
+		"LABEL": "0x23c0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040800000000000000"
+	},
+	{
+		"LABEL": "0x23ce",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x23d4",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff050000000000000000"
+	},
+	{
+		"LABEL": "0x23e2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff07"
+	},
+	{
+		"LABEL": "0x23e8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff05"
+	},
+	{
+		"LABEL": "0x23ee",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7a010403e40004"
+	},
+	{
+		"LABEL": "0x23fa",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000080fe1800"
+	},
+	{
+		"LABEL": "0x2408",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "04043b7b04"
+	},
+	{
+		"LABEL": "0x2412",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0404000000d600b400"
+	},
+	{
+		"LABEL": "0x2420",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff060000000cfe0000"
+	},
+	{
+		"LABEL": "0x242e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff040000000cfe0000"
+	},
+	{
+		"LABEL": "0x243c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0405612b06"
+	},
+	{
+		"LABEL": "0x2446",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000076010000"
+	},
+	{
+		"LABEL": "0x2454",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff06021e0000000000"
+	},
+	{
+		"LABEL": "0x2462",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e0000000000"
+	},
+	{
+		"LABEL": "0x2470",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040c00"
+	},
+	{
+		"LABEL": "0x2478",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x247e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 380,
+		"MSGID": 104,
+		"JPN": "秘密基地の近くで、良一がスリングを引くのが見えた。",
+		"ENG": "I could see Ryouichi over by the secret base, drawing back his slingshot.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24c0",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "7e01ff06021e000cfe0000"
+	},
+	{
+		"LABEL": "0x24d0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e000cfe0000"
+	},
+	{
+		"LABEL": "0x24de",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x24e4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0403"
+	},
+	{
+		"LABEL": "0x24ea",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000000000000"
+	},
+	{
+		"LABEL": "0x24f8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0404"
+	},
+	{
+		"LABEL": "0x24fe",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040400000000000000"
+	},
+	{
+		"LABEL": "0x250c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0405"
+	},
+	{
+		"LABEL": "0x2512",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000000000000"
+	},
+	{
+		"LABEL": "0x2520",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2526",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040000000000000000"
+	},
+	{
+		"LABEL": "0x2534",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff06"
+	},
+	{
+		"LABEL": "0x253a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff04"
+	},
+	{
+		"LABEL": "0x2540",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 384,
+		"MSGID": 105,
+		"NameJPN": "羽依里",
+		"JPN": "「じゃあ行くぞ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Okay, you ready?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x256c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "82010406e40005"
+	},
+	{
+		"LABEL": "0x2578",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0406000000d4011800"
+	},
+	{
+		"LABEL": "0x2586",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0407cfa305"
+	},
+	{
+		"LABEL": "0x2590",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04070000002a04b400"
+	},
+	{
+		"LABEL": "0x259e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07000000d6010000"
+	},
+	{
+		"LABEL": "0x25ac",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05000000d6010000"
+	},
+	{
+		"LABEL": "0x25ba",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0408612b07"
+	},
+	{
+		"LABEL": "0x25c4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "04080000002a030000"
+	},
+	{
+		"LABEL": "0x25d2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff07021e0000000000"
+	},
+	{
+		"LABEL": "0x25e0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e0000000000"
+	},
+	{
+		"LABEL": "0x25ee",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff051800"
+	},
+	{
+		"LABEL": "0x25f6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x25fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 388,
+		"MSGID": 106,
+		"VOICEID": 23511,
+		"NameJPN": "天善",
+		"JPN": "「頼む」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Whenever you are.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x261c",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "8601ff07021e00d6010000"
+	},
+	{
+		"LABEL": "0x262c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff05021e00d6010000"
+	},
+	{
+		"LABEL": "0x263a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2640",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0406"
+	},
+	{
+		"LABEL": "0x2646",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040600000000000000"
+	},
+	{
+		"LABEL": "0x2654",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0407"
+	},
+	{
+		"LABEL": "0x265a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040700000000000000"
+	},
+	{
+		"LABEL": "0x2668",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0408"
+	},
+	{
+		"LABEL": "0x266e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040800000000000000"
+	},
+	{
+		"LABEL": "0x267c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2682",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff050000000000000000"
+	},
+	{
+		"LABEL": "0x2690",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff07"
+	},
+	{
+		"LABEL": "0x2696",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff05"
+	},
+	{
+		"LABEL": "0x269c",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "880100000000b400"
+	},
+	{
+		"LABEL": "0x26a8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "8a0100000000003c0001"
+	},
+	{
+		"LABEL": "0x26b6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "8c0101f20d0300"
+	},
+	{
+		"LABEL": "0x26c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 398,
+		"MSGID": 107,
+		"JPN": "ゆっくりスロットルを捻る。",
+		"ENG": "I slowly engaged the throttle.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26ec",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "9001ca860100"
+	},
+	{
+		"LABEL": "0x26f6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "920101000000003c0001"
+	},
+	{
+		"LABEL": "0x2704",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "94010d100e030002"
+	},
+	{
+		"LABEL": "0x2710",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "96010302132a03"
+	},
+	{
+		"LABEL": "0x271c",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03020000663c663c000080026801"
+	},
+	{
+		"LABEL": "0x272e",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "97010000"
+	},
+	{
+		"LABEL": "0x2736",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x273a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 409,
+		"MSGID": 108,
+		"JPN": "２人乗りで良一の方へと相棒を走らせた。",
+		"ENG": "We started accelerating towards Ryouichi.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2770",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 412,
+		"MSGID": 109,
+		"NameJPN": "羽依里",
+		"JPN": "「そろそろだぞ！　天善！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Almost there! Tenzen!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27a4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9e01060007a409006b00b1ff"
+	},
+	{
+		"LABEL": "0x27b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 415,
+		"MSGID": 110,
+		"VOICEID": 23512,
+		"NameJPN": "天善",
+		"JPN": "「ああ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Yeah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27d6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "a20101f60e0300"
+	},
+	{
+		"LABEL": "0x27e2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "a3010403e40004"
+	},
+	{
+		"LABEL": "0x27ee",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000080fe1800"
+	},
+	{
+		"LABEL": "0x27fc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "040490b904"
+	},
+	{
+		"LABEL": "0x2806",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0404000000d600b400"
+	},
+	{
+		"LABEL": "0x2814",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff060000000cfe0000"
+	},
+	{
+		"LABEL": "0x2822",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff040000000cfe0000"
+	},
+	{
+		"LABEL": "0x2830",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0405612b06"
+	},
+	{
+		"LABEL": "0x283a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000076010000"
+	},
+	{
+		"LABEL": "0x2848",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff06021e0000000000"
+	},
+	{
+		"LABEL": "0x2856",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e0000000000"
+	},
+	{
+		"LABEL": "0x2864",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040c00"
+	},
+	{
+		"LABEL": "0x286c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2872",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 421,
+		"MSGID": 111,
+		"JPN": "良一がスリングでピンポン玉を射出する。",
+		"ENG": "Ryouichi let the ping-pong ball fly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28a8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "a7010000"
+	},
+	{
+		"LABEL": "0x28b0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x28be",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x28c6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x28cc",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x28d2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0403"
+	},
+	{
+		"LABEL": "0x28d8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040300000000000000"
+	},
+	{
+		"LABEL": "0x28e6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0404"
+	},
+	{
+		"LABEL": "0x28ec",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040400000000000000"
+	},
+	{
+		"LABEL": "0x28fa",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0405"
+	},
+	{
+		"LABEL": "0x2900",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "040500000000000000"
+	},
+	{
+		"LABEL": "0x290e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2914",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x291a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x2920",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x292e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x2934",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2938",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "a901ff06021e000cfe0000"
+	},
+	{
+		"LABEL": "0x2948",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "ff04021e000cfe0000"
+	},
+	{
+		"LABEL": "0x2956",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x295c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2962",
+		"Type": "SCISSOR",
+		"SUBCMD": 0,
+		"Args": "ff040000000000000000"
+	},
+	{
+		"LABEL": "0x2970",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff06"
+	},
+	{
+		"LABEL": "0x2976",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "ff04"
+	},
+	{
+		"LABEL": "0x297c",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "ad010302"
+	},
+	{
+		"LABEL": "0x2984",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x298a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0003"
+	},
+	{
+		"LABEL": "0x2990",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00031d02"
+	},
+	{
+		"LABEL": "0x2998",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "000302"
+	},
+	{
+		"LABEL": "0x29a0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0004"
+	},
+	{
+		"LABEL": "0x29a6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00041d02"
+	},
+	{
+		"LABEL": "0x29ae",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "000402"
+	},
+	{
+		"LABEL": "0x29b6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00030000000000d7fd"
+	},
+	{
+		"LABEL": "0x29c4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000400000000002902"
+	},
+	{
+		"LABEL": "0x29d2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "af01"
+	},
+	{
+		"LABEL": "0x29d8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00002800000000000000"
+	},
+	{
+		"LABEL": "0x29e6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x29ee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x29f4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x29f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 433,
+		"MSGID": 112,
+		"NameJPN": "羽依里",
+		"JPN": "「――！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a1c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 435,
+		"MSGID": 113,
+		"JPN": "しかしその球は、大きく横にずれてしまった。",
+		"ENG": "But the ball curved in the air, flying way off to the left.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 437,
+		"MSGID": 114,
+		"JPN": "そっちの方にハンドルを切ろうとすると、それより先に――",
+		"ENG": "I twisted the handlebars, trying to turn towards it, but Tenzen was one step ahead of me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a9c",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "b8010000"
+	},
+	{
+		"LABEL": "0x2aa4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2aa8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x2aae",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0302"
+	},
+	{
+		"LABEL": "0x2ab4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0003"
+	},
+	{
+		"LABEL": "0x2aba",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0004"
+	},
+	{
+		"LABEL": "0x2ac0",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "ba012b00"
+	},
+	{
+		"LABEL": "0x2ac8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 444,
+		"MSGID": 115,
+		"VOICEID": 23513,
+		"NameJPN": "天善",
+		"JPN": "「――ぬおぉぉぉぉぉ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Nuuuuooooooogh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2af8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 446,
+		"MSGID": 116,
+		"NameJPN": "羽依里",
+		"JPN": "「――！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b1c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 448,
+		"MSGID": 117,
+		"JPN": "天善がピンポン玉目がけて飛びついた。",
+		"ENG": "He rocketed off the Cub in pursuit of the ball.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b50",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 450,
+		"MSGID": 118,
+		"JPN": "そして……",
+		"ENG": "And, unsurprisingly...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b6a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "c5010600b3a309006b00b1ff"
+	},
+	{
+		"LABEL": "0x2b7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 454,
+		"MSGID": 119,
+		"VOICEID": 23514,
+		"NameJPN": "天善",
+		"JPN": "「おぉぉぉぉぉ――――……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Uuuoooooooggghhhh...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 456,
+		"MSGID": 120,
+		"JPN": "そのまま崖下に落ちていった。",
+		"ENG": "...Went flying off the side of the cliff.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2bda",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "ca01000000003c00"
+	},
+	{
+		"LABEL": "0x2be6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "cd010d00000000780001"
+	},
+	{
+		"LABEL": "0x2bf4",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "cf0100050e030000f85b003c00"
+	},
+	{
+		"LABEL": "0x2c06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 465,
+		"MSGID": 121,
+		"NameJPN": "羽依里",
+		"JPN": "「天善!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"Tenzen!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c2c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d30101008ab900008002b4006900"
+	},
+	{
+		"LABEL": "0x2c3e",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0100000000b502b400"
+	},
+	{
+		"LABEL": "0x2c4c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0x2c5a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2c60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 468,
+		"MSGID": 122,
+		"VOICEID": 23515,
+		"NameJPN": "良一",
+		"JPN": "「おい！　今のはさすがにまずいだろ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Hey! This is definitely bad, right!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c9e",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "d6010100000f00"
+	},
+	{
+		"LABEL": "0x2caa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2cb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 472,
+		"MSGID": 123,
+		"JPN": "崖下を覗こうとすると。",
+		"ENG": "We rushed towards it to look over the edge.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cd6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "dc0101480f0300"
+	},
+	{
+		"LABEL": "0x2ce2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 478,
+		"MSGID": 124,
+		"JPN": "ピンポン玉が飛んできた。",
+		"ENG": "But just before we got there, a ping-pong ball sailed up from below.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d0a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e20101008eb900008002b4006900"
+	},
+	{
+		"LABEL": "0x2d1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2d22",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 484,
+		"MSGID": 125,
+		"JPN": "良一の手の中に、ぽすっと収まる。",
+		"ENG": "It landed softly in Ryouichi's hand.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d52",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e80106004fa409006b00b1ff"
+	},
+	{
+		"LABEL": "0x2d62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 489,
+		"MSGID": 126,
+		"VOICEID": 23516,
+		"NameJPN": "天善",
+		"JPN": "『……入ったか？』",
+		"NameENG": "Tenzen",
+		"ENG": "\"Was it in!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d8c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 491,
+		"MSGID": 127,
+		"JPN": "崖の下から声がする。",
+		"ENG": "A voice echoed from the bottom of the cliff.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2db0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ed0101007db9"
+	},
+	{
+		"LABEL": "0x2dba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2dc0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 494,
+		"MSGID": 128,
+		"VOICEID": 23517,
+		"NameJPN": "良一",
+		"JPN": "「お、おう。入ったぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Y-Yeah... Sure was.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2dee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 496,
+		"MSGID": 129,
+		"NameJPN": "羽依里",
+		"JPN": "「打ち返したのか……」",
+		"NameENG": "Hairi",
+		"ENG": "\"He seriously hit it back...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e1e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "f201b2860100"
+	},
+	{
+		"LABEL": "0x2e28",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "f401060025a409006b00b1ff"
+	},
+	{
+		"LABEL": "0x2e38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 501,
+		"MSGID": 130,
+		"VOICEID": 23518,
+		"NameJPN": "天善",
+		"JPN": "『この距離から返せるとは……カット主戦型も視野に入れるべきか』",
+		"NameENG": "Tenzen",
+		"ENG": "\"To think a chop could return a shot, even at this distance... I'll need to add more of them to my repertoire.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 503,
+		"MSGID": 131,
+		"JPN": "ていうか、何で平気なんだ……",
+		"ENG": "How is he fine after a fall like that...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2eba",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f90101007bb9"
+	},
+	{
+		"LABEL": "0x2ec4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2eca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 506,
+		"MSGID": 132,
+		"VOICEID": 23519,
+		"NameJPN": "良一",
+		"JPN": "「すげえけど……俺もう、あいつのことがこえーよ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"That's kind of amazing, but... at this point, I'm honestly more scared of that guy than impressed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 508,
+		"MSGID": 133,
+		"NameJPN": "羽依里",
+		"JPN": "「俺もだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Same.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f36",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "fe01"
+	},
+	{
+		"LABEL": "0x2f3c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x2f4a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2f52",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2f58",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "000300"
+	},
+	{
+		"LABEL": "0x2f60",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000300000000000000"
+	},
+	{
+		"LABEL": "0x2f6e",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "000400"
+	},
+	{
+		"LABEL": "0x2f76",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000400000000000000"
+	},
+	{
+		"LABEL": "0x2f84",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x2f8a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2f90",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2f96",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x2fa4",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x2faa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2fae",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "000200009c00000000000000"
+	},
+	{
+		"LABEL": "0x2fbe",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0000000000400040"
+	},
+	{
+		"LABEL": "0x2fca",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0000000000000030fd"
+	},
+	{
+		"LABEL": "0x2fd8",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a600900000000"
+	},
+	{
+		"LABEL": "0x2fe6",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2fee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2ff4",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2ff8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 514,
+		"MSGID": 134,
+		"JPN": "本気で、卓球の為だけに生まれてきたんじゃないか……",
+		"ENG": "Was he seriously born just to play table tennis...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x303a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 516,
+		"MSGID": 135,
+		"JPN": "そんな、冗談のような疑問を否定できない……",
+		"ENG": "It sounded like a joke, but I couldn't deny the possibility.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3074",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "07020000b800000000000000"
+	},
+	{
+		"LABEL": "0x3084",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x308c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x3094",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x30a0",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x30ac",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x30b2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x30b8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x30bc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x30c2",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x30c6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x30ca",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "0802"
+	},
+	{
+		"LABEL": "0x30d0",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "0b020080"
+	}
+]

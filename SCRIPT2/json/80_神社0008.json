@@ -1,0 +1,497 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0300098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0600"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 8,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way over to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 1,
+		"JPN": "ずいぶん、ここに通っている。",
+		"ENG": "I've really been coming here a lot, huh?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 2,
+		"JPN": "すでに日課と言っても良いかもしれない。",
+		"ENG": "It's practically part of my daily routine by now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「こんなに信心深かったかな、俺」",
+		"NameENG": "Hairi",
+		"ENG": "\"Since when was I that religious?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1000",
+		"Equation": "(#44==1)",
+		"GOTO_LABEL": "0x140"
+	},
+	{
+		"LABEL": "0x10a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 4,
+		"JPN": "少し不思議な体験もしたけど。",
+		"ENG": "I guess I have had my fair share of mysterious experiences here, though.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x136",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1200",
+		"GOTO_LABEL": "0x140"
+	},
+	{
+		"LABEL": "0x140",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「そういえば……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Speaking of which...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 6,
+		"JPN": "神社に来ていたのに、何か足りない気がしていた。",
+		"ENG": "Although I'd been visiting the shrine regularly, it felt like something was lacking.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 7,
+		"JPN": "ここに来て、お賽銭を入れるだけが参拝か？",
+		"ENG": "Isn't there more to a shrine visit than just making an offering?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「おみくじ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Of course! Fortunes!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x208",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 9,
+		"JPN": "たった１枚の紙で、その後の精神的運勢を左右されるアレ。",
+		"ENG": "A single scrap of paper that can completely alter your perception of your own luck!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 10,
+		"JPN": "大吉が出ても、今の状態が運勢ＭＡＸとか。",
+		"ENG": "If you draw a 'great luck' fortune, you'll feel like your luck's at the top of its game.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x286",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 11,
+		"JPN": "大凶が出ても、あとは上がっていくだけだからとか。",
+		"ENG": "And if you draw a 'horrible luck' fortune, you can focus on the fact that things can only improve from there.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 12,
+		"JPN": "全てに言い訳がきく不毛な風習。",
+		"ENG": "A totally pointless tradition that gets written off with an excuse no matter how it turns out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「それでも、人は引いてしまう……」",
+		"NameENG": "Hairi",
+		"ENG": "\"But people keep coming back for them anyway...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x330",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「つい、何かに頼ってしまう弱さこそが人だから」",
+		"NameENG": "Hairi",
+		"ENG": "\"Clinging onto this sort of thing's just human nature, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x378",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「……ふっ」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Heh.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 16,
+		"JPN": "浸ってしまった。",
+		"ENG": "I felt weirdly self-satisfied.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 17,
+		"JPN": "でも……",
+		"ENG": "But that said...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「この神社、本当に人がいないよな」",
+		"NameENG": "Hairi",
+		"ENG": "\"This shrine really is abandoned, isn't it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x412",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 19,
+		"JPN": "おみくじとかも売ってない。",
+		"ENG": "They weren't even selling fortunes in the first place, from what I could see.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x43c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 20,
+		"JPN": "本殿の周辺を探してみる。",
+		"ENG": "I tried searching around the main hall.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x464",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「あ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Ah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x488",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 22,
+		"JPN": "見つけた。",
+		"ENG": "Found it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 23,
+		"JPN": "おみくじと書かれた、紙を折りたたんだ物が木箱の中に置かれていた。",
+		"ENG": "There was a wooden box with 'Fortunes' written on the side and a bunch of folded up pieces of paper in it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 24,
+		"JPN": "その横に、１００円と書かれた貯金箱。",
+		"ENG": "There was a donation box next to it with '100 yen' written on it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x526",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 25,
+		"JPN": "まるで、野菜の無人販売のようだった。",
+		"ENG": "It almost looked like one of those unmanned vegetable stands you see out in the countryside.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x55a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 26,
+		"JPN": "見つけてしまったからには……引くか。",
+		"ENG": "I found it, so might as well give it a try, I guess.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 27,
+		"JPN": "貯金箱に１００円を入れる。",
+		"ENG": "I dropped a hundred yen coin into the donation box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 28,
+		"JPN": "そして、木箱の中のおみくじを１つ手にする。",
+		"ENG": "Then I pulled a fortune out of the wooden one.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「えーと、なになに……」",
+		"NameENG": "Hairi",
+		"ENG": "\"All right, what'd I get...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x624",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "47000000",
+		"String": "80_神社9999",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x63c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「帰ろう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Guess I'll head out.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x660",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 75,
+		"MSGID": 31,
+		"JPN": "島のおみくじの洗礼を受けた。",
+		"ENG": "I'd received my island fortune-box baptism.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4d00e0300100"
+	},
+	{
+		"LABEL": "0x696",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4f000900000000780001"
+	},
+	{
+		"LABEL": "0x6a4",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "510012000100"
+	},
+	{
+		"LABEL": "0x6ae",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "54000000b800000000000000"
+	},
+	{
+		"LABEL": "0x6be",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x6c6",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x6ce",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x6da",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x6e6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x6ec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x6f2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6f6",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x6fc",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x700",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x704",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5500"
+	},
+	{
+		"LABEL": "0x70a",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "59000080"
+	}
+]

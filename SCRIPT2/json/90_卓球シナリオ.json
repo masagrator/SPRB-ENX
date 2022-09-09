@@ -1,0 +1,4887 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "150066010000"
+	},
+	{
+		"LABEL": "0xa",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "160090010000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「なんだと思ったら卓球のことか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, you were talking about ping-pong?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1a000100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x60",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 1,
+		"VOICEID": 24010,
+		"NameJPN": "天善",
+		"JPN": "「ああ、そうだ。卓球のルールについての説明が必要か？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Yes, that's right. Do you need me to explain the rules?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb4",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "1d0071172202000000",
+		"JPN": [
+			"はい",
+			"いいえ"
+		],
+		"ENG": [
+			"Yes",
+			"No"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0xda",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2400",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x21a"
+	},
+	{
+		"LABEL": "0xf0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 2,
+		"VOICEID": 24011,
+		"NameJPN": "天善",
+		"JPN": "「今から俺が打つ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"First, I'll hit the ball to you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 3,
+		"VOICEID": 24012,
+		"NameJPN": "天善",
+		"JPN": "「それをタイミングよく打ち返してくれればいい」",
+		"NameENG": "Tenzen",
+		"ENG": "\"All you have to do is return that ball to me with the proper timing.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「わ、わかった」",
+		"NameENG": "Hairi",
+		"ENG": "\"G-Got it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d000100cda3"
+	},
+	{
+		"LABEL": "0x194",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x19a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 5,
+		"VOICEID": 24013,
+		"NameJPN": "天善",
+		"JPN": "「さぁ行くぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"All right, here I go!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「お、おお？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Y-Yay?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "330096650100"
+	},
+	{
+		"LABEL": "0x1f2",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "35000100000f00"
+	},
+	{
+		"LABEL": "0x1fe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3600"
+	},
+	{
+		"LABEL": "0x20a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3900"
+	},
+	{
+		"LABEL": "0x210",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3a00",
+		"GOTO_LABEL": "0x21a"
+	},
+	{
+		"LABEL": "0x21a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 7,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、いらない。すぐにやろう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Nope, no need. Let's get right to it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x254",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "40000100d9a3"
+	},
+	{
+		"LABEL": "0x25e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x264",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 8,
+		"VOICEID": 24014,
+		"NameJPN": "天善",
+		"JPN": "「ほう、やる気満々じゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Oh? Enthusiastic, aren't we?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4400",
+		"GOTO_LABEL": "0x7b6"
+	},
+	{
+		"LABEL": "0x2a4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "4c000100cda300008002b4006d00"
+	},
+	{
+		"LABEL": "0x2b6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bc",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "4d00ff0001060000520601010052"
+	},
+	{
+		"LABEL": "0x2ce",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520601010000"
+	},
+	{
+		"LABEL": "0x2de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「まてまてまて！　なんだ今のは！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait wait wait! The hell was that!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5400",
+		"Equation": "(#10015!=0)",
+		"GOTO_LABEL": "0x3a2"
+	},
+	{
+		"LABEL": "0x330",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "550090010100"
+	},
+	{
+		"LABEL": "0x33a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5600010027a4"
+	},
+	{
+		"LABEL": "0x344",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x34a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 10,
+		"VOICEID": 24015,
+		"NameJPN": "天善",
+		"JPN": "「驚いたな…。まさか、初球で打ち返すことができるとは」",
+		"NameENG": "Tenzen",
+		"ENG": "\"How surprising... To think you'd return the very first serve hit to you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x398",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5800",
+		"GOTO_LABEL": "0x3f2"
+	},
+	{
+		"LABEL": "0x3a2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5d000100dfa3"
+	},
+	{
+		"LABEL": "0x3ac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 11,
+		"VOICEID": 24016,
+		"NameJPN": "天善",
+		"JPN": "「なんだと言われても…俺の必殺技だが？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Isn't it obvious? It was one of my special moves. What of it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 12,
+		"NameJPN": "羽依里",
+		"JPN": "「最初から飛ばしすぎだ。もうちょっと優しくしてくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"That was way too intense, I'm just a beginner! Can't you start off a little slower?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x440",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "62000100"
+	},
+	{
+		"LABEL": "0x448",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003c003c0000fb7ffb7f"
+	},
+	{
+		"LABEL": "0x45a",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000000000000000000"
+	},
+	{
+		"LABEL": "0x468",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "63000100cda300008002b4006d00"
+	},
+	{
+		"LABEL": "0x47a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x480",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 13,
+		"VOICEID": 24017,
+		"NameJPN": "天善",
+		"JPN": "「む、そうか。わかった」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hmm, was it? All right, then.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "66000100d3a3"
+	},
+	{
+		"LABEL": "0x4ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x4c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 103,
+		"MSGID": 14,
+		"VOICEID": 24018,
+		"NameJPN": "天善",
+		"JPN": "「ならば、少し肩慣らしをしようか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"In that case, let's start with a quick warm-up.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fa",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6a0096650100"
+	},
+	{
+		"LABEL": "0x504",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "6c000100000f00"
+	},
+	{
+		"LABEL": "0x510",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6d00"
+	},
+	{
+		"LABEL": "0x51c",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "6e001e00"
+	},
+	{
+		"LABEL": "0x524",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7200"
+	},
+	{
+		"LABEL": "0x52a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7f00",
+		"Equation": "(#400==1&&#10015==0)",
+		"GOTO_LABEL": "0x594"
+	},
+	{
+		"LABEL": "0x54a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "81000100fda300008002b4006d00"
+	},
+	{
+		"LABEL": "0x55c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x562",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 15,
+		"VOICEID": 24049,
+		"NameJPN": "天善",
+		"JPN": "「まだまだだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You still have a long way to go.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8300",
+		"GOTO_LABEL": "0x624"
+	},
+	{
+		"LABEL": "0x594",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "86000100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x5a6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 135,
+		"MSGID": 16,
+		"VOICEID": 24019,
+		"NameJPN": "天善",
+		"JPN": "「ほう、なかなか様になっているじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Oh? Seems like you're getting the idea.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "89000100d9a3"
+	},
+	{
+		"LABEL": "0x5f8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 138,
+		"MSGID": 17,
+		"VOICEID": 24020,
+		"NameJPN": "天善",
+		"JPN": "「その調子だ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Very good―keep it up.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x624",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8d000100d3a3"
+	},
+	{
+		"LABEL": "0x62e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x634",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 18,
+		"VOICEID": 24021,
+		"NameJPN": "天善",
+		"JPN": "「次、行くぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Let's continue.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x65a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "910096650100"
+	},
+	{
+		"LABEL": "0x664",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "93000100000f00"
+	},
+	{
+		"LABEL": "0x670",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x676",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9400"
+	},
+	{
+		"LABEL": "0x67c",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "95001e00"
+	},
+	{
+		"LABEL": "0x684",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9900"
+	},
+	{
+		"LABEL": "0x68a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a200",
+		"Equation": "(#10014>=5)",
+		"GOTO_LABEL": "0x6fc"
+	},
+	{
+		"LABEL": "0x6a0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "a4000100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x6b2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 19,
+		"VOICEID": 24022,
+		"NameJPN": "天善",
+		"JPN": "「お、なかなか筋が良いじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Oh? You have quite the knack for this, don't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a600",
+		"GOTO_LABEL": "0x750"
+	},
+	{
+		"LABEL": "0x6fc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "aa000100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x70e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x714",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 20,
+		"VOICEID": 24023,
+		"NameJPN": "天善",
+		"JPN": "「ほう、だいぶ慣れてきたじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Oh? It seems you're getting the hang of it, aren't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x750",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ae000100cda3"
+	},
+	{
+		"LABEL": "0x75a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x760",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 175,
+		"MSGID": 21,
+		"VOICEID": 24024,
+		"NameJPN": "天善",
+		"JPN": "「そろそろ本番といこうか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Shall we move on to the real deal?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x792",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 177,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「本番？」",
+		"NameENG": "Hairi",
+		"ENG": "\"'The real deal'?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7b6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bd000100d3a3"
+	},
+	{
+		"LABEL": "0x7c0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 190,
+		"MSGID": 23,
+		"VOICEID": 24025,
+		"NameJPN": "天善",
+		"JPN": "「さて。どのラリーに付き合ってくれるんだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Now then, what kind of rally should we do today?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x808",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「どういうことだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What do you mean?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x836",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c2000100dfa3"
+	},
+	{
+		"LABEL": "0x840",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x846",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 195,
+		"MSGID": 25,
+		"VOICEID": 24026,
+		"NameJPN": "天善",
+		"JPN": "「ラリーに付き合ってくれるんだろう？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You're going to rally with me, aren't you?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x884",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 199,
+		"MSGID": 26,
+		"NameJPN": "羽依里",
+		"JPN": "「一体、どんなラリーがあるんだ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"There's more than one way to rally?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8c0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c9000100d9a3"
+	},
+	{
+		"LABEL": "0x8ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 27,
+		"VOICEID": 24027,
+		"NameJPN": "天善",
+		"JPN": "「いろいろあるが。俺のおすすめは、死力を尽くすラリーだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"There are quite a few. I recommend the verge-of-death rally.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x920",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「し、死力を尽くす…？　どんなラリーだよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"V-Verge of death...? What kind of rally is that supposed to be?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x964",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ce000100cda3"
+	},
+	{
+		"LABEL": "0x96e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x974",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 207,
+		"MSGID": 29,
+		"VOICEID": 24028,
+		"NameJPN": "天善",
+		"JPN": "「さぁ、どれにする」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Now then, choose.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 209,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「そうだな…」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmmm...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c8",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "d60071172502010002",
+		"JPN": [
+			"限られた時間でラリーをする",
+			"死力を尽くしてラリーをする",
+			"ラリーなんかよりも俺と本気の勝負をしてくれ",
+			"卓球の難易度設定",
+			"やっぱりやめる"
+		],
+		"ENG": [
+			"Rally for a set period of time",
+			"Rally to the verge of death",
+			"$S032Forget about rallies, face me seriously$S",
+			"Difficulty settings",
+			"Never mind"
+		],
+		"Args2": "000006000000"
+	},
+	{
+		"LABEL": "0xa6c",
+		"Type": "MESSAGE_CLEAR",
+		"SUBCMD": 1,
+		"Args": "de00"
+	},
+	{
+		"LABEL": "0xa72",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e200",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0xba6"
+	},
+	{
+		"LABEL": "0xa88",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e400811a0000"
+	},
+	{
+		"LABEL": "0xa92",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e6000100d3a3"
+	},
+	{
+		"LABEL": "0xa9c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xaa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 231,
+		"MSGID": 31,
+		"VOICEID": 24029,
+		"NameJPN": "天善",
+		"JPN": "「まぁいいだろう。ならば、１０球限りというのはどうだ？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I suppose that's fine. How about we limit it to 10 balls, then?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaf2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 233,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、それならおっけーだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, sounds good to me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb28",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "eb000100fda3"
+	},
+	{
+		"LABEL": "0xb32",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 236,
+		"MSGID": 33,
+		"VOICEID": 24030,
+		"NameJPN": "天善",
+		"JPN": "「さぁ行くぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Now then, here I come!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 238,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「おう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb80",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f10096650100"
+	},
+	{
+		"LABEL": "0xb8a",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "f3000100000f00"
+	},
+	{
+		"LABEL": "0xb96",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb9c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f500",
+		"GOTO_LABEL": "0x1154"
+	},
+	{
+		"LABEL": "0xba6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f900",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0xcfe"
+	},
+	{
+		"LABEL": "0xbbc",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fb00811a0100"
+	},
+	{
+		"LABEL": "0xbc6",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "fd00ca860100"
+	},
+	{
+		"LABEL": "0xbd0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ff000100d9a3"
+	},
+	{
+		"LABEL": "0xbda",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 35,
+		"VOICEID": 24031,
+		"NameJPN": "天善",
+		"JPN": "「ふ、どうやらお前もやる気になってきたようだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hmm. It seems you've found your motivation, then?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 258,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ、勝負とはそういうものだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah. Competing's no fun if you don't take it seriously.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc62",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "040101001ba4"
+	},
+	{
+		"LABEL": "0xc6c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 261,
+		"MSGID": 37,
+		"VOICEID": 24032,
+		"NameJPN": "天善",
+		"JPN": "「どちらかがぶっ倒れるまで、打ち合おうか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Then let us begin! He who is left standing will be the victor!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 263,
+		"MSGID": 38,
+		"NameJPN": "羽依里",
+		"JPN": "「こい！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Bring it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcd8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0a0196650100"
+	},
+	{
+		"LABEL": "0xce2",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "0c010100000f00"
+	},
+	{
+		"LABEL": "0xcee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xcf4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0e01",
+		"GOTO_LABEL": "0x1154"
+	},
+	{
+		"LABEL": "0xcfe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1201",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0xe7e"
+	},
+	{
+		"LABEL": "0xd14",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "1401811a0200"
+	},
+	{
+		"LABEL": "0xd1e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1601ca860100"
+	},
+	{
+		"LABEL": "0xd28",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 280,
+		"MSGID": 39,
+		"NameJPN": "羽依里",
+		"JPN": "「ラリーなんかどうでもいい。本気できてくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Forget rallying. Come at me with everything you've got.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd6e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1a010100fda3"
+	},
+	{
+		"LABEL": "0xd78",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xd7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 283,
+		"MSGID": 40,
+		"VOICEID": 24033,
+		"NameJPN": "天善",
+		"JPN": "「…ほう？　俺に本気を見せろというのか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Oh...? Are you telling me to show you my true strength?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdbe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1d010100cda3"
+	},
+	{
+		"LABEL": "0xdc8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xdce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 286,
+		"MSGID": 41,
+		"VOICEID": 24034,
+		"NameJPN": "天善",
+		"JPN": "「後悔しても知らないぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Don't blame me if you regret this.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdfe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2001010051a4"
+	},
+	{
+		"LABEL": "0xe08",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 289,
+		"MSGID": 42,
+		"VOICEID": 24035,
+		"NameJPN": "天善",
+		"JPN": "「さぁ行くぞ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Prepare yourself!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 291,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「おう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Bring it on!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe58",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "260196650100"
+	},
+	{
+		"LABEL": "0xe62",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "28010100000f00"
+	},
+	{
+		"LABEL": "0xe6e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe74",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2a01",
+		"GOTO_LABEL": "0x1154"
+	},
+	{
+		"LABEL": "0xe7e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2b01",
+		"Equation": "(#6001==3)",
+		"GOTO_LABEL": "0xeee"
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "2d010100000f00"
+	},
+	{
+		"LABEL": "0xea0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xea6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "2f010000",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x2608"
+	},
+	{
+		"LABEL": "0xec2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "31010100cda300008002b4006d00"
+	},
+	{
+		"LABEL": "0xed4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xeda",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3201",
+		"GOTO_LABEL": "0x9c8"
+	},
+	{
+		"LABEL": "0xee4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3301",
+		"GOTO_LABEL": "0x1154"
+	},
+	{
+		"LABEL": "0xeee",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3901811a0500"
+	},
+	{
+		"LABEL": "0xef8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "3d0159010000"
+	},
+	{
+		"LABEL": "0xf02",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3f01cb860100"
+	},
+	{
+		"LABEL": "0xf0c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 321,
+		"MSGID": 44,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、やっぱりラリーはしない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Actually, I think I'll pass after all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf46",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "43010100f1a3"
+	},
+	{
+		"LABEL": "0xf50",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf56",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 324,
+		"MSGID": 45,
+		"VOICEID": 24036,
+		"NameJPN": "天善",
+		"JPN": "「なに!?」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf7a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "46010100dfa3"
+	},
+	{
+		"LABEL": "0xf84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 327,
+		"MSGID": 46,
+		"VOICEID": 24037,
+		"NameJPN": "天善",
+		"JPN": "「この流れでやめるというのはおかしくないか!?」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Isn't it weird to not play after all that buildup!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfd2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 329,
+		"MSGID": 47,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、なんか恐いし…」",
+		"NameENG": "Hairi",
+		"ENG": "\"Honestly, you're kinda freaking me out...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1004",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4b01010033a4"
+	},
+	{
+		"LABEL": "0x100e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1014",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 332,
+		"MSGID": 48,
+		"VOICEID": 24038,
+		"NameJPN": "天善",
+		"JPN": "「く、俺の純情な心を弄んだのか…！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Guh, why must you toy with my pure heart so...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1050",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 334,
+		"MSGID": 49,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、そういうつもりではないんだが…」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's really not what I was trying to do.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1092",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "50010100dfa3"
+	},
+	{
+		"LABEL": "0x109c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 337,
+		"MSGID": 50,
+		"VOICEID": 24039,
+		"NameJPN": "天善",
+		"JPN": "「残念だ…非常に残念だ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What a shame... What a horrible, horrible shame...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 339,
+		"MSGID": 51,
+		"JPN": "めちゃくちゃ落ち込んでいた。",
+		"ENG": "He looked super depressed.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10fe",
+		"Type": "TASK",
+		"SUBCMD": 1,
+		"Args": "55011800c700"
+	},
+	{
+		"LABEL": "0x1108",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 343,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「わかった、付き合うから！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I get it, already! I'll play, I'll play!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x113e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "590100000000b400"
+	},
+	{
+		"LABEL": "0x114a",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "5b0101000000"
+	},
+	{
+		"LABEL": "0x1154",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5f01"
+	},
+	{
+		"LABEL": "0x115a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6801",
+		"Equation": "(#7121==2)",
+		"GOTO_LABEL": "0x11aa"
+	},
+	{
+		"LABEL": "0x1170",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6901d11b0200"
+	},
+	{
+		"LABEL": "0x117a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6a01"
+	},
+	{
+		"LABEL": "0x1180",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001800000000000000"
+	},
+	{
+		"LABEL": "0x118e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1196",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x119c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x11a0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6b01",
+		"GOTO_LABEL": "0x124a"
+	},
+	{
+		"LABEL": "0x11aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6c01",
+		"Equation": "(#7121==1)",
+		"GOTO_LABEL": "0x11fa"
+	},
+	{
+		"LABEL": "0x11c0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6d01d11b0100"
+	},
+	{
+		"LABEL": "0x11ca",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6e01"
+	},
+	{
+		"LABEL": "0x11d0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001700000000000000"
+	},
+	{
+		"LABEL": "0x11de",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x11e6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x11ec",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x11f0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6f01",
+		"GOTO_LABEL": "0x124a"
+	},
+	{
+		"LABEL": "0x11fa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7001",
+		"Equation": "(#7121==0)",
+		"GOTO_LABEL": "0x124a"
+	},
+	{
+		"LABEL": "0x1210",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "7101d11b0000"
+	},
+	{
+		"LABEL": "0x121a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "7201"
+	},
+	{
+		"LABEL": "0x1220",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x122e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1236",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x123c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1240",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7301",
+		"GOTO_LABEL": "0x124a"
+	},
+	{
+		"LABEL": "0x124a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7c01",
+		"Equation": "(@table_tennis_play_mode==0)",
+		"GOTO_LABEL": "0x1454"
+	},
+	{
+		"LABEL": "0x1272",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7f01",
+		"Equation": "(@get_table_tennis_score<=2000)",
+		"GOTO_LABEL": "0x12fa"
+	},
+	{
+		"LABEL": "0x129c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "800101004ba400008002b4006d00"
+	},
+	{
+		"LABEL": "0x12ae",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x12b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 385,
+		"MSGID": 53,
+		"VOICEID": 24048,
+		"NameJPN": "天善",
+		"JPN": "「修行が足りん。出直してくるんだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You haven't had nearly enough practice. Come back when you get better.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12f0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8201",
+		"GOTO_LABEL": "0x144a"
+	},
+	{
+		"LABEL": "0x12fa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8601",
+		"Equation": "(@get_table_tennis_score>=3000)",
+		"GOTO_LABEL": "0x13be"
+	},
+	{
+		"LABEL": "0x1324",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "8701010045a400008002b4006d00"
+	},
+	{
+		"LABEL": "0x1336",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x133c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 392,
+		"MSGID": 54,
+		"VOICEID": 24040,
+		"NameJPN": "天善",
+		"JPN": "「これは、想像以上だな。やるじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You've exceeded my expectations. Not bad at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x137c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 394,
+		"MSGID": 55,
+		"NameJPN": "羽依里",
+		"JPN": "「はぁ、はぁ。どんなモンだ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Haa, haa... How's that!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13b4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8b01",
+		"GOTO_LABEL": "0x144a"
+	},
+	{
+		"LABEL": "0x13be",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9001010021a400008002b4006d00"
+	},
+	{
+		"LABEL": "0x13d0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 401,
+		"MSGID": 56,
+		"VOICEID": 24041,
+		"NameJPN": "天善",
+		"JPN": "「ふむ、なかなかやるじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hmph, not bad at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x140e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 403,
+		"MSGID": 57,
+		"NameJPN": "羽依里",
+		"JPN": "「思ったよりも熱中してしまったな」",
+		"NameENG": "Hairi",
+		"ENG": "\"I got more into it than I thought I would.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x144a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9501",
+		"GOTO_LABEL": "0x1e76"
+	},
+	{
+		"LABEL": "0x1454",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9a01",
+		"Equation": "(@table_tennis_play_mode==1)",
+		"GOTO_LABEL": "0x1642"
+	},
+	{
+		"LABEL": "0x147c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9d01",
+		"Equation": "(@get_table_tennis_score<=50000)",
+		"GOTO_LABEL": "0x14f2"
+	},
+	{
+		"LABEL": "0x14a8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9e0101004ba400008002b4006d00"
+	},
+	{
+		"LABEL": "0x14ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 415,
+		"MSGID": 58,
+		"VOICEID": 24049,
+		"NameJPN": "天善",
+		"JPN": "「まだまだだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You still have a long way to go.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14e8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a001",
+		"GOTO_LABEL": "0x1638"
+	},
+	{
+		"LABEL": "0x14f2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "a401",
+		"Equation": "(@get_table_tennis_score>=120000)",
+		"GOTO_LABEL": "0x15ac"
+	},
+	{
+		"LABEL": "0x151e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "a501010021a400008002b4006d00"
+	},
+	{
+		"LABEL": "0x1530",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1536",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 422,
+		"MSGID": 59,
+		"VOICEID": 24042,
+		"NameJPN": "天善",
+		"JPN": "「まさか、ここまで粘るとはな。驚いたぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Impressive that you could keep up with me this far. I'm astonished.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1576",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 424,
+		"MSGID": 60,
+		"NameJPN": "羽依里",
+		"JPN": "「はぁ。はぁ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hah, hah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15a2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a901",
+		"GOTO_LABEL": "0x1638"
+	},
+	{
+		"LABEL": "0x15ac",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ae01010021a400008002b4006d00"
+	},
+	{
+		"LABEL": "0x15be",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 431,
+		"MSGID": 61,
+		"VOICEID": 24043,
+		"NameJPN": "天善",
+		"JPN": "「ふむ、なかなかいいじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hmph, not bad at all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 433,
+		"MSGID": 62,
+		"NameJPN": "羽依里",
+		"JPN": "「思ったよりも熱中してしまったな」",
+		"NameENG": "Hairi",
+		"ENG": "\"I got more into it than I thought I would.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1638",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b301",
+		"GOTO_LABEL": "0x1e76"
+	},
+	{
+		"LABEL": "0x1642",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b701",
+		"Equation": "(@table_tennis_play_mode==2)",
+		"GOTO_LABEL": "0x1e76"
+	},
+	{
+		"LABEL": "0x166a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b901",
+		"Equation": "(#6787==1)",
+		"GOTO_LABEL": "0x1a04"
+	},
+	{
+		"LABEL": "0x1680",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bb01",
+		"Equation": "(#6788)",
+		"GOTO_LABEL": "0x193a"
+	},
+	{
+		"LABEL": "0x1692",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "bc010100b5a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x16a4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 445,
+		"MSGID": 63,
+		"VOICEID": 28606,
+		"NameJPN": "天善",
+		"JPN": "「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 446,
+		"MSGID": 64,
+		"NameJPN": "羽依里",
+		"JPN": "「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x174c",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "c00101000000008002b400"
+	},
+	{
+		"LABEL": "0x175c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002dc00"
+	},
+	{
+		"LABEL": "0x176a",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x1774",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x177a",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "c1011200"
+	},
+	{
+		"LABEL": "0x1782",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "c20100ae0d0300"
+	},
+	{
+		"LABEL": "0x178e",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "c301ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x17a0",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x17b0",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "c5011e00"
+	},
+	{
+		"LABEL": "0x17b8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c801",
+		"Equation": "(#24008!=56)",
+		"GOTO_LABEL": "0x1926"
+	},
+	{
+		"LABEL": "0x17d0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "cb01",
+		"Equation": "(#6786>=2)",
+		"GOTO_LABEL": "0x1878"
+	},
+	{
+		"LABEL": "0x17e6",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "cc0171173800"
+	},
+	{
+		"LABEL": "0x17f0",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0100",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x180a",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "cd01000000001e00"
+	},
+	{
+		"LABEL": "0x1816",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05430e0300"
+	},
+	{
+		"LABEL": "0x1820",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000038000200"
+	},
+	{
+		"LABEL": "0x182c",
+		"Type": "VOLUME",
+		"SUBCMD": 0,
+		"Args": "000000003c00"
+	},
+	{
+		"LABEL": "0x1836",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "ce014100000000",
+		"JPN": "卓球神の称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x185e",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1864",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "cf01d2010100"
+	},
+	{
+		"LABEL": "0x186e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d001",
+		"GOTO_LABEL": "0x191c"
+	},
+	{
+		"LABEL": "0x1878",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "d201",
+		"Equation": "(#6786>=1)",
+		"GOTO_LABEL": "0x191c"
+	},
+	{
+		"LABEL": "0x188e",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "d30171173700"
+	},
+	{
+		"LABEL": "0x1898",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0200",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x18b2",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "d401000000001e00"
+	},
+	{
+		"LABEL": "0x18be",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05430e0300"
+	},
+	{
+		"LABEL": "0x18c8",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000037000200"
+	},
+	{
+		"LABEL": "0x18d4",
+		"Type": "VOLUME",
+		"SUBCMD": 0,
+		"Args": "000000003c00"
+	},
+	{
+		"LABEL": "0x18de",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "d5014200000000",
+		"JPN": "伝説の卓球王の称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x190c",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1912",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d601",
+		"GOTO_LABEL": "0x191c"
+	},
+	{
+		"LABEL": "0x191c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d701",
+		"GOTO_LABEL": "0x1926"
+	},
+	{
+		"LABEL": "0x1926",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d901",
+		"GOTO_LABEL": "0x1f32"
+	},
+	{
+		"LABEL": "0x1930",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "da01",
+		"GOTO_LABEL": "0x19fa"
+	},
+	{
+		"LABEL": "0x193a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "dd01010003a400008002b4006d00"
+	},
+	{
+		"LABEL": "0x194c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1952",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 478,
+		"MSGID": 67,
+		"VOICEID": 28606,
+		"NameJPN": "天善",
+		"JPN": "「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 479,
+		"MSGID": 68,
+		"NameJPN": "羽依里",
+		"JPN": "「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19f4",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e101"
+	},
+	{
+		"LABEL": "0x19fa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "e301",
+		"GOTO_LABEL": "0x1e6c"
+	},
+	{
+		"LABEL": "0x1a04",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e701",
+		"Equation": "(#6788)",
+		"GOTO_LABEL": "0x1cb0"
+	},
+	{
+		"LABEL": "0x1a16",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e8010100b5a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x1a28",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a2e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 490,
+		"MSGID": 69,
+		"NameJPN": "羽依里",
+		"JPN": "「だ、大丈夫か…？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A-Are you all right...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a5c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ec010100a3a3"
+	},
+	{
+		"LABEL": "0x1a66",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 493,
+		"MSGID": 70,
+		"VOICEID": 24044,
+		"NameJPN": "天善",
+		"JPN": "「やるじゃ……ないか……ガク」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Not... bad... *thump*\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aa2",
+		"Type": "MOVE",
+		"SUBCMD": 1,
+		"Args": "ef0101000000008002b400"
+	},
+	{
+		"LABEL": "0x1ab2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002dc00"
+	},
+	{
+		"LABEL": "0x1ac0",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0100000f00"
+	},
+	{
+		"LABEL": "0x1aca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ad0",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "f0011200"
+	},
+	{
+		"LABEL": "0x1ad8",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "f10100ae0d0300"
+	},
+	{
+		"LABEL": "0x1ae4",
+		"Type": "QUAKE",
+		"SUBCMD": 1,
+		"Args": "f201ff0001060000520001010052"
+	},
+	{
+		"LABEL": "0x1af6",
+		"Type": "QUAKE",
+		"SUBCMD": 0,
+		"Args": "ff0901060000520001010000"
+	},
+	{
+		"LABEL": "0x1b06",
+		"Type": "WAIT",
+		"SUBCMD": 1,
+		"Args": "f4011e00"
+	},
+	{
+		"LABEL": "0x1b0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 502,
+		"MSGID": 71,
+		"JPN": "息絶えた（!?）",
+		"ENG": "Holy crap, is he dead!?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b2e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f901",
+		"Equation": "(#24008!=56)",
+		"GOTO_LABEL": "0x1c9c"
+	},
+	{
+		"LABEL": "0x1b46",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "fc01",
+		"Equation": "(#6786>=2)",
+		"GOTO_LABEL": "0x1bee"
+	},
+	{
+		"LABEL": "0x1b5c",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "fd0171173800"
+	},
+	{
+		"LABEL": "0x1b66",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0300",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1b80",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "fe01000000001e00"
+	},
+	{
+		"LABEL": "0x1b8c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05430e0300"
+	},
+	{
+		"LABEL": "0x1b96",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000038000200"
+	},
+	{
+		"LABEL": "0x1ba2",
+		"Type": "VOLUME",
+		"SUBCMD": 0,
+		"Args": "000000003c00"
+	},
+	{
+		"LABEL": "0x1bac",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "ff014800000000",
+		"JPN": "卓球神の称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x1bd4",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1bda",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0002d2010100"
+	},
+	{
+		"LABEL": "0x1be4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0102",
+		"GOTO_LABEL": "0x1c92"
+	},
+	{
+		"LABEL": "0x1bee",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0302",
+		"Equation": "(#6786>=1)",
+		"GOTO_LABEL": "0x1c92"
+	},
+	{
+		"LABEL": "0x1c04",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "040271173700"
+	},
+	{
+		"LABEL": "0x1c0e",
+		"Type": "FARCALL",
+		"SUBCMD": 0,
+		"Args": "0400",
+		"String": "_称号_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1c28",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "0502000000001e00"
+	},
+	{
+		"LABEL": "0x1c34",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05430e0300"
+	},
+	{
+		"LABEL": "0x1c3e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800000037000200"
+	},
+	{
+		"LABEL": "0x1c4a",
+		"Type": "VOLUME",
+		"SUBCMD": 0,
+		"Args": "000000003c00"
+	},
+	{
+		"LABEL": "0x1c54",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "06024900000000",
+		"JPN": "伝説の卓球王の称号を獲得した！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0x1c82",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0x1c88",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0702",
+		"GOTO_LABEL": "0x1c92"
+	},
+	{
+		"LABEL": "0x1c92",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0802",
+		"GOTO_LABEL": "0x1c9c"
+	},
+	{
+		"LABEL": "0x1c9c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0a02",
+		"GOTO_LABEL": "0x1f32"
+	},
+	{
+		"LABEL": "0x1ca6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b02",
+		"GOTO_LABEL": "0x1e6c"
+	},
+	{
+		"LABEL": "0x1cb0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1002",
+		"Equation": "(@get_table_tennis_score<=50000)",
+		"GOTO_LABEL": "0x1d26"
+	},
+	{
+		"LABEL": "0x1cdc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "110201004ba400008002b4006d00"
+	},
+	{
+		"LABEL": "0x1cee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cf4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 530,
+		"MSGID": 74,
+		"VOICEID": 24049,
+		"NameJPN": "天善",
+		"JPN": "「まだまだだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You still have a long way to go.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d1c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1302",
+		"GOTO_LABEL": "0x1e6c"
+	},
+	{
+		"LABEL": "0x1d26",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1802",
+		"Equation": "(@get_table_tennis_score>=100000)",
+		"GOTO_LABEL": "0x1dee"
+	},
+	{
+		"LABEL": "0x1d52",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "19020100dfa300008002b4006d00"
+	},
+	{
+		"LABEL": "0x1d64",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 538,
+		"MSGID": 75,
+		"VOICEID": 24045,
+		"NameJPN": "天善",
+		"JPN": "「はぁはぁ…思ったよりも、盛り上がってしまったな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hah, hah... That got a lot more heated than I expected.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1db4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 540,
+		"MSGID": 76,
+		"NameJPN": "羽依里",
+		"JPN": "「はぁはぁ…そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Haa, haa... Yeah...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1de4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1d02",
+		"GOTO_LABEL": "0x1e6c"
+	},
+	{
+		"LABEL": "0x1dee",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "22020100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x1e00",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1e06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 547,
+		"MSGID": 77,
+		"VOICEID": 24046,
+		"NameJPN": "天善",
+		"JPN": "「思ったよりも、盛り上がってしまったな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"That got a lot more heated than I expected.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 549,
+		"MSGID": 78,
+		"NameJPN": "羽依里",
+		"JPN": "「そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e6c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2702",
+		"GOTO_LABEL": "0x1e76"
+	},
+	{
+		"LABEL": "0x1e76",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2a02",
+		"Equation": "(#358==1)",
+		"GOTO_LABEL": "0x1e9a"
+	},
+	{
+		"LABEL": "0x1e8a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2b02"
+	},
+	{
+		"LABEL": "0x1e90",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2c02",
+		"GOTO_LABEL": "0x1e9a"
+	},
+	{
+		"LABEL": "0x1e9a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2e020100d3a3"
+	},
+	{
+		"LABEL": "0x1ea4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1eaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 559,
+		"MSGID": 79,
+		"VOICEID": 24055,
+		"NameJPN": "天善",
+		"JPN": "「どうする？　もう少し続けるか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"How about it? Want to keep going?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 561,
+		"MSGID": 80,
+		"NameJPN": "羽依里",
+		"JPN": "「そうだな。やる気になってきたし、もう少し続けるよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah, sure. I'm getting pretty into this, so I'll keep at it for a while longer.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f32",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3502"
+	},
+	{
+		"LABEL": "0x1f38",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "ac02000000003c00"
+	},
+	{
+		"LABEL": "0x1f44",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "ae02"
+	},
+	{
+		"LABEL": "0x1f4a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x1f58",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1f60",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x1f6a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1f6e",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "b002b4860100"
+	},
+	{
+		"LABEL": "0x1f78",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b302",
+		"Equation": "(@天善と卓球をした回数==0)",
+		"GOTO_LABEL": "0x1fec"
+	},
+	{
+		"LABEL": "0x1f9e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "b4020100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x1fb0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1fb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 695,
+		"MSGID": 81,
+		"VOICEID": 24059,
+		"NameJPN": "天善",
+		"JPN": "「特訓をやるのか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Up for some training?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fe2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b802",
+		"GOTO_LABEL": "0x2036"
+	},
+	{
+		"LABEL": "0x1fec",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "bb020100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x1ffe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2004",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 702,
+		"MSGID": 82,
+		"VOICEID": 24060,
+		"NameJPN": "天善",
+		"JPN": "「今日も特訓をやるのか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Up for some training again?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2036",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "c40271172b02020007",
+		"JPN": [
+			"やる",
+			"[(@is_RB_table_tennis_free_match_release()),]みんなとやる",
+			"やらない"
+		],
+		"ENG": [
+			"Yeah",
+			"[(@is_RB_table_tennis_free_match_release()),]Free match",
+			"Nah"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x20c8",
+		"Type": "MESSAGE_CLEAR",
+		"SUBCMD": 1,
+		"Args": "ca02"
+	},
+	{
+		"LABEL": "0x20ce",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ce02",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x2424"
+	},
+	{
+		"LABEL": "0x20e4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 721,
+		"MSGID": 83,
+		"VOICEID": 24061,
+		"NameJPN": "天善",
+		"JPN": "「どんな特訓をしたいんだ？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What kind of training do you want to do?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2118",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "d60271172f0203000a",
+		"JPN": [
+			"限られた時間で特訓したい",
+			"力の続く限り特訓したい",
+			"俺と本気の勝負をしてくれ",
+			"卓球の難易度設定",
+			"やっぱりやめる"
+		],
+		"ENG": [
+			"Train for a set period of time",
+			"$S032Train to the limits of your endurance$S",
+			"Play a serious match",
+			"Difficulty settings",
+			"Never mind"
+		],
+		"Args2": "000006000000"
+	},
+	{
+		"LABEL": "0x21a4",
+		"Type": "MESSAGE_CLEAR",
+		"SUBCMD": 1,
+		"Args": "de02"
+	},
+	{
+		"LABEL": "0x21aa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "e202",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x2240"
+	},
+	{
+		"LABEL": "0x21c0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e4020100d9a3"
+	},
+	{
+		"LABEL": "0x21ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x21d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 741,
+		"MSGID": 84,
+		"VOICEID": 24062,
+		"NameJPN": "天善",
+		"JPN": "「…なるほど、一瞬の眩しさを刻むんだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"...I see. When you shine for just a moment, you do indeed shine your brightest.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2210",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "e802811a0000"
+	},
+	{
+		"LABEL": "0x221a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "e9020500",
+		"String": "_卓球_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2236",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "ea02",
+		"GOTO_LABEL": "0x241a"
+	},
+	{
+		"LABEL": "0x2240",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "ec02",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x22ec"
+	},
+	{
+		"LABEL": "0x2256",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "ed02ca860100"
+	},
+	{
+		"LABEL": "0x2260",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f0020100d9a3"
+	},
+	{
+		"LABEL": "0x226a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2270",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 753,
+		"MSGID": 85,
+		"VOICEID": 24063,
+		"NameJPN": "天善",
+		"JPN": "「そうだな、俺たちが語り合うのに時間なんて必要ない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You're right―our dialogue has no need of any time limits!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22bc",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "f402811a0100"
+	},
+	{
+		"LABEL": "0x22c6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "f5020600",
+		"String": "_卓球_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x22e2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "f602",
+		"GOTO_LABEL": "0x241a"
+	},
+	{
+		"LABEL": "0x22ec",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "f802",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x23a0"
+	},
+	{
+		"LABEL": "0x2302",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "f902ca860100"
+	},
+	{
+		"LABEL": "0x230c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fc020100d9a3"
+	},
+	{
+		"LABEL": "0x2316",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x231c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 765,
+		"MSGID": 86,
+		"VOICEID": 24064,
+		"NameJPN": "天善",
+		"JPN": "「…俺と本気で勝負をしたいだと。嬉しいことを言ってくれるな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"...You want to play a serious match? I couldn't be happier to hear it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2370",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "0003811a0200"
+	},
+	{
+		"LABEL": "0x237a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "01030700",
+		"String": "_卓球_CS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2396",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0203",
+		"GOTO_LABEL": "0x241a"
+	},
+	{
+		"LABEL": "0x23a0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0303",
+		"Equation": "(#6001==3)",
+		"GOTO_LABEL": "0x2410"
+	},
+	{
+		"LABEL": "0x23b6",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "05030100000f00"
+	},
+	{
+		"LABEL": "0x23c2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x23c8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "08030800",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x2608"
+	},
+	{
+		"LABEL": "0x23e4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "0a030100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x23f6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x23fc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0b03",
+		"GOTO_LABEL": "0x2118"
+	},
+	{
+		"LABEL": "0x2406",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0c03",
+		"GOTO_LABEL": "0x241a"
+	},
+	{
+		"LABEL": "0x2410",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1003",
+		"GOTO_LABEL": "0x243a"
+	},
+	{
+		"LABEL": "0x241a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1203",
+		"GOTO_LABEL": "0x2602"
+	},
+	{
+		"LABEL": "0x2424",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1603",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x24f4"
+	},
+	{
+		"LABEL": "0x243a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1a03010027a4"
+	},
+	{
+		"LABEL": "0x2444",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x244a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 795,
+		"MSGID": 87,
+		"VOICEID": 24065,
+		"NameJPN": "天善",
+		"JPN": "「そうか、ならば次の機会を待つとしよう」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Is that so? Then I'll stow away my enthusiasm for next time, I suppose.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x248a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1f030000b800000000000000"
+	},
+	{
+		"LABEL": "0x249a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x24a2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x24a8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x24b0",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x24bc",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x24c8",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x24ce",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x24d8",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x24dc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x24e2",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x24e6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x24ea",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2003",
+		"GOTO_LABEL": "0x2602"
+	},
+	{
+		"LABEL": "0x24f4",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "25030900",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xcacc"
+	},
+	{
+		"LABEL": "0x2512",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "2b03000000003c00"
+	},
+	{
+		"LABEL": "0x251e",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "2e0301ff"
+	},
+	{
+		"LABEL": "0x2526",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x252a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x2538",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2540",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x2546",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x254c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2552",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "31030a00",
+		"String": "RB90_島ポンCS用処理",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x2572",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3203b4860100"
+	},
+	{
+		"LABEL": "0x257c",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3303"
+	},
+	{
+		"LABEL": "0x2582",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x2590",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2598",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x25a2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x25a6",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "34030b00",
+		"String": "RB90_卓球シナリオ",
+		"GOTO_LABEL": "0xcc46"
+	},
+	{
+		"LABEL": "0x25c4",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3a03000000003c00"
+	},
+	{
+		"LABEL": "0x25d0",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "3d0301ff"
+	},
+	{
+		"LABEL": "0x25d8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x25dc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x25ea",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x25f2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001227"
+	},
+	{
+		"LABEL": "0x25fc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2602",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "4603"
+	},
+	{
+		"LABEL": "0x2608",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 845,
+		"MSGID": 88,
+		"JPN": "卓球の難易度設定を変更します。プレイヤーがすべての操作を行うＮＯＲＭＡＬと、カーソルが自動で移動し、打ち返すタイミングのみ操作するＥＡＳＹから選べます。",
+		"ENG": "Difficulty setting of table tennis. You can choose NORMAL where the player performs all operations, and EASY where the cursor moves automatically and only the timing to hit back is operated.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26b0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f03",
+		"Equation": "(#12519==0)",
+		"GOTO_LABEL": "0x2714"
+	},
+	{
+		"LABEL": "0x26c6",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "50037117350204000f",
+		"JPN": [
+			"ＮＯＲＭＡＬ(現在の設定)",
+			"ＥＡＳＹ"
+		],
+		"ENG": [
+			"NORMAL (Currently set)",
+			"EASY"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x2704",
+		"Type": "MESSAGE_CLEAR",
+		"SUBCMD": 1,
+		"Args": "5503"
+	},
+	{
+		"LABEL": "0x270a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5603",
+		"GOTO_LABEL": "0x2758"
+	},
+	{
+		"LABEL": "0x2714",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "580371173802050011",
+		"JPN": [
+			"ＮＯＲＭＡＬ",
+			"ＥＡＳＹ(現在の設定)"
+		],
+		"ENG": [
+			"NORMAL",
+			"EASY (Currently set)"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x2752",
+		"Type": "MESSAGE_CLEAR",
+		"SUBCMD": 1,
+		"Args": "5d03"
+	},
+	{
+		"LABEL": "0x2758",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6003",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x27d6"
+	},
+	{
+		"LABEL": "0x276e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 866,
+		"MSGID": 89,
+		"JPN": "ＮＯＲＭＡＬが選択されました。カーソル位置はプレイヤーが操作します。",
+		"ENG": "NORMAL has been selected. The cursor position is controlled by the player.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27c2",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6403e7300000"
+	},
+	{
+		"LABEL": "0x27cc",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6503",
+		"GOTO_LABEL": "0x282e"
+	},
+	{
+		"LABEL": "0x27d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 872,
+		"MSGID": 90,
+		"JPN": "ＥＡＳＹが選択されました。カーソル位置は自動的に選択されます。",
+		"ENG": "EASY has been selected. The cursor position is automatically selected.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2824",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "6a03e7300100"
+	},
+	{
+		"LABEL": "0x282e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6d03"
+	},
+	{
+		"LABEL": "0x2834",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6e03"
+	},
+	{
+		"LABEL": "0x283a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7e03",
+		"Equation": "(@天善と卓球をした回数==1)",
+		"GOTO_LABEL": "0x28b4"
+	},
+	{
+		"LABEL": "0x2860",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "7f030100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x2872",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2878",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 896,
+		"MSGID": 91,
+		"VOICEID": 24066,
+		"NameJPN": "天善",
+		"JPN": "「今回は二回目の卓球だな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"This is the second time we've played table tennis together, isn't it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28aa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8103",
+		"GOTO_LABEL": "0x28b4"
+	},
+	{
+		"LABEL": "0x28b4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8503",
+		"Equation": "(@天善と卓球をした回数==5)",
+		"GOTO_LABEL": "0x2934"
+	},
+	{
+		"LABEL": "0x28da",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8603010021a4"
+	},
+	{
+		"LABEL": "0x28e4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x28ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 903,
+		"MSGID": 92,
+		"VOICEID": 24067,
+		"NameJPN": "天善",
+		"JPN": "「今まで、お前とは随分と特訓をしてきた」",
+		"NameENG": "Tenzen",
+		"ENG": "\"We've played many a match together at this point, haven't we?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x292a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8803",
+		"GOTO_LABEL": "0x2934"
+	},
+	{
+		"LABEL": "0x2934",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8b03",
+		"Equation": "(@称号を獲得したことがある(56))",
+		"GOTO_LABEL": "0x29b6"
+	},
+	{
+		"LABEL": "0x295e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8e03010051a4"
+	},
+	{
+		"LABEL": "0x2968",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x296e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 911,
+		"MSGID": 93,
+		"VOICEID": 24058,
+		"NameJPN": "天善",
+		"JPN": "「よろしくお願いします！　卓球神様！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Please grant me your favor, Ping-Pong God-sama!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x29ac",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9003",
+		"GOTO_LABEL": "0x2a62"
+	},
+	{
+		"LABEL": "0x29b6",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "9203",
+		"Equation": "(@称号を獲得したことがある(55))",
+		"GOTO_LABEL": "0x2a2c"
+	},
+	{
+		"LABEL": "0x29e0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "950301001ba4"
+	},
+	{
+		"LABEL": "0x29ea",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x29f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 918,
+		"MSGID": 94,
+		"VOICEID": 24057,
+		"NameJPN": "天善",
+		"JPN": "「胸を借りる……行くぞ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"With all due respect... here I go!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a22",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9703",
+		"GOTO_LABEL": "0x2a62"
+	},
+	{
+		"LABEL": "0x2a2c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9b0301001ba4"
+	},
+	{
+		"LABEL": "0x2a36",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2a3c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 924,
+		"MSGID": 95,
+		"VOICEID": 24056,
+		"NameJPN": "天善",
+		"JPN": "「では行くぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Now then, here I go!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a62",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a00396650100"
+	},
+	{
+		"LABEL": "0x2a6c",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "a2030100000f00"
+	},
+	{
+		"LABEL": "0x2a78",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2a7e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "a403"
+	},
+	{
+		"LABEL": "0x2a84",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "b20366010100"
+	},
+	{
+		"LABEL": "0x2a8e",
+		"Type": "GOSUB",
+		"SUBCMD": 1,
+		"Args": "b5030c00",
+		"GOTO_LABEL": "0x115a"
+	},
+	{
+		"LABEL": "0x2a9a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "bc03",
+		"Equation": "(#6787==1)",
+		"GOTO_LABEL": "0x2ac0"
+	},
+	{
+		"LABEL": "0x2ab0",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "bd03"
+	},
+	{
+		"LABEL": "0x2ab6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "be03",
+		"GOTO_LABEL": "0x2ac0"
+	},
+	{
+		"LABEL": "0x2ac0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "c603",
+		"Equation": "(#6788==0)",
+		"GOTO_LABEL": "0x2aea"
+	},
+	{
+		"LABEL": "0x2ad6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c703",
+		"GOTO_LABEL": "0x2af0"
+	},
+	{
+		"LABEL": "0x2ae0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "c803",
+		"GOTO_LABEL": "0x2aea"
+	},
+	{
+		"LABEL": "0x2aea",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "ca03"
+	},
+	{
+		"LABEL": "0x2af0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "d2030100d3a300008002b4006d00"
+	},
+	{
+		"LABEL": "0x2b02",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 979,
+		"MSGID": 96,
+		"VOICEID": 24068,
+		"NameJPN": "天善",
+		"JPN": "「よし、今日はこんなところにしておこうか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"All right, that should be enough for today.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b4a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "d503"
+	},
+	{
+		"LABEL": "0x2b50",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "dc03010095a200008002b4006d00"
+	},
+	{
+		"LABEL": "0x2b62",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2b68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 989,
+		"MSGID": 97,
+		"VOICEID": 24069,
+		"NameJPN": "天善",
+		"JPN": "「まさか、この俺に勝つとはな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"To think you'd actually beat me!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b9e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "df03"
+	},
+	{
+		"LABEL": "0x2ba4",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "e603010095a200008002b4006d00"
+	},
+	{
+		"LABEL": "0x2bb6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2bbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 999,
+		"MSGID": 98,
+		"VOICEID": 24070,
+		"NameJPN": "天善",
+		"JPN": "「驚いたな…。俺について来られるとは、お前本当に初めてなのか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'm shocked... You're actually keeping up with me? Is this really your first time playing?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c14",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "e903"
+	},
+	{
+		"LABEL": "0x2c1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1015,
+		"MSGID": 99,
+		"VOICEID": 24071,
+		"NameJPN": "天善",
+		"JPN": "「どうした？　お前の実力はそんなものか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What's wrong? Is that all you've got?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1017,
+		"MSGID": 100,
+		"VOICEID": 24072,
+		"NameJPN": "天善",
+		"JPN": "「遅い！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Too slow!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2c7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1019,
+		"MSGID": 101,
+		"VOICEID": 24073,
+		"NameJPN": "天善",
+		"JPN": "「足が止まっているぞ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You're tripping up!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2cae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1024,
+		"MSGID": 102,
+		"VOICEID": 24074,
+		"NameJPN": "天善",
+		"JPN": "「なかなか上手いじゃないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You're not half bad!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ce2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1026,
+		"MSGID": 103,
+		"VOICEID": 24075,
+		"NameJPN": "天善",
+		"JPN": "「よく返したな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Well returned.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1028,
+		"MSGID": 104,
+		"VOICEID": 24076,
+		"NameJPN": "天善",
+		"JPN": "「まだまだいくぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I've got more where that came from!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1033,
+		"MSGID": 105,
+		"VOICEID": 24077,
+		"NameJPN": "天善",
+		"JPN": "「いいぞ、その調子だ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"That's right, just like that!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d64",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1035,
+		"MSGID": 106,
+		"VOICEID": 24078,
+		"NameJPN": "天善",
+		"JPN": "「ナイスショット！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Nice shot!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d90",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1037,
+		"MSGID": 107,
+		"VOICEID": 24079,
+		"NameJPN": "天善",
+		"JPN": "「いい音させるじゃないか！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"That shot made an excellent 'ping'!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2dc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1042,
+		"MSGID": 108,
+		"VOICEID": 24080,
+		"NameJPN": "天善",
+		"JPN": "「やるじゃないか！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Not bad!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2df0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1044,
+		"MSGID": 109,
+		"VOICEID": 24081,
+		"NameJPN": "天善",
+		"JPN": "「素晴らしいぞ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Wonderful!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e1a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1046,
+		"MSGID": 110,
+		"VOICEID": 24082,
+		"NameJPN": "天善",
+		"JPN": "「エクセレントだ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Excellent!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1051,
+		"MSGID": 111,
+		"VOICEID": 24083,
+		"NameJPN": "天善",
+		"JPN": "「ひゃっほー！テンションが上がってきたぜぇ!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Yahooo! Here we goooo!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1053,
+		"MSGID": 112,
+		"VOICEID": 24084,
+		"NameJPN": "天善",
+		"JPN": "「天善天善天善天善天善てんぜーん！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Tenzen Tenzen Tenzen Tenzen Tenzen Tenzeeeen!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2eca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1055,
+		"MSGID": 113,
+		"VOICEID": 24085,
+		"NameJPN": "天善",
+		"JPN": "「俺の右腕が、お前を倒せとうなっているぅぅぅ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"My right arm is roaring for your defeat!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1057,
+		"MSGID": 114,
+		"VOICEID": 24086,
+		"NameJPN": "天善",
+		"JPN": "「ちょれえええええええええええええええええい！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Choreeeeeeeeeeeeeeeeeeeiiiiiiii!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1063,
+		"MSGID": 115,
+		"VOICEID": 24087,
+		"NameJPN": "天善",
+		"JPN": "「お前ならこのショットを受け止められると信じてるぞ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I have full confidence you'll be able to stop this shot!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fa8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1065,
+		"MSGID": 116,
+		"VOICEID": 24088,
+		"NameJPN": "天善",
+		"JPN": "「これが、俺の本気だ……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"This is my true power...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fda",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1067,
+		"MSGID": 117,
+		"VOICEID": 24089,
+		"NameJPN": "天善",
+		"JPN": "「我が魂の一撃を受けてみろ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"This shot's coming from my soul―just try to hit it!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3010",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1069,
+		"MSGID": 118,
+		"VOICEID": 24090,
+		"NameJPN": "天善",
+		"JPN": "「奥義　ドラゴンスレイブ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Secret Technique - Dragon Slave!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3042",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1073,
+		"MSGID": 119,
+		"VOICEID": 24091,
+		"NameJPN": "天善",
+		"JPN": "「奥義　魂伝影念獅坐威砲（こんでんえいねんしざいほう）」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Secret Technique - Legendary Shadow Soul Majestic Leo Cannon of Desire!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3092",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1075,
+		"MSGID": 120,
+		"VOICEID": 24092,
+		"NameJPN": "天善",
+		"JPN": "「奥義　舞卦処撥斗（ぶけしょはっと）」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Secret Technique - Dancing Strike of Divine Denial!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x30d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1078,
+		"MSGID": 121,
+		"VOICEID": 24093,
+		"NameJPN": "天善",
+		"JPN": "「奥義　六波羅反台（ろくはらたんだい）」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Secret Technique - Six Virtues of Enlightenment!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3110",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1085,
+		"MSGID": 122,
+		"VOICEID": 24095,
+		"NameJPN": "天善",
+		"JPN": "「ふっ…この威力、申し分ない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Heh... This power... Perfect...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3146",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1090,
+		"MSGID": 123,
+		"VOICEID": 24096,
+		"NameJPN": "天善",
+		"JPN": "「ぬああああぁぁぁ!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Nuuuuuaaaaaaaaghhh!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3176",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1095,
+		"MSGID": 124,
+		"VOICEID": 24097,
+		"NameJPN": "天善",
+		"JPN": "「俺を吹っ飛ばすとはな…だが、卓球にノックアウトはないぜ!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You've done well to blow me away... However, there's no such thing as a knockout in table tennis!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1101,
+		"MSGID": 125,
+		"VOICEID": 24098,
+		"NameJPN": "天善",
+		"JPN": "「見切ったぞ!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I've seen right through you!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x31f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1104,
+		"MSGID": 126,
+		"VOICEID": 24094,
+		"NameJPN": "天善",
+		"JPN": "「奥義　ハンムラビ砲・天！（はむらびほう・てん）」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Secret Technique - Hammurabi Cannon: Sky!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3240",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1110,
+		"MSGID": 127,
+		"VOICEID": 24099,
+		"NameJPN": "天善",
+		"JPN": "「この俺が負けるだと…！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I lost!? How...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3272",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1116,
+		"MSGID": 128,
+		"VOICEID": 24100,
+		"NameJPN": "天善",
+		"JPN": "「これならどうだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"How about this!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x329c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1121,
+		"MSGID": 129,
+		"VOICEID": 24101,
+		"NameJPN": "天善",
+		"JPN": "「ふっ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hup!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1122,
+		"MSGID": 130,
+		"VOICEID": 24102,
+		"NameJPN": "天善",
+		"JPN": "「はっ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1123,
+		"MSGID": 131,
+		"VOICEID": 24103,
+		"NameJPN": "天善",
+		"JPN": "「どうだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"How's that!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3302",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1124,
+		"MSGID": 132,
+		"VOICEID": 24104,
+		"NameJPN": "天善",
+		"JPN": "「さあっ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Nooowww!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3326",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1125,
+		"MSGID": 133,
+		"VOICEID": 24105,
+		"NameJPN": "天善",
+		"JPN": "「かあっ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Kaaaaahh!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x334a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1126,
+		"MSGID": 134,
+		"VOICEID": 24106,
+		"NameJPN": "天善",
+		"JPN": "「てんぜーーん！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Tenzeeeeeeenn!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3374",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1132,
+		"MSGID": 135,
+		"VOICEID": 28604,
+		"NameJPN": "天善",
+		"JPN": "「つぁ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hyah!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3396",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1133,
+		"MSGID": 136,
+		"VOICEID": 28605,
+		"NameJPN": "天善",
+		"JPN": "「どうした！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What's wrong!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1134,
+		"MSGID": 137,
+		"VOICEID": 28606,
+		"NameJPN": "天善",
+		"JPN": "「きええええええええええぇぇぇぇぇぇぇーーーーーーー！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"KIIIIEEEEEEEEEEEEEEHHHHHHHHHHHHHHHH!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x340c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1135,
+		"MSGID": 138,
+		"VOICEID": 28607,
+		"NameJPN": "天善",
+		"JPN": "「天善ゾーーーン!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Tenzen Zoooooone!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x343a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1136,
+		"MSGID": 139,
+		"VOICEID": 28608,
+		"NameJPN": "天善",
+		"JPN": "「秘奥義！　天全（てん・ぜん）!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Extra Secret Technique - Tenzen Omnipotent!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3476",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1139,
+		"MSGID": 140,
+		"VOICEID": 28609,
+		"NameJPN": "天善",
+		"JPN": "「これが愛か……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"So this is love...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1140,
+		"MSGID": 141,
+		"VOICEID": 28610,
+		"NameJPN": "天善",
+		"JPN": "「悪くない……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Not bad...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1141,
+		"MSGID": 142,
+		"VOICEID": 28611,
+		"NameJPN": "天善",
+		"JPN": "「ときめく……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"My heart, it flutters...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x34f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1142,
+		"MSGID": 143,
+		"VOICEID": 28612,
+		"NameJPN": "天善",
+		"JPN": "「あぁ……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Ahh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3514",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1145,
+		"MSGID": 144,
+		"VOICEID": 28613,
+		"NameJPN": "天善",
+		"JPN": "「ぐうううぉぉぉぉっ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Guuuuuooooooooh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3544",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1146,
+		"MSGID": 145,
+		"VOICEID": 28614,
+		"NameJPN": "天善",
+		"JPN": "「こ、このプレッシャーはぁぁ！　たまらん!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"T-This pressure is... irresistible!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x358a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1149,
+		"MSGID": 146,
+		"VOICEID": 28615,
+		"NameJPN": "天善",
+		"JPN": "「まだまだぁ！　もっと激しいのをぶつけてみろ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'm not done yet! I've got even hotter things up my sleeve!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1150,
+		"MSGID": 147,
+		"VOICEID": 28616,
+		"NameJPN": "天善",
+		"JPN": "「はぁはぁ、もっと……もっとだあぁぁ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hah, hah... More... Moreeeeee!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3612",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1151,
+		"MSGID": 148,
+		"VOICEID": 28617,
+		"NameJPN": "天善",
+		"JPN": "「き……きもちいぃ……なんだ、この感覚は……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Ahh... What is this feeling...? It feels so good...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3658",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1154,
+		"MSGID": 149,
+		"VOICEID": 24047,
+		"NameJPN": "天善",
+		"JPN": "「おまえにはがっかりだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'm disappointed in you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3688",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1155,
+		"MSGID": 150,
+		"VOICEID": 24046,
+		"NameJPN": "天善",
+		"JPN": "「思ったよりも、盛り上がってしまったな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"That got a lot more heated than I expected.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x36c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1156,
+		"MSGID": 151,
+		"VOICEID": 24050,
+		"NameJPN": "天善",
+		"JPN": "「可能性は感じるが、まだ壁を越えられていないようだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I feel your potential, but it seems like you still haven't broken through to it.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3716",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1157,
+		"MSGID": 152,
+		"VOICEID": 24051,
+		"NameJPN": "天善",
+		"JPN": "「悪くない……、ああ、悪くなかったぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Not bad... No, not bad at all...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3754",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1158,
+		"MSGID": 153,
+		"VOICEID": 24052,
+		"NameJPN": "天善",
+		"JPN": "「ふっ……お前には驚かされてばかりだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Heh... You're just full of surprises.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3792",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1159,
+		"MSGID": 154,
+		"VOICEID": 24053,
+		"NameJPN": "天善",
+		"JPN": "「お前……もしかして伝説の卓球王（たっきゅうおう）なのか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Could you possibly be... the legendary king of ping-pong...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x37e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1160,
+		"MSGID": 155,
+		"VOICEID": 24054,
+		"NameJPN": "天善",
+		"JPN": "「た……卓球神（たっきゅうしん）……様っ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"P... Ping-Pong God... sama!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x382a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1163,
+		"MSGID": 156,
+		"VOICEID": 28618,
+		"NameJPN": "天善",
+		"JPN": "「……帰れ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"...Go home.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x384e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1165,
+		"MSGID": 157,
+		"VOICEID": 28619,
+		"NameJPN": "天善",
+		"JPN": "「寂しいものだな、楽しい時間が終わるというのは」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Tragic, isn't it? That all fun things must come to an end.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3896",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1166,
+		"MSGID": 158,
+		"VOICEID": 28620,
+		"NameJPN": "天善",
+		"JPN": "「お前となら狙えるかもな、世界を」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Together, we could take on the world!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1167,
+		"MSGID": 159,
+		"VOICEID": 28621,
+		"NameJPN": "天善",
+		"JPN": "「良ければ、親友から始めてくれないか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Could we start over as best friends, if you don't mind?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x390e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1168,
+		"MSGID": 160,
+		"VOICEID": 28622,
+		"NameJPN": "天善",
+		"JPN": "「俺は新しい言語を知った。人は卓球で繋がることができる」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I've come up with a new saying. 'Hearts are connected by table tennis.'\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x395e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1173,
+		"MSGID": 161,
+		"VOICEID": 28717,
+		"NameJPN": "天善",
+		"JPN": "「魂伝影念獅坐威砲」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Legendary Shadow Soul Majestic Leo Cannon of Desire!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x398a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1174,
+		"MSGID": 162,
+		"VOICEID": 28718,
+		"NameJPN": "天善",
+		"JPN": "「舞卦処撥斗」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Dancing Strike of Divine Denial!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1175,
+		"MSGID": 163,
+		"VOICEID": 28719,
+		"NameJPN": "天善",
+		"JPN": "「六波羅反台」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Rokuhara Tandai!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39d6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1176,
+		"MSGID": 164,
+		"VOICEID": 28720,
+		"NameJPN": "天善",
+		"JPN": "「ハンムラビ砲・天！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Hammurabi Cannon: Sky!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1179,
+		"MSGID": 165,
+		"VOICEID": 28721,
+		"NameJPN": "天善",
+		"JPN": "「何っ……！　バックスピンが強すぎて……！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"What...!? The backspin was too strong...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1180,
+		"MSGID": 166,
+		"VOICEID": 28722,
+		"NameJPN": "天善",
+		"JPN": "「ぐはあああっ!!」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Guuaaaaaahhhh!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a74",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1181,
+		"MSGID": 167,
+		"VOICEID": 28723,
+		"NameJPN": "天善",
+		"JPN": "「まさか自分に返ってくるとは……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"To think it'd come flying back at me...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1182,
+		"MSGID": 168,
+		"VOICEID": 28724,
+		"NameJPN": "天善",
+		"JPN": "「諸刃の剣といったところか、おもしろい」",
+		"NameENG": "Tenzen",
+		"ENG": "\"A double-edged sword, huh? Interesting.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3aee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 1185,
+		"MSGID": 169,
+		"VOICEID": 28725,
+		"NameJPN": "天善",
+		"JPN": "「そうか……お前が、お前こそが卓球か……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see... You play... No, you ARE table tennis...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3b30",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "d2070080"
+	}
+]

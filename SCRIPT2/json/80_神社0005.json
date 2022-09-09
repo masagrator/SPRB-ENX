@@ -1,0 +1,499 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0300098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0600"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 8,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way over to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 1,
+		"JPN": "相変わらず、人が居ない。",
+		"ENG": "There was nobody there, as usual.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 2,
+		"JPN": "でも、お参りだけはしておこう。",
+		"ENG": "I figured I might as well make an offering, though.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 3,
+		"JPN": "賽銭箱に近づく。",
+		"ENG": "I walked over to the offertory box.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 4,
+		"JPN": "さて、いくら入れようか。",
+		"ENG": "How much should I go with today?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf8",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "120071171b02000000",
+		"JPN": [
+			"１０円",
+			"５０円",
+			"１００円"
+		],
+		"ENG": [
+			"Ten yen",
+			"Fifty yen",
+			"A hundred yen"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x12c",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1a00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x174"
+	},
+	{
+		"LABEL": "0x142",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 5,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15e",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "1e001c27313000"
+	},
+	{
+		"LABEL": "0x16a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1f00",
+		"GOTO_LABEL": "0x174"
+	},
+	{
+		"LABEL": "0x174",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2000",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1bc"
+	},
+	{
+		"LABEL": "0x18a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 6,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a6",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "24001c27353000"
+	},
+	{
+		"LABEL": "0x1b2",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2500",
+		"GOTO_LABEL": "0x1bc"
+	},
+	{
+		"LABEL": "0x1bc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2600",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x204"
+	},
+	{
+		"LABEL": "0x1d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 7,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "2a001c2731303000"
+	},
+	{
+		"LABEL": "0x1fa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2b00",
+		"GOTO_LABEL": "0x204"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 45,
+		"MSGID": 8,
+		"JPN": "さて、帰ろう。",
+		"ENG": "All right, time to go.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x222",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3000",
+		"Equation": "(#10012==900&&#41==1)",
+		"GOTO_LABEL": "0x422"
+	},
+	{
+		"LABEL": "0x242",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3200"
+	},
+	{
+		"LABEL": "0x248",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "330009000000003c0001"
+	},
+	{
+		"LABEL": "0x256",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "3400000000003c00"
+	},
+	{
+		"LABEL": "0x262",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "35000306e8fd03"
+	},
+	{
+		"LABEL": "0x26e",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030603"
+	},
+	{
+		"LABEL": "0x276",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0x27e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0306803c00"
+	},
+	{
+		"LABEL": "0x288",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03060000003e003e"
+	},
+	{
+		"LABEL": "0x294",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0306000000c0fe4cff"
+	},
+	{
+		"LABEL": "0x2a2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x2a8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 9,
+		"JPN": "――力をもとめるか……？",
+		"ENG": "...Do you wish for power...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "3900"
+	},
+	{
+		"LABEL": "0x2d6",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "3a000306"
+	},
+	{
+		"LABEL": "0x2de",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0x2e6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "030600000000000000"
+	},
+	{
+		"LABEL": "0x2f4",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x2fa",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "3b003c00"
+	},
+	{
+		"LABEL": "0x302",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x306",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「ん……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x32c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 63,
+		"MSGID": 11,
+		"JPN": "また、何か聞こえた。",
+		"ENG": "I heard something again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 65,
+		"MSGID": 12,
+		"JPN": "周りには誰も居ない。",
+		"ENG": "But there was nobody around.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x374",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 13,
+		"JPN": "ただ……",
+		"ENG": "Though that said...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 14,
+		"JPN": "蝉の鳴き声も不自然にとまっていた。",
+		"ENG": "The cries of the cicadas had suddenly grown unnaturally quiet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 71,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「こわっ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"That's really creepy...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 73,
+		"MSGID": 16,
+		"JPN": "俺は逃げるように、神社を後にした。",
+		"ENG": "I fled the shrine at a breakneck pace.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x418",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4b00",
+		"GOTO_LABEL": "0x422"
+	},
+	{
+		"LABEL": "0x422",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4d000900000000780001"
+	},
+	{
+		"LABEL": "0x430",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4f0012000100"
+	},
+	{
+		"LABEL": "0x43a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "52000000b800000000000000"
+	},
+	{
+		"LABEL": "0x44a",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x452",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x45a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x466",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x472",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x478",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x47e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x482",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x488",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x48c",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x490",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5300"
+	},
+	{
+		"LABEL": "0x496",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "57000080"
+	}
+]

@@ -1,0 +1,2671 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1000"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00001500000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "1100b4860100"
+	},
+	{
+		"LABEL": "0x30",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1300",
+		"Equation": "(#6034>=4)",
+		"GOTO_LABEL": "0x2f8"
+	},
+	{
+		"LABEL": "0x46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 0,
+		"JPN": "秘密基地にやってきた。",
+		"ENG": "I made my way over to the secret base.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "170001007db900008002b4006900"
+	},
+	{
+		"LABEL": "0x7e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x84",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 1,
+		"VOICEID": 23710,
+		"NameJPN": "良一",
+		"JPN": "「また来やがった……」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Back again...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 2,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　来ちゃダメだった？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh? Is that a problem?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1c000101d1a200009001b4006d00"
+	},
+	{
+		"LABEL": "0xfa",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0x108",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 3,
+		"VOICEID": 23711,
+		"NameJPN": "天善",
+		"JPN": "「いや、別にいいんだが」",
+		"NameENG": "Tenzen",
+		"ENG": "\"No, not exactly.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1f000101dda2"
+	},
+	{
+		"LABEL": "0x148",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 4,
+		"VOICEID": 23712,
+		"NameJPN": "天善",
+		"JPN": "「……物好きな奴だと思ってな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"...It's just a rather eccentric way to spend all your time.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x184",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 6,
+		"JPN": "確かにこの島に来てから、この秘密基地にばっかり来ている。",
+		"ENG": "He had a point. I'd spent a disproportionate amount of my time on the island at the secret base.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 7,
+		"JPN": "もの好きと言われても仕方ないかもしれない。",
+		"ENG": "I couldn't deny that it was a bit eccentric of me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x228",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "280001008cb9"
+	},
+	{
+		"LABEL": "0x232",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x238",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 8,
+		"VOICEID": 23713,
+		"NameJPN": "良一",
+		"JPN": "「お前、好きな女とかいないのか？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Isn't there a girl you're into, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x272",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「いたら多分、その子の所に行ってると思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd probably be hanging out with her right now if there was.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2d000101d1a2"
+	},
+	{
+		"LABEL": "0x2c0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 10,
+		"VOICEID": 23714,
+		"NameJPN": "天善",
+		"JPN": "「まあそうだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'd imagine so.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ee",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3100",
+		"GOTO_LABEL": "0x45c"
+	},
+	{
+		"LABEL": "0x2f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 11,
+		"JPN": "秘密基地で、男３人顔を突き合わせて話をしていた。",
+		"ENG": "The three of us guys ended up chatting in the secret base.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "350001008cb900008002b4006900"
+	},
+	{
+		"LABEL": "0x34a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 12,
+		"VOICEID": 23713,
+		"NameJPN": "良一",
+		"JPN": "「お前、好きな女とかいないのか？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"So, hey, is there a girl you're into, or something?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「いたら多分、その子の所に行ってると思う」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd probably be hanging out with her right now if there was.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ce",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3a000101d1a200009001b4006d00"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0x3ee",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 14,
+		"VOICEID": 23714,
+		"NameJPN": "天善",
+		"JPN": "「まあそうだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'd imagine so.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 15,
+		"JPN": "男子校の放課後でよくやった、男だらけの恋バナだ。",
+		"ENG": "We quickly ended up on the usual topic for these all-boys after-school chats: love.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "420001008eb9"
+	},
+	{
+		"LABEL": "0x466",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x46c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 67,
+		"MSGID": 16,
+		"VOICEID": 23715,
+		"NameJPN": "良一",
+		"JPN": "「この島には、好みの奴とか気になる奴はいないのか？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"So you're not interested in anyone on this island at all?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 69,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、気になるくらいの子はいるけど」",
+		"NameENG": "Hairi",
+		"ENG": "\"Well, there's someone I'm kinda interested in, at least.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4700010079b9"
+	},
+	{
+		"LABEL": "0x502",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x508",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 18,
+		"VOICEID": 23716,
+		"NameJPN": "良一",
+		"JPN": "「じゃあ、どんな奴が好みなんだ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Well, what're they like?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x542",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "4b007117f601000000",
+		"JPN": [
+			"色白な子かな",
+			"育ちの良さそうな子かな",
+			"よく寝る子かな",
+			"金髪の子かな"
+		],
+		"ENG": [
+			"Someone who's really fair-skinned",
+			"$S032Someone who looks pretty well-bred$S",
+			"Someone who sleeps all the time",
+			"Someone with blonde hair"
+		],
+		"Args2": "000005000000"
+	},
+	{
+		"LABEL": "0x5a2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5300",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x7a4"
+	},
+	{
+		"LABEL": "0x5b8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「色白の子かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Really fair-skinned, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5e2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "57000101a1a2"
+	},
+	{
+		"LABEL": "0x5ec",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010100"
+	},
+	{
+		"LABEL": "0x5f4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x5fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 20,
+		"VOICEID": 23717,
+		"NameJPN": "天善",
+		"JPN": "「なるほど、俺のことか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see, you must mean me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「どうしてそうなる？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What? How's that?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x65a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5c000101c5a2"
+	},
+	{
+		"LABEL": "0x664",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x66a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 22,
+		"VOICEID": 23718,
+		"NameJPN": "天善",
+		"JPN": "「俺は島の男で、一番肌が白い」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I have the fairest skin out of all the guys on this island.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 23,
+		"JPN": "確かに漁師町なのに色白だ。",
+		"ENG": "I couldn't deny that he was unusually pale for someone who lived in a fishing village.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6ca",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6100010085b9"
+	},
+	{
+		"LABEL": "0x6d4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6da",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 24,
+		"VOICEID": 23719,
+		"NameJPN": "良一",
+		"JPN": "「おまけにメガネで理知的な外見なのに、運動も出来るぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Plus his glasses make him look like an intellectual, and he's really sporty, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x728",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 25,
+		"JPN": "おいおい、とんだクールビューティーだ。",
+		"ENG": "Wow, that makes him sound like a real cool beauty type!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x75e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 26,
+		"JPN": "どうやら俺は、天善のことが好きだったようだ。",
+		"ENG": "I guess it turns out I've been into Tenzen this whole time?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x79a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6a00",
+		"GOTO_LABEL": "0x1088"
+	},
+	{
+		"LABEL": "0x7a4",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6d00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0xa20"
+	},
+	{
+		"LABEL": "0x7ba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 111,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「育ちの良さそうな子かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"They look pretty well-bred, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "71000101a1a2"
+	},
+	{
+		"LABEL": "0x7f8",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01016d00"
+	},
+	{
+		"LABEL": "0x800",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01006900"
+	},
+	{
+		"LABEL": "0x808",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01010100"
+	},
+	{
+		"LABEL": "0x810",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x816",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 28,
+		"VOICEID": 23720,
+		"NameJPN": "天善",
+		"JPN": "「なるほど、徳田のことか」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see. You must mean Tokuda.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x848",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「誰？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Who?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x86a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "760001007bb9"
+	},
+	{
+		"LABEL": "0x874",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x87a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 119,
+		"MSGID": 30,
+		"VOICEID": 23721,
+		"NameJPN": "良一",
+		"JPN": "「でも分かるぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Yeah, I get you, dude.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8a2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7900010079b9"
+	},
+	{
+		"LABEL": "0x8ac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 31,
+		"VOICEID": 23722,
+		"NameJPN": "良一",
+		"JPN": "「あいつ、ああ見えてきちんと挨拶もするしな」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"The guy looks like such a snob, but he never misses a chance to say hi.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8f6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7c0001019ba2"
+	},
+	{
+		"LABEL": "0x900",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x906",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 125,
+		"MSGID": 32,
+		"VOICEID": 23723,
+		"NameJPN": "天善",
+		"JPN": "「ああ、意外と寂しがり屋だしな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Yeah, and he gets surprisingly lonely at times, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x93e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 127,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、だから誰それ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, seriously, who?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x970",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 129,
+		"MSGID": 34,
+		"JPN": "どうやら俺は、全く知らない人を好きになったようだ。",
+		"ENG": "I seem to have fallen in love with a complete stranger.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 131,
+		"MSGID": 35,
+		"JPN": "でもこれは相手にも迷惑がかかるだろうし、否定しておいたほうがよさそうだな。",
+		"ENG": "It'd probably bother... whoever we were talking about if that fact got out, though, so I figured I should deny it.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa0c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8500",
+		"GOTO_LABEL": "0x12fa"
+	},
+	{
+		"LABEL": "0xa16",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8900",
+		"GOTO_LABEL": "0x1088"
+	},
+	{
+		"LABEL": "0xa20",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8c00",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0xdc2"
+	},
+	{
+		"LABEL": "0xa36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 142,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「……よく寝る子かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"They sleep all the time, I guess.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa66",
+		"Type": "PRIORITY",
+		"SUBCMD": 1,
+		"Args": "900001016d00"
+	},
+	{
+		"LABEL": "0xa70",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01009db9"
+	},
+	{
+		"LABEL": "0xa78",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01006900"
+	},
+	{
+		"LABEL": "0xa80",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xa86",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 145,
+		"MSGID": 37,
+		"VOICEID": 23724,
+		"NameJPN": "良一",
+		"JPN": "「ってことは、しろはのじーさんだな」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Which means... You must like Shiroha's grandpa.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xac2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 147,
+		"MSGID": 38,
+		"NameJPN": "羽依里",
+		"JPN": "「……どしてそうなる？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...How on earth does that follow?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaf4",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "95000101c5a2"
+	},
+	{
+		"LABEL": "0xafe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb04",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 39,
+		"VOICEID": 23725,
+		"NameJPN": "天善",
+		"JPN": "「老人は早寝だからな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Old people tend to sleep early.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb32",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9800010079b9"
+	},
+	{
+		"LABEL": "0xb3c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xb42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 153,
+		"MSGID": 40,
+		"VOICEID": 23726,
+		"NameJPN": "良一",
+		"JPN": "「すげぇ快眠らしいぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Apparently he sleeps crazy deeply, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 155,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「逆に訊きたいけど、２人はその理由だけで、じーさんを好きになるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Let me turn this around on you two: would you seriously fall in love with an old man for a reason like that?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbd0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9d00010085b9"
+	},
+	{
+		"LABEL": "0xbda",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xbe0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 158,
+		"MSGID": 42,
+		"VOICEID": 23727,
+		"NameJPN": "良一",
+		"JPN": "「おい、しろはのじーさんの魅力はそこだけじゃないぞ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Woah there, don't go thinking that's all there is to Shiroha's grandpa's charms!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc2e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 160,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「え？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc50",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a2000101d7a2"
+	},
+	{
+		"LABEL": "0xc5a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010079b9"
+	},
+	{
+		"LABEL": "0xc62",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xc68",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 163,
+		"MSGID": 44,
+		"VOICEID": 23728,
+		"NameJPN": "天善",
+		"JPN": "「男の島民の全員から憧れられてると言っても過言じゃない」",
+		"NameENG": "Tenzen",
+		"ENG": "\"It wouldn't be an exaggeration to say that every man on this island looks up to him as a role model.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcb8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 165,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「……マジで？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Seriously?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xce2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 167,
+		"MSGID": 46,
+		"JPN": "まるで島のアイドルじゃないか。",
+		"ENG": "What is he, the island's idol?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd10",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 169,
+		"MSGID": 47,
+		"JPN": "何だかしろはのじーさんが気になってきた。",
+		"ENG": "I was starting to get a little curious about him.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd48",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 171,
+		"MSGID": 48,
+		"JPN": "この気持ち……何だろう？",
+		"ENG": "What is this feeling... Could it be?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd70",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 173,
+		"MSGID": 49,
+		"JPN": "どうやら俺は、しろはのじーさんのことが好きだったようだ。",
+		"ENG": "Apparently, I actually like Shiroha's grandpa after all.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdb8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "b100",
+		"GOTO_LABEL": "0x1088"
+	},
+	{
+		"LABEL": "0xdc2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "b500",
+		"Equation": "(#6001==3)",
+		"GOTO_LABEL": "0x1088"
+	},
+	{
+		"LABEL": "0xdd8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 184,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「……金髪の子かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Someone with blonde hair.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe06",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ba00010081b9"
+	},
+	{
+		"LABEL": "0xe10",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218008002b400"
+	},
+	{
+		"LABEL": "0xe1e",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01001200"
+	},
+	{
+		"LABEL": "0xe26",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0xe30",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xe36",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 187,
+		"MSGID": 51,
+		"VOICEID": 23729,
+		"NameJPN": "良一",
+		"JPN": "「まいったぜ……」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Oh, geez...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 189,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「何で照れてるんだよ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why do you look all embarrassed?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe92",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "bf00010094b9"
+	},
+	{
+		"LABEL": "0xe9c",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000000"
+	},
+	{
+		"LABEL": "0xea4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xeaa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 192,
+		"MSGID": 53,
+		"VOICEID": 23730,
+		"NameJPN": "良一",
+		"JPN": "「俺のことだろ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"You're talking about me, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xed4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 194,
+		"MSGID": 54,
+		"NameJPN": "羽依里",
+		"JPN": "「それ、茶髪だろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You know your hair's brown, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf02",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c40001007db9"
+	},
+	{
+		"LABEL": "0xf0c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf12",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 197,
+		"MSGID": 55,
+		"VOICEID": 23731,
+		"NameJPN": "良一",
+		"JPN": "「しかもポニーテールだ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"And I've got a ponytail, too.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf42",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 199,
+		"MSGID": 56,
+		"NameJPN": "羽依里",
+		"JPN": "「――!!」",
+		"NameENG": "Hairi",
+		"ENG": "\"...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xf68",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "c900010081b9"
+	},
+	{
+		"LABEL": "0xf72",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xf78",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 202,
+		"MSGID": 57,
+		"VOICEID": 23732,
+		"NameJPN": "良一",
+		"JPN": "「さらに……裸だぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"And, if that wasn't enough... I'm naked.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfa4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 204,
+		"MSGID": 58,
+		"NameJPN": "羽依里",
+		"JPN": "「――!!!!」",
+		"NameENG": "Hairi",
+		"ENG": "\"...!!!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfce",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 206,
+		"MSGID": 59,
+		"JPN": "セクシーだ！",
+		"ENG": "Sexy to the T!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 208,
+		"MSGID": 60,
+		"JPN": "言われてみれば、金髪とか茶髪とかどうでもよくなるポイントが詰まっている。",
+		"ENG": "When he put it that way, whether his hair was blond or brown was a completely moot point.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1042",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 210,
+		"MSGID": 61,
+		"JPN": "どうやら俺は、良一のことが好きだったようだ。",
+		"ENG": "It seems that I actually like Ryouichi.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x107e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "d600",
+		"GOTO_LABEL": "0x1088"
+	},
+	{
+		"LABEL": "0x1088",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "da0001019ba200009001b4006d00"
+	},
+	{
+		"LABEL": "0x109a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010079b9"
+	},
+	{
+		"LABEL": "0x10a2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "01000218007003b400"
+	},
+	{
+		"LABEL": "0x10b0",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01006900"
+	},
+	{
+		"LABEL": "0x10b8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x10be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 219,
+		"MSGID": 62,
+		"VOICEID": 23733,
+		"NameJPN": "天善",
+		"JPN": "「思った通りの好みだったな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Looks like your type's exactly as we expected.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10f2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "dd00010085b9"
+	},
+	{
+		"LABEL": "0x10fc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1102",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 222,
+		"MSGID": 63,
+		"VOICEID": 23734,
+		"NameJPN": "良一",
+		"JPN": "「だな、羽依里の本心が知れてよかったぜ！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Right? Feels nice to know we know you so well, Hairi!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 224,
+		"MSGID": 64,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、２人とも冷静になってくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, wait, calm down, you two.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1180",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 226,
+		"MSGID": 65,
+		"NameJPN": "羽依里",
+		"JPN": "「今言った奴、男だぞ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"You're saying I'm in love with a guy?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11b2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e40001008eb9"
+	},
+	{
+		"LABEL": "0x11bc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x11c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 229,
+		"MSGID": 66,
+		"VOICEID": 23735,
+		"NameJPN": "良一",
+		"JPN": "「そこは目をつぶってくれよ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Don't sweat the small stuff.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x11f6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "e700010195a2"
+	},
+	{
+		"LABEL": "0x1200",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1206",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 233,
+		"MSGID": 67,
+		"NameJPN": "羽依里",
+		"JPN": "「すごい所に目をつぶらせようとしてるな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is that seriously your idea of small stuff?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1248",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 235,
+		"MSGID": 68,
+		"JPN": "まあ……最近は秘密基地に来てばっかりだったからな。",
+		"ENG": "But then again, it's true that I'd been spending all my time at the secret base.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x128a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 237,
+		"MSGID": 69,
+		"JPN": "そんな噂が流れるのも仕方がないのかもしれない。",
+		"ENG": "No real surprise if rumors were floating around about me.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12c8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 239,
+		"MSGID": 70,
+		"JPN": "これはちゃんと否定しておかないと。",
+		"ENG": "That made it extra important that I deny them clearly.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 243,
+		"MSGID": 71,
+		"NameJPN": "羽依里",
+		"JPN": "「悪い、今のは嘘だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Sorry, I didn't actually mean it. I was just messing with you.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1328",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "f50001007db9"
+	},
+	{
+		"LABEL": "0x1332",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1338",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 246,
+		"MSGID": 72,
+		"VOICEID": 23736,
+		"NameJPN": "良一",
+		"JPN": "「おいおいなんだよ……」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"C'mon, dude, seriously...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1368",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 248,
+		"MSGID": 73,
+		"NameJPN": "羽依里",
+		"JPN": "「次はちゃんと答えるからさ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll give you a real answer this time, I swear.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x139e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "fa000101dda2"
+	},
+	{
+		"LABEL": "0x13a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 251,
+		"MSGID": 74,
+		"VOICEID": 23737,
+		"NameJPN": "天善",
+		"JPN": "「次こそ、本当の好みなんだな？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You'll tell the truth about who you're interested in?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 253,
+		"MSGID": 75,
+		"NameJPN": "羽依里",
+		"JPN": "「ああ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1408",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "ff00010079b9"
+	},
+	{
+		"LABEL": "0x1412",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1418",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 256,
+		"MSGID": 76,
+		"VOICEID": 23738,
+		"NameJPN": "良一",
+		"JPN": "「で、どんな奴が好みなんだ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"So, spit it out. Who is it?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x144e",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "04017117fb01010004",
+		"JPN": [
+			"すごいおっぱいの子",
+			"厳しい態度の子",
+			"年上の人"
+		],
+		"ENG": [
+			"Somebody with great boobs",
+			"Somebody with a strict attitude",
+			"Somebody older than me"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x1496",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0b01",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x1796"
+	},
+	{
+		"LABEL": "0x14ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 269,
+		"MSGID": 77,
+		"NameJPN": "羽依里",
+		"JPN": "「すごいおっぱいの子だ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Somebody with great boobs.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14de",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "0f0101019ba2"
+	},
+	{
+		"LABEL": "0x14e8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010088b9"
+	},
+	{
+		"LABEL": "0x14f0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x14f6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 272,
+		"MSGID": 78,
+		"VOICEID": 23739,
+		"NameJPN": "良一",
+		"JPN": "「ははっ！　しろはのじーさんか！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Hahah! That'd be Shiroha's grandpa!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1530",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 274,
+		"MSGID": 79,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、ちょっと待ってくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"What? No, wait, what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1566",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "14010101a1a2"
+	},
+	{
+		"LABEL": "0x1570",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1576",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 277,
+		"MSGID": 80,
+		"VOICEID": 23740,
+		"NameJPN": "天善",
+		"JPN": "「さすがだな、鷹原は」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I'd expect no less of you, Takahara.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 279,
+		"MSGID": 81,
+		"JPN": "何がさすが？",
+		"ENG": "No less than what!?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15c0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "190101019ba2"
+	},
+	{
+		"LABEL": "0x15ca",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x15d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 282,
+		"MSGID": 82,
+		"VOICEID": 23741,
+		"NameJPN": "天善",
+		"JPN": "「あの胸筋は憧れるな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"His pecs are the stuff of dreams.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x15fe",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1c01010079b9"
+	},
+	{
+		"LABEL": "0x1608",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x160e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 285,
+		"MSGID": 83,
+		"VOICEID": 23742,
+		"NameJPN": "良一",
+		"JPN": "「あの傷も憧れるよな！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"And those scars, too!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x163e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1f010101ada2"
+	},
+	{
+		"LABEL": "0x1648",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x164e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 288,
+		"MSGID": 84,
+		"VOICEID": 23743,
+		"NameJPN": "天善",
+		"JPN": "「ああ、痺れる……っ！」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Yeah, they're electrifying...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x167e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 290,
+		"MSGID": 85,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x16a0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "2401010085b9"
+	},
+	{
+		"LABEL": "0x16aa",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x16b0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 293,
+		"MSGID": 86,
+		"VOICEID": 23744,
+		"NameJPN": "良一",
+		"JPN": "「実は俺、爺さんになったら、しろはのじーさんみたいになりたくてさ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Honestly, I really wanna be like him when I'm an old man.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x170a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "27010101d1a2"
+	},
+	{
+		"LABEL": "0x1714",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x171a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 296,
+		"MSGID": 87,
+		"VOICEID": 23745,
+		"NameJPN": "天善",
+		"JPN": "「待て、しろはのじーさんになるのは俺だぞ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Wait, that's my dream! I'll be the one who ends up like him!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x175c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 298,
+		"MSGID": 88,
+		"JPN": "すごい人気だ、しろはのじーさん。",
+		"ENG": "Shiroha's grandpa was apparently incredibly popular.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x178c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3001",
+		"GOTO_LABEL": "0x1f4c"
+	},
+	{
+		"LABEL": "0x1796",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3401",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1b72"
+	},
+	{
+		"LABEL": "0x17ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 310,
+		"MSGID": 89,
+		"NameJPN": "羽依里",
+		"JPN": "「態度の厳しい子だな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Someone with a strict attitude.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17dc",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "380101019ba2"
+	},
+	{
+		"LABEL": "0x17e6",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01016d00"
+	},
+	{
+		"LABEL": "0x17ee",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "010085b9"
+	},
+	{
+		"LABEL": "0x17f6",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01006900"
+	},
+	{
+		"LABEL": "0x17fe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1804",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 313,
+		"MSGID": 90,
+		"VOICEID": 23746,
+		"NameJPN": "良一",
+		"JPN": "「ああ、やっぱしろはのじーさんだよな！」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Ahh, knew it! You're into Shiroha's grandpa!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1844",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 315,
+		"MSGID": 91,
+		"NameJPN": "羽依里",
+		"JPN": "「ちがう」",
+		"NameENG": "Hairi",
+		"ENG": "\"What? No.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1868",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3d01010079b9"
+	},
+	{
+		"LABEL": "0x1872",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1878",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 318,
+		"MSGID": 92,
+		"VOICEID": 23747,
+		"NameJPN": "良一",
+		"JPN": "「漢気があるから、惚れるのも分かるぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"He's a man among men for sure. I totally get why you'd fall for him.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 320,
+		"MSGID": 93,
+		"NameJPN": "羽依里",
+		"JPN": "「ちがう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wrong.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18da",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "42010101d7a2"
+	},
+	{
+		"LABEL": "0x18e4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x18ea",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 323,
+		"MSGID": 94,
+		"VOICEID": 23748,
+		"NameJPN": "天善",
+		"JPN": "「男が惚れる漢ってやつだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"A man even men would fall for, indeed.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x191e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 325,
+		"MSGID": 95,
+		"NameJPN": "羽依里",
+		"JPN": "「ちがうって言ってるだろ!?」",
+		"NameENG": "Hairi",
+		"ENG": "\"How many times do I have to say you're wrong!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1956",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "470101008eb9"
+	},
+	{
+		"LABEL": "0x1960",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1966",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 328,
+		"MSGID": 96,
+		"VOICEID": 23749,
+		"NameJPN": "良一",
+		"JPN": "「おい、しろはのじーさん以上に厳しい奴なんて、この島にいないぞ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"C'mon, man, nobody on this island is stricter than Shiroha's grandpa.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 330,
+		"MSGID": 97,
+		"JPN": "厳しいってだけで好きになるわけじゃない。",
+		"ENG": "It's not like strictness is all I'm looking for!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19f8",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4c010101a1a2"
+	},
+	{
+		"LABEL": "0x1a02",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 333,
+		"MSGID": 98,
+		"VOICEID": 23750,
+		"NameJPN": "天善",
+		"JPN": "「俺は今年の頭、しろはのじーさんに怒られてな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I made Shiroha's grandfather mad earlier this year.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a4e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "4f0101008ab9"
+	},
+	{
+		"LABEL": "0x1a58",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000400"
+	},
+	{
+		"LABEL": "0x1a60",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1a66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 336,
+		"MSGID": 99,
+		"VOICEID": 23751,
+		"NameJPN": "良一",
+		"JPN": "「なっ！　マジかよ!!」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"No way!? Seriously!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1a96",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "520101019ba2"
+	},
+	{
+		"LABEL": "0x1aa0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1aa6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 339,
+		"MSGID": 100,
+		"VOICEID": 23752,
+		"NameJPN": "天善",
+		"JPN": "「そのおかげで、今年は病気知らずだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Thanks to that incident, I haven't been sick even once this year.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ae2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5501010079b9"
+	},
+	{
+		"LABEL": "0x1aec",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1af2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 343,
+		"MSGID": 101,
+		"NameJPN": "羽依里",
+		"JPN": "「しろはのじーさんって縁起ものなの？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is Shiroha's grandpa some sort of good luck charm?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 345,
+		"MSGID": 102,
+		"JPN": "……ちょっと怒られてみたくなってきた。",
+		"ENG": "...I kinda wanna try making him angry now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b68",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5f01",
+		"GOTO_LABEL": "0x1f4c"
+	},
+	{
+		"LABEL": "0x1b72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 357,
+		"MSGID": 103,
+		"NameJPN": "羽依里",
+		"JPN": "「年上の人かな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Somebody older than me.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1b9c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "67010101c5a2"
+	},
+	{
+		"LABEL": "0x1ba6",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01016d00"
+	},
+	{
+		"LABEL": "0x1bae",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01007db9"
+	},
+	{
+		"LABEL": "0x1bb6",
+		"Type": "PRIORITY",
+		"SUBCMD": 0,
+		"Args": "01006900"
+	},
+	{
+		"LABEL": "0x1bbe",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1bc4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 360,
+		"MSGID": 104,
+		"VOICEID": 23753,
+		"NameJPN": "天善",
+		"JPN": "「行き着くところはしろはのじーさんか……」",
+		"NameENG": "Tenzen",
+		"ENG": "\"I see. In other words, Shiroha's grandfather.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 362,
+		"MSGID": 105,
+		"NameJPN": "羽依里",
+		"JPN": "「なあ、年上の女性なんていっぱいいるだろ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"What? Wait, but there's tons of women who're older than me on this island, right?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 364,
+		"MSGID": 106,
+		"NameJPN": "羽依里",
+		"JPN": "「何でよりにもよってしろはのじーさんなんだよ？」",
+		"NameENG": "Hairi",
+		"ENG": "\"How on earth did you jump straight to Shiroha's grandpa, of all people?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c96",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6e010101b9a2"
+	},
+	{
+		"LABEL": "0x1ca0",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 0,
+		"Args": "01007bb9"
+	},
+	{
+		"LABEL": "0x1ca8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 367,
+		"MSGID": 107,
+		"VOICEID": 23754,
+		"NameJPN": "良一",
+		"JPN": "「よりにもよってだと？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"'Of all people'?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cde",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "710101008cb9"
+	},
+	{
+		"LABEL": "0x1ce8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1cee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 370,
+		"MSGID": 108,
+		"VOICEID": 23755,
+		"NameJPN": "良一",
+		"JPN": "「しろはのじーさんになんてこと言ってんだよ？」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"How could you say something like that about Shiroha's grandpa?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d34",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 372,
+		"MSGID": 109,
+		"NameJPN": "羽依里",
+		"JPN": "「え？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1d56",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7601010195a2"
+	},
+	{
+		"LABEL": "0x1d60",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1d66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 375,
+		"MSGID": 110,
+		"VOICEID": 23756,
+		"NameJPN": "天善",
+		"JPN": "「しろはのじーさんに失礼だと思わないのか？」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Don't you realize how rude you're being to him?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1daa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 377,
+		"MSGID": 111,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、まあ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"No, I mean...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1dd6",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7b0101007db9"
+	},
+	{
+		"LABEL": "0x1de0",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1de6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 380,
+		"MSGID": 112,
+		"VOICEID": 23757,
+		"NameJPN": "良一",
+		"JPN": "「謝れ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Apologize.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e06",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 382,
+		"MSGID": 113,
+		"NameJPN": "羽依里",
+		"JPN": "「え？　マジで？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait, seriously?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 384,
+		"MSGID": 114,
+		"JPN": "まあ、気に障ることは言ったわけだし。",
+		"ENG": "I mean, I guess it was a sort of mean thing to say, in a sense.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e66",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 386,
+		"MSGID": 115,
+		"NameJPN": "羽依里",
+		"JPN": "「……ごめんなさい」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Sorry.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e94",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "84010101d1a2"
+	},
+	{
+		"LABEL": "0x1e9e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ea4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 389,
+		"MSGID": 116,
+		"VOICEID": 23758,
+		"NameJPN": "天善",
+		"JPN": "「しろはのじーさんの家の方に向けてだ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Face Shiroha's grandfather's house while you say$dit.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ee2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 391,
+		"MSGID": 117,
+		"NameJPN": "羽依里",
+		"JPN": "「厳しいな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Strict, aren't we?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f08",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 395,
+		"MSGID": 118,
+		"JPN": "……２人がしろはのじーさんを大好きなだけの気がする。",
+		"ENG": "...I get the feeling that those two just really like Shiroha's grandpa.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f4c",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "95010101a1a2"
+	},
+	{
+		"LABEL": "0x1f56",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1f5c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 406,
+		"MSGID": 119,
+		"VOICEID": 23759,
+		"NameJPN": "天善",
+		"JPN": "「まあ、しろはのじーさんだな」",
+		"NameENG": "Tenzen",
+		"ENG": "\"Well, it would be Shiroha's grandfather, I suppose.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f92",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9801010085b9"
+	},
+	{
+		"LABEL": "0x1f9c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1fa2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 409,
+		"MSGID": 120,
+		"VOICEID": 23760,
+		"NameJPN": "良一",
+		"JPN": "「しろはのじーさんなら納得だ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"Yeah, that totally makes sense.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fd8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 411,
+		"MSGID": 121,
+		"NameJPN": "羽依里",
+		"JPN": "「……俺、そんなこと言ったか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...You know I never actually said I liked him?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2012",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "9d01010079b9"
+	},
+	{
+		"LABEL": "0x201c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2022",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 414,
+		"MSGID": 122,
+		"VOICEID": 23761,
+		"NameJPN": "良一",
+		"JPN": "「俺には伝わってきたぜ」",
+		"NameENG": "Ryouichi",
+		"ENG": "\"You didn't have to, dude. I can tell.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2052",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "a00101019ba2"
+	},
+	{
+		"LABEL": "0x205c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x2062",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 417,
+		"MSGID": 123,
+		"VOICEID": 23762,
+		"NameJPN": "天善",
+		"JPN": "「まったく、言葉に出さないとはシャイな奴だ」",
+		"NameENG": "Tenzen",
+		"ENG": "\"You shy types always have such a hard time putting it into words.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 419,
+		"MSGID": 124,
+		"NameJPN": "羽依里",
+		"JPN": "「えー……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, come on...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20cc",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "a5010100000f00"
+	},
+	{
+		"LABEL": "0x20d8",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0101000f00"
+	},
+	{
+		"LABEL": "0x20e2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x20e8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 423,
+		"MSGID": 125,
+		"JPN": "……",
+		"ENG": "......",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x20fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 425,
+		"MSGID": 126,
+		"JPN": "何を言っても男しか出てこない……",
+		"ENG": "No matter what I said, they kept assuming I was into guys...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x212c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 427,
+		"MSGID": 127,
+		"JPN": "最終的にはしろはのじーさんだ。",
+		"ENG": "And somehow, it always ended up on Shiroha's grandpa.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x215a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 429,
+		"MSGID": 128,
+		"JPN": "俺はもう、女の子と付き合うことはできないのだろうか？",
+		"ENG": "Am I not allowed to be interested in girls anymore?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x219e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "b2010000b800000000000000"
+	},
+	{
+		"LABEL": "0x21ae",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x21b6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x21bc",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0101"
+	},
+	{
+		"LABEL": "0x21c2",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x21ca",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x21d6",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x21e2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x21e8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x21ee",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x21f2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x21f8",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x21fc",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x2200",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "b301"
+	},
+	{
+		"LABEL": "0x2206",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "b7010080"
+	}
+]

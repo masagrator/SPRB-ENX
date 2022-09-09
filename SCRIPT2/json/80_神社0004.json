@@ -1,0 +1,1145 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0300098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0600"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 8,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 1,
+		"JPN": "さて、いくら入れようか。",
+		"ENG": "All right, how much should I offer today?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x82",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 2,
+		"JPN": "いや、何を願って入れるかが重要だ。",
+		"ENG": "Actually, first off, what should I wish for? That's way more important.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 3,
+		"JPN": "お賽銭は、硬貨最強の５００円玉。",
+		"ENG": "I pulled out a five hundred yen coin: the largest form of non-bill currency.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 4,
+		"JPN": "願うは……",
+		"ENG": "And I decided to wish...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfe",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "12007117c801000000",
+		"JPN": [
+			"彼女ができますように",
+			"健康でいられますように",
+			"卓球が上手になりますように"
+		],
+		"ENG": [
+			"To get a girlfriend",
+			"To stay healthy",
+			"To get good at ping-pong"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x162",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1900",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x472"
+	},
+	{
+		"LABEL": "0x178",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「彼女ができますように」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wish for a girlfriend.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 6,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 7,
+		"JPN": "きっと、御利益があるにちがいない。",
+		"ENG": "This will definitely get me some divine favor on my side.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 8,
+		"JPN": "なんせ、５００円も捧げたんだ。",
+		"ENG": "I mean, I gave up a whole five hundred yen!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x226",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 9,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x248",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 10,
+		"JPN": "ふと、不安になった。",
+		"ENG": "Suddenly, I got cold feet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x26c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 11,
+		"JPN": "５００円程度で出来ちゃう彼女って……大丈夫か？",
+		"ENG": "A 500 yen girlfriend...? Is this really going to work out...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 12,
+		"JPN": "むしろ、その５００円で、女の子にジュースやお菓子を買ってあげた方が好感度上がるんじゃ？",
+		"ENG": "Couldn't I have used that money to buy a girl a drink or something, instead?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x310",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 13,
+		"JPN": "そもそも神頼みで彼女って、かなりダメじゃないか？",
+		"ENG": "And isn't it kinda lame to ask a god for a girlfriend in the first place?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x350",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「いや、そう考えることができたのは、参拝したからこそか」",
+		"NameENG": "Hairi",
+		"ENG": "\"On the other hand, I never would've thought about it that way if I hadn't made the offering in the first place.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 15,
+		"JPN": "だったら、この参拝は無駄じゃない。",
+		"ENG": "Meaning my prayers weren't wasted after all!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 16,
+		"JPN": "大きな進歩だ。",
+		"ENG": "They were actually a huge step forward!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 17,
+		"NameJPN": "羽依里",
+		"JPN": "「やるじゃん、神様」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not bad, god.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x420",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 18,
+		"JPN": "俺は、本殿に向かって親指を立てウィンクした。",
+		"ENG": "I shot a wink and a cheeky thumbs up at the main hall.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45c",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "36001c2735303000"
+	},
+	{
+		"LABEL": "0x468",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3700",
+		"GOTO_LABEL": "0xe0e"
+	},
+	{
+		"LABEL": "0x472",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3900",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0xa72"
+	},
+	{
+		"LABEL": "0x488",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「健康でいられますように」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wish for a future of good health.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 20,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 21,
+		"JPN": "健康祈願。",
+		"ENG": "A prayer for health.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4f2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 22,
+		"JPN": "きっと、参拝の中でも、もっとも多いお願い事だと思う。",
+		"ENG": "That's probably what most people pray for when they visit shrines like this.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x536",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「無難すぎたか……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Was that a little too much of a cop-out...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x566",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「宝くじが当たりますように、とかの方が夢があったか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Maybe I should've prayed to win the lottery, or something more dramatic along those lines?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「だったら、さっきの５００円で宝くじ買った方が良かったんじゃ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Though if I wanted to win the lottery, I could've used that five hundred yen to, y'know, actually buy a ticket...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x612",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 26,
+		"NameJPN": "羽依里",
+		"JPN": "「って、１枚買ったとこで当たるわけないか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not like I'd win on a single ticket, anyway.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x656",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "4b00000000007800"
+	},
+	{
+		"LABEL": "0x662",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4c000900000000780001"
+	},
+	{
+		"LABEL": "0x670",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4d00"
+	},
+	{
+		"LABEL": "0x676",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x684",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x68c",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x692",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x698",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x69e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x6ac",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x6b2",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x6b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 79,
+		"MSGID": 27,
+		"JPN": "そう、思っていた鷹原羽依里だったが、彼は後にこう語る。",
+		"ENG": "Or so Takahara Hairi thought, at the time―but later, he would go on to tell his story as follows:",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6fc",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "5100b6860100"
+	},
+	{
+		"LABEL": "0x706",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "52000307290205"
+	},
+	{
+		"LABEL": "0x712",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "5300"
+	},
+	{
+		"LABEL": "0x718",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00009e00000000000000"
+	},
+	{
+		"LABEL": "0x726",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x72e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x734",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x738",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 28,
+		"NameJPN": "羽依里",
+		"JPN": "「スクラッチの宝くじ、買ってたんですよ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I bought a bunch of scratch cards, see.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x77a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 86,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「後一枚、次の一枚で当たるって言いながら」",
+		"NameENG": "Hairi",
+		"ENG": "\"I kept telling myself I'd buy just one more, that the next one would win it all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 30,
+		"NameJPN": "羽依里",
+		"JPN": "「それで結局、財布の中がすっからかんに」",
+		"NameENG": "Hairi",
+		"ENG": "\"But in the end, I ran myself bankrupt.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x800",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 88,
+		"MSGID": 31,
+		"NameJPN": "羽依里",
+		"JPN": "「そしたら、次に来た人が１枚だけ買って……」",
+		"NameENG": "Hairi",
+		"ENG": "\"And right after I lost on my last ticket, someone else bought just a single one...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x846",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「目の前で当てられましたよ、１等の１００万円を」",
+		"NameENG": "Hairi",
+		"ENG": "\"Then they scratched off the top prize on their first try, right in front of me. A million yen, just like that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x890",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 90,
+		"MSGID": 33,
+		"NameJPN": "羽依里",
+		"JPN": "「あの時、俺の財布にもう１回分のお金があれば……」",
+		"NameENG": "Hairi",
+		"ENG": "\"If only I'd had enough money for just one more card...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8dc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 91,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「はは……、言っても仕方ないですよね……はは……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hahah... Not like griping about it'll change anything, though, right...? Hahaha...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x928",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "5e000307"
+	},
+	{
+		"LABEL": "0x930",
+		"Type": "BGM",
+		"SUBCMD": 1,
+		"Args": "5f0000000000780001"
+	},
+	{
+		"LABEL": "0x93e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "ae8601007800"
+	},
+	{
+		"LABEL": "0x948",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6000"
+	},
+	{
+		"LABEL": "0x94e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208bb00100000000000"
+	},
+	{
+		"LABEL": "0x95c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x964",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x96a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x970",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x976",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000bb00000000000000"
+	},
+	{
+		"LABEL": "0x984",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x98a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x98e",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "6100098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x9a0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6200"
+	},
+	{
+		"LABEL": "0x9a6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x9b4",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x9bc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x9c2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x9c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 35,
+		"NameJPN": "羽依里",
+		"JPN": "「まあ、宝くじ専用の神社があるくらいだし」",
+		"NameENG": "Hairi",
+		"ENG": "\"I mean, they have whole shrines that specialize in lottery luck.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa0a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「買った時に、当たればあの時の御利益か、と思えばいいか」",
+		"NameENG": "Hairi",
+		"ENG": "\"I guess people will always assume it was their prayer at work when they win one of those things.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa5c",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "68001c2735303000"
+	},
+	{
+		"LABEL": "0xa68",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6900",
+		"GOTO_LABEL": "0xe0e"
+	},
+	{
+		"LABEL": "0xa72",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6b00",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0xe0e"
+	},
+	{
+		"LABEL": "0xa88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「卓球が上手くなりますように」",
+		"NameENG": "Hairi",
+		"ENG": "\"I wish to get better at ping-pong.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xac0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 38,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xadc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 39,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 40,
+		"JPN": "神頼みで、卓球が強くなるのか？",
+		"ENG": "Will praying to a god really improve my ping-pong skills...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb30",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 41,
+		"JPN": "天善に見られたら怒られそうだ。",
+		"ENG": "Tenzen would definitely chew me out if he saw me doing this.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 42,
+		"NameJPN": "羽依里",
+		"JPN": "「とか言ってたら、天善が神頼みしにきたりしてな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Course, thinking stuff like that's just asking for Tenzen to miraculously show up.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xba8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 120,
+		"MSGID": 43,
+		"JPN": "笑いながら振り返る。",
+		"ENG": "I chuckled and turned around.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbcc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 122,
+		"MSGID": 44,
+		"JPN": "当然いない。",
+		"ENG": "Obviously, he wasn't there.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbe8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 124,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\".........\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 46,
+		"JPN": "何故だろう、すごく裏切られた気分になる。",
+		"ENG": "For some reason, I felt kinda cheated.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc46",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "80001c2735303000"
+	},
+	{
+		"LABEL": "0xc52",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8500",
+		"Equation": "(#10012==800)",
+		"GOTO_LABEL": "0xe04"
+	},
+	{
+		"LABEL": "0xc6a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8700"
+	},
+	{
+		"LABEL": "0xc70",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "880009000000003c0001"
+	},
+	{
+		"LABEL": "0xc7e",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "8900000000003c00"
+	},
+	{
+		"LABEL": "0xc8a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "8a000306e8fd03"
+	},
+	{
+		"LABEL": "0xc96",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030603"
+	},
+	{
+		"LABEL": "0xc9e",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0xca6",
+		"Type": "FADE",
+		"SUBCMD": 0,
+		"Args": "0306803c00"
+	},
+	{
+		"LABEL": "0xcb0",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "03060000003e003e"
+	},
+	{
+		"LABEL": "0xcbc",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0306000000c0fe4cff"
+	},
+	{
+		"LABEL": "0xcca",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xcd0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 140,
+		"MSGID": 47,
+		"JPN": "――力をもとめるか……？",
+		"ENG": "...Do you wish for power...?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcf8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8e00"
+	},
+	{
+		"LABEL": "0xcfe",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "8f00098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0xd10",
+		"Type": "VOLUME",
+		"SUBCMD": 1,
+		"Args": "90000000f85b3c00"
+	},
+	{
+		"LABEL": "0xd1c",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "91000306"
+	},
+	{
+		"LABEL": "0xd24",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "030600"
+	},
+	{
+		"LABEL": "0xd2c",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "030600000000000000"
+	},
+	{
+		"LABEL": "0xd3a",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0xd40",
+		"Type": "DRAW",
+		"SUBCMD": 1,
+		"Args": "92003c00"
+	},
+	{
+		"LABEL": "0xd48",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xd4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 148,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「ん……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd72",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 150,
+		"MSGID": 49,
+		"JPN": "今、何か聞こえたような。",
+		"ENG": "I thought I heard something.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 152,
+		"MSGID": 50,
+		"JPN": "耳を澄ます。",
+		"ENG": "I strained my ears.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdb6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 154,
+		"MSGID": 51,
+		"JPN": "聞こえない。",
+		"ENG": "Nothing.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdd2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 156,
+		"MSGID": 52,
+		"JPN": "空耳だろうか。",
+		"ENG": "Must've just been hearing things.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdf0",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "9e0029000100"
+	},
+	{
+		"LABEL": "0xdfa",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a000",
+		"GOTO_LABEL": "0xe04"
+	},
+	{
+		"LABEL": "0xe04",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "a200",
+		"GOTO_LABEL": "0xe0e"
+	},
+	{
+		"LABEL": "0xe0e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 164,
+		"MSGID": 53,
+		"JPN": "帰ろう。",
+		"ENG": "Guess I'll head out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xe26",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "a6000900000000780001"
+	},
+	{
+		"LABEL": "0xe34",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "a80012000100"
+	},
+	{
+		"LABEL": "0xe3e",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "ab000000b800000000000000"
+	},
+	{
+		"LABEL": "0xe4e",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xe56",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xe5e",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0xe6a",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0xe76",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xe7c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xe82",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xe86",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xe8c",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xe90",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xe94",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "ac00"
+	},
+	{
+		"LABEL": "0xe9a",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "b0000080"
+	}
+]

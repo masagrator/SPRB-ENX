@@ -1,0 +1,964 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0800"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 0,
+		"JPN": "駄菓子屋にやってきた。",
+		"ENG": "I made my way over to the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 1,
+		"JPN": "島の子供達がガチャガチャの前で集まっていた。",
+		"ENG": "A bunch of island kids were gathered around the gacha machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x88",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 2,
+		"VOICEID": 23943,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「当たったーーー！　シーウッキー！」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"I got it! A Sea Wookie!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xca",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 3,
+		"VOICEID": 23944,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「俺も俺もー！　シーウッキーＧｅｔー！」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"Me too, me too! Sea Wookie, get!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x110",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 4,
+		"NameJPN": "羽依里",
+		"JPN": "「シーウッキー？」",
+		"NameENG": "Hairi",
+		"ENG": "\"A 'Sea Wookie'?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x13c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 20,
+		"MSGID": 5,
+		"VOICEID": 23945,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「兄ちゃん、知らねーの？　今はやりの謎生物だぜ」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"Never heard of them, mister? They're a mysterious life form that're all the rage right now!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x18a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 22,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「ガチャガチャからでるのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"And they come from gachas?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1c2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 24,
+		"MSGID": 7,
+		"VOICEID": 23946,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「俺ら、全員手に入れたんだぜ」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"We've all pulled one!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 26,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「生き物をガチャガチャに入れるのは倫理的にどうなんだろう……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is it really ethically okay to put living creatures in gacha capsules...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x256",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 9,
+		"VOICEID": 23947,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「違う違う、入ってるのはシーウッキーの卵なんだ」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"No, no! They put their eggs in the capsules!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2a4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 10,
+		"VOICEID": 23948,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「卵を塩水に丸一日入れておくだけで生まれるんだよ」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"You have to put 'em in salt water for a day to make 'em hatch!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2f4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 32,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「へえ、面白そうだな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Oh, huh. Sounds kinda cool.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x324",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 12,
+		"VOICEID": 23949,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「これを育てて夏休みの自由研究にするんだ」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"I'm gonna make these my summer research project!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x36c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 13,
+		"VOICEID": 23950,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「俺たちの中で誰が一番大きく育てられるか競争なんだよ」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"Let's see who can raise the biggest one!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 14,
+		"NameJPN": "羽依里",
+		"JPN": "「このガチャガチャで出るのか？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Is this the gacha they're in?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 15,
+		"VOICEID": 23951,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「ハズレもあるみたいだけどね」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"Yeah, but only some of the capsules actually have them.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x436",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「なるほど」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x45c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 17,
+		"VOICEID": 23952,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「俺たちはみんな一回で出たけどな」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"We all got them first try, though.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 18,
+		"JPN": "煽られた。",
+		"ENG": "Oh, it's on.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 19,
+		"NameJPN": "羽依里",
+		"JPN": "「見せてやるよ。男子校のプライドってやつをさ」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hah! Watch and learn, kids―this is the pride of an all-boys school student!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fe",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 20,
+		"VOICEID": 23953,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「それ、ガチャガチャに関係あるのか？」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"What's that got to do with gachas?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x542",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 21,
+		"VOICEID": 23954,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「とりあえずかっこよく言ってみただけだよね」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"He probably just wanted to say it 'cause he thought it sounded cool.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 22,
+		"VOICEID": 23955,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「これ、ハズレ引く流れだよ」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"He's gonna get a dud, I see it coming a mile away.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5c6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「黙ってろガキども！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Shut up and watch, brats!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5f6",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3a0005e70d0300"
+	},
+	{
+		"LABEL": "0x602",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 24,
+		"JPN": "１００円玉を指で弾いて空中で回転させる。",
+		"ENG": "I flicked a hundred yen coin with my thumb, sending it spinning through the air.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x63a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 25,
+		"JPN": "そしてパシ！っとかっこよく音を立てながら手の平で受け止め、ガチャに入れる。",
+		"ENG": "...Then snatched it out of the air and plopped it into the gacha machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x694",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3f0005e30d0300"
+	},
+	{
+		"LABEL": "0x6a0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 26,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6be",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 27,
+		"NameJPN": "羽依里",
+		"JPN": "「……？」",
+		"NameENG": "Hairi",
+		"ENG": "\"...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6e2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 28,
+		"JPN": "カプセルが出てこない。",
+		"ENG": "Nothing came out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x708",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 29,
+		"VOICEID": 23956,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「あー、詰まったね」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Ahh, looks like it's clogged.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x73a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 30,
+		"VOICEID": 23957,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「時々あるんだよなー」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"That happens sometimes, yeah.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x76e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 31,
+		"VOICEID": 23958,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「ハズレより恥ずかしくない？」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"Isn't that even more embarrassing than a dud?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 32,
+		"NameJPN": "羽依里",
+		"JPN": "「……おばーーちゃーーん！　カプセルが出ないんですけどーーー！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Ma'aaaaaam! I didn't get a capsule from the machine!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x804",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 33,
+		"VOICEID": 23959,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「うわ、かっこ悪い」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Yiiikes, that's so lame.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x836",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 34,
+		"VOICEID": 23960,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「迷惑かけたの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Oh, sorry about that.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x870",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 35,
+		"VOICEID": 23961,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「１００円を返すのと、シーウッキーを渡すの、どっちがええかの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Would you like your hundred yen back, or a Sea Wookie?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8d8",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "540071170b02000000",
+		"JPN": [
+			"１００円を返して",
+			"シーウッキー下さい"
+		],
+		"ENG": [
+			"My hundred yen",
+			"A Sea Wookie"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x916",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5a00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0xc54"
+	},
+	{
+		"LABEL": "0x92c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 91,
+		"MSGID": 36,
+		"NameJPN": "羽依里",
+		"JPN": "「１００円を」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll take the hundred yen, thanks.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x954",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 93,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「シーウッキーは自分の手でＧｅｔします」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'll get my Sea Wookie myself.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x996",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 95,
+		"MSGID": 38,
+		"VOICEID": 23962,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「あ、ちょっと格好いい」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"Ah, that was kinda cool!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 97,
+		"MSGID": 39,
+		"JPN": "１００円を返してもらい、改めてガチャを回す。",
+		"ENG": "She gave me my hundred yen back, and I put it right back into the gacha machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa08",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "630005e20d0300"
+	},
+	{
+		"LABEL": "0xa14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 40,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa32",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 102,
+		"MSGID": 41,
+		"NameJPN": "羽依里",
+		"JPN": "「こ、これは……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"C-Could it be...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa60",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 42,
+		"VOICEID": 23963,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「わしが作ったゴマ塩じゃの」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"Some gomashio I made.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xaa6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 106,
+		"MSGID": 43,
+		"NameJPN": "羽依里",
+		"JPN": "「ゴマ塩？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Gomashio?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xacc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 108,
+		"MSGID": 44,
+		"VOICEID": 23964,
+		"NameJPN": "駄菓子屋のおばーちゃん",
+		"JPN": "「ご飯にかけると、おいしいぞい」",
+		"NameENG": "Candy Store Lady",
+		"ENG": "\"It's tasty on rice.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb16",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 110,
+		"MSGID": 45,
+		"NameJPN": "羽依里",
+		"JPN": "「………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb3a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 46,
+		"VOICEID": 23965,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「やっぱかっこ悪い」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"Nah, he's lame after all.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb6c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 114,
+		"MSGID": 47,
+		"VOICEID": 23966,
+		"NameJPN": "島の子供Ａ",
+		"JPN": "「兄ちゃん、シーウッキーの卵、分けてやろうか？」",
+		"NameENG": "Island Boy A",
+		"ENG": "\"Want some of my Sea Wookie eggs, mister?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbba",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 116,
+		"MSGID": 48,
+		"NameJPN": "羽依里",
+		"JPN": "「同情なんていらないっ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"I don't need your pity!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 118,
+		"MSGID": 49,
+		"JPN": "俺はおばーちゃん自作のゴマ塩を握りしめて、駄菓子屋から走り去った。",
+		"ENG": "I ran from the candy store, clutching the old lady's homemade gomashio to my chest.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc40",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "780093173100"
+	},
+	{
+		"LABEL": "0xc4a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "7b00",
+		"GOTO_LABEL": "0xeee"
+	},
+	{
+		"LABEL": "0xc54",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "7d00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0xeee"
+	},
+	{
+		"LABEL": "0xc6a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 126,
+		"MSGID": 50,
+		"NameJPN": "羽依里",
+		"JPN": "「シーウッキー下さい」",
+		"NameENG": "Hairi",
+		"ENG": "\"A Sea Wookie, please.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xc9a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 128,
+		"MSGID": 51,
+		"VOICEID": 23967,
+		"NameJPN": "島の子供Ｂ",
+		"JPN": "「うわ、ダサっ」",
+		"NameENG": "Island Boy B",
+		"ENG": "\"Woah, that's low.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xcc8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 130,
+		"MSGID": 52,
+		"NameJPN": "羽依里",
+		"JPN": "「回せば、出る。だから回すという無駄を省いたんだ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd get it if I played, anyway. I'm just cutting out the middleman.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd14",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 132,
+		"MSGID": 53,
+		"VOICEID": 23968,
+		"NameJPN": "島の子供Ｃ",
+		"JPN": "「結果だけ求めるこんな大人になりたくないね」",
+		"NameENG": "Island Boy C",
+		"ENG": "\"I really don't wanna be the sorta adult who only cares about the results.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd5e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 134,
+		"MSGID": 54,
+		"NameJPN": "羽依里",
+		"JPN": "「効率的と言ってくれ」",
+		"NameENG": "Hairi",
+		"ENG": "\"I'd rather you call me efficient.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd8e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 136,
+		"MSGID": 55,
+		"JPN": "子供たちからの信頼を失ったが、シーウッキーを手に入れた……",
+		"ENG": "I'd lost all of the kids' respect, but gained a Sea Wookie...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xdd8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "8b00",
+		"Equation": "(@エサを過去に手に入れたことがある(13)==0)",
+		"GOTO_LABEL": "0xe68"
+	},
+	{
+		"LABEL": "0xe0e",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "8c003800000000",
+		"JPN": "『シーウッキー』をＧｅｔした！",
+		"ENG": "",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0xe3c",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0xe42",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "8d00"
+	},
+	{
+		"LABEL": "0xe48",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05680d0300"
+	},
+	{
+		"LABEL": "0xe52",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000000d001400"
+	},
+	{
+		"LABEL": "0xe5e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "8e00",
+		"GOTO_LABEL": "0xee4"
+	},
+	{
+		"LABEL": "0xe68",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9100"
+	},
+	{
+		"LABEL": "0xe6e",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "080000000d001d00"
+	},
+	{
+		"LABEL": "0xe7a",
+		"Type": "LOG",
+		"SUBCMD": 7,
+		"Args": "92003900000000",
+		"JPN": "『シーウッキー』を手に入れた",
+		"ENG": "Obtained a \"Sea Wookie\"!",
+		"Args2": "10"
+	},
+	{
+		"LABEL": "0xea6",
+		"Type": "LOG_END",
+		"SUBCMD": 0,
+		"Args": "0000"
+	},
+	{
+		"LABEL": "0xeac",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "9300"
+	},
+	{
+		"LABEL": "0xeb2",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "05420e0300"
+	},
+	{
+		"LABEL": "0xebc",
+		"Type": "TASK",
+		"SUBCMD": 0,
+		"Args": "0800",
+		"Category": 0,
+		"ID": -1,
+		"JPN": "『シーウッキー』を手に入れた",
+		"ENG": "Obtained a \"Sea Wookie\"!"
+	},
+	{
+		"LABEL": "0xee4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "9500",
+		"GOTO_LABEL": "0xeee"
+	},
+	{
+		"LABEL": "0xeee",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "97008e173100"
+	},
+	{
+		"LABEL": "0xef8",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "980014000100"
+	},
+	{
+		"LABEL": "0xf02",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "9b000000b800000000000000"
+	},
+	{
+		"LABEL": "0xf12",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0xf1a",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0xf22",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0xf2e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0xf3a",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0xf40",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xf46",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf4a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0xf50",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf54",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0xf58",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "9c00"
+	},
+	{
+		"LABEL": "0xf5e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "9e000080"
+	}
+]

@@ -1,0 +1,474 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "0300098b0f030002f85b003c00"
+	},
+	{
+		"LABEL": "0x12",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0600"
+	},
+	{
+		"LABEL": "0x18",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000b00000000000000"
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 8,
+		"MSGID": 0,
+		"JPN": "神社にやってきた。",
+		"ENG": "I made my way over to the shrine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 1,
+		"JPN": "特に用があるわけじゃないけど……",
+		"ENG": "Not that I actually had any real reason to be there...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 2,
+		"JPN": "お賽銭でも入れておくか。",
+		"ENG": "Since I was there and all, I figured I might as well make an offering.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 3,
+		"JPN": "財布を取り出す。",
+		"ENG": "I pulled out my wallet.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 4,
+		"JPN": "さて、いくら入れようか。",
+		"ENG": "How much should I offer?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfa",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "12007117c401000000",
+		"JPN": [
+			"１０円",
+			"５０円",
+			"１００円"
+		],
+		"ENG": [
+			"Ten yen",
+			"Fifty yen",
+			"A hundred yen"
+		],
+		"Args2": "000004000000"
+	},
+	{
+		"LABEL": "0x12e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1800",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x196"
+	},
+	{
+		"LABEL": "0x144",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 5,
+		"JPN": "今日は１０円だ。",
+		"ENG": "Let's go with ten yen today.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x164",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 27,
+		"MSGID": 6,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x180",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "1d001c27313000"
+	},
+	{
+		"LABEL": "0x18c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1e00",
+		"GOTO_LABEL": "0x196"
+	},
+	{
+		"LABEL": "0x196",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2000",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x1fe"
+	},
+	{
+		"LABEL": "0x1ac",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 7,
+		"JPN": "今日は５０円だ。",
+		"ENG": "Let's go with fifty yen today.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 8,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1e8",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "25001c27353000"
+	},
+	{
+		"LABEL": "0x1f4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2600",
+		"GOTO_LABEL": "0x1fe"
+	},
+	{
+		"LABEL": "0x1fe",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2800",
+		"Equation": "(#6001==2)",
+		"GOTO_LABEL": "0x268"
+	},
+	{
+		"LABEL": "0x214",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 9,
+		"JPN": "今日は１００円だ。",
+		"ENG": "Let's go with a hundred yen today.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x236",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 43,
+		"MSGID": 10,
+		"JPN": "ちゃりーん。",
+		"ENG": "Clink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x252",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "2d001c2731303000"
+	},
+	{
+		"LABEL": "0x25e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2e00",
+		"GOTO_LABEL": "0x268"
+	},
+	{
+		"LABEL": "0x268",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「…………」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x28e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 50,
+		"MSGID": 12,
+		"JPN": "不思議な感じだった。",
+		"ENG": "It felt sort of strange.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2b2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 13,
+		"JPN": "地元にも神社があるけど、いまいちお参りに行こうと思わない。",
+		"ENG": "There were shrines in my hometown, too, but I never really bothered to visit them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2fc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 14,
+		"JPN": "つい足を運んで、お賽銭を入れてしまうのは、この島の穏やかな空気のせいだろうか。",
+		"ENG": "Something about the shrine kept me coming back to make offerings. Maybe the island's laid-back atmosphere was to blame.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x35a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 15,
+		"NameJPN": "羽依里",
+		"JPN": "「……昔は、みんなこんな感じだったのかな」",
+		"NameENG": "Hairi",
+		"ENG": "\"...I wonder if everyone lived like this, back in the day?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x39e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 58,
+		"MSGID": 16,
+		"JPN": "神社やお寺は、本来もっと身近なものだったんだろう。",
+		"ENG": "Shrines and temples were probably a way bigger part of people's lifestyles.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3e0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 60,
+		"MSGID": 17,
+		"JPN": "でも、都会の方じゃ、色んな意味で人の動きが早くて。",
+		"ENG": "City people tend to move on quickly, though, in more ways than one.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x422",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 18,
+		"JPN": "こういった場所が、置いてけぼりになる。",
+		"ENG": "Places like this get left in the dust.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x458",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 19,
+		"JPN": "初詣や、お祭りといった、特別な時にしか気にかけない。",
+		"ENG": "They never get any attention except on special occasions, like New Year's Day or during festivals.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x49c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 20,
+		"JPN": "よく見れば、境内は綺麗に掃除されている。",
+		"ENG": "Upon closer examination, the shrine grounds were extremely well-maintained and clean.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 21,
+		"JPN": "お花も活けられている。",
+		"ENG": "Someone was even taking care of a flower garden.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4fa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 22,
+		"JPN": "この神社には神主さんがいるような、社務所はないにも関わらず。",
+		"ENG": "It was pretty impressive considering that there was no sign of a priest to take care of the place, or even a shrine office.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x546",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 23,
+		"JPN": "きっと、島の人たちが自主的に掃除をしているんだろうな。",
+		"ENG": "I was sure the islanders were keeping them clean on their own initiative.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x58c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 24,
+		"JPN": "なんだか、気持ちが良い。",
+		"ENG": "It was a nice thought, somehow.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 25,
+		"NameJPN": "羽依里",
+		"JPN": "「さて、帰るか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Anyway, guess I'll head out.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5de",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "4e000900000000780001"
+	},
+	{
+		"LABEL": "0x5ec",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "500012000100"
+	},
+	{
+		"LABEL": "0x5f6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "53000000b800000000000000"
+	},
+	{
+		"LABEL": "0x606",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x60e",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x616",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x622",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x62e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x634",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x63a",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x63e",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x644",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x648",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x64c",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5400"
+	},
+	{
+		"LABEL": "0x652",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "58000080"
+	}
+]

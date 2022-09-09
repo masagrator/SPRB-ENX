@@ -1,0 +1,535 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0800"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00000800000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 10,
+		"MSGID": 0,
+		"JPN": "駄菓子屋にやってきた。",
+		"ENG": "I made my way over to the candy store.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 12,
+		"MSGID": 1,
+		"JPN": "が……",
+		"ENG": "But...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 14,
+		"MSGID": 2,
+		"JPN": "誰も居ない。",
+		"ENG": "Nobody was here.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 16,
+		"MSGID": 3,
+		"JPN": "主不在の駄菓子屋っていいんだろうか。",
+		"ENG": "Is it really okay to leave the shop unattended like this?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xb2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 4,
+		"JPN": "商品もそうだけど、普通におつり用の籠に、お金が入っている。",
+		"ENG": "Somebody could just grab whatever they wanted and walk away―and that's not even starting on the money in the change basket.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xfc",
+		"Type": "SELECT",
+		"SUBCMD": 1,
+		"Args": "140071170502000000",
+		"JPN": [
+			"しばらく店番をしてみる",
+			"知った事じゃ無い"
+		],
+		"ENG": [
+			"Watch over the shop",
+			"Not my problem"
+		],
+		"Args2": "000003000000"
+	},
+	{
+		"LABEL": "0x13e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1a00",
+		"Equation": "(#6001==0)",
+		"GOTO_LABEL": "0x582"
+	},
+	{
+		"LABEL": "0x154",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「ま、暇だしな」",
+		"NameENG": "Hairi",
+		"ENG": "\"Meh, not like I have anything better to do.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 6,
+		"JPN": "しばらく店番をすることにした。",
+		"ENG": "I decided to keep an eye on the shop for a little while.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1ac",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2000"
+	},
+	{
+		"LABEL": "0x1b2",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0306e9fd030000000000"
+	},
+	{
+		"LABEL": "0x1c0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x1c6",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1cc",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1d0",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1d6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0306"
+	},
+	{
+		"LABEL": "0x1dc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x1e2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x1e6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 34,
+		"MSGID": 7,
+		"JPN": "――３０分後……",
+		"ENG": "Thirty minutes later...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x206",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 36,
+		"MSGID": 8,
+		"NameJPN": "羽依里",
+		"JPN": "「誰も来ない」",
+		"NameENG": "Hairi",
+		"ENG": "\"Not even a single customer.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x22e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 38,
+		"MSGID": 9,
+		"JPN": "飽きてきた。",
+		"ENG": "I got bored.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x24a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 40,
+		"MSGID": 10,
+		"JPN": "何か面白い物はないだろうか。",
+		"ENG": "Is there anything around here I can entertain myself with?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x276",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「ん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hmm?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x298",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 44,
+		"MSGID": 12,
+		"JPN": "店の奥に、レトロな風合いのガチャガチャがあった。",
+		"ENG": "I found a retro-looking gacha machine hidden in the back of the shop.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2d8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 46,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「やってみるか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Sure, why not.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x302",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 48,
+		"MSGID": 14,
+		"JPN": "中身が分からないようにカプセルが真っ黒だ。",
+		"ENG": "The capsules inside the machine were black and opaque.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x33c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 51,
+		"MSGID": 15,
+		"JPN": "何が出るか分からない。",
+		"ENG": "I didn't have the faintest clue what was in them.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x362",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 53,
+		"MSGID": 16,
+		"JPN": "でも、そんなこと関係ない。",
+		"ENG": "But that didn't really matter, anyway.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x38c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 55,
+		"MSGID": 17,
+		"JPN": "そんなわくわくする時間を買うのがガチャガチャだ。",
+		"ENG": "You're not paying for the thing you get with gachas―you're paying for the excitement of not knowing what'll come out.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3cc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 57,
+		"MSGID": 18,
+		"JPN": "回すという行為を楽しむんだ。",
+		"ENG": "The act of spinning the gacha itself is the fun part.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3f8",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 19,
+		"JPN": "１００円玉を入れる。",
+		"ENG": "I put a hundred yen coin into the slot.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x41c",
+		"Type": "SE",
+		"SUBCMD": 1,
+		"Args": "3d0005e20d0300"
+	},
+	{
+		"LABEL": "0x428",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 62,
+		"MSGID": 20,
+		"JPN": "ガチャチャ……",
+		"ENG": "Crank, crank... clack!",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x446",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 21,
+		"NameJPN": "羽依里",
+		"JPN": "「こ、これは……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"W-Wait, isn't this...!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x474",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「ベッコリマンシール……！」",
+		"NameENG": "Hairi",
+		"ENG": "\"A super rare Ya-gi-oh card...!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4aa",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 23,
+		"NameJPN": "羽依里",
+		"JPN": "「……の偽物！」",
+		"NameENG": "Hairi",
+		"ENG": "\"...Or rather, a fake one!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4d4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 70,
+		"MSGID": 24,
+		"NameJPN": "羽依里",
+		"JPN": "「ふっざけんな！　ロッチってなんだぁ！　金返せこらああぁぁぁ！」",
+		"NameENG": "Hairi",
+		"ENG": "\"Are you kidding me!? What the hell's an Exodea!? Gimme back my moneyyyy!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x52e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 72,
+		"MSGID": 25,
+		"JPN": "島のガチャガチャの手痛い洗礼を受けた。",
+		"ENG": "My ideals were shattered by some middle of nowhere gacha machine.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x564",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "4a0028000100"
+	},
+	{
+		"LABEL": "0x56e",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "4b0093173100"
+	},
+	{
+		"LABEL": "0x578",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4d00",
+		"GOTO_LABEL": "0x628"
+	},
+	{
+		"LABEL": "0x582",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4f00",
+		"Equation": "(#6001==1)",
+		"GOTO_LABEL": "0x628"
+	},
+	{
+		"LABEL": "0x598",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 26,
+		"JPN": "まあ、小さい島だし、泥棒とかそういう心配はないだろう。",
+		"ENG": "I mean, this island's tiny. No real need to worry about thieves.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x5de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 82,
+		"MSGID": 27,
+		"JPN": "この島の良心を信じて、駄菓子屋を去ることにした。",
+		"ENG": "I put my faith in the islanders' consciences and left.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x61e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5300",
+		"GOTO_LABEL": "0x628"
+	},
+	{
+		"LABEL": "0x628",
+		"Type": "ADD",
+		"SUBCMD": 1,
+		"Args": "55008e173100"
+	},
+	{
+		"LABEL": "0x632",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "560014000100"
+	},
+	{
+		"LABEL": "0x63c",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "59000000b800000000000000"
+	},
+	{
+		"LABEL": "0x64c",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x654",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 0,
+		"Args": "100001"
+	},
+	{
+		"LABEL": "0x65c",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": "00000000780001"
+	},
+	{
+		"LABEL": "0x668",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": "ff00000000780001"
+	},
+	{
+		"LABEL": "0x674",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x67a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x680",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x684",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x68a",
+		"Type": "BGM",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x68e",
+		"Type": "SE",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x692",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "5a00"
+	},
+	{
+		"LABEL": "0x698",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "5c000080"
+	}
+]
