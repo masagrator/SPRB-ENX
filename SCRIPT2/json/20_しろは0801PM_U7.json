@@ -1,0 +1,198 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x1c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x26",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 17,
+		"MSGID": 0,
+		"JPN": "家に帰ってきた。",
+		"ENG": "I arrived back home.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x46",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 19,
+		"MSGID": 1,
+		"JPN": "しろははどうなったんだろう。",
+		"ENG": "Wonder how Shiroha's doing?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x72",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "1500010010ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x84",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x8a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 2,
+		"VOICEID": 28093,
+		"NameJPN": "うみ",
+		"JPN": "「おにーちゃん、しってる」",
+		"NameENG": "Umi",
+		"ENG": "\"Onii-chan, did you hear!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xbc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「なに」",
+		"NameENG": "Hairi",
+		"ENG": "\"Hear what?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xde",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1b00010076ac"
+	},
+	{
+		"LABEL": "0xe8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0xee",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 29,
+		"MSGID": 4,
+		"VOICEID": 28094,
+		"NameJPN": "うみ",
+		"JPN": "「きょうね、ペケモンがでたんだって」",
+		"NameENG": "Umi",
+		"ENG": "\"They said a wild Pekemon appeared today!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x12a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1f00010010ac"
+	},
+	{
+		"LABEL": "0x134",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x13a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 33,
+		"MSGID": 5,
+		"VOICEID": 28095,
+		"NameJPN": "うみ",
+		"JPN": "「みんなで、たくさんおいかけたみたいなの」",
+		"NameENG": "Umi",
+		"ENG": "\"Everybody chased it around!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 6,
+		"NameJPN": "羽依里",
+		"JPN": "「……」",
+		"NameENG": "Hairi",
+		"ENG": "\"......\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x19e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "250001000aac"
+	},
+	{
+		"LABEL": "0x1a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x1ae",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 7,
+		"VOICEID": 28096,
+		"NameJPN": "うみ",
+		"JPN": "「いなかは、すごいねー」",
+		"NameENG": "Umi",
+		"ENG": "\"The countryside sure is amazing, huh!?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x1de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 41,
+		"MSGID": 8,
+		"JPN": "だいぶ噂になっていた。",
+		"ENG": "It had turned into quite the rumor.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x204",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "3000"
+	},
+	{
+		"LABEL": "0x20a",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "34000080"
+	}
+]

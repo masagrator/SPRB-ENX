@@ -1,0 +1,922 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "1000"
+	},
+	{
+		"LABEL": "0x6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0200"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "BMODE",
+		"SUBCMD": 0,
+		"Args": "020000"
+	},
+	{
+		"LABEL": "0x14",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x22",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x2a",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c0000001827"
+	},
+	{
+		"LABEL": "0x34",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x38",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 18,
+		"MSGID": 0,
+		"NameJPN": "羽依里",
+		"JPN": "「おはよう……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Morning...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x62",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "140001000aac00008002b4009100"
+	},
+	{
+		"LABEL": "0x74",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x7a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 21,
+		"MSGID": 1,
+		"VOICEID": 27767,
+		"NameJPN": "うみ",
+		"JPN": "「おはー」",
+		"NameENG": "Umi",
+		"ENG": "\"Hello～!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 23,
+		"MSGID": 2,
+		"JPN": "今朝もうみちゃんが、朝食の準備をしていた。",
+		"ENG": "I found Umi-chan in the kitchen preparing breakfast again.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xd6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 25,
+		"MSGID": 3,
+		"NameJPN": "羽依里",
+		"JPN": "「えっと……チャーハン？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Umm... Fried rice?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x10a",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "1b000100c4ac"
+	},
+	{
+		"LABEL": "0x114",
+		"Type": "CUSTOMMOVE",
+		"SUBCMD": 0,
+		"Args": "01000100"
+	},
+	{
+		"LABEL": "0x11c",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x122",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 28,
+		"MSGID": 4,
+		"VOICEID": 27768,
+		"NameJPN": "うみ",
+		"JPN": "「がんばった！」",
+		"NameENG": "Umi",
+		"ENG": "\"I tried my best!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x14a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 30,
+		"MSGID": 5,
+		"NameJPN": "羽依里",
+		"JPN": "「がんばっちゃったか」",
+		"NameENG": "Hairi",
+		"ENG": "\"Did you now?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x17a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "20000005e9fd000000000000"
+	},
+	{
+		"LABEL": "0x18a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0006e9fd000000000000"
+	},
+	{
+		"LABEL": "0x198",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "0005000000000094fd"
+	},
+	{
+		"LABEL": "0x1a6",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000006c02"
+	},
+	{
+		"LABEL": "0x1b4",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "21000100"
+	},
+	{
+		"LABEL": "0x1bc",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x1ca",
+		"Type": "SCALE",
+		"SUBCMD": 0,
+		"Args": "00000000003e003e000080026801"
+	},
+	{
+		"LABEL": "0x1dc",
+		"Type": "EVSCROLL",
+		"SUBCMD": 0,
+		"Args": "000000"
+	},
+	{
+		"LABEL": "0x1e4",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000000000000b400"
+	},
+	{
+		"LABEL": "0x1f2",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "00000a340800004cff"
+	},
+	{
+		"LABEL": "0x200",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x208",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x20e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 35,
+		"MSGID": 6,
+		"JPN": "ちらりとシンクを見る。",
+		"ENG": "I peeked into the kitchen sink.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x234",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 37,
+		"MSGID": 7,
+		"JPN": "昨日の夜に食べて洗った後の、カップうどんの容器がある。",
+		"ENG": "There were a couple washed cup udon bowls in there from last night.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x27a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 39,
+		"MSGID": 8,
+		"JPN": "今朝もあれに頼ることになるかな……",
+		"ENG": "Looks like we might end up falling back to these again...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2ac",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "2900060080ac09006b00dcfe"
+	},
+	{
+		"LABEL": "0x2bc",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 42,
+		"MSGID": 9,
+		"VOICEID": 27769,
+		"NameJPN": "うみ",
+		"JPN": "「できちゃったー！」",
+		"NameENG": "Umi",
+		"ENG": "\"Done! Probably!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x2e8",
+		"Type": "INIT",
+		"SUBCMD": 1,
+		"Args": "2c000005"
+	},
+	{
+		"LABEL": "0x2f0",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000500000000000000"
+	},
+	{
+		"LABEL": "0x2fe",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0006"
+	},
+	{
+		"LABEL": "0x304",
+		"Type": "MOVE",
+		"SUBCMD": 0,
+		"Args": "000600000000000000"
+	},
+	{
+		"LABEL": "0x312",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "2d00"
+	},
+	{
+		"LABEL": "0x318",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00004100000000000000"
+	},
+	{
+		"LABEL": "0x326",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x32e",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x334",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x338",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 47,
+		"MSGID": 10,
+		"NameJPN": "羽依里",
+		"JPN": "「なに、その望まれていない感」",
+		"NameENG": "Hairi",
+		"ENG": "\"Why the uncertainty...?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x370",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 49,
+		"MSGID": 11,
+		"NameJPN": "羽依里",
+		"JPN": "「で、えっと……何チャーハン」",
+		"NameENG": "Hairi",
+		"ENG": "\"So... What kind of fried rice do we have today?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3a8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "3300010088ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x3ba",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x3c0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 52,
+		"MSGID": 12,
+		"VOICEID": 27770,
+		"NameJPN": "うみ",
+		"JPN": "「うどんチャーハン」",
+		"NameENG": "Umi",
+		"ENG": "\"Udon fried rice!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x3ec",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 54,
+		"MSGID": 13,
+		"NameJPN": "羽依里",
+		"JPN": "「へえ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x412",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 56,
+		"MSGID": 14,
+		"JPN": "炭水化物×炭水化物だ。",
+		"ENG": "Carbs on top of carbs, eh?",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x438",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "3a00010082ac"
+	},
+	{
+		"LABEL": "0x442",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x448",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 59,
+		"MSGID": 15,
+		"VOICEID": 27771,
+		"NameJPN": "うみ",
+		"JPN": "「きのうのカップうどん、おいしかったからへーき」",
+		"NameENG": "Umi",
+		"ENG": "\"Yesterday's cup udon was yummy, so this'll be okay!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x490",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 61,
+		"MSGID": 16,
+		"NameJPN": "羽依里",
+		"JPN": "「うん？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Huh?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x4b4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 64,
+		"MSGID": 17,
+		"JPN": "なにか不穏な言葉が聞こえたので、フライパンの中を覗いてみる。",
+		"ENG": "I peered into her frying pan out of concern for those unsettling words.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x500",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 66,
+		"MSGID": 18,
+		"NameJPN": "羽依里",
+		"JPN": "「ぉぉぅ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Uhhhh...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x528",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 68,
+		"MSGID": 19,
+		"JPN": "粉々に砕かれたお湯で戻す前のカップうどんが、ご飯と一緒に混ぜられていた。",
+		"ENG": "There were a bunch of crushed, dry udon bits mixed into the rice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x580",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4600"
+	},
+	{
+		"LABEL": "0x586",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x58e",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x594",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x5a2",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x5a8",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5ae",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5b2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5b8",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "4800"
+	},
+	{
+		"LABEL": "0x5be",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x5cc",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x5d4",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x5da",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x5de",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 74,
+		"MSGID": 20,
+		"JPN": "２人で朝食をとる。",
+		"ENG": "The two of us had breakfast together.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x600",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 76,
+		"MSGID": 21,
+		"JPN": "今更だけど、変な感じだ。",
+		"ENG": "It was a little awkward. Though maybe it's a bit late to say that now.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x628",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 78,
+		"MSGID": 22,
+		"NameJPN": "羽依里",
+		"JPN": "「もぐ……パキ……もぐ……ゴリ……」",
+		"NameENG": "Hairi",
+		"ENG": "\"Mmh... Crunch... Mh... Crack...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x666",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 80,
+		"MSGID": 23,
+		"JPN": "うどんチャーハンは、柔らかいお米と固い乾麺の不協和音。",
+		"ENG": "The udon fried rice conducted a dissonant symphony of crunchy udon bits and soft rice.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6ac",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 1,
+		"Args": "5200010058ac00008002b4009100"
+	},
+	{
+		"LABEL": "0x6be",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x6c4",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 83,
+		"MSGID": 24,
+		"VOICEID": 27772,
+		"NameJPN": "うみ",
+		"JPN": "「おいひくなひ……」",
+		"NameENG": "Umi",
+		"ENG": "\"Yucky...\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x6f0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 85,
+		"MSGID": 25,
+		"JPN": "うみちゃんもしょげていた。",
+		"ENG": "Umi-chan looked similarly displeased.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x71a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 87,
+		"MSGID": 26,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっと待っててね」",
+		"NameENG": "Hairi",
+		"ENG": "\"Wait right there.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x74a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 89,
+		"MSGID": 27,
+		"JPN": "俺はお湯を用意する。",
+		"ENG": "I boiled some water.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x76e",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "5b00010028ac"
+	},
+	{
+		"LABEL": "0x778",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x77e",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 92,
+		"MSGID": 28,
+		"VOICEID": 27773,
+		"NameJPN": "うみ",
+		"JPN": "「なにするの？」",
+		"NameENG": "Umi",
+		"ENG": "\"What are you doing?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7a6",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 94,
+		"MSGID": 29,
+		"NameJPN": "羽依里",
+		"JPN": "「とりあえず、ちゃんと食べられるうどんにしよう」",
+		"NameENG": "Hairi",
+		"ENG": "\"Making the udon edible.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x7f0",
+		"Type": "FADE",
+		"SUBCMD": 1,
+		"Args": "60000100000f00"
+	},
+	{
+		"LABEL": "0x7fc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x802",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 98,
+		"MSGID": 30,
+		"JPN": "チャーハンのお皿に、お湯を注ぐ。",
+		"ENG": "I poured some steaming water onto our plates.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x832",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 100,
+		"MSGID": 31,
+		"JPN": "ついでに使われずにおかれていた、カップうどんの粉末スープもかける。",
+		"ENG": "As an aside, I also went ahead and poured in the unused flavor packets that came with the cup udon.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x884",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6600"
+	},
+	{
+		"LABEL": "0x88a",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0208b800100000000000"
+	},
+	{
+		"LABEL": "0x898",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x8a0",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0100"
+	},
+	{
+		"LABEL": "0x8a6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "01ff"
+	},
+	{
+		"LABEL": "0x8ac",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8b2",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "3c00"
+	},
+	{
+		"LABEL": "0x8b8",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "0000b800000000000000"
+	},
+	{
+		"LABEL": "0x8c6",
+		"Type": "INIT",
+		"SUBCMD": 0,
+		"Args": "0208"
+	},
+	{
+		"LABEL": "0x8cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": ""
+	},
+	{
+		"LABEL": "0x8d0",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 104,
+		"MSGID": 32,
+		"JPN": "３分後――",
+		"ENG": "Three minutes later...",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x8ea",
+		"Type": "CLOSE_WINDOW",
+		"SUBCMD": 1,
+		"Args": "6a00"
+	},
+	{
+		"LABEL": "0x8f0",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "00003d00000000000000"
+	},
+	{
+		"LABEL": "0x8fe",
+		"Type": "EQUN",
+		"SUBCMD": 0,
+		"Args": "3b1a0000"
+	},
+	{
+		"LABEL": "0x906",
+		"Type": "IMAGELOAD",
+		"SUBCMD": 0,
+		"Args": "01007cac00008002b4009100"
+	},
+	{
+		"LABEL": "0x916",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x91c",
+		"Type": "WAIT",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x922",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 107,
+		"MSGID": 33,
+		"VOICEID": 27774,
+		"NameJPN": "うみ",
+		"JPN": "「おいしー！」",
+		"NameENG": "Umi",
+		"ENG": "\"So yummy!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x948",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 109,
+		"MSGID": 34,
+		"NameJPN": "羽依里",
+		"JPN": "「ちょっとした雑炊みたいになったな」",
+		"NameENG": "Hairi",
+		"ENG": "\"It's like we've got a little makeshift porridge going now.\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x986",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "6f0001000aac"
+	},
+	{
+		"LABEL": "0x990",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x996",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 112,
+		"MSGID": 35,
+		"VOICEID": 27775,
+		"NameJPN": "うみ",
+		"JPN": "「うどんチャーハン」",
+		"NameENG": "Umi",
+		"ENG": "\"Udon fried rice!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0x9c2",
+		"Type": "IMAGEUPDATE",
+		"SUBCMD": 1,
+		"Args": "7200010010ac"
+	},
+	{
+		"LABEL": "0x9cc",
+		"Type": "DRAW",
+		"SUBCMD": 0,
+		"Args": "0f00"
+	},
+	{
+		"LABEL": "0x9d2",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 115,
+		"MSGID": 36,
+		"VOICEID": 27776,
+		"NameJPN": "うみ",
+		"JPN": "「おにーちゃんすごーい」",
+		"NameENG": "Umi",
+		"ENG": "\"Onii-chan, you're amazing!\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa02",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 117,
+		"MSGID": 37,
+		"NameJPN": "羽依里",
+		"JPN": "「そ、そう？」",
+		"NameENG": "Hairi",
+		"ENG": "\"Y-You think?\"",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa2a",
+		"Type": "MESSAGE",
+		"SUBCMD": 3,
+		"SUBCMD2": 119,
+		"MSGID": 38,
+		"JPN": "ちょっと嬉しかった。",
+		"ENG": "That made me a little happy.",
+		"Args": "0b"
+	},
+	{
+		"LABEL": "0xa4e",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "7e00"
+	},
+	{
+		"LABEL": "0xa54",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "80000080"
+	}
+]

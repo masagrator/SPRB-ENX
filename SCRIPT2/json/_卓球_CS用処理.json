@@ -1,0 +1,754 @@
+[
+	{
+		"LABEL": "0x0",
+		"Type": "TASK",
+		"SUBCMD": 3,
+		"Args": "030000c00a000000"
+	},
+	{
+		"LABEL": "0xc",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0500",
+		"Equation": "(#10010==100)",
+		"GOTO_LABEL": "0x62"
+	},
+	{
+		"LABEL": "0x24",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "07000000",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x40",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "08001b27",
+		"String": "#6001"
+	},
+	{
+		"LABEL": "0x4e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0900",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x58",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0a00",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0x62",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "0b00",
+		"Equation": "(#10010==101)",
+		"GOTO_LABEL": "0xaa"
+	},
+	{
+		"LABEL": "0x7a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "0d000100",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x2a4"
+	},
+	{
+		"LABEL": "0x96",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0e00",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xa0",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "0f00",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0xaa",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1000",
+		"Equation": "(#10010==102)",
+		"GOTO_LABEL": "0xf2"
+	},
+	{
+		"LABEL": "0xc2",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "12000200",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x52a"
+	},
+	{
+		"LABEL": "0xde",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1300",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0xe8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1400",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0xf2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1500",
+		"Equation": "(#10010==103)",
+		"GOTO_LABEL": "0x148"
+	},
+	{
+		"LABEL": "0x10a",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "17000300",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x68a"
+	},
+	{
+		"LABEL": "0x126",
+		"Type": "EQU",
+		"SUBCMD": 1,
+		"Args": "18001b27",
+		"String": "#6001"
+	},
+	{
+		"LABEL": "0x134",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1900",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x13e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1a00",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0x148",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "1b00",
+		"Equation": "(#10010==104)",
+		"GOTO_LABEL": "0x190"
+	},
+	{
+		"LABEL": "0x160",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "1d000400",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x115a"
+	},
+	{
+		"LABEL": "0x17c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1e00",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x186",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "1f00",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0x190",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2000",
+		"Equation": "(#10010==20)",
+		"GOTO_LABEL": "0x1d8"
+	},
+	{
+		"LABEL": "0x1a8",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "22000500",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x283a"
+	},
+	{
+		"LABEL": "0x1c4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2300",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x1ce",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2400",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0x1d8",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "2500",
+		"Equation": "(#10010==21)",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0x1f0",
+		"Type": "FARCALL",
+		"SUBCMD": 1,
+		"Args": "27000600",
+		"String": "90_卓球シナリオ",
+		"GOTO_LABEL": "0x2a84"
+	},
+	{
+		"LABEL": "0x20c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2800",
+		"GOTO_LABEL": "0x0"
+	},
+	{
+		"LABEL": "0x216",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "2900",
+		"GOTO_LABEL": "0x220"
+	},
+	{
+		"LABEL": "0x220",
+		"Type": "EQUN",
+		"SUBCMD": 1,
+		"Args": "2c0096650000"
+	},
+	{
+		"LABEL": "0x22a",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "2d00"
+	},
+	{
+		"LABEL": "0x230",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3300",
+		"Equation": "((#6001)==1)",
+		"GOTO_LABEL": "0x262"
+	},
+	{
+		"LABEL": "0x248",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "羽依里",
+		"ENG": "Hairi"
+	},
+	{
+		"LABEL": "0x258",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3400",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x262",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3400",
+		"Equation": "((#6001)==2)",
+		"GOTO_LABEL": "0x294"
+	},
+	{
+		"LABEL": "0x27a",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "しろは",
+		"ENG": "Shiroha"
+	},
+	{
+		"LABEL": "0x28a",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3500",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x294",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3500",
+		"Equation": "((#6001)==3)",
+		"GOTO_LABEL": "0x2c2"
+	},
+	{
+		"LABEL": "0x2ac",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "蒼",
+		"ENG": "Ao"
+	},
+	{
+		"LABEL": "0x2b8",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3600",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x2c2",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3600",
+		"Equation": "((#6001)==4)",
+		"GOTO_LABEL": "0x2f0"
+	},
+	{
+		"LABEL": "0x2da",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "鴎",
+		"ENG": "Kamome"
+	},
+	{
+		"LABEL": "0x2e6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3700",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x2f0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3700",
+		"Equation": "((#6001)==5)",
+		"GOTO_LABEL": "0x31e"
+	},
+	{
+		"LABEL": "0x308",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "紬",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x314",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3800",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x31e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3800",
+		"Equation": "((#6001)==6)",
+		"GOTO_LABEL": "0x34e"
+	},
+	{
+		"LABEL": "0x336",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "うみ",
+		"ENG": "Umi"
+	},
+	{
+		"LABEL": "0x344",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3900",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x34e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3900",
+		"Equation": "((#6001)==7)",
+		"GOTO_LABEL": "0x37e"
+	},
+	{
+		"LABEL": "0x366",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "鏡子",
+		"ENG": "Kyouko"
+	},
+	{
+		"LABEL": "0x374",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3a00",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x37e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3a00",
+		"Equation": "((#6001)==8)",
+		"GOTO_LABEL": "0x3ae"
+	},
+	{
+		"LABEL": "0x396",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "良一",
+		"ENG": "Ryouichi"
+	},
+	{
+		"LABEL": "0x3a4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3b00",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x3ae",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3b00",
+		"Equation": "((#6001)==9)",
+		"GOTO_LABEL": "0x3de"
+	},
+	{
+		"LABEL": "0x3c6",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "天善",
+		"ENG": "Tenzen"
+	},
+	{
+		"LABEL": "0x3d4",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3c00",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x3de",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3c00",
+		"Equation": "((#6001)==10)",
+		"GOTO_LABEL": "0x40e"
+	},
+	{
+		"LABEL": "0x3f6",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "美希",
+		"ENG": "Miki"
+	},
+	{
+		"LABEL": "0x404",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "3d00",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x40e",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3d00",
+		"Equation": "((#6001)==11)",
+		"GOTO_LABEL": "0x520"
+	},
+	{
+		"LABEL": "0x426",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "3e00",
+		"Equation": "(#443==1)",
+		"GOTO_LABEL": "0x458"
+	},
+	{
+		"LABEL": "0x43a",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "400065000100",
+		"JPN": "水織さん",
+		"ENG": "Mizuori-san"
+	},
+	{
+		"LABEL": "0x44e",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4100",
+		"GOTO_LABEL": "0x516"
+	},
+	{
+		"LABEL": "0x458",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4300",
+		"Equation": "(#423==1)",
+		"GOTO_LABEL": "0x486"
+	},
+	{
+		"LABEL": "0x46c",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "450065000100",
+		"JPN": "静久",
+		"ENG": "Shizuku"
+	},
+	{
+		"LABEL": "0x47c",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4600",
+		"GOTO_LABEL": "0x516"
+	},
+	{
+		"LABEL": "0x486",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4800",
+		"Equation": "(#414==1)",
+		"GOTO_LABEL": "0x4f4"
+	},
+	{
+		"LABEL": "0x49a",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "4a00",
+		"Equation": "(#130==1)",
+		"GOTO_LABEL": "0x4c8"
+	},
+	{
+		"LABEL": "0x4ae",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "4c0065000100",
+		"JPN": "静久",
+		"ENG": "Shizuku"
+	},
+	{
+		"LABEL": "0x4be",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "4d00",
+		"GOTO_LABEL": "0x4ea"
+	},
+	{
+		"LABEL": "0x4c8",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "510065000100",
+		"JPN": "満月を喰らいし乳房さん",
+		"ENG": "Abreast of the Moon"
+	},
+	{
+		"LABEL": "0x4ea",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5300",
+		"GOTO_LABEL": "0x516"
+	},
+	{
+		"LABEL": "0x4f4",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "570065000100",
+		"JPN": "満月を喰らいし乳房さん",
+		"ENG": "Abreast of the Moon"
+	},
+	{
+		"LABEL": "0x516",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5900",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x520",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5900",
+		"Equation": "((#6001)==12)",
+		"GOTO_LABEL": "0x582"
+	},
+	{
+		"LABEL": "0x538",
+		"Type": "IFN",
+		"SUBCMD": 0,
+		"Equation": "(#442)",
+		"GOTO_LABEL": "0x562"
+	},
+	{
+		"LABEL": "0x548",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5a0065000100",
+		"JPN": "玄武",
+		"ENG": "Genbu"
+	},
+	{
+		"LABEL": "0x558",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5b00",
+		"GOTO_LABEL": "0x578"
+	},
+	{
+		"LABEL": "0x562",
+		"Type": "VARSTR",
+		"SUBCMD": 1,
+		"Args": "5c0065000100",
+		"JPN": "強面の老人",
+		"ENG": "Scary Old Man"
+	},
+	{
+		"LABEL": "0x578",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "5e00",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x582",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "5e00",
+		"Equation": "((#6001)==13)",
+		"GOTO_LABEL": "0x5b0"
+	},
+	{
+		"LABEL": "0x59a",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "識",
+		"ENG": "Shiki"
+	},
+	{
+		"LABEL": "0x5a6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6000",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x5b0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6000",
+		"Equation": "((#6001)==14)",
+		"GOTO_LABEL": "0x5e0"
+	},
+	{
+		"LABEL": "0x5c8",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "天善",
+		"ENG": "Tenzen"
+	},
+	{
+		"LABEL": "0x5d6",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6100",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x5e0",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6100",
+		"Equation": "((#6001)==15)",
+		"GOTO_LABEL": "0x612"
+	},
+	{
+		"LABEL": "0x5f8",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "イナリ",
+		"ENG": "Inari"
+	},
+	{
+		"LABEL": "0x608",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6200",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x612",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6200",
+		"Equation": "((#6001)==16)",
+		"GOTO_LABEL": "0x640"
+	},
+	{
+		"LABEL": "0x62a",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "藍",
+		"ENG": "Ai"
+	},
+	{
+		"LABEL": "0x636",
+		"Type": "GOTO",
+		"SUBCMD": 1,
+		"Args": "6300",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x640",
+		"Type": "IFN",
+		"SUBCMD": 1,
+		"Args": "6300",
+		"Equation": "((#6001)==17)",
+		"GOTO_LABEL": "0x668"
+	},
+	{
+		"LABEL": "0x658",
+		"Type": "VARSTR",
+		"SUBCMD": 0,
+		"Args": "65000100",
+		"JPN": "ツムギ",
+		"ENG": "Tsumugi"
+	},
+	{
+		"LABEL": "0x668",
+		"Type": "RETURN",
+		"SUBCMD": 1,
+		"Args": "6600"
+	},
+	{
+		"LABEL": "0x66e",
+		"Type": "END",
+		"SUBCMD": 3,
+		"Args": "67000080"
+	}
+]
