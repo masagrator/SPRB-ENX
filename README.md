@@ -8,7 +8,7 @@ https://alkatranslations.com/downloads/
 
 Mod is compatible only with version 1.0.1 of game. It's not known if it works with Summer Pockets + Reflection Blue DLC. If not, I don't plan to port plugin to it which is required for textures and many texts to be translated.
 
-Emulators are not supported by me, but it doesn't mean it won't work on them.
+Emulators are not supported by me, but it doesn't mean mod won't work on them.
 
 1. Download mod from Releases
 2. copy `atmosphere` folder to root of your sdcard
