@@ -1036,7 +1036,7 @@ namespace ENG {
 			{u"試合数:%d",
 				u"Battles:%d"},
 			{u"勝利数:%d",
-				u"Victiories:%d"},
+				u"Victories:%d"},
 			{u"与えたダメージ:%d",
 				u"Damage Dealt:%d"}
 		};
