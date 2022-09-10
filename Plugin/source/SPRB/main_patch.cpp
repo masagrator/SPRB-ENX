@@ -31,7 +31,7 @@ namespace SHIMAMON_DAT {
 	const char16_t* PlayerNameForAttack = nullptr;
 }
 
-uint64_t buffer[3*1024*1024];
+uint64_t* texture_buffer = 0;
 
 uint64_t (*RenderText_original)(void* x0, tmp* RTS, void* x2, sprbText* TextStruct, void* x4, int x5, int x6, int x7, void* x8, void* x9, void* x10);
 uint64_t RenderText_hook(void* x0, tmp* RTS, void* x2, sprbText* TextStruct, void* x4, int x5, int x6, int x7, void* x8, void* x9, void* x10) {
@@ -454,13 +454,13 @@ uint64_t registerTexture_hook(void* x0, int w1, void* x2, void* texture_ptr, int
 			return registerTexture_original(x0, w1, x2, texture_ptr, texture_size, w5, w6);
 
 		nn::fs::GetFileSize(&size, filehandle);
-		nn::fs::ReadFile(&filesize, filehandle, 0, &buffer, size);
+		nn::fs::ReadFile(&filesize, filehandle, 0, texture_buffer, size);
 		nn::fs::CloseFile(filehandle);
 
 		//Bypass is needed to pass CZ0 textures through function that is not dedicated for it.
-		if(!strncmp((const char*)&buffer, "CZ0", 3))
+		if(!strncmp((const char*)texture_buffer, "CZ0", 3))
 			CZ0_bypass = true;
-		uint64_t ptr_ret = registerTexture_original(x0, w1, x2, buffer, filesize, w5, w6);
+		uint64_t ptr_ret = registerTexture_original(x0, w1, x2, texture_buffer, filesize, w5, w6);
 		CZ0_bypass = false;
 
 		return ptr_ret;
@@ -672,6 +672,7 @@ uint64_t initOST_hook() {
 		const char** string = (const char**)(TextRegionOffset + MUSIC::titleOffsets[i]);
 		*string = MUSIC::Titles[i];
 	}
+	texture_buffer = new uint64_t[3*1024*1024];
 	return ret;
 }
 
